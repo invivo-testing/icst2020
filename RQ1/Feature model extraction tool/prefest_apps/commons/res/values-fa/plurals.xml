@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d پرونده در حال بارگذاری</item>
+        <item quantity="one">%1$d پرونده در حال بارگذاری</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d بارگذاری</item>
+        <item quantity="one">%1$d بارگذاری</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">شروع بارگذاری %1$d پرونده</item>
+        <item quantity="one">شروع %1$d بارگذاری پرونده</item>
+    </plurals>
+</resources>

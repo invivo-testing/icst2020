@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="23.0dip" android:paddingTop="16.0dip" android:paddingRight="23.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup" />
+    <TableLayout android:layout_gravity="center_horizontal" android:id="@id/number_table" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <TableRow android:gravity="center_horizontal" android:focusable="false" android:clickable="false">
+            <TextView android:id="@id/code_first" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BackupPassphrase" />
+            <TextView android:id="@id/code_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/BackupPassphrase" />
+            <TextView android:id="@id/code_third" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/BackupPassphrase" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView android:id="@id/code_fourth" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BackupPassphrase" />
+            <TextView android:id="@id/code_fifth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/BackupPassphrase" />
+            <TextView android:id="@id/code_sixth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/BackupPassphrase" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <CheckBox android:id="@id/confirmation_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" />
+        <TextView android:textSize="12.0sp" android:id="@id/confirmation_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backup_enable_dialog__i_have_written_down_this_passphrase" />
+    </LinearLayout>
+</LinearLayout>

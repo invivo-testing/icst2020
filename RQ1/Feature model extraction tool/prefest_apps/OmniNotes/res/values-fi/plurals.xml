@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">%d tapahtuman ajan</item>
+        <item quantity="one">%d tapahtuman ajan</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">%d päivän välein</item>
+        <item quantity="one">%d päivän välein</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">%d kuukauden välein</item>
+        <item quantity="one">%d kuukauden välein</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">%d viikon välein</item>
+        <item quantity="one">%d viikon välein</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">%d vuoden välein</item>
+        <item quantity="one">%d vuoden välein</item>
+    </plurals>
+</resources>

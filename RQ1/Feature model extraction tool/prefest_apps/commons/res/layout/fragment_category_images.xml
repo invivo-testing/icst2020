@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="?mainBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/statusMessage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/waiting_first_sync" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <ProgressBar android:id="@id/loadingImagesProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <GridView android:id="@id/categoryImagesList" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:stretchMode="columnWidth" android:columnWidth="240.0dip" android:numColumns="auto_fit" android:fastScrollEnabled="true" />
+</RelativeLayout>

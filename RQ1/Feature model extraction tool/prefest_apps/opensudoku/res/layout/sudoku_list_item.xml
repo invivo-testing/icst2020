@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <org.moire.opensudoku.gui.SudokuBoardView n1:id="@id/sudoku_board" n1:layout_width="100.0sp" n1:layout_height="100.0sp" n1:layout_marginRight="6.0dip" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/state" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="State" n1:layout_toRightOf="@id/sudoku_board" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="right" n1:id="@id/time" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0sp" n1:text="00:00" n1:layout_toRightOf="@id/state" />
+    <TextView n1:id="@id/last_played" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0sp" n1:text="last_played" n1:layout_toRightOf="@id/sudoku_board" n1:layout_below="@id/state" />
+    <TextView n1:id="@id/created" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0sp" n1:text="created" n1:layout_toRightOf="@id/sudoku_board" n1:layout_below="@id/last_played" />
+    <TextView n1:id="@id/note" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0sp" n1:text="note" n1:layout_toRightOf="@id/sudoku_board" n1:layout_below="@id/created" />
+</RelativeLayout>

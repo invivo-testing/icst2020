@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">nahrávajú sa %1$d súbory</item>
+        <item quantity="one">nahráva sa %1$d súbor</item>
+    </plurals>
+</resources>

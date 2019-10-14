@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end" android:layout_width="288.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/page_toc_in_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/toc_shadow" android:layout_width="@dimen/shadow_thickness" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_gravity="center_vertical" android:background="?paper_color" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ListView android:id="@id/page_toc_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:choiceMode="singleChoice" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

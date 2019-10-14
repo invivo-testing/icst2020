@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <FrameLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <LinearLayout n1:id="@id/moonphases_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dip" n1:layout_marginBottom="2.0dip" n1:baselineAligned="false" n1:weightSum="4.0">
+            <include n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dip" n1:layout_marginRight="4.0dip" n1:minWidth="60.0dip" n1:layout_weight="1.0" layout="@layout/info_time_moonphase_new" />
+            <include n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dip" n1:layout_marginRight="4.0dip" n1:minWidth="60.0dip" n1:layout_weight="1.0" layout="@layout/info_time_moonphase_first" />
+            <include n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dip" n1:layout_marginRight="4.0dip" n1:minWidth="60.0dip" n1:layout_weight="1.0" layout="@layout/info_time_moonphase_full" />
+            <include n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dip" n1:layout_marginRight="4.0dip" n1:minWidth="60.0dip" n1:layout_weight="1.0" layout="@layout/info_time_moonphase_third" />
+        </LinearLayout>
+        <TextView n1:textSize="12.0sp" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/txt_empty" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="16.0dip" n1:text="@string/configLabel_ui_showmoon_notImplemented" />
+    </FrameLayout>
+</merge>

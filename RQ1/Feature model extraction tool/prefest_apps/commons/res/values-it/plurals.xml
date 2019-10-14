@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d file in caricamento</item>
+        <item quantity="one">%1$d file in caricamento</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d caricamenti</item>
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">%1$d caricamento</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d caricamenti</item>
+        <item quantity="one">%1$d caricamento</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Iniziati %1$d caricamenti</item>
+        <item quantity="one">Iniziato %1$d caricamento</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d файл жүктөлүүдө</item>
+        <item quantity="one">1 файл жүктөлүүдө</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d жүктөө</item>
+        <item quantity="zero">Азырынча жүктөөлөр жок</item>
+        <item quantity="one">1 жүктөө</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d жүктөө</item>
+        <item quantity="one">1 жүктөө</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">%1$d жүктөө башталды</item>
+        <item quantity="one">1 жүктөө башталды</item>
+    </plurals>
+</resources>

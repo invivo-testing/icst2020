@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">За %d събития</item>
+        <item quantity="one">За %d събитие</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">На %d дни</item>
+        <item quantity="one">На %d ден</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">На %d месеца</item>
+        <item quantity="one">На %d месец</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">На %d седмици</item>
+        <item quantity="one">На %d седмица</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">На %d години</item>
+        <item quantity="one">На %d година</item>
+    </plurals>
+</resources>

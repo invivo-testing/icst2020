@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/typing_dot1" android:background="@drawable/circle_white" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_margin="2.0dip" android:alpha="0.5" android:scaleX="0.5" android:scaleY="0.5" />
+    <View android:id="@id/typing_dot2" android:background="@drawable/circle_white" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_margin="2.0dip" android:alpha="0.5" android:scaleX="0.5" android:scaleY="0.5" />
+    <View android:id="@id/typing_dot3" android:background="@drawable/circle_white" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_margin="2.0dip" android:alpha="0.5" android:scaleX="0.5" android:scaleY="0.5" />
+</merge>

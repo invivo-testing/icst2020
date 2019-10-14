@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">Vir %d geleenthede</item>
+        <item quantity="one">Vir %d geleentheid</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Elke %d dae</item>
+        <item quantity="one">Elke %d dag</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Elke %d maande</item>
+        <item quantity="one">Elke %d maand</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Elke %d weke</item>
+        <item quantity="one">Elke %d week</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Elke %d jaar</item>
+        <item quantity="one">Elke %d jaar</item>
+    </plurals>
+</resources>

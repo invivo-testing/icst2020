@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">%d دقیقه</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d پیام در هر گفتگو</item>
+        <item quantity="one">%d پیام در هر گفتگو</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">این گزینه ، بلافاصله تمامی مکالمات شما را به %d پیام آخر ، کاهش خواهد داد.</item>
+        <item quantity="one">این گزینه ، بلافاصله تمامی مکالمات شما را به %d پیام آخر ، کاهش خواهد داد.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d پیام ناخوانده</item>
+        <item quantity="one">%d پیام ناخوانده</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">پیام های انتخاب شده حدف شوند؟</item>
+        <item quantity="one">پیام های انتخاب شده حدف شوند؟</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">خطا در هنگام ذخیره سازی فایل ضمیمه</item>
+        <item quantity="one">خطا در هنگام ذخیره سازی فایل ضمیمه</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">در حال ذخیره‌ی %1$d پیوست</item>
+        <item quantity="one">در حال ذخیره‌ی %1$d پیوست</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">در حال ذخیره‌ی %1$d پیوست در حافظه...</item>
+        <item quantity="one">در حال ذخیره‌ی %1$d پیوست در حافظه...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"ذخیره همه %1$d مدیا به حافظه دستگاه ، باعث خواهد شد که همه برنامه های دیگر نصب شده در دستگاه شما ، به این اطلاعات دسترسی پیدا کنند. 
+
+ آیا مایل به ادامه هستید ؟"</item>
+        <item quantity="one">"ذخیره همه %1$d مدیا به حافظه دستگاه ، باعث خواهد شد که همه برنامه های دیگر نصب شده در دستگاه شما ، به این اطلاعات دسترسی پیدا کنند. 
+
+ آیا مایل به ادامه هستید ؟"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">این به صورت دائم %1$d پیامهای انتخاب شده را حذف میکند.</item>
+        <item quantity="one">این به صورت دائم %1$d پیامهای انتخاب شده را حذف میکند.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d گفت‌و‌گو آرشیو شدند</item>
+        <item quantity="one">%d گفت‌و‌گو آرشیو شدند</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">مکالمات انتخاب شده حذف شوند؟</item>
+        <item quantity="one">مکالمات انتخاب شده حذف شوند؟</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">انتقال %d گفت‌و‌گو به اینباکس</item>
+        <item quantity="one">انتقال %d گفت‌و‌گو به اینباکس</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">این %1$d پیامهای انتخاب شده را به تور دائم حذف میکند.</item>
+        <item quantity="one">این %1$d پیامهای انتخاب شده را به تور دائم حذف میکند.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s به گروه افزوده شد.</item>
+        <item quantity="one">%1$s به گروه افزوده شد.</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="one">%d ساعت</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d دیگران</item>
+        <item quantity="one">%d دیگران</item>
+    </plurals>
+</resources>

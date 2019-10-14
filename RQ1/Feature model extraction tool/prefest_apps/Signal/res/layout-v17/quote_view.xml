@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/quote_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/quote_main" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/quote_bar" android:layout_width="@dimen/quote_corner_radius_bottom" android:layout_height="fill_parent" android:src="@color/white" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+                <org.thoughtcrime.securesms.components.emoji.EmojiTextView android:textStyle="bold" android:textColor="@color/core_black" android:ellipsize="end" android:id="@id/quote_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Signal.Text.Caption" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/quote_attachment_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+                    <ImageView android:paddingLeft="-4.0dip" android:layout_width="27.0dip" android:layout_height="35.0dip" android:layout_marginRight="4.0dip" android:src="?attachment_document_icon_small" android:paddingStart="-4.0dip" android:layout_marginEnd="4.0dip" />
+                    <TextView android:textColor="@color/core_grey_90" android:ellipsize="end" android:id="@id/quote_attachment_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/Signal.Text.Body" />
+                </LinearLayout>
+                <TextView android:textStyle="italic" android:textColor="@color/core_grey_90" android:id="@id/media_type" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" style="@style/Signal.Text.Caption" />
+                <org.thoughtcrime.securesms.components.emoji.EmojiTextView android:ellipsize="end" android:id="@id/quote_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/Signal.Text.Body" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/quote_thumbnail" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <FrameLayout android:layout_gravity="center" android:id="@id/quote_video_overlay" android:background="@drawable/circle_white" android:visibility="gone" android:longClickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip">
+                    <ImageView android:layout_width="13.0dip" android:layout_height="16.0dip" android:layout_marginLeft="11.0dip" android:layout_marginTop="8.0dip" android:scaleType="fitXY" android:tint="@color/core_blue" android:layout_marginStart="11.0dip" app:srcCompat="@drawable/triangle_right" />
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/quote_missing_footer" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_broken_link" android:tint="?quote_missing_icon_color" android:layout_marginEnd="8.0dip" />
+            <TextView android:textColor="@color/core_grey_90" android:id="@id/quote_missing_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/QuoteView_original_missing" style="@style/Signal.Text.Caption" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/quote_dismiss" android:background="@drawable/dismiss_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_close_white_18dp" android:tint="@color/gray70" android:layout_marginEnd="4.0dip" />
+</merge>

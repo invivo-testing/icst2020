@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:paddingBottom="0.0dip" n1:clipToPadding="false"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:id="@id/title" n1:text="@string/calendar" style="@style/CardHeader" />
+    <org.isoron.uhabits.activities.common.views.HistoryChart n1:id="@id/historyChart" n1:layout_width="fill_parent" n1:layout_height="160.0dip" />
+    <Button n1:textSize="@dimen/smallTextSize" n1:textColor="@color/grey_400" n1:layout_gravity="center" n1:id="@id/edit" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ic_action_edit_light" n1:text="@string/edit" style="?android:borderlessButtonStyle" />
+</merge>

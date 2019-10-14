@@ -1,0 +1,27 @@
+FM (C  :  DeviceConfig AppSettings;
+AppSettings :  'pref_general'  'pref_widget' ;
+'display_category_pref_key_category3' :  'language_pref_key' 'theme_pref_key' ;
+'pref_general' :  '_category1' ;
+'pref_widget' :  '_category4' ;
+'_category1' :  'hide_desc_pref_key' 'notification_category_pref_key_category2' 'display_category_pref_key_category3' 'temperature_pref_key' ;
+'notification_category_pref_key_category2' :  'notification_vibrate_pref_key' 'notification_interval_pref_key' 'notification_pref_key' ;
+'_category4' :  'widget_update_location_pref_key' 'widget_theme_pref_key' 'widget_update_period_pref_key' 'widget_use_geocoder_pref_key' ;
+'notification_pref_key' : ('notification_pref_key_true' | 'notification_pref_key_false');
+'theme_pref_key' : ('theme_pref_key_light'|'theme_pref_key_dark');
+'temperature_pref_key' : ('temperature_pref_key_metric'|'temperature_pref_key_imperial');
+'notification_interval_pref_key' : ('notification_interval_pref_key_15'|'notification_interval_pref_key_30'|'notification_interval_pref_key_60'|'notification_interval_pref_key_180'|'notification_interval_pref_key_360'|'notification_interval_pref_key_720'|'notification_interval_pref_key_1440');
+'widget_update_period_pref_key' : ('widget_update_period_pref_key_15'|'widget_update_period_pref_key_30'|'widget_update_period_pref_key_60'|'widget_update_period_pref_key_180'|'widget_update_period_pref_key_360'|'widget_update_period_pref_key_720'|'widget_update_period_pref_key_1440');
+'notification_vibrate_pref_key' : ('notification_vibrate_pref_key_true' | 'notification_vibrate_pref_key_false');
+'language_pref_key' : ('language_pref_key_en_GB'|'language_pref_key_eu_ES'|'language_pref_key_be_BY'|'language_pref_key_fr'|'language_pref_key_de_DE'|'language_pref_key_es_ES'|'language_pref_key_ja_JP'|'language_pref_key_pl_PL'|'language_pref_key_ru_RU'|'language_pref_key_cs');
+'widget_theme_pref_key' : ('widget_theme_pref_key_dark'|'widget_theme_pref_key_light'|'widget_theme_pref_key_transparent');
+'widget_update_location_pref_key' : ('widget_update_location_pref_key_true' | 'widget_update_location_pref_key_false');
+'hide_desc_pref_key' : ('hide_desc_pref_key_true' | 'hide_desc_pref_key_false');
+'widget_use_geocoder_pref_key' : ('widget_use_geocoder_pref_key_true' | 'widget_use_geocoder_pref_key_false');
+DeviceConfig : DeviceModel OperatingSystem;
+ DeviceModel  : ('Xiaomi Redmi Note 3 Pro' |'Aquaris M5' |'moto e5 play' |'LGE Nexus 5' |'Samsung Galaxy Grand Prime' |'Google nexus 5x' |'Samsung Galaxy S5 Neo' |'amsung GT-I9506' |'Xperia Z1 Compact' |'Samsung Note 4 SM-N910F' |'LG Nexus 5' |'motorola Moto E (cm_condor)' |'SM-G960F' |'Moto G4 Play' |'Sony Xperia L' |'Nexus 6P' |'Fairphone 2 (2GB RAM)' |'Samsung Note4' |'LG V30 H932' |'Nexus 5' |'Motorola Moto G 3rd Gen' |'Acer Z205' |'Moto G (falcon)' |'Moto G2' |'Acer V360' |'Asus Zenfone 2 ZE551ML' |'Vodafone 890N' |'Nvidia K1' |'Motorola Nexus 6' |'Samsung Galaxy S3 GT-I9300' |'Fairphone 1U' |'LGE Nexus 5X' |'Pixel 2' |'HTC Sensation XE' |'Motorola Z Play' |'LG Nexus 4' |'Nexus 4' |'Samsung SM-G900F (kltexx)' |'LG Nexus 5X' |'Meizu MX4' |'Android SDK built for x86' |'HTC One M7' |'Moto G4 Plus' |'Samsung Galaxy S5 neo' |'Samsung Galaxy S3 (US AT&T)' |'Aquaris A4.5' |'ONEPLUS A6013' ); 
+OperatingSystem : (CyanogenMod |Android ); 
+CyanogenMod : ('12.1' |'13' ); 
+Android : ('4.4.4' |'6.0.1' |'4.3' |'7.1' |'6.0.1 ' |'6.0.1 (CM 13.0)' |'8.1.0' |'5.1.1' |'5.0.2' |'5.1.1 CM' |'8.0.0' |'9' |'5.0.1' |'7' |'6' |'4.1.1' |'7.1.2' |'4.2.2' |'7.1.1' |'4.4.2' ); 
+'notification_interval_pref_key' implies 'notification_pref_key';
+'notification_vibrate_pref_key' implies 'notification_pref_key';
+)

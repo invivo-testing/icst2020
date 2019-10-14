@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d deqe</item>
+        <item quantity="one">%d deqe</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">Hevpeyvînek %d peyam hene</item>
+        <item quantity="one">Hevpeyvînek%d peyam heye</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Ev ê niha hemû hevpeyvîn hurbike û tenê %d peyamên herî nû bimînin.</item>
+        <item quantity="one">Ev ê niha hemû hevpeyvîn xurbike û tenê peyama herî nû bimîne.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d peyam nahatin xwendin</item>
+        <item quantity="one">%d peyam nahat xwendin</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Peyamên bijartî rakirin?</item>
+        <item quantity="one">Peyama bijartî rakirin?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Servehî nahatin tomarkirin embarê!</item>
+        <item quantity="one">Servehî nahat tomarkirin embarê!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">%1$d servehî tên tomarkirin</item>
+        <item quantity="one">Servehî tê tomarkirin</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">%1$d servehî tên tomarkirin embarê...</item>
+        <item quantity="one">Servehî tê tomarkirin embarê...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Heger tu hemû %1$d medya tomarbikî embarê, bernameyên din di cîhazê te bikarin wan vekin.
+
+Bidomînin?"</item>
+        <item quantity="one">"Heger tu vê medya tomarbikî embarê, bernameyên din di amûra te bikarin wê vekin.
+
+Bidomînin?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Ev ê hemû %1$d peyamên bijartî rake.</item>
+        <item quantity="one">Ev ê peyama bijartî rake.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d axaftin hatin arşîvkirin</item>
+        <item quantity="one">Axaftin hat arşîvkirin</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Axaftinên bijartî rakin?</item>
+        <item quantity="one">Axaftina bijartî rakin?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">"%d axaftin çûn 'inbox'"</item>
+        <item quantity="one">"Axaftin çû 'inbox'"</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Ev ê %1$d axaftinên bijartî rake.</item>
+        <item quantity="one">Ev ê axaftina bijartî rake.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s tevlî bûn komê.</item>
+        <item quantity="one">%1$s tevlî bû komê.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">%d vexwandinên SMS bişînin?</item>
+        <item quantity="one">Ji %d vexwandina SMS bişînin?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">JI %d HEVAL RE SMS BIŞÎNIN</item>
+        <item quantity="one">JI %d HEVAL RE SMS BIŞÎNIN</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Ev ê hemû %1$d peyamên bijartî rake.</item>
+        <item quantity="one">Ev ê peyama bijartî rake.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Peyamên bijartî rakin?</item>
+        <item quantity="one">Peyama bijartî rakin?</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d roj</item>
+        <item quantity="one">%d roj</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d seet</item>
+        <item quantity="one">%d seet</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d xulek</item>
+        <item quantity="one">%d xulek</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d saniye</item>
+        <item quantity="one">%d saniye</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d hefte</item>
+        <item quantity="one">%d hefte</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d seet</item>
+        <item quantity="one">%d seet</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%dên din</item>
+        <item quantity="one">%da din</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Versiyona Signala te yê piştî %d roj kevin bibe. Ji bo rojanekirin versiyon herî nû lêxe.</item>
+        <item quantity="one">Versiyona Signala te yê piştî %d roj kevin bibe. Ji bo rojanekirin versiyon herî nû lêxe.</item>
+    </plurals>
+</resources>

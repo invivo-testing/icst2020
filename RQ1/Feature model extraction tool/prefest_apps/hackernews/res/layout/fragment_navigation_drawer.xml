@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:id="@id/navigation_list" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/orange_card_selector" android:drawSelectorOnTop="true" android:groupIndicator="@null" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

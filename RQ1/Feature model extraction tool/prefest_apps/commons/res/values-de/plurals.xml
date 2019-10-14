@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d Dateien werden hochgeladen</item>
+        <item quantity="one">Eine Datei wird hochgeladen</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d hochgeladene Dateien</item>
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">Eine hochgeladene Datei</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d hochgeladene Dateien</item>
+        <item quantity="one">Eine hochgeladene Datei</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Starte %1$d Uploads</item>
+        <item quantity="one">Starte einen Upload</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d个文件上传中</item>
+        <item quantity="one">%1$d个文件上传中</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d次上传</item>
+        <item quantity="zero">没有上传</item>
+        <item quantity="one">%1$d次上传</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d次上传</item>
+        <item quantity="one">%1$d次上传</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">开始%1$d次上传</item>
+        <item quantity="one">开始%1$d次上传</item>
+    </plurals>
+</resources>

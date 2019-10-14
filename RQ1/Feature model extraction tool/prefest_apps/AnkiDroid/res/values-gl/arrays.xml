@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Cartóns Android&lt;/h2>AnkiDroid é unha aplicación de cartóns compatible co software de escritorio &lt;a href=\"%2$s\">Anki&lt;/a>. Podes crear, descargar e aprender materias en ámbolos dous programas, e sincronizalos dun xeito doado co AnkiWeb.</item>
+        <item>Para axudarnos a facer o AnkiDroid mellor, por favor informa dos erros no &lt;a href=\"%1$s\">seguimento de problemas&lt;/a>; ideas sobre novas características son benvidas. Atopa respostas na &lt;a href=\"%2$s\">wiki&lt;/a> ou comeza unha conversa no &lt;a href=\"%3$s\">foro&lt;/a>.</item>
+        <item>AnkiDroid é &lt;a href=\"%1$s\">software de código aberto&lt;a/>, polo que é animado a &lt;a href=\"%2$s\">colaborar&lt;/a> :-)</item>
+        <item>Non-developers can also help. For instance, you can &lt;a href=\"%1$s\">help translate&lt;/a> AnkiDroid, update the wiki, provide screenshots, or blog about AnkiDroid.</item>
+        <item>Ankidroid distribúese baixo &lt;a href=\"%1$s\">licenza GNU-GPL v3&lt;/a> e o código fonte está dispoñible &lt;a href=\"%2$s\">no GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Empregar baralla actual</item>
+        <item>Decidir polo tipo de nota</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Top</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Pregunta</item>
+        <item>Campo de ordenación</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Resposta</item>
+        <item>Cartón</item>
+        <item>Baralla</item>
+        <item>Nota</item>
+        <item>Pregunta</item>
+        <item>Etiquetas</item>
+        <item>Erros</item>
+        <item>Revisións</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Sen ordenar (rápido)</item>
+        <item>Por campo de ordenación</item>
+        <item>Por data de creación</item>
+        <item>Por data de edición</item>
+        <item>Por data de modificación</item>
+        <item>Por data programada</item>
+        <item>Por intervalo</item>
+        <item>Por facilidade</item>
+        <item>Por revisións</item>
+        <item>Por fallos</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Máis antigos primeiro</item>
+        <item>Ao chou</item>
+        <item>Intervalos crecentes</item>
+        <item>Intervalos decrecentes</item>
+        <item>Most lapsed</item>
+        <item>Orde de adición</item>
+        <item>Order due</item>
+        <item>Última engadida primeiro</item>
+        <item>Relative overdueness</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Light</item>
+        <item>Simple</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Días</item>
+        <item>Semanas</item>
+        <item>Meses</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Informar sempre</item>
+        <item>Non informar nunca</item>
+        <item>Preguntarme</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Sen acción</item>
+        <item>Amosar resposta</item>
+        <item>Botón de resposta 1</item>
+        <item>Botón de resposta 2</item>
+        <item>Botón de resposta 3</item>
+        <item>Botón de resposta 4</item>
+        <item>Resposta recomendada (verde)</item>
+        <item>Resposta mellor ca recomendada</item>
+        <item>Desfacer</item>
+        <item>Editar nota</item>
+        <item>Marcar a nota</item>
+        <item>Buscar expresión</item>
+        <item>Agochar cartón</item>
+        <item>Suspender cartón</item>
+        <item>Eliminar nota</item>
+        <item>Reproducir medio</item>
+        <item>Abortar aprendizaxe</item>
+        <item>Agochar nota</item>
+        <item>Suspender nota</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Suspender cartón</item>
+        <item>Só etiquetar</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Novos cartóns ordenados ao chou</item>
+        <item>Cartóns novos na orde de adición</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Mesturar cartóns novos e revisións</item>
+        <item>Cartóns novos despois das revisións</item>
+        <item>Cartóns novos antes das revisóns</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Black</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Cando non se especificou unha fonte nos cartóns</item>
+        <item>Sempre</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4AM</item>
+        <item>10AM</item>
+        <item>4PM</item>
+        <item>10PM</item>
+        <item>3AM</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Dom</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mér</item>
+        <item>Xov</item>
+        <item>Ven</item>
+        <item>Sáb</item>
+    </string-array>
+</resources>

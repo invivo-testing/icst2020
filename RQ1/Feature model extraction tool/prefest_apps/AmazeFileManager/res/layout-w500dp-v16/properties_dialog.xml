@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="100.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/properties_dialog_name" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacebetweenitems_properties_dialog">
+            <TextView android:textSize="@dimen/material_generic_title" android:id="@id/title_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="@dimen/material_generic_title_summary" android:id="@id/t5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calculating" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/properties_dialog_location" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacebetweenitems_properties_dialog">
+            <TextView android:textSize="@dimen/material_generic_title" android:id="@id/title_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="@dimen/material_generic_title_summary" android:id="@id/t6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calculating" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/properties_dialog_size" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacebetweenitems_properties_dialog">
+            <TextView android:textSize="@dimen/material_generic_title" android:id="@id/title_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/size_capitalized" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="@dimen/material_generic_title_summary" android:id="@id/t7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calculating" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/properties_dialog_date" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacebetweenitems_properties_dialog">
+            <TextView android:textSize="@dimen/material_generic_title" android:id="@id/title_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/date" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="@dimen/material_generic_title_summary" android:id="@id/t8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calculating" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/properties_dialog_md5" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacebetweenitems_properties_dialog">
+            <TextView android:textSize="@dimen/material_generic_title" android:id="@id/title_md5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/md5" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="@dimen/material_generic_title_summary" android:id="@id/t9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calculating" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/properties_dialog_sha256" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacebetweenitems_properties_dialog">
+            <TextView android:textSize="@dimen/material_generic_title" android:id="@id/title_sha256" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hash_sha256" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="@dimen/material_generic_title_summary" android:id="@id/t10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calculating" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.github.mikephil.charting.charts.PieChart android:id="@id/chart" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+    <android.support.v7.widget.AppCompatButton android:id="@id/permissionsButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission" />
+    <include android:id="@id/permtable" android:visibility="gone" layout="@layout/permissiontable" />
+    <android.support.v7.widget.AppCompatButton android:id="@id/set" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set" />
+</LinearLayout>

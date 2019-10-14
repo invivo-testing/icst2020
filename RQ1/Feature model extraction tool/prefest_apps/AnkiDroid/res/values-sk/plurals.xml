@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">%d zobrazených kartičiek</item>
+        <item quantity="one">%d zobrazená kartička</item>
+        <item quantity="few">%d zobrazené kartičky</item>
+        <item quantity="many">%d cards shown</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">Vymazať “%2$s” typov kartičiek a ich %1$d kartičiek?</item>
+        <item quantity="one">Vymazať “%2$s” typ kartičky a jeho %1$d kartičku?</item>
+        <item quantity="few">Vymazať “%2$s” typy kartičiek a ich %1$d kartičky?</item>
+        <item quantity="many">Delete the “%2$s” card type, and its %1$d cards?</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"%1$s
+%2$d balíčkov používa túto skupinu"</item>
+        <item quantity="one">"%1$s
+%2$d balíček používa túto skupinu"</item>
+        <item quantity="few">"%1$s
+%2$d balíčky používajú túto skupinu"</item>
+        <item quantity="many">"%1$s
+%2$d decks use this group"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">%s podbalíčkov použije túto skupinu</item>
+        <item quantity="one">%s podbalíček použije túto skupinu</item>
+        <item quantity="few">%s podbalíčky použijú túto skupinu</item>
+        <item quantity="many">%s subdecks will use this group</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">%1$d kartičiek na preskúšanie (%2$s)</item>
+        <item quantity="one">%1$d kartička na preskúšanie (%2$s)</item>
+        <item quantity="few">%1$d kartičky na preskúšanie (%2$s)</item>
+        <item quantity="many">%1$d cards due (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">Vymazať všetky kartičky v balíčku %1$s? Obsahuje %2$d kartičiek.</item>
+        <item quantity="one">Vymazať všetky kartičky v balíčku %1$s? Obsahuje %2$d kartičku.</item>
+        <item quantity="few">Vymazať všetky kartičky v balíčku %1$s? Obsahuje %2$d kartičky.</item>
+        <item quantity="many">Delete all cards in %1$s? It contains %2$d cards.</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">%d pridaných kartičiek</item>
+        <item quantity="one">%d pridaná kartička</item>
+        <item quantity="few">%d pridané kartičky</item>
+        <item quantity="many">%d cards added</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d poznámok</item>
+        <item quantity="one">%d poznámka</item>
+        <item quantity="few">%d poznámky</item>
+        <item quantity="many">%d notes</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">%d typov poznámok k dispozícii</item>
+        <item quantity="one">%d typ poznámok k dispozícii</item>
+        <item quantity="few">%d typy poznámok k dispozícii</item>
+        <item quantity="many">%d note types available</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d nových kartičiek na zopakovanie v %1$s</item>
+        <item quantity="one">%2$d nová kartička na zopakovanie v %1$s</item>
+        <item quantity="few">%2$d nové kartičky na zopakovanie v %1$s</item>
+        <item quantity="many">%2$d new cards to review in %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">zostáva %d minút</item>
+        <item quantity="one">zostáva %d minúta</item>
+        <item quantity="few">zostávajú %d minúty</item>
+        <item quantity="many">%d minutes left</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">Dnes preštudovaných: &lt;b>%1$d kartičiek&lt;/b> za &lt;b>%2$s&lt;/b></item>
+        <item quantity="one">Dnes preštudovaná: &lt;b>%1$d kartička&lt;/b> za &lt;b>%2$s&lt;/b></item>
+        <item quantity="few">Dnes preštudované: &lt;b>%1$d kartičky&lt;/b> za &lt;b>%2$s&lt;/b></item>
+        <item quantity="many">Studied &lt;b>%1$d cards&lt;/b> in &lt;b>%2$s&lt;/b> today</item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">Dnes naučených %1$d kartičiek počas %2$s</item>
+        <item quantity="one">Dnes naučená %1$d kartička počas %2$s</item>
+        <item quantity="few">Dnes naučené %1$d kartičky počas %2$s</item>
+        <item quantity="many">Studied %1$d cards in %2$s today</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s dní</item>
+        <item quantity="one">%s deň</item>
+        <item quantity="few">%s dni</item>
+        <item quantity="many">%s days</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s hodín</item>
+        <item quantity="one">%s hodina</item>
+        <item quantity="few">%s hodiny</item>
+        <item quantity="many">%s hours</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s minút</item>
+        <item quantity="one">%s minúty</item>
+        <item quantity="few">%s minút</item>
+        <item quantity="many">%s minutes</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s mesiacov</item>
+        <item quantity="one">%s mesiac</item>
+        <item quantity="few">%s mesiace</item>
+        <item quantity="many">%s months</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s sekúnd</item>
+        <item quantity="one">%s sekunda</item>
+        <item quantity="few">%s sekundy</item>
+        <item quantity="many">%s seconds</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s rokov</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s roky</item>
+        <item quantity="many">%s years</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d preštudovaných kartičiek za %2$s</item>
+        <item quantity="one">%1$d preštudovaná kartička za %2$s</item>
+        <item quantity="few">%1$d preštudované kartičky za %2$s</item>
+        <item quantity="many">%1$d cards studied in %2$s</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d minút</item>
+        <item quantity="one">%1$d minútu</item>
+        <item quantity="few">%1$d minúty</item>
+        <item quantity="many">%1$d minutes</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">%d kartičiek na preskúšanie</item>
+        <item quantity="one">%d kartička na preskúšanie</item>
+        <item quantity="few">%d kartičky na preskúšanie</item>
+        <item quantity="many">%d cards due</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">%1$d kartičiek na preskúšanie v %2$s</item>
+        <item quantity="one">%1$d kartička na preskúšanie v %2$s</item>
+        <item quantity="few">%1$d kartičky na preskúšanie v %2$s</item>
+        <item quantity="many">%1$d cards due in %2$s</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d balíčkov</item>
+        <item quantity="one">%1$d balíček</item>
+        <item quantity="few">%1$d balíčky</item>
+        <item quantity="many">%1$d decks</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">zostáva %d minút</item>
+        <item quantity="one">zostáva %d minúta</item>
+        <item quantity="few">zostávajú %d minúty</item>
+        <item quantity="many">%d minutes remaining</item>
+    </plurals>
+</resources>

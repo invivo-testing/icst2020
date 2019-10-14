@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:paddingLeft="10.0dip" n1:paddingTop="10.0dip" n1:paddingRight="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/DummyLayoutToSteelFuckingFocusOnUrlEditText" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="0.0dip" n1:layout_height="0.0dip" />
+    <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/SearchUrlText1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/SearchUrlDialogText1" n1:layout_alignParentTop="true" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:ellipsize="end" n1:gravity="center" n1:id="@id/CurrentSearchEngine" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dip" n1:layout_marginBottom="5.0dip" n1:text="" n1:singleLine="true" n1:layout_below="@id/SearchUrlText1" />
+    <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/SearchUrlText2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/SearchUrlDialogText2" n1:layout_below="@id/CurrentSearchEngine" />
+    <EditText n1:id="@id/SearchUrlEditText" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dip" n1:layout_marginBottom="5.0dip" n1:selectAllOnFocus="true" n1:layout_below="@id/SearchUrlText2" n1:inputType="textUri" />
+    <ImageView n1:id="@id/divider1" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dip" n1:src="?android:dividerHorizontal" n1:scaleType="fitXY" n1:layout_below="@id/SearchUrlEditText" n1:contentDescription="@string/ContentDescriptionDivider" />
+    <ExpandableListView n1:id="@id/SearchUrlList" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_above="@id/divider2" n1:layout_below="@id/divider1" />
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_below="@id/divider1" n1:layout_alignBottom="@id/SearchUrlList" n1:layout_centerHorizontal="true">
+        <ProgressBar n1:id="@id/SearchUrlProgressBar" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        <TextView n1:textAppearance="?android:textAppearanceSmall" n1:gravity="center" n1:id="@id/SearchUrlProgressText" n1:paddingLeft="10.0dip" n1:paddingRight="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/SearchUrlConnecting" />
+    </LinearLayout>
+    <ImageView n1:id="@id/divider2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:src="?android:dividerHorizontal" n1:scaleType="fitXY" n1:layout_above="@id/SearchUrlManualEdit" n1:contentDescription="@string/ContentDescriptionDivider" />
+    <TextView n1:textAppearance="?android:textAppearanceSmall" n1:gravity="center" n1:id="@id/SearchUrlManualEdit" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dip" n1:layout_marginBottom="15.0dip" n1:text="@string/SearchUrlGetOnline" n1:layout_alignParentBottom="true" />
+</RelativeLayout>

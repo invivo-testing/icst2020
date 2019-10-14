@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:background="@drawable/ab_solid_dark_holo" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/DummyLayoutToSteelFuckingFocusOnUrlEditText" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="0.0dip" n1:layout_height="0.0dip" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/UrlBarLeftLayout" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_alignBottom="@id/UrlBarUrlLayout" n1:layout_alignParentLeft="true">
+        <ImageView n1:layout_gravity="center_vertical" n1:id="@id/UrlBarGoBack" n1:background="?android:selectableItemBackground" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_back" n1:contentDescription="@string/ContentDescriptionBackButton" />
+        <ImageView n1:layout_gravity="center_vertical" n1:id="@id/UrlBarGoForward" n1:background="?android:selectableItemBackground" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_forward" n1:contentDescription="@string/ContentDescriptionForwardButton" />
+        <ImageView n1:layout_gravity="center_vertical" n1:id="@id/UrlBarHome" n1:background="?android:selectableItemBackground" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_home" n1:contentDescription="@string/ContentDescriptionHomeButton" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/UrlBarUrlLayout" n1:paddingTop="5.0dip" n1:paddingBottom="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_toLeftOf="@id/UrlBarRightLayout" n1:layout_toRightOf="@id/UrlBarLeftLayout">
+        <AutoCompleteTextView n1:id="@id/UrlBarUrlEdit" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/UrlBarUrlHint" n1:selectAllOnFocus="true" n1:inputType="textUri" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/UrlBarRightLayout" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_alignBottom="@id/UrlBarUrlLayout" n1:layout_alignParentRight="true">
+        <ImageView n1:layout_gravity="center_vertical" n1:id="@id/UrlBarGoStopReload" n1:background="?android:selectableItemBackground" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_go" n1:contentDescription="@string/ContentDescriptionGoStopReloadButton" />
+        <ImageView n1:layout_gravity="center_vertical" n1:id="@id/UrlBarBookmarks" n1:background="?android:selectableItemBackground" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_bookmarks" n1:contentDescription="@string/ContentDescriptionBookmarksButton" />
+    </LinearLayout>
+</RelativeLayout>

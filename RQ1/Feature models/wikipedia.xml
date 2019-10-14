@@ -1,0 +1,335 @@
+<feature_model name="wikipedia">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'preferences_zero'(_r76)
+			:m '_category1'(_r77)
+				:m 'Wikipedia_Zero_category2'(_r78)
+					:m 'zero_warn_when_leaving'(_r79)
+						:g [1,1]
+							: 'zero_warn_when_leaving_false'(_r80)
+							: 'zero_warn_when_leaving_true'(_r81)
+		:m 'developer_preferences'(_r82)
+			:m '_category3'(_r83)
+				:m 'Logging_category5'(_r84)
+					:m 'retrofitLog'(_r85)
+						:g [1,1]
+							: 'retrofitLog_BODY'(_r86)
+							: 'retrofitLog_HEADERS'(_r87)
+							: 'retrofitLog_NONE'(_r88)
+							: 'retrofitLog_BASIC'(_r89)
+					:m 'remoteLog'(_r90)
+						:g [1,1]
+							: 'remoteLog_default'(_r91)
+							: 'remoteLog_custom'(_r92)
+					:m 'channel'(_r93)
+						:g [1,1]
+							: 'channel_custom'(_r94)
+							: 'channel_default'(_r95)
+					:m 'session_timeout'(_r96)
+						:g [1,1]
+							: 'session_timeout_pos'(_r97)
+							: 'session_timeout_zero'(_r98)
+							: 'session_timeout_neg'(_r99)
+				:m 'Miscellaneous_category9'(_r100)
+					:m 'dailyEventTask-lastrun'(_r101)
+						:g [1,1]
+							: 'dailyEventTask-lastrun_neg'(_r102)
+							: 'dailyEventTask-lastrun_pos'(_r103)
+							: 'dailyEventTask-lastrun_zero'(_r104)
+					:m 'pageLastShown'(_r105)
+						:g [1,1]
+							: 'pageLastShown_pos'(_r106)
+							: 'pageLastShown_neg'(_r107)
+							: 'pageLastShown_zero'(_r108)
+					:m 'languageMru'(_r109)
+						:g [1,1]
+							: 'languageMru_custom'(_r110)
+							: 'languageMru_default'(_r111)
+					:m 'showDeveloperSettings'(_r112)
+						:g [1,1]
+							: 'showDeveloperSettings_true'(_r113)
+							: 'showDeveloperSettings_false'(_r114)
+					:m 'crashedBeforeActivityCreated'(_r115)
+						:g [1,1]
+							: 'crashedBeforeActivityCreated_true'(_r116)
+							: 'crashedBeforeActivityCreated_false'(_r117)
+					:m 'readingAppInstallID'(_r118)
+						:g [1,1]
+							: 'readingAppInstallID_default'(_r119)
+							: 'readingAppInstallID_custom'(_r120)
+					:m 'memoryLeakTest'(_r121)
+						:g [1,1]
+							: 'memoryLeakTest_false'(_r122)
+							: 'memoryLeakTest_true'(_r123)
+					:m 'suppressNotificationPolling'(_r124)
+						:g [1,1]
+							: 'suppressNotificationPolling_false'(_r125)
+							: 'suppressNotificationPolling_true'(_r126)
+					:m 'totalAnonDescriptionsEdited'(_r127)
+						:g [1,1]
+							: 'totalAnonDescriptionsEdited_neg'(_r128)
+							: 'totalAnonDescriptionsEdited_pos'(_r129)
+							: 'totalAnonDescriptionsEdited_zero'(_r130)
+					:m 'languageApp'(_r131)
+						:g [1,1]
+							: 'languageApp_custom'(_r132)
+							: 'languageApp_default'(_r133)
+					:m 'content_language'(_r134)
+						:g [1,1]
+							: 'content_language_default'(_r135)
+							: 'content_language_custom'(_r136)
+					:m 'zeroConfigHash'(_r137)
+						:g [1,1]
+							: 'zeroConfigHash_pos'(_r138)
+							: 'zeroConfigHash_neg'(_r139)
+							: 'zeroConfigHash_zero'(_r140)
+					:m 'userIDMap'(_r141)
+						:g [1,1]
+							: 'userIDMap_custom'(_r142)
+							: 'userIDMap_default'(_r143)
+				:m 'RESTBase_access_category7'(_r144)
+					:m 'useRestbase_setManually'(_r145)
+						:g [1,1]
+							: 'useRestbase_setManually_false'(_r146)
+							: 'useRestbase_setManually_true'(_r147)
+					:m 'useRestbase'(_r148)
+						:g [1,1]
+							: 'useRestbase_false'(_r149)
+							: 'useRestbase_true'(_r150)
+					:m 'restbaseTicket'(_r151)
+						:g [1,1]
+							: 'restbaseTicket_zero'(_r152)
+							: 'restbaseTicket_neg'(_r153)
+							: 'restbaseTicket_pos'(_r154)
+					:m 'mediaWikiBaseUri'(_r155)
+						:g [1,1]
+							: 'mediaWikiBaseUri_custom'(_r156)
+							: 'mediaWikiBaseUri_default'(_r157)
+					:m 'RESTBaseUriFormat'(_r158)
+						:g [1,1]
+							: 'RESTBaseUriFormat_default'(_r159)
+							: 'RESTBaseUriFormat_custom'(_r160)
+					:m 'mediaWikiBaseUriSupportsLangCode'(_r161)
+						:g [1,1]
+							: 'mediaWikiBaseUriSupportsLangCode_true'(_r162)
+							: 'mediaWikiBaseUriSupportsLangCode_false'(_r163)
+					:m 'requestSuccesses'(_r164)
+						:g [1,1]
+							: 'requestSuccesses_neg'(_r165)
+							: 'requestSuccesses_zero'(_r166)
+							: 'requestSuccesses_pos'(_r167)
+				:m 'Reading_Lists_category8'(_r168)
+					:m 'addReadingLists'(_r169)
+						:g [1,1]
+							: 'addReadingLists_default'(_r170)
+							: 'addReadingLists_custom'(_r171)
+					:m 'addMalformedReadingListPage'(_r172)
+						:g [1,1]
+							: 'addMalformedReadingListPage_default'(_r173)
+							: 'addMalformedReadingListPage_custom'(_r174)
+					:m 'addArticles'(_r175)
+						:g [1,1]
+							: 'addArticles_default'(_r176)
+							: 'addArticles_custom'(_r177)
+					:m 'deleteTestReadingLists'(_r178)
+						:g [1,1]
+							: 'deleteTestReadingLists_custom'(_r179)
+							: 'deleteTestReadingLists_default'(_r180)
+					:m 'deleteReadingLists'(_r181)
+						:g [1,1]
+							: 'deleteReadingLists_default'(_r182)
+							: 'deleteReadingLists_custom'(_r183)
+				:m 'Onboarding_category6'(_r184)
+					:m 'feedHiddenCards'(_r185)
+						:g [1,1]
+							: 'feedHiddenCards_custom'(_r186)
+							: 'feedHiddenCards_default'(_r187)
+					:m 'selectTextTutorialEnabled'(_r188)
+						:g [1,1]
+							: 'selectTextTutorialEnabled_false'(_r189)
+							: 'selectTextTutorialEnabled_true'(_r190)
+					:m 'feedReadingListsSyncOnboardingCardEnabled'(_r191)
+						:g [1,1]
+							: 'feedReadingListsSyncOnboardingCardEnabled_false'(_r192)
+							: 'feedReadingListsSyncOnboardingCardEnabled_true'(_r193)
+					:m 'readingListLoginReminder'(_r194)
+						:g [1,1]
+							: 'readingListLoginReminder_false'(_r195)
+							: 'readingListLoginReminder_true'(_r196)
+					:m 'readingListsFirstTimeSync'(_r197)
+						:g [1,1]
+							: 'readingListsFirstTimeSync_true'(_r198)
+							: 'readingListsFirstTimeSync_false'(_r199)
+					:m 'feedCustomizeOnboardingCardEnabled'(_r200)
+						:g [1,1]
+							: 'feedCustomizeOnboardingCardEnabled_false'(_r201)
+							: 'feedCustomizeOnboardingCardEnabled_true'(_r202)
+					:m 'readingListSyncReminder'(_r203)
+						:g [1,1]
+							: 'readingListSyncReminder_false'(_r204)
+							: 'readingListSyncReminder_true'(_r205)
+					:m 'zeroTutorialEnabled'(_r206)
+						:g [1,1]
+							: 'zeroTutorialEnabled_true'(_r207)
+							: 'zeroTutorialEnabled_false'(_r208)
+					:m 'descriptionEditTutorialEnabled'(_r209)
+						:g [1,1]
+							: 'descriptionEditTutorialEnabled_true'(_r210)
+							: 'descriptionEditTutorialEnabled_false'(_r211)
+					:m 'readingListTutorialEnabled'(_r212)
+						:g [1,1]
+							: 'readingListTutorialEnabled_true'(_r213)
+							: 'readingListTutorialEnabled_false'(_r214)
+					:m 'initialOnboardingEnabled'(_r215)
+						:g [1,1]
+							: 'initialOnboardingEnabled_true'(_r216)
+							: 'initialOnboardingEnabled_false'(_r217)
+					:m 'shareTutorialEnabled'(_r218)
+						:g [1,1]
+							: 'shareTutorialEnabled_false'(_r219)
+							: 'shareTutorialEnabled_true'(_r220)
+					:m 'tocTutorialEnabled'(_r221)
+						:g [1,1]
+							: 'tocTutorialEnabled_false'(_r222)
+							: 'tocTutorialEnabled_true'(_r223)
+					:m 'showReadingListsSyncPrompt'(_r224)
+						:g [1,1]
+							: 'showReadingListsSyncPrompt_false'(_r225)
+							: 'showReadingListsSyncPrompt_true'(_r226)
+					:m 'multilingualSearchTutorialEnabled'(_r227)
+						:g [1,1]
+							: 'multilingualSearchTutorialEnabled_false'(_r228)
+							: 'multilingualSearchTutorialEnabled_true'(_r229)
+					:m 'showRemoveChineseVariantPrompt'(_r230)
+						:g [1,1]
+							: 'showRemoveChineseVariantPrompt_false'(_r231)
+							: 'showRemoveChineseVariantPrompt_true'(_r232)
+		:m 'preferences'(_r233)
+			:m '_category10'(_r234)
+				:m 'General_category11'(_r235)
+					:m 'showLinkPreviews'(_r236)
+						:g [1,1]
+							: 'showLinkPreviews_false'(_r237)
+							: 'showLinkPreviews_true'(_r238)
+				:m 'syncSettings_category12'(_r239)
+					:m 'syncReadingLists'(_r240)
+						:g [1,1]
+							: 'syncReadingLists_true'(_r241)
+							: 'syncReadingLists_false'(_r242)
+				:m 'Data_usage_category13'(_r243)
+					:m 'downloadOnlyOverWiFi'(_r244)
+						:g [1,1]
+							: 'downloadOnlyOverWiFi_true'(_r245)
+							: 'downloadOnlyOverWiFi_false'(_r246)
+					:m 'preferOfflineContent'(_r247)
+						:g [1,1]
+							: 'preferOfflineContent_false'(_r248)
+							: 'preferOfflineContent_true'(_r249)
+					:m 'showImages'(_r250)
+						:g [1,1]
+							: 'showImages_false'(_r251)
+							: 'showImages_true'(_r252)
+				:m 'Privacy_category14'(_r253)
+					:m 'always_send_crash_reports'(_r254)
+						:g [1,1]
+							: 'always_send_crash_reports_true'(_r255)
+							: 'always_send_crash_reports_false'(_r256)
+					:m 'eventlogging_opt_in'(_r257)
+						:g [1,1]
+							: 'eventlogging_opt_in_false'(_r258)
+							: 'eventlogging_opt_in_true'(_r259)
+</feature_tree>
+<constraints>
+</constraints>
+</feature_model>

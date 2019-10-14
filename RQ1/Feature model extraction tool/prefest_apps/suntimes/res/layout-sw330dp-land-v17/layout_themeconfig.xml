@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/preview_background" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="?timeCardBackground" n1:scaleType="centerCrop" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar n1:theme="?toolbarTheme" n1:id="@id/app_menubar" n1:background="?colorPrimary" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:popupTheme="?actionBarPopupTheme" n2:title="@string/configLabel_widgetThemeAdd" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <include layout="@layout/layout_themeconfig_header" />
+        <ScrollView n1:id="@id/scrollView" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <android.support.constraint.ConstraintLayout n1:background="?semiTransparentBackground" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dip">
+                <LinearLayout n1:id="@id/layout_background" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n3:layout_constraintEnd_toEndOf="@id/layout_text" n3:layout_constraintStart_toStartOf="parent" n3:layout_constraintTop_toTopOf="parent" xmlns:n3="http://schemas.android.com/apk/res-auto">
+                    <include layout="@layout/layout_themeconfig_background" />
+                </LinearLayout>
+                <LinearLayout n1:id="@id/layout_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:layout_constraintStart_toStartOf="parent" n4:layout_constraintTop_toBottomOf="@id/layout_background" xmlns:n4="http://schemas.android.com/apk/res-auto">
+                    <include layout="@layout/layout_themeconfig_text" />
+                </LinearLayout>
+                <View n1:id="@id/divider_sun" n1:background="?hrColor" n1:layout_width="0.0dip" n1:layout_height="1.0dip" n1:layout_marginTop="8.0dip" n5:layout_constraintEnd_toEndOf="@id/layout_sun" n5:layout_constraintStart_toStartOf="@id/layout_sun" n5:layout_constraintTop_toBottomOf="@id/layout_text" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout n1:id="@id/layout_sun" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dip" n6:layout_constraintStart_toStartOf="parent" n6:layout_constraintTop_toBottomOf="@id/divider_sun" xmlns:n6="http://schemas.android.com/apk/res-auto">
+                    <include layout="@layout/layout_themeconfig_sun" />
+                </LinearLayout>
+                <LinearLayout n1:id="@id/layout_moon" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginTop="16.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginStart="16.0dip" n1:layout_marginEnd="8.0dip" n7:layout_constraintEnd_toEndOf="parent" n7:layout_constraintStart_toEndOf="@id/layout_text" n7:layout_constraintTop_toTopOf="@id/layout_background" xmlns:n7="http://schemas.android.com/apk/res-auto">
+                    <include layout="@layout/layout_themeconfig_moon" />
+                </LinearLayout>
+                <View n1:id="@id/divider_seasons" n1:background="?hrColor" n1:layout_width="0.0dip" n1:layout_height="1.0dip" n1:layout_marginTop="8.0dip" n8:layout_constraintEnd_toEndOf="parent" n8:layout_constraintStart_toStartOf="@id/layout_moon" n8:layout_constraintTop_toBottomOf="@id/layout_moon" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout n1:id="@id/layout_seasons" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dip" n9:layout_constraintEnd_toEndOf="parent" n9:layout_constraintStart_toStartOf="@id/layout_moon" n9:layout_constraintTop_toBottomOf="@id/divider_seasons" xmlns:n9="http://schemas.android.com/apk/res-auto">
+                    <include layout="@layout/layout_themeconfig_seasons" />
+                </LinearLayout>
+                <View n1:id="@id/divider_graph" n1:background="?hrColor" n1:layout_width="0.0dip" n1:layout_height="1.0dip" n1:layout_marginTop="8.0dip" n10:layout_constraintEnd_toEndOf="parent" n10:layout_constraintStart_toStartOf="@id/layout_seasons" n10:layout_constraintTop_toBottomOf="@id/layout_seasons" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout n1:id="@id/layout_graph" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dip" n11:layout_constraintStart_toStartOf="@id/divider_seasons" n11:layout_constraintTop_toBottomOf="@id/divider_graph" xmlns:n11="http://schemas.android.com/apk/res-auto">
+                    <include layout="@layout/layout_themeconfig_graph" />
+                </LinearLayout>
+            </android.support.constraint.ConstraintLayout>
+        </ScrollView>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bookmarks_fragment_breadcrumb_margin_left_right">5.0dip</dimen>
+    <dimen name="bookmarks_fragment_column_width">90.0dip</dimen>
+    <dimen name="bookmarks_fragment_horizontal_spacing">10.0dip</dimen>
+    <dimen name="bookmarks_fragment_margin_left_right">10.0dip</dimen>
+    <dimen name="bookmarks_fragment_margin_top_bottom">10.0dip</dimen>
+    <dimen name="bookmarks_fragment_vertical_spacing">10.0dip</dimen>
+    <dimen name="history_row_padding_left_right">0.0dip</dimen>
+    <dimen name="history_row_padding_top_bottom">5.0dip</dimen>
+    <dimen name="list_favicon_corner_radius">3.0dip</dimen>
+    <dimen name="list_favicon_padding">5.0dip</dimen>
+    <dimen name="startpage_fragment_column_width">90.0dip</dimen>
+    <dimen name="startpage_fragment_horizontal_spacing">10.0dip</dimen>
+    <dimen name="startpage_fragment_margin_left_right">10.0dip</dimen>
+    <dimen name="startpage_fragment_margin_top_bottom">5.0dip</dimen>
+    <dimen name="startpage_fragment_vertical_spacing">5.0dip</dimen>
+</resources>

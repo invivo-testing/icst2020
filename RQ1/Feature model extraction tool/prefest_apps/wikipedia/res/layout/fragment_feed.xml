@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout android:id="@id/feed_swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/fragment_feed_header" android:background="@color/accent30" android:layout_width="fill_parent" android:layout_height="72.0dip" />
+        <org.wikipedia.feed.view.FeedView android:id="@id/fragment_feed_feed" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:minColumnWidth="@dimen/view_feed_min_column_width" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fragment_feed_empty_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="128.0dip">
+            <ImageView android:layout_width="168.0dip" android:layout_height="wrap_content" android:contentDescription="@null" app:srcCompat="@drawable/ic_illustration_empty_feed" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/feed_empty_message" style="@style/MaterialMediumSecondaryCaption" />
+            <TextView android:id="@id/fragment_feed_customize_button" android:text="@string/feed_configure_onboarding_action" style="@style/App.Button.White" />
+        </LinearLayout>
+    </FrameLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

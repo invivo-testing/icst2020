@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bytes">
+        <item quantity="other">@string/bytes</item>
+        <item quantity="one">@string/byte_singular</item>
+    </plurals>
+    <plurals name="items">
+        <item quantity="other">@string/items</item>
+        <item quantity="zero">@string/noitems</item>
+        <item quantity="one">@string/item</item>
+    </plurals>
+</resources>

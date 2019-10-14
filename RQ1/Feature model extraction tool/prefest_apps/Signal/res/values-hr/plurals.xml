@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d poruka po razgovoru</item>
+        <item quantity="one">%d poruka po razgovoru</item>
+        <item quantity="few">%d poruke po razgovoru</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Ovo će automatski skratiti sve razgovore na %d najnovijih poruka.</item>
+        <item quantity="one">Ovo će automatski skratiti sve razgovore na odabrani broj poruka.</item>
+        <item quantity="few">Ovo će automatski skratiti sve razgovore na %d najnovije poruke.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d nepročitanih poruka</item>
+        <item quantity="one">%d nepročitana poruka</item>
+        <item quantity="few">%d nepročitane poruke</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Obriši odabrane poruke?</item>
+        <item quantity="one">Obriši odabrane poruke?</item>
+        <item quantity="few">Obriši odabrane poruke?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Greška prilikom spremanja privitaka na disk!</item>
+        <item quantity="one">Greška prilikom spremanja privitaka na disk!</item>
+        <item quantity="few">Greška prilikom spremanja privitaka na disk!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Spremanje %1$d privitaka</item>
+        <item quantity="one">Spremanje privitaka</item>
+        <item quantity="few">Spremanje %1$d privitka</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Spremanje %1$d privitaka na disk...</item>
+        <item quantity="one">Spremanje privitaka na disk...</item>
+        <item quantity="few">Spremanje %1$d privitka na disk...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Spremanje svih %1$d medija na disk će omogućiti pristup mediju iz drugih aplikacija na vašem uređaju.
+
+Nastavi?"</item>
+        <item quantity="one">"Spremanje svih medija na disk će omogućiti pristup mediju iz drugih aplikacija na vašem uređaju.
+
+Nastavi?"</item>
+        <item quantity="few">"Spremanje sva %1$d medija na disk će omogućiti pristup mediju iz drugih aplikacija na vašem uređaju.
+
+Nastavi?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Ovo će trajno obrisati svih %1$d odabranih poruka.</item>
+        <item quantity="one">Ovo će trajno obrisati odabrane poruke.</item>
+        <item quantity="few">Ovo će trajno obrisati sve %1$d odabrane poruke.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d razgovora arhivirano</item>
+        <item quantity="one">Razgovori arhivirani</item>
+        <item quantity="few">%d razgovora arhivirana</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Obriši odabrane razgovore?</item>
+        <item quantity="one">Obriši odabrane razgovore?</item>
+        <item quantity="few">Obriši odabrane razgovore?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d razgovora premješteno u primljene poruke</item>
+        <item quantity="one">Razgovori premješteni u primljene poruke</item>
+        <item quantity="few">%d razgovora premještena u primljene poruke</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Ovo će trajno obrisati %1$d odabranih razgovora.</item>
+        <item quantity="one">Ovo će trajno obrisati odabrane razgovore.</item>
+        <item quantity="few">Ovo će trajno obrisati %1$d odabrana razgovora.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s se pridružilo grupi.</item>
+        <item quantity="one">%1$s se pridružio grupi.</item>
+        <item quantity="few">%1$s se pridružilo grupi.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Pošalji %dSMS pozivnica?</item>
+        <item quantity="one">Pošalji %dSMS pozivnicu?</item>
+        <item quantity="few">Pošalji %dSMS pozivnice?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">POŠALJI SMS %dPRIJATELJU</item>
+        <item quantity="one">POŠALJI SMS %dPRIJATELJU</item>
+        <item quantity="few">POŠALJI SMS %dPRIJATELJA</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Broj poruka koji će biti trajno izbrisan: %1$d</item>
+        <item quantity="one">Ovo će trajno obrisati označenu poruku.</item>
+        <item quantity="few">Broj poruka koji će biti trajno izbrisan: %1$d</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Izbriši označene poruke?</item>
+        <item quantity="one">Izbriši označenu poruku?</item>
+        <item quantity="few">Izbriši označene poruke?</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d sati</item>
+        <item quantity="one">%d sat</item>
+        <item quantity="few">%d sata</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d drugih</item>
+        <item quantity="one">%d drugi</item>
+        <item quantity="few">%d druga</item>
+    </plurals>
+</resources>

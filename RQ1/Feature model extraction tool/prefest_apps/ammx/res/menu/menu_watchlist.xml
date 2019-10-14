@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="?ic_action_download" android:id="@id/menu_update_prices" android:title="@string/update_prices" app:showAsAction="ifRoom" />
+    <item android:icon="@android:drawable/ic_menu_share" android:id="@id/menu_export_prices" android:title="@string/export_prices" app:showAsAction="ifRoom" />
+    <item android:icon="@null" android:id="@id/menu_purge_history" android:title="@string/purge_history" app:showAsAction="ifRoom" />
+    <item android:id="@id/menu_change_provider" android:title="@string/change_provider" />
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top" android:id="@id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:src="@mipmap/icon" />
+        <TextView android:id="@id/filepath" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:buttonBarStyle">
+        <Button android:enabled="false" android:id="@id/cancel" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/cancel" android:singleLine="true" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <Button android:enabled="false" android:id="@id/enqueue" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/enqueue" android:singleLine="true" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <Button android:enabled="false" android:id="@id/play" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/play" android:singleLine="true" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

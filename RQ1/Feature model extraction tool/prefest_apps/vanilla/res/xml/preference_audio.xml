@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vanilla="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen android:title="@string/equalizer" android:summary="" android:fragment="ch.blinkenlights.android.vanilla.PreferencesActivity$EqualizerFragment" />
+    <PreferenceScreen android:title="@string/replaygain" android:summary="@string/replaygain_summary" android:fragment="ch.blinkenlights.android.vanilla.PreferencesActivity$ReplayGainFragment" />
+    <ch.blinkenlights.android.vanilla.SeekBarPreference android:title="@string/volume_during_ducking_title" android:key="volume_during_ducking" android:defaultValue="50" android:dialogLayout="@layout/seekbar_pref" vanilla:sbpCheckBoxKey="ignore_audiofocus_loss" vanilla:sbpCheckBoxText="@string/ignore_audiofocus_loss_summary" vanilla:sbpMaxValue="100" vanilla:sbpSummaryFormat="%s %.0f%%" vanilla:sbpSummaryText="@string/volume_during_ducking_summary" />
+    <CheckBoxPreference android:title="@string/media_button_title" android:key="media_button" android:summary="@string/media_button_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/media_button_beep_title" android:key="media_button_beep" android:summary="@string/media_button_beep_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/headset_only_title" android:key="headset_only" android:summary="@string/headset_only_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/headset_pause_title" android:key="headset_pause" android:summary="@string/headset_pause_summary" android:defaultValue="true" />
+    <PreferenceScreen android:title="@string/headset_launch_title" android:summary="@string/headset_launch_summary" android:fragment="ch.blinkenlights.android.vanilla.PreferencesActivity$HeadsetLaunchFragment" />
+</PreferenceScreen>

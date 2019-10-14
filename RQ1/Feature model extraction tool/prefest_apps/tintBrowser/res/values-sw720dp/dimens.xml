@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bookmarks_fragment_breadcrumb_margin_left_right">145.0dip</dimen>
+    <dimen name="bookmarks_fragment_margin_left_right">150.0dip</dimen>
+    <dimen name="bookmarks_fragment_margin_top_bottom">75.0dip</dimen>
+    <dimen name="history_row_padding_left_right">20.0dip</dimen>
+    <dimen name="startpage_fragment_margin_left_right">150.0dip</dimen>
+    <dimen name="startpage_fragment_margin_top_bottom">50.0dip</dimen>
+    <dimen name="tablet_history_fragment_header_margin_left">96.0dip</dimen>
+    <dimen name="tablet_history_fragment_values_margin_right">96.0dip</dimen>
+</resources>

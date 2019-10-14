@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?mainBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:behavior_peekHeight="72.0dip" app:behavior_hideable="true" app:layout_behavior="@string/bottom_sheet_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginVertical="8.0dip">
+        <ImageView android:id="@id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="50.0dip" android:maxLines="2" />
+            <TextView android:textSize="14.0sp" android:id="@id/category" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="8.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/directionsButton" android:background="@drawable/button_background_selector" android:padding="16.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_directions_black_24dp" />
+            <TextView android:textColor="@color/text_color_selector" android:layout_gravity="center_horizontal" android:id="@id/directionsButtonText" android:paddingTop="8.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nearby_directions" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/wikidataButton" android:background="@drawable/button_background_selector" android:padding="16.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_wikidata_logo_24dp" />
+            <TextView android:textColor="@color/text_color_selector" android:layout_gravity="center_horizontal" android:id="@id/wikidataButtonText" android:paddingTop="8.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nearby_wikidata" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/wikipediaButton" android:background="@drawable/button_background_selector" android:padding="16.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_wikipedia_logo_24dp" />
+            <TextView android:textColor="@color/text_color_selector" android:layout_gravity="center_horizontal" android:id="@id/wikipediaButtonText" android:paddingTop="8.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nearby_wikipedia" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/commonsButton" android:background="@drawable/button_background_selector" android:padding="16.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_commons_icon_vector" />
+            <TextView android:textColor="@color/text_color_selector" android:layout_gravity="center_horizontal" android:id="@id/commonsButtonText" android:paddingTop="8.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nearby_commons" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="8.0dip" />
+    <TextView android:textSize="16.0sp" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" />
+</LinearLayout>

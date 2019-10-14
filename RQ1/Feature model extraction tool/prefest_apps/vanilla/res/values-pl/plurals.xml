@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">Dodano %1$d utworów do listy odtwarzania %2$s.</item>
+        <item quantity="one">Dodano %1$d utwór do listy odtwarzania %2$s.</item>
+        <item quantity="few">Dodano %1$d utwory do listy odtwarzania %2$s.</item>
+        <item quantity="many">Dodano %1$d utworów do listy odtwarzania %2$s.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">Usunięto %d utworów.</item>
+        <item quantity="one">Usunięto %d utwór.</item>
+        <item quantity="few">Usunięto %d utwory.</item>
+        <item quantity="many">Usunięto %d utworów.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">Zakolejkowano %d utworów.</item>
+        <item quantity="one">Zakolejkowano %d utwór.</item>
+        <item quantity="few">Zakolejkowano %d utwory.</item>
+        <item quantity="many">Zakolejkowano %d utworów.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d godzin</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">Odtwarzam %d utworów.</item>
+        <item quantity="one">Odtwarzam %d utwór.</item>
+        <item quantity="few">Odtwarzam %d utwory.</item>
+        <item quantity="many">Odtwarzam %d utworów.</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">Usunięto %1$d utworów z listy odtwarzania %2$s.</item>
+        <item quantity="one">Usunięto %1$d utwór z listy odtwarzania %2$s.</item>
+        <item quantity="few">Usunięto %1$d utwory z listy odtwarzania %2$s.</item>
+        <item quantity="many">Usunięto %1$d utworów z listy odtwarzania %2$s.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+    </plurals>
+</resources>

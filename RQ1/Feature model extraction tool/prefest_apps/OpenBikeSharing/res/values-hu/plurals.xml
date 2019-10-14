@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updated_days_ago">
+        <item quantity="other">%d nappal ezelőtt</item>
+        <item quantity="one">%d nappal ezelőtt</item>
+    </plurals>
+    <plurals name="updated_hours_ago">
+        <item quantity="other">%d órával ezelőtt</item>
+        <item quantity="one">%d órával ezelőtt</item>
+    </plurals>
+    <plurals name="updated_minutes_ago">
+        <item quantity="other">%d perccel ezelőtt</item>
+        <item quantity="one">%d perccel ezelőtt</item>
+    </plurals>
+</resources>

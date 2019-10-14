@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <com.naman14.timber.widgets.ThemedPreferenceCategory n1:title="@string/now_playing"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <Preference n1:title="@string/now_playing" n1:key="now_playing_selector" n1:summary="@string/now_playing_selector" />
+    </com.naman14.timber.widgets.ThemedPreferenceCategory>
+    <com.naman14.timber.widgets.ThemedPreferenceCategory n2:title="@string/personalisation"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <com.afollestad.appthemeengine.prefs.ATECheckBoxPreference n2:persistent="true" n2:title="@string/dark_theme" n2:key="dark_theme" n2:summary="@string/dark_theme_summary" n2:widgetLayout="@layout/ate_preference_checkbox" n2:defaultValue="false" n3:ateKey_pref_checkBox="?ate_key" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.afollestad.appthemeengine.prefs.ATEColorPreference n2:persistent="false" n2:title="@string/primary_color" n2:key="primary_color" n2:summary="@string/primary_color_summary" n4:ateKey_pref_color="?ate_key" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.afollestad.appthemeengine.prefs.ATEColorPreference n2:persistent="false" n2:title="@string/accent_color" n2:key="accent_color" n2:summary="@string/accent_color_summary" n5:ateKey_pref_color="?ate_key" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.afollestad.appthemeengine.prefs.ATECheckBoxPreference n2:persistent="false" n2:title="@string/colored_status_bar" n2:key="colored_status_bar" n2:summary="@string/colored_status_bar_summary" n2:defaultValue="true" n6:ateKey_pref_checkBox="?ate_key" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.afollestad.appthemeengine.prefs.ATECheckBoxPreference n2:persistent="false" n2:title="@string/colored_nav_bar" n2:key="colored_nav_bar" n2:summary="@string/colored_nav_bar_summary" n2:defaultValue="true" n7:ateKey_pref_checkBox="?ate_key" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </com.naman14.timber.widgets.ThemedPreferenceCategory>
+    <com.naman14.timber.widgets.ThemedPreferenceCategory n8:title="@string/other"
+      xmlns:n8="http://schemas.android.com/apk/res/android">
+        <com.afollestad.appthemeengine.prefs.ATEListPreference n8:entries="@array/pref_startpage_entries" n8:title="@string/start_page" n8:key="start_page_preference" n8:summary="@string/choose_start_page" n8:defaultValue="last_opened" n8:entryValues="@array/pref_startpage_values" n9:ateKey_pref_checkBox="?ate_key" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <com.afollestad.appthemeengine.prefs.ATECheckBoxPreference n8:title="@string/gestures" n8:key="gestures" n8:summary="@string/switching_tracks_by_gestures" n8:defaultValue="true" n10:ateKey_pref_checkBox="?ate_key" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+        <com.afollestad.appthemeengine.prefs.ATECheckBoxPreference n8:title="@string/pause_detach" n8:key="toggle_headphone_pause" n8:summary="@string/summary_pause_detach" n8:defaultValue="true" n11:ateKey_pref_checkBox="?ate_key" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+        <com.afollestad.appthemeengine.prefs.ATECheckBoxPreference n8:title="@string/albumart_lockscreen" n8:key="show_albumart_lockscreen" n8:summary="@string/albumart_lockscreen_summary" n8:defaultValue="true" n12:ateKey_pref_checkBox="?ate_key" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    </com.naman14.timber.widgets.ThemedPreferenceCategory>
+    <com.naman14.timber.widgets.ThemedPreferenceCategory n13:title="LastFM"
+      xmlns:n13="http://schemas.android.com/apk/res/android">
+        <Preference n13:title="Login" n13:key="lastfm_login" n13:summary="@string/lastfm_pref" />
+        <com.afollestad.appthemeengine.prefs.ATECheckBoxPreference n13:title="@string/load_artist_album_image" n13:key="artist_album_image" n13:summary="@string/load_artist_album_image_summary" n13:defaultValue="true" n14:ateKey_pref_checkBox="?ate_key" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+        <com.afollestad.appthemeengine.prefs.ATECheckBoxPreference n13:title="@string/load_artist_album_image_mobile" n13:key="artist_album_image_mobile" n13:summary="@string/load_artist_album_image_mobile_summary" n13:dependency="artist_album_image" n13:defaultValue="true" n15:ateKey_pref_checkBox="?ate_key" xmlns:n15="http://schemas.android.com/apk/res-auto" />
+        <com.afollestad.appthemeengine.prefs.ATECheckBoxPreference n13:title="@string/always_load_album_images_lastfm" n13:key="always_load_album_images_lastfm" n13:summary="@string/always_load_album_images_lastfm_summary" n13:dependency="artist_album_image" n13:defaultValue="false" n16:ateKey_pref_checkBox="?ate_key" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    </com.naman14.timber.widgets.ThemedPreferenceCategory>
+    <com.naman14.timber.widgets.ThemedPreferenceCategory n17:title="@string/advanced"
+      xmlns:n17="http://schemas.android.com/apk/res/android">
+        <com.afollestad.appthemeengine.prefs.ATECheckBoxPreference n17:title="@string/xposed_trackselector" n17:key="toggle_xposed_trackselector" n17:summary="@string/summary_xposed_trackselector" n17:defaultValue="false" n18:ateKey_pref_checkBox="?ate_key" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+    </com.naman14.timber.widgets.ThemedPreferenceCategory>
+    <com.naman14.timber.widgets.ThemedPreferenceCategory n19:title="Support"
+      xmlns:n19="http://schemas.android.com/apk/res/android">
+        <Preference n19:title="Support development" n19:key="support_development" n19:summary="Support the development of Timber and unlock all now playing styles" />
+        <Preference n19:title="Restore purchases" n19:key="restore_purchases" n19:summary="Restore previous purchases" />
+    </com.naman14.timber.widgets.ThemedPreferenceCategory>
+</PreferenceScreen>

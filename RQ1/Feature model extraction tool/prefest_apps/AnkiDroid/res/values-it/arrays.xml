@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>"&lt;h2>%1$s: &lt;br/> Flashcards per Android&lt;/h2>AnkiDroid è un'applicazione di flashcard che è pienamente compatibile con il software desktop &lt;a href=\"%2$s\"> Anki&lt;/a>. Si può creare, scaricare e studiare materiale su entrambi AnkiDroid o Anki Desktop e sincronizzarli facilmente con AnkiWeb."</item>
+        <item>Per aiutarci a rendere AnkiDroid migliore, segnala i bug a &lt;a href=\"%1$s\">gestione problemi&lt;/a>; proposte di nuove funzioni sono benvenute. Trova risposte sulla &lt;a href=\"%2$s\"> wiki&lt;/a> o avvia una discussione sul &lt;a href=\"%3$s\">forum&lt;/a>.</item>
+        <item>AnkiDroid è un &lt;a href=\"%1$s\">software open source &lt;a/>, ognuno è invitato a &lt;a href=\"%2$s\">contribuire&lt;/a> :-)</item>
+        <item>Anche non-sviluppatori possono aiutare. Per esempio, puoi &lt;a href=\"%1$s\">aiutare a tradurre&lt;/a> AnkiDroid, aggiornare il wiki, fornire screenshot o scrivere di AnkiDroid sui blog.</item>
+        <item>AnkiDroid è rilasciato sotto la &lt;a href=\"%1$s\">licenza GNU-GPL v3&lt;/a> e il codice sorgente è disponibile &lt;a href=\"%2$s\">su GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Utilizza il mazzo attuale</item>
+        <item>Decidi per tipo di nota</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>In alto</item>
+        <item>In basso</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Domanda</item>
+        <item>Ordina per</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Risposta</item>
+        <item>Carta</item>
+        <item>Mazzo</item>
+        <item>Nota</item>
+        <item>Domanda</item>
+        <item>Etichette</item>
+        <item>Errori</item>
+        <item>Ripetizioni</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Nessun ordinamento (più veloce)</item>
+        <item>Per campo di ordinamento</item>
+        <item>Per data di creazione</item>
+        <item>Per data di modifica</item>
+        <item>Per data di cambiamento</item>
+        <item>Per data di scadenza</item>
+        <item>Per intervallo</item>
+        <item>Per facilità</item>
+        <item>Per ripetizioni</item>
+        <item>Per errori</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Più vecchie visualizzate per prime</item>
+        <item>Casuale</item>
+        <item>Intervalli crescenti</item>
+        <item>Intervalli decrescenti</item>
+        <item>Maggior numero di errori</item>
+        <item>Ordine di aggiunta</item>
+        <item>Ordine di scadenza</item>
+        <item>Dapprima aggiunte più recentemente</item>
+        <item>Ritardo relativo</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Chiaro</item>
+        <item>Semplice</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Giorni</item>
+        <item>Settimane</item>
+        <item>Mesi</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Notifica sempre</item>
+        <item>Non segnalare mai</item>
+        <item>Chiedimi</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Nessuna azione</item>
+        <item>Mostra la risposta</item>
+        <item>Pulsante risposta 1</item>
+        <item>Pulsante risposta 2</item>
+        <item>Pulsante risposta 3</item>
+        <item>Pulsante risposta 4</item>
+        <item>Risposta raccomandata (verde)</item>
+        <item>Risposta migliore di quanto raccomandato</item>
+        <item>Annulla</item>
+        <item>Modifica nota</item>
+        <item>Contrassegna nota</item>
+        <item>Controlla espressione</item>
+        <item>Seppellisci carta</item>
+        <item>Sospendi carta</item>
+        <item>Elimina nota</item>
+        <item>Riproduci Media</item>
+        <item>"Interrompi l'apprendimento"</item>
+        <item>Seppellisci nota</item>
+        <item>Sospendi nota</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Sospendi carta</item>
+        <item>Etichetta soltanto</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Carte nuove in ordine casuale</item>
+        <item>Carte nuove in ordine di aggiunta</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Mescola le carte nuove e le ripetizioni</item>
+        <item>Carte nuove dopo le ripetizioni</item>
+        <item>Carte nuove prima delle ripetizioni</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Nero</item>
+        <item>Scuro</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Quando nessun tipo di carattere specificato nelle carte</item>
+        <item>Sempre</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>04:00</item>
+        <item>10:00</item>
+        <item>16:00</item>
+        <item>22:00</item>
+        <item>03:00</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Dom</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mer</item>
+        <item>Gio</item>
+        <item>Ven</item>
+        <item>Sab</item>
+    </string-array>
+</resources>

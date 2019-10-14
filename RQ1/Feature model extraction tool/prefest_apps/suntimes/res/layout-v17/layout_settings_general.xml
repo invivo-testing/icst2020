@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout n1:orientation="vertical" n1:paddingLeft="5.0dip" n1:paddingRight="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/settingsGroup_margin" style="@style/SunsetTimeWidget_dark"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <TextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general" style="@style/SunsetTimeSettingsGroupTitle" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_calculator_layout" n1:paddingLeft="16.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:id="@id/appwidget_general_calculator_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_calculator" n1:labelFor="@id/appwidget_general_calculator" />
+            <Spinner n1:id="@id/appwidget_general_calculator" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:dropDownVerticalOffset="16.0sp" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_timeMode_layout" n1:paddingLeft="16.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:weightSum="1.0">
+            <TextView n1:id="@id/appwidget_general_timeMode_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_timeMode" n1:labelFor="@id/appwidget_general_timeMode" />
+            <Spinner n1:id="@id/appwidget_general_timeMode" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:dropDownVerticalOffset="16.0sp" />
+            <ImageButton n1:id="@id/appwidget_general_timeMode_helpButton" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="?icActionHelp" n1:scaleType="center" n1:adjustViewBounds="false" n1:cropToPadding="false" n1:contentDescription="@string/configAction_help" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_trackingMode_layout" n1:paddingLeft="16.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:id="@id/appwidget_general_trackingMode_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_trackingMode" n1:labelFor="@id/appwidget_general_trackingMode" />
+            <Spinner n1:id="@id/appwidget_general_trackingMode" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:dropDownVerticalOffset="16.0sp" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_timeMode_override_layout" n1:paddingLeft="8.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <CheckBox n1:id="@id/appwidget_general_timeMode_override" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_timeMode_override" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_showWeeks_layout" n1:paddingLeft="8.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <CheckBox n1:id="@id/appwidget_general_showWeeks" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_showWeeks" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_showHours_layout" n1:paddingLeft="8.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <CheckBox n1:id="@id/appwidget_general_showHours" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_showHours" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_showSeconds_layout" n1:paddingLeft="8.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <CheckBox n1:id="@id/appwidget_general_showSeconds" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_showSeconds" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_showTimeDate_layout" n1:paddingLeft="8.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <CheckBox n1:id="@id/appwidget_general_showTimeDate" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_showTimeDate" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_showNoon_layout" n1:paddingLeft="8.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <CheckBox n1:id="@id/appwidget_general_showNoon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_showNoon" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_showCompare_layout" n1:paddingLeft="8.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <CheckBox n1:id="@id/appwidget_general_showCompare" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_showComparison" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/appwidget_general_compareMode_layout" n1:paddingLeft="16.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:id="@id/appwidget_general_compareMode_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_general_compareMode" n1:labelFor="@id/appwidget_general_compareMode" />
+            <Spinner n1:id="@id/appwidget_general_compareMode" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:dropDownVerticalOffset="16.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

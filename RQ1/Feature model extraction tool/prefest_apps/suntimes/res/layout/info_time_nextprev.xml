@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageButton n1:layout_gravity="end" n1:id="@id/info_time_prevbtn" n1:background="@drawable/ic_transparent" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="?icActionPrevious" n1:contentDescription="@string/prevDay"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <ImageButton n2:layout_gravity="end" n2:id="@id/info_time_nextbtn" n2:background="@drawable/ic_transparent" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:src="?icActionNext" n2:contentDescription="@string/nextDay"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</merge>

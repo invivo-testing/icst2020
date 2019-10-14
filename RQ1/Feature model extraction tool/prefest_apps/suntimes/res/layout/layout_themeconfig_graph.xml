@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <android.support.constraint.ConstraintLayout n1:id="@id/layout_colors_graph" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:layout_constraintEnd_toEndOf="parent" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toTopOf="parent"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/layout_dayColor" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toTopOf="parent">
+            <TextView n1:id="@id/editLabel_dayColor" n1:nextFocusLeft="@id/editLabel_noonIconStroke" n1:nextFocusRight="@id/editLabel_summerColor" n1:nextFocusUp="@id/editLabel_noonIconStroke" n1:nextFocusDown="@id/editLabel_fallColor" n1:text="@string/timeMode_day" style="@style/ColorEditLabel" />
+            <EditText n1:id="@id/edit_dayColor" n1:visibility="gone" n1:nextFocusLeft="@id/editLabel_noonIconStroke" n1:nextFocusRight="@id/editLabel_summerColor" n1:nextFocusUp="@id/editLabel_noonIconStroke" n1:nextFocusDown="@id/editLabel_fallColor" n1:text="" n1:hint="@string/configHint_themeColorSunrise" style="@style/ColorEdit" />
+            <ImageButton n1:id="@id/editButton_dayColor" n1:layout_marginRight="4.0dip" n1:contentDescription="@string/timeMode_day" style="@style/ColorEditButton" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/layout_civilColor" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dip" n1:layout_marginRight="8.0dip" n2:layout_constraintStart_toEndOf="@id/layout_dayColor" n2:layout_constraintTop_toTopOf="@id/layout_dayColor">
+            <TextView n1:id="@id/editLabel_civilColor" n1:nextFocusLeft="@id/editLabel_dayColor" n1:nextFocusRight="@id/editLabel_nauticalColor" n1:nextFocusUp="@id/editLabel_dayColor" n1:nextFocusDown="@id/editLabel_astroColor" n1:text="@string/timeMode_civil_short" style="@style/ColorEditLabel" />
+            <EditText n1:id="@id/edit_civilColor" n1:visibility="gone" n1:nextFocusLeft="@id/editLabel_dayColor" n1:nextFocusRight="@id/editLabel_nauticalColor" n1:nextFocusUp="@id/editLabel_dayColor" n1:nextFocusDown="@id/editLabel_astroColor" n1:text="" n1:hint="@string/configHint_themeColorSunset" style="@style/ColorEdit" />
+            <ImageButton n1:id="@id/editButton_civilColor" n1:layout_marginRight="4.0dip" n1:contentDescription="@string/timeMode_civil_short" style="@style/ColorEditButton" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/layout_nauticalColor" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toBottomOf="@id/layout_dayColor">
+            <TextView n1:id="@id/editLabel_nauticalColor" n1:nextFocusLeft="@id/editLabel_civilColor" n1:nextFocusRight="@id/editLabel_astroColor" n1:nextFocusUp="@id/editLabel_dayColor" n1:nextFocusDown="@id/editLabel_astroColor" n1:text="@string/timeMode_nautical_short" style="@style/ColorEditLabel" />
+            <EditText n1:id="@id/edit_nauticalColor" n1:visibility="gone" n1:nextFocusLeft="@id/editLabel_civilColor" n1:nextFocusRight="@id/editLabel_astroColor" n1:nextFocusUp="@id/editLabel_dayColor" n1:nextFocusDown="@id/editLabel_astroColor" n1:text="" n1:hint="@string/configHint_themeColorSunrise" style="@style/ColorEdit" />
+            <ImageButton n1:id="@id/editButton_nauticalColor" n1:layout_marginRight="4.0dip" n1:contentDescription="@string/timeMode_nautical_short" style="@style/ColorEditButton" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/layout_astroColor" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dip" n1:layout_marginRight="8.0dip" n2:layout_constraintStart_toEndOf="@id/layout_nauticalColor" n2:layout_constraintTop_toTopOf="@id/layout_nauticalColor">
+            <TextView n1:id="@id/editLabel_astroColor" n1:nextFocusLeft="@id/editLabel_nauticalColor" n1:nextFocusRight="@id/editLabel_nightColor" n1:nextFocusUp="@id/editLabel_civilColor" n1:nextFocusDown="@id/editLabel_nightColor" n1:text="@string/timeMode_astronomical_short" style="@style/ColorEditLabel" />
+            <EditText n1:id="@id/edit_astroColor" n1:visibility="gone" n1:nextFocusLeft="@id/editLabel_nauticalColor" n1:nextFocusRight="@id/editLabel_nightColor" n1:nextFocusUp="@id/editLabel_civilColor" n1:nextFocusDown="@id/editLabel_nightColor" n1:text="" n1:hint="@string/configHint_themeColorSunset" style="@style/ColorEdit" />
+            <ImageButton n1:id="@id/editButton_astroColor" n1:layout_marginRight="4.0dip" n1:contentDescription="@string/timeMode_astronomical_short" style="@style/ColorEditButton" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/layout_nightColor" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toBottomOf="@id/layout_nauticalColor">
+            <TextView n1:id="@id/editLabel_nightColor" n1:nextFocusLeft="@id/editLabel_astroColor" n1:nextFocusUp="@id/editLabel_nauticalColor" n1:text="@string/timeMode_night" style="@style/ColorEditLabel" />
+            <EditText n1:id="@id/edit_nightColor" n1:visibility="gone" n1:nextFocusLeft="@id/editLabel_astroColor" n1:nextFocusUp="@id/editLabel_nauticalColor" n1:text="" n1:hint="@string/configHint_themeColorSunset" style="@style/ColorEdit" />
+            <ImageButton n1:id="@id/editButton_nightColor" n1:layout_marginRight="4.0dip" n1:contentDescription="@string/timeMode_night" style="@style/ColorEditButton" />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</merge>

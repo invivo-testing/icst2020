@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/mmx_activity_horizontal_margin" android:paddingTop="@dimen/mmx_activity_vertical_margin" android:paddingRight="@dimen/mmx_activity_horizontal_margin" android:paddingBottom="@dimen/mmx_activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/mmx_activity_side_padding" android:paddingRight="@dimen/mmx_activity_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.money.manager.ex.view.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/parent" style="@style/Money.TextView.Header.Caption" />
+        <com.money.manager.ex.view.RobotoTextView android:gravity="start|center|top" android:id="@id/parentAssetClass" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/parent" android:scrollHorizontally="false" android:textCursorDrawable="@null" style="@style/Money.TextView.Widget.EditText" />
+        <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.money.manager.ex.view.RobotoEditText android:gravity="start|center|top" android:id="@id/nameEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/asset_class_name" android:scrollHorizontally="false" android:maxLength="1000" android:drawablePadding="@dimen/mmx_padding" android:inputType="text" android:textCursorDrawable="@null" />
+        </android.support.design.widget.TextInputLayout>
+        <com.money.manager.ex.view.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/allocation" style="@style/Money.TextView.Header.Caption" />
+        <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="end" android:id="@id/allocationEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Money.TextView.Widget.EditText" />
+        <com.money.manager.ex.view.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sort_order" style="@style/Money.TextView.Header.Caption" />
+        <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="end" android:id="@id/sortOrderEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Money.TextView.Widget.EditText" />
+    </LinearLayout>
+</LinearLayout>

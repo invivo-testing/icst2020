@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="?colorPrimary" android:contentDescription="@null" android:layout_marginStart="18.0dip" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/ic_add_gray_24dp" />
+    <TextView android:textSize="14.0sp" android:textColor="?colorPrimary" android:id="@id/wiki_language_title" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/wikipedia_languages_add_language_text" android:layout_weight="1.0" android:lineSpacingExtra="8.0sp" android:textAllCaps="true" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

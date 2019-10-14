@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="?ic_action_download" android:id="@id/menu_update_exchange_rate" android:title="@string/update_menu_currency_exchange_rates" app:showAsAction="always" />
+    <item android:icon="@null" android:id="@id/menu_import_all_currencies" android:title="@string/import_all_currencies" app:showAsAction="ifRoom" />
+    <item android:icon="?ic_action_tick" android:id="@id/menu_show_used" android:checked="true" android:title="@string/show_only_used" android:checkable="true" />
+</menu>

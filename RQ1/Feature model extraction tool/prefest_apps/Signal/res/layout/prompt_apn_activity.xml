@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/background_pattern_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages" style="@style/Registration.Description" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/prompt_mms_activity__to_send_media_and_group_messages_tap_ok" style="@style/Registration.Description" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip">
+                <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/cancel_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:text="@android:string/cancel" android:layout_weight="1.0" />
+                <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/ok_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.thoughtcrime.securesms.components.camera.CameraView android:id="@id/scanner" android:layout_width="fill_parent" android:layout_height="fill_parent" app:camera="0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0">
+        <org.thoughtcrime.securesms.components.ShapeScrim android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="?android:windowBackground" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/devices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_devices_white" android:tint="@color/gray27" android:transitionName="devices" />
+            <TextView android:textColor="?android:textColorSecondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_add_fragment__scan_the_qr_code_displayed_on_the_device_to_link" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

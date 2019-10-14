@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:id="@id/view_card_offline_top_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_offline_card_text" style="@style/MaterialMediumSecondaryCaption" />
+    <TextView android:id="@id/view_card_offline_button_retry" android:layout_margin="8.0dip" android:text="@string/page_error_retry" style="@style/App.Button.White" />
+</LinearLayout>

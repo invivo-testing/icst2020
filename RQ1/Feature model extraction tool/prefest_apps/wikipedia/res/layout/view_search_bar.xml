@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/search_container" android:background="?selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="center" android:contentDescription="@string/search_hint" app:srcCompat="@drawable/ic_search_white_24dp" app:tint="?material_theme_secondary_color" />
+    <TextView android:textColor="?material_theme_de_emphasised_color" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/search_hint" android:layout_weight="1.0" />
+    <android.support.v7.widget.AppCompatImageView android:id="@id/voice_search_button" android:background="?selectableItemBackground" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="center" android:contentDescription="@string/search_hint" app:srcCompat="@drawable/ic_mic_black_24dp" app:tint="?material_theme_secondary_color" />
+</LinearLayout>

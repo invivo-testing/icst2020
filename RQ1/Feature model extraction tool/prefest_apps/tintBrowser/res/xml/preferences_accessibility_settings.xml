@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n1:title="@string/PreferenceCategoryTextSizeTitle"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <org.tint.ui.preferences.AccessibilityPreviewPreference n1:title="@string/PreferenceAccessibilityTextSizePreviewTitle" />
+        <org.tint.ui.preferences.SeekBarPreference n1:title="@string/PreferenceAccessibilityTextScalingTitle" n1:key="PREFERENCE_TEXT_SCALING" n1:defaultValue="100" n2:maxValue="200" n2:minValue="50" n2:stepValue="5" n2:symbol="%%"
+          xmlns:n2="http://schemas.android.com/apk/res/org.tint" />
+        <org.tint.ui.preferences.SeekBarPreference n1:title="@string/PreferenceAccessibilityMinimumFontSizeTitle" n1:key="PREFERENCE_MINIMUM_FONT_SIZE" n1:summary="@string/PreferenceAccessibilityMinimumFontSizeSummary" n1:defaultValue="1" n3:maxValue="24" n3:minValue="1" n3:symbol="pt"
+          xmlns:n3="http://schemas.android.com/apk/res/org.tint" />
+    </PreferenceCategory>
+    <PreferenceCategory n4:title="@string/PreferenceCategoryInvertedScreenRenderingTitle"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n4:title="@string/PreferenceAccessibilityInvertedRenderingTitle" n4:key="PREFERENCE_INVERTED_DISPLAY" n4:summary="@string/PreferenceAccessibilityInvertedRenderingSummary" n4:defaultValue="false" />
+        <org.tint.ui.preferences.SeekBarPreference n4:title="@string/PreferenceAccessibilityInvertedRenderingContrastTitle" n4:key="PREFERENCE_INVERTED_DISPLAY_CONTRAST" n4:defaultValue="100" n5:maxValue="300" n5:minValue="100" n5:stepValue="10" n5:symbol=" %%"
+          xmlns:n5="http://schemas.android.com/apk/res/org.tint" />
+    </PreferenceCategory>
+</PreferenceScreen>

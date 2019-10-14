@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.wikipedia.feed.view.CardHeaderView android:id="@id/view_list_card_header" android:layout_width="fill_parent" android:layout_height="@dimen/view_card_header_height" />
+    <org.wikipedia.feed.view.CardLargeHeaderView android:id="@id/view_list_card_large_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/view_card_header_large_height" app:layout_constraintTop_toBottomOf="@id/view_list_card_header" />
+    <android.support.v7.widget.RecyclerView android:id="@id/view_list_card_list" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/view_list_card_large_header" />
+    <LinearLayout android:id="@id/view_list_card_more_container" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_below="@id/view_list_card_list" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view_list_card_list">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?secondary_text_color" android:contentDescription="@null" app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+        <TextView android:textColor="?secondary_text_color" android:gravity="center_vertical" android:id="@id/view_list_card_more_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?android:textColorSecondary" android:id="@id/unknown_sender_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="25.0dip" android:text="@string/unknown_sender_view__the_sender_is_not_in_your_contact_list" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/block" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_block_white_24dp" android:tint="@color/signal_primary" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/signal_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/unknown_sender_view__block" android:textAllCaps="true" android:layout_marginStart="15.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/add_to_contacts" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_person_add_white_24dp" android:tint="@color/signal_primary" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/signal_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/unknown_sender_view__add_to_contacts" android:textAllCaps="true" android:layout_marginStart="15.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/share_profile" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_face_white_24dp" android:tint="@color/signal_primary" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/signal_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/unknown_sender_view__don_t_add_but_make_my_profile_visible" android:textAllCaps="true" android:layout_marginStart="15.0dip" />
+    </LinearLayout>
+</LinearLayout>

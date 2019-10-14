@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:textColor="?overlay_foreground_color" android:gravity="right" android:paddingRight="5.0dip" android:text="@string/_title" />
+        <TextView android:textStyle="bold" android:textColor="?overlay_foreground_color" android:id="@id/title" />
+        <TextView android:gravity="right" android:layout_gravity="top" android:id="@id/queue_pos" android:singleLine="true" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="?overlay_foreground_color" android:gravity="right" android:paddingRight="5.0dip" android:text="@string/_artist" />
+        <TextView android:textColor="?overlay_foreground_color" android:id="@id/artist" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="?overlay_foreground_color" android:gravity="right" android:paddingRight="5.0dip" android:text="@string/_album" />
+        <TextView android:textColor="?overlay_foreground_color" android:id="@id/album" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="?overlay_foreground_color" android:gravity="right" android:paddingRight="5.0dip" android:text="@string/_genre" />
+        <TextView android:textColor="?overlay_foreground_color" android:id="@id/genre" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="?overlay_foreground_color" android:gravity="right" android:paddingRight="5.0dip" android:text="@string/_track" />
+        <TextView android:textColor="?overlay_foreground_color" android:id="@id/track" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="?overlay_foreground_color" android:gravity="right" android:paddingRight="5.0dip" android:text="@string/_year" />
+        <TextView android:textColor="?overlay_foreground_color" android:id="@id/year" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="?overlay_foreground_color" android:gravity="right" android:paddingRight="5.0dip" android:text="@string/_composer" />
+        <TextView android:textColor="?overlay_foreground_color" android:id="@id/composer" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="?overlay_foreground_color" android:gravity="right" android:paddingRight="5.0dip" android:text="@string/_path" />
+        <TextView android:textColor="?overlay_foreground_color" android:id="@id/path" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="?overlay_foreground_color" android:gravity="right" android:paddingRight="5.0dip" android:text="@string/_format" />
+        <TextView android:textColor="?overlay_foreground_color" android:id="@id/format" />
+    </TableRow>
+</merge>

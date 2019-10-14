@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:theme="?actionBarStyle" android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" android:elevation="4.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <org.thoughtcrime.securesms.components.emoji.EmojiTextView android:textSize="20.0sp" android:id="@id/name_edit_display_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" />
+            <org.thoughtcrime.securesms.components.emoji.EmojiEditText android:id="@id/name_edit_prefix" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/ContactNameEditActivity_prefix" />
+            <org.thoughtcrime.securesms.components.emoji.EmojiEditText android:id="@id/name_edit_given_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/ContactNameEditActivity_given_name" />
+            <org.thoughtcrime.securesms.components.emoji.EmojiEditText android:id="@id/name_edit_middle_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/ContactNameEditActivity_middle_name" />
+            <org.thoughtcrime.securesms.components.emoji.EmojiEditText android:id="@id/name_edit_family_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/ContactNameEditActivity_family_name" />
+            <org.thoughtcrime.securesms.components.emoji.EmojiEditText android:id="@id/name_edit_suffix" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/ContactNameEditActivity_suffix" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

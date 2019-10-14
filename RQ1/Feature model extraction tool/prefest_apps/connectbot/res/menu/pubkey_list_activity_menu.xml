@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:connectbot="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_add_box" android:id="@id/add_new_key_icon" android:title="@string/pubkey_add_new" connectbot:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_folder_open" android:id="@id/import_existing_key_icon" android:title="@string/pubkey_import_existing" connectbot:showAsAction="ifRoom" />
+</menu>

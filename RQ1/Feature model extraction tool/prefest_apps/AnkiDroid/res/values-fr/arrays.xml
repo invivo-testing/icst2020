@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s : &lt;br/>Cartes mémoire pour Android&lt;/h2>AnkiDroid est une application de cartes mémoire qui est entièrement compatible avec le logiciel &lt;a href=\"%2$s\"> Anki&lt;/a>. Vous pouvez créer, télécharger et apprendre le matériel à votre convenance sur AnkiDroid ou Anki Desktop, et synchroniser facilement avec AnkiWeb.</item>
+        <item>"Pour nous aider à améliorer AnkiDroid, veuillez signaler les bogues sur &lt;a href=\"%1$s\"> le gestionnaire d'incidents&lt;/a> ; vos idées de nouvelles fonctionnalité sont également bienvenues. Trouvez des réponses à vos questions sur &lt;a href=\"%2$s\">le wiki&lt;/a> ou entamez une discussion sur &lt;a href=\"%3$s\">le forum&lt;/a>."</item>
+        <item>AnkiDroid est &lt;a href=\"%1$s\">un logiciel open source &lt;a/>, tout le monde est donc encouragé à &lt;a href=\"%2$s\">devenir un contributeur&lt;/a> :-)</item>
+        <item>Les non-programmeurs peuvent aussi aider. Par exemple, vous pouvez aider à &lt;a href=\"%1$s\">traduire&lt;/a> AnkiDroid, mettre à jour le wiki, envoyer des screenshots ou partager AnkiDroid sur votre blog.</item>
+        <item>AnkiDroid est distribué sous la &lt;a href=\"%1$s\">licence GNU-GPL v3&lt;/a> et le code source est disponible &lt;a href=\"%2$s\">sur GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Utilisez le paquet courant</item>
+        <item>Décider par type de note</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Haut</item>
+        <item>Bas</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Question</item>
+        <item>Trier</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Réponse</item>
+        <item>Carte</item>
+        <item>Paquet</item>
+        <item>Note</item>
+        <item>Question</item>
+        <item>Étiquettes</item>
+        <item>Échecs</item>
+        <item>Révisions</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Pas de tri (plus rapide)</item>
+        <item>Par champ de tri</item>
+        <item>Par ancienneté</item>
+        <item>Par date de correction</item>
+        <item>Par date de changement</item>
+        <item>Par date d’échéance</item>
+        <item>Par largeur de l’intervalle</item>
+        <item>Par simplicité</item>
+        <item>Par le nombre de répétitions passées</item>
+        <item>Par difficulté</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Les plus anciennes en premier</item>
+        <item>Au hasard</item>
+        <item>Intervalles croissants</item>
+        <item>Intervalles décroissants</item>
+        <item>Les plus échouées</item>
+        <item>L’ordre d’ajout</item>
+        <item>Les plus urgentes d’abord</item>
+        <item>Les dernières ajoutées d’abord</item>
+        <item>Retard relatif</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Lumineux</item>
+        <item>Clair</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Jours</item>
+        <item>semaines</item>
+        <item>mois</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Toujours envoyer un rapport d’erreur</item>
+        <item>Ne jamais envoyer de rapport d’erreur</item>
+        <item>Me demander</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Aucune action</item>
+        <item>Afficher la réponse</item>
+        <item>Bouton de réponse 1</item>
+        <item>Bouton de réponse 2</item>
+        <item>Bouton de réponse 3</item>
+        <item>Bouton de réponse 4</item>
+        <item>Réponse recommandée (vert)</item>
+        <item>Réponse meilleure que celle recommandée</item>
+        <item>Annuler</item>
+        <item>Modifier la note</item>
+        <item>Marquer la note</item>
+        <item>Rechercher l’expression</item>
+        <item>Enterrer la carte</item>
+        <item>Suspendre la carte</item>
+        <item>Supprimer la note</item>
+        <item>Lancer le média</item>
+        <item>Interrompre l’apprentissage</item>
+        <item>Enterrer la note</item>
+        <item>Suspendre la note</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Suspendre la carte</item>
+        <item>Étiqueter uniquement</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Nouvelles cartes dans un ordre aléatoire</item>
+        <item>Nouvelles cartes dans l’ordre d’ajout</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Mélangez nouvelles cartes et révisions</item>
+        <item>Nouvelles cartes après les révisions</item>
+        <item>Nouvelles cartes avant les révisions</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Noir</item>
+        <item>Sombre</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Lorsque aucune police n’est spécifié sur la carte</item>
+        <item>Toujours</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4 H</item>
+        <item>10 H</item>
+        <item>16 H</item>
+        <item>22 H</item>
+        <item>3 H</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Dim</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mer</item>
+        <item>Jeu</item>
+        <item>Ven</item>
+        <item>Sam</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/textViewDate" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold|italic" android:layout_gravity="center_horizontal" android:id="@id/textViewNextDueDate" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:background="?shape_white_background_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/mmx_margin" android:layout_marginTop="@dimen/mmx_margin_bottom_top" android:layout_marginRight="@dimen/mmx_margin" android:layout_marginBottom="@dimen/mmx_margin_bottom_top">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/mmx_padding" android:paddingRight="@dimen/mmx_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:id="@id/textViewAccountName" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:id="@id/textViewRepeat" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/mmx_margin_bottom_top" />
+            <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:textColor="?holo_red_color_theme" android:gravity="right" android:id="@id/textViewAmount" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/mmx_margin_bottom_top" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/mmx_padding" android:paddingRight="@dimen/mmx_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:id="@id/linearLayoutPayee" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/imageViewFollowUp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/light_bulb" />
+                    <com.money.manager.ex.view.RobotoTextView android:id="@id/textViewPayee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/linearLayoutToAccount" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrows_reload_icon" android:contentDescription="@string/transfer" />
+                    <com.money.manager.ex.view.RobotoTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/textViewToAccountName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/imageViewClock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?ic_action_warning" />
+        </LinearLayout>
+        <com.money.manager.ex.view.RobotoTextView android:id="@id/textViewCategorySub" android:paddingLeft="@dimen/mmx_padding" android:paddingRight="@dimen/mmx_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.money.manager.ex.view.RobotoTextView android:textStyle="italic" android:id="@id/textViewNotes" android:paddingLeft="@dimen/mmx_padding" android:paddingRight="@dimen/mmx_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

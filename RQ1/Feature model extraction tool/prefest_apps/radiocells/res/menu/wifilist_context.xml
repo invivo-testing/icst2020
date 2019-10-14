@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu n1:showAsAction="always" xmlns:n1="http://schemas.android.com/apk/res-auto">
+    <item n2:icon="@android:drawable/ic_menu_delete" n2:id="@id/menu_sort_timestamp" n2:title="@string/sort_by_timestamp"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="@android:drawable/ic_notification_clear_all" n3:id="@id/menu_sort_ssid" n3:title="@string/sort_by_ssid"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="@android:drawable/ic_menu_delete" n4:id="@id/menu_display_only_new" n4:title="@string/show_only_new"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:icon="@android:drawable/ic_menu_delete" n5:id="@id/menu_display_free" n5:title="@string/show_only_free"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:icon="@android:drawable/ic_menu_delete" n6:id="@id/menu_display_all" n6:title="@string/show_all"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+</menu>

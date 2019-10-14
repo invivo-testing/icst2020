@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/main_layout" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/card_template_editor_front" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/front_edit" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:inputType="textMultiLine" android:contentDescription="@string/card_template_editor_front" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/card_template_editor_styling" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/styling_edit" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="" android:inputType="textMultiLine" android:contentDescription="@string/card_template_editor_styling" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/card_template_editor_back" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/back_edit" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:inputType="textMultiLine" android:contentDescription="@string/card_template_editor_back" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

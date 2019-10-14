@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d berichten per gesprek</item>
+        <item quantity="one">%d bericht per gesprek</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Dit zal onmiddellijk alle gesprekken inkorten tot de laatste %d berichten.</item>
+        <item quantity="one">Dit zal onmiddellijk alle gesprekken inkorten tot het laatste bericht.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d ongelezen berichten</item>
+        <item quantity="one">%d ongelezen bericht</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Geselecteerde berichten verwijderen?</item>
+        <item quantity="one">Geselecteerd bericht verwijderen?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Fout tijdens het opslaan van de bijlage!</item>
+        <item quantity="one">Fout tijdens het opslaan van de bijlage!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">%1$d bijlagen opslaan</item>
+        <item quantity="one">Bijlage opslaan</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">%1$d bijlagen opslaan...</item>
+        <item quantity="one">Bijlage opslaan...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Als je al deze %1$d gegevens opslaat in de mediaopslag kunnen alle andere apps op je apparaat deze gegevens benaderen.
+
+Doorgaan?"</item>
+        <item quantity="one">"Als je dit bestand opslaat in de mediaopslag kunnen alle andere apps op je apparaat deze gegevens benaderen.
+
+Doorgaan?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Dit zal alle %1$d geselecteerde berichten voorgoed verwijderen.</item>
+        <item quantity="one">Dit zal het geselecteerde bericht voorgoed verwijderen.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d gesprekken gearchiveerd</item>
+        <item quantity="one">Gesprek gearchiveerd</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Geselecteerde gesprekken verwijderen?</item>
+        <item quantity="one">Geselecteerd gesprek verwijderen?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d gesprekken naar postvak IN verplaatst</item>
+        <item quantity="one">Gesprek naar postvak IN verplaatst</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Dit zal alle %1$d geselecteerde gesprekken voorgoed verwijderen.</item>
+        <item quantity="one">Dit zal het geselecteerde gesprek voorgoed verwijderen.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s zijn toegevoegd aan de groep.</item>
+        <item quantity="one">%1$s is toegevoegd aan de groep.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">%d sms-uitnodigingen verzenden?</item>
+        <item quantity="one">%d sms-uitnodiging verzenden?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">VERZEND SMS NAAR %d VRIENDEN</item>
+        <item quantity="one">VERZEND SMS NAAR %d VRIEND</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Dit zal alle %1$d geselecteerde berichten voorgoed verwijderen.</item>
+        <item quantity="one">Dit zal het geselecteerde bericht voorgoed verwijderen.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Geselecteerde berichten verwijderen?</item>
+        <item quantity="one">Geselecteerd bericht verwijderen?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Je bent nu %d stappen verwijderd van het indienen van een foutopsporingslogboek.</item>
+        <item quantity="one">Je bent nu %d stap verwijderd van het indienen van een debuglog.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d Items</item>
+        <item quantity="one">%d Item</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d dagen</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d seconden</item>
+        <item quantity="one">%d seconde</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d weken</item>
+        <item quantity="one">%d week</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d uren</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d anderen</item>
+        <item quantity="one">%d andere</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Je versie van Signal zal over %d dagen verlopen. Tik om bij te werken naar de meest recente versie.</item>
+        <item quantity="one">Je versie van Signal zal over %d dag verlopen. Tik om bij te werken naar de meest recente versie.</item>
+    </plurals>
+</resources>

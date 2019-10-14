@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилин</item>
+        <item quantity="many">%d хвилин</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d повідомлень на розмову</item>
+        <item quantity="one">%d повідомлення на розмову</item>
+        <item quantity="few">%d повідомлень на розмову</item>
+        <item quantity="many">%d повідомлень на розмову</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
+        <item quantity="one">Це одразу скоротить всі розмови до останнього повідомлення.</item>
+        <item quantity="few">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
+        <item quantity="many">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d непрочитаних повідомлень</item>
+        <item quantity="one">%d непрочитане повідомлення</item>
+        <item quantity="few">%d непрочитаних повідомлень</item>
+        <item quantity="many">%d непрочитаних повідомлень</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Видалити обрані повідомлення?</item>
+        <item quantity="one">Видалити обране повідомлення?</item>
+        <item quantity="few">Видалити обрані повідомлення?</item>
+        <item quantity="many">Видалити обрані повідомлення?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Під час збереження вкладень до сховища сталася помилка!</item>
+        <item quantity="one">Під час збереження вкладення до сховища сталася помилка!</item>
+        <item quantity="few">Під час збереження вкладень до сховища сталася помилка!</item>
+        <item quantity="many">Під час збереження вкладень до сховища сталася помилка!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Збереження %1$d вкладень</item>
+        <item quantity="one">Збереження вкладення</item>
+        <item quantity="few">Збереження %1$d вкладень</item>
+        <item quantity="many">Збереження %1$d вкладень</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Збереження %1$d вкладень до сховища...</item>
+        <item quantity="one">Збереження вкладення до сховища...</item>
+        <item quantity="few">Збереження %1$d вкладень до сховища...</item>
+        <item quantity="many">Збереження %1$d вкладень до сховища...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Збереження всіх %1$d файлів до пам'яті пристрою зробить їх доступними для інших програм на вашому пристрої.
+
+Продовжити?"</item>
+        <item quantity="one">"Збереження цього файлу до пам'яті пристрою зробить його доступним іншим програмам на вашому пристрої.
+
+Продовжити?"</item>
+        <item quantity="few">"Збереження всіх %1$d файлів до пам'яті пристрою зробить їх доступними для інших програм на вашому пристрої.
+
+Продовжити?"</item>
+        <item quantity="many">"Збереження всіх %1$d файлів до пам'яті пристрою зробить їх доступними для інших програм на вашому пристрої.
+
+Продовжити?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Це назавжди видалить усі %1$d обраних повідомлень.</item>
+        <item quantity="one">Це назавжди видалить обране повідомлення.</item>
+        <item quantity="few">Це назавжди видалить усі %1$d обрані повідомлення.</item>
+        <item quantity="many">Це назавжди видалить усі %1$d обраних повідомлень.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d розмов заархівовано</item>
+        <item quantity="one">Розмову заархівовано</item>
+        <item quantity="few">%d розмови заархівовано</item>
+        <item quantity="many">%d розмов заархівовано</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Видалити обрані бесіди?</item>
+        <item quantity="one">Видалити обрану бесіду?</item>
+        <item quantity="few">Видалити обрані бесіди?</item>
+        <item quantity="many">Видалити обрані бесіди?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d розмов переміщено до вхідних</item>
+        <item quantity="one">Розмову переміщено до вхідних</item>
+        <item quantity="few">%d розмови переміщено до вхідних</item>
+        <item quantity="many">%d розмов переміщено до вхідних</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Це остаточно видалить усі %1$d обрані бесіди.</item>
+        <item quantity="one">Це остаточно видалить обрану бесіду.</item>
+        <item quantity="few">Це остаточно видалить усі %1$d обрані бесіди.</item>
+        <item quantity="many">Це остаточно видалить усі %1$d обрані бесіди.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s приєдналися до групи.</item>
+        <item quantity="one">%1$s приєднується до групи.</item>
+        <item quantity="few">%1$s приєдналися до групи.</item>
+        <item quantity="many">%1$s приєдналися до групи.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Надіслати %d SMS запрошень?</item>
+        <item quantity="one">Надіслати %d SMS запрошення?</item>
+        <item quantity="few">Надіслати %d SMS запрошень?</item>
+        <item quantity="many">Надіслати %d SMS запрошень?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">НАДІСЛАТИ SMS ДО %d ДРУЗІВ</item>
+        <item quantity="one">НАДІСЛАТИ SMS ДО %d ДРУГА</item>
+        <item quantity="few">НАДІСЛАТИ SMS ДО %d ДРУЗІВ</item>
+        <item quantity="many">НАДІСЛАТИ SMS ДО %d ДРУЗІВ</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Це назавжди видалить усі %1$d обраних повідомлень.</item>
+        <item quantity="one">Це назавжди видалить обране повідомлення.</item>
+        <item quantity="few">Це назавжди видалить усі %1$d обраних повідомлень.</item>
+        <item quantity="many">Це назавжди видалить усі %1$d обраних повідомленнь</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Видалити обрані повідомлення?</item>
+        <item quantity="one">Видалити обране повідомлення?</item>
+        <item quantity="few">Видалити обрані повідомлення?</item>
+        <item quantity="many">Видалити обрані повідомлення?</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d днів</item>
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d днів</item>
+        <item quantity="many">%d днів</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d годин</item>
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d годин</item>
+        <item quantity="many">%d годин</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилин</item>
+        <item quantity="many">%d хвилин</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунд</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d тижнів</item>
+        <item quantity="one">%d тиждень</item>
+        <item quantity="few">%d тижнів</item>
+        <item quantity="many">%d тижнів</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d годин</item>
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d інших</item>
+        <item quantity="one">%d інший</item>
+        <item quantity="few">%d інших</item>
+        <item quantity="many">%d інших</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Вашу версію Signal перестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
+        <item quantity="one">Вашу версію Сигналу перестануть підтримувати за %d день. Торкніться, щоб оновити до останньої версії.</item>
+        <item quantity="few">Вашу версію Сигналу перестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
+        <item quantity="many">Вашу версію Сигналу перестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/multipleBaseTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/multiple_share_base_title" android:imeOptions="flagNoExtractUi" />
+    <GridView android:id="@id/multipleShareBackground" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:stretchMode="columnWidth" android:numColumns="auto_fit" android:fastScrollEnabled="false" />
+</LinearLayout>

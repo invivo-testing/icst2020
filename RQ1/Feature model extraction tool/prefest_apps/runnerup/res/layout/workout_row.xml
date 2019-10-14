@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start" android:id="@id/step_intensity" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/intensity" android:layout_weight="1.0" />
+    <TextView android:gravity="start" android:id="@id/step_duration_type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/distance" android:layout_weight="1.0" />
+    <TextView android:gravity="start" android:id="@id/step_duration_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:gravity="start" android:id="@id/step_pace" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

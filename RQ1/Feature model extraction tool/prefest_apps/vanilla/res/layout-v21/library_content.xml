@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vanilla="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.iosched.tabs.VanillaTabLayout android:id="@id/sliding_tabs" android:background="?tabs_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" />
+        <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+        <HorizontalScrollView android:layout_gravity="bottom|center|left" android:id="@id/limiter_scroller" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/limiter_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+    </LinearLayout>
+    <ch.blinkenlights.android.vanilla.SlidingView android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/sliding_view" android:layout_width="fill_parent" android:layout_height="fill_parent" vanilla:slider_handle_id="@id/bottombar_controls" vanilla:slider_slave_id="@id/content">
+        <LinearLayout android:orientation="horizontal" android:background="?overlay_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/bottombar_controls" layout="@layout/bottombar_controls" />
+        </LinearLayout>
+        <include layout="@layout/seek_bar" />
+        <include layout="@layout/controls" />
+        <fragment android:id="@id/queue" android:layout_width="fill_parent" android:layout_height="fill_parent" class="ch.blinkenlights.android.vanilla.ShowQueueFragment" />
+    </ch.blinkenlights.android.vanilla.SlidingView>
+</merge>

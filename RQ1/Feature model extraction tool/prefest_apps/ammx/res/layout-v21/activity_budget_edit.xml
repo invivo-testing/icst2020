@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/appbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="250.0dip" android:elevation="@dimen/mmx_toolbar_elevation">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentScrim="?colorPrimary" app:expandedTitleMarginEnd="64.0dip" app:expandedTitleMarginStart="48.0dip" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+            <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mmx_side_icon_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/mmx_side_icon_margin" android:scaleType="centerCrop" android:minWidth="50.0dip" android:minHeight="50.0dip" android:layout_marginStart="@dimen/mmx_side_icon_margin" android:layout_marginEnd="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="mmx-law" app:iiv_size="120.0dip" app:layout_collapseMode="parallax" />
+            <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" app:layout_scrollFlags="enterAlways|scroll" app:popupTheme="?toolbarAppPopupTheme" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView android:id="@id/budgetEditorScrollView" android:fitsSystemWindows="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/mmx_activity_side_padding" android:paddingRight="@dimen/mmx_activity_side_padding" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_list_two_line_item_height">
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mmx_side_icon_margin" android:layout_marginEnd="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="mmx-law" app:iiv_size="@dimen/mmx_icon_size" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/budget_name" style="?headerTextViewStyle" />
+                    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/budgetNameTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/budget_name" style="@style/Money.TextView.Widget.EditText" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_list_two_line_item_height">
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mmx_side_icon_margin" android:layout_marginEnd="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="gmd-edit" app:iiv_size="@dimen/mmx_icon_size" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/budget_year" style="?headerTextViewStyle" />
+                    <com.money.manager.ex.view.RobotoTextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/budgetYearTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/budget_year" style="@style/Money.TextView.Widget.EditText" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_list_two_line_item_height">
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mmx_side_icon_margin" android:layout_marginEnd="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="gmd-edit" app:iiv_size="@dimen/mmx_icon_size" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/budget_month" style="?headerTextViewStyle" />
+                    <com.money.manager.ex.view.RobotoTextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/budgetMonthTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/budget_month" style="@style/Money.TextView.Widget.EditText" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

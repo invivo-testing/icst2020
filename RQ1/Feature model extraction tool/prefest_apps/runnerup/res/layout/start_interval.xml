@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/tab_interval" android:paddingLeft="@dimen/activity_margin" android:paddingTop="@dimen/activity_margin" android:paddingRight="@dimen/activity_margin" android:paddingBottom="@dimen/margin_for_fab" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:runnerup="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.runnerup.widget.TitleSpinner android:id="@id/interval_audio_cue_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Audio_cue_settings" android:key="@string/pref_interval_audio" runnerup:type="spinner_txt" />
+        <org.runnerup.widget.TitleSpinner android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Repetitions" android:prompt="@string/Type" android:key="@string/pref_interval_repetitions" android:defaultValue="5" android:inputType="number" runnerup:type="numberpicker" />
+        <org.runnerup.widget.TitleSpinner android:entries="@array/types" android:id="@id/interval_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Interval_type" android:prompt="@string/Type" android:key="@string/pref_interval_type" />
+        <org.runnerup.widget.TitleSpinner android:id="@id/interval_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:prompt="@string/Type" android:key="@string/pref_interval_time" android:defaultValue="00:01:00" android:inputType="time" runnerup:type="durationpicker" />
+        <org.runnerup.widget.TitleSpinner android:id="@id/interval_distance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:prompt="@string/Type" android:key="@string/pref_interval_distance" android:defaultValue="1000" android:inputType="numberDecimal" runnerup:type="distancepicker" />
+        <org.runnerup.widget.TitleSpinner android:entries="@array/types" android:id="@id/interval_rest_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Rest_type" android:prompt="@string/Type" android:key="@string/pref_interval_rest_type" />
+        <org.runnerup.widget.TitleSpinner android:id="@id/interval_rest_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:prompt="@string/Type" android:key="@string/pref_interval_rest_time" android:defaultValue="00:01:00" android:inputType="time" runnerup:type="durationpicker" />
+        <org.runnerup.widget.TitleSpinner android:id="@id/interval_rest_distance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:prompt="@string/Type" android:key="@string/pref_interval_rest_distance" android:defaultValue="200" android:inputType="numberDecimal" runnerup:type="distancepicker" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <CheckBox android:enabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/warm_up" android:layout_weight="1.0" />
+            <CheckBox android:enabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/cool_down" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

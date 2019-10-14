@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.money.manager.ex.view.RobotoTextView android:id="@id/textViewCount" android:paddingRight="@dimen/mmx_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" app:typeface="roboto_medium" style="@android:style/TextAppearance.Large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

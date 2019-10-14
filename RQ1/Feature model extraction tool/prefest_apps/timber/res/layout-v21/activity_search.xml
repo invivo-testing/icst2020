@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n1:elevation="5.0dip" />
+    <android.support.v7.widget.RecyclerView n1:id="@id/recyclerview" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:fadeScrollbars="true" n2:layout_behavior="@string/appbar_scrolling_view_behavior" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

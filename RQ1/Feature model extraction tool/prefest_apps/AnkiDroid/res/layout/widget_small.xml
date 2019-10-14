@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ankidroid_widget_small_layout" android:background="#00ffffff" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center" android:id="@id/ankidroid_widget_small_button" android:background="#00ffffff" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_bg_small" android:scaleType="fitCenter" android:contentDescription="@string/widget_small_button" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ankidroid_widget_text_layout" android:padding="4.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/widget_due" android:background="@drawable/widget_bg_number" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/widget_eta" android:background="@drawable/widget_bg_time" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ImageButton android:layout_gravity="center" android:id="@id/ankidroid_widget_small_finish_layout" android:background="#00ffffff" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_bg_small_finish" android:scaleType="fitCenter" />
+</FrameLayout>

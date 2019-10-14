@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily">
+        <item quantity="other">Кожн. %d д.</item>
+        <item quantity="one">Штодзённа</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">; для %d р.</item>
+        <item quantity="one">; на адзін раз</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">Для мерапрыемства %d</item>
+        <item quantity="one">Для мерапрыемства %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Кожны %d дзень</item>
+        <item quantity="one">Кожны %d дзень</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Кожныя %d мес.</item>
+        <item quantity="one">Кожны %d месяц</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Кожныя %d тыдняў</item>
+        <item quantity="one">Кожны %d тыдз.</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Кожныя %d гадоў</item>
+        <item quantity="one">Кожны %d год</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">Кожныя %1$d тыд. па %2$s</item>
+        <item quantity="one">Кожны тыдзень па %2$s</item>
+    </plurals>
+</resources>

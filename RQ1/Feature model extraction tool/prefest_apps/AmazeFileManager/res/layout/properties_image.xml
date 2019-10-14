@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_generic" app:cardElevation="@dimen/material_generic_card_elevation">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/material_generic" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:paddingBottom="@dimen/material_generic" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_large">
+                <TextView android:textColor="@android:color/darker_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/image" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_type_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/image_type" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_type_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_width_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/width" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_width_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_height_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/height" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_height_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_date_modified_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/date_modified" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_date_modified_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_software_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_software_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_creator_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/creator" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_creator_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_camera_brand_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_brand" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_camera_brand_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_camera_model_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_model" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_camera_model_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_date_taken_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/date_taken" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_date_taken_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_exposure_time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exposure_time" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_exposure_time_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_aperture_value_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aperture_value" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_aperture_value_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_iso_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/image_iso" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_iso_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_flash_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flash_fired" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_flash_title" />
+            </RelativeLayout>
+            <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="@dimen/material_generic" />
+            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_list_item" android:layout_marginLeft="@dimen/material_generic">
+                <TextView android:textSize="@dimen/material_generic_title" android:id="@id/text_view_image_focal_length_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/focal_length" />
+                <TextView android:textSize="@dimen/material_generic_title_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_image_focal_length_title" />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

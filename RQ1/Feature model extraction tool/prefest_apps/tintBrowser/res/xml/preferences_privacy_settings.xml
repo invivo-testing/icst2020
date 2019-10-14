@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.tint.ui.preferences.ClearPreference n1:title="@string/PreferencePrivacyClearCacheTitle" n1:key="PREFERENCE_CLEAR_CACHE" n1:summary="@string/PreferencePrivacyClearCacheSummary" n1:dialogTitle="@string/Clear" n1:dialogMessage="@string/ClearCacheMessage" n1:positiveButtonText="@string/OK" n1:negativeButtonText="@string/Cancel"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <PreferenceScreen n2:title="@string/PreferencePrivacyWebsitesSettingsTitle" n2:key="PREFERENCE_WEBSITES_SETTINGS" n2:summary="@string/PreferencePrivacyWebsitesSettingsSummary"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <PreferenceScreen n3:title="@string/PreferenceSslExceptionsTitle" n3:key="PREFERENCE_SSL_EXCEPTIONS" n3:summary="@string/PreferenceSslExceptionsSummary"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory n4:title="@string/PreferenceCategoryHistoryTitle"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <EditTextPreference n4:numeric="integer" n4:title="@string/PreferencePrivacyHistorySizeTitle" n4:key="PREFERENCE_HISTORY_SIZE" n4:summary="@string/PreferencePrivacyHistorySizeSummary" n4:defaultValue="30" />
+        <org.tint.ui.preferences.ClearPreference n4:title="@string/PreferencePrivacyClearHistoryTitle" n4:key="PREFERENCE_CLEAR_HISTORY" n4:summary="@string/PreferencePrivacyClearHistorySummary" n4:dialogTitle="@string/Clear" n4:dialogMessage="@string/ClearHistoryMessage" n4:positiveButtonText="@string/OK" n4:negativeButtonText="@string/Cancel" />
+    </PreferenceCategory>
+    <PreferenceCategory n5:title="@string/PreferenceCategoryCookiesTitle"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n5:title="@string/PreferencePrivacyAcceptCookiesTitle" n5:key="PREFERENCE_ACCEPT_COOKIES" n5:summary="@string/PreferencePrivacyAcceptCookiesSummary" n5:defaultValue="true" />
+        <org.tint.ui.preferences.ClearPreference n5:title="@string/PreferencePrivacyClearCookiesTitle" n5:key="PREFERENCE_CLEAR_COOKIES" n5:summary="@string/PreferencePrivacyClearCookiesSummary" n5:dialogTitle="@string/Clear" n5:dialogMessage="@string/ClearCookiesMessage" n5:positiveButtonText="@string/OK" n5:negativeButtonText="@string/Cancel" />
+    </PreferenceCategory>
+    <PreferenceCategory n6:title="@string/PreferenceCategoryFormDataTitle"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n6:title="@string/PreferencePrivacyRememberFormDataTitle" n6:key="PREFERENCE_REMEMBER_FORM_DATA" n6:summary="@string/PreferencePrivacyRememberFormDataSummary" n6:defaultValue="true" />
+        <org.tint.ui.preferences.ClearPreference n6:title="@string/PreferencePrivacyClearFormDataTitle" n6:key="PREFERENCE_CLEAR_FORM_DATA" n6:summary="@string/PreferencePrivacyClearFormDataSummary" n6:dialogTitle="@string/Clear" n6:dialogMessage="@string/ClearFormDataMessage" n6:dialogIcon="@android:drawable/ic_dialog_alert" n6:positiveButtonText="@string/OK" n6:negativeButtonText="@string/Cancel" />
+    </PreferenceCategory>
+    <PreferenceCategory n7:title="@string/PreferenceCategoryGeolocationTitle"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n7:title="@string/PreferencePrivacyEnableGeolocationTitle" n7:key="PREFERENCE_ENABLE_GEOLOCATION" n7:summary="@string/PreferencePrivacyEnableGeolocationSummary" n7:defaultValue="true" />
+        <org.tint.ui.preferences.ClearPreference n7:title="@string/PreferencePrivacyClearGeolocationTitle" n7:key="PREFERENCE_CLEAR_GEOLOCATION" n7:summary="@string/PreferencePrivacyClearGeolocationSummary" n7:dialogTitle="@string/Clear" n7:dialogMessage="@string/ClearGeolocationMessage" n7:positiveButtonText="@string/OK" n7:negativeButtonText="@string/Cancel" />
+    </PreferenceCategory>
+    <PreferenceCategory n8:title="@string/PreferenceCategoryPasswordsTitle"
+      xmlns:n8="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n8:title="@string/PreferencePrivacyRememberPasswordsTitle" n8:key="PREFERENCE_REMEMBER_PASSWORDS" n8:summary="@string/PreferencePrivacyRememberPasswordsSummary" n8:defaultValue="true" />
+        <org.tint.ui.preferences.ClearPreference n8:title="@string/PreferencePrivacyClearPasswordsTitle" n8:key="PREFERENCE_CLEAR_PASSWORDS" n8:summary="@string/PreferencePrivacyClearPasswordsSummary" n8:dialogTitle="@string/Clear" n8:dialogMessage="@string/ClearPasswordsMessage" n8:dialogIcon="@android:drawable/ic_dialog_alert" n8:positiveButtonText="@string/OK" n8:negativeButtonText="@string/Cancel" />
+    </PreferenceCategory>
+    <PreferenceCategory n9:title="@string/PreferencePrivacyIncognitoTitle"
+      xmlns:n9="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n9:title="@string/PreferencePrivacyIncognitoDefaultTitle" n9:key="PREFERENCE_INCOGNITO_BY_DEFAULT" n9:summary="@string/PreferencePrivacyIncognitoDefaultSummary" n9:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

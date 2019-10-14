@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_chart" android:visible="false" android:title="@string/show_chart" app:showAsAction="always" />
+    <item android:id="@id/menu_option1" android:visible="false">
+        <menu />
+    </item>
+</menu>

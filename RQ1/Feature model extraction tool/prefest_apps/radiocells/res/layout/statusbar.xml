@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_menu_cell" />
+    <TextView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/gpsstatus_cell_count" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/empty" n1:layout_weight="1.0" />
+    <ImageView n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_menu_wifi" />
+    <TextView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/gpsstatus_wifi_count" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/empty" n1:layout_weight="1.0" />
+    <ImageView n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_added" />
+    <TextView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/gpsstatus_new_wifi_count" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/empty" n1:layout_weight="1.0" />
+    <ImageView n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_menu_mylocation" />
+    <TextView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/gpsstatus_accuracy" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/waiting_for_gps_fix" n1:layout_weight="1.0" />
+    <ImageView n1:layout_gravity="center" n1:id="@id/gpsstatus_sat_indicator" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/sat_indicator_off" />
+</LinearLayout>

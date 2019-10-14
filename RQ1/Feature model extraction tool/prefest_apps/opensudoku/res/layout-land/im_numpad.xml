@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+        <Button n1:id="@id/button_1" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="1" n1:layout_weight="1.0" />
+        <Button n1:id="@id/button_2" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="2" n1:layout_weight="1.0" />
+        <Button n1:id="@id/button_3" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="3" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+        <Button n1:id="@id/button_4" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="4" n1:layout_weight="1.0" />
+        <Button n1:id="@id/button_5" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="5" n1:layout_weight="1.0" />
+        <Button n1:id="@id/button_6" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="6" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+        <Button n1:id="@id/button_7" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="7" n1:layout_weight="1.0" />
+        <Button n1:id="@id/button_8" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="8" n1:layout_weight="1.0" />
+        <Button n1:id="@id/button_9" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="9" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+        <ImageButton n1:id="@id/switch_num_note" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="fitCenter" n1:layout_weight="1.0" />
+        <Button n1:id="@id/button_clear" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="C" n1:layout_weight="1.0" />
+        <Button n1:id="@id/switch_input_mode" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

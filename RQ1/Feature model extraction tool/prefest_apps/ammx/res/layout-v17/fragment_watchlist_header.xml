@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/headerRow" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="16.0dip"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:gravity="center_vertical" android:id="@id/cashBalanceLabel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cash" />
+            <TextView android:gravity="center_vertical" android:id="@id/cashBalanceTextView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/cash" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/imageViewGotoAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/ic_action_editor_mode_edit_dark" />
+        <ImageView android:layout_gravity="center" android:id="@id/imageViewAccountFav" android:background="@android:drawable/star_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" />
+    </LinearLayout>
+</LinearLayout>

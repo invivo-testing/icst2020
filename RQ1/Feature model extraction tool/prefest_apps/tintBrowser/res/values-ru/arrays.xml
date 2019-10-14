@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ClearHistoryBookmarksChoice">
+        <item>@string/History</item>
+        <item>@string/Bookmarks</item>
+        <item>@string/All</item>
+    </string-array>
+    <string-array name="DefaultBookmarksTitles">
+        <item>Яндекс</item>
+        <item>Google</item>
+        <item>Wikipedia</item>
+        <item>Лента</item>
+        <item>YouTube</item>
+        <item>ВКонтакте</item>
+    </string-array>
+    <string-array name="DefaultBookmarksUrls">
+        <item>http://www.yandex.ru/</item>
+        <item>http://www.google.com/</item>
+        <item>http://ru.wikipedia.org/</item>
+        <item>http://www.lenta.ru/</item>
+        <item>http://www.youtube.com/</item>
+        <item>http://vk.com/</item>
+    </string-array>
+    <string-array name="FontPreviewText">
+        <item>@string/FontPreviewTextTiny</item>
+        <item>@string/FontPreviewTextSmall</item>
+        <item>@string/FontPreviewTextNormal</item>
+        <item>@string/FontPreviewTextLarge</item>
+        <item>@string/FontPreviewTextHuge</item>
+    </string-array>
+    <string-array name="HomepageTitles">
+        <item>@string/PreferenceHomepageStart</item>
+        <item>@string/PreferenceHomepageBlank</item>
+        <item>@string/PreferenceHomepageCustom</item>
+    </string-array>
+    <string-array name="PreferenceBubblePositionEntries">
+        <item>@string/PreferenceBubblePositionRight</item>
+        <item>@string/PreferenceBubblePositionLeft</item>
+        <item>@string/PreferenceBubblePositionBoth</item>
+    </string-array>
+    <string-array name="PreferenceBubblePositionValues">
+        <item>RIGHT</item>
+        <item>LEFT</item>
+        <item>BOTH</item>
+    </string-array>
+    <string-array name="PreferencePluginsEntries">
+        <item>@string/PreferencePluginsAlwaysOff</item>
+        <item>@string/PreferencePluginsOnDemand</item>
+        <item>@string/PreferencePluginsAlwaysOn</item>
+    </string-array>
+    <string-array name="PreferencePluginsValues">
+        <item>OFF</item>
+        <item>ON_DEMAND</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="PreferenceRestoreTabsEntries">
+        <item>@string/PreferenceRestoreTabsAsk</item>
+        <item>@string/PreferenceRestoreTabsAlways</item>
+        <item>@string/PreferenceRestoreTabsNever</item>
+    </string-array>
+    <string-array name="PreferenceRestoreTabsValues">
+        <item>ASK</item>
+        <item>ALWAYS</item>
+        <item>NEVER</item>
+    </string-array>
+    <string-array name="PreferenceSwitchTabsMethodEntries">
+        <item>@string/PreferenceSwitchTabsMethodButtons</item>
+        <item>@string/PreferenceSwitchTabsMethodFling</item>
+        <item>@string/PreferenceSwitchTabsMethodBoth</item>
+    </string-array>
+    <string-array name="PreferenceSwitchTabsMethodValues">
+        <item>BUTTONS</item>
+        <item>FLING</item>
+        <item>BOTH</item>
+    </string-array>
+    <string-array name="PreferenceUITypeEntries">
+        <item>@string/PreferenceUITypeAuto</item>
+        <item>@string/PreferenceUITypePhone</item>
+        <item>@string/PreferenceUITypeLegacyPhone</item>
+        <item>@string/PreferenceUITypeTablet</item>
+    </string-array>
+    <string-array name="PreferenceUITypeValues">
+        <item>AUTO</item>
+        <item>PHONE</item>
+        <item>LEGACY_PHONE</item>
+        <item>TABLET</item>
+    </string-array>
+    <string-array name="UserAgentsTitles">
+        <item>@string/PreferenceUserAgentAndroid</item>
+        <item>@string/PreferenceUserAgentDesktop</item>
+        <item>@string/PreferenceUserAgentOther</item>
+    </string-array>
+</resources>

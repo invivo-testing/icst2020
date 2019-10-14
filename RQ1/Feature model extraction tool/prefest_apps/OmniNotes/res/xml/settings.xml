@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:fitsSystemWindows="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_category_preferences">
+        <PreferenceScreen android:title="@string/settings_screen_data" android:key="settings_data" />
+        <PreferenceScreen android:title="@string/settings_screen_interface" android:key="settings_interface" />
+        <PreferenceScreen android:title="@string/settings_screen_navigation" android:key="settings_navigation" />
+        <PreferenceScreen android:title="@string/settings_screen_behaviors" android:key="settings_behaviors" />
+        <PreferenceScreen android:title="@string/settings_screen_notifications" android:key="settings_notifications" />
+        <PreferenceScreen android:title="@string/settings_screen_privacy" android:key="settings_privacy" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_category_beta">
+        <Preference android:title="@string/settings_beta" android:key="settings_beta" android:summary="@string/settings_beta_summary">
+            <intent android:action="android.intent.action.VIEW" android:data="@string/beta_link" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/help">
+        <Preference android:title="@string/online_manual" android:key="settings_online_manual">
+            <intent android:action="android.intent.action.VIEW" android:data="@string/help_online_url" />
+        </Preference>
+        <Preference android:title="@string/settings_tour_show_again" android:key="settings_tour_show_again" android:summary="@string/settings_tour_show_again_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_category_about">
+        <Preference android:title="@string/settings_changelog" android:key="settings_changelog" />
+        <Preference android:title="@string/settings_statistics">
+            <intent android:targetPackage="@string/app_package" android:targetClass="it.feio.android.omninotes.StatsActivity" />
+        </Preference>
+        <Preference android:title="@string/settings_about">
+            <intent android:targetPackage="@string/app_package" android:targetClass="it.feio.android.omninotes.AboutActivity" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

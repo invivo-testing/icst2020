@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">Для стількох подій: %d</item>
+        <item quantity="one">Для стількох подій: %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Кожні %d дн.</item>
+        <item quantity="one">Кожен %d день</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Кожні %d міс.</item>
+        <item quantity="one">Кожен %d міс.</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Інтервал: %d тжн.</item>
+        <item quantity="one">Кожен %d тжн.</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Кожні %d р.</item>
+        <item quantity="one">Кожен %d рік</item>
+    </plurals>
+</resources>

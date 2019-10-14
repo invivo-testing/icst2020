@@ -1,0 +1,15 @@
+windDirectionFormat=ListPreference
+apiKey=EditTextPreference
+refreshInterval=ListPreference
+dateFormat=ListPreference
+differentiateDaysByTint=BooleanPreference
+pressureUnit=ListPreference
+speedUnit=ListPreference
+unit=ListPreference
+updateLocationAutomatically=BooleanPreference
+dateFormatCustom=EditTextPreference
+lengthUnit=ListPreference
+temperatureInteger=BooleanPreference
+theme=ListPreference
+transparentWidget=BooleanPreference
+displayDecimalZeroes=BooleanPreference

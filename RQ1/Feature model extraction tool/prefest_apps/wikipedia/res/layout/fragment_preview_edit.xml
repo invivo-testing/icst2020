@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/edit_preview_container" android:background="?android:windowBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_how_page_improved" />
+            <org.wikipedia.views.FlowLayout android:id="@id/edit_summary_tags_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="32.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" android:tint="@color/base30" android:contentDescription="@string/cc_logo" app:srcCompat="@drawable/ic_license_cc" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/base30" android:id="@id/edit_section_license_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center_vertical" android:layout_gravity="top" android:background="?android:windowBackground" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_preview" />
+        <org.wikipedia.views.ObservableWebView android:id="@id/edit_preview_webview" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</ScrollView>

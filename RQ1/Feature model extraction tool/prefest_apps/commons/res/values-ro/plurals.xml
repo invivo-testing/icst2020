@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d de fișiere se încarcă</item>
+        <item quantity="one">1 fișier se încarcă</item>
+        <item quantity="few">%1$d fișiere se încarcă</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d de încărcări</item>
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">%1$d încărcare</item>
+        <item quantity="few">%1$d încărcări</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d de încărcări</item>
+        <item quantity="one">1 încărcare</item>
+        <item quantity="few">%1$d încărcări</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Se pornesc %1$d de încărcări</item>
+        <item quantity="one">Se pornește 1 încărcare</item>
+        <item quantity="few">Se pornesc %1$d încărcări</item>
+    </plurals>
+</resources>

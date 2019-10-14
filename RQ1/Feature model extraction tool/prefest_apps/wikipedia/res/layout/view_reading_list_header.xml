@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/reading_list_header_image_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/reading_list_header_image_0" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SimpleDraweeViewPlaceholder.ReadingListThumbnail" />
+            <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/reading_list_header_image_1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SimpleDraweeViewPlaceholder.ReadingListThumbnail" />
+            <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/reading_list_header_image_2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SimpleDraweeViewPlaceholder.ReadingListThumbnail" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/reading_list_header_image_3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SimpleDraweeViewPlaceholder.ReadingListThumbnail" />
+            <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/reading_list_header_image_4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SimpleDraweeViewPlaceholder.ReadingListThumbnail" />
+            <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/reading_list_header_image_5" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SimpleDraweeViewPlaceholder.ReadingListThumbnail" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/reading_list_header_empty_image" android:layout_width="96.0dip" android:layout_height="96.0dip" android:tint="@color/base30" android:contentDescription="@null" app:srcCompat="@drawable/ic_bookmark_white_24dp" />
+    <View android:layout_gravity="top" android:id="@id/reading_list_header_image_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

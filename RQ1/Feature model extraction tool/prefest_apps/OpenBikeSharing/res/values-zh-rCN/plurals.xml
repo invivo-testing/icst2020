@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updated_days_ago">
+        <item quantity="other">%d天前</item>
+    </plurals>
+    <plurals name="updated_hours_ago">
+        <item quantity="other">%d小时前</item>
+    </plurals>
+    <plurals name="updated_minutes_ago">
+        <item quantity="other">%d分钟前</item>
+    </plurals>
+</resources>

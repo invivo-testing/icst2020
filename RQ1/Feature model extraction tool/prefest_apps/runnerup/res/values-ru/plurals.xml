@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cue_bpm">
+        <item quantity="other">%d ударов в минуту</item>
+        <item quantity="one">%d удар в минуту</item>
+        <item quantity="few">%d удара в минуту</item>
+        <item quantity="many">%d ударов в минуту</item>
+    </plurals>
+    <plurals name="cue_hour">
+        <item quantity="other">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="cue_kilometer">
+        <item quantity="other">%s километров</item>
+        <item quantity="one">%s километр</item>
+        <item quantity="few">%s километра</item>
+        <item quantity="many">%s километров</item>
+    </plurals>
+    <plurals name="cue_kilometers_per_hour">
+        <item quantity="other">%s километров в час</item>
+        <item quantity="one">%s километр в час</item>
+        <item quantity="few">%s километра в час</item>
+        <item quantity="many">%s километров в час</item>
+    </plurals>
+    <plurals name="cue_meter">
+        <item quantity="other">%d метров</item>
+        <item quantity="one">%d метр</item>
+        <item quantity="few">%d метра</item>
+        <item quantity="many">%d метров</item>
+    </plurals>
+    <plurals name="cue_mile">
+        <item quantity="other">%s миль</item>
+        <item quantity="one">%s миля</item>
+        <item quantity="few">%s мили</item>
+        <item quantity="many">%s миль</item>
+    </plurals>
+    <plurals name="cue_miles_per_hour">
+        <item quantity="other">%s миль в час</item>
+        <item quantity="one">%s миля в час</item>
+        <item quantity="few">%s мили в час</item>
+        <item quantity="many">%s миль в час</item>
+    </plurals>
+    <plurals name="cue_minute">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="cue_second">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+</resources>

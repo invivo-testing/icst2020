@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:cardBackgroundColor="?cardBackgroundColor"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:padding="@dimen/air_baseline" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <TextView n1:textAppearance="@style/TextAppearance.AppCompat.Body2" n1:textColor="?android:textColorSecondary" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/air_title_login" />
+        <RadioGroup n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <RadioButton n1:id="@id/air_optionUseAccount" n1:paddingLeft="@dimen/air_radio_button_padding_start" n1:paddingRight="0.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/air_baseline" n1:checked="true" n1:text="@string/air_label_use_account" n1:paddingStart="@dimen/air_radio_button_padding_start" n1:paddingEnd="0.0dip" />
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout n1:id="@id/air_layoutLogin" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:ael_expanded="true" n2:ael_interpolator="fastOutSlowIn" n2:ael_orientation="vertical">
+                <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <android.support.design.widget.TextInputLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/air_baseline_half">
+                        <android.support.design.widget.TextInputEditText n1:id="@id/air_inputUsername" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/air_label_username" n1:singleLine="true" n1:inputType="textNoSuggestions" />
+                    </android.support.design.widget.TextInputLayout>
+                    <android.support.design.widget.TextInputLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/air_baseline_half">
+                        <android.support.design.widget.TextInputEditText n1:id="@id/air_inputPassword" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/air_label_password" n1:inputType="textPassword" n1:imeOptions="actionSend" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+            <RadioButton n1:id="@id/air_optionAnonymous" n1:paddingLeft="@dimen/air_radio_button_padding_start" n1:paddingRight="0.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/air_baseline" n1:text="@string/air_label_use_guest" n1:paddingStart="@dimen/air_radio_button_padding_start" n1:paddingEnd="0.0dip" />
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout n1:id="@id/air_layoutGuest" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:ael_expanded="false" n2:ael_interpolator="fastOutSlowIn" n2:ael_orientation="vertical">
+                <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <android.support.design.widget.TextInputLayout n1:id="@id/air_inputEmailParent" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/air_baseline_half">
+                        <android.support.design.widget.TextInputEditText n1:id="@id/air_inputEmail" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/air_label_email_optional" n1:singleLine="true" n1:inputType="textEmailAddress" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+        </RadioGroup>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

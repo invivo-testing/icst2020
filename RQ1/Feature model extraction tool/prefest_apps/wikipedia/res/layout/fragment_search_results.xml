@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_results_display" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/search_results_container" android:background="?android:windowBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/search_suggestion" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" />
+        <ListView android:id="@id/search_results_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <org.wikipedia.views.WikiErrorView android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/search_error_view" android:background="?android:windowBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <org.wikipedia.views.SearchEmptyView android:layout_gravity="center" android:id="@id/search_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widgetRoot" android:background="@drawable/widget_card" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0sp" android:textColor="@color/text_light" android:id="@id/widgetCity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/text_light" android:id="@id/widgetTemperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/widgetCity" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/text_light" android:id="@id/widgetDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/widgetIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/widgetTemperature" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/text_light" android:id="@id/widgetLastUpdate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:id="@id/widgetButtonRefresh" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_refresh_white_36dp" />
+</RelativeLayout>

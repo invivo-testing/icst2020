@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="attachments_actions">
+        <item>分享</item>
+        <item>刪除</item>
+        <item>全部刪除</item>
+        <item>編輯</item>
+    </string-array>
+    <string-array name="availability">
+        <item>忙碌</item>
+        <item>有空</item>
+        <item>未定</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>天</item>
+        <item>週</item>
+        <item>月</item>
+        <item>待辦事項</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>僅限這項活動</item>
+        <item>所有後續活動</item>
+    </string-array>
+    <string-array name="checked_items_behavior">
+        <item>保持原位</item>
+        <item>移動至清單結尾</item>
+        <item>取消勾選後移動至未勾選事項頂端</item>
+    </string-array>
+    <string-array name="colors_app">
+        <item>停用</item>
+        <item>僅條狀顏色標識</item>
+        <item>僅記事列表全彩</item>
+        <item>全彩</item>
+    </string-array>
+    <string-array name="colors_widget">
+        <item>停用</item>
+        <item>僅條狀顏色標識</item>
+        <item>筆記清單</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>僅限此活動</item>
+        <item>這項活動及未來活動</item>
+        <item>所有活動</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>此活動及未來活動</item>
+        <item>所有活動</item>
+    </string-array>
+    <string-array name="navigation_list">
+        <item>筆記</item>
+        <item>封存</item>
+        <item>提醒</item>
+        <item>回收桶</item>
+        <item>未分類</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>第一個</item>
+        <item>第二個</item>
+        <item>第三個</item>
+        <item>第四個</item>
+        <item>最後一個</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>僅限拒絕時</item>
+        <item>拒絕或未回應時</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>每天重複</item>
+        <item>每週重複</item>
+        <item>每月重複</item>
+        <item>每年重複</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>通知</item>
+        <item>電子郵件</item>
+        <item>簡訊</item>
+        <item>鬧鐘</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 分鐘</item>
+        <item>1 分鐘</item>
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>12 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>1 週</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>每月第一個週五</item>
+        <item>每月第二個週五</item>
+        <item>每月第三個週五</item>
+        <item>每月第四個週五</item>
+        <item>每月最後一個週五</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>每月第一個週一</item>
+        <item>每月第二個週一</item>
+        <item>每月第三個週一</item>
+        <item>每月第四個週一</item>
+        <item>每月最後一個週一</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>每月第一個週六</item>
+        <item>每月第二個週六</item>
+        <item>每月第三個週六</item>
+        <item>每月第四個週六</item>
+        <item>每月最後一個週六</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>每月第一個週日</item>
+        <item>每月第二個週日</item>
+        <item>每月第三個週日</item>
+        <item>每月第四個週日</item>
+        <item>每月最後一個週日</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>每月第一個週四</item>
+        <item>每月第二個週四</item>
+        <item>每月第三個週四</item>
+        <item>每月第四個週四</item>
+        <item>每月最後一個週四</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>每月第一個週二</item>
+        <item>每月第二個週二</item>
+        <item>每月第三個週二</item>
+        <item>每月第四個週二</item>
+        <item>每月最後一個週二</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>每月第一個週三</item>
+        <item>每月第二個週三</item>
+        <item>每月第三個週三</item>
+        <item>每月第四個週三</item>
+        <item>每月最後一個週三</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>沒有回應</item>
+        <item>是</item>
+        <item>不確定</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="sortable_columns_human_readable">
+        <item>標題</item>
+        <item>建立日期</item>
+        <item>最後修改日期</item>
+        <item>提醒日期</item>
+    </string-array>
+    <string-array name="text_size">
+        <item>最小</item>
+        <item>小</item>
+        <item>預設</item>
+        <item>大</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>預設</item>
+        <item>私人</item>
+        <item>公開</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>無</item>
+        <item>0 分鐘</item>
+        <item>1 分鐘</item>
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>12 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>1 週</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>地區設定預設值</item>
+        <item>週六</item>
+        <item>週日</item>
+        <item>週一</item>
+    </string-array>
+</resources>

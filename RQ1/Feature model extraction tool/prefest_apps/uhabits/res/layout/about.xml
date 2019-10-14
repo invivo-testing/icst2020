@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="?windowBackgroundColor" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:fillViewport="true"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n2:popupTheme="?toolbarPopupTheme" style="@style/Toolbar" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ScrollView n1:id="@id/scrollView" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/toolbar">
+        <LinearLayout style="@style/CardList">
+            <LinearLayout n1:gravity="center" style="@style/Card">
+                <ImageView n1:layout_width="100.0dip" n1:layout_height="100.0dip" n1:layout_margin="6.0dip" n1:src="@drawable/intro_icon_1" />
+                <TextView n1:textSize="16.0sp" n1:textStyle="bold" n1:textColor="?aboutScreenColor" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="6.0dip" n1:text="@string/app_name" />
+                <TextView n1:gravity="center" n1:id="@id/tvVersion" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="" />
+            </LinearLayout>
+            <LinearLayout n1:gravity="center" style="@style/Card">
+                <TextView n1:textColor="?aboutScreenColor" n1:text="@string/links" style="@style/CardHeader" />
+                <TextView n1:id="@id/tvRate" n1:text="@string/pref_rate_this_app" style="@style/About.Item.Clickable" />
+                <TextView n1:id="@id/tvFeedback" n1:text="@string/pref_send_feedback" style="@style/About.Item.Clickable" />
+                <TextView n1:id="@id/tvTranslate" n1:text="@string/help_translate" style="@style/About.Item.Clickable" />
+                <TextView n1:id="@id/tvSource" n1:text="@string/pref_view_source_code" style="@style/About.Item.Clickable" />
+            </LinearLayout>
+            <LinearLayout n1:gravity="center" style="@style/Card">
+                <TextView n1:textColor="?aboutScreenColor" n1:text="@string/developers" style="@style/CardHeader" />
+                <TextView n1:text="Álinson Xavier" style="@style/About.Item" />
+                <TextView n1:text="Денис (sciamano)" style="@style/About.Item" />
+                <TextView n1:text="Joseph Tran" style="@style/About.Item" />
+                <TextView n1:text="Nikhil (regularcoder)" style="@style/About.Item" />
+                <TextView n1:text="JanetQC" style="@style/About.Item" />
+                <TextView n1:text="Victor Yu" style="@style/About.Item" />
+            </LinearLayout>
+            <LinearLayout n1:gravity="center" style="@style/Card">
+                <TextView n1:textColor="?aboutScreenColor" n1:text="@string/translators" style="@style/CardHeader" />
+                <TextView n1:text="Mihail Stefanov (Български)" style="@style/About.Item" />
+                <TextView n1:text="Angga Rifandi (Bahasa Indonesia)" style="@style/About.Item" />
+                <TextView n1:text="raden20 (Bahasa Indonesia)" style="@style/About.Item" />
+                <TextView n1:text="azzamsa (Bahasa Indonesia)" style="@style/About.Item" />
+                <TextView n1:text="David Nos (Català)" style="@style/About.Item" />
+                <TextView n1:text="Tomáš Borovec (Čeština)" style="@style/About.Item" />
+                <TextView n1:text="Rancher (Cрпски)" style="@style/About.Item" />
+                <TextView n1:text="Yussuf (Dansk)" style="@style/About.Item" />
+                <TextView n1:text="Sølv Ræven (Dansk)" style="@style/About.Item" />
+                <TextView n1:text="Matthias Meisser (Deutsch)" style="@style/About.Item" />
+                <TextView n1:text="Sojusnik (Deutsch)" style="@style/About.Item" />
+                <TextView n1:text="Can Altas (Deutsch)" style="@style/About.Item" />
+                <TextView n1:text="Laura Sophie (Deutsch)" style="@style/About.Item" />
+                <TextView n1:text="Ander Raso Vazquez (Español)" style="@style/About.Item" />
+                <TextView n1:text="Beriain (Euskara)" style="@style/About.Item" />
+                <TextView n1:text="Osoitz (Euskara)" style="@style/About.Item" />
+                <TextView n1:text="Andreas Michelakis (Ελληνικά)" style="@style/About.Item" />
+                <TextView n1:text="Eman (Fārsi)" style="@style/About.Item" />
+                <TextView n1:text="Saeed Esmaili (Fārsi)" style="@style/About.Item" />
+                <TextView n1:text="Behnood HRazy (Fārsi)" style="@style/About.Item" />
+                <TextView n1:text="François Mahé (Français)" style="@style/About.Item" />
+                <TextView n1:text="Thibaut Girka (Français)" style="@style/About.Item" />
+                <TextView n1:text="Mathis Chenuet (Français)" style="@style/About.Item" />
+                <TextView n1:text="Michael Faille (Français)" style="@style/About.Item" />
+                <TextView n1:text="Tiralka (Français)" style="@style/About.Item" />
+                <TextView n1:text="Ivan Krušlin (Hrvatski)" style="@style/About.Item" />
+                <TextView n1:text="Marco Cavazza (Italiano)" style="@style/About.Item" />
+                <TextView n1:text="Mark Macaré (Nederlands)" style="@style/About.Item" />
+                <TextView n1:text="Jelle den Butter (Nederlands)" style="@style/About.Item" />
+                <TextView n1:text="nitovf9292 (Norsk)" style="@style/About.Item" />
+                <TextView n1:text="Adam Jurkiewicz (Polski)" style="@style/About.Item" />
+                <TextView n1:text="Álinson Xavier (Português)" style="@style/About.Item" />
+                <TextView n1:text="Bernardo Lopes (Português)" style="@style/About.Item" />
+                <TextView n1:text="Dmitriy Bogdanov (Русский)" style="@style/About.Item" />
+                <TextView n1:text="Andrei Pleș (Română)" style="@style/About.Item" />
+                <TextView n1:text="Andreea Muscalagiu (Română)" style="@style/About.Item" />
+                <TextView n1:text="Dušan Strgar (Slovenščina)" style="@style/About.Item" />
+                <TextView n1:text="Alexander Jansson (Svenska)" style="@style/About.Item" />
+                <TextView n1:text="Robin (Svenska)" style="@style/About.Item" />
+                <TextView n1:text="Sofia Veijonen (Suomen kieli)" style="@style/About.Item" />
+                <TextView n1:text="Đorđe Vasiljević (српски)" style="@style/About.Item" />
+                <TextView n1:text="Caner Başaran (Türkçe)" style="@style/About.Item" />
+                <TextView n1:text="hodanli (Türkçe)" style="@style/About.Item" />
+                <TextView n1:text="Yurii Stavytskyi (Українська)" style="@style/About.Item" />
+                <TextView n1:text="Rystard (Українська)" style="@style/About.Item" />
+                <TextView n1:text="Oglaigh Rystard (Українська)" style="@style/About.Item" />
+                <TextView n1:text="taras-ko (Українська)" style="@style/About.Item" />
+                <TextView n1:text="Limin Lu (中文)" style="@style/About.Item" />
+                <TextView n1:text="XuToTo (中文)" style="@style/About.Item" />
+                <TextView n1:text="Ting-Hua (中文)" style="@style/About.Item" />
+                <TextView n1:text="Bowie Chen (中文)" style="@style/About.Item" />
+                <TextView n1:text="Lee (中文)" style="@style/About.Item" />
+                <TextView n1:text="Liveeasy (中文)" style="@style/About.Item" />
+                <TextView n1:text="Naofumi F (日本語)" style="@style/About.Item" />
+                <TextView n1:text="Al Alloush (العَرَبِية‎)" style="@style/About.Item" />
+                <TextView n1:text="Boula (العَرَبِية‎)" style="@style/About.Item" />
+                <TextView n1:text="Israa Z (العَرَبِية‎)" style="@style/About.Item" />
+                <TextView n1:text="Josh Graham (한국어 )" style="@style/About.Item" />
+                <TextView n1:text="Seoyul (한국어 )" style="@style/About.Item" />
+                <TextView n1:text="Aman Satnami (हिन्दी)" style="@style/About.Item" />
+                <TextView n1:text="Niraj Yadav (हिन्दी)" style="@style/About.Item" />
+                <TextView n1:text="Yoav Argov (עברית‎)" style="@style/About.Item" />
+                <TextView n1:text="Mahdi Nasiri (فارسی‎)" style="@style/About.Item" />
+                <TextView n1:text="Mohammed Imthath (தமிழ்‎)" style="@style/About.Item" />
+                <TextView n1:text="magimai (தமிழ்‎)" style="@style/About.Item" />
+                <TextView n1:text="Anshoe (தமிழ்‎)" style="@style/About.Item" />
+                <TextView n1:text="Trần Thái (Tiếng Việt)" style="@style/About.Item" />
+                <TextView n1:text="Anh Quân (Tiếng Việt)" style="@style/About.Item" />
+                <TextView n1:text="pnhpnh (Tiếng Việt)" style="@style/About.Item" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View n1:id="@id/toolbarShadow" n1:layout_below="@id/toolbar" style="@style/ToolbarShadow" />
+</RelativeLayout>

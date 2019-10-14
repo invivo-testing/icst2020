@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/lineView" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/itemDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="16:00" />
+            <TextView android:textSize="16.0dip" android:id="@id/itemDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No data" />
+            <TextView android:textSize="16.0dip" android:id="@id/itemWind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Wind: 0 m/s" />
+            <TextView android:textSize="16.0dip" android:id="@id/itemPressure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pressure: 0 hpa" />
+            <TextView android:textSize="16.0dip" android:id="@id/itemHumidity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Humidity: 0 %" />
+        </LinearLayout>
+        <TextView android:textSize="48.0dip" android:id="@id/itemIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="o" android:layout_weight="1.0" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="22.0dip" android:id="@id/itemTemperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="0 °C" android:layout_below="@id/itemIcon" android:layout_alignRight="@id/itemIcon" android:layout_alignEnd="@id/itemIcon" />
+    </RelativeLayout>
+</LinearLayout>

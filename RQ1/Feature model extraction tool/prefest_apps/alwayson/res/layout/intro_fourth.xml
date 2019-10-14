@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/background" n1:background="@color/intro_background_4" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/activity_vertical_margin" n1:layout_weight="0.45" />
+    <TextView n1:textSize="28.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/title" n1:paddingLeft="32.0dip" n1:paddingRight="32.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/activity_vertical_margin" n1:text="@string/intro_wake_ups" />
+    <TextView n1:textSize="16.0sp" n1:textColor="@android:color/white" n1:gravity="center|top" n1:id="@id/description" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/activity_vertical_margin" n1:text="@string/intro_wake_ups_desc" />
+    <LinearLayout n1:gravity="bottom|center" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginBottom="96.0dip" n1:layout_weight="0.55">
+        <CheckBox n1:textColor="@android:color/white" n1:id="@id/intro_checkbox_double_tap" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:checked="true" n1:text="@string/intro_checkbox_double_tap" />
+        <CheckBox n1:textColor="@android:color/white" n1:id="@id/intro_checkbox_swipe_up" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/intro_checkbox_swipe_up" />
+        <CheckBox n1:textColor="@android:color/white" n1:id="@id/intro_checkbox_volume_keys" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/intro_checkbox_volume_keys" />
+    </LinearLayout>
+</LinearLayout>

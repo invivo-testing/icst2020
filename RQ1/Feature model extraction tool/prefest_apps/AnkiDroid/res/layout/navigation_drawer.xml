@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView android:layout_gravity="start" android:id="@id/navdrawer_items_container" android:layout_width="wrap_content" android:layout_height="fill_parent" app:headerLayout="@layout/navdrawer_header" app:itemBackground="?navDrawerItemBackgroundColor" app:itemIconTint="?navDrawerItemColor" app:itemTextColor="?navDrawerItemColor" app:menu="@menu/navigation_drawer" style="@style/NavDrawer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

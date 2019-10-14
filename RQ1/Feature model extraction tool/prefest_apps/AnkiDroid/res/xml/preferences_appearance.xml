@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_cat_appearance" android:key="appearance_preference_group" android:summary="@string/pref_cat_appearance_summ"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://arbitrary.app.namespace/com.ichi2.anki">
+    <PreferenceCategory android:title="@string/pref_cat_themes">
+        <ListPreference android:entries="@array/day_theme_labels" android:title="@string/day_theme" android:key="dayTheme" android:summary="XXX" android:defaultValue="0" android:entryValues="@array/day_theme_values" />
+        <ListPreference android:entries="@array/night_theme_labels" android:title="@string/night_theme" android:key="nightTheme" android:summary="XXX" android:defaultValue="0" android:entryValues="@array/night_theme_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_fonts">
+        <ListPreference android:title="@string/default_font" android:key="defaultFont" android:summary="@string/preference_summary_literal" android:defaultValue="0" android:shouldDisableView="true" />
+        <ListPreference android:entries="@array/override_font_labels" android:title="@string/override_font" android:key="overrideFontBehavior" android:summary="@string/preference_summary_literal" android:defaultValue="0" android:entryValues="@array/override_font_values" />
+        <ListPreference android:title="@string/pref_browser_editor_font" android:key="browserEditorFont" android:summary="@string/preference_summary_literal" android:defaultValue="0" />
+        <com.ichi2.ui.SeekBarPreference android:max="200" android:text=" %" android:title="@string/card_browser_font_size" android:key="relativeCardBrowserFontSize" android:summary="@string/preference_summary_percentage" android:defaultValue="100" app:interval="10" app:min="10" />
+    </PreferenceCategory>
+</PreferenceScreen>

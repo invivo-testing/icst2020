@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_restart">Begin weer</string>
+    <string name="action_revert">Herlaai</string>
+    <string name="action_support_the_development">Ondersteun die ontwikkeling</string>
+    <string name="menu_feedback">Terugvoer</string>
+    <string name="support_how_much">Hoeveel sal jy graag wil skenk?</string>
+    <string name="unlock">Skakel die skerm aan</string>
+</resources>

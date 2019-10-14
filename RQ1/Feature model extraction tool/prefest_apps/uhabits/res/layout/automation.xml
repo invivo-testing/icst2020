@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:title="@string/app_name" n2:popupTheme="?toolbarPopupTheme" style="@style/Toolbar" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:id="@id/formPanel" style="@style/dialogFormPanel">
+        <LinearLayout style="@style/dialogFormRow">
+            <TextView n1:text="@string/action" style="@style/dialogFormLabel" />
+            <android.support.v7.widget.AppCompatSpinner n1:theme="@style/dialogFormText" n1:entries="@array/actions" n1:id="@id/actionSpinner" n1:layout_width="wrap_content" n1:layout_height="25.0dip" n1:minWidth="400.0dip" />
+        </LinearLayout>
+        <LinearLayout style="@style/dialogFormRow">
+            <TextView n1:text="@string/habit" style="@style/dialogFormLabel" />
+            <android.support.v7.widget.AppCompatSpinner n1:theme="@style/dialogFormText" n1:entries="@array/actions" n1:id="@id/habitSpinner" n1:layout_width="wrap_content" n1:layout_height="25.0dip" n1:minWidth="400.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout n1:gravity="end" n1:paddingLeft="0.0dip" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:paddingStart="0.0dip" n1:paddingEnd="16.0dip" style="?android:buttonBarStyle">
+        <Button n1:id="@id/buttonSave" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/save" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="color_dialog_msg">Choose Color</string>
+    <string name="configAction_chooseColor">Choose Color</string>
+    <string name="configLabel_themeColorFall">Fall Color:</string>
+    <string name="configLabel_themeColorMoonFull">Full Color:</string>
+    <string name="configLabel_themeColorMoonNew">New Color:</string>
+    <string name="configLabel_themeColorMoonWaning">Waning Color:</string>
+    <string name="configLabel_themeColorMoonWaxing">Waxing Color:</string>
+    <string name="configLabel_themeColorMoonrise">Moonrise Color:</string>
+    <string name="configLabel_themeColorMoonset">Moonset Color:</string>
+    <string name="configLabel_themeColorNoon">Noon Color:</string>
+    <string name="configLabel_themeColorSpring">Spring Color:</string>
+    <string name="configLabel_themeColorSuffix">Suffix Color:</string>
+    <string name="configLabel_themeColorSummer">Summer Color:</string>
+    <string name="configLabel_themeColorSunrise">Sunrise Color:</string>
+    <string name="configLabel_themeColorSunset">Sunset Color:</string>
+    <string name="configLabel_themeColorText">Text Color:</string>
+    <string name="configLabel_themeColorTime">Text Color2:</string>
+    <string name="configLabel_themeColorTitle">Title Color:</string>
+    <string name="configLabel_themeColorWinter">Winter Color:</string>
+    <string name="timeMode_equinox_autumnal">Fall Equinox</string>
+</resources>

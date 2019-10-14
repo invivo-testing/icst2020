@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bike_red">#ffff7883</color>
+    <color name="parking_blue_dark">#ff2e5078</color>
+    <color name="parking_blue_light">#ffb1dcf4</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/background_pattern_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/database_upgrade_activity__updating_database" style="@style/Registration.BigLabel" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/indeterminate_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/determinate_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="false" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

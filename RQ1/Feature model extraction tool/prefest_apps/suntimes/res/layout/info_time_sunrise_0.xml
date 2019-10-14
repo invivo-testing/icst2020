@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout n1:orientation="horizontal" style="@style/SunsetTimeLayout"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <ImageView n1:id="@id/icon_time_sunrise" n1:layout_marginLeft="2.0dip" n1:layout_marginTop="1.0dip" n1:layout_marginRight="1.0dip" n1:scaleType="fitStart" n1:contentDescription="@string/sunrise_short" style="@style/SunsetTimeImageView" />
+        <TextView n1:textColor="@color/sunIcon_color_rising_dark" n1:id="@id/text_time_rise" style="@style/SunsetTimeTextView" />
+        <TextView n1:layout_gravity="bottom" n1:id="@id/text_time_rise_suffix" n1:layout_height="fill_parent" n1:layout_margin="2.0dip" style="@style/SunsetTimeTextSuffixView" />
+    </LinearLayout>
+</merge>

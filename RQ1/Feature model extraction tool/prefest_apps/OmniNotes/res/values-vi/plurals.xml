@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">Cho %d sự kiện</item>
+        <item quantity="one">Cho %d sự kiện</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Cứ %d ngày một lần</item>
+        <item quantity="one">Cứ %d ngày một lần</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Cứ %d tháng một lần</item>
+        <item quantity="one">Cứ %d tháng một lần</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Cứ %d tuần một lần</item>
+        <item quantity="one">Cứ %d tuần một lần</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Cứ %d năm một lần</item>
+        <item quantity="one">Cứ %d năm một lần</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.thoughtcrime.securesms.DeviceListItem android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?conversation_list_item_contact_color" android:ellipsize="marquee" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?conversation_list_item_subject_color" android:id="@id/created" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?conversation_list_item_subject_color" android:id="@id/active" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:fontFamily="sans-serif-light" />
+</org.thoughtcrime.securesms.DeviceListItem>

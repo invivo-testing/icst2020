@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other">%1$d byte kopiatuta arbelera</item>
+        <item quantity="one">%1$d byte kopiatuta arbelean</item>
+    </plurals>
+</resources>

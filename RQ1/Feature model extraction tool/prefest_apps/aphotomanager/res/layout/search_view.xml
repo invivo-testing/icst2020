@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/transparent_view" android:background="@color/search_layover_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_top_bar" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize">
+        <ImageButton android:id="@id/action_up_btn" android:src="@drawable/ic_action_navigation_arrow_back" style="@style/MSV_ImageButton" />
+        <EditText android:textSize="16.0sp" android:textColor="#ff212121" android:textColorHint="#ff727272" android:id="@id/searchTextView" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@android:string/search_go" android:singleLine="true" android:layout_weight="1.0" android:inputType="textNoSuggestions" android:imeOptions="actionSearch" />
+        <ImageButton android:id="@id/action_history_btn" android:src="@android:drawable/ic_menu_more" style="@style/MSV_ImageButton" />
+        <ImageButton android:id="@id/action_empty_btn" android:visibility="gone" android:src="@android:drawable/ic_menu_close_clear_cancel" style="@style/MSV_ImageButton" />
+    </LinearLayout>
+    <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat android:icon="@null" android:title="@string/sync_enabled" android:key="@string/pref_sync_enabled" android:defaultValue="false" />
+    <ListPreference android:icon="@null" android:entries="@array/cloud_provider_names" android:title="@string/sync_provider" android:key="@string/pref_sync_provider" android:summary="%s" android:dependency="@string/pref_sync_enabled" android:defaultValue="1" android:entryValues="@array/cloud_provider_values" />
+    <ListPreference android:icon="@null" android:entries="@array/timeout_synchronize_items" android:title="@string/synchronization_interval" android:key="@string/pref_sync_interval" android:summary="@string/summary_synchronization_interval" android:dependency="@string/pref_sync_enabled" android:defaultValue="180" android:entryValues="@array/timeout_synchronize_values" />
+    <Preference android:icon="@null" android:title="@string/remote_file" android:key="@string/pref_remote_file" android:dependency="@string/pref_sync_enabled" />
+    <PreferenceScreen android:icon="@null" android:title="@string/download" android:key="@string/pref_sync_download" android:summary="@string/cloud_download" android:dependency="@string/pref_remote_file" />
+    <PreferenceScreen android:icon="@null" android:title="@string/upload" android:key="@string/pref_sync_upload" android:summary="@string/cloud_upload" android:dependency="@string/pref_remote_file" />
+    <SwitchPreferenceCompat android:icon="@null" android:title="@string/title_sync_upload_immediate" android:key="@string/pref_upload_immediately" android:summary="@string/summary_sync_upload_immediate" android:dependency="@string/pref_sync_enabled" android:defaultValue="true" />
+    <SwitchPreferenceCompat android:icon="@null" android:title="@string/sync_on_start" android:key="@string/pref_sync_on_app_start" android:summary="@string/sync_on_app_start" android:dependency="@string/pref_sync_enabled" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:icon="@null" android:title="@string/auto_sync_via_wifi" android:key="@string/pref_sync_via_wifi" android:summary="@string/auto_sync_via_wifi_summary" android:dependency="@string/pref_sync_enabled" android:defaultValue="false" />
+    <Preference android:icon="@null" android:title="@string/reset_preferences" android:key="@string/pref_reset_preferences" />
+</PreferenceScreen>

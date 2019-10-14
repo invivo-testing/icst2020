@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end|center" android:id="@id/pending_indicator" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/ic_delivery_status_sending" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/sent_indicator" android:paddingLeft="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delivery_status_sent" android:contentDescription="@string/conversation_item_sent__delivered_description" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/delivered_indicator" android:paddingLeft="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delivery_status_delivered" android:contentDescription="@string/conversation_item_sent__delivered_description" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/read_indicator" android:paddingLeft="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delivery_status_read" android:tint="@color/core_blue" android:contentDescription="@string/conversation_item_sent__message_read" />
+</merge>

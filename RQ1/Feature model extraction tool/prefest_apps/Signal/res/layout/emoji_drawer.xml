@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="?emoji_tab_strip_background" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <com.astuetz.PagerSlidingTabStrip android:id="@id/tabs" android:background="?emoji_tab_strip_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:pstsIndicatorColor="?emoji_tab_indicator" app:pstsIndicatorHeight="@dimen/emoji_drawer_indicator_height" app:pstsShouldExpand="true" app:pstsTabPaddingLeftRight="@dimen/emoji_drawer_left_right_padding" app:pstsUnderlineColor="?emoji_tab_underline" />
+        <View android:background="?emoji_tab_seperator" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <org.thoughtcrime.securesms.components.RepeatableImageKey android:id="@id/backspace" android:background="?emoji_tab_strip_background" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_backspace_grey600_24dp" />
+    </LinearLayout>
+    <org.thoughtcrime.securesms.components.ControllableViewPager android:id="@id/emoji_pager" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

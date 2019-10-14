@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other">Tersalin %1$d byte ke papan-klip</item>
+    </plurals>
+</resources>

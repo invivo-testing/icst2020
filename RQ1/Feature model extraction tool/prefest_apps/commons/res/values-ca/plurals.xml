@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">"s'estan carregant %1$d fitxers"</item>
+        <item quantity="one">"s'està carregant 1 fitxer"</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d càrregues</item>
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">%1$d càrrega</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d càrregues</item>
+        <item quantity="one">1 càrrega</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">"S'estan iniciant %1$d càrregues"</item>
+        <item quantity="one">"S'està iniciant %1$d càrrega"</item>
+    </plurals>
+</resources>

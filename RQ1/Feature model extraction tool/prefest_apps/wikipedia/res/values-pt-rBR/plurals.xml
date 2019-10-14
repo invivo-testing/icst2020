@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d anos atrás</item>
+        <item quantity="one">Ano passado</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Download de artigos</item>
+        <item quantity="one">Download de artigo</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">Faltam %1$d artigos</item>
+        <item quantity="one">Falta %1$d artigo</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Sincronizando as listas de leitura</item>
+        <item quantity="one">Sincronizando a lista de leitura</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">faltam %1$d listas</item>
+        <item quantity="one">faltam %1$d lista</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Sincronizando %1$d listas…</item>
+        <item quantity="one">Sincronizando %1$d lista…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Baixando %1$d artigos...</item>
+        <item quantity="one">Baixando %1$d artigo...</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">faltam %d minutos</item>
+        <item quantity="one">falta 1 minuto</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Estes artigos não estarão mais disponíveis off-line.</item>
+        <item quantity="one">Este artigo não estará mais disponível off-line.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Estes artigos agora estarão disponíveis off-line.</item>
+        <item quantity="one">Este artigo agora estará disponível off-line.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d dias atrás</item>
+        <item quantity="one">ontem</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Remover idiomas selecionados?</item>
+        <item quantity="one">Remover o idioma selecionado?</item>
+    </plurals>
+</resources>

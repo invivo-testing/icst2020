@@ -1,0 +1,6 @@
+pref_swipe_back=BooleanPreference
+pref_text_size=ListPreference
+pref_link_first=BooleanPreference
+theme=ListPreference
+pref_night_mode=BooleanPreference
+pref_system_browser=BooleanPreference

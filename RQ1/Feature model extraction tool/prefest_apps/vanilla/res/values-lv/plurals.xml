@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">Repertuāram %2$s pievienoti %1$d celiņi.</item>
+        <item quantity="zero">Repertuāram %2$s pievienoti %1$dceliņi.</item>
+        <item quantity="one">Repertuāram %2$s pievienots %1$d celiņš.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">Izdzēsti %d celiņi.</item>
+        <item quantity="zero">Izdzēsti %d celiņi.</item>
+        <item quantity="one">Izdzēsts %d celiņš.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">Ierindoti %d celiņi.</item>
+        <item quantity="zero">Ierindoti %d celiņi.</item>
+        <item quantity="one">Ierindots %d celiņš.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d stundas</item>
+        <item quantity="zero">%d stundu</item>
+        <item quantity="one">%d stunda</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minūtes</item>
+        <item quantity="zero">%d minūšu</item>
+        <item quantity="one">%d minūte</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">Atskaņo %d celiņus.</item>
+        <item quantity="zero">Atskaņo %d celiņus.</item>
+        <item quantity="one">Atskaņo %dceliņu.</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">No repertuāra %2$s izņemti %1$d celiņi.</item>
+        <item quantity="zero">No repertuāra %2$s izņemti %1$d celiņi.</item>
+        <item quantity="one">No repertuāra %2$s izņemts %1$d celiņš.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekundes</item>
+        <item quantity="zero">%d sekunžu</item>
+        <item quantity="one">%d sekunde</item>
+    </plurals>
+</resources>

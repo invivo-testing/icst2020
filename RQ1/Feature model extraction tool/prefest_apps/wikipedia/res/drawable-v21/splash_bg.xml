@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/base10" />
+    <item android:bottom="128.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/base30" android:endColor="@color/base10" android:type="radial" android:gradientRadius="100.0dip" />
+        </shape>
+    </item>
+    <item android:bottom="128.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/w_nav_mark" android:antialias="true" />
+    </item>
+</layer-list>

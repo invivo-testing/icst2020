@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d αρχεία επιφορτώνονται</item>
+        <item quantity="one">1 αρχείο επιφορτώνεται</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d επιφορτώσεις</item>
+        <item quantity="zero">Δεν υπάρχουν επιφορτώσεις ακόμη</item>
+        <item quantity="one">%1$d επιφόρτωση</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d επιφορτώσεις</item>
+        <item quantity="one">%1$d επιφόρτωση</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Έναρξη %1$d επιφορτώσεων</item>
+        <item quantity="one">Έναρξη %1$d επιφόρτωσης</item>
+    </plurals>
+</resources>

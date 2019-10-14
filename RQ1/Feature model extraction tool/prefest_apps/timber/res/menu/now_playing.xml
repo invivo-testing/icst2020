@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/menu_go_to_album" n1:title="@string/go_to_album"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:id="@id/menu_go_to_artist" n2:title="@string/go_to_artist"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:id="@id/action_lyrics" n3:title="@string/menu_show_lyrics"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</menu>

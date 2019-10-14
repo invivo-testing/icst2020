@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:icon="@null" android:title="@string/user" android:key="@string/pref_user_name" android:summary="@string/username" />
+    <Preference android:icon="@null" android:title="@string/base_currency" android:key="@string/pref_base_currency" />
+    <ListPreference android:icon="@null" android:title="@string/default_account" android:key="@string/pref_default_account" />
+    <ListPreference android:icon="@null" android:title="@string/date_format" android:key="@string/pref_date_format" />
+    <EditTextPreference android:icon="@null" android:title="@string/financial_year_start_day" android:key="@string/pref_financial_year_startdate" />
+    <ListPreference android:icon="@null" android:title="@string/financial_year_start_month" android:key="@string/pref_financial_year_startmonth" />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/deckpicker_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/toolbar" />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/pull_to_sync_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/today_stats_text_view" android:layout_below="@id/toolbar">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/files" android:paddingBottom="72.0dip" android:focusable="true" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:fastScrollEnabled="true" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <TextView android:gravity="center" android:id="@id/today_stats_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <include layout="@layout/anki_progress" />
+    <include layout="@layout/floating_add_button" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

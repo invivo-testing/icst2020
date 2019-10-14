@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/activity_main_swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/listView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <com.amaze.filemanager.ui.views.FastScroller android:layout_gravity="right" android:orientation="vertical" android:id="@id/fastscroll" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/nofilelayout" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_insert_drive_file_white_36dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="#ff666666" android:id="@id/nofiletext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/nofiles" android:layout_below="@id/image" android:layout_centerHorizontal="true" style="@android:style/TextAppearance.Medium" />
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>

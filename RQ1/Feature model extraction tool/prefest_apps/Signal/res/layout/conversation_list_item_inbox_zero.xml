@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.thoughtcrime.securesms.ConversationListItemInboxZero android:orientation="vertical" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0sp" android:gravity="center" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/conversation_list_item_inbox_zero__inbox_zeeerrro" />
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/inbox_zero" />
+    <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/description" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/conversation_list_item_inbox_zero__zip_zilch_zero_nada_nyou_re_all_caught_up" />
+</org.thoughtcrime.securesms.ConversationListItemInboxZero>

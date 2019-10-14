@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.thoughtcrime.securesms.preferences.widgets.ProfilePreference android:key="preference_category_profile" />
+    <Preference android:icon="@drawable/ic_textsms_24dp" android:title="@string/preferences__sms_mms" android:key="preference_category_sms_mms" />
+    <Preference android:icon="@drawable/ic_notifications_24dp" android:title="@string/preferences__notifications" android:key="preference_category_notifications" />
+    <Preference android:icon="@drawable/ic_security_24dp" android:title="@string/preferences__privacy" android:key="preference_category_app_protection" />
+    <Preference android:icon="@drawable/ic_brightness_6_24dp" android:title="@string/preferences__appearance" android:key="preference_category_appearance" />
+    <Preference android:icon="@drawable/ic_forum_24dp" android:title="@string/preferences__chats" android:key="preference_category_chats" />
+    <Preference android:icon="@drawable/ic_laptop_24dp" android:title="@string/preferences__linked_devices" android:key="preference_category_devices" />
+    <Preference android:icon="@drawable/ic_advanced_24dp" android:title="@string/preferences__advanced" android:key="preference_category_advanced" />
+</PreferenceScreen>

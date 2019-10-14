@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.money.manager.ex.view.RobotoTextView android:textColor="@color/md_green" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/income" android:singleLine="true" android:layout_weight="1.0" />
+            <com.money.manager.ex.view.RobotoTextView android:textColor="@color/md_green" android:id="@id/textViewIncome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.money.manager.ex.view.RobotoTextView android:textColor="@color/md_red" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/expenses" android:singleLine="true" android:layout_weight="1.0" />
+            <com.money.manager.ex.view.RobotoTextView android:textColor="@color/md_red" android:id="@id/textViewExpenses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.money.manager.ex.view.RobotoTextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/difference" android:singleLine="true" android:layout_weight="1.0" />
+            <com.money.manager.ex.view.RobotoTextView android:id="@id/textViewDifference" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

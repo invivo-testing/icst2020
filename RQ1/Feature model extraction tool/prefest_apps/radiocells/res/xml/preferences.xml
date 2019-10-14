@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n1:icon="@drawable/ic_menu_account_list" n1:title="@string/prefs_credentials"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <EditTextPreference n1:title="@string/prefs_credentials_user" n1:key="credentials.user" n1:summary="@string/prefs_credentials_user_summary" n1:dialogTitle="@string/prefs_credentials_user" />
+        <EditTextPreference n1:password="true" n1:title="@string/prefs_credentials_password" n1:key="credentials.password" n1:summary="@string/prefs_credentials_password_summary" n1:dialogTitle="@string/prefs_credentials_password" />
+        <CheckBoxPreference n1:password="false" n1:title="@string/prefs_credentials_anonymous_upload" n1:key="credentials.anonymous_upload" n1:summary="@string/prefs_credentials_anonymous_upload_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory n2:title="@string/prefs_logging"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n2:title="@string/prefs_save_cells" n2:key="save_cells" n2:summary="@string/prefs_save_cells_summary" n2:defaultValue="true" />
+        <CheckBoxPreference n2:title="@string/prefs_save_wifis" n2:key="save_wifis" n2:summary="@string/prefs_save_wifis_summary" n2:defaultValue="true" />
+        <EditTextPreference n2:title="@string/prefs_min_cell_distance" n2:key="logging.cell_distance" n2:summary="@string/prefs_min_cell_distance_hint" n2:defaultValue="35" n2:dialogMessage="@string/prefs_min_cell_distance_hint" n2:inputType="numberDecimal" />
+        <EditTextPreference n2:title="@string/prefs_min_wifi_distance" n2:key="logging.wifi_distance" n2:summary="@string/prefs_min_wifi_distance_hint" n2:defaultValue="5" n2:dialogMessage="@string/prefs_min_wifi_distance_hint" n2:inputType="numberDecimal" />
+        <EditTextPreference n2:title="@string/prefs_gps_logging_interval" n2:key="gps.interval" n2:summary="@string/prefs_gps_logging_interval_summary" n2:defaultValue="0" n2:inputType="number" />
+        <EditTextPreference n2:title="@string/prefs_req_gps_accuracy" n2:key="logging_gps_accuracy" n2:summary="@string/prefs_req_gps_accuracy_hint" n2:defaultValue="35" n2:dialogMessage="@string/prefs_req_gps_accuracy_hint" n2:inputType="numberDecimal" />
+    </PreferenceCategory>
+    <PreferenceCategory n3:title="@string/prefs_maps"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <org.openbmap.activities.DialogPreferenceMaps n3:enabled="true" n3:title="@string/prefs_get_maps_title" n3:selectable="true" n3:key="maps_dialog" n3:summary="@string/prefs_get_maps_summary" />
+        <ListPreference n3:title="@string/prefs_data_map" n3:key="data.map" n3:summary="@string/prefs_data_map_summary" n3:defaultValue="none" />
+        <CheckBoxPreference n3:title="@string/prefs_ui_keep_screen_on" n3:key="ui.keep_screen_on" n3:summary="@string/prefs_ui_keep_screen_on_summary" n3:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory n4:title="@string/prefs_wifi_catalog"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <org.openbmap.activities.DialogPreferenceCatalogs n4:enabled="true" n4:title="@string/prefs_download_wifi_catalog" n4:selectable="true" n4:key="catalogs_dialog" n4:summary="@string/prefs_download_wifi_catalog_summary" />
+        <ListPreference n4:title="@string/prefs_data_ref_database" n4:key="data.ref_database" n4:summary="@string/prefs_data_ref_database_summary" n4:defaultValue="none" />
+    </PreferenceCategory>
+    <Preference n5:title="@string/activity_advanced_settings_activity" n5:key="advanced_settings"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

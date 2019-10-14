@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:id="@id/widgetframe_inner" n1:weightSum="1.0" style="@style/SunsetTimeWidget"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:gravity="start" n1:id="@id/text_title" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/SunsetTimeTextTitleView" />
+    <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+        <include layout="@layout/icons_moon_phases" />
+        <TextView n1:ellipsize="end" n1:gravity="start|center" n1:id="@id/text_info_moonphase" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" style="@style/SunsetTimeTextView2" />
+    </LinearLayout>
+</LinearLayout>

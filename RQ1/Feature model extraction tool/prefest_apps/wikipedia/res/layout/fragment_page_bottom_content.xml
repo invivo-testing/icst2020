@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_horizontal_padding">
+        <org.wikipedia.views.ConfigurableTextView android:textAppearance="?android:textAppearanceLarge" android:textSize="24.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/about_article_section" android:fontFamily="serif" />
+        <LinearLayout android:id="@id/page_languages_container" android:background="?selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="48.0dip" android:layout_height="24.0dip" android:tint="?secondary_text_color" android:contentDescription="@null" app:srcCompat="@drawable/ic_translate_white_24dp" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/other_languages_indication_text" style="@style/MaterialListTitle" />
+                <TextView android:id="@id/page_languages_count_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MaterialListSubtitle" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/page_languages_divider" android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="64.0dip" />
+        <LinearLayout android:id="@id/page_edit_history_container" android:background="?selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="48.0dip" android:layout_height="24.0dip" android:tint="?secondary_text_color" android:contentDescription="@null" app:srcCompat="@drawable/ic_edit_history" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_history_link_text" style="@style/MaterialListTitle" />
+                <TextView android:id="@id/page_last_updated_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MaterialListSubtitle" />
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" android:layout_marginEnd="16.0dip" app:srcCompat="@drawable/ic_open_in_new_black_24px" app:tint="?material_theme_secondary_color" />
+        </LinearLayout>
+        <View android:id="@id/page_edit_history_divider" android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="64.0dip" />
+        <LinearLayout android:id="@id/page_talk_container" android:background="?selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="48.0dip" android:layout_height="24.0dip" android:tint="?secondary_text_color" android:contentDescription="@null" app:srcCompat="@drawable/ic_talk_bubbles" />
+            <TextView android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/talk_page_link_text" android:layout_weight="1.0" style="@style/MaterialListTitle" />
+            <android.support.v7.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" android:layout_marginEnd="16.0dip" app:srcCompat="@drawable/ic_open_in_new_black_24px" app:tint="?material_theme_secondary_color" />
+        </LinearLayout>
+        <View android:id="@id/page_talk_divider" android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="64.0dip" />
+        <LinearLayout android:id="@id/page_view_map_container" android:background="?selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="48.0dip" android:layout_height="24.0dip" android:tint="?secondary_text_color" android:contentDescription="@null" app:srcCompat="@drawable/ic_map_pin" />
+            <TextView android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/map_view_link_text" android:layout_weight="1.0" style="@style/MaterialListTitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="?android:windowBackground" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/toolbar_bottom_shadow" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+        <android.support.v7.widget.CardView android:id="@id/read_more_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:cardBackgroundColor="?paper_color">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <org.wikipedia.views.ConfigurableTextView android:textColor="?section_title_color" android:gravity="center_vertical" android:id="@id/read_more_header" android:paddingLeft="@dimen/list_item_horizontal_padding" android:paddingRight="@dimen/list_item_horizontal_padding" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/read_more_section" android:fontFamily="sans-serif-medium" />
+                <ListView android:id="@id/read_more_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?list_separator_drawable_bottom_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <ImageView android:layout_width="120.0dip" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:tint="?secondary_text_color" android:contentDescription="@null" app:srcCompat="@drawable/wp_wordmark" />
+        <View android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" />
+        <org.wikipedia.views.AppTextView android:textColor="?secondary_text_color" android:id="@id/page_license_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:textIsSelectable="true" style="?android:textAppearanceSmall" />
+        <TextView android:textColor="?colorAccent" android:id="@id/page_external_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:text="@string/page_view_in_browser" style="?android:textAppearanceSmall" />
+    </LinearLayout>
+</merge>

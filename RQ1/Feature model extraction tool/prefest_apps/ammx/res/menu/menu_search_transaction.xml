@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="?ic_action_search" android:id="@id/menu_search_transaction" android:visible="false" android:title="@string/search" app:showAsAction="ifRoom|withText" />
+    <item android:id="@id/menu_export_to_csv" android:visible="false" android:title="@string/export_data_to_csv" />
+</menu>

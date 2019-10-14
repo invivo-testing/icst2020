@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/action_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/theme_list" android:title="@string/action_theme" android:key="theme" android:defaultValue="light-sans" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/theme_list_values" />
+    <ListPreference android:entries="@array/font_size_list" android:title="@string/action_font_size" android:key="font_size" android:defaultValue="normal" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/font_size_list_values" />
+    <ListPreference android:entries="@array/sort_by_list" android:title="@string/action_sort_by" android:key="sort_by" android:defaultValue="date" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/sort_by_list_values" />
+    <CheckBoxPreference android:title="@string/pref_title_show_dialogs" android:key="show_dialogs" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_show_date" android:key="show_date" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_title_direct_edit" android:key="direct_edit" android:defaultValue="false" />
+</PreferenceScreen>

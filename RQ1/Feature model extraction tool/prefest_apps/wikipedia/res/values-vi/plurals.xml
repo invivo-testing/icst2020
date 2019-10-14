@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d năm trước</item>
+        <item quantity="one">Năm ngoái</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Đang tải về các bài viết</item>
+        <item quantity="one">Đang tải về bài viết</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">còn %1$d bài viết</item>
+        <item quantity="one">còn %1$d bài viết</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">còn %1$d danh sách</item>
+        <item quantity="one">còn %1$d danh sách</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Đang đồng bộ hóa %1$d danh sách…</item>
+        <item quantity="one">Đang đồng bộ hóa %1$d danh sách…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Đang tải về %1$d bài viết…</item>
+        <item quantity="one">Đang tải về %1$d bài viết…</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Các bài này hiện không còn có sẵn ngoại tuyến.</item>
+        <item quantity="one">Bài này hiện không còn có sẵn ngoại tuyến.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Các bài này hiện có sẵn ngoại tuyến.</item>
+        <item quantity="one">Bài này hiện có sẵn ngoại tuyến.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d ngày trước</item>
+        <item quantity="one">hôm qua</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Xóa các ngôn ngữ đã chọn?</item>
+        <item quantity="one">Xóa ngôn ngữ đã chọn?</item>
+    </plurals>
+</resources>

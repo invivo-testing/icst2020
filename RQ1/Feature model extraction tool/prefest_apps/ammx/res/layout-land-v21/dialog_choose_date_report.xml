@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <com.money.manager.ex.view.RobotoTextView android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/from_date" android:singleLine="true" android:layout_weight="1.0" />
+        <com.money.manager.ex.view.RobotoTextView android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/to_date" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <DatePicker android:id="@id/datePickerFromDate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0" android:calendarViewShown="false" android:datePickerMode="spinner" />
+        <DatePicker android:id="@id/datePickerToDate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0" android:calendarViewShown="false" android:datePickerMode="spinner" />
+    </LinearLayout>
+</LinearLayout>

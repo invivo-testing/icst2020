@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferences"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_title" android:key="pref_category_first">
+        <ListPreference android:entries="@array/pref_locale_names" android:title="@string/settings_locale_title" android:key="user_locale" android:defaultValue="" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_locale_values" />
+        <Preference android:title="@string/settings_translate_title" android:key="translate" android:summary="@string/settings_translate_summary" />
+        <de.k3b.android.widget.AboutDialogPreference android:title="@string/about_summary" android:key="about" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/gallery_title" android:key="pref_category_photo">
+        <de.k3b.android.widget.EditTextPreferenceWithSummary android:title="@string/settings_image_slideshow_intervall_title" android:key="slideshowIntervallInMilliSecs" />
+        <de.k3b.android.widget.EditTextPreferenceWithSummary android:title="@string/settings_image_hide_time_title" android:key="actionBarHideTimeInMilliSecs" />
+        <EditTextPreference android:title="@string/settings_image_thumb_if_bigger_than_title" android:key="imageDetailThumbnailIfBiggerThan" android:summary="@string/settings_image_thumb_if_bigger_than_summary" />
+        <de.k3b.android.widget.EditTextPreferenceWithSummary android:title="@string/settings_image_thumb_dir_title" android:key="thumbCacheRoot" />
+        <de.k3b.android.widget.EditTextPreferenceWithSummary android:title="@string/settings_bookmark_dir_title" android:key="reportDir" />
+        <CheckBoxPreference android:title="@string/settings_pick_date_decade4year_title" android:key="datePickerUseDecade" android:summary="@string/settings_pick_date_decade4year_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/geo_show_menu_title" android:key="pref_category_map">
+        <CheckBoxPreference android:title="@string/settings_maps_forge_enable_tile" android:key="mapsForgeEnabled" android:summary="@string/settings_maps_forge_enable_summary" android:defaultValue="false" />
+        <de.k3b.android.widget.EditTextPreferenceWithSummary android:title="@string/settings_maps_forge_dir_title" android:key="mapsForgeDir" />
+        <de.k3b.android.widget.EditTextPreferenceWithSummary android:title="@string/settings_map_selmarker_max_title" android:key="maxSelectionMarkersInMap" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/edit_menu_title" android:key="pref_category_processing">
+        <ListPreference android:entries="@array/pref_media_update_strategy_names" android:title="@string/settings_media_update_strategy_title" android:key="mediaUpdateStrategy" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_media_update_strategy_values" />
+        <CheckBoxPreference android:title="@string/settings_xmp_file_schema_title" android:key="xmp_file_schema_long" android:summary="@string/settings_xmp_file_schema_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/settings_rename_private_jpg_title" android:key="renamePrivateJpg" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/settings_multisel_clear_title" android:key="clearSelectionAfterCommand" android:defaultValue="true" />
+        <de.k3b.android.widget.EditTextPreferenceWithSummary android:title="@string/settings_geo_history_max_title" android:key="pickHistoryMax" />
+        <de.k3b.android.widget.EditTextPreferenceWithSummary android:title="@string/settings_geo_history_file_title" android:key="pickHistoryFile" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_group_debug_title" android:key="pref_category_debug">
+        <CheckBoxPreference android:title="@string/settings_debug_sql_title" android:key="debugEnabledSql" android:summary="@string/settings_debug_sql_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/settings_debug_view_item_title" android:key="debugEnabledViewItem" android:summary="@string/settings_debug_view_item_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/settings_debug_map_title" android:key="debugEnabledMap" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/settings_debug_memory_title" android:key="debugEnabledMemory" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/settings_debug_jpg_title" android:key="debugEnabledJpg" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/settings_debug_meta_io" android:key="debugEnabledJpgMetaIo" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/settings_debug_libs_title" android:key="debugEnableLibs" android:summary="@string/settings_debug_libs_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/settings_debug_title" android:key="debugEnabled" android:summary="@string/settings_debug_summary" android:defaultValue="false" />
+        <Preference android:title="@string/settings_debug_clear_title" android:key="debugClearLog" />
+        <Preference android:title="@string/settings_debug_save_title" android:key="debugSaveLog" />
+        <de.k3b.android.widget.EditTextPreferenceWithSummary android:title="@string/settings_log_folder_title" android:key="logCatDir" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d နှစ်အကြာက</item>
+        <item quantity="one">မနှစ်</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d ရက် အကြာက</item>
+        <item quantity="one">မနေ့</item>
+    </plurals>
+</resources>

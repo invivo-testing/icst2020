@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:key="preference_screen"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory n1:title="@string/settings_general">
+        <SwitchPreference n1:title="@string/settings_enabled" n1:key="enabled" n1:summary="@string/settings_enabled_desc" n1:defaultValue="true" />
+        <PreferenceScreen n1:title="@string/settings_rules" n1:summary="@string/settings_rules_desc">
+            <PreferenceCategory n1:title="@string/settings_rules">
+                <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/delays" n1:title="@string/settings_stop_delay" n1:key="stop_delay" n1:summary="%s" n1:defaultValue="0" n1:dialogTitle="@string/settings_stop_delay_desc_short_message" n1:entryValues="@array/delays_vals" />
+                <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/rules_charging" n1:title="@string/settings_rules_cahrging" n1:key="rules" n1:summary="%s" n1:defaultValue="always" n1:dialogTitle="@string/settings_rules_desc" n1:entryValues="@array/rules_charging_vals" />
+                <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/rules_battery" n1:title="@string/settings_rules_battery" n1:key="battery_rules" n1:summary="%s" n1:defaultValue="0" n1:dialogTitle="@string/settings_rules_desc" n1:entryValues="@array/rules_battery_vals" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen n1:title="@string/settings_gestures" n1:key="gestures_prefs" n1:summary="@string/settings_gestures_desc">
+            <PreferenceCategory n1:title="@string/settings_samsung" n1:key="samsung_prefs">
+                <CheckBoxPreference n1:title="@string/settings_gestures_home_button_dismiss" n1:key="home_button_dismiss" n1:summary="@string/settings_gestures_home_button_dismiss_desc" n1:defaultValue="false" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="@string/settings_wake_up">
+                <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/gestures_actions" n1:title="@string/settings_double_tap_wake" n1:key="double_tap_action" n1:summary="%s" n1:defaultValue="1" n1:entryValues="@array/gestures_actions_vals" />
+                <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/gestures_actions" n1:title="@string/settings_swipe_up" n1:key="swipe_up_action" n1:summary="%s" n1:defaultValue="0" n1:entryValues="@array/gestures_actions_vals" />
+                <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/gestures_actions" n1:title="@string/settings_swipe_down" n1:key="swipe_down_action" n1:summary="%s" n1:defaultValue="0" n1:entryValues="@array/gestures_actions_vals" />
+                <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/gestures_actions" n1:title="@string/settings_volume_to_stop" n1:key="volume_keys_action" n1:summary="%s" n1:defaultValue="0" n1:entryValues="@array/gestures_actions_vals" />
+                <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/gestures_actions" n1:title="@string/settings_back_button_wake" n1:key="back_button_action" n1:summary="%s" n1:defaultValue="0" n1:entryValues="@array/gestures_actions_vals" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="@string/settings_shortcuts">
+                <CheckBoxPreference n1:title="@string/settings_stop_on_camera" n1:key="camera_shortcut" n1:summary="@string/settings_stop_on_camera_desc" n1:defaultValue="false" />
+                <CheckBoxPreference n1:title="@string/settings_google_now_shortcut" n1:key="google_now_shortcut" n1:summary="@string/settings_google_now_shortcut_desc" n1:defaultValue="false" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/settings_appearance">
+        <PreferenceScreen n1:title="@string/settings_watchface" n1:summary="@string/settings_watchface_desc">
+            <PreferenceCategory n1:title="@string/settings_watchface_styles">
+                <Preference n1:title="@string/settings_watchface_clock" n1:key="watchface_clock" n1:summary="@string/settings_watchface_clock_desc" n1:defaultValue="1" />
+                <Preference n1:title="@string/settings_watchface_date" n1:key="watchface_date" n1:summary="@string/settings_watchface_date_desc" n1:defaultValue="1" />
+                <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/customize_battery" n1:title="@string/settings_watchface_battery" n1:key="watchface_battery" n1:summary="%s" n1:defaultValue="0" n1:dialogTitle="@string/settings_watchface_battery" n1:entryValues="@array/customize_battery_vals" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="@string/settings_watchface_text_font">
+                <Preference n1:title="@string/settings_font" n1:key="font" n1:summary="@string/settings_choose_font" n1:defaultValue="0" />
+                <com.tomer.alwayson.views.SeekBarPreference n1:max="120" n1:title="@string/settings_font_size" n1:key="font_size" n1:summary="@string/settings_font_size_desc" n1:defaultValue="80" n1:dialogTitle="@string/settings_font_size_desc" />
+                <Preference n1:title="@string/settings_text_color" n1:key="textcolor" n1:summary="@string/settings_text_color_desc" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="@string/settings_always_on_memo">
+                <com.tomer.alwayson.views.EditTextDialog n1:hint="@string/settings_memo_hint" n1:title="@string/settings_memo_text" n1:key="memo_text" n1:summary="%s" n1:dialogTitle="@string/settings_memo_text_desc" />
+                <com.tomer.alwayson.views.SeekBarPreference n1:max="120" n1:title="@string/settings_font_size" n1:key="memo_font_size" n1:summary="@string/settings_font_size_memo_desc" n1:dependency="memo_text" n1:defaultValue="40" n1:dialogTitle="@string/settings_font_size_desc" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="@string/settings_watchface_miscellaneous">
+                <CheckBoxPreference n1:title="@string/settings_show_am_pm" n1:key="showampm" n1:summary="@string/settings_show_am_pm_desc" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/orientations" n1:title="@string/settings_orientation" n1:key="screen_orientation" n1:summary="%s" n1:defaultValue="vertical" n1:dialogTitle="@string/settings_orientation" n1:entryValues="@array/orientations_vals" />
+        <com.tomer.alwayson.views.SeekBarPreference n1:max="200" n1:title="@string/settings_brightness" n1:key="brightness" n1:summary="@string/settings_brightness_desc" n1:defaultValue="12" n1:dialogTitle="@string/settings_brightness_desc" />
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/animations" n1:title="@string/settings_exit_animation" n1:key="exit_animation" n1:summary="%s" n1:defaultValue="0" n1:dialogTitle="@string/settings_exit_animation_desc" n1:entryValues="@array/animations_vals" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/settings_behaviour">
+        <SwitchPreference n1:title="@string/settings_battery_saver" n1:key="battery_saver" n1:summary="@string/settings_battery_saver_desc" n1:defaultValue="false" />
+        <SwitchPreference n1:title="@string/settings_raise_to_wake" n1:key="raise_to_wake" n1:summary="@string/settings_raise_to_wake_desc" n1:defaultValue="false" />
+        <SwitchPreference n1:title="@string/settings_notifications" n1:key="notifications_alerts" n1:summary="@string/settings_notifications_alerts_desc" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/settings_notifications_alerts_preview" n1:key="notifications_alerts_preview" n1:summary="@string/settings_notifications_alerts_preview_desc" n1:dependency="notifications_alerts" n1:defaultValue="true" />
+        <CheckBoxPreference n1:title="@string/settings_startafterlock" n1:key="startafterlock" n1:summary="@string/settings_startafterlock_desc" n1:defaultValue="true" />
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference n1:entries="@array/settings_move" n1:title="@string/settings_move_auto" n1:key="movement_style" n1:summary="%s" n1:defaultValue="1" n1:dialogTitle="@string/settings_move_desc" n1:entryValues="@array/settings_move_values" />
+        <CheckBoxPreference n1:title="@string/settings_auto_brightness" n1:key="auto_brightness" n1:summary="@string/settings_auto_brightness_desc" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/settings_proximity" n1:key="proximity_to_lock" n1:summary="@string/settings_proximity_to_lock_desc" n1:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/settings_watchface_miscellaneous">
+        <SwitchPreference n1:title="@string/settings_doze" n1:key="doze_mode" n1:summary="@string/settings_doze_desc" n1:defaultValue="false" />
+        <SwitchPreference n1:title="@string/settings_greenify_integration" n1:key="greenify_enabled" n1:summary="@string/settings_greenify_integration_desc" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/settings_disable_volume_keys" n1:key="disable_volume_keys" n1:summary="@string/settings_disable_volume_keys_desc" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/settings_persistent_notification" n1:key="persistent_notification" n1:summary="@string/settings_notifications_desc" n1:dependency="enabled" n1:defaultValue="true" />
+        <Preference n1:title="@string/settings_uninstall" n1:key="uninstall" n1:summary="@string/settings_uninstall_desc" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/settings_about">
+        <com.tomer.alwayson.views.URLPreference n1:title="@string/settings_community" n1:summary="@string/settings_community_desc" n2:url="https://plus.google.com/communities/104206728795122451273"
+          xmlns:n2="http://schemas.android.com/apk/res/com.tomer.alwayson" />
+        <com.tomer.alwayson.views.URLPreference n1:title="@string/settings_translate" n1:summary="@string/settings_about_translate" n3:url="https://crowdin.com/project/always-on-amoled"
+          xmlns:n3="http://schemas.android.com/apk/res/com.tomer.alwayson" />
+        <com.tomer.alwayson.views.DeveloperPreference n1:title="@string/settings_developer" n1:summary="@string/settings_developer_desc" />
+        <Preference n1:title="@string/settings_licenses" n1:key="open_source_licenses" n1:summary="@string/settings_licenses_desc" />
+        <Preference n1:title="@string/settings_app_version" n1:key="version" />
+    </PreferenceCategory>
+</PreferenceScreen>

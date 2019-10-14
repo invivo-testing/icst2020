@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/main" n1:background="@drawable/nav_tab_bg" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:id="@id/titlebar" n1:paddingLeft="8.0dip" n1:layout_width="fill_parent" n1:layout_height="32.0dip">
+        <TextView n1:textAppearance="?android:textAppearanceSmall" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/title" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:lines="1" n1:scrollHorizontally="true" n1:singleLine="true" n1:drawablePadding="8.0dip" n1:layout_weight="1.0" />
+        <ImageView n1:layout_gravity="center_vertical" n1:id="@id/closetab" n1:background="?android:selectableItemBackground" n1:paddingLeft="8.0dip" n1:paddingRight="16.0dip" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_tab_close" n1:contentDescription="@string/ContentDescriptionCloseTabButton" />
+    </LinearLayout>
+    <ImageView n1:id="@id/tab_view" n1:paddingLeft="2.0dip" n1:paddingRight="2.0dip" n1:focusable="false" n1:layout_width="200.0dip" n1:layout_height="120.0dip" n1:src="@drawable/start_page" n1:contentDescription="@string/ContentDescriptionTabPreview" />
+</LinearLayout>

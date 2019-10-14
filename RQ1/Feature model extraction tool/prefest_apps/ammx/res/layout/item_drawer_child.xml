@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/imageViewIcon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="48.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:contentDescription="image" />
+        <com.money.manager.ex.view.RobotoTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:layout_gravity="center_vertical" android:id="@id/textViewItem" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="16.0dip" android:text="Test" android:singleLine="true" android:layout_weight="1.0" app:typeface="roboto_black" />
+    </LinearLayout>
+    <View android:id="@id/viewDivider" android:background="?android:listDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

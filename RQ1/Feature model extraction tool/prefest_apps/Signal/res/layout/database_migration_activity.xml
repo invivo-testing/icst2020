@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/background_pattern_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/prompt_layout" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_marginBottom="16.0dip" android:text="@string/database_migration_activity__would_you_like_to_import_your_existing_text_messages" style="@style/Registration.Description" />
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/import_database" />
+            <TextView android:layout_width="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/database_migration_activity__the_default_system_database_will_not_be_modified" style="@style/Registration.Description" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/skip_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:text="@string/database_migration_activity__skip" android:layout_weight="1.0" />
+                <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/import_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/database_migration_activity__import" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/progress_layout" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/import_database" />
+            <TextView android:layout_width="fill_parent" android:layout_marginTop="34.0dip" android:layout_marginBottom="16.0dip" android:text="@string/database_migration_activity__this_could_take_a_moment_please_be_patient" style="@style/Registration.Description" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:id="@id/import_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/100" android:layout_alignParentRight="true" style="@style/Registration.Constant" />
+                <TextView android:textSize="12.0sp" android:textStyle="normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/database_migration_activity__importing" android:layout_alignParentLeft="true" android:textAllCaps="true" style="@style/Registration.Constant" />
+            </RelativeLayout>
+            <ProgressBar android:id="@id/import_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="14.0dip" style="@style/Widget.ProgressBar.Horizontal" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

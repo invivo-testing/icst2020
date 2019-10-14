@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">%d notikumos</item>
+        <item quantity="one">%d notikumā</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Ik pēc %d dienas(-ām)</item>
+        <item quantity="one">Ik pēc %d dienas</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Ik pēc %d mēneša(-iem)</item>
+        <item quantity="one">Ik pēc %d mēneša</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Ik pēc %d nedēļas(-ām)</item>
+        <item quantity="one">Ik pēc %d nedēļas</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Ik pēc %d gada(-iem)</item>
+        <item quantity="one">Ik pēc %d gada</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.AppBarLayout n1:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" n1:id="@id/app_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <android.support.design.widget.CollapsingToolbarLayout n1:theme="@style/Theme.AppCompat" n1:id="@id/collapsing_toolbar" n1:background="@android:color/white" n1:layout_width="fill_parent" n1:layout_height="370.0dip" n2:contentScrim="@color/colorPrimary" n2:expandedTitleTextAppearance="@style/TextApperance.Album.Title" n2:layout_scrollFlags="exitUntilCollapsed|scroll" n2:statusBarScrim="@color/colorPrimaryDark" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <ImageView n1:id="@id/album_art" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/ic_empty_music2" n1:scaleType="centerCrop" n2:layout_collapseMode="parallax" />
+            <View n1:background="#22000000" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+            <LinearLayout n1:layout_gravity="bottom" n1:orientation="horizontal" n1:background="@drawable/bg_gradient" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <com.naman14.timber.widgets.CircleImageView n1:id="@id/artist_art" n1:visibility="gone" n1:layout_width="50.0dip" n1:layout_height="50.0dip" n1:layout_marginLeft="10.0dip" n1:layout_marginBottom="10.0dip" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+                <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="18.0dip" n1:layout_marginBottom="15.0dip">
+                    <TextView n1:textSize="25.0sp" n1:textStyle="bold" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/album_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:singleLine="true" />
+                    <TextView n1:textSize="16.0sp" n1:textColor="#ffffffff" n1:id="@id/album_details" n1:paddingTop="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n2:layout_collapseMode="pin" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView n1:id="@id/recyclerview" n1:paddingTop="10.0dip" n1:clipToPadding="false" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n3:layout_behavior="@string/appbar_scrolling_view_behavior" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <android.support.design.widget.FloatingActionButton n1:id="@id/fab" n1:tag="bg_tint_accent_color" n1:visibility="gone" n4:layout_anchor="@id/app_bar" n4:layout_anchorGravity="end|bottom|center" style="@style/FabStyle" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</android.support.design.widget.CoordinatorLayout>

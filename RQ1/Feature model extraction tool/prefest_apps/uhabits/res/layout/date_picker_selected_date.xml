@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/day_picker_selected_date_layout" n1:background="@color/white" n1:layout_width="@dimen/date_picker_component_width" n1:layout_height="0.0dip" n1:layout_weight="1.0"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.android.datetimepicker.AccessibleLinearLayout n1:textColor="@color/date_picker_selector" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/date_picker_month_and_day" n1:clickable="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="@dimen/selected_date_month_size" n1:textColor="@color/date_picker_selector" n1:gravity="bottom|center" n1:id="@id/date_picker_month" n1:duplicateParentState="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:includeFontPadding="false" />
+        <TextView n1:textSize="@dimen/selected_date_day_size" n1:textColor="@color/date_picker_selector" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/date_picker_day" n1:duplicateParentState="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="-10.0dip" n1:layout_marginBottom="-10.0dip" n1:includeFontPadding="false" />
+    </com.android.datetimepicker.AccessibleLinearLayout>
+    <com.android.datetimepicker.AccessibleTextView n1:textSize="@dimen/selected_date_year_size" n1:textColor="@color/date_picker_selector" n1:gravity="center|top" n1:layout_gravity="center" n1:id="@id/date_picker_year" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:includeFontPadding="false" />
+</LinearLayout>

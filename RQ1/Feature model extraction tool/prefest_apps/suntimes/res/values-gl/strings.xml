@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_location_label">Madrid</string>
+    <string name="default_location_latitude">40.4378</string>
+    <string name="default_location_longitude">-3.8196</string>
+</resources>

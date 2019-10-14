@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_rate" n1:id="@id/rate" n1:title="@string/menu_rate" n2:showAsAction="never"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="@drawable/ic_people" n3:id="@id/community" n3:title="@string/settings_community" n4:showAsAction="never"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="@drawable/ic_github" n5:id="@id/github" n5:title="@string/settings_github" n6:showAsAction="never"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="@drawable/ic_translate" n7:id="@id/translate" n7:title="@string/settings_translate" n8:showAsAction="never"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:icon="@drawable/ic_uninstall" n9:id="@id/uninstall" n9:title="@string/settings_uninstall" n10:showAsAction="never"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="application_button_size">50</integer>
+    <integer name="default_start_page_items_number">9</integer>
+    <integer name="favicon_size">20</integer>
+    <integer name="tab_title_length">30</integer>
+</resources>

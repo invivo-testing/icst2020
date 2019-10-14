@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d съобщения на разговор</item>
+        <item quantity="one">%dсъобщение на разговор</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Това ще скъси всички разговори до %dте най-нови съобщения.</item>
+        <item quantity="one">Това ще скъси всички разговори до най-новoто съобщение.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d непрочетени съобщения</item>
+        <item quantity="one">%d непрочетено съобщение</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Изтриване на избраните съобщения?</item>
+        <item quantity="one">Изтриване на избраното съобщение?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Грешка при запазването на прикачените файлове!</item>
+        <item quantity="one">Грешка при запазването на прикаченият файл!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Запазване на %1$d прикачени файла</item>
+        <item quantity="one">Запазване на прикачения файл</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Запазване на %1$d прикачени файла в хранилището...</item>
+        <item quantity="one">Запазване на прикачения файл в хранилището...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Запазването на всички %1$d медийни файла ще даде достъп до тях на всички други приложения.
+
+Продължи?"</item>
+        <item quantity="one">"Запазването на този медиен файл ще даде достъп до него на всички други приложения.
+
+Продължи?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Това ще изтрие невъзвращаемо всичките %1$d избрани съобщения.</item>
+        <item quantity="one">Това ще изтрие невъзращаемо избраното съобщение.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d архивирани разговора</item>
+        <item quantity="one">Разговорът е архивиран</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Изтриване на избраните разговори?</item>
+        <item quantity="one">Изтриване на избрания разговор?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">Преместени %d разговора във входящата кутия</item>
+        <item quantity="one">Преместен разговор във входяща кутия</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Това ще изтрие невъзвращаемо всичките %1$d избрани разговори.</item>
+        <item quantity="one">Това ще изтрие невъзвращаемо избрания разговор.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s се присъединиха към групата.</item>
+        <item quantity="one">%1$s се присъедини към групата.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Изпащане на %d SMS покани?</item>
+        <item quantity="one">Изпащане на %d SMS покана?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">ИЗПРАЩАНЕ НА SMS НА %d ПРИТЯТЕЛЯ</item>
+        <item quantity="one">ИЗПРАЩАНЕ НА SMS НА %d ПРИЯТЕЛ</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Това ще изтрие невъзвращаемо всичките %1$d избрани съобщения.</item>
+        <item quantity="one">Това ще изтрие невъзвращаемо избраното съобщение.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Изтриване на избраните съобщения?</item>
+        <item quantity="one">Изтриване на избраното съобщение?</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d дена</item>
+        <item quantity="one">%d ден</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d седмици</item>
+        <item quantity="one">%d седмица</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d други</item>
+        <item quantity="one">%d друг</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Вашата версия на Signal ще изтече след %d дена. Натиснете, за да я обновите до най-новата версия.</item>
+        <item quantity="one">Вашата версия на Сигнал ще изтече след %d ден. Натиснете, за да я обновите до най-новата версия.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other">Copiati %1$d byte negli appunti</item>
+        <item quantity="one">Copiato %1$d byte negli appunti</item>
+    </plurals>
+</resources>

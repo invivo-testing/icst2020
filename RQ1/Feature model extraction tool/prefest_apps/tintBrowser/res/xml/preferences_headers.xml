@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers>
+    <header n1:title="@string/PreferenceHeaderGeneralSettingsTitle" n1:fragment="org.tint.ui.preferences.GeneralPreferencesFragment"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <header n2:title="@string/PreferenceHeaderBrowserSettingsTitle" n2:fragment="org.tint.ui.preferences.BrowserPreferencesFragment"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <header n3:title="@string/PreferenceHeaderPrivacySettingsTitle" n3:fragment="org.tint.ui.preferences.PrivacyPreferencesFragment"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <header n4:title="@string/PreferenceHeaderAccessibilityTitle" n4:fragment="org.tint.ui.preferences.AccessibilityPreferencesFragment"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <header n5:title="@string/PreferenceHeaderAddonsTitle" n5:fragment="org.tint.ui.preferences.AddonsFragment"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <header n6:title="@string/PreferenceHeaderAboutTitle" n6:fragment="org.tint.ui.preferences.AboutFragment"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+</preference-headers>

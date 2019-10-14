@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/link_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" sothree:umanoPanelHeight="@dimen/button_bar_height" sothree:umanoShadowHeight="4.0dip" sothree:umanoParalaxOffset="100.0dip" style="?containerBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sothree="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/comments_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.devspark.robototextview.widget.RobotoTextView android:gravity="center" android:id="@id/saved_banner" android:background="?colorPrimary" android:padding="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/story_detail_saved_banner" />
+            <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipe_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/saved_banner">
+                <android.support.v7.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/comments_recycler" android:background="?containerBackground" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fastScrollEnabled="true" />
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <include android:id="@id/link_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/view_story_link" />
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

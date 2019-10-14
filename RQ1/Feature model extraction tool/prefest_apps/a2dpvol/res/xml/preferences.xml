@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:enabled="true" n1:title="@string/app_name"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory n1:title="@string/PrefsCatGen">
+        <CheckBoxPreference n1:enabled="true" n1:title="@string/PrefsBootstart" n1:selectable="true" n1:key="bootstart" n1:defaultValue="true" n1:summaryOn="@string/PrefsBootstartON" n1:summaryOff="@string/PrefsBootstartOFF" />
+        <CheckBoxPreference n1:enabled="true" n1:title="@string/PrefsToasts" n1:selectable="true" n1:key="toasts" n1:summary="@string/PrefsToastsSummary" n1:defaultValue="true" n1:summaryOn="@string/PrefsToastsON" n1:summaryOff="@string/PrefsToastsOFF" />
+        <ListPreference n1:entries="@array/PrefsNotifyOptions" n1:title="@string/PrefsNotifyTitle" n1:key="notify_pref" n1:summary="@string/PrefsNotificationSummary" n1:defaultValue="always" n1:dialogTitle="@string/PrefsNotify" n1:entryValues="@array/PrefsNotifyItems" />
+        <CheckBoxPreference n1:title="@string/PrefsUseLocalStorage" n1:key="useLocalStorage" n1:defaultValue="false" n1:summaryOn="@string/PrefsUseLocatStorageON" n1:summaryOff="@string/PrefsUseLocalStorageOFF" />
+        <CheckBoxPreference n1:enabled="true" n1:title="@string/PrefsCarMode" n1:selectable="true" n1:key="car_mode" n1:defaultValue="true" n1:summaryOn="@string/PrefsCarModeON" n1:summaryOff="@string/PrefsCarModeOFF" />
+        <CheckBoxPreference n1:title="@string/PrefsHomeDock" n1:key="home_dock" n1:summaryOn="@string/PrefsHomeDockON" n1:summaryOff="@string/PrefsHomeDockOFF" />
+        <CheckBoxPreference n1:title="@string/PrefsHeadset" n1:key="headset" n1:defaultValue="false" n1:summaryOn="@string/PrefsHeadsetON" n1:summaryOff="@string/PrefsHeadsetOFF" />
+        <CheckBoxPreference n1:title="@string/PrefsPower" n1:key="power" n1:defaultValue="false" n1:summaryOn="@string/PrefsPowerON" n1:summaryOff="@string/PrefsPowerOFF" />
+        <CheckBoxPreference n1:title="@string/PrefsTTS" n1:key="enableTTS" n1:defaultValue="false" n1:summaryOn="@string/PrefsTTSON" n1:summaryOff="@string/PrefsTTSOFF" />
+        <CheckBoxPreference n1:enabled="true" n1:title="@string/PrefsGTalk" n1:key="enableGTalk" n1:defaultValue="true" n1:summaryOn="@string/PrefsGTalkON" n1:summaryOff="@string/PrefsGTalkOFF" />
+        <CheckBoxPreference n1:title="@string/PrefsHideVolUI" n1:key="hideVolUi" n1:defaultValue="false" n1:summaryOn="@string/PrefsHideVolUiON" n1:summaryOff="@string/PrefsHideVolUiOFF" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:enabled="true" n1:title="@string/PrefsCatGPS">
+        <ListPreference n1:enabled="true" n1:entries="@array/gpsTimeout" n1:title="@string/PrefsGPSTimeoutTitle" n1:key="gpsTime" n1:summary="@string/PrefsGPSTimeout" n1:defaultValue="20000" n1:entryValues="@array/gpsTimeout_items" />
+        <ListPreference n1:entries="@array/gpsDistance" n1:title="@string/PrefsGPSInaccuracyTitle" n1:key="gpsDistance" n1:summary="@string/PrefsGPSInaccuracy" n1:defaultValue="2" n1:entryValues="@array/gpsDistance_items" />
+        <CheckBoxPreference n1:enabled="true" n1:title="@string/usePassiveTitle" n1:selectable="true" n1:key="usePassive" n1:defaultValue="false" n1:summaryOn="@string/usePassiveOn" n1:summaryOff="@string/usePassiveOff" />
+        <CheckBoxPreference n1:title="@string/useNetworkTitle" n1:key="useNetwork" n1:defaultValue="true" n1:summaryOn="@string/useNetworkON" n1:summaryOff="@string/useNetworkOFF" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:id="@id/widgetframe_inner" n1:layout_height="fill_parent" style="@style/SunsetTimeWidget"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:gravity="start" n1:id="@id/text_title" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dip" style="@style/SunsetTimeTextTitleView" />
+    <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="2.0dip" n1:layout_marginRight="2.0dip">
+        <LinearLayout n1:gravity="end|center" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:gravity="start" n1:id="@id/info_sun_elevation_current_label" n1:visibility="visible" n1:layout_width="0.0dip" n1:layout_marginRight="8.0dip" n1:text="@string/widgetLabel_altitude" n1:layout_weight="1.0" style="@style/SunsetTimeTextView" />
+            <TextView n1:gravity="end" n1:id="@id/info_sun_elevation_current" n1:layout_marginLeft="2.0dip" n1:layout_marginRight="2.0dip" n1:text="" style="@style/SunsetTimeTextView" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="end|center" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:gravity="start" n1:id="@id/info_sun_azimuth_current_label" n1:visibility="visible" n1:layout_width="0.0dip" n1:layout_marginRight="8.0dip" n1:text="@string/widgetLabel_azimuth" n1:layout_weight="1.0" style="@style/SunsetTimeTextView" />
+            <TextView n1:gravity="end" n1:id="@id/info_sun_azimuth_current" n1:layout_marginLeft="2.0dip" n1:layout_marginRight="2.0dip" n1:text="" style="@style/SunsetTimeTextView" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

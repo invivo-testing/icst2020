@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Учебные карточки для Android&lt;/h2>AnkiDroid — это приложение для повторения карточек, которое полностью совместимо с версией для настольных компьютеров &lt;a href=\"%2$s\"> Anki&lt;/a>. Создавайте, загружайте и учите карточки в AnkiDroid или Anki Desktop, и синхронизируйте их через AnkiWeb.</item>
+        <item>Чтобы помочь нам сделать AnkiDroid лучше, пожалуйста, сообщайте об ошибках &lt;a href=\"%1$s\">в баг-трекере&lt;/a>. Новые идеи также приветствуются. Ищите ответы в &lt;a href=\"%2$s\">вики&lt;/a> или начните обсуждение на &lt;a href=\"%3$s\">форуме&lt;/a>.</item>
+        <item>AnkiDroid — это &lt;a href=\"%1$s\">программное обеспечение с открытым исходным кодом&lt;a/>, поэтому любой желающий может &lt;a href=\"%2$s\">внести свой вклад&lt;/a> :-)</item>
+        <item>Неразработчики тоже могут помочь. Например, вы можете &lt;a href=\"%1$s\">помочь с переводом&lt;/a> AnkiDroid, обновить вики, предоставить скриншоты или написать в блоге об AnkiDroid.</item>
+        <item>AnkiDroid выпускается под &lt;a href=\"%1$s\">лицензией GNU-GPL v3&lt;/a>, и исходный код доступен &lt;a href=\"%2$s\">на GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Использовать текущую колоду</item>
+        <item>Решать по типу записи</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Сверху</item>
+        <item>Снизу</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Вопрос</item>
+        <item>Поле сортировки</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Ответ</item>
+        <item>Карточка</item>
+        <item>Колода</item>
+        <item>Тип записи</item>
+        <item>Вопрос</item>
+        <item>Метки</item>
+        <item>Ошибок</item>
+        <item>Повторений</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Без сортировки (быстро)</item>
+        <item>По полю сортировки</item>
+        <item>По времени создания</item>
+        <item>По времени редактирования</item>
+        <item>По времени изменения</item>
+        <item>По расписанию</item>
+        <item>По интервалу</item>
+        <item>По лёгкости</item>
+        <item>По количеству просмотров</item>
+        <item>По ошибкам</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>давно не повторяемые</item>
+        <item>случайные</item>
+        <item>увеличению интервалов</item>
+        <item>уменьшению интервалов</item>
+        <item>самые сложные</item>
+        <item>по порядку добавления</item>
+        <item>по расписанию повторения</item>
+        <item>последние добавленные</item>
+        <item>по просрочке</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Светлый</item>
+        <item>Простой</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Дни</item>
+        <item>Недели</item>
+        <item>Месяцы</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Всегда сообщать</item>
+        <item>Никогда не сообщать</item>
+        <item>Спрашивать меня</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Без действия</item>
+        <item>Показать ответ</item>
+        <item>Кнопка ответа 1</item>
+        <item>Кнопка ответа 2</item>
+        <item>Кнопка ответа 3</item>
+        <item>Кнопка ответа 4</item>
+        <item>Рекомендованный ответ (зелёный)</item>
+        <item>Лучше рекомендованного ответа</item>
+        <item>Отменить</item>
+        <item>Редактировать запись</item>
+        <item>Отметить запись</item>
+        <item>Посмотреть выражение</item>
+        <item>Отложить карточку</item>
+        <item>Исключить карточку</item>
+        <item>Удалить запись</item>
+        <item>Воспроизвести медиафайл</item>
+        <item>Прервать обучение</item>
+        <item>Отложить запись</item>
+        <item>Исключить запись</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Исключить карточку</item>
+        <item>Добавить метку</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Новые в случайном порядке</item>
+        <item>Новые карточки в порядке добавления</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Перемешать новые и повторяемые</item>
+        <item>Повторяемые до новых</item>
+        <item>Новые до повторяемых</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Чёрный</item>
+        <item>Тёмный</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Если в карточке не указан шрифт</item>
+        <item>Всегда</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4:00</item>
+        <item>10:00</item>
+        <item>16:00</item>
+        <item>20:00</item>
+        <item>3:00</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>вс.</item>
+        <item>пн.</item>
+        <item>вт.</item>
+        <item>ср.</item>
+        <item>чт.</item>
+        <item>пт.</item>
+        <item>сб.</item>
+    </string-array>
+</resources>

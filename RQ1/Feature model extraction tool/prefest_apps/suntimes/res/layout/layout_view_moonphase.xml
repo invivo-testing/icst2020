@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <FrameLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/moonphase_layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dip" n1:layout_marginBottom="2.0dip" n1:weightSum="4.0">
+            <include layout="@layout/info_moonphase" />
+            <LinearLayout n1:paddingLeft="4.0dip" n1:paddingRight="4.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <TextView n1:textColor="?moonriseColor" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/text_info_moon_elevation" n1:visibility="gone" n1:layout_marginRight="8.0dip" style="@style/SunsetTimeTextView2" />
+                <TextView n1:textColor="?moonriseColor" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/text_info_moon_azimuth" n1:visibility="gone" style="@style/SunsetTimeTextView2" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

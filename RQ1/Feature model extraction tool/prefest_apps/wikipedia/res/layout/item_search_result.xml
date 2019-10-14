@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:id="@id/page_list_item_container" android:background="?paper_color" android:paddingLeft="@dimen/list_item_horizontal_padding" android:paddingTop="@dimen/list_item_vertical_padding" android:paddingRight="@dimen/list_item_horizontal_padding" android:paddingBottom="@dimen/list_item_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/page_list_item_image" android:layout_width="@dimen/view_list_card_item_image" android:layout_height="@dimen/view_list_card_item_image" android:layout_marginTop="6.0dip" app:backgroundImage="@color/base100" app:roundedCornerRadius="2.0dip" style="@style/SimpleDraweeViewPlaceholder.Article" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/page_list_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/MaterialListTitle" />
+        <LinearLayout android:id="@id/page_list_item_redirect_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:alpha="0.5" android:layout_marginStart="16.0dip">
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:tint="?secondary_text_color" android:contentDescription="@null" app:srcCompat="@drawable/ic_subdirectory_arrow_right_black_24dp" />
+            <org.wikipedia.views.GoneIfEmptyTextView android:ellipsize="end" android:id="@id/page_list_item_redirect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/MaterialListSubtitle" />
+        </LinearLayout>
+        <org.wikipedia.views.GoneIfEmptyTextView android:id="@id/page_list_item_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="16.0dip" style="@style/MaterialListSubtitle" />
+    </LinearLayout>
+</LinearLayout>

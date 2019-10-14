@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/dialogFormRow">
+        <android.support.design.widget.TextInputLayout n1:id="@id/tilName" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="6.0">
+            <EditText n1:id="@id/tvName" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/name" style="@style/dialogFormInput">
+                <requestFocus />
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+        <ImageButton n1:id="@id/buttonPickColor" n1:src="?dialogIconChangeColor" n1:layout_weight="1.0" n1:contentDescription="@string/color_picker_default_title" style="@style/dialogFormInputColor" />
+    </LinearLayout>
+    <android.support.design.widget.TextInputLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <org.isoron.uhabits.activities.habits.edit.views.ExampleEditText n1:id="@id/tvDescription" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/question" style="@style/dialogFormInputMultiline" n2:example="@string/example_question_numerical" xmlns:n2="http://isoron.org/android" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

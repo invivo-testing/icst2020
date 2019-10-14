@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/phone_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_phone_grey600_32dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/call_me_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/RegistrationActivity_call_me_instead" android:layout_toRightOf="@id/phone_icon" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/available_in_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RegistrationActivity_available_in" android:layout_toLeftOf="@id/countdown" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0sp" android:id="@id/countdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</merge>

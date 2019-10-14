@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d songs were deleted.</item>
+        <item quantity="one">%d song was deleted.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">@string/number_songs_add_playlist</item>
+        <item quantity="one">@string/number_song_add_playlist</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="other">@string/number_songs_add_queue</item>
+        <item quantity="one">@string/number_song_add_queue</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">@string/count_albums</item>
+        <item quantity="one">@string/count_album</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="other">@string/count_artists</item>
+        <item quantity="one">@string/count_artist</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">@string/count_songs</item>
+        <item quantity="zero">@string/count_songs</item>
+        <item quantity="one">@string/count_song</item>
+    </plurals>
+</resources>

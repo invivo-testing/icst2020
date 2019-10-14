@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appThemes_display">
+        <item>Itxura argia</item>
+        <item>Itxura iluna</item>
+        <item>Itxura argia / Itxura iluna (Gau modua)</item>
+    </string-array>
+    <string-array name="clockTapActions_display">
+        <item>Ez egin ezer</item>
+        <item>@string/configAction_setAlarm</item>
+        <item>@string/configAction_setTimeZone</item>
+        <item>Hurrengo oharra erakutsi</item>
+        <item>Aurreko oharra erakutsi</item>
+    </string-array>
+    <string-array name="dateTapActions_display">
+        <item>Ez egin ezer</item>
+        <item>Fitxak alderantzikatu (gaur/bihar)</item>
+        <item>Egutegiaren aplikazioa erakutsi</item>
+        <item>Data pertsonalizatua ezarri</item>
+    </string-array>
+    <string-array name="directions_long">
+        <item>Iparra</item>
+        <item>Iparra ipar ekialdea</item>
+        <item>Ipar ekialdea</item>
+        <item>Ekialdea ipar ekialdea</item>
+        <item>Ekialdea</item>
+        <item>Ekialdea hego ekialdea</item>
+        <item>Hego ekialdea</item>
+        <item>Hego hego ekialdea</item>
+        <item>Hegoaldea></item>
+        <item>Hego hego mendebaldea</item>
+        <item>Hego mendebaldea</item>
+        <item>Mendebaldea hego mendebaldea</item>
+        <item>Mendebaldea</item>
+        <item>Mendebaldea ipar mendebaldea</item>
+        <item>Ipar mendebaldea</item>
+        <item>Ipar ipar mendebaldea</item>
+        <item>Iparra</item>
+    </string-array>
+    <string-array name="directions_short">
+        <item>I</item>
+        <item>IIE</item>
+        <item>IE</item>
+        <item>EIE</item>
+        <item>E</item>
+        <item>EHE</item>
+        <item>HE</item>
+        <item>HHE</item>
+        <item>H</item>
+        <item>HHM</item>
+        <item>HM</item>
+        <item>MHM</item>
+        <item>M</item>
+        <item>MIM</item>
+        <item>IM</item>
+        <item>IIM</item>
+        <item>I</item>
+    </string-array>
+    <string-array name="getFix_maxAge_display">
+        <item>Minutu 1</item>
+        <item>5 minutu</item>
+        <item>15 minutu</item>
+        <item>Ordu 1</item>
+        <item>4 ordu</item>
+        <item>12 ordu</item>
+        <item>egun bat (24 ordu)</item>
+        <item>bi egun (48 ordu)</item>
+        <item>aste bat (168 ordu)</item>
+        <item>hilabete bat (672 ordu)</item>
+    </string-array>
+    <string-array name="getFix_maxElapse_display">
+        <item>15 segundu</item>
+        <item>30 segundu</item>
+        <item>Minutu 1</item>
+        <item>5 minutu</item>
+        <item>10 minutu</item>
+    </string-array>
+    <string-array name="localeMode_display">
+        <item>Sistema</item>
+        <item>Erabiltzaileak ezarria</item>
+    </string-array>
+    <string-array name="locale_display">
+        <item>Ingelesa</item>
+        <item>Esperantoa</item>
+        <item>Frantsesa</item>
+        <item>Alemana</item>
+        <item>Hungariera</item>
+        <item>Poloniera</item>
+        <item>Gaztelania</item>
+        <item>Katalana</item>
+        <item>Euskara</item>
+        <item>Norvegiako</item>
+    </string-array>
+    <string-array name="noteTapActions_display">
+        <item>Ez egin ezer</item>
+        <item>Alarma ezarri oharrarentzako</item>
+        <item>Hurrengo oharra erakutsi</item>
+        <item>Aurreko oharra erakutsi</item>
+    </string-array>
+    <string-array name="solarevents_long">
+        <item>goizeko krepuskulu astronomikoa (hasiera)</item>
+        <item>goizeko itsas krepuskulua (hasiera)</item>
+        <item>goizeko ordu urdina (hasiera)</item>
+        <item>goizeko krepuskulu zibila (hasiera)</item>
+        <item>goizeko ordu urdina (amaiera)</item>
+        <item>egunsentia</item>
+        <item>goizeko urrezko ordua (amaiera)</item>
+        <item>eguzki eguerdia</item>
+        <item>arratsaldeko urrezko ordua (hasiera)</item>
+        <item>ilunabarra</item>
+        <item>arratsaldeko ordu urdina (hasiera)</item>
+        <item>arratsaldeko krepuskulu zibila (amaiera)</item>
+        <item>arratsaldeko ordu urdina (amaiera)</item>
+        <item>arratsaldeko itsas krepuskulua (amaiera)</item>
+        <item>arratsaldeko krepuskulu astronomikoa (amaiera)</item>
+        <item>ilargiaren irteera</item>
+        <item>ilargia ezkutatzea</item>
+    </string-array>
+    <string-array name="solarevents_short">
+        <item>krepuskulu astronomikoa</item>
+        <item>itsas krepuskulua</item>
+        <item>ordu urdina</item>
+        <item>krepuskulu zibila</item>
+        <item>ordu urdina</item>
+        <item>egunsentia</item>
+        <item>urrezko ordua</item>
+        <item>eguzki eguerdia</item>
+        <item>urrezko ordua</item>
+        <item>ilunabarra</item>
+        <item>ordu urdina</item>
+        <item>krepuskulu zibila</item>
+        <item>ordu urdina</item>
+        <item>itsas krepuskulua</item>
+        <item>krepuskulu astronomikoa</item>
+        <item>ilargiaren irteera</item>
+        <item>ilargia ezkutatzea</item>
+    </string-array>
+    <string-array name="solsticeTrackingMode_display">
+        <item>@string/trackingMode_closest</item>
+        <item>@string/trackingMode_soonest</item>
+    </string-array>
+    <string-array name="timeFormatMode_display">
+        <item>@string/timeFormatMode_system</item>
+        <item>@string/timeFormatMode_12hr</item>
+        <item>@string/timeFormatMode_24hr</item>
+    </string-array>
+    <string-array name="timezoneSort_display">
+        <item>@string/timezone_sort_byOffset</item>
+        <item>@string/timezone_sort_byId</item>
+        <item>@string/timezone_sort_byName</item>
+    </string-array>
+</resources>

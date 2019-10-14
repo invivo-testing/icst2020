@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="?menu_info_icon" android:id="@id/menu_context_details" android:title="@string/conversation_context__menu_message_details" app:showAsAction="always" />
+    <item android:icon="?menu_trash_icon" android:id="@id/menu_context_delete_message" android:title="@string/conversation_context__menu_delete_message" app:showAsAction="always" />
+    <item android:icon="?menu_copy_icon" android:id="@id/menu_context_copy" android:title="@string/conversation_context__menu_copy_text" app:showAsAction="always" />
+    <item android:icon="?menu_forward_icon" android:id="@id/menu_context_forward" android:title="@string/conversation_context__menu_forward_message" app:showAsAction="always" />
+    <item android:id="@id/menu_context_resend" android:visible="false" android:title="@string/conversation_context__menu_resend_message" app:showAsAction="never" />
+    <item android:icon="?menu_save_icon" android:id="@id/menu_context_save_attachment" android:visible="false" android:title="@string/conversation_context_image__save_attachment" app:showAsAction="always" />
+    <item android:icon="?menu_reply_icon" android:id="@id/menu_context_reply" android:visible="true" android:title="@string/conversation_context__menu_reply_to_message" app:showAsAction="always" />
+</menu>

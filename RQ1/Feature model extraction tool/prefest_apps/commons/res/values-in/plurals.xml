@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">mengunggah %1$d berkas</item>
+        <item quantity="one">mengunggah 1 berkas</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d unggahan</item>
+        <item quantity="zero">Tidak ada unggahan</item>
+        <item quantity="one">1 unggahan</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d unggahan</item>
+        <item quantity="one">1 unggahan</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Memulai %1$d unggahan</item>
+        <item quantity="one">Memulai 1 unggahan</item>
+    </plurals>
+</resources>

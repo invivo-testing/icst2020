@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.money.manager.ex.view.RobotoTextView android:gravity="right" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/account_balance" style="@style/Money.TextView.Body2.Inverse" />
+    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:id="@id/textViewAccountBalance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" style="@style/Money.TextView.Body2.Inverse" />
+    <com.money.manager.ex.view.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="2.0dip" android:text="@string/account_reconciled_balance" style="@style/Money.TextView.Body2.Inverse" />
+    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:id="@id/textViewAccountReconciled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" style="@style/Money.TextView.Body2.Inverse" />
+    <com.money.manager.ex.view.RobotoTextView android:textSize="@dimen/mmx_text_view_size_micro" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/difference" android:layout_weight="1.0" style="@style/Money.TextView.Body2.Inverse" />
+    <com.money.manager.ex.view.RobotoTextView android:textSize="@dimen/mmx_text_view_size_micro" android:textStyle="bold" android:id="@id/textViewDifference" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_weight="1.0" style="@style/Money.TextView.Body2.Inverse" />
+</LinearLayout>

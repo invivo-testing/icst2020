@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Kääntökorttisovellus Androidille&lt;/h2>AnkiDroid on ohjelma opiskeluun kääntökorttien (flashcard) avulla. Se on täysin yhteensopiva &lt;a href=\"%2$s\">Anki&lt;/a> -työpöytäsovelluksen kanssa. Voit luoda kortteja, ladata niitä ja opiskella sekä AnkiDroidilla, että Ankilla ja synkronoida ne helposti toistensa kanssa.</item>
+        <item>Auta tekemään AnkiDroidista parempi, raportoi löytämäsi virheet &lt;a href=\"%1$s\">täällä&lt;/a>. Ideoita uusiksi ominaisuuksiksi otetaan myös vastaan, käytä &lt;a href=\"%2$s\">wikiä&lt;/a> ja käy &lt;a href=\"%3$s\">foorumilla&lt;/a>.</item>
+        <item>AnkiDroid is &lt;a href=\"%1$s\">open source software&lt;a/>, so everyone is encouraged to &lt;a href=\"%2$s\">become a contributor&lt;/a> :-)</item>
+        <item>Non-developers can also help. For instance, you can &lt;a href=\"%1$s\">help translate&lt;/a> AnkiDroid, update the wiki, provide screenshots, or blog about AnkiDroid.</item>
+        <item>AnkiDroid is released under the &lt;a href=\"%1$s\">GNU-GPL v3 license&lt;/a> and the source code is available &lt;a href=\"%2$s\">on GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Käytä tätä pakkaa</item>
+        <item>Valitse korttityyppi</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Ylhäällä</item>
+        <item>Alhaalla</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Kysymys</item>
+        <item>Lajittelukenttä</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Vastaus</item>
+        <item>Kortti</item>
+        <item>Pakka</item>
+        <item>Merkintä</item>
+        <item>Kysymys</item>
+        <item>Tunnisteet</item>
+        <item>Virheet</item>
+        <item>Kertaukset</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Ei lajittelua (nopeampi)</item>
+        <item>By sort field</item>
+        <item>Luomisajan mukaan</item>
+        <item>Muokkausajan mukaan</item>
+        <item>Muutosajan mukaan</item>
+        <item>Eräpäivän mukaan</item>
+        <item>Aikaväleittäin</item>
+        <item>Helpotuksien mukaan</item>
+        <item>Kertauksien mukaan</item>
+        <item>Unohduksien mukaan</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Vanhimmat nähdyt ensin</item>
+        <item>Satunnainen</item>
+        <item>Kasvavin välein</item>
+        <item>Vähentyvin välein</item>
+        <item>Eniten unohdetut</item>
+        <item>Lisäysjärjestyksessä</item>
+        <item>Näyttöjärjestyksessä</item>
+        <item>Viimeisimmät lisätyt ensin</item>
+        <item>Suhteellinen erääntyneisyys</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Vaalea</item>
+        <item>Pelkistetty</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Päivät</item>
+        <item>Viikot</item>
+        <item>Kuukaudet</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Raportoi aina</item>
+        <item>Älä raportoi koskaan</item>
+        <item>Kysy</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Ei toimintoa</item>
+        <item>Näytä vastaus</item>
+        <item>Vastauspainike 1</item>
+        <item>Vastauspainike 2</item>
+        <item>Vastauspainike 3</item>
+        <item>Vastauspainike 4</item>
+        <item>Vastaa ehdotettu (vihreä)</item>
+        <item>Vastaa paremmin kuin ehdotettu</item>
+        <item>Kumoa</item>
+        <item>Muokkaa merkintää</item>
+        <item>Merkitse merkintä</item>
+        <item>Hakutermi</item>
+        <item>Piilota kortti</item>
+        <item>Keskeytä kortti</item>
+        <item>Poista merkintä</item>
+        <item>Toista media</item>
+        <item>Keskeytä oppiminen</item>
+        <item>Piilota merkintä</item>
+        <item>Jäädytä merkintä</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Jäädytä kortti</item>
+        <item>Vain tunniste</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Uusia kortteja satunnaisessa järjestyksessä</item>
+        <item>Uudet kortit lisäysjärjestyksessä</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Sekoita uusiakortteja ja kertauksia</item>
+        <item>Uudet kortit kertauksien jälkeen</item>
+        <item>Uudet kortit ennen kertauksia</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Musta</item>
+        <item>Tumma</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Kun korteille ei ole määritelty kirjasintyyppiä</item>
+        <item>Aina</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4:00</item>
+        <item>10:00</item>
+        <item>16:00</item>
+        <item>10:00</item>
+        <item>3:00</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Su</item>
+        <item>Ma</item>
+        <item>Ti</item>
+        <item>Ke</item>
+        <item>To</item>
+        <item>Pe</item>
+        <item>La</item>
+    </string-array>
+</resources>

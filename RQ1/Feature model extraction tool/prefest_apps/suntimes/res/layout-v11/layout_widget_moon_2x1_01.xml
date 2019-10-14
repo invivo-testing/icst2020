@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/widgetframe_outer_2x1" style="@style/SunsetTimeWidgetFrame"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/widgetframe_inner" style="@style/SunsetTimeWidget">
+        <TextView n1:gravity="start" n1:id="@id/text_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/SunsetTimeTextTitleView" />
+        <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:divider="@drawable/ic_spacer" n1:showDividers="middle">
+            <include layout="@layout/info_moonphase" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/info_time_moonriseset" n1:divider="@drawable/ic_spacer" n1:showDividers="middle" style="@style/SunsetTimeLayout">
+            <include layout="@layout/info_time_moonset" />
+            <include layout="@layout/info_time_moonrise" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

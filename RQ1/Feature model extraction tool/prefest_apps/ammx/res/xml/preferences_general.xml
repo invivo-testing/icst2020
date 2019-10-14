@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:icon="@null" android:entries="@array/application_locale_entries" android:title="@string/locale_application" android:key="@string/pref_locale" android:defaultValue="" android:entryValues="@array/application_locale_values" />
+    <ListPreference android:icon="@null" android:entries="@array/themes_names" android:title="@string/theme_application" android:key="@string/pref_theme" android:defaultValue="@string/theme_light" android:entryValues="@array/themes_values" />
+    <ListPreference android:icon="@null" android:entries="@array/status_items" android:title="@string/default_status" android:key="@string/pref_default_status" android:defaultValue="" android:entryValues="@array/status_values" />
+    <ListPreference android:icon="@null" android:entries="@array/new_transaction_dialog_items" android:title="@string/default_payee" android:key="@string/pref_default_payee" android:defaultValue="N" android:entryValues="@array/new_transaction_dialog_values" />
+</PreferenceScreen>

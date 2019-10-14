@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.thoughtcrime.securesms.ConversationUpdateItem android:gravity="center" android:orientation="vertical" android:id="@id/conversation_update_item" android:background="@drawable/conversation_item_background" android:paddingLeft="28.0dip" android:paddingTop="8.0dip" android:paddingRight="28.0dip" android:paddingBottom="6.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="7.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/conversation_update_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/ic_timer" />
+        <TextView android:textColor="?conversation_item_update_text_color" android:id="@id/conversation_update_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" style="@style/Signal.Text.Caption" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip">
+        <TextView android:textColor="?conversation_item_update_text_color" android:gravity="center" android:autoLink="all" android:linksClickable="true" android:id="@id/conversation_update_body" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Signal.Text.Preview" />
+        <TextView android:textColor="?conversation_item_update_text_color" android:gravity="center" android:autoLink="none" android:linksClickable="false" android:layout_gravity="center" android:id="@id/conversation_update_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minWidth="15.0sp" android:textAllCaps="true" style="@style/Signal.Text.Caption" />
+    </LinearLayout>
+</org.thoughtcrime.securesms.ConversationUpdateItem>

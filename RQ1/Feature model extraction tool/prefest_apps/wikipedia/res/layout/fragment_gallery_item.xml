@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/gallery_item_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/gallery_video_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <VideoView android:layout_gravity="center" android:id="@id/gallery_video" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/gallery_video_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" app:actualImageScaleType="fitCenter" />
+        <ImageView android:layout_gravity="center" android:id="@id/gallery_video_play_button" android:layout_width="128.0dip" android:layout_height="128.0dip" android:src="@drawable/ic_play_circle" android:contentDescription="@null" />
+    </FrameLayout>
+    <org.wikipedia.views.ZoomableDraweeViewWithBackground android:id="@id/gallery_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" app:actualImageScaleType="fitCenter" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/gallery_item_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

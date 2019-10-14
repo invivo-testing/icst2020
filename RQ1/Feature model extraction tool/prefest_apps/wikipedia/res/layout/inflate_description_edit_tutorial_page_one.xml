@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.wikipedia.onboarding.OnboardingPageView android:layout_width="fill_parent" android:layout_height="fill_parent" app:centeredImage="@drawable/illustration_description_onboard_1" app:imageSize="260.0dip" app:primaryText="@string/description_edit_tutorial_title_descriptions" app:secondaryText="@string/description_edit_tutorial_title_descriptions_summary"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

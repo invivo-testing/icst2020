@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/message_bubble_horizontal_padding" android:layout_marginRight="@dimen/message_bubble_horizontal_padding">
+            <ImageView android:id="@id/contact_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <org.thoughtcrime.securesms.components.emoji.EmojiTextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/contact_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:maxLines="1" android:fontFamily="sans-serif-medium" style="@style/Signal.Text.Body" />
+                <TextView android:textColor="@color/grey_600" android:ellipsize="end" android:id="@id/contact_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/Signal.Text.Caption" />
+            </LinearLayout>
+        </LinearLayout>
+        <org.thoughtcrime.securesms.components.ConversationItemFooter android:orientation="horizontal" android:id="@id/contact_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/message_bubble_horizontal_padding" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/message_bubble_horizontal_padding" android:elevation="9.0dip" />
+        <TextView android:textColor="@color/core_blue" android:ellipsize="end" android:gravity="center" android:id="@id/contact_action_button" android:background="?shared_contact_item_button_color" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/message_bubble_bottom_padding" android:foreground="?selectableItemBackground" android:maxLines="1" android:fontFamily="sans-serif-medium" style="@style/Signal.Text.Preview" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d filer lastes opp</item>
+        <item quantity="one">%1$d fil lastes opp</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d opplastinger</item>
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">%1$d opplasting</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d opplastinger</item>
+        <item quantity="one">%1$d opplasting</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Starter %1$d opplastinger</item>
+        <item quantity="one">Starter %1$d opplasting</item>
+    </plurals>
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d sporočil na pogovor</item>
+        <item quantity="one">%d sporočilo na pogovor</item>
+        <item quantity="two">%d sporočili na pogovor</item>
+        <item quantity="few">%d sporočila na pogovor</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">To bo nemudoma obrezalo vse pogovore na %d nedavnih.</item>
+        <item quantity="one">To bo nemudoma obrezalo vse pogovore na zadnjega.</item>
+        <item quantity="two">To bo nemudoma obrezalo vse pogovore na %d nedavna.</item>
+        <item quantity="few">To bo nemudoma obrezalo vse pogovore na %d nedavne.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d neprebranih sporočil</item>
+        <item quantity="one">%d neprebrano sporočilo</item>
+        <item quantity="two">%d neprebrani sporočili</item>
+        <item quantity="few">%d neprebrana sporočila</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Izbrišem izbrana sporočila?</item>
+        <item quantity="one">Izbrišem izbrano sporočilo?</item>
+        <item quantity="two">Izbrišem izbrani sporočili?</item>
+        <item quantity="few">Izbrišem izbrana sporočila?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Napaka pri shranjevanju priponk v shrambo!</item>
+        <item quantity="one">Napaka pri shranjevanju priponke v shrambo!</item>
+        <item quantity="two">Napaka pri shranjevanju priponk v shrambo!</item>
+        <item quantity="few">Napaka pri shranjevanju priponk v shrambo!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Shranjujem %1$d priponk</item>
+        <item quantity="one">Shranjujem priponko</item>
+        <item quantity="two">Shranjujem %1$d priponki</item>
+        <item quantity="few">Shranjujem %1$d priponke</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Shranjujem %1$d priponk v shrambo ...</item>
+        <item quantity="one">Shranjujem priponko v shrambo ...</item>
+        <item quantity="two">Shranjujem %1$d priponki v shrambo ...</item>
+        <item quantity="few">Shranjujem %1$d priponke v shrambo ...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Shranitev vseh %1$d datotek v sistemsko shrambo bo omogočila dostop do njih vsaki aplikaciji na vaši napravi.
+
+Nadaljujem?"</item>
+        <item quantity="one">"Shranitev datoteke v sistemsko shrambo bo omogočila dostop do nje vsaki aplikaciji na vaši napravi.
+
+Nadaljujem?"</item>
+        <item quantity="two">"Shranitev datotek (%1$d) v sistemsko shrambo bo omogočila dostop do njiju vsaki aplikaciji na vaši napravi.
+
+Nadaljujem?"</item>
+        <item quantity="few">"Shranitev vseh %1$d datotek v sistemsko shrambo bo omogočila dostop do njih vsaki aplikaciji na vaši napravi.
+
+Nadaljujem?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">S tem boste nepovratno izbrisali vseh %1$d izbranih sporočil.</item>
+        <item quantity="one">S tem boste nepovratno izbrisali izbrano sporočilo.</item>
+        <item quantity="two">S tem boste nepovratno izbrisali %1$d izbrani sporočili.</item>
+        <item quantity="few">S tem boste nepovratno izbrisali vsa %1$d izbrana sporočila.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d premaknjenih v arhiv</item>
+        <item quantity="one">Premaknjen v arhiv</item>
+        <item quantity="two">%d premaknjena v arhiv</item>
+        <item quantity="few">%d premaknjeni v arhiv</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Izbrišem izbrane pogovore?</item>
+        <item quantity="one">Izbrišem izbran pogovor?</item>
+        <item quantity="two">Izbrišem izbrana pogovora?</item>
+        <item quantity="few">Izbrišem izbrane pogovore?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d pogovorov premaknjenih v nabiralnik</item>
+        <item quantity="one">Pogovor je premaknjen v nabiralnik</item>
+        <item quantity="two">%d pogovora premaknjena v nabiralnik</item>
+        <item quantity="few">%d pogovori premaknjeni v nabiralnik</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">S tem boste nepovratno izbrisali vseh %1$d izbranih pogovorov.</item>
+        <item quantity="one">S tem boste nepovratno izbrisali izbrani pogovor.</item>
+        <item quantity="two">S tem boste nepovratno izbrisali %1$d izbrana pogovora.</item>
+        <item quantity="few">S tem boste nepovratno izbrisali vse %1$d izbrane pogovore.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s stikov se je priključilo skupini.</item>
+        <item quantity="one">%1$s stik se je priključil skupini.</item>
+        <item quantity="two">%1$s stika sta se priključila skupini.</item>
+        <item quantity="few">%1$s stiki so se priključili skupini.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Pošljem %d povabil SMS?</item>
+        <item quantity="one">Send %d povabilo SMS?</item>
+        <item quantity="two">Pošljem %d povabili SMS?</item>
+        <item quantity="few">Pošljem %d povabila SMS?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">POŠLJI SMS %d PRIJATELJEM</item>
+        <item quantity="one">POŠLJI SMS %d PRIJATELJU</item>
+        <item quantity="two">POŠLJI SMS %d PRIJATELJEMA</item>
+        <item quantity="few">POŠLJI SMS %d PRIJATELJEM</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Vseh %1$d izbranih sporočil bo nepovratno izbrisanih.</item>
+        <item quantity="one">Izbrano sporočilo bo nepovratno izbrisano.</item>
+        <item quantity="two">%1$dizbrani sporočili bosta nepovratno izbrisani.</item>
+        <item quantity="few">Vsa %1$d izbrana sporočila bodo nepovratno izbrisana.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Izbrišem izbrana sporočila?</item>
+        <item quantity="one">Izbrišem izbrano sporočilo?</item>
+        <item quantity="two">Izbrišem izbrani sporočili?</item>
+        <item quantity="few">Izbrišem izbrana sporočila?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Ste %d korakov pred oddajo sistemske zabeležbe.</item>
+        <item quantity="one">Ste %d korak pred oddajo sistemske zabeležbe.</item>
+        <item quantity="two">Ste %d koraka pred oddajo sistemske zabeležbe.</item>
+        <item quantity="few">Ste %d korake pred oddajo sistemske zabeležbe.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d predmetov</item>
+        <item quantity="one">%d predmet</item>
+        <item quantity="two">%d predmeta</item>
+        <item quantity="few">%d predmeti</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">%d dan</item>
+        <item quantity="two">%d dneva</item>
+        <item quantity="few">%d dnevi</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d ur</item>
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">%d sekundi</item>
+        <item quantity="few">%d sekunde</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d tednov</item>
+        <item quantity="one">%d teden</item>
+        <item quantity="two">%d tedna</item>
+        <item quantity="few">%d tedne</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d ur</item>
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d drugih</item>
+        <item quantity="one">%d drug</item>
+        <item quantity="two">%d druga</item>
+        <item quantity="few">%d drugi</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Vaša različica aplikacije Signal bo potekla v %d dneh. Tapnite za posodobitev na zadnjo različico.</item>
+        <item quantity="one">Vaša različica aplikacije Signal bo čez %d dan potekla. Tapnite za posodobitev na zadnjo različico.</item>
+        <item quantity="two">Vaša različica aplikacije Signal bo potekla v %d dneh. Tapnite za posodobitev na zadnjo različico.</item>
+        <item quantity="few">Vaša različica aplikacije Signal bo potekla v %d dneh. Tapnite za posodobitev na zadnjo različico.</item>
+    </plurals>
+</resources>

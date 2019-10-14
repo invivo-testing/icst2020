@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appThemes_display">
+        <item>Jasna skórka</item>
+        <item>Ciemna skórka</item>
+        <item>Jasna skórka (dzień) / Ciemna skórka (noc)</item>
+    </string-array>
+    <string-array name="clockTapActions_display">
+        <item>Nie rób nic</item>
+        <item>Ustaw alarm</item>
+        <item>@string/configAction_setTimeZone</item>
+        <item>Pokaż następną notatkę</item>
+        <item>Pokaż poprzednią notatkę</item>
+    </string-array>
+    <string-array name="dateTapActions_display">
+        <item>Nie rób nic</item>
+        <item>Przełącz karty (dziś/jutro)</item>
+        <item>Uruchom aplikację Kalendarz</item>
+        <item>Ustaw własną datę</item>
+    </string-array>
+    <string-array name="directions_long">
+        <item>północ</item>
+        <item>północny północny wschód</item>
+        <item>północny wschód</item>
+        <item>wschodni północny wschód</item>
+        <item>wschód</item>
+        <item>wschodni południowy wschód</item>
+        <item>południowy wschód</item>
+        <item>południowy południowy wschód</item>
+        <item>południe</item>
+        <item>południowy południowy zachód</item>
+        <item>południowy zachód</item>
+        <item>zachodni południowy zachód</item>
+        <item>zachód</item>
+        <item>zachodni północny zachód</item>
+        <item>północny zachód</item>
+        <item>północny północny zachód</item>
+        <item>północ</item>
+    </string-array>
+    <string-array name="directions_short">
+        <item>N</item>
+        <item>NNE</item>
+        <item>NE</item>
+        <item>ENE</item>
+        <item>E</item>
+        <item>ESE</item>
+        <item>SE</item>
+        <item>SSE</item>
+        <item>S</item>
+        <item>SSW</item>
+        <item>SW</item>
+        <item>WSW</item>
+        <item>W</item>
+        <item>WNW</item>
+        <item>NW</item>
+        <item>NNW</item>
+        <item>N</item>
+    </string-array>
+    <string-array name="getFix_maxAge_display">
+        <item>1 minutę</item>
+        <item>5 minut</item>
+        <item>15 minut</item>
+        <item>1 godzinę</item>
+        <item>4 godziny</item>
+        <item>12 godzin</item>
+        <item>dzień (24 godziny)</item>
+        <item>dwa dni (48 godzin)</item>
+        <item>tydzień (168 godzin)</item>
+        <item>miesiąc (672 godziny)</item>
+    </string-array>
+    <string-array name="getFix_maxElapse_display">
+        <item>15 sekundach</item>
+        <item>30 sekundach</item>
+        <item>1 minucie</item>
+        <item>5 minutach</item>
+        <item>10 minutach</item>
+    </string-array>
+    <string-array name="localeMode_display">
+        <item>Systemowy</item>
+        <item>Własny użytkownika</item>
+    </string-array>
+    <string-array name="locale_display">
+        <item>Angielski</item>
+        <item>Esperanto</item>
+        <item>Francuski</item>
+        <item>Niemiecki</item>
+        <item>Węgierski</item>
+        <item>Polski</item>
+        <item>Hiszpański</item>
+        <item>Kataloński</item>
+        <item>Baskijski</item>
+        <item>Norweski</item>
+    </string-array>
+    <string-array name="noteTapActions_display">
+        <item>Nie rób nic</item>
+        <item>Ustaw alarm dla notatki</item>
+        <item>Pokaż następną notatkę</item>
+        <item>Pokaż poprzednią notatkę</item>
+    </string-array>
+    <string-array name="solarevents_long">
+        <item>świt astronomiczny</item>
+        <item>świt żeglarski</item>
+        <item>poranna błękitna godzina (początek)</item>
+        <item>świt cywilny</item>
+        <item>poranna błękitna godzina (koniec)</item>
+        <item>wschód Słońca</item>
+        <item>poranna złota godzina (koniec)</item>
+        <item>kulminację Słońca</item>
+        <item>wieczorna złota godzina (początek)</item>
+        <item>zachód Słońca</item>
+        <item>wieczorna błękitna godzina (początek)</item>
+        <item>zmierzch cywilny</item>
+        <item>wieczorna złota godzina (koniec)</item>
+        <item>zmierzch żeglarski</item>
+        <item>zmierzch astronomiczny</item>
+        <item>wschód Księżyca</item>
+        <item>zachód Księżyca</item>
+    </string-array>
+    <string-array name="solarevents_short">
+        <item>świt astronomiczny</item>
+        <item>świt żeglarski</item>
+        <item>błękitna godzina</item>
+        <item>świt cywilny</item>
+        <item>błękitna godzina</item>
+        <item>wschód</item>
+        <item>złota godzina</item>
+        <item>górowanie</item>
+        <item>złota godzina</item>
+        <item>zachód</item>
+        <item>błękitna godzina</item>
+        <item>zmierzch cywilny</item>
+        <item>błękitna godzina</item>
+        <item>zmierzch żeglarski</item>
+        <item>zmierzch astronomiczny</item>
+        <item>wschód Księżyca</item>
+        <item>zachód Księżyca</item>
+    </string-array>
+</resources>

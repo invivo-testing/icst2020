@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">Wladënk %1$d lopków</item>
+        <item quantity="one">Wladënk %1$d lopka</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">Przesłano %1$d lopczi</item>
+        <item quantity="zero">Przesłano @string/contributions_subtitle_zero</item>
+        <item quantity="one">Przesłano %1$d lopk</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d wladënczi</item>
+        <item quantity="one">%1$d wladënk</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Naczãto %1$d wladënczi</item>
+        <item quantity="one">Naczãto %1$d wladënk</item>
+    </plurals>
+</resources>

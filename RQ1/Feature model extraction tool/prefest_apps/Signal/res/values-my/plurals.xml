@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d မိနစ်</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">ဤစကားဝိုင်းတစ်ခုစီတွင် စာများ %d ပါဝင်သည်</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">စာသာအားလုံး နောက်ဆုံးစာ၏ %dသို့ တည်းဖြတ်ပေါင်းပေးသည်။</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">မဖတ်ရသေးသည့် စာတို %d</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">ရွေးထားသည့်စာတိုများဖျက်မည်လား?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">ပူးတွဲဖိုင်ကို သိမ်းဆည်းရာတွင်အခက်အခဲရှိ!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">ပူးတွဲဖိုင် %1$d ကိုသိမ်းနေသည်</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">ပူးတွဲဖိုင် %1$d ကို ဖုန်း ထဲတွင် သိမ်းနေသည်</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"%1$d ရုပ်သံပုံများကို သိမ်းဆည်းထားခြင်းဖြင့် သင့်စက်ပစ္စည်းရှိ app များအားလုံးက အသုံးပြုနိုင်သည်။ 
+
+ ဆက်လက်လုပ်ဆောင်မလား?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">ရွေးချယ်ထားသည့် စာတိုများ %1$d ကိုအပြီးတိုင်ဖျက်လိမ့်မည်။</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">မှတ်တမ်းပြုထားသည့် ပြောစကားများ %d</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">ရွေးထားသည့် စာတိုကိုဖျက်မလား?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">ပြောစကား %d ကို စာပုံးထဲသို့ရွေ့သည်</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">၎င်းက ရွေးထားသည့် ပြောစကား %1$d ကိုအပြီးတိုင်ဖျက်လိမ့်မည်။</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">အဖွဲ့ထဲ %1$s ၀င်ရောက်လာသည်။</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">%dစာ SMS ဖြင့် ဖိတ်ခေါ်မလား။</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">သူငယ်ချင်းအယောက် %d ထံ SMS ပို့မည်</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">ရွေးချယ်ထားသည့် စာများ %1$d ကို အပြီးတိုင်ဖျက်လိမ့်မည်။</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">ရွေးထားသည့် စာများကို ဖျက်မည်လား?</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%dရက်</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d နာရီ</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d မိနစ်</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d စက္ကန့်</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%dပတ်</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d နာရီများ</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%dအခြား</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">မိမိ၏ Signal ဗားရှင်းမှာ %d အတွင်း သက်တမ်းကုန်ဆုံးတော့မှာ ဖြစ်ပါတယ်။ Update ဆိုသည့် ခလုတ်ကိုနှိပ်၍ နောက်ဆုံးဗားရှင်းအား ရယူပါ။</item>
+    </plurals>
+</resources>

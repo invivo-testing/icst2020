@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%1$d szám a(z) %2$s lejátszólistához adva.</item>
+        <item quantity="one">%1$d szám a(z) %2$s lejátszólistához adva.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">%d szám törölve.</item>
+        <item quantity="one">%d szám törölve.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">%d szám a sorban.</item>
+        <item quantity="one">%d szám a sorban.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">%d szám lejátszása.</item>
+        <item quantity="one">%d szám lejátszása.</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">%1$d szám eltávolítva a(z) %2$s lejátszólistáról.</item>
+        <item quantity="one">%1$d szám eltávolítva a(z) %2$s lejátszólistáról.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d másodperc</item>
+        <item quantity="one">%d másodperc</item>
+    </plurals>
+</resources>

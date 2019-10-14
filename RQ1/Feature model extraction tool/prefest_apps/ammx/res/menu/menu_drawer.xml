@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_action_calculator_dark" android:id="@id/navigation_item_1" android:checked="true" android:title="item 1" />
+        <item android:icon="@drawable/ic_action_alarm_on_dark" android:id="@id/navigation_item_2" android:title="test" />
+    </group>
+    <item android:icon="?ic_action_reload" android:id="@id/menu_update_exchange_rate" android:title="@string/update_menu_currency_exchange_rates" app:showAsAction="always" />
+    <item android:id="@id/blah" android:title="parent item" />
+    <item android:id="@id/navigation_subheader" android:title="navigation_subheader">
+        <menu>
+            <item android:icon="@drawable/ic_action_assessment_dark" android:id="@id/navigation_sub_item_1" android:title="ring/navigation_sub_item_1" />
+            <item android:icon="@drawable/ic_action_attach_money_dark" android:id="@id/navigation_sub_item_2" android:title="navigation_sub_item_2" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="180.0dip" android:layout_height="208.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/horizontal_scroll_list_item_image" android:layout_width="fill_parent" android:layout_height="96.0dip" android:transitionName="@string/transition_news_item" app:actualImageScaleType="focusCrop" style="@style/SimpleDraweeViewPlaceholder" />
+    <TextView android:textSize="12.0sp" android:textColor="?primary_text_color" android:textColorLink="?primary_text_color" android:ellipsize="end" android:linksClickable="false" android:id="@id/horizontal_scroll_list_item_text" android:layout_width="fill_parent" android:layout_height="112.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="13.0dip" android:maxLines="5" android:lineSpacingMultiplier="1.2" />
+</LinearLayout>

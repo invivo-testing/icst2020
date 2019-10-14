@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/fragment_onboarding_pager_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.open.rtlviewpager.RtlViewPager android:id="@id/fragment_pager" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/white20" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@android:color/white" android:id="@id/fragment_onboarding_skip_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/onboarding_skip" style="@style/TransparentButton" />
+            <com.rd.PageIndicatorView android:layout_gravity="center" android:id="@id/view_onboarding_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" app:piv_radius="4.0dip" app:piv_rtl_mode="auto" app:piv_selectedColor="@android:color/white" app:piv_unselectedColor="@color/white20" app:piv_viewPager="@id/fragment_pager" />
+            <FrameLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="end|center" android:id="@id/fragment_onboarding_forward_button" android:background="?selectableItemBackgroundBorderless" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" android:contentDescription="@string/onboarding_continue" app:srcCompat="@drawable/ic_chevron_forward_white_24dp" />
+                <TextView android:textColor="@android:color/white" android:id="@id/fragment_onboarding_done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/onboarding_get_started" style="@style/TransparentButton" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

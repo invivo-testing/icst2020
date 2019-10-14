@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.tint.ui.preferences.HomepageSpinnerPreference n1:title="@string/PreferenceGeneralHomepageTitle" n1:key="PREFERENCE_HOME_PAGE" n1:summary="@string/PreferenceGeneralHomepageSummary" n1:dialogTitle="@string/PreferenceHomePageDialogTitle" n1:positiveButtonText="@string/OK" n1:negativeButtonText="@string/Cancel"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <org.tint.ui.preferences.SearchEnginePreference n2:title="@string/PreferenceGeneralSearchUrlTitle" n2:key="PREFERENCE_SEARCH_URL" n2:summary="@string/PreferenceGeneralSearchUrlSummary"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <ListPreference n3:entries="@array/PreferenceRestoreTabsEntries" n3:title="@string/PreferenceRestoreTabsTitle" n3:key="PREFERENCE_RESTORE_TABS" n3:summary="@string/PreferenceRestoreTabsSummary" n3:defaultValue="ASK" n3:entryValues="@array/PreferenceRestoreTabsValues"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory n4:title="@string/PreferenceCategoryStartPageTitle"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <EditTextPreference n4:numeric="integer" n4:title="@string/PreferenceGeneralStartPageLimitTitle" n4:key="PREFERENCE_START_PAGE_LIMIT" n4:summary="@string/PreferenceGeneralStartPageLimitSummary" n4:defaultValue="@integer/default_start_page_items_number" />
+    </PreferenceCategory>
+    <PreferenceCategory n5:title="@string/PreferenceCategoryUITitle" n5:key="PREFERENCE_CATEGORY_TABLET_UI"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <ListPreference n5:entries="@array/PreferenceUITypeEntries" n5:title="@string/PreferenceUITypeTitle" n5:key="PREFERENCE_UI_TYPE" n5:summary="@string/PreferenceUITypeSummary" n5:defaultValue="AUTO" n5:entryValues="@array/PreferenceUITypeValues" />
+    </PreferenceCategory>
+    <PreferenceCategory n6:title="@string/PreferenceCategoryUITitle" n6:key="PREFERENCE_CATEGORY_OLD_PHONE_UI"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <ListPreference n6:entries="@array/PreferenceUITypeEntries" n6:title="@string/PreferenceUITypeTitle" n6:key="PREFERENCE_UI_TYPE" n6:summary="@string/PreferenceUITypeSummary" n6:defaultValue="AUTO" n6:entryValues="@array/PreferenceUITypeValues" />
+        <ListPreference n6:entries="@array/PreferenceBubblePositionEntries" n6:title="@string/PreferenceBubblePositionTitle" n6:key="PREFERENCE_BUBBLE_POSITION" n6:summary="@string/PreferenceBubblePositionSummary" n6:defaultValue="RIGHT" n6:entryValues="@array/PreferenceBubblePositionValues" />
+        <EditTextPreference n6:numeric="integer" n6:title="@string/PreferenceToolbarsAutoHideDurationTitle" n6:key="PREFERENCE_TOOLBARS_AUTOHIDE_DURATION" n6:summary="@string/PreferenceToolbarsAutoHideDurationSummary" n6:defaultValue="3" />
+        <ListPreference n6:entries="@array/PreferenceSwitchTabsMethodEntries" n6:title="@string/PreferenceSwitchTabsMethodTitle" n6:key="PREFERENCES_SWITCH_TABS_METHOD" n6:summary="@string/PreferenceSwitchTabsMethodSummary" n6:defaultValue="BUTTONS" n6:entryValues="@array/PreferenceSwitchTabsMethodValues" />
+    </PreferenceCategory>
+    <PreferenceCategory n7:title="@string/PreferenceCategoryUITitle" n7:key="PREFERENCE_CATEGORY_NEW_PHONE_UI"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <ListPreference n7:entries="@array/PreferenceUITypeEntries" n7:title="@string/PreferenceUITypeTitle" n7:key="PREFERENCE_UI_TYPE" n7:summary="@string/PreferenceUITypeSummary" n7:defaultValue="AUTO" n7:entryValues="@array/PreferenceUITypeValues" />
+        <CheckBoxPreference n7:title="@string/PreferenceClosePanelOnNewTabTitle" n7:key="PREFERENCE_CLOSE_PANEL_ON_NEW_TAB" n7:summary="@string/PreferenceClosePanelOnNewTabSummary" n7:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/item_container" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/error_text" android:padding="5.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/message_details_header__issues_need_your_attention" android:drawableLeft="@drawable/ic_info_outline_light" android:layout_weight="1.0" android:drawableStart="@drawable/ic_info_outline_light" />
+            <Button android:layout_gravity="center_vertical" android:id="@id/resend_button" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="38.0sp" android:text="@string/message_recipients_list_item__resend" android:drawableLeft="@drawable/ic_refresh_white_18dp" style="@style/InfoButton" />
+        </LinearLayout>
+        <TableLayout android:id="@id/metadata_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:shrinkColumns="1">
+            <TableRow android:id="@id/sent_container" android:padding="@dimen/message_details_table_row_pad" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_details_header__sent" />
+                <TextView android:id="@id/sent_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/message_details_table_row_pad" />
+            </TableRow>
+            <TableRow android:id="@id/received_container" android:padding="@dimen/message_details_table_row_pad" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_details_header__received" />
+                <TextView android:id="@id/received_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/message_details_table_row_pad" />
+            </TableRow>
+            <TableRow android:id="@id/expires_container" android:padding="@dimen/message_details_table_row_pad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_details_header__disappears" />
+                <TextView android:id="@id/expires_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/message_details_table_row_pad" />
+            </TableRow>
+            <TableRow android:padding="@dimen/message_details_table_row_pad" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_details_header__via" />
+                <TextView android:id="@id/transport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/message_details_table_row_pad" />
+            </TableRow>
+            <TableRow android:padding="@dimen/message_details_table_row_pad" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:id="@id/tofrom" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

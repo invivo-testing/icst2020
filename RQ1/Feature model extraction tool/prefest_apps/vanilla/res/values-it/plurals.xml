@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%1$d tracce aggiunte alla playlist %2$s.</item>
+        <item quantity="one">%1$d traccia aggiunta alla playlist %2$s</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">%d tracce rimosse.</item>
+        <item quantity="one">%d traccia rimossa.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">%d tracce accodate.</item>
+        <item quantity="one">%d traccia accodata.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d ora</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">%d tracce in riproduzione.</item>
+        <item quantity="one">%d traccia in riproduzione.</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">%1$d tracce rimosse dalla playlist %2$s.</item>
+        <item quantity="one">%1$d traccia rimossa dalla playlist %2$s.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d secondi</item>
+        <item quantity="one">%d secondo</item>
+    </plurals>
+</resources>

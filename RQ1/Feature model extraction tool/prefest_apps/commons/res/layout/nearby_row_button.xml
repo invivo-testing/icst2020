@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/buttonLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/icon" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/cameraButton" android:background="@drawable/button_background_selector" android:padding="16.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/button_blue" app:srcCompat="@drawable/ic_photo_camera_white_24dp" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/cameraButtonText" android:paddingTop="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CAMERA" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/galleryButton" android:background="@drawable/button_background_selector" android:padding="16.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/button_blue" app:srcCompat="@drawable/ic_photo_white_24dp" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/galleryButtonText" android:paddingTop="8.0dip" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GALLERY" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/directionsButton" android:background="@drawable/button_background_selector" android:padding="16.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_directions_black_24dp" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/directionsButtonText" android:paddingTop="8.0dip" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DIRECTIONS" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/iconOverflow" android:padding="16.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_overflow" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/iconOverflowText" android:paddingTop="8.0dip" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MORE" />
+    </LinearLayout>
+</LinearLayout>

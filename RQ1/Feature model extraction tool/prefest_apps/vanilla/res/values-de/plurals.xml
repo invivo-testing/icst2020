@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%1$d Titel zur Wiedergabeliste %2$s hinzugefügt.</item>
+        <item quantity="one">%1$d Titel zur Wiedergabeliste %2$s hinzugefügt.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">%d Titel gelöscht.</item>
+        <item quantity="one">%d Titel gelöscht.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">%d Titel eingereiht.</item>
+        <item quantity="one">%d Titel eingereiht.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d Stunden</item>
+        <item quantity="one">%d Stunde</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d Minuten</item>
+        <item quantity="one">%d Minute</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">%d Titel werden wiedergegeben.</item>
+        <item quantity="one">%d Titel wird wiedergegeben.</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">%1$d Titel aus Wiedergabeliste %2$s entfernt.</item>
+        <item quantity="one">%1$d Titel aus Wiedergabeliste %2$s entfernt.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d Sekunden</item>
+        <item quantity="one">%d Sekunde</item>
+    </plurals>
+</resources>

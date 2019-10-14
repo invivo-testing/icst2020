@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/course">
+        <ListPreference android:entries="@array/listupdateArray" android:title="@string/Update" android:key="listUpdate" android:summary="@string/Updatedis" android:defaultValue="0" android:entryValues="@array/listupdateValues" />
+        <ListPreference android:entries="@array/listsourceArray" android:title="@string/ratessource" android:key="listSourcesDefault" android:summary="@string/ratessourcedis" android:defaultValue="0" android:entryValues="@array/listsourceValues" />
+        <SwitchPreference android:title="@string/revratess" android:key="revratesswitch" android:defaultValue="0" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setcur">
+        <ListPreference android:entries="@array/listArray" android:title="@string/defaultcurrency" android:key="listCurByDefault" android:summary="@string/defaultcurrencydis" android:defaultValue="0" android:entryValues="@array/listValues" />
+        <PreferenceScreen android:title="@string/curlist" android:summary="@string/curlistdis">
+            <CheckBoxPreference android:title="@string/USDfrom" android:key="checkboxUSD" android:summary="@string/USD_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/EURfrom" android:key="checkboxEUR" android:summary="@string/EUR_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/CHFfrom" android:key="checkboxCHF" android:summary="@string/CHF_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/GBPfrom" android:key="checkboxGBP" android:summary="@string/GBP_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/JPYfrom" android:key="checkboxJPY" android:summary="@string/JPY_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/UAHfrom" android:key="checkboxUAH" android:summary="@string/UAH_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/RUBfrom" android:key="checkboxRUB" android:summary="@string/RUB_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/MDLfrom" android:key="checkboxMDL" android:summary="@string/MDL_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/BYRfrom" android:key="checkboxBYR" android:summary="@string/BYR_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/PLNfrom" android:key="checkboxPLN" android:summary="@string/PLN_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/LTLfrom" android:key="checkboxLTL" android:summary="@string/LTL_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/LVLfrom" android:key="checkboxLVL" android:summary="@string/LVL_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/AZNfrom" android:key="checkboxAZN" android:summary="@string/AZN_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/AUDfrom" android:key="checkboxAUD" android:summary="@string/AUD_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/AMDfrom" android:key="checkboxAMD" android:summary="@string/AMD_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/BGNfrom" android:key="checkboxBGN" android:summary="@string/BGN_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/BRLfrom" android:key="checkboxBRL" android:summary="@string/BRL_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/HUFfrom" android:key="checkboxHUF" android:summary="@string/HUF_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/DKKfrom" android:key="checkboxDKK" android:summary="@string/DKK_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/INRfrom" android:key="checkboxINR" android:summary="@string/INR_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/KZTfrom" android:key="checkboxKZT" android:summary="@string/KZT_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/CADfrom" android:key="checkboxCAD" android:summary="@string/CAD_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/KGSfrom" android:key="checkboxKGS" android:summary="@string/KGS_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/CNYfrom" android:key="checkboxCNY" android:summary="@string/CNY_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/NOKfrom" android:key="checkboxNOK" android:summary="@string/NOK_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/RONfrom" android:key="checkboxRON" android:summary="@string/RON_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/XDRfrom" android:key="checkboxXDR" android:summary="@string/XDR_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/SGDfrom" android:key="checkboxSGD" android:summary="@string/SGD_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/TJSfrom" android:key="checkboxTJS" android:summary="@string/TJS_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/TRYfrom" android:key="checkboxTRY" android:summary="@string/TRY_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/TMTfrom" android:key="checkboxTMT" android:summary="@string/TMT_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/UZSfrom" android:key="checkboxUZS" android:summary="@string/UZS_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/CZKfrom" android:key="checkboxCZK" android:summary="@string/CZK_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/SEKfrom" android:key="checkboxSEK" android:summary="@string/SEK_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/ZARfrom" android:key="checkboxZAR" android:summary="@string/ZAR_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/KRWfrom" android:key="checkboxKRW" android:summary="@string/KRW_discription" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/FOOfrom" android:key="checkboxFOO" android:summary="@string/FOO_discription" android:defaultValue="true" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other">
+        <ListPreference android:entries="@array/listBKG" android:title="@string/bkg" android:key="bkgcheckbox" android:summary="@string/bkgdis" android:defaultValue="0" android:entryValues="@array/listBKGValues" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about">
+        <PreferenceScreen android:title="Source code:" android:key="sourceurl" android:summary="http://zorger.github.com/nanoConverter/" />
+        <PreferenceScreen android:title="@string/aboutvers" android:key="about" android:summary="@string/abouttap" />
+    </PreferenceCategory>
+</PreferenceScreen>

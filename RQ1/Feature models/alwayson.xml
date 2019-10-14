@@ -1,0 +1,252 @@
+<feature_model name="alwayson">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'preferences'(_r76)
+			:m 'preference_screen_category1'(_r77)
+				:m 'Behaviour_category9'(_r78)
+					:m 'raise_to_wake'(_r79)
+						:g [1,1]
+							: 'raise_to_wake_false'(_r80)
+							: 'raise_to_wake_true'(_r81)
+					:m 'notifications_alerts'(_r82)
+						:g [1,1]
+							: 'notifications_alerts_true'(_r83)
+							: 'notifications_alerts_false'(_r84)
+					:m 'movement_style'(_r85)
+						:g [1,1]
+							: 'movement_style_2'(_r86)
+							: 'movement_style_1'(_r87)
+							: 'movement_style_0'(_r88)
+					:m 'battery_saver'(_r89)
+						:g [1,1]
+							: 'battery_saver_true'(_r90)
+							: 'battery_saver_false'(_r91)
+					:m 'notifications_alerts_preview'(_r92)
+						:g [1,1]
+							: 'notifications_alerts_preview_false'(_r93)
+							: 'notifications_alerts_preview_true'(_r94)
+					:m 'startafterlock'(_r95)
+						:g [1,1]
+							: 'startafterlock_true'(_r96)
+							: 'startafterlock_false'(_r97)
+					:m 'proximity_to_lock'(_r98)
+						:g [1,1]
+							: 'proximity_to_lock_false'(_r99)
+							: 'proximity_to_lock_true'(_r100)
+					:m 'auto_brightness'(_r101)
+						:g [1,1]
+							: 'auto_brightness_false'(_r102)
+							: 'auto_brightness_true'(_r103)
+				:m 'Appearance_category2'(_r104)
+					:m 'screen_orientation'(_r105)
+						:g [1,1]
+							: 'screen_orientation_horizontal'(_r106)
+							: 'screen_orientation_vertical'(_r107)
+					:m 'Customize_Watchface_category3'(_r108)
+						:m 'Miscellaneous_category4'(_r109)
+							:m 'showampm'(_r110)
+								:g [1,1]
+									: 'showampm_true'(_r111)
+									: 'showampm_false'(_r112)
+						:m 'Styles_category6'(_r113)
+							:m 'watchface_battery'(_r114)
+								:g [1,1]
+									: 'watchface_battery_1'(_r115)
+									: 'watchface_battery_0'(_r116)
+					:m 'exit_animation'(_r117)
+						:g [1,1]
+							: 'exit_animation_0'(_r118)
+							: 'exit_animation_2'(_r119)
+							: 'exit_animation_1'(_r120)
+				:m 'General_category11'(_r121)
+					:m 'Automatic_Rules_category12'(_r122)
+						:m 'Automatic_Rules_category13'(_r123)
+							:m 'battery_rules'(_r124)
+								:g [1,1]
+									: 'battery_rules_90'(_r125)
+									: 'battery_rules_20'(_r126)
+									: 'battery_rules_0'(_r127)
+									: 'battery_rules_70'(_r128)
+									: 'battery_rules_10'(_r129)
+									: 'battery_rules_50'(_r130)
+									: 'battery_rules_30'(_r131)
+							:m 'stop_delay'(_r132)
+								:g [1,1]
+									: 'stop_delay_0'(_r133)
+									: 'stop_delay_30'(_r134)
+									: 'stop_delay_60'(_r135)
+									: 'stop_delay_1'(_r136)
+									: 'stop_delay_2'(_r137)
+									: 'stop_delay_15'(_r138)
+									: 'stop_delay_120'(_r139)
+									: 'stop_delay_5'(_r140)
+									: 'stop_delay_10'(_r141)
+							:m 'rules'(_r142)
+								:g [1,1]
+									: 'rules_discharging'(_r143)
+									: 'rules_always'(_r144)
+									: 'rules_charging'(_r145)
+					:m 'gestures_prefs_category14'(_r146)
+						:m 'Shortcuts_category16'(_r147)
+							:m 'google_now_shortcut'(_r148)
+								:g [1,1]
+									: 'google_now_shortcut_true'(_r149)
+									: 'google_now_shortcut_false'(_r150)
+							:m 'camera_shortcut'(_r151)
+								:g [1,1]
+									: 'camera_shortcut_false'(_r152)
+									: 'camera_shortcut_true'(_r153)
+						:m 'Gestures_&amp;_actions_category15'(_r154)
+							:m 'swipe_up_action'(_r155)
+								:g [1,1]
+									: 'swipe_up_action_1'(_r156)
+									: 'swipe_up_action_3'(_r157)
+									: 'swipe_up_action_2'(_r158)
+									: 'swipe_up_action_0'(_r159)
+							:m 'swipe_down_action'(_r160)
+								:g [1,1]
+									: 'swipe_down_action_2'(_r161)
+									: 'swipe_down_action_0'(_r162)
+									: 'swipe_down_action_1'(_r163)
+									: 'swipe_down_action_3'(_r164)
+							:m 'back_button_action'(_r165)
+								:g [1,1]
+									: 'back_button_action_2'(_r166)
+									: 'back_button_action_1'(_r167)
+									: 'back_button_action_0'(_r168)
+									: 'back_button_action_3'(_r169)
+							:m 'volume_keys_action'(_r170)
+								:g [1,1]
+									: 'volume_keys_action_2'(_r171)
+									: 'volume_keys_action_3'(_r172)
+									: 'volume_keys_action_0'(_r173)
+									: 'volume_keys_action_1'(_r174)
+							:m 'double_tap_action'(_r175)
+								:g [1,1]
+									: 'double_tap_action_1'(_r176)
+									: 'double_tap_action_2'(_r177)
+									: 'double_tap_action_3'(_r178)
+									: 'double_tap_action_0'(_r179)
+						:m 'samsung_prefs_category17'(_r180)
+							:m 'home_button_dismiss'(_r181)
+								:g [1,1]
+									: 'home_button_dismiss_false'(_r182)
+									: 'home_button_dismiss_true'(_r183)
+					:m 'enabled'(_r184)
+						:g [1,1]
+							: 'enabled_false'(_r185)
+							: 'enabled_true'(_r186)
+				:m 'Miscellaneous_category8'(_r187)
+					:m 'persistent_notification'(_r188)
+						:g [1,1]
+							: 'persistent_notification_true'(_r189)
+							: 'persistent_notification_false'(_r190)
+					:m 'greenify_enabled'(_r191)
+						:g [1,1]
+							: 'greenify_enabled_false'(_r192)
+							: 'greenify_enabled_true'(_r193)
+					:m 'disable_volume_keys'(_r194)
+						:g [1,1]
+							: 'disable_volume_keys_true'(_r195)
+							: 'disable_volume_keys_false'(_r196)
+					:m 'doze_mode'(_r197)
+						:g [1,1]
+							: 'doze_mode_true'(_r198)
+							: 'doze_mode_false'(_r199)
+</feature_tree>
+<constraints>
+C0:~_r188 or _r184
+C1:~_r92 or _r82
+</constraints>
+</feature_model>

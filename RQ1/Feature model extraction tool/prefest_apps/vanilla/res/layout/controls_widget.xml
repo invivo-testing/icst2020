@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/shuffle" android:background="?android:selectableItemBackground" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/shuffle_inactive" android:scaleType="fitCenter" android:layout_weight="1.0" android:contentDescription="@string/cycle_shuffle_mode" />
+    <ImageButton android:id="@id/previous" android:background="?android:selectableItemBackground" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/previous" android:scaleType="fitCenter" android:layout_weight="1.0" android:contentDescription="@string/previous_song" />
+    <ImageButton android:id="@id/play_pause" android:background="?android:selectableItemBackground" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/play" android:scaleType="fitCenter" android:layout_weight="1.0" android:contentDescription="@string/play_pause" />
+    <ImageButton android:id="@id/next" android:background="?android:selectableItemBackground" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/next" android:scaleType="fitCenter" android:layout_weight="1.0" android:contentDescription="@string/next_song" />
+    <ImageButton android:id="@id/end_action" android:background="?android:selectableItemBackground" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/repeat_inactive" android:scaleType="fitCenter" android:layout_weight="1.0" android:contentDescription="@string/cycle_repeat_mode" />
+</merge>

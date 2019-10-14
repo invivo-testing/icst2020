@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/shortcut_icon" android:enabled="true" android:shortcutId="new_note" android:shortcutShortLabel="@string/action_new">
+        <intent android:targetPackage="com.farmerbb.notepad" android:action="android.intent.action.MAIN" android:targetClass="com.farmerbb.notepad.activity.NoteEditActivity" />
+    </shortcut>
+</shortcuts>

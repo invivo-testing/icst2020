@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">%d पत्ते दिखाए गए</item>
+        <item quantity="one">%d पत्ता दिखाया गया</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">\"%2$s\" कार्ड प्रकार और उसके\"%1$d\" कार्ड को हटाएं?</item>
+        <item quantity="one">\"%2$s\" कार्ड प्रकार और उसके%1$d कार्ड को हटाएं?</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"%1$s
+%2$d डेक इस समूह का उपयोग करता है"</item>
+        <item quantity="one">"%1$s
+%2$d डेक इस समूह का उपयोग करता है"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">%s subdeck इस समूह का उपयोग करेगा</item>
+        <item quantity="one">%s subdeck इस समूह का उपयोग करेगा</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">%1$d पत्ते बाकी (%2$s)</item>
+        <item quantity="one">%1$d पत्ता बाकी (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">%1$s के सारे पत्ते मिटाएँ? इसमें %2$d पत्ते है।</item>
+        <item quantity="one">%1$s के सारे पत्ते मिटाएँ? इसमें %2$d पत्ता है।</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">%d कार्ड जोड़ा गया</item>
+        <item quantity="one">%d कार्ड जोड़ा गया</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d नोट</item>
+        <item quantity="one">%d नोट</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">%d नोट प्रकार उपलब्ध</item>
+        <item quantity="one">%d नोट प्रकार उपलब्ध</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d नए कार्ड में समीक्षा करने के लिए %1$s</item>
+        <item quantity="one">%2$d नए कार्ड में समीक्षा करने के लिए %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">%d मिनट छोड़ दिया</item>
+        <item quantity="one">%d मिनट छोड़ दिया</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">अध्ययन &lt;b>%1$d कार्ड&lt;/b> in &lt;b>%2$s&lt;/b> आज</item>
+        <item quantity="one">अध्ययन &lt;b>%1$d कार्ड&lt;/b> in &lt;b>%2$s&lt;/b> आज</item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">%2$s में %1$d पत्तों का अध्ययन किया</item>
+        <item quantity="one">%2$s में %1$d पत्ते का अध्ययन किया</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s दिन</item>
+        <item quantity="one">%s दिन</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s घंटे</item>
+        <item quantity="one">%s घंटा</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s मिनट</item>
+        <item quantity="one">%s मिनट</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s महीने</item>
+        <item quantity="one">%s महीना</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s सेकंड</item>
+        <item quantity="one">%s सेकंड</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s वर्षों</item>
+        <item quantity="one">%s साल</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d कार्ड में अध्ययन किया %2$s</item>
+        <item quantity="one">%1$d कार्ड में अध्ययन किया %2$s</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d मिनट</item>
+        <item quantity="one">%1$d मिनट</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">%d पत्ते बाकी</item>
+        <item quantity="one">%d पत्ता बाकी</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">%2$s में %1$d पत्ते बाकी</item>
+        <item quantity="one">%2$s में %1$d पत्ता बाकी</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d डेक</item>
+        <item quantity="one">%1$d डेक</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">%d मिनट बाकी</item>
+        <item quantity="one">%d मिनट बाकी</item>
+    </plurals>
+</resources>

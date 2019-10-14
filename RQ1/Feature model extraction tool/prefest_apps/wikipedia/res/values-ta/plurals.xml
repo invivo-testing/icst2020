@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_channel_name">
+        <item quantity="other">கட்டுரைகள் தரவிறக்கப்படுகின்றன</item>
+        <item quantity="one">கட்டுரை தரவிறக்கப்படுகிறது</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">%d நிமிடங்கள் மீதி</item>
+        <item quantity="one">1 நிமிடம் மீதி</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d நாட்களுக்கு முன்பு</item>
+        <item quantity="one">நேற்று</item>
+    </plurals>
+</resources>

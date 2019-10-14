@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/shortcut_play" android:enabled="true" android:shortcutId="play" android:shortcutShortLabel="@string/play" android:shortcutLongLabel="@string/play" android:shortcutDisabledMessage="@string/play">
+        <intent android:targetPackage="ch.blinkenlights.android.vanilla" android:action="ch.blinkenlights.android.vanilla.action.TOGGLE_PLAYBACK" android:targetClass="ch.blinkenlights.android.vanilla.ShortcutPseudoActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/shortcut_random" android:enabled="true" android:shortcutId="random" android:shortcutShortLabel="@string/random" android:shortcutLongLabel="@string/random" android:shortcutDisabledMessage="@string/random">
+        <intent android:targetPackage="ch.blinkenlights.android.vanilla" android:action="ch.blinkenlights.android.vanilla.action.RANDOM_MIX_AUTOPLAY" android:targetClass="ch.blinkenlights.android.vanilla.ShortcutPseudoActivity" />
+    </shortcut>
+</shortcuts>

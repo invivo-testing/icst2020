@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d restr o vezañ karget</item>
+        <item quantity="one">%1$d restr o vezañ karget</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d Pellgargadennoù</item>
+        <item quantity="zero">"Pellgardenn ebet c'hoazh"</item>
+        <item quantity="one">%1$d bellgargadenn</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d pellgargadennoù</item>
+        <item quantity="one">%1$d bellgargadenn</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">"%1$d pellgargadennoù loc'het"</item>
+        <item quantity="one">"%1$d bellgargadenn loc'het"</item>
+    </plurals>
+</resources>

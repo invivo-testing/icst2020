@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d χρόνια πριν</item>
+        <item quantity="one">τελευταίο έτος</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Λήψη λημμάτων</item>
+        <item quantity="one">Λήψη λήμματος</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">Έχουν μείνει %1$d λήμματα</item>
+        <item quantity="one">Έχει μείνει %1$d λήμμα</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">απομένουν %1$d λίστες</item>
+        <item quantity="one">απομένει μια %1$d λίστα</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Συγχρονισμός %1$d λιστών σε εξέλιξη...</item>
+        <item quantity="one">Συγχρονισμός %1$d λίστας σε εξέλιξη...</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Λήψη %1$d λημμάτων σε εξέλιξη...</item>
+        <item quantity="one">Λήψη %1$d λήμματος σε εξέλιξη...</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">απομένουν %d λεπτά</item>
+        <item quantity="one">απομένει 1 λεπτό</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Αυτά τα λήμματα δεν θα είναι πλέον διαθέσιμα εκτός σύνδεσης.</item>
+        <item quantity="one">Αυτό το λήμμα δεν θα είναι πλέον διαθέσιμο εκτός σύνδεσης.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Αυτά τα λήμματα θα είναι πλέον διαθέσιμα εκτός σύνδεσης.</item>
+        <item quantity="one">Αυτό το λήμμα θα είναι πλέον διαθέσιμο εκτός σύνδεσης.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d ημέρες πριν</item>
+        <item quantity="one">χτες</item>
+    </plurals>
+</resources>

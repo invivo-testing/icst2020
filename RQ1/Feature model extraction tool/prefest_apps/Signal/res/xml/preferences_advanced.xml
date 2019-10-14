@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.thoughtcrime.securesms.components.SwitchPreferenceCompat android:title="@string/preferences__signal_messages_and_calls" android:key="pref_toggle_push_messaging" android:summary="@string/preferences__free_private_messages_and_calls" android:defaultValue="false" />
+    <Preference android:title="@string/preferences__choose_identity" android:key="pref_choose_identity" android:summary="@string/preferences__choose_your_contact_entry_from_the_contacts_list" />
+    <Preference android:title="@string/preferences__submit_debug_log" android:key="pref_submit_debug_logs" />
+</PreferenceScreen>

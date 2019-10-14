@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="?verification_background" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="250.0dip" android:layout_height="250.0dip">
+            <TextView android:textSize="20.0sp" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verify_display_fragment__loading" />
+            <org.thoughtcrime.securesms.components.SquareImageView android:id="@id/qr_code" android:background="@drawable/qr_code_background" android:padding="20.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="20.0dip" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/gray50" android:layout_gravity="bottom|center" android:id="@id/tap_label" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:text="@string/verify_display_fragment__tap_to_scan" />
+            <org.thoughtcrime.securesms.components.SquareImageView android:id="@id/qr_verified" android:background="@drawable/qr_code_background" android:padding="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="20.0dip" android:src="@drawable/ic_check_white_48dp" />
+        </FrameLayout>
+        <TableLayout android:id="@id/number_table" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TableRow android:gravity="center_horizontal" android:focusable="false" android:clickable="false">
+                <TextView android:id="@id/code_first" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/IdentityKey" />
+                <TextView android:id="@id/code_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/IdentityKey" />
+                <TextView android:id="@id/code_third" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/IdentityKey" />
+                <TextView android:id="@id/code_fourth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/IdentityKey" />
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView android:id="@id/code_fifth" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/IdentityKey" />
+                <TextView android:id="@id/code_sixth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/IdentityKey" />
+                <TextView android:id="@id/code_seventh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/IdentityKey" />
+                <TextView android:id="@id/code_eighth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/IdentityKey" />
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView android:id="@id/code_ninth" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/IdentityKey" />
+                <TextView android:id="@id/code_tenth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/IdentityKey" />
+                <TextView android:id="@id/code_eleventh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/IdentityKey" />
+                <TextView android:id="@id/code_twelth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" style="@style/IdentityKey" />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <android.support.v7.widget.SwitchCompat android:id="@id/verified_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/verify_display_fragment__verified" />
+        </LinearLayout>
+        <TextView android:textSize="17.0sp" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s" android:lineSpacingExtra="3.0sp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%1$d 歌曲已加入到播放清單 %2$s。</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">已刪除歌曲 %d</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">已佇列歌曲 %d</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d 分</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">播放歌曲 %d。</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">%1$d 的歌曲已從播放清單 %2$s 中移除。</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+</resources>

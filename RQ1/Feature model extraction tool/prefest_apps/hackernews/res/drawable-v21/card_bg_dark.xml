@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:dither="true" android:shape="rectangle">
+            <corners android:radius="2.0dip" />
+            <solid android:color="#ff343434" />
+        </shape>
+    </item>
+    <item android:bottom="2.0dip">
+        <ripple android:color="@color/cardRippleNight">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/cardBackgroundNight" />
+                    <padding android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</layer-list>

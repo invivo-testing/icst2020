@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%1$d skladieb pridaných do zoznamu skladieb %2$s.</item>
+        <item quantity="one">1 skladba pridaná do zoznamu skladieb %2$s.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">%d skladieb odstránených.</item>
+        <item quantity="one">1 skladba odstránená.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">%d pridaných skladieb.</item>
+        <item quantity="one">1 pridaná skladba.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d hodín</item>
+        <item quantity="one">1 hodina</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minút</item>
+        <item quantity="one">1 minúta</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">%d prehrávaných skladieb.</item>
+        <item quantity="one">1 prehrávaná skladba.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekúnd</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+</resources>

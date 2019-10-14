@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">Przesyłanie %1$d plików</item>
+        <item quantity="one">Przesyłanie %1$d pliku</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">Przesłano %1$d pliki</item>
+        <item quantity="zero">Przesłano @string/contributions_subtitle_zero</item>
+        <item quantity="one">Przesłano %1$d plik</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d przesłania</item>
+        <item quantity="one">%1$d przesłanie</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Rozpoczęto %1$d przesyłania</item>
+        <item quantity="one">Rozpoczęto %1$d przesyłanie</item>
+    </plurals>
+</resources>

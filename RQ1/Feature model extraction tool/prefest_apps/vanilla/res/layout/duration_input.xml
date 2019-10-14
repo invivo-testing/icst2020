@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/hours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/hour_hint" android:maxLength="2" android:inputType="number" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_separator" />
+    <EditText android:id="@id/minutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/minute_hint" android:maxLength="2" android:inputType="number" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_separator" />
+    <EditText android:id="@id/seconds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/second_hint" android:maxLength="2" android:inputType="number" />
+</LinearLayout>

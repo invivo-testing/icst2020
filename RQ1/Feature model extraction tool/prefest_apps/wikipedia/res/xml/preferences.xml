@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_general_heading">
+        <org.wikipedia.settings.PreferenceMultiLine android:title="@string/preference_title_language" android:key="@string/preference_key_language" />
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_show_link_previews" android:key="@string/preference_key_show_link_previews" android:summary="@string/preference_summary_show_link_previews" android:defaultValue="true" />
+        <org.wikipedia.settings.PreferenceMultiLine android:title="@string/preference_title_app_theme" android:key="@string/preference_key_color_theme" android:summary="@string/preference_summary_color_theme" android:defaultValue="0" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_heading_syncing" android:key="@string/preference_category_sync">
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_sync_reading_lists_from_account" android:key="@string/preference_key_sync_reading_lists" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_heading_data_usage">
+        <SwitchPreferenceCompat android:title="@string/preference_title_download_only_over_wifi" android:key="@string/preference_key_download_only_over_wifi" android:defaultValue="false" />
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_show_images" android:key="@string/preference_key_show_images" android:summary="@string/preference_summary_show_images" android:defaultValue="true" />
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_prefer_offline_content" android:key="@string/preference_key_prefer_offline_content" android:summary="@string/preference_summary_prefer_offline_content" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_privacy_settings_heading">
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_eventlogging_opt_in" android:key="@string/preference_key_eventlogging_opt_in" android:summary="@string/preference_summary_eventlogging_opt_in" android:defaultValue="true" />
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_auto_upload_crash_reports" android:key="@string/preference_key_auto_upload_crash_reports" android:summary="@string/preference_summary_auto_upload_crash_reports" android:defaultValue="true" />
+    </PreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>

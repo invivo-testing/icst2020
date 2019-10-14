@@ -1,0 +1,263 @@
+<feature_model name="KISS">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'preferences'(_r76)
+			:m 'KISS_settings_category1'(_r77)
+				:m 'history_favorites_category2'(_r78)
+					:m 'exclude-favorites'(_r79)
+						:g [1,1]
+							: 'exclude-favorites_true'(_r80)
+							: 'exclude-favorites_false'(_r81)
+					:m 'enable-favorites-bar'(_r82)
+						:g [1,1]
+							: 'enable-favorites-bar_true'(_r83)
+							: 'enable-favorites-bar_false'(_r84)
+				:m 'providers_category12'(_r85)
+					:m 'enable-contacts'(_r86)
+						:g [1,1]
+							: 'enable-contacts_true'(_r87)
+							: 'enable-contacts_false'(_r88)
+					:m 'enable-search'(_r89)
+						:g [1,1]
+							: 'enable-search_false'(_r90)
+							: 'enable-search_true'(_r91)
+					:m 'enable-settings'(_r92)
+						:g [1,1]
+							: 'enable-settings_true'(_r93)
+							: 'enable-settings_false'(_r94)
+					:m 'enable-shortcuts'(_r95)
+						:g [1,1]
+							: 'enable-shortcuts_false'(_r96)
+							: 'enable-shortcuts_true'(_r97)
+				:m 'history_category_category15'(_r98)
+					:m 'Alternate_history_inputs_category17'(_r99)
+						:m 'enable-phone-history'(_r100)
+							:g [1,1]
+								: 'enable-phone-history_false'(_r101)
+								: 'enable-phone-history_true'(_r102)
+						:m 'enable-app-history'(_r103)
+							:g [1,1]
+								: 'enable-app-history_false'(_r104)
+								: 'enable-app-history_true'(_r105)
+					:m 'number-of-display-elements'(_r106)
+						:g [1,1]
+							: 'number-of-display-elements_custom'(_r107)
+							: 'number-of-display-elements_default'(_r108)
+					:m 'history-mode'(_r109)
+						:g [1,1]
+							: 'history-mode_frecency'(_r110)
+							: 'history-mode_recency'(_r111)
+							: 'history-mode_frequency'(_r112)
+				:m 'ui-holder_category9'(_r113)
+					:m 'Misc_category10'(_r114)
+						:m 'transparent-favorites'(_r115)
+							:g [1,1]
+								: 'transparent-favorites_true'(_r116)
+								: 'transparent-favorites_false'(_r117)
+						:m 'large-search-bar'(_r118)
+							:g [1,1]
+								: 'large-search-bar_false'(_r119)
+								: 'large-search-bar_true'(_r120)
+						:m 'pref-rounded-bars'(_r121)
+							:g [1,1]
+								: 'pref-rounded-bars_true'(_r122)
+								: 'pref-rounded-bars_false'(_r123)
+						:m 'pref-rounded-list'(_r124)
+							:g [1,1]
+								: 'pref-rounded-list_false'(_r125)
+								: 'pref-rounded-list_true'(_r126)
+						:m 'transparent-search'(_r127)
+							:g [1,1]
+								: 'transparent-search_false'(_r128)
+								: 'transparent-search_true'(_r129)
+					:m 'colors-section_category11'(_r130)
+						:m 'black-notification-icons'(_r131)
+							:g [1,1]
+								: 'black-notification-icons_false'(_r132)
+								: 'black-notification-icons_true'(_r133)
+					:m 'theme'(_r134)
+						:g [1,1]
+							: 'theme_semi-transparent'(_r135)
+							: 'theme_transparent'(_r136)
+							: 'theme_dark'(_r137)
+							: 'theme_light'(_r138)
+							: 'theme_transparent-dark'(_r139)
+							: 'theme_semi-transparent-dark'(_r140)
+							: 'theme_amoled-dark'(_r141)
+				:m 'ux-holder_category3'(_r142)
+					:m 'Keyboard_options_category7'(_r143)
+						:m 'display-keyboard'(_r144)
+							:g [1,1]
+								: 'display-keyboard_true'(_r145)
+								: 'display-keyboard_false'(_r146)
+					:m 'wallpaper-holder_category5'(_r147)
+						:m 'lwp-drag'(_r148)
+							:g [1,1]
+								: 'lwp-drag_true'(_r149)
+								: 'lwp-drag_false'(_r150)
+						:m 'lwp-touch'(_r151)
+							:g [1,1]
+								: 'lwp-touch_false'(_r152)
+								: 'lwp-touch_true'(_r153)
+						:m 'wp-drag-animate'(_r154)
+							:g [1,1]
+								: 'wp-drag-animate_false'(_r155)
+								: 'wp-drag-animate_true'(_r156)
+						:m 'wp-animate-center'(_r157)
+							:g [1,1]
+								: 'wp-animate-center_false'(_r158)
+								: 'wp-animate-center_true'(_r159)
+						:m 'wp-animate-sides'(_r160)
+							:g [1,1]
+								: 'wp-animate-sides_false'(_r161)
+								: 'wp-animate-sides_true'(_r162)
+					:m 'Misc_category6'(_r163)
+						:m 'force-portrait'(_r164)
+							:g [1,1]
+								: 'force-portrait_false'(_r165)
+								: 'force-portrait_true'(_r166)
+						:m 'tags-visible'(_r167)
+							:g [1,1]
+								: 'tags-visible_true'(_r168)
+								: 'tags-visible_false'(_r169)
+						:m 'icons-hide'(_r170)
+							:g [1,1]
+								: 'icons-hide_false'(_r171)
+								: 'icons-hide_true'(_r172)
+					:m 'history-hide-section_category4'(_r173)
+						:m 'history-hide'(_r174)
+							:g [1,1]
+								: 'history-hide_true'(_r175)
+								: 'history-hide_false'(_r176)
+						:m 'favorites-hide'(_r177)
+							:g [1,1]
+								: 'favorites-hide_true'(_r178)
+								: 'favorites-hide_false'(_r179)
+						:m 'pref-hide-circle'(_r180)
+							:g [1,1]
+								: 'pref-hide-circle_false'(_r181)
+								: 'pref-hide-circle_true'(_r182)
+						:m 'history-onclick'(_r183)
+							:g [1,1]
+								: 'history-onclick_false'(_r184)
+								: 'history-onclick_true'(_r185)
+						:m 'pref-hide-statusbar'(_r186)
+							:g [1,1]
+								: 'pref-hide-statusbar_false'(_r187)
+								: 'pref-hide-statusbar_true'(_r188)
+						:m 'pref-hide-navbar'(_r189)
+							:g [1,1]
+								: 'pref-hide-navbar_true'(_r190)
+								: 'pref-hide-navbar_false'(_r191)
+					:m 'Customize_tags_menu_category8'(_r192)
+						:m 'pref-show-untagged'(_r193)
+							:g [1,1]
+								: 'pref-show-untagged_true'(_r194)
+								: 'pref-show-untagged_false'(_r195)
+						:m 'pref-tags-menu-dismiss'(_r196)
+							:g [1,1]
+								: 'pref-tags-menu-dismiss_false'(_r197)
+								: 'pref-tags-menu-dismiss_true'(_r198)
+						:m 'pref-tags-menu'(_r199)
+							:g [1,1]
+								: 'pref-tags-menu_true'(_r200)
+								: 'pref-tags-menu_false'(_r201)
+</feature_tree>
+<constraints>
+C0:~_r157 or _r154
+C1:~_r183 or _r174
+C2:~_r177 or _r174
+C3:~_r160 or _r154
+</constraints>
+</feature_model>

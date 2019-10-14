@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d nóiméad</item>
+        <item quantity="one">%dnóiméad amháin</item>
+        <item quantity="two">%d nóiméad </item>
+        <item quantity="few">%dnóiméad</item>
+        <item quantity="many">%dnóiméid</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d teachtaireacht an comhrá</item>
+        <item quantity="one">%d theachtaireacht amháin an comhrá</item>
+        <item quantity="two">%d theachtaireacht an comhrá</item>
+        <item quantity="few">%d theachtaireacht an comhrá</item>
+        <item quantity="many">%d dteachtaireacht an comhrá</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Bearrfaidh sé seo gach comhrá go dtí na %d teachtaireachtaí is déanaí anois.</item>
+        <item quantity="one">Bearrfaidh sé seo gach comhrá go dtí an teachtaireacht is déanaí anois.</item>
+        <item quantity="two">Bearrfaidh sé seo gach comhrá go dtí na %d teachtaireachtaí is déanaí anois.</item>
+        <item quantity="few">Bearrfaidh sé seo gach comhrá go dtí na %d teachtaireachtaí is déanaí anois.</item>
+        <item quantity="many">Bearrfaidh sé seo gach comhrá go dtí na %d teachtaireachtaí is déanaí anois.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d dteachtaireacht neamhléite</item>
+        <item quantity="one">%d teachtaireacht neamhléite</item>
+        <item quantity="two">%d theachtaireacht neamhléite</item>
+        <item quantity="few">%d theachtaireacht neamhléite</item>
+        <item quantity="many">%d dteachtaireacht neamhléite</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Scrios na teachtaireachtaí roghnaithe?</item>
+        <item quantity="one">Scrios an teachtaireacht roghnaithe?</item>
+        <item quantity="two">Scrios na teachtaireachtaí roghnaithe?</item>
+        <item quantity="few">Scrios na teachtaireachtaí roghnaithe?</item>
+        <item quantity="many">Scrios na teachtaireachtaí roghnaithe?</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Scriosfaidh sé seo go buan gach %1$d theachtaireacht roghnaithe.</item>
+        <item quantity="one">Scriosfaidh sé seo go buan an teachtaireacht roghnaithe.</item>
+        <item quantity="two">Scriosfaidh sé seo go buan gach %1$d theachtaireacht roghnaithe.</item>
+        <item quantity="few">Scriosfaidh sé seo go buan gach %1$d theachtaireacht roghnaithe.</item>
+        <item quantity="many">Scriosfaidh sé seo go buan gach %1$d dteachtaireacht roghnaithe.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Scrios na comhráite roghnaithe?</item>
+        <item quantity="one">Scrios an comhrá roghnaithe?</item>
+        <item quantity="two">Scrios na comhráite roghnaithe?</item>
+        <item quantity="few">Scrios na comhráite roghnaithe?</item>
+        <item quantity="many">Scrios na comhráite roghnaithe?</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Scrios na teachtaireachtaí roghnaithe?</item>
+        <item quantity="one">Scrios an teachtaireacht roghnaithe?</item>
+        <item quantity="two">Scrios na teachtaireachtaí roghnaithe?</item>
+        <item quantity="few">Scrios na teachtaireachtaí roghnaithe?</item>
+        <item quantity="many">Scrios na teachtaireachtaí roghnaithe?</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d uair</item>
+        <item quantity="one">%d amháin</item>
+        <item quantity="two">%d uair</item>
+        <item quantity="few">%d uair</item>
+        <item quantity="many">%d uair</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d eile</item>
+        <item quantity="one">%d eile</item>
+        <item quantity="two">%d eile</item>
+        <item quantity="few">%d eile</item>
+        <item quantity="many">%d eile</item>
+    </plurals>
+</resources>

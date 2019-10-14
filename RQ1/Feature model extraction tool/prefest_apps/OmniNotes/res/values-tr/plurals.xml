@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">%d etkinlik için</item>
+        <item quantity="one">%d etkinlik için</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Her %d günde bir</item>
+        <item quantity="one">Her %d günde bir</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Her %d ayda bir</item>
+        <item quantity="one">Her %d ayda bir</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Her %d haftada bir</item>
+        <item quantity="one">Her %d haftada bir</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Her %d yılda bir</item>
+        <item quantity="one">Her %d yılda bir</item>
+    </plurals>
+</resources>

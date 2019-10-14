@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.thoughtcrime.securesms.components.AudioView android:id="@id/audio_view" android:visibility="gone" android:layout_width="210.0dip" android:layout_height="wrap_content" app:backgroundTintColor="@color/white" app:foregroundTintColor="@color/grey_500"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

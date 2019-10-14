@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="#ff0c609c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/normal_text" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/welcomeYesButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/overflow_button_dimen" android:layout_marginTop="@dimen/standard_gap" android:layout_marginRight="@dimen/standard_gap" android:text="@string/welcome_skip_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/center_guideline" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintGuide_percent="0.5" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/standard_gap" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/center_guideline" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/selfie_x" android:layout_width="110.0dip" android:layout_height="wrap_content" android:src="@drawable/selfie_x" android:contentDescription="@string/welcome_image_no_selfies" />
+        <ImageView android:id="@id/proprietary_x" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/standard_gap" android:src="@drawable/proprietary_x" android:contentDescription="@string/welcome_image_proprietary" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/center_guideline" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/normal_text" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:text="@string/tutorial_3_text" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:paddingTop="@dimen/standard_gap" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bullet" />
+            <TextView android:textColor="@android:color/white" android:gravity="start" android:layout_gravity="center" android:paddingTop="@dimen/standard_gap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:text="@string/tutorial_3_subtext_1" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bullet" />
+            <TextView android:textColor="@android:color/white" android:gravity="start" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:text="@string/tutorial_3_subtext_2" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bullet" />
+            <TextView android:textColor="@android:color/white" android:gravity="start" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:text="@string/tutorial_3_subtext_3" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

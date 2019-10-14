@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.thoughtcrime.securesms.components.InputAwareLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <ImageView android:id="@id/avatar" android:layout_width="64.0dip" android:layout_height="64.0dip" android:transitionName="avatar" />
+            <org.thoughtcrime.securesms.components.emoji.EmojiEditText android:layout_gravity="center_vertical" android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="@string/profile_create_activity__your_name" android:layout_weight="1.0" android:inputType="textCapWords" />
+            <org.thoughtcrime.securesms.components.emoji.EmojiToggle android:layout_gravity="center_vertical" android:id="@id/emoji_toggle" android:background="@drawable/touch_highlight_background" android:layout_width="37.0dip" android:layout_height="37.0dip" android:contentDescription="@string/conversation_activity__emoji_toggle_description" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/information_link_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+            <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_info_white_18dp" android:tint="#ff73b7f0" />
+            <TextView android:textColor="#ff73b7f0" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/information_label" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:text="@string/profile_create_activity__who_can_see_this_information" style="@style/Registration.Description" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.dd.CircularProgressButton android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/finish_button" android:background="@color/signal_primary" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="20.0dip" android:textAllCaps="true" app:cpb_colorIndicator="@color/white" app:cpb_colorProgress="@color/textsecure_primary" app:cpb_cornerRadius="50.0dip" app:cpb_selectorIdle="@drawable/progress_button_state" app:cpb_textIdle="@string/profile_create_activity__finish" />
+            <TextView android:textColor="@color/gray50" android:layout_gravity="center_horizontal" android:id="@id/skip_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="20.0dip" android:text="@string/profile_create_activity__set_later" />
+            <org.thoughtcrime.securesms.components.emoji.EmojiDrawer android:id="@id/emoji_drawer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </LinearLayout>
+    </org.thoughtcrime.securesms.components.InputAwareLayout>
+    <View android:id="@id/reveal" android:background="@color/textsecure_primary" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

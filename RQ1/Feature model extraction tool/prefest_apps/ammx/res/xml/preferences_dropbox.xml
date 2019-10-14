@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@null" android:title="@string/dropbox_link" android:key="@string/pref_dropbox_link" />
+    <Preference android:icon="@null" android:title="@string/dropbox_linkedFile" android:key="@string/pref_dropbox_linked_file" android:dependency="@string/pref_dropbox_unlink" />
+    <ListPreference android:icon="@null" android:entries="@array/timeout_synchronize_items" android:title="@string/synchronization_interval" android:key="@string/pref_dropbox_times_repeat_service" android:summary="@string/summary_synchronization_interval" android:dependency="@string/pref_dropbox_unlink" android:defaultValue="30" android:entryValues="@array/timeout_synchronize_values" />
+    <CheckBoxPreference android:icon="@null" android:title="@string/auto_sync_via_wifi" android:key="@string/pref_sync_via_wifi" android:summary="@string/auto_sync_via_wifi_summary" android:dependency="@string/pref_dropbox_unlink" android:defaultValue="false" />
+    <CheckBoxPreference android:icon="@null" android:title="@string/title_sync_upload_immediate" android:key="@string/pref_dropbox_upload_immediate" android:summary="@string/summary_sync_upload_immediate" android:dependency="@string/pref_dropbox_unlink" android:defaultValue="true" />
+    <PreferenceScreen android:icon="@null" android:title="@string/download_from_drobpox" android:key="@string/pref_dropbox_download" android:summary="@string/summary_download_from_drobpox" android:dependency="@string/pref_dropbox_unlink" />
+    <PreferenceScreen android:icon="@null" android:title="@string/upload_to_drobpox" android:key="@string/pref_dropbox_upload" android:summary="@string/summary_upload_to_drobpox" android:dependency="@string/pref_dropbox_unlink" />
+    <Preference android:icon="@null" android:title="@string/dropbox_unlink" android:key="@string/pref_dropbox_unlink" />
+    <Preference android:icon="@null" android:title="@string/help" android:key="@string/pref_dropbox_wiki" />
+</PreferenceScreen>

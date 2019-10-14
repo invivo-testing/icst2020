@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@id/collapsing_toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="180.0dip" android:scaleType="centerCrop" app:layout_collapseMode="parallax">
+                <ImageView android:layout_width="fill_parent" android:layout_height="200.0dip" android:src="@drawable/amaze_header" android:layout_centerInParent="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_doc_album" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <android.support.v7.widget.Toolbar android:theme="?toolbar_theme" android:id="@id/toolBar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="parallax" app:popupTheme="?popup" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView android:id="@id/nested_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_anchor="@id/appBarLayout" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_generic">
+                <com.github.mikephil.charting.charts.PieChart android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+            <include layout="@layout/properties_information" />
+            <include android:visibility="gone" layout="@layout/properties_general" />
+            <include android:visibility="gone" layout="@layout/properties_video" />
+            <include android:visibility="gone" layout="@layout/properties_audio" />
+            <include android:visibility="gone" layout="@layout/properties_image" />
+            <include android:visibility="gone" layout="@layout/properties_document" />
+            <include android:visibility="gone" layout="@layout/properties_permissions" />
+            <include android:visibility="gone" layout="@layout/properties_hash" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

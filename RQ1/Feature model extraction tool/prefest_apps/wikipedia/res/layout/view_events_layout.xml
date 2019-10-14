@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/base_view" android:background="?chart_shade5" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="27.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="?paper_color" android:paddingBottom="24.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="3.0dip" android:layout_marginStart="1.0dip">
+        <include android:id="@id/year_layout" layout="@layout/view_on_this_day_event" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">В плей-лист %2$s добавлено %1$d дорожек.</item>
+        <item quantity="one">В плей-лист %2$s добавлена %1$d дорожка.</item>
+        <item quantity="few">В плей-лист %2$s добавлено %1$d дорожки.</item>
+        <item quantity="many">В плей-лист %2$s добавлено %1$d дорожек.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">Удалено %d дорожек.</item>
+        <item quantity="one">Удалена %d дорожка.</item>
+        <item quantity="few">Удалено %d дорожки.</item>
+        <item quantity="many">Удалено %d дорожек.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">Добавлено %d дорожек.</item>
+        <item quantity="one">Добавлена %d дорожка.</item>
+        <item quantity="few">Добавлено %d дорожки.</item>
+        <item quantity="many">Добавлено %d дорожек.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">Воспроизводится %d дорожек.</item>
+        <item quantity="one">Воспроизводится %d дорожка.</item>
+        <item quantity="few">Воспроизводится %d дорожки.</item>
+        <item quantity="many">Воспроизводится %d дорожек.</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">Из плей-листа %2$s убрано %1$d дорожек.</item>
+        <item quantity="one">Из плей-листа %2$s убрана %1$d дорожка.</item>
+        <item quantity="few">Из плей-листа %2$s убрано %1$d дорожки.</item>
+        <item quantity="many">Из плей-листа %2$s убрано %1$d дорожек.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+</resources>

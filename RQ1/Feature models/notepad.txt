@@ -1,0 +1,7 @@
+show_date=BooleanPreference
+font_size=ListPreference
+markdown=BooleanPreference
+direct_edit=BooleanPreference
+theme=ListPreference
+show_dialogs=BooleanPreference
+sort_by=ListPreference

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Flashcards for Android&lt;/h2>AnkiDroid is a flashcard application which is fully compatible with the desktop software &lt;a href=\"%2$s\">Anki&lt;/a>. You can create, download and learn material on both AnkiDroid or Anki Desktop, and synchronize them easily with AnkiWeb.</item>
+        <item>To help us make AnkiDroid better, please report bugs to &lt;a href=\"%1$s\">the issue tracker&lt;/a>; new feature ideas are very welcome too. Find answers on &lt;a href=\"%2$s\">the wiki&lt;/a> or start a discussion on &lt;a href=\"%3$s\">the forum&lt;/a>.</item>
+        <item>AnkiDroid is &lt;a href=\"%1$s\">open source software&lt;a/>, so everyone is encouraged to &lt;a href=\"%2$s\">become a contributor&lt;/a> :-)</item>
+        <item>Non-developers can also help. For instance, you can &lt;a href=\"%1$s\">help translate&lt;/a> AnkiDroid, update the wiki, provide screenshots, or blog about AnkiDroid.</item>
+        <item>AnkiDroid is released under the &lt;a href=\"%1$s\">GNU-GPL v3 license&lt;/a> and the source code is available &lt;a href=\"%2$s\">on GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Jelenlegi pakli használata</item>
+        <item>Jegyzettípustól függ</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Top</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Kérdés</item>
+        <item>Sort field</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Válasz</item>
+        <item>Kártya</item>
+        <item>Pakli neve</item>
+        <item>Jegyzettípus neve</item>
+        <item>Kérdés</item>
+        <item>Címkék</item>
+        <item>Elfelejtések száma</item>
+        <item>Ismétlések száma</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Rendezés nélkül (gyorsabb)</item>
+        <item>By sort field</item>
+        <item>Létrehozás dátuma szerint</item>
+        <item>Utolsó módosítás dátuma szerint</item>
+        <item>Módosítás dátuma szerint</item>
+        <item>Esedékesség szerint</item>
+        <item>Ismétlési intervallum szerint</item>
+        <item>Nehézség szerint</item>
+        <item>Ismétlésszám szerint</item>
+        <item>Tévesztések szerint</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Legrégebben látottat először</item>
+        <item>Véletlenszerű</item>
+        <item>Növekvő időközönként</item>
+        <item>Csökkenő időközönként</item>
+        <item>A legtöbbször lejárt</item>
+        <item>Rendezés hozzáadva</item>
+        <item>Rendezés</item>
+        <item>Utoljára hozzáadott előbb</item>
+        <item>Relative overdueness</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Light</item>
+        <item>Plain</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Nap</item>
+        <item>Hetek</item>
+        <item>Hónapok</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Mindig jelentse</item>
+        <item>Soha ne jelentse</item>
+        <item>Kérdezzen rá</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Nincs művelet</item>
+        <item>Válasz mutatása</item>
+        <item>Válasz gomb 1</item>
+        <item>Válasz gomb 2</item>
+        <item>Válasz gomb 3</item>
+        <item>Válasz gomb 4</item>
+        <item>Javasolt válasz (zöld)</item>
+        <item>Jobb válasz, mint a javasolt</item>
+        <item>Visszavonás</item>
+        <item>Edit note</item>
+        <item>Mark note</item>
+        <item>Kifejezés keresése</item>
+        <item>Kártya holnapra halasztása</item>
+        <item>Kártya felfüggesztése</item>
+        <item>Delete note</item>
+        <item>Play media</item>
+        <item>Abort learning</item>
+        <item>Jegyzet holnapra halasztása</item>
+        <item>Suspend note</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Kártya felfüggesztése</item>
+        <item>Csak címke</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Új kártyák véletlenszerűen</item>
+        <item>Új kártyák hozzáadás sorrendjében</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Új kártyák az ismétlendők közé</item>
+        <item>Új kártyák az ismétlendők után</item>
+        <item>Új kártyák az ismétlendők elé</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Black</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>When no font specified on flashcards</item>
+        <item>Mindig</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4.00</item>
+        <item>10.00</item>
+        <item>16.00</item>
+        <item>22.00</item>
+        <item>3.00</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Vas</item>
+        <item>Hé</item>
+        <item>Ke</item>
+        <item>Sze</item>
+        <item>Csü</item>
+        <item>Pé</item>
+        <item>Szombat</item>
+    </string-array>
+</resources>

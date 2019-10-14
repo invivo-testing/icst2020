@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <android.support.constraint.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <LinearLayout n1:gravity="end" n1:orientation="horizontal" n1:id="@id/text_time_layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="125.0dip" n2:layout_constraintEnd_toEndOf="parent" n2:layout_constraintTop_toTopOf="parent" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <TextView n1:textSize="56.0sp" n1:layout_gravity="end" n1:id="@id/text_time" n1:text="" style="@style/SunsetTimeTextView" />
+            <TextView n1:textSize="18.0sp" n1:layout_gravity="end|bottom|center" n1:id="@id/text_time_suffix" n1:text="" n1:maxEms="@integer/clock_amppm_maxems" style="@style/SunsetTimeTextSuffixView" />
+        </LinearLayout>
+        <TextView n1:textColor="?text_buttonSelector" n1:ellipsize="end" n1:gravity="end" n1:id="@id/text_timezone" n1:layout_width="0.0dip" n1:layout_marginTop="0.0dip" n1:layout_marginBottom="0.0dip" n1:maxLines="2" n3:layout_constraintEnd_toEndOf="parent" n3:layout_constraintStart_toStartOf="@id/text_time_layout" n3:layout_constraintTop_toBottomOf="@id/text_time_layout" style="@style/SunsetTimeTextView" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </android.support.constraint.ConstraintLayout>
+</merge>

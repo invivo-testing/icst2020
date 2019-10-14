@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%1$d låter lagt til spilleliste %2$s.</item>
+        <item quantity="one">1 låt lagt til spilleliste %2$s.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">%d låter slettet.</item>
+        <item quantity="one">1 låt slettet.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">%d låter i køen.</item>
+        <item quantity="one">1 låt i køen.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">1 time</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">1 minutt</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">%d låter spilles.</item>
+        <item quantity="one">1 låt spilles.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">1 sekund</item>
+    </plurals>
+</resources>

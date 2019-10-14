@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">%d cards shown</item>
+        <item quantity="one">%d card shown</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">Poista \"%2$s\" korttityyppi ja sen %1$d. kortit?</item>
+        <item quantity="one">Poista \"%2$s\" korttityyppi ja sen %1$d. kortti?</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"%1$s
+%2$d pakkaa käyttää tätä ryhmää"</item>
+        <item quantity="one">"%1$s
+%2$d pakka käyttää tätä ryhmää"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">%s alapakkaa käyttää tätä ryhmää</item>
+        <item quantity="one">%s alapakka käyttää tätä ryhmää</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">%1$d korttia kerrattavissa (%2$s)</item>
+        <item quantity="one">%1$d kortti kerrattavissa (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">Poista kaikki kortit %1$s-pakassa? Se sisältää %2$d korttia.</item>
+        <item quantity="one">Poista kaikki kortit %1$s-pakassa? Se sisältää %2$d kortin.</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">%d korttia lisätty</item>
+        <item quantity="one">%d kortti lisätty</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d mallia</item>
+        <item quantity="one">%d malli</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">%d mallia saatavilla</item>
+        <item quantity="one">%d malli saatavilla</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d new cards to review in %1$s</item>
+        <item quantity="one">%2$d new card to review in %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">%d minuuttia jäljellä</item>
+        <item quantity="one">%d minuutti jäljellä</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">Studied &lt;b>%1$d cards&lt;/b> in &lt;b>%2$s&lt;/b> today</item>
+        <item quantity="one">Studied &lt;b>%1$d card&lt;/b> in &lt;b>%2$s&lt;/b> today</item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">Opiskelit tänään %1$d korttia ajassa %2$s</item>
+        <item quantity="one">Opiskelit tänään %1$d kortin ajassa %2$s</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s päivää</item>
+        <item quantity="one">%s päivä</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s tuntia</item>
+        <item quantity="one">%s tunti</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s minuuttia</item>
+        <item quantity="one">%s minuutti</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s kuukautta</item>
+        <item quantity="one">%s kuukausi</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s sekuntia</item>
+        <item quantity="one">%s sekunti</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s vuotta</item>
+        <item quantity="one">%s vuosi</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d korttia opiskeltu ajassa %2$s</item>
+        <item quantity="one">%1$d korttia opiskeltu ajassa %2$s</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d minuuttia</item>
+        <item quantity="one">%1$d minuutti</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">%d cards due</item>
+        <item quantity="one">%d card due</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">%1$d korttia jäljellä %2$s:ssä</item>
+        <item quantity="one">%1$d kortti jäljellä %2$s:ssä</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d pakkaa</item>
+        <item quantity="one">%1$d pakka</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">%d minutes remaining</item>
+        <item quantity="one">%d minute remaining</item>
+    </plurals>
+</resources>

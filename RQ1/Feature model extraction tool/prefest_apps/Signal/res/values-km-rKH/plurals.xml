@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d នាទី</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d សារក្នុងពេលសន្ទនា</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">វានឹងតម្រឹមការសន្ទនាទាំងអស់ភ្លាមៗ ទៅជាសារថ្មីៗ ចំនួន%d។</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d សារមិនទាន់អាន</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">លុបសារដែលបានជ្រើសរើស?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">មានបញ្ហានៅពេលរក្សាទុកឯកសារភ្ជាប់!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">កំពុងរក្សា %1$d ឯកសារភ្ជាប់</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">កំពុងរក្សា %1$d ឯកសារភ្ជាប់ទៅកាន់ថាសផ្ទុក...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"ការរក្សាទុកទាំងអស់ %1$d ព័ត៌មាននៅលើថាសផ្ទុក នឹងអនុញ្ញាតអោយកម្មវិធីផ្សេងៗ បើកមើលបាន.
+
+បន្ត?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">នេះនឹងលុបសារ %1$d ដែលបានជ្រើសរើសជារៀងរហូត។</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d សន្ទនារក្សាទុកក្នុងបណ្ណាសារ</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">លុបការសន្ទនាដែលបានជ្រើសរើសនេះ?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">ផ្លាស់ប្តូរការសន្ទនា %d ទៅកាន់ប្រអប់ទទួល</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">នេះនឹងលុបការសន្ទនា %1$d ដែលបានជ្រើសរើសជាអចិន្ត្រៃយ៏។</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s ចូលក្រុម។</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">ផ្ញើសារ SMS អញ្ជើញ %d ?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">ផ្ញើ SMS ទៅកាន់មិត្តភក្តិ​ %d</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">វានឹងលុបសារ %1$d ដែលបានជ្រើសរើសទាំងអស់ជារៀងរហូត។</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">លុបសារដែលបានជ្រើសរើស?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">You are now %d steps away from submitting a debug log.</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d ថ្ងៃ</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d ម៉ោង</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d នាទី</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d វិនាទី</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d សប្តាហ៍</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d ម៉ោង</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%dផ្សេង</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">ជំនាន់Signalរបស់អ្នក នឹងផុតកំណត់ក្នុងពេល %d ថ្ងៃ។ ចុច ធ្វើបច្ចុប្បន្នភាពទៅកាន់ជំនាន់ចុងក្រោយបំផុត។</item>
+    </plurals>
+</resources>

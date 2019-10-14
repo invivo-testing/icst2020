@@ -1,0 +1,126 @@
+<feature_model name="commons">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'preferences'(_r76)
+			:m '_category1'(_r77)
+				:m 'General_category2'(_r78)
+					:m 'defaultLicense'(_r79)
+						:g [1,1]
+							: 'defaultLicense_@string/license_pref_cc_by_4_0'(_r80)
+							: 'defaultLicense_@string/license_pref_cc0'(_r81)
+							: 'defaultLicense_@string/license_pref_cc_by_sa_3_0'(_r82)
+							: 'defaultLicense_@string/license_pref_cc_by_3_0'(_r83)
+							: 'defaultLicense_@string/license_pref_cc_by_sa_4_0'(_r84)
+					:m 'uploads'(_r85)
+						:g [1,1]
+							: 'uploads_default'(_r86)
+							: 'uploads_custom'(_r87)
+					:m 'useExternalStorage'(_r88)
+						:g [1,1]
+							: 'useExternalStorage_false'(_r89)
+							: 'useExternalStorage_true'(_r90)
+				:m 'Location_category4'(_r91)
+					:m 'allowGps'(_r92)
+						:g [1,1]
+							: 'allowGps_true'(_r93)
+							: 'allowGps_false'(_r94)
+				:m 'Appearance_category5'(_r95)
+					:m 'theme'(_r96)
+						:g [1,1]
+							: 'theme_true'(_r97)
+							: 'theme_false'(_r98)
+</feature_tree>
+<constraints>
+</constraints>
+</feature_model>

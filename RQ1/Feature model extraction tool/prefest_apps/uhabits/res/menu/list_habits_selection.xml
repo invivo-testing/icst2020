@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?iconEdit" n1:id="@id/action_edit_habit" n1:title="@string/edit"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="?iconChangeColor" n2:id="@id/action_color" n2:title="@string/color_picker_default_title"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="?iconArchive" n3:id="@id/action_archive_habit" n3:title="@string/archive"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="?iconUnarchive" n4:id="@id/action_unarchive_habit" n4:title="@string/unarchive"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:id="@id/action_delete" n5:title="@string/delete" n6:showAsAction="never"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:id="@id/action_notify" n7:title="@string/reminder" n8:showAsAction="never"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/parent_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:linksClickable="true" android:id="@id/cright_osm" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/osm_cright_title" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <SeekBar android:id="@id/zoomBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/cright_osm" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+        <org.osmdroid.views.MapView android:id="@id/mapview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/zoomBar" />
+        <Button android:id="@id/ok" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_above="@id/zoomBar" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/image" android:visibility="gone" android:layout_width="@dimen/grid_cell_width" android:layout_height="@dimen/grid_cell_height" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vanilla="http://schemas.android.com/apk/res-auto">
+    <ch.blinkenlights.android.vanilla.SeekBarPreference android:title="@string/autoplaylist_playcounts_title" android:key="playcounts_autoplaylist" android:defaultValue="0" android:negativeButtonText="@null" android:dialogLayout="@layout/seekbar_pref" vanilla:sbpMaxValue="100" vanilla:sbpSteps="25" vanilla:sbpSummaryFormat="@string/autoplaylist_playcounts_fmt" vanilla:sbpSummaryText="@string/autoplaylist_playcounts_summary" vanilla:sbpSummaryZeroText="@string/autoplaylist_playcounts_disabled" />
+    <ch.blinkenlights.android.vanilla.ListPreferenceSummary android:entries="@array/playlist_sync_mode_entries" android:title="@string/playlist_sync_mode_title" android:key="playlist_sync_mode" android:defaultValue="0" android:entryValues="@array/playlist_sync_mode_values" />
+    <PreferenceScreen android:title="@string/playlist_sync_folder_title" android:summary="@string/playlist_sync_folder_summary" android:dependency="playlist_sync_mode">
+        <intent android:targetPackage="ch.blinkenlights.android.vanilla" android:targetClass="ch.blinkenlights.android.vanilla.PlaylistObserverDirActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

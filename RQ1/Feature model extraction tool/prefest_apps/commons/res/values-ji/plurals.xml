@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d טעקעס לאדן אן</item>
+        <item quantity="one">%1$d טעקע לאדט אן</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d ארויפֿלאדן</item>
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">איין ארויפֿלאד</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">אנהייבן %1$d ארויפֿלאדן</item>
+        <item quantity="one">אנהייבן %1$d ארויפֿלאד</item>
+    </plurals>
+</resources>

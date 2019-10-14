@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:id="@id/tab1" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ListView n1:layout_gravity="right" n1:id="@android:id/list" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:drawSelectorOnTop="false" n1:layout_toRightOf="@id/verticalLabelView1" n1:layout_alignParentTop="true" />
+    <org.openbmap.utils.VerticalLabelView n1:id="@id/verticalLabelView1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" n1:layout_alignParentTop="true" n2:text="Cell History" n2:textColor="#ffffffff" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

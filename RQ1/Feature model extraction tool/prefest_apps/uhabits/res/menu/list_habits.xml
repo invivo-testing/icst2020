@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?iconAdd" n1:id="@id/actionAdd" n1:title="@string/add_habit" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?iconFilter" n3:id="@id/action_filter" n3:title="@string/filter" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n3:enabled="true" n3:id="@id/actionHideArchived" n3:title="@string/hide_archived" n3:checkable="true" />
+            <item n3:enabled="true" n3:id="@id/actionHideCompleted" n3:title="@string/hide_completed" n3:checkable="true" />
+            <item n3:title="@string/sort">
+                <menu>
+                    <item n3:id="@id/actionSortManual" n3:title="@string/manually" />
+                    <item n3:id="@id/actionSortName" n3:title="@string/by_name" />
+                    <item n3:id="@id/actionSortColor" n3:title="@string/by_color" />
+                    <item n3:id="@id/actionSortScore" n3:title="@string/by_score" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <item n5:enabled="true" n5:id="@id/actionToggleNightMode" n5:orderInCategory="50" n5:title="@string/night_mode" n5:checkable="true" n6:showAsAction="never"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:id="@id/actionSettings" n7:orderInCategory="100" n7:title="@string/action_settings" n8:showAsAction="never"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:id="@id/actionFAQ" n9:orderInCategory="100" n9:title="@string/help" n10:showAsAction="never"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <item n11:id="@id/actionAbout" n11:orderInCategory="100" n11:title="@string/about" n12:showAsAction="never"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d संचिका अपभारीत होत आहे</item>
+        <item quantity="one">१ संचिका अपभारीत होत आहे</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d अपभारणे</item>
+        <item quantity="zero">अद्याप अपभारणे नाहीत</item>
+        <item quantity="one">एक अपभारण</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d अपभारणे</item>
+        <item quantity="one">१ अपभारण</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">%1$d अपभारणे सुरू करीत आहे</item>
+        <item quantity="one">१ अपभारण सुरू करीत आहे upload</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">ගොනු %d ක් උඩුගත කෙරේ</item>
+        <item quantity="one">1 ගොනුවක් උඩුගත කෙරේ</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">උඩුගත කිරීම් %1$d ක් ඇත</item>
+        <item quantity="zero">තවමත් කිසිදු උඩුගත කිරීමක් නැත</item>
+        <item quantity="one">එක් උඩුගත කිරීමක් ඇත</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">උඩුගත කිරීම් %1$d ක්</item>
+        <item quantity="one">1 උඩුගත කිරීමක්</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">උඩුගත කිරීම් %1$d ක් ආරම්භ කරමින්</item>
+        <item quantity="one">1 උඩුගත කිරීමක් ආරම්භ කරමින්</item>
+    </plurals>
+</resources>

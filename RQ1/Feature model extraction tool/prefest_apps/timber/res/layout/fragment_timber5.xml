@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/album_art_blurred" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="centerCrop" />
+    <View n1:background="#44000000" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <android.support.percent.PercentRelativeLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <FrameLayout n1:id="@id/headerView" n1:layout_width="fill_parent" n2:layout_heightPercent="60.000004%" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <android.support.v7.widget.Toolbar n1:theme="@style/Theme.AppCompat" n1:layout_gravity="top" n1:id="@id/toolbar" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n1:layout_marginTop="@dimen/appBarTopMargin" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            <android.support.percent.PercentRelativeLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+                <android.support.v7.widget.CardView n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="15.0dip" n2:cardBackgroundColor="@android:color/transparent" n2:cardElevation="10.0dip" n2:layout_heightPercent="60.000004%" n2:layout_widthPercent="60.000004%">
+                    <ImageView n1:id="@id/album_art" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_margin="1.0dip" n1:scaleType="centerCrop" n1:adjustViewBounds="true" />
+                </android.support.v7.widget.CardView>
+            </android.support.percent.PercentRelativeLayout>
+        </FrameLayout>
+        <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:paddingTop="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/headerView">
+            <LinearLayout n1:gravity="left" n1:layout_gravity="left" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="@dimen/appBarTopMargin">
+                <LinearLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textSize="22.0sp" n1:textColor="#ffffffff" n1:ellipsize="marquee" n1:id="@id/song_title" n1:fadingEdge="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dip" n1:layout_marginRight="40.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" style="@style/TextAppearance.AppCompat.Body1" />
+                </LinearLayout>
+                <TextView n1:textSize="11.0sp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/song_artist" n1:paddingTop="3.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dip" n1:layout_marginRight="40.0dip" n1:maxLines="1" />
+                <SeekBar n1:layout_gravity="center" n1:id="@id/song_progress" n1:tag="tint_accent_color" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="30.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="30.0dip" n1:maxHeight="2.0dip" n1:progress="30" />
+                <TextView n1:textColor="#ffffffff" n1:id="@id/song_album" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dip" n1:layout_marginRight="40.0dip">
+                    <TextView n1:textColor="#ffffffff" n1:id="@id/song_elapsed_time" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" />
+                    <TextView n1:textColor="#ffffffff" n1:id="@id/song_duration" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:paddingTop="20.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dip" n1:layout_marginRight="40.0dip">
+                    <ImageView n1:id="@id/shuffle" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:scaleType="center" n1:layout_weight="1.0" />
+                    <net.steamcrafted.materialiconlib.MaterialIconView n1:id="@id/previous" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:scaleType="center" n1:layout_weight="1.0" n3:materialIcon="skip_previous" n3:materialIconColor="#ffffffff" n3:materialIconSize="35.0dip" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                    <FrameLayout n1:layout_width="50.0dip" n1:layout_height="50.0dip" n1:layout_marginRight="5.0dip" n1:layout_weight="1.0" n1:layout_alignParentRight="true" n1:layout_centerVertical="true">
+                        <com.naman14.timber.widgets.PlayPauseButton n1:layout_gravity="center" n1:id="@id/playpause" n1:layout_width="23.0dip" n1:layout_height="23.0dip" />
+                        <View n1:id="@id/playpausewrapper" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+                    </FrameLayout>
+                    <net.steamcrafted.materialiconlib.MaterialIconView n1:id="@id/next" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:scaleType="center" n1:layout_weight="1.0" n4:materialIcon="skip_next" n4:materialIconColor="#ffffffff" n4:materialIconSize="35.0dip" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                    <ImageView n1:id="@id/repeat" n1:background="?selectableItemBackgroundBorderless" n1:paddingLeft="5.0dip" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:scaleType="center" n1:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView n1:id="@id/queue_recyclerview_horizontal" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="75.0dip" n1:layout_alignParentBottom="true" />
+    </android.support.percent.PercentRelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Флашкарти за Андроид&lt;/h2>AnkiDroid е приложение за флашкарти, което е напълно съвместимо с настолният софтуер &lt;a href=\"%2$s\">Anki&lt;/a>. Вие можете да създадете, свалите и учите материали на AnkiDroid или Anki Desktop, и да ги синхронизирате лесно с AnkiWeb.</item>
+        <item>За да помогнете да направим AnkiDroid по-добър, моля докладвайте за бъговете към &lt;a href=\"%1$s\">нашия въпросник&lt;/a>; идеи да нови функции са добре дошли. Намерете отговори на въпросите си в &lt;a href=\"%2$s\"> уикито ни&lt;/a> или започнете дискусия във &lt;a href=\"%3$s\"> форума ни&lt;/a>.</item>
+        <item>AnkiDroid е &lt;a href=\"%1$s\">софтуер с отворен код&lt;a/>, така че всеки е окуражен да &lt;a href=\"%2$s\"> стане сътрудник&lt;/a> :-)</item>
+        <item>Ако не сте програмисти, също можете да помогнете. Можете &lt;a href=\"%1$s\">да помогнете в превода&lt;/a> на AnkiDroid, да обновите уикито или да пишете в блога си за AnkiDroid.</item>
+        <item>AnkiDroid се разпространява под &lt;a href=\"%1$s\">GNU GPL v3 лиценз&lt;/a> и изходният код е наличен &lt;a href=\"%2$s\">на GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Използвайте текущото тесте</item>
+        <item>Избор по тип на бележката</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Отгоре</item>
+        <item>Отдолу</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Въпрос</item>
+        <item>Поле за сортиране</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Oтговор</item>
+        <item>Карта</item>
+        <item>Тесте</item>
+        <item>Бележка</item>
+        <item>Въпрос</item>
+        <item>Етикети</item>
+        <item>Пропуски</item>
+        <item>Разглеждания</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Без сортиране (по-бързо)</item>
+        <item>По поле за сортиране</item>
+        <item>По време на създаване</item>
+        <item>По време на редактиране</item>
+        <item>По време на промяна</item>
+        <item>По време за повторение</item>
+        <item>По интервал</item>
+        <item>По сложност</item>
+        <item>По прегледи</item>
+        <item>По пропуски</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Първо - по-старите</item>
+        <item>Случайно</item>
+        <item>Увеличаване на интервалите</item>
+        <item>намаляване на интервалите</item>
+        <item>Най-много пропуски</item>
+        <item>Ред на добавяне</item>
+        <item>По ред на разглеждане</item>
+        <item>Първо - последно добавени</item>
+        <item>Относителна закъснение</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Светла</item>
+        <item>Обикновена</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Дни</item>
+        <item>Седмици</item>
+        <item>Месеци</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Винаги докладвай</item>
+        <item>Никога не докладвай</item>
+        <item>Попитай ме</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Няма действие</item>
+        <item>Показване на отговора</item>
+        <item>Бутон отговор 1</item>
+        <item>Бутон отговор 2</item>
+        <item>Бутон отговор 3</item>
+        <item>Бутон отговор 4</item>
+        <item>Препоръчителен отговор (зелен)</item>
+        <item>Отговаря се по-добре, отколкото се препоръчва</item>
+        <item>Отмяна</item>
+        <item>Промяна на бележка</item>
+        <item>Маркирай бележка</item>
+        <item>Израз за търсене</item>
+        <item>Скрий картата</item>
+        <item>Прекрати картата</item>
+        <item>Изтриване на бележка</item>
+        <item>Пускане на медия</item>
+        <item>Прекъсване на обучението</item>
+        <item>Зарови бележка</item>
+        <item>Отлагане на бележка</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Отлагане на карта</item>
+        <item>Само етикети</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Нови карти в случаен ред</item>
+        <item>Нови карти по ред на добавяне</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Смесване на нови карти и преговор</item>
+        <item>Новите карти след повторените</item>
+        <item>Новите карти преди повторените</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Черна</item>
+        <item>Тъмна</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Когато не е определен шрифт на флашкартите</item>
+        <item>Винаги</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4:00</item>
+        <item>10:00</item>
+        <item>16:00</item>
+        <item>20:00</item>
+        <item>3:00</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Нд</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+</resources>

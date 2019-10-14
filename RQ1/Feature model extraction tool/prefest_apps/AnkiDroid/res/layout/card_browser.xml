@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/toolbar" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Spinner android:id="@id/browser_column1_spinner" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:popupTheme="@style/ActionBar.Popup" />
+                <Spinner android:id="@id/browser_column2_spinner" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:popupTheme="@style/ActionBar.Popup" />
+            </LinearLayout>
+            <ListView android:id="@id/card_browser_list" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:fastScrollEnabled="true" />
+        </LinearLayout>
+        <include layout="@layout/anki_progress" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include layout="@layout/navigation_drawer" />
+</androidx.drawerlayout.widget.DrawerLayout>

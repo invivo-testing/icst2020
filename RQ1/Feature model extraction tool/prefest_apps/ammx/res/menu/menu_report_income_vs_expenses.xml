@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="?ic_action_bargraph" android:id="@id/menu_chart" android:title="@string/show_chart" app:showAsAction="always" />
+    <item android:icon="?ic_action_sort_1" android:id="@id/menu_sort" android:title="@string/sort" app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@id/menu_sort_asceding" android:checked="true" android:title="@string/sort_by_ascending" />
+                <item android:id="@id/menu_sort_desceding" android:title="@string/sort_by_desceding" />
+            </group>
+        </menu>
+    </item>
+    <item android:icon="?ic_action_calendar_day" android:id="@id/menu_period" android:title="@string/select_the_years_to_be_displayed" app:showAsAction="always" />
+</menu>

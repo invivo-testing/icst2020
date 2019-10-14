@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="#ff222222" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.github.paolorotolo.appintro.AppIntroViewPager n1:id="@id/view_pager" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <LinearLayout n1:gravity="bottom" n1:orientation="vertical" n1:id="@id/bottom" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="@dimen/appIntroBottomBarHeight" n1:layout_alignParentBottom="true">
+        <TextView n1:id="@id/bottom_separator" n1:background="#55000000" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <FrameLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <FrameLayout n1:layout_gravity="center" n1:id="@id/indicator_container" n1:layout_width="wrap_content" n1:layout_height="fill_parent" />
+            <Button n1:textColor="@android:color/white" n1:layout_gravity="left" n1:id="@id/skip" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_marginLeft="8.0dip" n1:minWidth="100.0dip" n1:text="@string/skip_button" style="@style/AppIntroButtonStyleCompat" />
+            <ImageButton n1:layout_gravity="right" n1:id="@id/next" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_marginRight="8.0dip" n1:src="@drawable/ic_navigate_next_white_24dp" n1:minWidth="100.0dip" style="@style/AppIntroButtonStyleCompat" />
+            <Button n1:textColor="@android:color/white" n1:layout_gravity="right" n1:id="@id/done" n1:paddingRight="16.0dip" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_marginRight="8.0dip" n1:minWidth="100.0dip" n1:text="@string/done_button" style="@style/AppIntroButtonStyleCompat" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

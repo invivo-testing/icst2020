@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/style_root" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="40.0dip" n1:layout_marginTop="15.0dip" n1:layout_marginRight="40.0dip" n1:layout_marginBottom="90.0dip" n1:layout_centerInParent="true">
+        <ImageView n1:id="@id/style_image" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="16.0dip" n1:scaleType="fitXY" />
+        <View n1:id="@id/foreground" n1:background="@color/black_translucent" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="16.0dip" />
+        <TextView n1:textSize="35.0sp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:layout_gravity="center|right|top" n1:id="@id/style_name" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="15.0dip" n1:layout_marginRight="40.0dip" n1:maxLines="2" />
+        <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/currentStyle" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <net.steamcrafted.materialiconlib.MaterialIconView n1:layout_gravity="center" n1:id="@id/previous" n1:layout_width="70.0dip" n1:layout_height="70.0dip" n1:scaleType="center" n2:materialIcon="check" n2:materialIconColor="#ffffffff" n2:materialIconSize="55.0dip" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <TextView n1:textSize="16.0sp" n1:textStyle="italic" n1:textColor="#ffffffff" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/currently_selected" />
+        </LinearLayout>
+        <ImageView n1:layout_gravity="center" n1:id="@id/img_lock" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ic_lock_outline_white_24dp" />
+    </FrameLayout>
+</RelativeLayout>

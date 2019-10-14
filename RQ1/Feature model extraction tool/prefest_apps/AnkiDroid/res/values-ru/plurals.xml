@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">%d карточек показано</item>
+        <item quantity="one">%d карточка показана</item>
+        <item quantity="few">%d карточки показаны</item>
+        <item quantity="many">%d карточек показано</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">Удалить тип “%2$s” и его %1$d карточек?</item>
+        <item quantity="one">Удалить тип “%2$s” и его %1$d карточку?</item>
+        <item quantity="few">Удалить тип “%2$s” и его %1$d карточки?</item>
+        <item quantity="many">Удалить тип “%2$s” и его %1$d карточек?</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"%1$s
+%2$d колод использует эту группу"</item>
+        <item quantity="one">"%1$s
+%2$d колода использует эту группу"</item>
+        <item quantity="few">"%1$s
+%2$d колоды использует эту группу"</item>
+        <item quantity="many">"%1$s
+%2$d колод использует эту группу"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">%s подколод задействуют конфигурацию</item>
+        <item quantity="one">%s подколода задействует конфигурацию</item>
+        <item quantity="few">%s подколоды задействуют конфигурацию</item>
+        <item quantity="many">%s подколод задействуют конфигурацию</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">На сегодня %1$d карточек (%2$s)</item>
+        <item quantity="one">На сегодня %1$d карточка (%2$s)</item>
+        <item quantity="few">На сегодня %1$d карточки (%2$s)</item>
+        <item quantity="many">На сегодня %1$d карточек (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">Удалить все карточки в %1$s? В ней %2$d карточек.</item>
+        <item quantity="one">Удалить все карточки в %1$s? В ней %2$d карточка.</item>
+        <item quantity="few">Удалить все карточки в %1$s? В ней %2$d карточки.</item>
+        <item quantity="many">Удалить все карточки в %1$s? В ней %2$d карточек.</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">Добавлено %d карточек</item>
+        <item quantity="one">Добавлена %d карточка</item>
+        <item quantity="few">Добавлены %d карточки</item>
+        <item quantity="many">Добавлено %d карточек</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d записей</item>
+        <item quantity="one">%d запись</item>
+        <item quantity="few">%d записи</item>
+        <item quantity="many">%d записей</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">Доступен %d типов карточек</item>
+        <item quantity="one">Доступен %d тип карточек</item>
+        <item quantity="few">Доступен %d типа карточек</item>
+        <item quantity="many">Доступен %d типов карточек</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d новых карточек в %1$s</item>
+        <item quantity="one">%2$d новая карточка в %1$s</item>
+        <item quantity="few">%2$d новых карточки в %1$s</item>
+        <item quantity="many">%2$d новых карточек в %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">Осталось %d минут</item>
+        <item quantity="one">Осталась %d минута</item>
+        <item quantity="few">Осталось %d минуты</item>
+        <item quantity="many">Осталось %d минут</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">&lt;b>%1$d карточек&lt;/b> просмотрено за &lt;b>%2$s&lt;/b></item>
+        <item quantity="one">&lt;b>%1$d карточка&lt;/b> просмотрена за &lt;b>%2$s&lt;/b></item>
+        <item quantity="few">&lt;b>%1$d карточки&lt;/b> просмотрены за &lt;b>%2$s&lt;/b></item>
+        <item quantity="many">&lt;b>%1$d карточек&lt;/b> просмотрено за &lt;b>%2$s&lt;/b></item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">Сегодня изучено %1$d карточек за %2$s</item>
+        <item quantity="one">Сегодня изучена %1$d карточка за %2$s</item>
+        <item quantity="few">Сегодня изучены %1$d карточки за %2$s</item>
+        <item quantity="many">Сегодня изучено %1$d карточек за %2$s</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s дней</item>
+        <item quantity="one">%s день</item>
+        <item quantity="few">%s дня</item>
+        <item quantity="many">%s дней</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s часов</item>
+        <item quantity="one">%s час</item>
+        <item quantity="few">%s часа</item>
+        <item quantity="many">%s часов</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s мин.</item>
+        <item quantity="one">%s минута</item>
+        <item quantity="few">%s минуты</item>
+        <item quantity="many">%s минут</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s месяцев</item>
+        <item quantity="one">%s месяц</item>
+        <item quantity="few">%s месяца</item>
+        <item quantity="many">%s месяцев</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s секунд</item>
+        <item quantity="one">%s секунда</item>
+        <item quantity="few">%s секунды</item>
+        <item quantity="many">%s секунд</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s лет</item>
+        <item quantity="one">%s год</item>
+        <item quantity="few">%s года</item>
+        <item quantity="many">%s лет</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d карточек изучено за %2$s</item>
+        <item quantity="one">%1$d карточка изучена за %2$s</item>
+        <item quantity="few">%1$d карточки изучены за %2$s</item>
+        <item quantity="many">%1$d карточек изучено за %2$s</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d минут</item>
+        <item quantity="one">%1$d минута</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="many">%1$d минут</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">На сегодня %d карточек</item>
+        <item quantity="one">На сегодня %d карточка</item>
+        <item quantity="few">На сегодня %d карточки</item>
+        <item quantity="many">На сегодня %d карточек</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">На сегодня %1$d карточек в %2$s</item>
+        <item quantity="one">На сегодня %1$d карточка в %2$s</item>
+        <item quantity="few">На сегодня %1$d карточки в %2$s</item>
+        <item quantity="many">На сегодня %1$d карточек в %2$s</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d колод</item>
+        <item quantity="one">%1$d колода</item>
+        <item quantity="few">%1$d колоды</item>
+        <item quantity="many">%1$d колод</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">Осталось %d минут</item>
+        <item quantity="one">Осталось %d минута</item>
+        <item quantity="few">Осталось %d минуты</item>
+        <item quantity="many">Осталось %d минут</item>
+    </plurals>
+</resources>

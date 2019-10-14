@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appThemes_display">
+        <item>Helles Thema</item>
+        <item>Dunkles Thema</item>
+        <item>Helles Thema / dunkles Thema (Nachtmodus)</item>
+    </string-array>
+    <string-array name="clockTapActions_display">
+        <item>Nichts tun</item>
+        <item>Alarm einstellen</item>
+        <item>@string/configAction_setTimeZone</item>
+        <item>Nächste Kurzinfo anzeigen</item>
+        <item>Vorherige Kurzinfo anzeigen</item>
+    </string-array>
+    <string-array name="dateTapActions_display">
+        <item>Nichts tun</item>
+        <item>Ansicht tauschen (heute/morgen)</item>
+        <item>Öffne Kalender-App</item>
+        <item>Benutzerdefiniertes Datum einstellen</item>
+    </string-array>
+    <string-array name="getFix_maxAge_display">
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>15 Minuten</item>
+        <item>1 Stunde</item>
+        <item>4 Stunden</item>
+        <item>12 Stunden</item>
+        <item>1 Tag (24 Stunden)</item>
+        <item>2 Tage (48 Stunden)</item>
+        <item>1 Woche (168 Stunden)</item>
+        <item>1 Monat (672 Stunden)</item>
+    </string-array>
+    <string-array name="getFix_maxElapse_display">
+        <item>15 Sekunden</item>
+        <item>30 Sekunden</item>
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+    </string-array>
+    <string-array name="localeMode_display">
+        <item>System</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="locale_display">
+        <item>Englisch</item>
+        <item>Esperanto</item>
+        <item>Französisch</item>
+        <item>Deutsche</item>
+        <item>Ungarisch</item>
+        <item>Polieren</item>
+        <item>Spanisch</item>
+        <item>Katalanisch</item>
+        <item>Baskisch</item>
+        <item>Norwegisch</item>
+    </string-array>
+    <string-array name="noteTapActions_display">
+        <item>Nichts tun</item>
+        <item>Alarm basierend auf Kurzinfo einstellen</item>
+        <item>Nächste Kurzinfo anzeigen</item>
+        <item>Vorherige Kurzinfo anzeigen</item>
+    </string-array>
+    <string-array name="solarevents_long">
+        <item>Astronomische Morgendämmerung (Beginn)</item>
+        <item>Nautische Morgendämmerung (Beginn)</item>
+        <item>Morgendliche Blaue Stunde (Beginn)</item>
+        <item>Bürgerliche Morgendämmerung (Beginn)</item>
+        <item>Morgendliche Blaue Stunde (Ende)</item>
+        <item>Sonnenaufgang</item>
+        <item>Morgendliche Goldene Stunde (Ende)</item>
+        <item>Mittagshöhe</item>
+        <item>Abendliche Goldene Stunde (Beginn)</item>
+        <item>Sonnenuntergang</item>
+        <item>Abendliche Blaue Stunde (Beginn)</item>
+        <item>Bürgerliche Abenddämmerung (Ende)</item>
+        <item>Abendliche Blaue Stunde (Ende)</item>
+        <item>Nautische Abenddämmerung (Ende)</item>
+        <item>Astronomische Abenddämmerung (Ende)</item>
+        <item>Mondaufgang</item>
+        <item>Monduntergang</item>
+    </string-array>
+    <string-array name="solarevents_short">
+        <item>Astron. Morgen</item>
+        <item>Naut. Morgen</item>
+        <item>Blaue Stunde</item>
+        <item>Bürg. Morgen</item>
+        <item>Blaue Stunde</item>
+        <item>Sonnenaufgang</item>
+        <item>Goldene Stunde</item>
+        <item>Mittag</item>
+        <item>Goldene Stunde</item>
+        <item>Sonnenuntergang</item>
+        <item>Blaue Stunde</item>
+        <item>Bürger. Abend</item>
+        <item>Blaue Stunde</item>
+        <item>Naut. Abend</item>
+        <item>Astron. Abend</item>
+        <item>Mondaufgang</item>
+        <item>Monduntergang</item>
+    </string-array>
+</resources>

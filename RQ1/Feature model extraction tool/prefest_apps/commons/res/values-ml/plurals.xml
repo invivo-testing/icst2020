@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d പ്രമാണങ്ങൾ അപ്‌ലോഡ് ചെയ്യുന്നു</item>
+        <item quantity="one">ഒരു പ്രമാണം അപ്‌ലോഡ് ചെയ്യുന്നു</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d അപ്‌ലോഡുകൾ</item>
+        <item quantity="zero">ഒരു അപ്‌ലോഡും ചെയ്തില്ല</item>
+        <item quantity="one">ഒരു അപ്‌ലോഡ്</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d അപ്‌ലോഡുകൾ</item>
+        <item quantity="one">ഒരു അപ്‌ലോഡ്</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">%1$d അപ്‌ലോഡുകൾ തുടങ്ങുന്നു</item>
+        <item quantity="one">ഒരു അപ്‌ലോഡ് തുടങ്ങുന്നു</item>
+    </plurals>
+</resources>

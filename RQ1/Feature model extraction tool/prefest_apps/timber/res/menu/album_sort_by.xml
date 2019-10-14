@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/menu_sort_by" n1:orderInCategory="50" n1:title="@string/menu_sort_by" n1:showAsAction="never"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <menu>
+            <item n1:id="@id/menu_sort_by_az" n1:title="@string/sort_order_entry_az" />
+            <item n1:id="@id/menu_sort_by_za" n1:title="@string/sort_order_entry_za" />
+            <item n1:id="@id/menu_sort_by_year" n1:title="@string/sort_order_entry_year" />
+            <item n1:id="@id/menu_sort_by_artist" n1:title="@string/sort_order_entry_artist" />
+            <item n1:id="@id/menu_sort_by_number_of_songs" n1:title="@string/sort_order_entry_number_of_songs" />
+        </menu>
+    </item>
+</menu>

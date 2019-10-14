@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="input_dialog_button_height">72.0dip</dimen>
+    <dimen name="mmx_activity_side_padding">48.0dip</dimen>
+</resources>

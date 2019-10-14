@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <LinearLayout n1:orientation="horizontal" n1:paddingTop="@dimen/settingsGroup_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_date_mode" />
+            <Spinner n1:id="@id/appwidget_date_mode" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <DatePicker n1:id="@id/appwidget_date_custom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:spinnersShown="true" n1:calendarViewShown="false" />
+    </LinearLayout>
+</merge>

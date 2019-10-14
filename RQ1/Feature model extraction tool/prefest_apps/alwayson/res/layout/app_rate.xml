@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_gravity="bottom" n1:id="@id/dar_container" n1:background="#ff212121" n1:paddingLeft="10.0dip" n1:paddingRight="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_toLeftOf="@id/dar_close" n1:layout_centerVertical="true">
+            <TextView n1:textSize="18.0sp" n1:textColor="@android:color/white" n1:gravity="center_vertical" n1:id="@id/dar_rate_element" n1:paddingTop="5.0dip" n1:paddingBottom="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/dar_star_container" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageButton n1:id="@id/dar_close" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ic_action_remove" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

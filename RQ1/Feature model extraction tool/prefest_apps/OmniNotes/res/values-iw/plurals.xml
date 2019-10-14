@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">עבור %d אירועים</item>
+        <item quantity="one">עבור אירוע %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">כל %d ימים</item>
+        <item quantity="one">כל יום %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">כל %d חודשים</item>
+        <item quantity="one">כל חודש %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">כל %d שבועות</item>
+        <item quantity="one">כל שבוע %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">כל %d שנים</item>
+        <item quantity="one">כל שנה %d</item>
+    </plurals>
+</resources>

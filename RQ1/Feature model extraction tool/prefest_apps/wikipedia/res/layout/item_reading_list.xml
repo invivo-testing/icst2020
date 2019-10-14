@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/item_container" android:background="?paper_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+        <FrameLayout android:id="@id/item_thumbnails_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/item_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/item_image_1" android:layout_marginEnd="0.5dip" app:roundTopLeft="true" style="@style/SimpleDraweeViewPlaceholder.ReadingListThumbnail" />
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/item_image_2" app:roundTopRight="true" style="@style/SimpleDraweeViewPlaceholder.ReadingListThumbnail" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip">
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/item_image_3" android:layout_marginEnd="0.5dip" app:roundBottomLeft="true" style="@style/SimpleDraweeViewPlaceholder.ReadingListThumbnail" />
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/item_image_4" app:roundBottomRight="true" style="@style/SimpleDraweeViewPlaceholder.ReadingListThumbnail" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/default_list_empty_image" android:background="@drawable/button_shape_add_reading_list" android:padding="10.0dip" android:visibility="gone" android:layout_width="@dimen/readingListItemSize" android:layout_height="@dimen/readingListItemSize" android:tint="@color/base30" android:contentDescription="@null" android:layout_marginEnd="16.0dip" app:srcCompat="@drawable/ic_bookmark_gray_24dp" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:ellipsize="end" android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/MaterialListTitle" />
+            <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/item_reading_list_statistical_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/MaterialListSubtitle" />
+            <TextView android:ellipsize="end" android:id="@id/item_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="@integer/reading_list_description_summary_view_max_lines" style="@style/MaterialListSubtitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/item_overflow_menu" android:background="?selectableItemBackgroundBorderless" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:tint="?secondary_text_color" android:contentDescription="@string/abc_action_menu_overflow_description" app:srcCompat="@drawable/ic_more_vert_white_24dp" />
+</FrameLayout>

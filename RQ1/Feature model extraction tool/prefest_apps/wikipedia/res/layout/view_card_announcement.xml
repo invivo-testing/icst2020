@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/view_announcement_header_image" android:layout_width="fill_parent" android:layout_height="160.0dip" android:contentDescription="@null" style="@style/SimpleDraweeViewPlaceholder" />
+    <TextView android:textSize="14.0sp" android:textColor="?primary_text_color" android:id="@id/view_announcement_text" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="12.0dip" android:lineSpacingMultiplier="1.21" />
+    <LinearLayout android:layout_gravity="end" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+        <TextView android:textColor="?secondary_text_color" android:id="@id/view_announcement_action_negative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/view_announcement_card_negative_action" style="@style/TransparentButton" />
+        <TextView android:textColor="@android:color/white" android:id="@id/view_announcement_action_positive" style="@style/App.Button.Blue" />
+    </LinearLayout>
+    <View android:id="@id/view_announcement_footer_border" android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="?secondary_text_color" android:id="@id/view_announcement_footer_text" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.getbase.floatingactionbutton.FloatingActionsMenu android:layout_gravity="end|bottom|center" android:id="@id/add_content_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" fab:fab_addButtonColorNormal="?fab_normal" fab:fab_addButtonColorPressed="?fab_pressed" fab:fab_icon="@drawable/ic_add_white_24dp" fab:fab_labelStyle="@style/menu_labels_style" fab:layout_behavior="com.ichi2.anki.widgets.FabBehavior"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto">
+        <com.getbase.floatingactionbutton.FloatingActionButton android:id="@id/add_deck_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/new_deck" fab:fab_colorNormal="?fab_normal" fab:fab_colorPressed="?fab_pressed" fab:fab_icon="@drawable/ic_folder_white_24dp" fab:fab_size="mini" fab:fab_title="@string/new_deck" />
+        <com.getbase.floatingactionbutton.FloatingActionButton android:id="@id/add_shared_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/menu_get_shared_decks" fab:fab_colorNormal="?fab_normal" fab:fab_colorPressed="?fab_pressed" fab:fab_icon="@drawable/ic_file_download_white_24dp" fab:fab_size="mini" fab:fab_title="@string/menu_get_shared_decks" />
+        <com.getbase.floatingactionbutton.FloatingActionButton android:id="@id/add_note_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/menu_add" fab:fab_colorNormal="?fab_normal" fab:fab_colorPressed="?fab_pressed" fab:fab_icon="@drawable/ic_add_white_24dp" fab:fab_size="mini" fab:fab_title="@string/menu_add" />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+</merge>

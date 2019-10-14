@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d ข้อความต่อบทสนทนา</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">นี่จะตัดการสนทนาทั้งหมดให้สั้นลงเหลือแค่ %d ข้อความล่าสุดโดยทันที</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d ข้อความที่ยังไม่ได้อ่าน</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">ลบข้อความที่เลือกหรือไม่</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">เกิดข้อผิดพลาดระหว่างบันทึกไฟล์แนบลงที่เก็บข้อมูล</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">บันทึกไฟล์แนบแล้ว %1$d</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">บันทึกไฟล์แนบไปยังที่เก็บข้อมูลแล้ว %1$d...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"การบันทึกสื่อทั้งหมด %1$d รายการลงในที่เก็บข้อมูล จะอนุญาตให้แอปอื่นในอุปกรณ์ของคุณเข้าถึงสื่อเหล่านี้ได้ด้วย
+
+ดำเนินการต่อหรือไม่"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">นี่จะลบ %1$d ข้อความที่ถูกเลือกทั้งหมด อย่างถาวร</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%dการสนทนาถูกเก็บเข้าที่เก็บถาวร</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">ลบการสนทนาที่เลือกหรือไม่</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">ย้าย %d การสนทนาไปยังกล่องขาเข้า</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">นี่จะลบ %1$d การสนทนาที่ถูกเลือกทั้งหมด อย่างถาวร</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s ได้เข้าร่วมกลุ่ม</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">ส่งคำเชิญทาง %dSMS หรือไม่</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">ส่ง SMS ให้เพื่อน %d คน</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">นี่จะลบ %1$d ข้อความที่ถูกเลือกทั้งหมด อย่างถาวร</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">ลบข้อความที่เลือกหรือไม่</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d วัน</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d สัปดาห์</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d อื่นๆ</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Signal เวอร์ชันที่คุณมีจะหมดอายุในอีก %d วัน แตะเพื่ออัพเดตเป็นรุ่นล่าสุด</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">ngunjal %1$d berkas</item>
+        <item quantity="one">ngunjal %1$d berkas</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d unjalan</item>
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">%1$d unjalan</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d unjalan</item>
+        <item quantity="one">saunjalan</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Ngamimitian %1$d unjalan</item>
+        <item quantity="one">Ngamimitian saunjalan</item>
+    </plurals>
+</resources>

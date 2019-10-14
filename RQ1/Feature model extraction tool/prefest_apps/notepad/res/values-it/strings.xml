@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Vai alla home page</string>
+    <string name="abc_action_bar_up_description">Vai in alto</string>
+    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
+    <string name="abc_action_mode_done">Fine</string>
+    <string name="abc_activity_chooser_view_see_all">Visualizza tutte</string>
+    <string name="abc_activitychooserview_choose_application">"Scegli un'applicazione"</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Cerca…</string>
+    <string name="abc_searchview_description_clear">Cancella query</string>
+    <string name="abc_searchview_description_query">Query di ricerca</string>
+    <string name="abc_searchview_description_search">Cerca</string>
+    <string name="abc_searchview_description_submit">Invia query</string>
+    <string name="abc_searchview_description_voice">Ricerca vocale</string>
+    <string name="abc_shareactionprovider_share_with">Condividi con</string>
+    <string name="abc_shareactionprovider_share_with_application">Condividi tramite %s</string>
+    <string name="abc_toolbar_collapse_description">Comprimi</string>
+    <string name="action_cancel">Annulla</string>
+    <string name="action_close">Chiudi</string>
+    <string name="action_delete">Cancella</string>
+    <string name="action_discard">Dimentica</string>
+    <string name="action_edit">Modifica</string>
+    <string name="action_export">Esporta</string>
+    <string name="action_font_size">Dimensione font</string>
+    <string name="action_install">Installa</string>
+    <string name="action_new">Nuova Nota</string>
+    <string name="action_no_thanks">No Grazie</string>
+    <string name="action_print">Stampa</string>
+    <string name="action_save">Salva</string>
+    <string name="action_select_all">Seleziona tutte</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_share">Condividi</string>
+    <string name="action_sort_by">Ordina per</string>
+    <string name="action_start_selection">Seleziona note</string>
+    <string name="action_theme">Tema</string>
+    <string name="app_name">Notepad</string>
+    <string name="app_name_debug">Notepad (Debug)</string>
+    <string name="cab_note_selected">nota selezionata</string>
+    <string name="cab_notes_selected">note selezionate</string>
+    <string name="changes_discarded">Modifiche annullate</string>
+    <string name="dialog_about_message">"Notepad: una semplice app per appunti
+
+© 2018 Braden Farmer
+App logo by Tobaloidee"</string>
+    <string name="dialog_about_title">Riguardo a Notepad</string>
+    <string name="dialog_are_you_sure">Sei sicuro?</string>
+    <string name="dialog_delete_button_title">Cancella nota</string>
+    <string name="dialog_delete_button_title_plural">Cancella note</string>
+    <string name="dialog_save_button_title">Salva le modifiche</string>
+    <string name="dialog_save_changes">Vuoi salvare le modifiche?</string>
+    <string name="document">%1$s Documento</string>
+    <string name="double_tap">Consiglio: Fai doppio-tap per passare in modalitá Modifica</string>
+    <string name="draft_restored">Bozza riaperta</string>
+    <string name="draft_saved">Bozza salvata</string>
+    <string name="edit_note">Modifica Nota</string>
+    <string name="edit_text">Scrivi per aggiungere il testo</string>
+    <string name="empty_note">Per favore, inserisi un testo!</string>
+    <string name="error_exporting_notes">"Errore durante l'esportazione delle note!"</string>
+    <string name="error_importing_notes">"Errore durante l'importazione delle note!"</string>
+    <string name="error_loading_list">Errore nel caricamento della lista delle note!</string>
+    <string name="error_loading_note">Errore nel caricamento della nota!</string>
+    <string name="failed_to_save">Errore: Il salvataggio della nota è fallito!</string>
+    <string name="first_run">"Benvenuto in Notepad!
+
+Per creare una nota, clicca sul tasto Nuova Nota (segno più)."</string>
+    <string name="first_view">Per modificare una nota salvata, fai doppio-tap sul testo o clicca il tasto Modifica (matita).</string>
+    <string name="import_notes">Importa note</string>
+    <string name="loading_external_file">Il caricamento di files esterni non è supportato</string>
+    <string name="no_notes_found">Nessuna nota trovata</string>
+    <string name="no_notes_to_delete">Nessuna nota selezionata da cancellare</string>
+    <string name="no_notes_to_export">Nessuna nota selezionata da esportare</string>
+    <string name="no_notes_to_select">Nessuna nota da selezionare</string>
+    <string name="note_deleted">Nota cancellata</string>
+    <string name="note_exported_to">Nota esportata con successo</string>
+    <string name="note_imported_successfully">Nota importata con successo</string>
+    <string name="note_saved">Nota salvata</string>
+    <string name="notes_deleted">Note cancellate</string>
+    <string name="notes_exported_to">Note esportate con successo</string>
+    <string name="notes_imported_successfully">Note importate con successo</string>
+    <string name="pref_title_direct_edit">Modifica le note direttamente</string>
+    <string name="pref_title_markdown">Markdown/HTML support</string>
+    <string name="pref_title_show_date">Mostra data/ora</string>
+    <string name="pref_title_show_dialogs">Chiedi prima di salvare</string>
+    <string name="search_menu_title">Ricerca</string>
+    <string name="send_to">Condividi con…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="view_note">Visualizza Nota</string>
+</resources>

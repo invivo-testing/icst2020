@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers>
+    <header n1:icon="?icActionSettings" n1:title="@string/configLabel_general" n1:summary="" n1:fragment="com.forrestguice.suntimeswidget.SuntimesSettingsActivity$GeneralPrefsFragment"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <extra n1:name="someKey" n1:value="someHeaderValue" />
+    </header>
+    <header n2:icon="?icActionSettings" n2:title="@string/configLabel_locale" n2:summary="" n2:fragment="com.forrestguice.suntimeswidget.SuntimesSettingsActivity$LocalePrefsFragment"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <header n3:icon="?icActionSettings" n3:title="@string/configLabel_places" n3:summary="" n3:fragment="com.forrestguice.suntimeswidget.SuntimesSettingsActivity$PlacesPrefsFragment"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <header n4:icon="?icActionSettings" n4:title="@string/configLabel_ui" n4:summary="" n4:fragment="com.forrestguice.suntimeswidget.SuntimesSettingsActivity$UIPrefsFragment"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <header n5:icon="?icActionSettings" n5:title="@string/configLabel_widgetList" n5:summary=""
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <intent n5:targetPackage="com.forrestguice.suntimeswidget" n5:targetClass="com.forrestguice.suntimeswidget.SuntimesWidgetListActivity" />
+    </header>
+</preference-headers>

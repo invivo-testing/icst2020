@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/date_wrapper" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" n1:textColor="@android:color/white" n1:gravity="center_horizontal" n1:id="@id/date_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <CalendarView n1:theme="@style/Theme.AppCompat" n1:gravity="center_horizontal" n1:id="@id/date_calendar" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</LinearLayout>

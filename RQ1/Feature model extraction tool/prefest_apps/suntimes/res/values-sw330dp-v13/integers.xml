@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="clock_amppm_maxems">3</integer>
+    <integer name="table_heading_date_maxems">8</integer>
+    <integer name="table_weight0">3</integer>
+    <integer name="table_weight1">2</integer>
+</resources>

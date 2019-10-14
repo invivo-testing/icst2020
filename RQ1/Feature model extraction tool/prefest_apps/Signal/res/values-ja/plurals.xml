@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">会話ごとに%d件のメッセージ</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">最新の%d個のメッセージ以外を削除します</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d通の未読メッセージ</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">選択中のメッセージを削除しますか？</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">ストレージへの添付ファイル保存時にエラー！</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">%1$d個の添付ファイルを保存</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">%1$d個の添付ファイルを外部メモリに保存...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"%1$d個のメディア・ファイルをすべて外部メモリに保存することで、他のアプリからアクセスすることが可能になります。
+
+続行しますか？"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">選択中の%1$d件のメッセージが完全に削除されます。</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d件の会話をアーカイブしました</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">選択した会話を削除しますか？</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d個の会話を受信ボックスに移動</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">選択した%1$d個の会話が完全に削除されます。</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$sがグループに加わりました</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">SMS招待%d個を送りしますか？</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">SMSを友達%d人に送ります。</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">選択した%1$d件のメッセージを完全に削除します。</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">選択したメッセージを削除しますか？</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">デバッグログの提出まで、あと%dステップです。</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d個</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d日</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d週間</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">ほか%d人</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">このバージョンのSignalは%d日後に期限が切れます。タップしてSignalをアプデートしてお願いします。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/base_view" android:background="?paper_color" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/years_text_space" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="20.0dip" />
+    <android.support.constraint.ConstraintLayout android:id="@id/years_text_container" android:background="?paper_color" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_marginStart="-12.0dip">
+        <ImageView android:id="@id/years_text_background" android:layout_width="0.0dip" android:layout_height="0.0dip" android:tint="?chart_shade5" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/otd_year_button_background" />
+        <TextView android:textSize="12.0sp" android:textColor="?chart_shade7" android:id="@id/years_text" android:paddingTop="1.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" />
+    </android.support.constraint.ConstraintLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/year_layout" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="-4.5dip">
+        <FrameLayout android:background="?paper_color" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/radio_image_view" android:layout_width="8.0dip" android:layout_height="8.0dip" android:tint="?chart_shade5" android:contentDescription="@null" app:srcCompat="@drawable/otd_radio" />
+        </FrameLayout>
+        <TextView android:textSize="24.0sp" android:typeface="serif" android:textColor="?material_theme_primary_color" android:gravity="center_vertical" android:id="@id/year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="serif" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <org.wikipedia.views.AppTextView android:textSize="16.0sp" android:textColor="?primary_text_color" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:lineSpacingExtra="8.0sp" android:layout_marginStart="19.0dip" android:layout_marginEnd="12.0dip" />
+    <android.support.v7.widget.RecyclerView android:id="@id/pages_recycler" android:background="?paper_color" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginTop="8.0dip" android:paddingStart="16.0dip" />
+</LinearLayout>

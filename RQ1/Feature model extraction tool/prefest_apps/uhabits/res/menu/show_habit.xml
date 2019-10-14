@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/export" n1:title="@string/export" n2:showAsAction="never"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:id="@id/action_delete" n3:title="@string/delete" n4:showAsAction="never"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="?iconEdit" n5:id="@id/action_edit_habit" n5:title="@string/edit" n6:showAsAction="ifRoom"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:id="@id/action_randomize" n7:visible="false" n7:title="Randomize" n8:showAsAction="never"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/gray95" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.thoughtcrime.securesms.components.viewpager.HackyViewPager android:id="@id/media_pager" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/media_preview_details_container" android:background="@drawable/image_shade" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <org.thoughtcrime.securesms.components.MaxHeightScrollView android:id="@id/media_preview_caption_container" android:paddingTop="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" app:scrollView_maxHeight="120.0dip">
+            <org.thoughtcrime.securesms.components.emoji.EmojiTextView android:textColor="@color/core_white" android:gravity="bottom" android:id="@id/media_preview_caption" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Signal.Text.Body" />
+        </org.thoughtcrime.securesms.components.MaxHeightScrollView>
+        <android.support.v7.widget.RecyclerView android:id="@id/media_preview_album_rail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" />
+        <FrameLayout android:id="@id/media_preview_playback_controls_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" />
+    </LinearLayout>
+</FrameLayout>

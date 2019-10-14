@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cue_hour">
+        <item quantity="other">%d أخرى</item>
+        <item quantity="zero">%d صفر</item>
+        <item quantity="one">%d ساعة واحدة</item>
+        <item quantity="two">%d ساعتان</item>
+        <item quantity="few">%d بضع ساعات</item>
+        <item quantity="many">%d ساعات كثيرة</item>
+    </plurals>
+    <plurals name="cue_kilometer">
+        <item quantity="other">%s اخرى</item>
+        <item quantity="zero">%s صفر</item>
+        <item quantity="one">%s كيلو متر واحد</item>
+        <item quantity="two">%s كيلومتران</item>
+        <item quantity="few">%s بضع كيلومترات</item>
+        <item quantity="many">%s كيلومترات كثيرة</item>
+    </plurals>
+    <plurals name="cue_meter">
+        <item quantity="other">%d أخرى</item>
+        <item quantity="zero">%d صفر</item>
+        <item quantity="one">%d متر واحد</item>
+        <item quantity="two">%d متران</item>
+        <item quantity="few">%d بضعة أمتار</item>
+        <item quantity="many">%d أمتار كثيرة</item>
+    </plurals>
+    <plurals name="cue_mile">
+        <item quantity="other">%s اخرى</item>
+        <item quantity="zero">%s صفر</item>
+        <item quantity="one">%s ميل واحد</item>
+        <item quantity="two">%s ميلان</item>
+        <item quantity="few">%s بضع أميال</item>
+        <item quantity="many">%s أميال كثيرة</item>
+    </plurals>
+    <plurals name="cue_minute">
+        <item quantity="other">%d أخرى</item>
+        <item quantity="zero">%d صفر</item>
+        <item quantity="one">%d دقيقة</item>
+        <item quantity="two">%d دقيقتان</item>
+        <item quantity="few">%d بضع دقائق</item>
+        <item quantity="many">%d دقائق كثيرة</item>
+    </plurals>
+    <plurals name="cue_second">
+        <item quantity="other">%d اخرى</item>
+        <item quantity="zero">%d صفر</item>
+        <item quantity="one">%d ثانية واحدة</item>
+        <item quantity="two">%d ثانيتان</item>
+        <item quantity="few">%d بضع ثواني</item>
+        <item quantity="many">%d ثواني كثيرة</item>
+    </plurals>
+</resources>

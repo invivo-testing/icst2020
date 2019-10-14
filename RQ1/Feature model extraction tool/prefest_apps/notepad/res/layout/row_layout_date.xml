@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/noteTitle" android:background="@drawable/selectable_background" android:paddingLeft="@dimen/padding_left_right" android:paddingTop="@dimen/padding_top_bottom_date" android:paddingRight="@dimen/padding_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@null" android:maxLines="1" />
+    <TextView android:textSize="14.0sp" android:gravity="end" android:id="@id/noteDate" android:background="@drawable/selectable_background" android:paddingLeft="@dimen/padding_left_right" android:paddingRight="@dimen/padding_left_right" android:paddingBottom="@dimen/padding_top_bottom_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@null" android:maxLines="1" android:layout_below="@id/noteTitle" />
+</RelativeLayout>

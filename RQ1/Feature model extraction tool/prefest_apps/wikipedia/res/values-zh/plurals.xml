@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d年前</item>
+        <item quantity="one">去年</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">下载条目中</item>
+        <item quantity="one">下载条目中</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">剩余%1$d个条目</item>
+        <item quantity="one">剩余%1$d个条目</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">正在同步阅读列表</item>
+        <item quantity="one">正在同步阅读列表</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">剩余%1$d个列表</item>
+        <item quantity="one">剩余%1$d个列表</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">正在同步%1$d个列表…</item>
+        <item quantity="one">正在同步%1$d个列表…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">正在下载%1$d个条目…</item>
+        <item quantity="one">正在下载%1$d个条目…</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">还剩%d分钟</item>
+        <item quantity="one">还剩1分钟</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">这些条目将不再可以离线使用。</item>
+        <item quantity="one">该条目将不再可以离线使用。</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">这些条目现在可以离线使用。</item>
+        <item quantity="one">该条目现在可以离线使用。</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d天前</item>
+        <item quantity="one">昨天</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">移除选择的语言么？</item>
+        <item quantity="one">移除选择的语言么？</item>
+    </plurals>
+</resources>

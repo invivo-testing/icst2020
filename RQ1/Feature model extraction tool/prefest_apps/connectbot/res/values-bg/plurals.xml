@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other">Копирани %1$d байта в клипборда</item>
+        <item quantity="one">Копирани %1$d байт в клипборда</item>
+    </plurals>
+</resources>

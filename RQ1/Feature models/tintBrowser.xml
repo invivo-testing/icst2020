@@ -1,0 +1,177 @@
+<feature_model name="tintBrowser">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'preferences_general_settings'(_r76)
+			:m '_category1'(_r77)
+				:m 'PREFERENCE_CATEGORY_OLD_PHONE_UI_category4'(_r78)
+					:m 'PREFERENCE_TOOLBARS_AUTOHIDE_DURATION'(_r79)
+						:g [1,1]
+							: 'PREFERENCE_TOOLBARS_AUTOHIDE_DURATION_default'(_r80)
+							: 'PREFERENCE_TOOLBARS_AUTOHIDE_DURATION_custom'(_r81)
+				:m 'Start_page_category2'(_r82)
+					:m 'PREFERENCE_START_PAGE_LIMIT'(_r83)
+						:g [1,1]
+							: 'PREFERENCE_START_PAGE_LIMIT_default'(_r84)
+							: 'PREFERENCE_START_PAGE_LIMIT_custom'(_r85)
+				:m 'PREFERENCE_CATEGORY_NEW_PHONE_UI_category5'(_r86)
+					:m 'PREFERENCE_CLOSE_PANEL_ON_NEW_TAB'(_r87)
+						:g [1,1]
+							: 'PREFERENCE_CLOSE_PANEL_ON_NEW_TAB_false'(_r88)
+							: 'PREFERENCE_CLOSE_PANEL_ON_NEW_TAB_true'(_r89)
+		:m 'preferences_privacy_settings'(_r90)
+			:m '_category6'(_r91)
+				:m 'History_category10'(_r92)
+					:m 'PREFERENCE_HISTORY_SIZE'(_r93)
+						:g [1,1]
+							: 'PREFERENCE_HISTORY_SIZE_default'(_r94)
+							: 'PREFERENCE_HISTORY_SIZE_custom'(_r95)
+				:m 'Cookies_category8'(_r96)
+					:m 'PREFERENCE_ACCEPT_COOKIES'(_r97)
+						:g [1,1]
+							: 'PREFERENCE_ACCEPT_COOKIES_true'(_r98)
+							: 'PREFERENCE_ACCEPT_COOKIES_false'(_r99)
+				:m 'Form_Data_category7'(_r100)
+					:m 'PREFERENCE_REMEMBER_FORM_DATA'(_r101)
+						:g [1,1]
+							: 'PREFERENCE_REMEMBER_FORM_DATA_true'(_r102)
+							: 'PREFERENCE_REMEMBER_FORM_DATA_false'(_r103)
+				:m 'Location_category11'(_r104)
+					:m 'PREFERENCE_ENABLE_GEOLOCATION'(_r105)
+						:g [1,1]
+							: 'PREFERENCE_ENABLE_GEOLOCATION_false'(_r106)
+							: 'PREFERENCE_ENABLE_GEOLOCATION_true'(_r107)
+				:m 'Incognito_mode_category14'(_r108)
+					:m 'PREFERENCE_INCOGNITO_BY_DEFAULT'(_r109)
+						:g [1,1]
+							: 'PREFERENCE_INCOGNITO_BY_DEFAULT_true'(_r110)
+							: 'PREFERENCE_INCOGNITO_BY_DEFAULT_false'(_r111)
+				:m 'Passwords_category12'(_r112)
+					:m 'PREFERENCE_REMEMBER_PASSWORDS'(_r113)
+						:g [1,1]
+							: 'PREFERENCE_REMEMBER_PASSWORDS_true'(_r114)
+							: 'PREFERENCE_REMEMBER_PASSWORDS_false'(_r115)
+		:m 'preferences_accessibility_settings'(_r116)
+			:m '_category15'(_r117)
+				:m 'Inverted_screen_rendering_category17'(_r118)
+					:m 'PREFERENCE_INVERTED_DISPLAY'(_r119)
+						:g [1,1]
+							: 'PREFERENCE_INVERTED_DISPLAY_true'(_r120)
+							: 'PREFERENCE_INVERTED_DISPLAY_false'(_r121)
+		:m 'preferences_browser_settings'(_r122)
+			:m '_category18'(_r123)
+				:m 'Developers_category19'(_r124)
+					:m 'PREFERENCE_JS_LOG_ON_LOGCAT'(_r125)
+						:g [1,1]
+							: 'PREFERENCE_JS_LOG_ON_LOGCAT_false'(_r126)
+							: 'PREFERENCE_JS_LOG_ON_LOGCAT_true'(_r127)
+				:m 'PREFERENCE_ENABLE_IMAGES'(_r128)
+					:g [1,1]
+						: 'PREFERENCE_ENABLE_IMAGES_false'(_r129)
+						: 'PREFERENCE_ENABLE_IMAGES_true'(_r130)
+				:m 'PREFERENCE_USE_WIDE_VIEWPORT'(_r131)
+					:g [1,1]
+						: 'PREFERENCE_USE_WIDE_VIEWPORT_false'(_r132)
+						: 'PREFERENCE_USE_WIDE_VIEWPORT_true'(_r133)
+				:m 'PREFERENCE_ENABLE_JAVASCRIPT'(_r134)
+					:g [1,1]
+						: 'PREFERENCE_ENABLE_JAVASCRIPT_false'(_r135)
+						: 'PREFERENCE_ENABLE_JAVASCRIPT_true'(_r136)
+				:m 'PREFERENCE_LOAD_WITH_OVERVIEW'(_r137)
+					:g [1,1]
+						: 'PREFERENCE_LOAD_WITH_OVERVIEW_false'(_r138)
+						: 'PREFERENCE_LOAD_WITH_OVERVIEW_true'(_r139)
+</feature_tree>
+<constraints>
+</constraints>
+</feature_model>

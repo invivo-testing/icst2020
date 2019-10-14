@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/tabs" android:summary="@string/customize_tab_order">
+        <intent android:targetPackage="ch.blinkenlights.android.vanilla" android:targetClass="ch.blinkenlights.android.vanilla.TabOrderActivity" />
+    </PreferenceScreen>
+    <ch.blinkenlights.android.vanilla.ListPreferenceSummary android:entries="@array/default_action_entries" android:title="@string/default_action_title" android:key="default_action_int" android:defaultValue="9" android:entryValues="@array/default_action_entry_values" />
+    <ch.blinkenlights.android.vanilla.ListPreferenceSummary android:entries="@array/default_playlist_action_entries" android:title="@string/default_playlist_action_title" android:key="default_playlist_action" android:defaultValue="0" android:entryValues="@array/default_playlist_action_entry_values" />
+    <CheckBoxPreference android:title="@string/enable_scroll_to_song_title" android:key="enable_scroll_to_song" android:summary="@string/enable_scroll_to_song_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/queue_enable_scroll_to_song_title" android:key="queue_enable_scroll_to_song" android:summary="@string/queue_enable_scroll_to_song_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/jump_to_enqueued_on_play_title" android:key="jump_to_enqueued_on_play" android:summary="@string/jump_to_enqueued_on_play_summary" android:defaultValue="true" />
+    <PreferenceScreen android:title="@string/filebrowser_start" android:summary="@string/customize_filebrowser_start">
+        <intent android:targetPackage="ch.blinkenlights.android.vanilla" android:targetClass="ch.blinkenlights.android.vanilla.FilebrowserStartActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

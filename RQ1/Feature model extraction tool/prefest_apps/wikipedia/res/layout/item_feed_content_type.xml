@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:colorBackground" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:background="?paper_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/feed_content_type_drag_handle" android:layout_width="56.0dip" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@null" app:srcCompat="@drawable/ic_draggable" app:tint="?material_theme_de_emphasised_color" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/feed_content_type_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MaterialListTitle" />
+            <org.wikipedia.views.GoneIfEmptyTextView android:id="@id/feed_content_type_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/MaterialListSubtitle" />
+        </LinearLayout>
+        <android.support.v7.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/feed_content_type_checkbox" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginEnd="12.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/feed_content_type_lang_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView android:id="@id/feed_content_type_lang_list" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:paddingStart="70.0dip" />
+        <TextView android:id="@id/feed_content_type_lang_list_click_target" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

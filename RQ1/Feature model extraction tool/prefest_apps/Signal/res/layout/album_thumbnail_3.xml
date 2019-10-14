@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/album_thumbnail_root" android:layout_width="300.0dip" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.thoughtcrime.securesms.components.ThumbnailView android:id="@id/album_cell_1" android:layout_width="199.0dip" android:layout_height="200.0dip" app:thumbnail_radius="0.0dip" />
+    <org.thoughtcrime.securesms.components.ThumbnailView android:layout_gravity="end|center|top" android:id="@id/album_cell_2" android:layout_width="99.0dip" android:layout_height="99.0dip" app:thumbnail_radius="0.0dip" />
+    <org.thoughtcrime.securesms.components.ThumbnailView android:layout_gravity="end|bottom|center" android:id="@id/album_cell_3" android:layout_width="99.0dip" android:layout_height="99.0dip" app:thumbnail_radius="0.0dip" />
+</FrameLayout>

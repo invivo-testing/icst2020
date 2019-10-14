@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Hai %d anos</item>
+        <item quantity="one">O ano pasado</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">faltan %d minutos</item>
+        <item quantity="one">falta 1 minuto</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Estes artigos xa non estarán dispoñibles sen conexión.</item>
+        <item quantity="one">Este artigo xa non estará dispoñible sen conexión.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Agora estes artigos estarán dispoñibles sen conexión.</item>
+        <item quantity="one">Agora este artigo estará dispoñible sen conexión.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">hai %d días</item>
+        <item quantity="one">onte</item>
+    </plurals>
+</resources>

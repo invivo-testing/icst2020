@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v7.widget.Toolbar android:theme="@style/ToolbarTheme" android:id="@id/single_fragment_toolbar" android:background="?main_toolbar_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="4.0dip" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle">
+        <ImageView android:id="@id/single_fragment_toolbar_wordmark" android:layout_width="100.0dip" android:layout_height="wrap_content" android:contentDescription="@null" app:srcCompat="@drawable/feed_header_wordmark" />
+    </android.support.v7.widget.Toolbar>
+</FrameLayout>

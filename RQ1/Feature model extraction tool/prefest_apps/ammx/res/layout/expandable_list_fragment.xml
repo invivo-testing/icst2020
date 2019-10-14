@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ExpandableListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" />
+        <ScrollView android:id="@id/emptyViewScroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </FrameLayout>
+    <com.melnykov.fab.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_action_add_dark" app:fab_colorNormal="@color/md_primary" app:fab_colorPressed="@color/md_primary_dark" />
+</FrameLayout>

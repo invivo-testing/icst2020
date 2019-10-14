@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%1$d a donioù ouzhpennet er roll-seniñ %2$s.</item>
+        <item quantity="one">%1$d ton ouzhpennet er roll-seniñ %2$s.</item>
+        <item quantity="two">%1$d a donioù ouzhpennet er roll-seniñ %2$s.</item>
+        <item quantity="few">%1$d a donioù ouzhpennet er roll-seniñ %2$s.</item>
+        <item quantity="many">%1$d a donioù ouzhpennet er roll-seniñ %2$s.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">%d a donioù diuzet.</item>
+        <item quantity="one">%d ton diuzet.</item>
+        <item quantity="two">%d a donioù diuzet.</item>
+        <item quantity="few">%d a donioù diuzet.</item>
+        <item quantity="many">%d a donioù diuzet.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">%d a donioù el lost.</item>
+        <item quantity="one">%dton el lost.</item>
+        <item quantity="two">%d a donioù el lost.</item>
+        <item quantity="few">%d a donioù el lost.</item>
+        <item quantity="many">%d a donioù el lost.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d eur</item>
+        <item quantity="one">%d eur</item>
+        <item quantity="two">%d eur</item>
+        <item quantity="few">%d eur</item>
+        <item quantity="many">%d eur</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d a vuntennoù</item>
+        <item quantity="one">%d vunutenn</item>
+        <item quantity="two">%d a vuntennoù</item>
+        <item quantity="few">%d a vuntennoù</item>
+        <item quantity="many">%d a vuntennoù</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">%d a donioù o seniñ.</item>
+        <item quantity="one">%d ton o seniñ.</item>
+        <item quantity="two">%d a donioù o seniñ.</item>
+        <item quantity="few">%d a donioù o seniñ.</item>
+        <item quantity="many">%d a donioù o seniñ.</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">%1$d a donioù lamet kuit eus ar roll-seniñ %2$s.</item>
+        <item quantity="one">%1$d ton lamet kuit eus ar roll-seniñ %2$s.</item>
+        <item quantity="two">%1$d a donioù lamet kuit eus ar roll-seniñ %2$s.</item>
+        <item quantity="few">%1$d a donioù lamet kuit eus ar roll-seniñ %2$s.</item>
+        <item quantity="many">%1$d a donioù lamet kuit eus ar roll-seniñ %2$s.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d eilenn</item>
+        <item quantity="one">%d eilenn</item>
+        <item quantity="two">%d eilenn</item>
+        <item quantity="few">%d eilenn</item>
+        <item quantity="many">%d eilenn</item>
+    </plurals>
+</resources>

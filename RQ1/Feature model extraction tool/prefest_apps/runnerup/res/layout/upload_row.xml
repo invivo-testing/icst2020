@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/upload_list_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/upload_list_sport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/upload_list_check" android:layout_toRightOf="@id/upload_list_start_time" android:layout_centerVertical="true" />
+        <CheckBox android:id="@id/upload_list_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="end" android:id="@id/upload_list_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/time" android:layout_weight="1.0" />
+        <TextView android:gravity="end" android:id="@id/upload_list_distance" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/distance" android:layout_weight="1.0" />
+        <TextView android:gravity="end" android:id="@id/upload_list_pace" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/pace" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

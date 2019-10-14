@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:theme="@style/DarkAppTheme" android:background="?fragmentCategorisationBackground" android:paddingLeft="@dimen/standard_gap" android:paddingTop="@dimen/small_gap" android:paddingRight="@dimen/standard_gap" android:paddingBottom="@dimen/small_gap" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="fill" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/titleEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/share_title_hint" android:maxLines="1" android:scrollHorizontally="false" android:maxLength="80" android:drawableRight="@drawable/mapbox_info_icon_default" android:inputType="text" android:imeOptions="flagNoExtractUi" android:drawableEnd="@drawable/mapbox_info_icon_default" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/descEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/share_description_hint" android:drawableRight="@drawable/mapbox_info_icon_default" android:inputType="textMultiLine" android:imeOptions="flagNoExtractUi" android:drawableEnd="@drawable/mapbox_info_icon_default" />
+        </android.support.design.widget.TextInputLayout>
+        <Spinner android:theme="?spinnerTheme" android:id="@id/licenseSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/titleDescButton" android:background="?buttonBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/use_previous" />
+        <TextView android:textColorLink="@color/button_blue" android:gravity="center" android:id="@id/share_license_summary" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standard_gap" android:text="@string/share_license_summary" />
+        <fr.free.nrw.commons.ui.widget.HtmlTextView android:gravity="start" android:id="@id/media_upload_policy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standard_gap" android:text="@string/media_upload_policy" />
+    </LinearLayout>
+</ScrollView>

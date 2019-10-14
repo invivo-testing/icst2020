@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@android:drawable/ic_menu_close_clear_cancel" n1:id="@id/MainActivity.MenuCloseTab" n1:title="@string/CloseTab" n1:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="@android:drawable/ic_menu_add" n2:id="@id/MainActivity.MenuAddTab" n2:title="@string/NewTab" n2:showAsAction="always"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="@drawable/ic_add_bookmark" n3:id="@id/MainActivity.MenuAddBookmark" n3:title="@string/AddBookmark"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="@drawable/ic_bookmarks" n4:id="@id/MainActivity.MenuBookmarks" n4:title="@string/Bookmarks"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:icon="@drawable/ic_incognito_holo_dark" n5:id="@id/MainActivity.MenuIncognitoTab" n5:title="@string/IncognitoTab" n5:checkable="true"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:id="@id/MainActivity.MenuFullScreen" n6:title="@string/FullScreen" n6:checkable="true"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <group n7:id="@id/MainActivity.DisabledOnStartPageMenuGroup"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <item n7:icon="@android:drawable/ic_menu_share" n7:id="@id/MainActivity.MenuSharePage" n7:title="@string/SharePage" />
+        <item n7:icon="@android:drawable/ic_menu_search" n7:id="@id/MainActivity.MenuSearch" n7:title="@string/Search" />
+    </group>
+    <group n8:id="@id/MainActivity.AddonsMenuGroup" n8:orderInCategory="1"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:icon="@android:drawable/ic_menu_preferences" n9:id="@id/MainActivity.MenuPreferences" n9:orderInCategory="2" n9:title="@string/Preferences"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+</menu>

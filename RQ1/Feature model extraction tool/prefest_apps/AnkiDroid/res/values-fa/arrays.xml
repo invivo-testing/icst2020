@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>فلش کارتهایی برای آندروید&lt;/h2>این یک برنامه ای است که فلش کارتهای آن کاملا با نسخه رایانه ای سازگاری دارند&lt;a href=\"%2$s\">آنکى&lt;/a>. شما در هر دو نسخه تلفن همراه و رایانه می توانید فلش کارت بسازید، دانلود کنید و یاد بگیرید، و به آسانی آنها را با پایگاه اینترنتی برنامه همگام سازی کنید.</item>
+        <item>برای بهتر کردن برنامه لطفا اشکالات را به &lt;a href=\"%1$s\">دنبال کننده موضوع &lt;/a> گزارش کنید. نظراتي که قابلیت جدید معرفی کنند هم مورد استقبال قرار خواهد گرفت. پاسخ اشکالات خود را در&lt;a href=\"%2$s\">ویکی &lt;/a>پیدا کنید یا یک بحث جدید را در &lt;a href=\"%3$s\"> انجمن &lt;/a> شروع کنید.</item>
+        <item>این برنامه یک &lt;a href=\"%1$s\"> نرم افزار متن باز است &lt;a/>،بنابراین همه ترغیب به &lt;a href=\"%2$s\"> یک مشارکت کننده بودن می شوند&lt;/a></item>
+        <item>غیر برنامه نویسان نیز می توانند کمک کنند. برای مثال، شما می توانید &lt;a href=\"%1$s\">به ترجمه این برنامه &lt;/a> کمک کنید، یا ویکی را به روز کنید، عکس صفحه تهیه کنید، يا درباره این برنامه وبلاگ بزنید.</item>
+        <item>این برنامه تحت مجوز &lt;a href=\"%1$s\">GNU-GPL v3&lt;/a>منتشر شده است و منبع کدها قابل دسترسی است &lt;a href=\"%2$s\">در GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>استفاده از دسته فعلی</item>
+        <item>تصمیم گیری براساس نوع یادداشت</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>بالا</item>
+        <item>پایین</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>سوال</item>
+        <item>مرتب کردن فیلد</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>پاسخ</item>
+        <item>کارد</item>
+        <item>مجموعه</item>
+        <item>یادداشت</item>
+        <item>پرسش</item>
+        <item>برچسب ها</item>
+        <item>دفعات اشتباه</item>
+        <item>بازبینی ها</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>مرتب سازی نکن (سریعتر)</item>
+        <item>مرتب‌سازی براساس فیلد</item>
+        <item>به وسیله زمان ایجاد</item>
+        <item>به وسیله زمان ویرایش</item>
+        <item>به وسیله زمان تغییر</item>
+        <item>به وسیله موعد زمانی</item>
+        <item>به وسیله مدت</item>
+        <item>به وسیله سهولت</item>
+        <item>به وسیله مرورها</item>
+        <item>بوسیله گذشت زمان</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>اول قديمي ها ديده شود</item>
+        <item>تصادفي</item>
+        <item>افزايش فواصل</item>
+        <item>كاهش فواصل</item>
+        <item>بيشترين فاصله زماني</item>
+        <item>به ترتيب اضافه شدن</item>
+        <item>به ترتيب موعد</item>
+        <item>اولين اضافه شده هاي اخير</item>
+        <item>Relative overdueness</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>روشن</item>
+        <item>ساده و بی رنگ</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>روز</item>
+        <item>هفته</item>
+        <item>ماه</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>هميشه گزارش بده</item>
+        <item>هرگز گزارش نده</item>
+        <item>بپرس</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>هیچ عملیاتی</item>
+        <item>نمایش پاسخ</item>
+        <item>دكمه پاسخ 1</item>
+        <item>دكمه پاسخ 2</item>
+        <item>دكمه پاسخ 3</item>
+        <item>دكمه پاسخ 4</item>
+        <item>پاسخ توصيه شده-سبز</item>
+        <item>پاسخ بهتر از توصيه شده</item>
+        <item>بازگردانی</item>
+        <item>ويرايش يادداشت</item>
+        <item>علامتگذاری یادداشت</item>
+        <item>جستجوي عبارت</item>
+        <item>تعليق موقت</item>
+        <item>تعلیق کارت</item>
+        <item>حذف یادداشت</item>
+        <item>پخش رسانه</item>
+        <item>توقف یادگیری</item>
+        <item>مخفی کردن یادداشت</item>
+        <item>یادداشت معلق شده</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>تعلیق کارت</item>
+        <item>تنها برچسب</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>کارت های جدید در صورت تصادفی</item>
+        <item>كارتهاي جديد به ترتيب اضافه شدن</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>ادغام کارتهای جدید و مرور شده</item>
+        <item>کارتهای جدید بعد از مرور شده ها</item>
+        <item>کارتهای جدید قبل از مرور شده ها</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>سیاه</item>
+        <item>تیره</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>هنگامیکه هیچ فونتی برای فلش کارت تعیین نشده</item>
+        <item>همیشه</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4 صبح</item>
+        <item>10صبح</item>
+        <item>4 بعد از ظهر</item>
+        <item>10 بعد از ظهر</item>
+        <item>3صبح</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>1شنبه</item>
+        <item>۲شنبه</item>
+        <item>۳شنبه</item>
+        <item>4شنبه</item>
+        <item>۵شنبه</item>
+        <item>جمعه</item>
+        <item>شنبه</item>
+    </string-array>
+</resources>

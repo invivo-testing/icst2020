@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.15" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.85">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/view_onboarding_page_image_centered" android:layout_width="160.0dip" android:layout_height="160.0dip" android:scaleType="fitCenter" android:contentDescription="@null" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+            <org.wikipedia.views.AppTextView android:textSize="24.0sp" android:textColor="@android:color/white" android:id="@id/view_onboarding_page_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:fontFamily="sans-serif-medium" style="@style/TextViewCentered" />
+            <org.wikipedia.views.AppTextView android:textSize="16.0sp" android:textColor="@android:color/white" android:textColorLink="@android:color/white" android:gravity="center" android:id="@id/view_onboarding_page_secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:lineSpacingMultiplier="1.22" android:textAlignment="center" style="@style/TextViewCentered" />
+            <include android:id="@id/options_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_onboarding_language_list" />
+            <LinearLayout android:orientation="vertical" android:id="@id/view_onboarding_page_switch_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="8.0dip">
+                <View android:background="@color/white20" android:layout_width="wrap_content" android:layout_height="0.5dip" />
+                <android.support.v7.widget.SwitchCompat android:textColor="@android:color/white" android:id="@id/view_onboarding_page_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" app:theme="@style/OnboardingSwitch" />
+                <View android:background="@color/white20" android:layout_width="wrap_content" android:layout_height="0.5dip" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_gravity="bottom|center" android:id="@id/view_onboarding_page_tertiary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="16.0dip" android:text="@string/description_edit_tutorial_promise" style="@style/TextViewCentered" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="48.0dip" />
+</merge>

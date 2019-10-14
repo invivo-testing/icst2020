@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_view_media" android:title="@string/conversation__menu_view_all_media" />
+    <item android:id="@id/menu_conversation_settings" android:title="@string/conversation__menu_conversation_settings" />
+    <item android:id="@id/menu_add_shortcut" android:title="@string/conversation__menu_add_shortcut" />
+</menu>

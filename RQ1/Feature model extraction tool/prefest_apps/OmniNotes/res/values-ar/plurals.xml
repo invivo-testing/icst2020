@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">لـ %d من الأحداث</item>
+        <item quantity="one">لـ %d حدث</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">كل %d يوم</item>
+        <item quantity="one">كل %d يوم</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">كل %d شهر</item>
+        <item quantity="one">كل %d شهر</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">كل %d أسبوع</item>
+        <item quantity="one">كل %d أسبوع</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">كل %d عام</item>
+        <item quantity="one">كل %d عام</item>
+    </plurals>
+</resources>

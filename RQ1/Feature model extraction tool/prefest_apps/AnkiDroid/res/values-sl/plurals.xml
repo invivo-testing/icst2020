@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">Prikazanih %d kartic</item>
+        <item quantity="one">Prikazana %d kartica</item>
+        <item quantity="two">Prikazani %d kartici</item>
+        <item quantity="few">Prikazane %d kartice</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">Izbriši vrsto kartice \"%2$s\" in njenih %1$d kartic?</item>
+        <item quantity="one">Izbriši vrsto kartice \"%2$s\" in njeno kartico?</item>
+        <item quantity="two">Izbriši vrsto kartice \"%2$s\" in njeni kartici?</item>
+        <item quantity="few">Izbriši vrsto kartice \"%2$s\" in njene %1$d kartice?</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"%1$s
+%2$d kompletov uporablja to skupino"</item>
+        <item quantity="one">"%1$s
+%2$d komplet uporablja to skupino"</item>
+        <item quantity="two">"%1$s
+%2$d kompleta uporabljata to skupino"</item>
+        <item quantity="few">"%1$s
+%2$d kompleti uporabljajo to skupino"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">%s podkompletov bo uporabilo to skupino</item>
+        <item quantity="one">%s podkomplet bo uporabil to skupino</item>
+        <item quantity="two">%s podkompleta bosta uporabila to skupino</item>
+        <item quantity="few">%s podkompleti bodo uporabili to skupino</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">Zap. %1$d kartic (%2$s)</item>
+        <item quantity="one">Zap. %1$d kartica (%2$s)</item>
+        <item quantity="two">Zap. %1$d kartici (%2$s)</item>
+        <item quantity="few">Zap. %1$d kartice (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">Izbriši vse kartice v %1$s? Vsebuje %2$d kartic.</item>
+        <item quantity="one">Izbriši vse kartice v %1$s? Vsebuje %2$d kartico.</item>
+        <item quantity="two">Izbriši vse kartice v %1$s? Vsebuje %2$d kartici.</item>
+        <item quantity="few">Izbriši vse kartice v %1$s? Vsebuje %2$d kartice.</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">%d kartic dodanih</item>
+        <item quantity="one">%d kartica dodana</item>
+        <item quantity="two">%d kartici dodani</item>
+        <item quantity="few">%d kartice dodane</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d zapiskov</item>
+        <item quantity="one">%d zapisek</item>
+        <item quantity="two">%d zapiska</item>
+        <item quantity="few">%d zapiski</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">Na voljo je %d vrst zapiskov</item>
+        <item quantity="one">Na voljo je %d vrsta zapiskov</item>
+        <item quantity="two">Na voljo sta %d vrsti zapiskov</item>
+        <item quantity="few">Na voljo so %d vrste zapiskov</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d novih kartic za pregled v %1$s</item>
+        <item quantity="one">%2$d nova kartica za pregled v %1$s</item>
+        <item quantity="two">%2$d novi kartici za pregled v %1$s</item>
+        <item quantity="few">%2$d nove kartice za pregled v %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">Še %d min.</item>
+        <item quantity="one">Še %d min.</item>
+        <item quantity="two">Še %d min.</item>
+        <item quantity="few">Še %d min.</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">Danes preučenih &lt;b>%1$d kartic&lt;/b> v &lt;b>%2$s&lt;/b></item>
+        <item quantity="one">Danes preučena &lt;b>%1$d kartica&lt;/b> v &lt;b>%2$s&lt;/b></item>
+        <item quantity="two">Danes preučeni &lt;b>%1$d kartici&lt;/b> v &lt;b>%2$s&lt;/b></item>
+        <item quantity="few">Danes preučene &lt;b>%1$d kartice&lt;/b> v &lt;b>%2$s&lt;/b></item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">Danes preučenih %1$d kartic v %2$s</item>
+        <item quantity="one">Danes preučena %1$d kartica v %2$s</item>
+        <item quantity="two">Danes preučeni %1$d kartici v %2$s</item>
+        <item quantity="few">Danes preučene %1$d kartice v %2$s</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s dni</item>
+        <item quantity="one">%s dan</item>
+        <item quantity="two">%s dni</item>
+        <item quantity="few">%s dni</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s ur</item>
+        <item quantity="one">%s ura</item>
+        <item quantity="two">%s uri</item>
+        <item quantity="few">%s ure</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s-h minutah</item>
+        <item quantity="one">%s minuti</item>
+        <item quantity="two">%s-h minutah</item>
+        <item quantity="few">%s-h minutah</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s mesecev</item>
+        <item quantity="one">%s mesec</item>
+        <item quantity="two">%s meseca</item>
+        <item quantity="few">%s meseci</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s sekund</item>
+        <item quantity="one">%s sekunda</item>
+        <item quantity="two">%s sekundi</item>
+        <item quantity="few">%s sekunde</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s let</item>
+        <item quantity="one">%s leto</item>
+        <item quantity="two">%s leti</item>
+        <item quantity="few">%s leta</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d kartic preučenih v %2$s</item>
+        <item quantity="one">%1$d kartica preučena v %2$s</item>
+        <item quantity="two">%1$d kartici preučeni v %2$s</item>
+        <item quantity="few">%1$d kartice preučene v %2$s</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d minut</item>
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="two">%1$d minuti</item>
+        <item quantity="few">%1$d minute</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">%d kartic zapadlih</item>
+        <item quantity="one">%d kartica zapadla</item>
+        <item quantity="two">%d kartici zapadli</item>
+        <item quantity="few">%d kartice zapadle</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">%1$d kartic zapade v %2$s</item>
+        <item quantity="one">%1$d kartica zapade v %2$s</item>
+        <item quantity="two">%1$d kartici zapadeta v %2$s</item>
+        <item quantity="few">%1$d kartice zapadejo v %2$s</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d kompletov</item>
+        <item quantity="one">%1$d komplet</item>
+        <item quantity="two">%1$d kompleta</item>
+        <item quantity="few">%1$d kompleti</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">Preostalih je %d minut</item>
+        <item quantity="one">Preostala je %d minuta</item>
+        <item quantity="two">Preostali sta %d minuti</item>
+        <item quantity="few">Preostale so %d minute</item>
+    </plurals>
+</resources>

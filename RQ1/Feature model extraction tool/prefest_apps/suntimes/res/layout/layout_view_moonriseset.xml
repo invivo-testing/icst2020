@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout n1:id="@id/moonriseset_layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/moonrise_layout" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/table_set_leftMargin" n1:layout_marginRight="0.0dip">
+            <ImageView n1:layout_gravity="bottom|center" n1:id="@id/icon_time_moonrise" n1:background="?moonriseIcon" n1:layout_width="@dimen/table_heading_iconsize" n1:layout_margin="0.0dip" style="@style/TableHeadImageView" />
+            <TextView n1:textColor="?moonriseColor" n1:layout_gravity="center_horizontal" n1:id="@id/text_time_moonrise" n1:layout_marginLeft="0.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="2.0dip" style="@style/SunsetTimeTextView" />
+            <TextView n1:textColor="?moonriseColor" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/text_info_moonrise" n1:visibility="gone" n1:layout_marginLeft="0.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="2.0dip" style="@style/SunsetTimeTextView2" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/moonset_layout" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/table_set_leftMargin" n1:layout_marginRight="0.0dip">
+            <ImageView n1:layout_gravity="bottom|center" n1:id="@id/icon_time_moonset" n1:background="?moonsetIcon" n1:layout_width="@dimen/table_heading_iconsize" n1:layout_margin="0.0dip" style="@style/TableHeadImageView" />
+            <TextView n1:textColor="?moonsetColor" n1:layout_gravity="center_horizontal" n1:id="@id/text_time_moonset" n1:layout_marginLeft="0.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="2.0dip" style="@style/SunsetTimeTextView" />
+            <TextView n1:textColor="?moonsetColor" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/text_info_moonset" n1:visibility="gone" n1:layout_marginLeft="0.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="2.0dip" style="@style/SunsetTimeTextView2" />
+        </LinearLayout>
+        <View n1:id="@id/divider_moon1" n1:background="?hrColor" n1:visibility="gone" n1:layout_width="1.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="4.0dip" n1:layout_marginRight="4.0dip" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/moonrise_layout1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/table_set_leftMargin" n1:layout_marginRight="0.0dip">
+            <ImageView n1:layout_gravity="bottom|center" n1:id="@id/icon_time_moonrise1" n1:background="?moonriseIcon" n1:layout_width="@dimen/table_heading_iconsize" n1:layout_margin="0.0dip" style="@style/TableHeadImageView" />
+            <TextView n1:textColor="?moonriseColor" n1:layout_gravity="center_horizontal" n1:id="@id/text_time_moonrise1" n1:layout_marginLeft="0.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="2.0dip" style="@style/SunsetTimeTextView" />
+            <TextView n1:textColor="?moonriseColor" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/text_info_moonrise1" n1:visibility="gone" n1:layout_marginLeft="0.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="2.0dip" style="@style/SunsetTimeTextView2" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/moonset_layout1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/table_set_leftMargin" n1:layout_marginRight="0.0dip">
+            <ImageView n1:layout_gravity="bottom|center" n1:id="@id/icon_time_moonset1" n1:background="?moonsetIcon" n1:layout_width="@dimen/table_heading_iconsize" n1:layout_margin="0.0dip" style="@style/TableHeadImageView" />
+            <TextView n1:textColor="?moonsetColor" n1:layout_gravity="center_horizontal" n1:id="@id/text_time_moonset1" n1:layout_marginLeft="0.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="2.0dip" style="@style/SunsetTimeTextView" />
+            <TextView n1:textColor="?moonsetColor" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/text_info_moonset1" n1:visibility="gone" n1:layout_marginLeft="0.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="2.0dip" style="@style/SunsetTimeTextView2" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

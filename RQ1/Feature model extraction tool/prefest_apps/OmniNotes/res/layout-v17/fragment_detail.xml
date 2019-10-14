@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui">
+    <LinearLayout android:orientation="vertical" android:id="@id/detail_root" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/activity_additional_margin" android:layout_marginRight="@dimen/activity_additional_margin" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/detail_wrapper" android:background="@color/gray_bg" android:paddingLeft="@dimen/padding_half" android:paddingTop="@dimen/padding_half" android:paddingRight="@dimen/padding_half" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:animateLayoutChanges="true">
+            <LinearLayout android:id="@id/detail_tile_card" android:background="@drawable/bg_card" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/title_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:id="@id/tag_marker" android:background="@null" android:layout_width="7.0dip" android:layout_height="fill_parent" />
+                    <com.neopixl.pixlui.components.edittext.EditText android:textAppearance="@style/Text.Big" android:textColor="@color/text_color" android:textColorHint="@color/text_color_lighter" android:linksClickable="false" android:id="@id/detail_title" android:background="@null" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="16.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/title" android:inputType="textCapSentences" android:textCursorDrawable="@null" android:paddingStart="6.0dip" android:paddingEnd="16.0dip" paddingEnd="16.0dip" paddingStart="6.0dip" pixlui:typeface="RobotoSlab-Bold.ttf" />
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.design.widget.CoordinatorLayout android:id="@id/detail_content_card" android:background="@drawable/bg_card" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ScrollView android:scrollbarSize="4.0dip" android:scrollbarThumbVertical="@drawable/scroll_bar" android:scrollbarStyle="outsideOverlay" android:id="@id/content_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ViewStub android:id="@id/detail_attachments_above" android:layout="@layout/fragment_detail_attachments" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        <include layout="@layout/fragment_detail_content" />
+                        <ViewStub android:id="@id/detail_attachments_below" android:layout="@layout/fragment_detail_attachments" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </ScrollView>
+            </android.support.design.widget.CoordinatorLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/detail_timestamps" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.neopixl.pixlui.components.textview.TextView android:textAppearance="@style/Text.Small" android:gravity="start" android:id="@id/creation" android:padding="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" pixlui:typeface="Roboto-Regular.ttf" />
+                <com.neopixl.pixlui.components.textview.TextView android:textAppearance="@style/Text.Small" android:gravity="end" android:id="@id/last_modification" android:padding="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" pixlui:typeface="Roboto-Regular.ttf" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.design.widget.CoordinatorLayout android:id="@id/snackbar_placeholder" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

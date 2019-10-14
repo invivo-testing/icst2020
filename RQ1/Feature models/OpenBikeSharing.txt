@@ -1,0 +1,8 @@
+pref_map_layer=ListPreference
+=UnsupportedPreference
+pref_api_url=EditTextPreference
+pref_strip_id_station=BooleanPreference
+network-id=UnsupportedPreference
+pref_default_tab=ListPreference
+pref_donate_bitcoin=UnsupportedPreference
+pref_version=UnsupportedPreference

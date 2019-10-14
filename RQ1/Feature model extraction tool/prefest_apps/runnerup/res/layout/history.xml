@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/tab1_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar android:id="@id/feed_actionbar" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/History" />
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/history_list" android:paddingBottom="@dimen/margin_for_fab" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@id/history_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:contentDescription="@string/Add_manual_entry" app:backgroundTint="@color/colorPrimaryFab" app:fabSize="normal" app:srcCompat="@drawable/ic_add_white_24dp" />
+</merge>

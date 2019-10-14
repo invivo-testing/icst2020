@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:padding="@dimen/track_details_dialog_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/track_details" />
+</TableLayout>

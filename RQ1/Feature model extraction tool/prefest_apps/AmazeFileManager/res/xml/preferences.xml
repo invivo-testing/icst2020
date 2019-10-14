@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ui">
+        <Preference android:title="@string/theme" android:key="theme" />
+        <Preference android:title="@string/color_title" android:key="colors" android:summary="@string/color_summary" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/circularicons" android:key="circularimages" android:summary="@string/circularimages" android:defaultValue="true" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/showDividers" android:key="showDividers" android:defaultValue="true" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/showHeaders" android:key="showHeaders" android:defaultValue="true" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/intellihide_toolbar_title" android:key="intelliHideToolbar" android:summary="@string/intellihide_toolbar_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sidebar_preferences">
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/showfolders_pref_title" android:key="sidebar_folders_enable" android:defaultValue="true" />
+        <Preference android:title="@string/showfolders_pref" android:key="sidebar_folders" android:dependency="sidebar_folders_enable" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/showquickaccess_pref_title" android:key="sidebar_quickaccess_enable" android:defaultValue="true" />
+        <Preference android:title="@string/showquickaccess_pref" android:key="sidebar_quickaccess" android:dependency="sidebar_quickaccess_enable" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/general">
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/savepaths" android:key="savepaths" android:summary="@string/savepathsummary" android:defaultValue="true" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/thumb" android:key="showThumbs" android:summary="@string/thumbSummary" android:defaultValue="true" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/hidden" android:key="showHidden" android:defaultValue="false" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/lastModifiedPref" android:key="showLastModified" android:summary="@string/lastModifiedSummary" android:defaultValue="true" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/sizePref" android:key="showFileSize" android:summary="@string/sizePrefSummary" android:defaultValue="true" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/back_title" android:key="goBack_checkbox" android:summary="@string/back_summary" android:defaultValue="false" />
+        <Preference android:title="@string/gridcolumnno" android:key="columns" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/enableMarqueeFilename" android:key="enableMarqueeFilename" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/archive_preferences">
+        <EditTextPreference android:title="@string/archive_extract_folder" android:key="extractpath" android:summary="@string/archive_summary" />
+        <EditTextPreference android:title="@string/zip_create_folder" android:key="zippath" android:summary="@string/zip_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/security">
+        <Preference android:title="@string/crypt_pref_master_password_title" android:key="crypt_password" android:summary="@string/crypt_pref_master_password_summary" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:enabled="false" android:title="@string/crypt_pref_fingerprint_title" android:key="crypt_fingerprint" android:summary="@string/crypt_pref_fingerprint_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/miscellaneous">
+        <Preference android:title="@string/advanced_search" android:key="advancedsearch" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/typeablepaths_title" android:key="typeablepaths" android:summary="@string/typeablepaths_summary" android:defaultValue="false" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/preference_newstack_title" android:key="texteditor_newstack" android:summary="@string/preference_newstack_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/advanced">
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/rootPref" android:key="showPermissions" android:summary="@string/rootPrefSummary" android:defaultValue="false" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox android:title="@string/rootmode" android:key="rootmode" android:summary="@string/rootmodesummary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about">
+        <Preference android:title="@string/aboutFileManager" android:key="about" />
+        <Preference android:title="@string/feedback" android:key="feedback" />
+    </PreferenceCategory>
+</PreferenceScreen>

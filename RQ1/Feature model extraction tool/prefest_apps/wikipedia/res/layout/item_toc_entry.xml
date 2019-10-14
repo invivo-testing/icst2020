@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?toc_item_background" android:paddingLeft="@dimen/list_item_horizontal_padding" android:paddingTop="@dimen/list_item_vertical_padding" android:paddingRight="@dimen/list_item_horizontal_padding" android:paddingBottom="@dimen/list_item_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/page_toc_filler" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center_vertical" android:id="@id/page_toc_item_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0" />
+</LinearLayout>

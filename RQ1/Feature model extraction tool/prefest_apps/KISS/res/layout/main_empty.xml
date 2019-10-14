@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:background="?listBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/zerostate_search" android:tint="?resultColor" android:contentDescription="@null" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?resultColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ui_empty_1" android:shadowColor="?resultShadowColor" android:shadowDx="1.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
+            <TextView android:textColor="?android:textColorTertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ui_empty_1_sub" android:shadowColor="?resultShadowColor" android:shadowDx="1.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="?dividerDrawable" android:contentDescription="@null" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/zerostate_burger" android:tint="?resultColor" android:contentDescription="@null" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?resultColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ui_empty_2" android:shadowColor="?resultShadowColor" android:shadowDx="1.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
+            <TextView android:textColor="?android:textColorTertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ui_empty_2_sub" android:shadowColor="?resultShadowColor" android:shadowDx="1.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="?dividerDrawable" android:contentDescription="@null" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/zerostate_kiss" android:tint="?resultColor" android:contentDescription="@null" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?resultColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ui_empty_3" android:shadowColor="?resultShadowColor" android:shadowDx="1.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
+            <TextView android:textColor="?android:textColorTertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ui_empty_3_sub" android:shadowColor="?resultShadowColor" android:shadowDx="1.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

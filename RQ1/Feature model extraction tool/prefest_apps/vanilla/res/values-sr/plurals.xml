@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%1$d нумера додато на листу нумера %2$s.</item>
+        <item quantity="one">%1$d нумера додата на листу нумера %2$s.</item>
+        <item quantity="few">%1$d нумере додате на листу нумера %2$s.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">%d нумера обрисано.</item>
+        <item quantity="one">%d нумера обрисана.</item>
+        <item quantity="few">%d нумере обрисане.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">%d нумера стављено у ред.</item>
+        <item quantity="one">%d нумера стављена у ред.</item>
+        <item quantity="few">%d нумере стављене у ред.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d сати</item>
+        <item quantity="one">%d сат</item>
+        <item quantity="few">%d сата</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d минута</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуте</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">%d нумера пуштено.</item>
+        <item quantity="one">%d нумера пуштена.</item>
+        <item quantity="few">%d нумере пуштене.</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">%1$d нумера уклоњено са листе нумера %2$s.</item>
+        <item quantity="one">%1$d нумера уклоњена са листе нумера %2$s.</item>
+        <item quantity="few">%1$d нумере уклоњене са листе нумера %2$s.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунде</item>
+    </plurals>
+</resources>

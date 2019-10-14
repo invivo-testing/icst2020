@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s: &lt;br/> Flashcards voor Android&lt;/h2>AnkiDroid is een flashcard-app die volledig compatibel met de desktopsoftware &lt;a href=\"%2$s\"> Anki&lt;/a>. Zowel in AnkiDroid als in Anki voor desktop kunt u kaarten maken, downloaden en leren en deze gemakkelijk synchroniseren met AnkiWeb.</item>
+        <item>Om AnkiDroid beter te helpen maken, gelieve de bugs te rapporteren in &lt;a href=\"%1$s\"> de issue tracker&lt;/a>; nieuwe ideeën voor functionaliteiten zijn ook zeer welkom. U kunt ook antwoorden vinden op &lt;a href=\"%2$s\"> de wiki&lt;/a> of een discussie starten op &lt;a href=\"%3$s\"> het forum&lt;/a>.</item>
+        <item>AnkiDroid is &lt;a href=\"%1$s\"> open bronsoftware&lt;a/>, zodat iedereen wordt aangemoedigd om &lt;a href=\"%2$s\"> bij te dragen&lt;/a> :-)</item>
+        <item>Non-ontwikkelaars kunnen ook helpen. U kunt bijvoorbeeld &lt;a href=\"%1$s\"> helpen met het vertalen&lt;/a> van AnkiDroid, de wiki bijwerken, screenshots sturen, of over AnkiDroid bloggen.</item>
+        <item>AnkiDroid is vrijgegeven onder de &lt;a href=\"%1$s\"> GNU-GPL v3 licentie&lt;/a> en de broncode is beschikbaar &lt;a href=\"%2$s\"> op GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Gebruik huidige set</item>
+        <item>Beslissen per memotype</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Bovenaan</item>
+        <item>Onderaan</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Vraag</item>
+        <item>Sorteerveld</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Antwoord</item>
+        <item>Kaart</item>
+        <item>Set</item>
+        <item>Opmerking</item>
+        <item>Vraag</item>
+        <item>Labels</item>
+        <item>Missers</item>
+        <item>Overhoringen</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Niet sorteren (sneller)</item>
+        <item>Naar sorteerveld</item>
+        <item>Op tijd aanmaak</item>
+        <item>Op tijd laatst bewerkt</item>
+        <item>Op gewijzigde tijd</item>
+        <item>Op geplande tijd</item>
+        <item>Op interval</item>
+        <item>Op gemakkelijkheid</item>
+        <item>Op overhoring</item>
+        <item>Op missers</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Oudste eerst zien</item>
+        <item>Willekeurig</item>
+        <item>Toenemende intervallen</item>
+        <item>Afnemende intervallen</item>
+        <item>Meeste vergissingen</item>
+        <item>Volgorde van toevoegen</item>
+        <item>"Volgorde van 'te doen' kaarten"</item>
+        <item>Laatste eerst toevoegen</item>
+        <item>Relatieve overdueness</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Licht</item>
+        <item>Eenvoudig</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Dagen</item>
+        <item>Weken</item>
+        <item>Maanden</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Altijd rapporteren</item>
+        <item>Nooit rapporteren</item>
+        <item>Mij vragen</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Geen actie</item>
+        <item>Toon Antwoord</item>
+        <item>Antwoordknop 1</item>
+        <item>Antwoordknop 2</item>
+        <item>Antwoordknop 3</item>
+        <item>Antwoordknop 4</item>
+        <item>Aanbevolen antwoord (groen)</item>
+        <item>Antwoord beter dan aangeraden</item>
+        <item>Ongedaan maken</item>
+        <item>Memo bewerken</item>
+        <item>Markeer memo</item>
+        <item>Uitdrukking opzoeken</item>
+        <item>Kaart verbergen</item>
+        <item>Kaart uitstellen</item>
+        <item>Verwijder memo</item>
+        <item>Media afspelen</item>
+        <item>Leren afbreken</item>
+        <item>Opmerking begraven</item>
+        <item>Memo opschorten</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Kaart uitstellen</item>
+        <item>Alleen label toevoegen</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Nieuwe kaarten in willekeurige volgorde</item>
+        <item>Nieuwe kaarten in volgorde van toevoeging</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Mix nieuwe en herhaalde kaarten</item>
+        <item>Nieuwe kaarten na herhaalde kaarten</item>
+        <item>Nieuwe kaarten voor herhaalde kaarten</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Zwart</item>
+        <item>Donker</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Wanneer geen lettertype opgegeven op flitskaartjes</item>
+        <item>Altijd</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4:00</item>
+        <item>10:00</item>
+        <item>16:00</item>
+        <item>22:00</item>
+        <item>3:00</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>zo</item>
+        <item>ma</item>
+        <item>di</item>
+        <item>wo</item>
+        <item>do</item>
+        <item>vr</item>
+        <item>za</item>
+    </string-array>
+</resources>

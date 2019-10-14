@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="?android:expandableListPreferredItemPaddingLeft" android:layout_height="fill_parent">
+        <ImageView android:id="@id/expandable_list_indicator" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/indent" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:mode="twoLine" android:layout_weight="1.0">
+        <com.money.manager.ex.view.RobotoTextView android:textAppearance="?android:textAppearanceListItem" android:layout_gravity="start" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/category" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="start" android:id="@android:id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/selector" android:background="@color/button_background_inactive_dark" android:layout_width="?android:listPreferredItemHeight" android:layout_height="fill_parent">
+        <com.shamanland.fonticon.FontIconView android:textSize="30.0sp" android:textColor="@color/md_accent" android:gravity="center" android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:text="@string/ic_chevron_right" />
+    </LinearLayout>
+</LinearLayout>

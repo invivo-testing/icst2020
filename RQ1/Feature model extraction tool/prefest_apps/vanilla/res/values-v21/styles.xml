@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Playback" parent="@style/VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="PopupDialog" parent="@android:style/Theme.Material.Light.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_300</item>
+        <item name="controls_active">#ff3e677a</item>
+        <item name="controls_normal">@color/material_grey_900</item>
+        <item name="overlay_background_color">@color/overlay_background_light</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification" />
+    <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time" />
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title" />
+    <style name="Universal.PlaybackActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">?tabs_background</item>
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+    </style>
+    <style name="VanillaBase" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#ff37474f</item>
+        <item name="android:colorPrimaryDark">#ff263238</item>
+        <item name="android:colorAccent">#ff3e677a</item>
+        <item name="background_circle_color">@color/material_grey_300</item>
+        <item name="controls_active">#ff3e677a</item>
+        <item name="controls_normal">@color/material_grey_900</item>
+        <item name="float_color">@color/material_grey_400</item>
+        <item name="now_playing_marker">#ff3e677a</item>
+        <item name="overlay_background_color">@color/overlay_background_light</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_light</item>
+        <item name="tabs_background">#ff37474f</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer" parent="">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText" parent="">
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="Amoled_dark.BackActionBar" parent="@style/Amoled_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Amoled_dark.Library" parent="@style/Amoled_dark.VanillaBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Amoled_dark.Playback" parent="@style/Amoled_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Amoled_dark.PopupDialog" parent="@android:style/Theme.Material.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#ffd8d8d8</item>
+        <item name="controls_normal">@color/material_grey_600</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+    </style>
+    <style name="Amoled_dark.VanillaBase" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:colorAccent">#ffd8d8d8</item>
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#ffd8d8d8</item>
+        <item name="controls_normal">@color/material_grey_600</item>
+        <item name="float_color">@color/material_grey_900</item>
+        <item name="now_playing_marker">#ffd8d8d8</item>
+        <item name="overlay_background_color">@android:color/black</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_dark</item>
+        <item name="tabs_background">#ff000000</item>
+    </style>
+    <style name="Blue_dark.BackActionBar" parent="@style/Blue_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Blue_dark.Library" parent="@style/Blue_dark.VanillaBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Blue_dark.Playback" parent="@style/Blue_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Blue_dark.PopupDialog" parent="@android:style/Theme.Material.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#ff03a9f4</item>
+        <item name="controls_normal">@color/material_grey_300</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+    </style>
+    <style name="Blue_dark.VanillaBase" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#ff0277bd</item>
+        <item name="android:colorPrimaryDark">#ff01579b</item>
+        <item name="android:colorAccent">#ff03a9f4</item>
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#ff03a9f4</item>
+        <item name="controls_normal">@color/material_grey_300</item>
+        <item name="float_color">@color/material_grey_900</item>
+        <item name="now_playing_marker">#ff03a9f4</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_dark</item>
+        <item name="tabs_background">#ff0277bd</item>
+    </style>
+    <style name="Blue_light.BackActionBar" parent="@style/Blue_light.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Blue_light.Library" parent="@style/Blue_light.VanillaBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Blue_light.Playback" parent="@style/Blue_light.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Blue_light.PopupDialog" parent="@android:style/Theme.Material.Light.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_300</item>
+        <item name="controls_active">#ff03a9f4</item>
+        <item name="controls_normal">@color/material_grey_900</item>
+        <item name="overlay_background_color">@color/overlay_background_light</item>
+    </style>
+    <style name="Blue_light.VanillaBase" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#ff0277bd</item>
+        <item name="android:colorPrimaryDark">#ff01579b</item>
+        <item name="android:colorAccent">#ff03a9f4</item>
+        <item name="background_circle_color">@color/material_grey_300</item>
+        <item name="controls_active">#ff03a9f4</item>
+        <item name="controls_normal">@color/material_grey_900</item>
+        <item name="float_color">@color/material_grey_400</item>
+        <item name="now_playing_marker">#ff03a9f4</item>
+        <item name="overlay_background_color">@color/overlay_background_light</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_light</item>
+        <item name="tabs_background">#ff0277bd</item>
+    </style>
+    <style name="Grey_dark.BackActionBar" parent="@style/Grey_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Grey_dark.Library" parent="@style/Grey_dark.VanillaBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Grey_dark.Playback" parent="@style/Grey_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Grey_dark.PopupDialog" parent="@android:style/Theme.Material.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#ffd8d8d8</item>
+        <item name="controls_normal">@color/material_grey_600</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+    </style>
+    <style name="Grey_dark.VanillaBase" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#ff212121</item>
+        <item name="android:colorPrimaryDark">#ff090909</item>
+        <item name="android:colorAccent">#ffd8d8d8</item>
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#ffd8d8d8</item>
+        <item name="controls_normal">@color/material_grey_600</item>
+        <item name="float_color">@color/material_grey_900</item>
+        <item name="now_playing_marker">#ffd8d8d8</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_dark</item>
+        <item name="tabs_background">#ff212121</item>
+    </style>
+    <style name="Grey_light.BackActionBar" parent="@style/Grey_light.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Grey_light.Library" parent="@style/Grey_light.VanillaBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Grey_light.Playback" parent="@style/Grey_light.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Grey_light.PopupDialog" parent="@android:style/Theme.Material.Light.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_300</item>
+        <item name="controls_active">#ff000000</item>
+        <item name="controls_normal">@color/material_grey_600</item>
+        <item name="overlay_background_color">@color/overlay_background_light</item>
+    </style>
+    <style name="Grey_light.VanillaBase" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#ff212121</item>
+        <item name="android:colorPrimaryDark">#ff090909</item>
+        <item name="android:colorAccent">#ff000000</item>
+        <item name="background_circle_color">@color/material_grey_300</item>
+        <item name="controls_active">#ff000000</item>
+        <item name="controls_normal">@color/material_grey_600</item>
+        <item name="float_color">@color/material_grey_400</item>
+        <item name="now_playing_marker">#ff000000</item>
+        <item name="overlay_background_color">@color/overlay_background_light</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_light</item>
+        <item name="tabs_background">#ff212121</item>
+    </style>
+    <style name="Orange_dark.BackActionBar" parent="@style/Orange_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Orange_dark.Library" parent="@style/Orange_dark.VanillaBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Orange_dark.Playback" parent="@style/Orange_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Orange_dark.PopupDialog" parent="@android:style/Theme.Material.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#fff57f17</item>
+        <item name="controls_normal">@color/material_grey_300</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+    </style>
+    <style name="Orange_dark.VanillaBase" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#ffe65100</item>
+        <item name="android:colorPrimaryDark">#ffbf360c</item>
+        <item name="android:colorAccent">#fff57f17</item>
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#fff57f17</item>
+        <item name="controls_normal">@color/material_grey_300</item>
+        <item name="float_color">@color/material_grey_900</item>
+        <item name="now_playing_marker">#fff57f17</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_dark</item>
+        <item name="tabs_background">#ffe65100</item>
+    </style>
+    <style name="Orange_light.BackActionBar" parent="@style/Orange_light.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Orange_light.Library" parent="@style/Orange_light.VanillaBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Orange_light.Playback" parent="@style/Orange_light.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Orange_light.PopupDialog" parent="@android:style/Theme.Material.Light.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_300</item>
+        <item name="controls_active">#fff57f17</item>
+        <item name="controls_normal">@color/material_grey_900</item>
+        <item name="overlay_background_color">@color/overlay_background_light</item>
+    </style>
+    <style name="Orange_light.VanillaBase" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#ffe65100</item>
+        <item name="android:colorPrimaryDark">#ffbf360c</item>
+        <item name="android:colorAccent">#fff57f17</item>
+        <item name="background_circle_color">@color/material_grey_300</item>
+        <item name="controls_active">#fff57f17</item>
+        <item name="controls_normal">@color/material_grey_900</item>
+        <item name="float_color">@color/material_grey_400</item>
+        <item name="now_playing_marker">#fff57f17</item>
+        <item name="overlay_background_color">@color/overlay_background_light</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_light</item>
+        <item name="tabs_background">#ffe65100</item>
+    </style>
+    <style name="Red_dark.BackActionBar" parent="@style/Red_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Red_dark.Library" parent="@style/Red_dark.VanillaBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Red_dark.Playback" parent="@style/Red_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Red_dark.PopupDialog" parent="@android:style/Theme.Material.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#ffd50000</item>
+        <item name="controls_normal">@color/material_grey_300</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+    </style>
+    <style name="Red_dark.VanillaBase" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#ffc62828</item>
+        <item name="android:colorPrimaryDark">#ffb71c1c</item>
+        <item name="android:colorAccent">#ffd50000</item>
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#ffd50000</item>
+        <item name="controls_normal">@color/material_grey_300</item>
+        <item name="float_color">@color/material_grey_900</item>
+        <item name="now_playing_marker">#ffd50000</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_dark</item>
+        <item name="tabs_background">#ffc62828</item>
+    </style>
+    <style name="Red_light.BackActionBar" parent="@style/Red_light.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Red_light.Library" parent="@style/Red_light.VanillaBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Red_light.Playback" parent="@style/Red_light.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Red_light.PopupDialog" parent="@android:style/Theme.Material.Light.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_300</item>
+        <item name="controls_active">#ffd50000</item>
+        <item name="controls_normal">@color/material_grey_900</item>
+        <item name="overlay_background_color">@color/overlay_background_light</item>
+    </style>
+    <style name="Red_light.VanillaBase" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#ffc62828</item>
+        <item name="android:colorPrimaryDark">#ffb71c1c</item>
+        <item name="android:colorAccent">#ffd50000</item>
+        <item name="background_circle_color">@color/material_grey_300</item>
+        <item name="controls_active">#ffd50000</item>
+        <item name="controls_normal">@color/material_grey_900</item>
+        <item name="float_color">@color/material_grey_400</item>
+        <item name="now_playing_marker">#ffd50000</item>
+        <item name="overlay_background_color">@color/overlay_background_light</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_light</item>
+        <item name="tabs_background">#ffc62828</item>
+    </style>
+    <style name="Standard_dark.BackActionBar" parent="@style/Standard_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Standard_dark.Library" parent="@style/Standard_dark.VanillaBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Standard_dark.Playback" parent="@style/Standard_dark.VanillaBase">
+        <item name="android:actionBarStyle">@style/Universal.PlaybackActionBar</item>
+    </style>
+    <style name="Standard_dark.PopupDialog" parent="@android:style/Theme.Material.Dialog.MinWidth">
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#ff3e677a</item>
+        <item name="controls_normal">@color/material_grey_300</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+    </style>
+    <style name="Standard_dark.VanillaBase" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#ff37474f</item>
+        <item name="android:colorPrimaryDark">#ff263238</item>
+        <item name="android:colorAccent">#ff3e677a</item>
+        <item name="background_circle_color">@color/material_grey_700</item>
+        <item name="controls_active">#ff3e677a</item>
+        <item name="controls_normal">@color/material_grey_300</item>
+        <item name="float_color">@color/material_grey_900</item>
+        <item name="now_playing_marker">#ff3e677a</item>
+        <item name="overlay_background_color">@color/overlay_background_dark</item>
+        <item name="overlay_foreground_color">@color/overlay_foreground_dark</item>
+        <item name="tabs_background">#ff37474f</item>
+    </style>
+</resources>

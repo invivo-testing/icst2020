@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cueLanguageCodes">
+        <item>en</item>
+        <item>ar</item>
+        <item>id</item>
+        <item>ca</item>
+        <item>de</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>lt</item>
+        <item>hu</item>
+        <item>nl</item>
+        <item>nb</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ru</item>
+        <item>fi</item>
+        <item>sv</item>
+        <item>tr</item>
+    </string-array>
+    <string-array name="cueLanguageNames">
+        <item>English</item>
+        <item>العَرَبِيَّة‎‎</item>
+        <item>Bahasa Indonesia</item>
+        <item>Català</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+        <item>Français</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>Lietuvių</item>
+        <item>Magyar</item>
+        <item>Nederlands</item>
+        <item>Norska</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Suomi</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+    </string-array>
+    <string-array name="duration_types">
+        <item>Until pressed</item>
+        <item>Time</item>
+        <item>Distance</item>
+    </string-array>
+    <string-array name="sexes">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="sportEntries">
+        <item>Running</item>
+        <item>Biking</item>
+        <item>Other</item>
+        <item>Orienteering</item>
+        <item>Walking</item>
+    </string-array>
+    <integer-array name="step_duration_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="step_intensity_types">
+        <item>Warmup</item>
+        <item>Active</item>
+        <item>Rest</item>
+        <item>Recovery</item>
+        <item>Cooldown</item>
+    </string-array>
+    <integer-array name="step_intensity_values">
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="target_types">
+        <item>None</item>
+        <item>Pace</item>
+        <item>Heartrate zone</item>
+    </string-array>
+    <integer-array name="target_values">
+        <item>-1</item>
+        <item>4</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="types">
+        <item>Time</item>
+        <item>Distance</item>
+    </string-array>
+    <string-array name="unitEntries">
+        <item>Miles</item>
+        <item>Kilometers</item>
+    </string-array>
+    <string-array name="unitValues">
+        <item>mi</item>
+        <item>km</item>
+    </string-array>
+</resources>

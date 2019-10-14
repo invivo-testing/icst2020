@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">%d tarjetas mostradas</item>
+        <item quantity="one">%d tarjeta mostrada</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">"¿Eliminar el tipo de tarjeta '%2$s' y sus %1$d tarjetas?"</item>
+        <item quantity="one">"¿Eliminar el tipo de tarjeta '%2$s' y su %1$d tarjeta?"</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"Los mazos %1$s
+%2$d utilizan este grupo"</item>
+        <item quantity="one">"El mazo %1$s
+%2$d utiliza este grupo"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">%s submazos utilizarán este grupo</item>
+        <item quantity="one">%s submazo utilizará este grupo</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">%1$d tarjetas pendientes (%2$s)</item>
+        <item quantity="one">%1$d tarjeta pendiente (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">¿Borrar todas las tarjetas en %1$s? Contiene %2$d tarjetas.</item>
+        <item quantity="one">¿Borrar todas las tarjetas en %1$s? Contiene %2$d tarjeta.</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">Se han añadido %d tarjetas</item>
+        <item quantity="one">Se ha añadido %d tarjeta</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d notas</item>
+        <item quantity="one">%d nota</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">%d tipos de nota disponibles</item>
+        <item quantity="one">%d tipo de nota disponible</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d nuevas tarjetas para revisar en %1$s</item>
+        <item quantity="one">%2$d nueva tarjeta para revisar en %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">%d minutos restantes</item>
+        <item quantity="one">%d minuto restante</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">Has estudiado &lt;b>%1$d tarjetas&lt;b> en &lt;b>%2$s&lt;/b> hoy.</item>
+        <item quantity="one">Has estudiado &lt;b>%1$d tarjeta&lt;/b> en &lt;b>%2$s&lt;/b> hoy</item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">Has estudiado %1$d tarjetas en %2$s hoy</item>
+        <item quantity="one">Has estudiado %1$d tarjeta en %2$s hoy</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s días</item>
+        <item quantity="one">%s día</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s horas</item>
+        <item quantity="one">%s hora</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s minutos</item>
+        <item quantity="one">%s minuto</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s meses</item>
+        <item quantity="one">%s mes</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s segundos</item>
+        <item quantity="one">%s segundo</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s años</item>
+        <item quantity="one">%s año</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d tarjetas estudiadas en %2$s</item>
+        <item quantity="one">%1$d tarjeta estudiada en %2$s</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d minutos</item>
+        <item quantity="one">%1$d minuto</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">%d tarjetas pendientes</item>
+        <item quantity="one">%d tarjeta pendiente</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">%1$d tarjetas pendientes en %2$s</item>
+        <item quantity="one">%1$d tarjeta pendiente en %2$s</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d mazos</item>
+        <item quantity="one">%1$d mazo</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">%d minutos restantes</item>
+        <item quantity="one">%d minuto restante</item>
+    </plurals>
+</resources>

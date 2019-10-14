@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d wiadomości na rozmowę</item>
+        <item quantity="one">%d wiadomość na rozmowę</item>
+        <item quantity="few">%d wiadomości na rozmowę</item>
+        <item quantity="many">%d wiadomości na rozmowę</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Spowoduje to natychmiastowe przycięcie wszystkich rozmów aż do %d najnowszych wiadomości.</item>
+        <item quantity="one">Spowoduje to natychmiastowe przycięcie wszystkich rozmów aż do najnowszej wiadomości.</item>
+        <item quantity="few">Spowoduje to natychmiastowe przycięcie wszystkich rozmów aż do %d najnowszych wiadomości.</item>
+        <item quantity="many">Spowoduje to natychmiastowe przycięcie wszystkich rozmów aż do %d najnowszych wiadomości.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d nieprzeczytanych wiadomości</item>
+        <item quantity="one">%d nieprzeczytana wiadomość</item>
+        <item quantity="few">%d nieprzeczytane wiadomości</item>
+        <item quantity="many">%d nieprzeczytanych wiadomości</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Usunąć wybrane wiadomości?</item>
+        <item quantity="one">Usunąć wybraną wiadomość?</item>
+        <item quantity="few">Usunąć wybrane wiadomości?</item>
+        <item quantity="many">Usunąć wybrane wiadomości?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Wystąpił błąd podczas zapisywania załączników na dysku!</item>
+        <item quantity="one">Wystąpił błąd podczas zapisywania załącznika na dysku!</item>
+        <item quantity="few">Wystąpił błąd podczas zapisywania załączników na dysku!</item>
+        <item quantity="many">Wystąpił błąd podczas zapisywania załączników na dysku!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Zapisywanie załączników</item>
+        <item quantity="one">Zapisywanie załącznika</item>
+        <item quantity="few">Zapisywanie załączników</item>
+        <item quantity="many">Zapisywanie załączników</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Zapisywanie %1$d załączników na dysku</item>
+        <item quantity="one">Zapisywanie załącznika na dysku</item>
+        <item quantity="few">Zapisywanie %1$d załączników na dysku</item>
+        <item quantity="many">Zapisywanie %1$d załączników na dysku</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Zapisywanie wszystkich %1$d załączników na dysku pozwoli na dostęp do nich innym aplikacjom na Twoim urządzeniu.
+
+Kontynuuj?"</item>
+        <item quantity="one">"Zapisanie tego załącznika na dysku pozwoli na dostęp do nich innym aplikacjom na Twoim urządzeniu.
+
+Kontynuuj?"</item>
+        <item quantity="few">"Zapisywanie %1$d załączników na dysku pozwoli na dostęp do nich innym aplikacjom na Twoim urządzeniu.
+
+Kontynuuj?"</item>
+        <item quantity="many">"Zapisywanie wszystkich %1$d załączników na dysku pozwoli na dostęp do nich innym aplikacjom na Twoim urządzeniu.
+
+Kontynuuj?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Spowoduje to trwałe usunięcie wszystkich %1$d wybranych wiadomości.</item>
+        <item quantity="one">Spowoduje to trwałe usunięcie zaznaczonej wiadomości.</item>
+        <item quantity="few">Spowoduje to trwałe usunięcie wszystkich %1$d zaznaczonych wiadomości.</item>
+        <item quantity="many">Spowoduje to trwałe usunięcie wszystkich %1$d zaznaczonych wiadomości.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d konwersacji dodano do archiwum</item>
+        <item quantity="one">Konwersacja została dodana do archiwum</item>
+        <item quantity="few">%d konwersacji dodano do archiwum</item>
+        <item quantity="many">%d konwersacji dodano do archiwum</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Usunąć wybrane rozmowy?</item>
+        <item quantity="one">Usunąć wybraną rozmowę?</item>
+        <item quantity="few">Usunąć wybrane rozmowy?</item>
+        <item quantity="many">Usunąć wybrane rozmowy?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">Przeniesiono %d konwersacji do skrzynki odbiorczej</item>
+        <item quantity="one">Konwersacja została przeniesiona do skrzynki odbiorczej</item>
+        <item quantity="few">Przeniesiono %d konwersacji do skrzynki odbiorczej</item>
+        <item quantity="many">Przeniesiono %d konwersacji do skrzynki odbiorczej</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Spowoduje to trwałe usunięcie wszystkich %1$d zaznaczonych rozmów.</item>
+        <item quantity="one">Spowoduje to trwałe usunięcie wybranej rozmowy.</item>
+        <item quantity="few">Spowoduje to trwałe usunięcie wszystkich %1$d zaznaczonych rozmów.</item>
+        <item quantity="many">Spowoduje to trwałe usunięcie wszystkich %1$d zaznaczonych rozmów.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s dołączył do grupy.</item>
+        <item quantity="one">%1$s dołączył do grupy.</item>
+        <item quantity="few">%1$s dołączyli do grupy.</item>
+        <item quantity="many">%1$s dołączył do grupy.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Wysłać %d zaproszeń SMS?</item>
+        <item quantity="one">Wysłać %d zaproszenie SMS?</item>
+        <item quantity="few">Wysłać %d zaproszenia SMS?</item>
+        <item quantity="many">Wysłać %d zaproszeń SMS?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">WYŚLIJ SMS DO %d ZNAJOMYCH</item>
+        <item quantity="one">WYŚLIJ SMS DO %d ZNAJOMEGO</item>
+        <item quantity="few">WYŚLIJ SMS DO %d ZNAJOMYCH</item>
+        <item quantity="many">WYŚLIJ SMS DO %d ZNAJOMYCH</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Spowoduje to trwałe usunięcie %1$d wybranych wiadomości.</item>
+        <item quantity="one">Spowoduje to trwałe usunięcie wybranej wiadomości.</item>
+        <item quantity="few">Spowoduje to trwałe usunięcie %1$d wybranych wiadomości.</item>
+        <item quantity="many">Spowoduje to trwałe usunięcie %1$d wybranych wiadomości.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Usunąć wybrane wiadomości?</item>
+        <item quantity="one">Usunąć wybraną wiadomość?</item>
+        <item quantity="few">Usunąć wybrane wiadomości?</item>
+        <item quantity="many">Usunąć wybrane wiadomości?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Jesteś o %d kroków od wysłania dziennika debugowania.</item>
+        <item quantity="one">Jesteś o %d krok od wysłania dziennika debugowania.</item>
+        <item quantity="few">Jesteś o %d kroki od wysłania dziennika debugowania.</item>
+        <item quantity="many">Jesteś o %d kroków od wysłania dziennika debugowania.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d elementów</item>
+        <item quantity="one">%d element</item>
+        <item quantity="few">%d elementy</item>
+        <item quantity="many">%d elementów</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">%d dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godz.</item>
+        <item quantity="many">%d godz.</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d tyg.</item>
+        <item quantity="one">%d tydzień</item>
+        <item quantity="few">%d tyg.</item>
+        <item quantity="many">%d tyg.</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d godzin</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godzin</item>
+        <item quantity="many">%d godzin</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d innych</item>
+        <item quantity="one">%d inny</item>
+        <item quantity="few">%d innych</item>
+        <item quantity="many">%d innych</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Twoja wersja Signal wygaśnie za %d dni. Dotknij, aby zaktualizować do najnowszej wersji.</item>
+        <item quantity="one">Twoja wersja Signal wygaśnie za %d dzień. Dotknij, aby zaktualizować do najnowszej wersji.</item>
+        <item quantity="few">Twoja wersja Signal wygaśnie za %d dni. Dotknij, aby zaktualizować do najnowszej wersji.</item>
+        <item quantity="many">Twoja wersja Signal wygaśnie za %d dni. Dotknij, aby zaktualizować do najnowszej wersji.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dateFormatsValues">
+        <item>E dd.MM.yyyy - HH:mm</item>
+        <item>dd.MM.yyyy - HH:mm</item>
+        <item>E MM/dd/yyyy - hh:mm a</item>
+        <item>MM/dd/yyyy - hh:mm a</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="lengthUnits">
+        <item>@string/setting_unit_mm</item>
+        <item>@string/setting_unit_in</item>
+    </string-array>
+    <string-array name="lengthUnitsValues">
+        <item>mm</item>
+        <item>in</item>
+    </string-array>
+    <string-array name="pressureUnits">
+        <item>@string/setting_unit_hpa</item>
+        <item>@string/setting_unit_kpa</item>
+        <item>@string/setting_unit_mmhg</item>
+        <item>@string/setting_unit_inhg</item>
+    </string-array>
+    <string-array name="pressureUnitsValues">
+        <item>hPa</item>
+        <item>kPa</item>
+        <item>mm Hg</item>
+        <item>in Hg</item>
+    </string-array>
+    <string-array name="refreshIntervals">
+        <item>@string/settings_none</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 h</item>
+        <item>2 h</item>
+        <item>6 h</item>
+        <item>12 h</item>
+        <item>24 h</item>
+    </string-array>
+    <string-array name="refreshIntervalsValues">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="speedUnits">
+        <item>@string/setting_unit_mps</item>
+        <item>@string/setting_unit_kph</item>
+        <item>@string/setting_unit_mph</item>
+        <item>@string/setting_unit_bft</item>
+        <item>@string/setting_unit_kn</item>
+    </string-array>
+    <string-array name="speedUnitsValues">
+        <item>m/s</item>
+        <item>kph</item>
+        <item>mph</item>
+        <item>bft</item>
+        <item>kn</item>
+    </string-array>
+    <string-array name="temperatureUnits">
+        <item>@string/setting_unit_Celsuis</item>
+        <item>@string/setting_unit_Fahrenheit</item>
+        <item>@string/setting_unit_Kelvin</item>
+    </string-array>
+    <string-array name="temperatureUnitsValues">
+        <item>°C</item>
+        <item>°F</item>
+        <item>K</item>
+    </string-array>
+    <string-array name="themes">
+        <item>@string/setting_theme_fresh</item>
+        <item>@string/setting_theme_classic</item>
+        <item>@string/setting_theme_dark</item>
+        <item>@string/setting_theme_black</item>
+        <item>@string/setting_theme_classic_dark</item>
+        <item>@string/setting_theme_classic_black</item>
+    </string-array>
+    <string-array name="themesValues">
+        <item>fresh</item>
+        <item>classic</item>
+        <item>dark</item>
+        <item>black</item>
+        <item>classicdark</item>
+        <item>classicblack</item>
+    </string-array>
+    <string-array name="windDirectionArrows">
+        <item>↓</item>
+        <item>↙</item>
+        <item>←</item>
+        <item>↖</item>
+        <item>↑</item>
+        <item>↗</item>
+        <item>→</item>
+        <item>↘</item>
+    </string-array>
+    <string-array name="windDirectionFormatValues">
+        <item>none</item>
+        <item>arrow</item>
+        <item>abbr</item>
+    </string-array>
+    <string-array name="windDirectionFormats">
+        <item>@string/wind_direction_format_none</item>
+        <item>@string/wind_direction_format_arrows</item>
+        <item>@string/wind_direction_format_abbreviations</item>
+    </string-array>
+    <string-array name="windDirections">
+        <item>@string/wind_direction_north</item>
+        <item>@string/wind_direction_north_north_east</item>
+        <item>@string/wind_direction_north_east</item>
+        <item>@string/wind_direction_east_north_east</item>
+        <item>@string/wind_direction_east</item>
+        <item>@string/wind_direction_east_south_east</item>
+        <item>@string/wind_direction_south_east</item>
+        <item>@string/wind_direction_south_south_east</item>
+        <item>@string/wind_direction_south</item>
+        <item>@string/wind_direction_south_south_west</item>
+        <item>@string/wind_direction_south_west</item>
+        <item>@string/wind_direction_west_south_west</item>
+        <item>@string/wind_direction_west</item>
+        <item>@string/wind_direction_west_north_west</item>
+        <item>@string/wind_direction_north_west</item>
+        <item>@string/wind_direction_north_north_west</item>
+    </string-array>
+</resources>

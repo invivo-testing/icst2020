@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:fitsSystemWindows="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:persistent="false" android:title="@string/settings_screen_sync_import_export" android:key="settings_sync_import_export" android:summary="@string/settings_backup_summary" />
+    <Preference android:title="@string/settings_password" android:key="settings_password" android:summary="@string/settings_password_summary" />
+    <SwitchPreference android:title="@string/settings_password_access" android:key="settings_password_access" android:defaultValue="false" />
+    <Preference android:title="@string/settings_reset_all_data" android:key="reset_all_data" />
+</PreferenceScreen>

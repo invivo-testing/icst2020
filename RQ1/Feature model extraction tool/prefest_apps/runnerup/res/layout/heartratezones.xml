@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/activity_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.runnerup.widget.TitleSpinner android:id="@id/hrz_age" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Age" android:key="@string/pref_hrz_age" app:digits="3" app:max_val="300" app:min_val="0" app:type="numberpicker" />
+    <org.runnerup.widget.TitleSpinner android:entries="@array/sexes" android:id="@id/hrz_sex" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Sex" android:prompt="@string/Sex" android:key="@string/pref_hrz_sex" app:type="spinner" />
+    <org.runnerup.widget.TitleSpinner android:id="@id/hrz_mhr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Maximum_heart_rate_MHR" android:key="@string/pref_hrz_mhr" app:digits="3" app:max_val="300" app:min_val="0" app:type="numberpicker" />
+    <TableLayout android:id="@id/zones_table" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

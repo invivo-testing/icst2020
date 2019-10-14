@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/orginalImage" android:layout_width="160.0dip" android:layout_height="240.0dip" android:layout_margin="3.0dip" app:actualImageScaleType="centerCrop" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/possibleImage" android:layout_width="160.0dip" android:layout_height="240.0dip" android:layout_margin="3.0dip" app:actualImageScaleType="centerCrop" />
+    </LinearLayout>
+    <TextView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="Did you shoot these two pictures at the same place? Do you want to use the latitude/longitude of the picture on the right?" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:layout_gravity="right" android:id="@id/negative_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="No" style="@style/Widget.AppCompat.Button.Borderless" />
+        <Button android:layout_gravity="right" android:id="@id/postive_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="Yes" style="@style/Widget.AppCompat.Button.Borderless" />
+    </LinearLayout>
+</LinearLayout>

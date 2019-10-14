@@ -1,0 +1,210 @@
+<feature_model name="vanilla">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'preference_shake'(_r76)
+			:m '_category1'(_r77)
+				:m 'enable_shake'(_r78)
+					:g [1,1]
+						: 'enable_shake_false'(_r79)
+						: 'enable_shake_true'(_r80)
+		:m 'preference_audio'(_r81)
+			:m '_category2'(_r82)
+				:m 'headset_pause'(_r83)
+					:g [1,1]
+						: 'headset_pause_false'(_r84)
+						: 'headset_pause_true'(_r85)
+				:m 'headset_only'(_r86)
+					:g [1,1]
+						: 'headset_only_true'(_r87)
+						: 'headset_only_false'(_r88)
+				:m 'media_button'(_r89)
+					:g [1,1]
+						: 'media_button_false'(_r90)
+						: 'media_button_true'(_r91)
+				:m 'media_button_beep'(_r92)
+					:g [1,1]
+						: 'media_button_beep_true'(_r93)
+						: 'media_button_beep_false'(_r94)
+		:m 'preference_coverart'(_r95)
+			:m '_category6'(_r96)
+				:m 'coverloader_shadow'(_r97)
+					:g [1,1]
+						: 'coverloader_shadow_true'(_r98)
+						: 'coverloader_shadow_false'(_r99)
+				:m 'cover_on_lockscreen'(_r100)
+					:g [1,1]
+						: 'cover_on_lockscreen_true'(_r101)
+						: 'cover_on_lockscreen_false'(_r102)
+				:m 'coverloader_android'(_r103)
+					:g [1,1]
+						: 'coverloader_android_true'(_r104)
+						: 'coverloader_android_false'(_r105)
+				:m 'coverloader_vanilla'(_r106)
+					:g [1,1]
+						: 'coverloader_vanilla_false'(_r107)
+						: 'coverloader_vanilla_true'(_r108)
+				:m 'coverloader_inline'(_r109)
+					:g [1,1]
+						: 'coverloader_inline_false'(_r110)
+						: 'coverloader_inline_true'(_r111)
+		:m 'preference_library'(_r112)
+			:m '_category7'(_r113)
+				:m 'enable_scroll_to_song'(_r114)
+					:g [1,1]
+						: 'enable_scroll_to_song_true'(_r115)
+						: 'enable_scroll_to_song_false'(_r116)
+				:m 'queue_enable_scroll_to_song'(_r117)
+					:g [1,1]
+						: 'queue_enable_scroll_to_song_true'(_r118)
+						: 'queue_enable_scroll_to_song_false'(_r119)
+				:m 'jump_to_enqueued_on_play'(_r120)
+					:g [1,1]
+						: 'jump_to_enqueued_on_play_true'(_r121)
+						: 'jump_to_enqueued_on_play_false'(_r122)
+		:m 'preference_misc'(_r123)
+			:m '_category10'(_r124)
+				:m 'disable_lockscreen'(_r125)
+					:g [1,1]
+						: 'disable_lockscreen_false'(_r126)
+						: 'disable_lockscreen_true'(_r127)
+				:m 'keep_screen_on'(_r128)
+					:g [1,1]
+						: 'keep_screen_on_false'(_r129)
+						: 'keep_screen_on_true'(_r130)
+				:m 'stock_broadcast'(_r131)
+					:g [1,1]
+						: 'stock_broadcast_false'(_r132)
+						: 'stock_broadcast_true'(_r133)
+				:m 'enable_readahead'(_r134)
+					:g [1,1]
+						: 'enable_readahead_false'(_r135)
+						: 'enable_readahead_true'(_r136)
+				:m 'double_tap'(_r137)
+					:g [1,1]
+						: 'double_tap_true'(_r138)
+						: 'double_tap_false'(_r139)
+				:m 'scrobble'(_r140)
+					:g [1,1]
+						: 'scrobble_true'(_r141)
+						: 'scrobble_false'(_r142)
+				:m 'use_idle_timeout'(_r143)
+					:g [1,1]
+						: 'use_idle_timeout_false'(_r144)
+						: 'use_idle_timeout_true'(_r145)
+		:m 'preference_notifications'(_r146)
+			:m '_category11'(_r147)
+				:m 'notification_nag'(_r148)
+					:g [1,1]
+						: 'notification_nag_true'(_r149)
+						: 'notification_nag_false'(_r150)
+		:m 'preference_playback'(_r151)
+			:m '_category12'(_r152)
+				:m 'playback_on_startup'(_r153)
+					:g [1,1]
+						: 'playback_on_startup_true'(_r154)
+						: 'playback_on_startup_false'(_r155)
+		:m 'preference_replaygain'(_r156)
+			:m '_category13'(_r157)
+				:m 'enable_track_replaygain'(_r158)
+					:g [1,1]
+						: 'enable_track_replaygain_false'(_r159)
+						: 'enable_track_replaygain_true'(_r160)
+				:m 'enable_album_replaygain'(_r161)
+					:g [1,1]
+						: 'enable_album_replaygain_true'(_r162)
+						: 'enable_album_replaygain_false'(_r163)
+</feature_tree>
+<constraints>
+</constraints>
+</feature_model>

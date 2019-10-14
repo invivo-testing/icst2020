@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/outer" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TableLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TableRow n1:id="@id/tableRow4" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ic_menu_wifi" />
+            <TextView n1:textAppearance="?android:textAppearanceLarge" n1:gravity="center|left" n1:id="@id/stats_wifi_description" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/n_a" n1:layout_weight="0.8" />
+            <TextView n1:textAppearance="?android:textAppearanceLarge" n1:gravity="center" n1:id="@id/stats_wifi_strength" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/n_a" n1:layout_weight="0.2" />
+        </TableRow>
+        <TableRow n1:id="@id/tableRow2" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ic_menu_cell" />
+            <TextView n1:textAppearance="?android:textAppearanceLarge" n1:id="@id/stats_cell_description" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/n_a" n1:layout_weight="0.6" />
+            <TextView n1:textAppearance="?android:textAppearanceLarge" n1:gravity="center" n1:id="@id/tvTechnology" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/n_a" n1:layout_weight="0.2" />
+            <TextView n1:textAppearance="?android:textAppearanceLarge" n1:gravity="center" n1:id="@id/stats_cell_strength" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/n_a" n1:layout_weight="0.2" />
+        </TableRow>
+        <TableRow>
+            <ImageView n1:id="@id/stats_icon_alert" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:src="@android:drawable/stat_sys_warning" n1:layout_weight="0.1" />
+            <TextView n1:textAppearance="?android:textAppearanceMedium" n1:ellipsize="marquee" n1:id="@id/stats_blacklisted" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="" n1:maxLines="2" n1:layout_weight="0.9" />
+        </TableRow>
+        <TableRow>
+            <ImageView n1:id="@id/stats_icon_free" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:src="@drawable/stat_sys_free" n1:layout_weight="0.1" />
+            <TextView n1:textAppearance="?android:textAppearanceMedium" n1:ellipsize="marquee" n1:id="@id/stats_free" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="" n1:maxLines="2" n1:layout_weight="0.9" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/bottom" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <com.jjoe64.graphview.GraphView n1:layout_gravity="top" n1:id="@id/graph" n1:layout_width="fill_parent" n1:layout_height="100.0dip" />
+    </LinearLayout>
+</LinearLayout>

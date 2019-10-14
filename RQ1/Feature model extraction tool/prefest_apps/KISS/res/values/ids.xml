@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="clearButton" />
+    <item type="id" name="colorPicker" />
+    <item type="id" name="colorTransparent" />
+    <item type="id" name="colorTransparentDark" />
+    <item type="id" name="colorTransparentWhite" />
+    <item type="id" name="color_picker" />
+    <item type="id" name="color_picker_checkmark" />
+    <item type="id" name="color_picker_swatch" />
+    <item type="id" name="embeddedFavoritesBar" />
+    <item type="id" name="externalFavoriteBar" />
+    <item type="id" name="help" />
+    <item type="id" name="item_app_icon" />
+    <item type="id" name="item_app_name" />
+    <item type="id" name="item_app_tag" />
+    <item type="id" name="item_contact_action_message" />
+    <item type="id" name="item_contact_action_phone" />
+    <item type="id" name="item_contact_icon" />
+    <item type="id" name="item_contact_name" />
+    <item type="id" name="item_contact_nickname" />
+    <item type="id" name="item_contact_phone" />
+    <item type="id" name="item_phone_icon" />
+    <item type="id" name="item_phone_text" />
+    <item type="id" name="item_search_icon" />
+    <item type="id" name="item_search_text" />
+    <item type="id" name="item_setting_icon" />
+    <item type="id" name="item_setting_name" />
+    <item type="id" name="item_shortcut_icon" />
+    <item type="id" name="launcherButton" />
+    <item type="id" name="listEdgeEffect" />
+    <item type="id" name="loaderBar" />
+    <item type="id" name="mainKissbar" />
+    <item type="id" name="main_empty" />
+    <item type="id" name="menuButton" />
+    <item type="id" name="preferences" />
+    <item type="id" name="resultLayout" />
+    <item type="id" name="searchEditLayout" />
+    <item type="id" name="searchEditText" />
+    <item type="id" name="settings" />
+    <item type="id" name="tag_input" />
+    <item type="id" name="wallpaper" />
+    <item type="id" name="whiteLauncherButton" />
+    <item type="id" name="widget" />
+    <item type="id" name="widgetLayout" />
+</resources>

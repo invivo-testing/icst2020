@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה %d</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d הודעות לשיחה</item>
+        <item quantity="one">הודעה %d לשיחה</item>
+        <item quantity="two">%d הודעות לשיחה</item>
+        <item quantity="many">%d הודעות לשיחה</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">זה יקצץ מיד את כל השיחות אל %d ההודעות החדשות ביותר.</item>
+        <item quantity="one">זה יקצץ מיד את כל השיחות אל ההודעה החדשה ביותר.</item>
+        <item quantity="two">זה יקצץ מיד את כל השיחות אל %d ההודעות החדשות ביותר.</item>
+        <item quantity="many">זה יקצץ מיד את כל השיחות אל %d ההודעות החדשות ביותר.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d הודעות לא נקראו</item>
+        <item quantity="one">הודעה %d לא נקראה</item>
+        <item quantity="two">%d הודעות לא נקראו</item>
+        <item quantity="many">%d הודעות לא נקראו</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">למחוק את ההודעות שנבחרו?</item>
+        <item quantity="one">למחוק ההודעה שנבחרה?</item>
+        <item quantity="two">למחוק את ההודעות שנבחרו?</item>
+        <item quantity="many">למחוק את ההודעות שנבחרו?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">שגיאה בעת שמירת צרופות באחסון!</item>
+        <item quantity="one">שגיאה בעת שמירת צרופה באחסון!</item>
+        <item quantity="two">שגיאה בעת שמירת צרופות באחסון!</item>
+        <item quantity="many">שגיאה בעת שמירת צרופות באחסון!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">שומר %1$d צרופות</item>
+        <item quantity="one">שומר צרופה</item>
+        <item quantity="two">שומר %1$d צרופות</item>
+        <item quantity="many">שומר %1$d צרופות</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">שומר %1$d צרופות באחסון...</item>
+        <item quantity="one">שומר צרופה באחסון...</item>
+        <item quantity="two">שומר %1$d צרופות באחסון...</item>
+        <item quantity="many">שומר %1$d צרופות באחסון...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"שמירת כל %1$d פריטי המדיה באחסון תתיר לכל יישומים כלשהם להשיג גישה לפריטי המדיה.
+
+להמשיך?"</item>
+        <item quantity="one">"שמירת המדיה הזאת לאחסון תאפשר לכל אפליקציה אחרת לגשת אליהם.
+
+להמשיך?"</item>
+        <item quantity="two">"שמירת כל %1$d פריטי המדיה באחסון תתיר לכל יישומים כלשהם להשיג גישה לפריטי המדיה.
+
+להמשיך?"</item>
+        <item quantity="many">"שמירת כל %1$d פריטי המדיה באחסון תתיר לכל יישומים כלשהם להשיג גישה לפריטי המדיה.
+
+להמשיך?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">זה ימחק לצמיתות את כל %1$d ההודעות שנבחרו.</item>
+        <item quantity="one">זה ימחק לצמיתות את ההודעה שנבחרה.</item>
+        <item quantity="two">זה ימחק לצמיתות את כל %1$d ההודעות שנבחרו.</item>
+        <item quantity="many">זה ימחק לצמיתות את כל %1$d ההודעות שנבחרו.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d שיחות הוכנסו לארכיון</item>
+        <item quantity="one">שיחה הוכנסה לארכיון</item>
+        <item quantity="two">%d שיחות הוכנסו לארכיון</item>
+        <item quantity="many">%d שיחות הוכנסו לארכיון</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">למחוק שיחות נבחרות?</item>
+        <item quantity="one">למחוק שיחה נבחרת?</item>
+        <item quantity="two">למחוק שיחות נבחרות?</item>
+        <item quantity="many">למחוק שיחות נבחרות?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d שיחות הועברו לתיבת הדואר הנכנס</item>
+        <item quantity="one">השיחה הועברה לתיבת הדואר הנכנס</item>
+        <item quantity="two">%d שיחות הועברו לתיבת הדואר הנכנס</item>
+        <item quantity="many">%d שיחות הועברו לתיבת הדואר הנכנס</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">זה ימחק לצמיתות את כל %1$d השיחות שנבחרו.</item>
+        <item quantity="one">זה ימחק לצמיתות את השיחה שנבחרה.</item>
+        <item quantity="two">זה ימחק לצמיתות את כל %1$d השיחות שנבחרו.</item>
+        <item quantity="many">זה ימחק לצמיתות את כל %1$d השיחות שנבחרו.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s הצטרפו אל הקבוצה.</item>
+        <item quantity="one">%1$s הצטרף אל הקבוצה.</item>
+        <item quantity="two">%1$s הצטרפו אל הקבוצה.</item>
+        <item quantity="many">%1$s הצטרפו אל הקבוצה.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">לשלוח %d הזמנות במסרון?</item>
+        <item quantity="one">לשלוח הזמנה %d במסרון?</item>
+        <item quantity="two">לשלוח %d הזמנות במסרון?</item>
+        <item quantity="many">לשלוח %d הזמנות במסרון?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">שלח מסרון אל %d חברים</item>
+        <item quantity="one">שלח מסרון אל חבר %d</item>
+        <item quantity="two">שלח מסרון אל %d חברים</item>
+        <item quantity="many">שלח מסרון אל %d חברים</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">זה ימחק לצמיתות את כל %1$d ההודעות הנבחרות.</item>
+        <item quantity="one">זה ימחק לצמיתות את ההודעה הנבחרת.</item>
+        <item quantity="two">זה ימחק לצמיתות את כל %1$d ההודעות הנבחרות.</item>
+        <item quantity="many">זה ימחק לצמיתות את כל %1$d ההודעות הנבחרות.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">למחוק הודעות נבחרות?</item>
+        <item quantity="one">למחוק הודעה נבחרת?</item>
+        <item quantity="two">למחוק הודעות נבחרות?</item>
+        <item quantity="many">למחוק הודעות נבחרות?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">אתה כעת במרחק %d צעדים מהגשת יומן ניפוי תקלים.</item>
+        <item quantity="one">אתה כעת במרחק צעד %d מהגשת יומן ניפוי תקלים.</item>
+        <item quantity="two">אתה כעת במרחק %d צעדים מהגשת יומן ניפוי תקלים.</item>
+        <item quantity="many">אתה כעת במרחק %d צעדים מהגשת יומן ניפוי תקלים.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d פריטים</item>
+        <item quantity="one">פריט %d</item>
+        <item quantity="two">%d פריטים</item>
+        <item quantity="many">%d פריטים</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d ימים</item>
+        <item quantity="one">יום %d</item>
+        <item quantity="two">%d ימים</item>
+        <item quantity="many">%d ימים</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה %d</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה %d</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d שניות</item>
+        <item quantity="one">שנייה %d</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="many">%d שניות</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d שבועות</item>
+        <item quantity="one">שבוע %d</item>
+        <item quantity="two">%d שבועות</item>
+        <item quantity="many">%d שבועות</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה %d</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d אחרים</item>
+        <item quantity="one">%d אחר</item>
+        <item quantity="two">%d אחרים</item>
+        <item quantity="many">%d אחרים</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">גרסת Signal שלך תפוג תוך %d ימים. הקש כדי לעדכן אל הגרסה העדכנית ביותר.</item>
+        <item quantity="one">גרסת Signal שלך תפוג תוך יום %d. הקש כדי לעדכן אל הגרסה העדכנית ביותר.</item>
+        <item quantity="two">גרסת Signal שלך תפוג תוך %d ימים. הקש כדי לעדכן אל הגרסה העדכנית ביותר.</item>
+        <item quantity="many">גרסת Signal שלך תפוג תוך %d ימים. הקש כדי לעדכן אל הגרסה העדכנית ביותר.</item>
+    </plurals>
+</resources>

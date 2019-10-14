@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d muatnaik</item>
+        <item quantity="zero">Belum ada muatnaik</item>
+        <item quantity="one">%1$d muatnaik</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d muatnaik</item>
+        <item quantity="one">%1$d muatnaik</item>
+    </plurals>
+</resources>

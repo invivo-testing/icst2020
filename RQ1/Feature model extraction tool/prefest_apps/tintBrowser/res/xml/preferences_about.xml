@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.tint.ui.preferences.AboutPreference />
+    <org.tint.ui.preferences.WebViewDialogPreference n1:title="@string/AboutChangelogTitle" n2:html="@raw/changelog_html"
+      xmlns:n1="http://schemas.android.com/apk/res/android"
+      xmlns:n2="http://schemas.android.com/apk/res/org.tint" />
+    <org.tint.ui.preferences.WebViewDialogPreference n3:title="@string/AboutContributorsTitle" n4:html="@raw/contributors_html"
+      xmlns:n3="http://schemas.android.com/apk/res/android"
+      xmlns:n4="http://schemas.android.com/apk/res/org.tint" />
+    <org.tint.ui.preferences.WebViewDialogPreference n5:title="@string/AboutLicensesTitle" n6:html="@raw/licenses_html"
+      xmlns:n5="http://schemas.android.com/apk/res/android"
+      xmlns:n6="http://schemas.android.com/apk/res/org.tint" />
+</PreferenceScreen>

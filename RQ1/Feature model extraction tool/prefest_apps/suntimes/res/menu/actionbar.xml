@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?icActionGPS" n1:id="@id/action_location_refresh" n1:title="@string/configAction_refreshLocation" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?icActionPlace" n3:id="@id/action_location_add" n3:title="@string/configAction_addLocation" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="?icActionMap" n5:id="@id/action_location_show" n5:title="@string/configAction_mapLocation" n6:showAsAction="ifRoom"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="?icActionAlarm" n7:id="@id/action_alarm" n7:title="@string/configAction_setAlarm" n8:showAsAction="never"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:icon="?icActionTime" n9:id="@id/action_date" n9:title="@string/configAction_setDate" n10:showAsAction="never"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <item n11:icon="?icActionTime" n11:id="@id/action_timezone" n11:title="@string/configAction_setTimeZone" n12:showAsAction="never"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <item n13:icon="@drawable/ic_moon" n13:id="@id/action_moon" n13:title="@string/configAction_moon" n14:showAsAction="never"
+      xmlns:n13="http://schemas.android.com/apk/res/android" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    <item n15:icon="@drawable/ic_sun" n15:id="@id/action_sunposition" n15:title="@string/configAction_sunDialog" n16:showAsAction="never"
+      xmlns:n15="http://schemas.android.com/apk/res/android" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    <item n17:icon="?icActionAbout" n17:id="@id/action_equinox" n17:title="@string/configAction_equinoxDialog" n18:showAsAction="never"
+      xmlns:n17="http://schemas.android.com/apk/res/android" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+    <item n19:icon="?icActionSettings" n19:id="@id/action_settings" n19:title="@string/configAction_settings" n20:showAsAction="never"
+      xmlns:n19="http://schemas.android.com/apk/res/android" xmlns:n20="http://schemas.android.com/apk/res-auto" />
+    <item n21:icon="?icActionHelp" n21:id="@id/action_help" n21:title="@string/configAction_help" n22:showAsAction="never"
+      xmlns:n21="http://schemas.android.com/apk/res/android" xmlns:n22="http://schemas.android.com/apk/res-auto" />
+    <item n23:icon="?icActionAbout" n23:id="@id/action_about" n23:title="@string/configAction_aboutWidget" n24:showAsAction="never"
+      xmlns:n23="http://schemas.android.com/apk/res/android" xmlns:n24="http://schemas.android.com/apk/res-auto" />
+</menu>

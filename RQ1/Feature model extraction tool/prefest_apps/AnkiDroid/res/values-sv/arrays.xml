@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Flash-kort för Android&lt;/h2>AnkiDroid är en flash-kort applikation som är helt kompatibel med stationära mjukvaran &lt;a href=\"%2$s\">Anki&lt;/a>. Du kan skapa, ladda ner och lära dig material på både AnkiDroid eller Anki Desktop, och synkronisera dem lätt med AnkiWeb.</item>
+        <item>För att hjälpa oss göra AnkiDroid bättre, vänligen rapportera buggar till &lt;a href=\"%1$s\">issue trackern&lt;/a>; nya funktionsidéer är också mycket välkomna. Hitta svar på &lt;a href=\"%2$s\">wikin&lt;/a> eller starta en diskussion på &lt;a href=\"%3$s\">forumet&lt;/a>.</item>
+        <item>AnkiDroid är en &lt;a href=\"%1$s\">open source mjukvara&lt;a/>, så alla uppmuntras till att &lt;a href=\"%2$s\">bli en bidragsgivare&lt;/a> :-)</item>
+        <item>Icke-utvecklare kan också hjälpa. Exempelvis kan du &lt;a href=\"%1$s\"> hjälpa till att översätta&lt;/a> AnkiDroid, uppdatera wikin, ta skärmdumpar eller blogga om AnkiDroid.</item>
+        <item>AnkiDroid är släppt under &lt;a href=\"%1$s\">GNU-GPL v3 licensen&lt;/a> och all källkod finns tillgänglig &lt;a href=\"%2$s\">på GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Använd nuvarande kortlek</item>
+        <item>Välj efter nottyp</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Högst upp</item>
+        <item>Längst ned</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Fråga</item>
+        <item>Sortera fält</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Svar</item>
+        <item>Kort</item>
+        <item>Kortlek</item>
+        <item>Not</item>
+        <item>Fråga</item>
+        <item>Etiketter</item>
+        <item>Felsvar</item>
+        <item>Repetitioner</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Ingen sortering (snabbare)</item>
+        <item>Efter sorteringsfält</item>
+        <item>Efter tid skapad</item>
+        <item>Efter senast redigerad</item>
+        <item>Efter senast förändrad</item>
+        <item>Efter kötid</item>
+        <item>Efter intervall</item>
+        <item>Efter lätthet</item>
+        <item>Efter repetitioner</item>
+        <item>Efter antal felsvar</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Äldst först</item>
+        <item>Slumpmässigt</item>
+        <item>Ökande intervall</item>
+        <item>Minskande intervall</item>
+        <item>Mest felbesvarade</item>
+        <item>Ordningen de lades till</item>
+        <item>Efter förfallotid</item>
+        <item>Senast tillagda först</item>
+        <item>Relativ försening innan repetition</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Ljus</item>
+        <item>Enkel</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Dagar</item>
+        <item>Veckor</item>
+        <item>Månader</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Rapportera alltid</item>
+        <item>Rapportera aldrig</item>
+        <item>Fråga mig</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Ingen åtgärd</item>
+        <item>Visa svar</item>
+        <item>Svarsknapp 1</item>
+        <item>Svarsknapp 2</item>
+        <item>Svarsknapp 3</item>
+        <item>Svarsknapp 4</item>
+        <item>Rekommenderat svar (grön)</item>
+        <item>Svar bättre än rekommenderat</item>
+        <item>Ångra</item>
+        <item>Redigera not</item>
+        <item>Märk not</item>
+        <item>Sökutryck</item>
+        <item>Göm kort</item>
+        <item>Uteslut kort</item>
+        <item>Ta bort not</item>
+        <item>Spela upp media</item>
+        <item>Avbryt inlärning</item>
+        <item>Göm not</item>
+        <item>Uteslut not</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Åsidosätt kort</item>
+        <item>Endast etikett</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Nya kort i slumpmässig ordning</item>
+        <item>Nya kort i ordningen de lades till</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Blanda nya kort och repetitionskort</item>
+        <item>Nya kort efter repetitioner</item>
+        <item>Nya kort före repetitioner</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Svart</item>
+        <item>Mörk</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>När inget typsnitt angetts på flashkort</item>
+        <item>Alltid</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>04:00</item>
+        <item>10:00</item>
+        <item>16:00</item>
+        <item>22:00</item>
+        <item>03:00</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Sön</item>
+        <item>Mån</item>
+        <item>Tis</item>
+        <item>Ons</item>
+        <item>Tors</item>
+        <item>Fre</item>
+        <item>Lör</item>
+    </string-array>
+</resources>

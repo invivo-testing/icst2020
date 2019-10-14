@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/preference_title_activity_general" android:fragment="org.asdtm.goodweather.SettingsActivity$GeneralPreferenceFragment" />
+    <header android:title="@string/preference_title_activity_widget" android:fragment="org.asdtm.goodweather.SettingsActivity$WidgetPreferenceFragment" />
+    <header android:title="@string/preference_title_activity_about" android:fragment="org.asdtm.goodweather.SettingsActivity$AboutPreferenceFragment" />
+</preference-headers>

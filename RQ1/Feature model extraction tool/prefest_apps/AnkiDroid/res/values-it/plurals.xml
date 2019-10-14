@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">%d carte mostrate</item>
+        <item quantity="one">%d carta mostrata</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">"Eliminare il tipo di carta '%2$s', e le sue carte %1$d?"</item>
+        <item quantity="one">"Eliminare il tipo di carta '%2$s', e la sua carta %1$d?"</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"%1$s
+%2$d mazzi utilizzano questo gruppo"</item>
+        <item quantity="one">"%1$s
+%2$d mazzo utilizza questo gruppo"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">%s sottomazzi utilizzeranno questo gruppo</item>
+        <item quantity="one">%s sottomazzo utilizzerà questo gruppo</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">%1$d carte da ripetere (%2$s)</item>
+        <item quantity="one">%1$d carta da ripetere (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">Eliminare tutte le carte in %1$s? Esso contiene %2$d carte.</item>
+        <item quantity="one">Eliminare tutte le carte in %1$s? Esso contiene %2$d carta.</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">%d carte aggiunte</item>
+        <item quantity="one">%d carta aggiunta</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d note</item>
+        <item quantity="one">%d nota</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">%d tipi di nota disponibile</item>
+        <item quantity="one">%d tipo di nota disponibile</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d nuove carte da studiare in %1$s</item>
+        <item quantity="one">%2$d nuova carta da studiare in %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">Restano %d minuti</item>
+        <item quantity="one">Resta %d minuto</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">Oggi hai studiato &lt;b>%1$d carte&lt;/b> in &lt;b>%2$s&lt;/b>.</item>
+        <item quantity="one">Oggi hai studiato &lt;b>%1$d carta&lt;/b> in &lt;b>%2$s&lt;/b>.</item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">Oggi hai studiato %1$d carte in %2$s</item>
+        <item quantity="one">Oggi hai studiato %1$d carta in %2$s</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s giorni</item>
+        <item quantity="one">%s giorno</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s ore</item>
+        <item quantity="one">%s ora</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s minuti</item>
+        <item quantity="one">%s minuto</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s mesi</item>
+        <item quantity="one">%s mese</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s secondi</item>
+        <item quantity="one">%s secondo</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s anni</item>
+        <item quantity="one">%s anno</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d carte studiate in %2$s</item>
+        <item quantity="one">%1$d carta studiata in %2$s</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d minuti</item>
+        <item quantity="one">%1$d minuto</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">%d carte scadute</item>
+        <item quantity="one">%d carta scaduta</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">%1$d carte scadute in %2$s</item>
+        <item quantity="one">%1$d carta scaduta in %2$s</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d mazzi</item>
+        <item quantity="one">%1$d mazzo</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">%d minuti rimasti</item>
+        <item quantity="one">%d minuto rimasto</item>
+    </plurals>
+</resources>

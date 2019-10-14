@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/background" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/activity_vertical_margin" n1:layout_weight="0.45" />
+    <TextView n1:textAppearance="@style/TextAppearance.AppCompat.Headline" n1:gravity="center" n1:id="@id/title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/activity_vertical_margin" n1:fontFamily="sans-serif-medium" />
+    <TextView n1:textAppearance="@style/TextAppearance.AppCompat.Subhead" n1:gravity="center" n1:id="@id/description" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/activity_vertical_margin" />
+    <LinearLayout n1:gravity="bottom|center" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginBottom="96.0dip" n1:layout_weight="0.55">
+        <Button n1:textColor="@android:color/black" n1:layout_gravity="center" n1:id="@id/go" n1:background="@color/shell_white_color" n1:paddingLeft="@dimen/activity_horizontal_margin" n1:paddingRight="@dimen/activity_horizontal_margin" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/intro_allow_now" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hours_ago">
+        <item quantity="other">%d гадзін</item>
+        <item quantity="one">%d гадзіна</item>
+        <item quantity="few">%d гадзін</item>
+        <item quantity="many">%d гадзін</item>
+    </plurals>
+</resources>

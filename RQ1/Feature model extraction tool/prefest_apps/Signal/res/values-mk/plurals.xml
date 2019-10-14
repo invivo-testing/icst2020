@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Да ви останат само последните %d пораки на сите ваши разговори.</item>
+        <item quantity="one">Да ви остане само последнита порака на сите ваши разговори.</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+</resources>

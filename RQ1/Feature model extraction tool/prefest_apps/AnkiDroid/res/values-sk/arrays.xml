@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Kartičky pre Android&lt;/h2>AnkiDroid je kartičková aplikácia plne kompatibilná s desktopovým programom &lt;a href=\"%2$s\">Anki&lt;/a>. Môžete si tak vytvoriť, stiahnuť a učiť sa materiály na oboch platformách, či už je to AnkiDroid alebo Anki, a synchronizovať ich prostredníctvom AnkiWeb.</item>
+        <item>Aby ste nám pomohli spraviť AnkiDroid lepším, zašlite nám chyby na &lt;a href=\"%1$s\">Issue Tracker&lt;/a>; nápady týkajúce sa funkcionality aplikácie sú taktiež veľmi vítané. Odpovede na ďalšie otázky môžete nájsť na &lt;a href=\"%2$s\">wiki&lt;/a> alebo vytvorte diskusiu na &lt;a href=\"%3$s\">fóre&lt;/a>.</item>
+        <item>AnkiDroid je &lt;a href=\"%1$s\">open source softvér&lt;a/>, preto vítame každého, kto sa chce &lt;a href=\"%2$s\">stať jeho podporovateľom&lt;/a> :-)</item>
+        <item>Môžete pomôcť i napriek tomu, že nie ste vývojárom. Môžete napríklad &lt;a href=\"%1$s\">pomôcť s prekladom&lt;/a> AnkiDroid, aktualizovať informácie na wiki, zasielať print-screeny alebo písať blog o AnkiDroid.</item>
+        <item>AnkiDroid je vydaný pod &lt;a href=\"%1$s\">licenciou GNU-GPL v3&lt;/a> a jeho zdrojový kód je dostupný na stránke &lt;a href=\"%2$s\">GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Použiť aktuálny balíček</item>
+        <item>Rozhodnúť podľa typu poznámky</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Hore</item>
+        <item>Dole</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Otázka</item>
+        <item>Triediace pole</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Odpoveď</item>
+        <item>Kartička</item>
+        <item>Balíček</item>
+        <item>Poznámka</item>
+        <item>Otázka</item>
+        <item>Štítky</item>
+        <item>Zabudnutia</item>
+        <item>Opakovania</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Bez triedenia (rýchlejšie)</item>
+        <item>Podľa triediaceho poľa</item>
+        <item>Podľa času vytvorenia</item>
+        <item>Podľa času úpravy</item>
+        <item>Podľa času zmeny</item>
+        <item>Podľa času preskúšania</item>
+        <item>Podľa intervalu</item>
+        <item>Podľa jednoduchosti</item>
+        <item>Podľa opakovaní</item>
+        <item>Podľa zabudnutí</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Od najstarších</item>
+        <item>Náhodne</item>
+        <item>Rastúce intervaly</item>
+        <item>Klesajúce intervaly</item>
+        <item>Najviac zabúdané</item>
+        <item>V poradí, v akom boli pridané</item>
+        <item>Podľa poradia opakovania</item>
+        <item>Od poslednej pridanej</item>
+        <item>Relatívne oneskorenie</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Svetlý</item>
+        <item>Jednoduchý</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Dni</item>
+        <item>Týždne</item>
+        <item>Mesiace</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Vždy ohlásiť</item>
+        <item>Nikdy nehlásiť</item>
+        <item>Spýtať sa</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Žiadna akcia</item>
+        <item>Zobraziť odpoveď</item>
+        <item>Tlačidlo odpovede 1</item>
+        <item>Tlačidlo odpovede 2</item>
+        <item>Tlačidlo odpovede 3</item>
+        <item>Tlačidlo odpovede 4</item>
+        <item>Odporúčaná odpoveď (zelená)</item>
+        <item>Odpoveď lepšia ako odporúčaná</item>
+        <item>Späť</item>
+        <item>Upraviť poznámku</item>
+        <item>Označiť poznámku</item>
+        <item>Vyhľadať výraz</item>
+        <item>Skryť kartičku</item>
+        <item>Pozastaviť kartičku</item>
+        <item>Vymazať poznámku</item>
+        <item>Prehrať multimédiá</item>
+        <item>Prerušiť učenie</item>
+        <item>Skryť poznámku</item>
+        <item>Pozastaviť poznámku</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Pozastaviť kartičku</item>
+        <item>Iba oštítkovať</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Nové kartičky v náhodnom poradí</item>
+        <item>Nové kartičky v poradí, v akom boli pridané</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Zmiešať nové kartičky s opakovanými</item>
+        <item>Nové kartičky po opakovaných</item>
+        <item>Nové kartičky pred opakovanými</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Čierny</item>
+        <item>Tmavý</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Keď pre kartičky nie je určené žiadne písmo</item>
+        <item>Vždy</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4:00</item>
+        <item>10:00</item>
+        <item>16:00</item>
+        <item>22:00</item>
+        <item>3:00</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Ned</item>
+        <item>Pon</item>
+        <item>Ut</item>
+        <item>Str</item>
+        <item>Štv</item>
+        <item>Pia</item>
+        <item>Sob</item>
+    </string-array>
+</resources>

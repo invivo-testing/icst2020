@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/view_description_edit_help_contents" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:lineSpacingMultiplier="1.2" />
+    <LinearLayout android:id="@id/view_description_edit_help_about" android:background="?selectableItemBackground" android:clickable="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:srcCompat="@drawable/ic_wikidata_logo" />
+        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:text="@string/description_edit_help_about_wikidata" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/view_description_edit_help_guide" android:background="?selectableItemBackground" android:clickable="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/base30" android:contentDescription="@null" app:srcCompat="@drawable/ic_info_outline_black_24dp" />
+        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:text="@string/description_edit_help_wikidata_guide" />
+    </LinearLayout>
+</LinearLayout>

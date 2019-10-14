@@ -1,0 +1,25 @@
+FM (C  :  DeviceConfig AppSettings;
+AppSettings :  'preferences' ;
+'preferences' :  '_category1' ;
+'Personalisation_category2' :  'dark_theme' ;
+'Advanced_category5' :  'toggle_xposed_trackselector' ;
+'LastFM_category3' :  'always_load_album_images_lastfm' 'artist_album_image_mobile' 'artist_album_image' ;
+'_category1' :  'Personalisation_category2' 'Advanced_category5' 'LastFM_category3' 'Other_category4' ;
+'Other_category4' :  'toggle_headphone_pause' 'start_page_preference' 'gestures' 'show_albumart_lockscreen' ;
+'toggle_xposed_trackselector' : ('toggle_xposed_trackselector_true' | 'toggle_xposed_trackselector_false');
+'gestures' : ('gestures_true' | 'gestures_false');
+'artist_album_image_mobile' : ('artist_album_image_mobile_true' | 'artist_album_image_mobile_false');
+'show_albumart_lockscreen' : ('show_albumart_lockscreen_true' | 'show_albumart_lockscreen_false');
+'toggle_headphone_pause' : ('toggle_headphone_pause_true' | 'toggle_headphone_pause_false');
+'dark_theme' : ('dark_theme_true' | 'dark_theme_false');
+'always_load_album_images_lastfm' : ('always_load_album_images_lastfm_true' | 'always_load_album_images_lastfm_false');
+'artist_album_image' : ('artist_album_image_true' | 'artist_album_image_false');
+'start_page_preference' : ('start_page_preference_last_opened'|'start_page_preference_songs'|'start_page_preference_albums'|'start_page_preference_artists');
+DeviceConfig : DeviceModel OperatingSystem;
+ DeviceModel  : ('Xiaomi Redmi Note 3 Pro' |'Aquaris M5' |'moto e5 play' |'LGE Nexus 5' |'Samsung Galaxy Grand Prime' |'Google nexus 5x' |'Samsung Galaxy S5 Neo' |'amsung GT-I9506' |'Xperia Z1 Compact' |'Samsung Note 4 SM-N910F' |'LG Nexus 5' |'motorola Moto E (cm_condor)' |'SM-G960F' |'Moto G4 Play' |'Sony Xperia L' |'Nexus 6P' |'Fairphone 2 (2GB RAM)' |'Samsung Note4' |'LG V30 H932' |'Nexus 5' |'Motorola Moto G 3rd Gen' |'Acer Z205' |'Moto G (falcon)' |'Moto G2' |'Acer V360' |'Asus Zenfone 2 ZE551ML' |'Vodafone 890N' |'Nvidia K1' |'Motorola Nexus 6' |'Samsung Galaxy S3 GT-I9300' |'Fairphone 1U' |'LGE Nexus 5X' |'Pixel 2' |'HTC Sensation XE' |'Motorola Z Play' |'LG Nexus 4' |'Nexus 4' |'Samsung SM-G900F (kltexx)' |'LG Nexus 5X' |'Meizu MX4' |'Android SDK built for x86' |'HTC One M7' |'Moto G4 Plus' |'Samsung Galaxy S5 neo' |'Samsung Galaxy S3 (US AT&T)' |'Aquaris A4.5' |'ONEPLUS A6013' ); 
+OperatingSystem : (CyanogenMod |Android ); 
+CyanogenMod : ('12.1' |'13' ); 
+Android : ('4.4.4' |'6.0.1' |'4.3' |'7.1' |'6.0.1 ' |'6.0.1 (CM 13.0)' |'8.1.0' |'5.1.1' |'5.0.2' |'5.1.1 CM' |'8.0.0' |'9' |'5.0.1' |'7' |'6' |'4.1.1' |'7.1.2' |'4.2.2' |'7.1.1' |'4.4.2' ); 
+'artist_album_image_mobile' implies 'artist_album_image';
+'always_load_album_images_lastfm' implies 'artist_album_image';
+)

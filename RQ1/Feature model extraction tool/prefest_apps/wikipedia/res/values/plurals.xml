@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d years ago</item>
+        <item quantity="one">Last year</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Downloading articles</item>
+        <item quantity="one">Downloading article</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$d articles left</item>
+        <item quantity="one">%1$d article left</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Syncing Reading Lists</item>
+        <item quantity="one">Syncing Reading List</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">%1$d lists left</item>
+        <item quantity="one">%1$d list left</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Syncing %1$d lists…</item>
+        <item quantity="one">Syncing %1$d list…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Downloading %1$d articles…</item>
+        <item quantity="one">Downloading %1$d article…</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">%d mins left</item>
+        <item quantity="one">1 min left</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">These articles will no longer be available offline.</item>
+        <item quantity="one">This article will no longer be available offline.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">These articles will now be available offline.</item>
+        <item quantity="one">This article will now be available offline.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">yesterday</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Remove selected languages?</item>
+        <item quantity="one">Remove selected language?</item>
+    </plurals>
+</resources>

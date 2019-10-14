@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="metaButtonBarButtonStyle" format="reference" />
+    <attr name="metaButtonBarStyle" format="reference" />
+    <attr name="searchBackIcon" format="integer" />
+    <attr name="searchBackground" format="integer" />
+    <attr name="searchCloseIcon" format="integer" />
+</resources>

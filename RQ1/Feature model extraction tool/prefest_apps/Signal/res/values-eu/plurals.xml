@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">minutu %d</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d mezu solasaldiko</item>
+        <item quantity="one">mezu %d solasaldiko</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Solasaldi hari guztiak azkenengo %d mezuetara murriztuko dira berehala.</item>
+        <item quantity="one">Solasaldi hari guztiak berehala azkenengo mezura murriztuko dira</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d mezu irakurri gabe</item>
+        <item quantity="one">%d mezu irakurri gabe</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Ezabatu aukeratutako mezuak?</item>
+        <item quantity="one">Ezabatu aukeratutako mezua?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Errorea eranskinak biltegian gordetzerakoan!</item>
+        <item quantity="one">Errorea eranskina biltegian gordetzerakoan!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Eraskinak (%1$d) gordetzen</item>
+        <item quantity="one">Eranskina gordetzen</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Eraskinak (%1$d) biltegian gordetzen...</item>
+        <item quantity="one">Eranskina biltegian gordetzen...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"%1$d media guztiak biltegian gordetzeak zure telefonoan dagoen beste edozein aplikaziori baimena emango dio berauen sarbiderako.
+ 
+Jarraitu?"</item>
+        <item quantity="one">"Multimedia hau biltegian gordetzeak zure telefonoan dagoen beste edozein aplikazioa ahalbidetuko dio euskarrirako sarbidea.
+
+Jarraitu?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Honek aukeratutako %1$d mezuak behin betiko ezabatuko ditu.</item>
+        <item quantity="one">Honek aukeratutako mezua behin betiko ezabatuko du.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d solasaldi artxibatuak</item>
+        <item quantity="one">Solasaldi artxibatua</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Aukeratutako solasaldiak ezabatu?</item>
+        <item quantity="one">Aukeratutako solasaldia ezabatu?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d solasaldi mugitu dira sarrera-ontzira</item>
+        <item quantity="one">Solasaldi bat mugitu da sarrera-ontzira</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Honek aukeratutako %1$d solasaldiak behin betiko ezabatuko ditu.</item>
+        <item quantity="one">Honek aukeratutako solasaldia behin betiko ezabatuko du.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s taldean sartu dira.</item>
+        <item quantity="one">%1$s taldean sartu da.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Bidali %d SMS gonbidapen?</item>
+        <item quantity="one">Bidali SMS gonbidapen %d?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">BIDALI SMS MEZUA %d LAGUNI</item>
+        <item quantity="one">BIDALI SMS MEZUA LAGUN %dI</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Honek aukeratutako %1$d mezuak behin betiko ezabatuko ditu.</item>
+        <item quantity="one">Honek aukeratutako mezua behin betiko ezabatuko du.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Ezabatu aukeratutako mezuak?</item>
+        <item quantity="one">Ezabatu aukeratutako mezua?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">%d hurrats falta zaizkizu arazterko txosten bat bidaltzeko.</item>
+        <item quantity="one">Hurrats %d falta zaizu arazterko txosten bat bidaltzeko.</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d egun</item>
+        <item quantity="one">Egun %d</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">Ordu %d</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">minutu %d</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">segundo %d</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d aste</item>
+        <item quantity="one">Aste %d</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">ordu %d</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d gehiago</item>
+        <item quantity="one">%d gehiago</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Zure Signal-en bertsioa %d egun barru iraungiko da. Sakatu azkenengo bertsiora eguneratzeko.</item>
+        <item quantity="one">Zure Signal-en bertsioa egun %d barru iraungiko da. Sakatu azkenengo bertsiora eguneratzeko.</item>
+    </plurals>
+</resources>

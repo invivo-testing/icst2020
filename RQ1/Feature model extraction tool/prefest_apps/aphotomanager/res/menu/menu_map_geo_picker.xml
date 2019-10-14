@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_search" android:id="@id/cmd_searchbar" android:orderInCategory="1" android:title="@android:string/search_go" android:showAsAction="always|collapseActionView" android:actionViewClass="de.k3b.android.widget.SearchViewWithHistory" />
+    <item android:icon="@drawable/ic_action_holo_dark_folder" android:id="@id/cmd_select_folder" android:visible="true" android:orderInCategory="4" android:title="@string/folder_menu_title" android:showAsAction="ifRoom" />
+    <item android:icon="@android:drawable/ic_menu_month" android:id="@id/cmd_select_date" android:visible="true" android:orderInCategory="4" android:title="@string/date_picker_menu_title" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_tag" android:id="@id/cmd_select_tag" android:visible="true" android:orderInCategory="4" android:title="@string/tags_activity_title" android:showAsAction="ifRoom" />
+    <item android:icon="@android:drawable/ic_menu_search" android:id="@id/cmd_filter" android:visible="true" android:orderInCategory="10" android:title="@string/filter_menu_title" android:showAsAction="never" />
+    <item android:id="@id/cmd_photo" android:visible="true" android:orderInCategory="50" android:title="@string/show_photo" android:showAsAction="never" />
+    <item android:id="@id/cmd_gallery" android:visible="true" android:orderInCategory="50" android:title="@string/show_in_gallery_menu_title" android:showAsAction="never" />
+    <item android:id="@id/cmd_settings" android:visible="true" android:orderInCategory="500" android:title="@string/settings_title" android:showAsAction="never" />
+    <item android:id="@id/action_details" android:orderInCategory="900" android:title="@string/details_menu_title" android:showAsAction="never" />
+    <item android:id="@id/cmd_about" android:visible="true" android:orderInCategory="10000" android:title="@string/about_summary" android:showAsAction="never" />
+    <item android:id="@id/cmd_app_pin" android:visible="true" android:orderInCategory="9999" android:title="@string/menu_title_app_pinnend" android:showAsAction="never" />
+</menu>

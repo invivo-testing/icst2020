@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:connectbot="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_save" android:id="@id/save" android:title="@string/hostpref_edit_host" connectbot:showAsAction="always|withText" />
+</menu>

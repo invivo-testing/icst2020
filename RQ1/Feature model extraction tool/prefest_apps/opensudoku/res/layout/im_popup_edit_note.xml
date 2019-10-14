@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:padding="4.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TableLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <TableRow n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <ToggleButton n1:id="@id/button_1" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:textOn="1" n1:textOff="1" />
+            <ToggleButton n1:id="@id/button_2" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:textOn="2" n1:textOff="2" />
+            <ToggleButton n1:id="@id/button_3" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:textOn="3" n1:textOff="3" />
+        </TableRow>
+        <TableRow n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <ToggleButton n1:id="@id/button_4" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:textOn="4" n1:textOff="4" />
+            <ToggleButton n1:id="@id/button_5" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:textOn="5" n1:textOff="5" />
+            <ToggleButton n1:id="@id/button_6" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:textOn="6" n1:textOff="6" />
+        </TableRow>
+        <TableRow n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <ToggleButton n1:id="@id/button_7" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:textOn="7" n1:textOff="7" />
+            <ToggleButton n1:id="@id/button_8" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:textOn="8" n1:textOff="8" />
+            <ToggleButton n1:id="@id/button_9" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:textOn="9" n1:textOff="9" />
+        </TableRow>
+        <TableRow n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <Button n1:id="@id/button_clear" n1:layout_width="fill_parent" n1:layout_height="70.0dip" n1:text="@string/clear" />
+            <Button n1:id="@id/button_close" n1:layout_width="fill_parent" n1:layout_height="70.0dip" n1:layout_span="2" n1:text="@string/close" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

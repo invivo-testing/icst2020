@@ -1,0 +1,15 @@
+FM (C  :  DeviceConfig AppSettings;
+AppSettings :  'pref_general' ;
+'pref_general' :  '_category1' ;
+'Advanced_category2' :  'pref_strip_id_station' 'pref_api_url' ;
+'_category1' :  'Advanced_category2' 'pref_map_layer' 'pref_default_tab' ;
+'pref_api_url' : ('pref_api_url_default' | 'pref_api_url_custom');
+'pref_map_layer' : ('pref_map_layer_mapnik'|'pref_map_layer_cyclemap'|'pref_map_layer_osmpublictransport');
+'pref_strip_id_station' : ('pref_strip_id_station_true' | 'pref_strip_id_station_false');
+'pref_default_tab' : ('pref_default_tab_0'|'pref_default_tab_1'|'pref_default_tab_2');
+DeviceConfig : DeviceModel OperatingSystem;
+ DeviceModel  : ('Xiaomi Redmi Note 3 Pro' |'Aquaris M5' |'moto e5 play' |'LGE Nexus 5' |'Samsung Galaxy Grand Prime' |'Google nexus 5x' |'Samsung Galaxy S5 Neo' |'amsung GT-I9506' |'Xperia Z1 Compact' |'Samsung Note 4 SM-N910F' |'LG Nexus 5' |'motorola Moto E (cm_condor)' |'SM-G960F' |'Moto G4 Play' |'Sony Xperia L' |'Nexus 6P' |'Fairphone 2 (2GB RAM)' |'Samsung Note4' |'LG V30 H932' |'Nexus 5' |'Motorola Moto G 3rd Gen' |'Acer Z205' |'Moto G (falcon)' |'Moto G2' |'Acer V360' |'Asus Zenfone 2 ZE551ML' |'Vodafone 890N' |'Nvidia K1' |'Motorola Nexus 6' |'Samsung Galaxy S3 GT-I9300' |'Fairphone 1U' |'LGE Nexus 5X' |'Pixel 2' |'HTC Sensation XE' |'Motorola Z Play' |'LG Nexus 4' |'Nexus 4' |'Samsung SM-G900F (kltexx)' |'LG Nexus 5X' |'Meizu MX4' |'Android SDK built for x86' |'HTC One M7' |'Moto G4 Plus' |'Samsung Galaxy S5 neo' |'Samsung Galaxy S3 (US AT&T)' |'Aquaris A4.5' |'ONEPLUS A6013' ); 
+OperatingSystem : (CyanogenMod |Android ); 
+CyanogenMod : ('12.1' |'13' ); 
+Android : ('4.4.4' |'6.0.1' |'4.3' |'7.1' |'6.0.1 ' |'6.0.1 (CM 13.0)' |'8.1.0' |'5.1.1' |'5.0.2' |'5.1.1 CM' |'8.0.0' |'9' |'5.0.1' |'7' |'6' |'4.1.1' |'7.1.2' |'4.2.2' |'7.1.1' |'4.4.2' ); 
+)

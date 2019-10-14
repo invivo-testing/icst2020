@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d zpráv na konverzaci</item>
+        <item quantity="one">%d zpráva na konverzaci</item>
+        <item quantity="few">%d zprávy na konverzaci</item>
+        <item quantity="many">%d zpráv na konverzaci</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Tímto zkrátíte všechny konverzace na posledních %d zpráv.</item>
+        <item quantity="one">Tímto zkrátíte všechny konverzace na poslední zprávu.</item>
+        <item quantity="few">Tímto zkrátíte všechny konverzace na posledních %d zprávy.</item>
+        <item quantity="many">Tímto zkrátíte všechny konverzace na posledních %d zpráv.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d nepřečtených zpráv</item>
+        <item quantity="one">%d nepřečtená zpráva</item>
+        <item quantity="few">%d nepřečtené zprávy</item>
+        <item quantity="many">%d nepřečtených zpráv</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Smazat označené zprávy?</item>
+        <item quantity="one">Smazat označenou zprávu?</item>
+        <item quantity="few">Smazat označené zprávy?</item>
+        <item quantity="many">Smazat označené zprávy?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Chyba při ukládání příloh!</item>
+        <item quantity="one">Chyba při ukládání přílohy!</item>
+        <item quantity="few">Chyba při ukládání příloh!</item>
+        <item quantity="many">Chyba při ukládání příloh!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Ukládám %1$d příloh</item>
+        <item quantity="one">Ukládám přílohu</item>
+        <item quantity="few">Ukládám %1$d přílohy</item>
+        <item quantity="many">Ukládám %1$d příloh</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Uloženo %1$d příloh do úložiště</item>
+        <item quantity="one">Příloha uložena do úložiště</item>
+        <item quantity="few">Uloženo %1$d přílohy do úložiště</item>
+        <item quantity="many">Uloženo %1$d příloh do úložiště</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Uložíte-li všech %1$d příloh do úložiště, budou k nim mít přístup všechny aplikace ve vašem zařízení.
+
+Pokračovat?"</item>
+        <item quantity="one">"Uložíte-li přílohu do úložiště, budou k ní mít přístup všechny aplikace ve vašem zařízení.
+
+Pokračovat?"</item>
+        <item quantity="few">"Uložíte-li %1$d přílohy do úložiště, budou k nim mít přístup všechny aplikace ve vašem zařízení.
+
+Pokračovat?"</item>
+        <item quantity="many">"Uložíte-li všech %1$d příloh do úložiště, budou k nim mít přístup všechny aplikace ve vašem zařízení.
+
+Pokračovat?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Tímto trvale smažete všech %1$d označených zpráv.</item>
+        <item quantity="one">Tímto trvale smažete označenou zprávu.</item>
+        <item quantity="few">Tímto trvale smažete všechny %1$d označené zprávy.</item>
+        <item quantity="many">Tímto trvale smažete všech %1$d označených zpráv.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d konverzací archivováno</item>
+        <item quantity="one">Konverzace archivována</item>
+        <item quantity="few">%d konverzace archivovány</item>
+        <item quantity="many">%d konverzací archivováno</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Smazat vybrané konverzace?</item>
+        <item quantity="one">Smazat vybranou konverzaci?</item>
+        <item quantity="few">Smazat vybrané konverzace?</item>
+        <item quantity="many">Smazat vybrané konverzace?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">Přesunuto %d konverzací do složky příchozích zpráv</item>
+        <item quantity="one">Konverzace přesunuta do složky příchozích zpráv</item>
+        <item quantity="few">Přesunuty %d konverzace do složky příchozích zpráv</item>
+        <item quantity="many">Přesunuto %d konverzací do složky příchozích zpráv</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Tímto trvale smažete všech %1$d označených konverzací.</item>
+        <item quantity="one">Tímto trvale smažete označenou konverzaci.</item>
+        <item quantity="few">Tímto trvale smažete všechny %1$d označené konverzace.</item>
+        <item quantity="many">Tímto trvale smažete všech %1$d označených konverzací.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s se připojili ke skupině.</item>
+        <item quantity="one">%1$s se připojil ke skupině.</item>
+        <item quantity="few">%1$s se připojili ke skupině.</item>
+        <item quantity="many">%1$s se připojili ke skupině.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Poslat %d SMS pozvánek?</item>
+        <item quantity="one">Poslat %d SMS pozvánku?</item>
+        <item quantity="few">Poslat %d SMS pozvánky?</item>
+        <item quantity="many">Poslat %d SMS pozvánek?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">POSLAT SMS %d PŘÁTELŮM</item>
+        <item quantity="one">POSLAT SMS %d PŘÍTELI</item>
+        <item quantity="few">POSLAT SMS %d PŘÁTELŮM</item>
+        <item quantity="many">POSLAT SMS %d PŘÁTELŮM</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Tímto trvale smažete všech %1$d označených zpráv.</item>
+        <item quantity="one">Tímto trvale smažete označenou zprávu.</item>
+        <item quantity="few">Tímto trvale smažete všechny %1$d označené zprávy.</item>
+        <item quantity="many">Tímto trvale smažete všech %1$d označených zpráv.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Smazat označené zprávy?</item>
+        <item quantity="one">Smazat označenou zprávu?</item>
+        <item quantity="few">Smazat označené zprávy?</item>
+        <item quantity="many">Smazat označené zprávy?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Zbývá vám %d kroků k odeslání ladícího logu.</item>
+        <item quantity="one">Zbývá vám %d krok k odeslání ladícího logu.</item>
+        <item quantity="few">Zbývají vám %d kroky k odeslání ladícího logu.</item>
+        <item quantity="many">Zbývá vám %d kroků k odeslání ladícího logu.</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d dnů</item>
+        <item quantity="one">%d den</item>
+        <item quantity="few">%d dny</item>
+        <item quantity="many">%d dnů</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d hodin</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodin</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d vteřin</item>
+        <item quantity="one">%d vteřina</item>
+        <item quantity="few">%d vteřiny</item>
+        <item quantity="many">%d vteřin</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d týdnů</item>
+        <item quantity="one">%d týden</item>
+        <item quantity="few">%d týdny</item>
+        <item quantity="many">%d týdnů</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d hodin</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodin</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d ostatních</item>
+        <item quantity="one">%d ostatní</item>
+        <item quantity="few">%d ostatní</item>
+        <item quantity="many">%d ostatních</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Platnost vaší verze aplikace Signal skončí za %d dnů. Dotykem aktualizujte na nejnovější verzi.</item>
+        <item quantity="one">Platnost vaší verze aplikace Signal skončí za %d den. Dotykem aktualizujte na nejnovější verzi.</item>
+        <item quantity="few">Platnost vaší verze aplikace Signal skončí za %d dny. Dotykem aktualizujte na nejnovější verzi.</item>
+        <item quantity="many">Platnost vaší verze aplikace Signal skončí za %d dnů. Dotykem aktualizujte na nejnovější verzi.</item>
+    </plurals>
+</resources>

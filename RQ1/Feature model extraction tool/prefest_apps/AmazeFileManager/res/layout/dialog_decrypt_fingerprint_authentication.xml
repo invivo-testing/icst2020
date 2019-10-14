@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.amaze.filemanager.ui.views.ThemedImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_fingerprint_grey600_36dp" />
+    <com.amaze.filemanager.ui.views.ThemedTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_generic" android:text="@string/crypt_fingerprint_authenticate" />
+    <Button android:id="@id/button_decrypt_fingerprint_cancel" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/material_generic_medium" android:layout_marginTop="@dimen/material_generic" android:text="@string/cancel" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/mmx_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="center" android:id="@id/textViewAccountName" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?headerTextViewStyle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mmx_margin" android:baselineAligned="false">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/linearLayoutDate" android:background="@color/holo_blue_light" android:layout_width="52.0dip" android:layout_height="wrap_content" android:minHeight="52.0dip">
+            <com.money.manager.ex.view.RobotoTextView android:textSize="@dimen/mmx_text_view_size_micro" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/textViewMonth" android:layout_width="fill_parent" android:layout_height="wrap_content" app:typeface="roboto_light" />
+            <com.money.manager.ex.view.RobotoTextView android:textSize="@dimen/mmx_text_view_size_medium" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/textViewDay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:typeface="roboto_light" />
+            <com.money.manager.ex.view.RobotoTextView android:textSize="@dimen/mmx_text_view_size_micro" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/textViewYear" android:layout_width="fill_parent" android:layout_height="wrap_content" app:typeface="roboto_light" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mmx_margin" android:layout_marginRight="@dimen/mmx_margin" android:layout_weight="1.0">
+            <com.money.manager.ex.view.RobotoTextView android:ellipsize="end" android:id="@id/textViewPayee" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <com.money.manager.ex.view.RobotoTextView android:ellipsize="end" android:id="@id/textViewCategorySub" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+            <com.money.manager.ex.view.RobotoTextView android:textSize="@dimen/mmx_text_view_size_micro" android:textStyle="italic" android:ellipsize="end" android:id="@id/textViewNotes" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" app:typeface="roboto_condensed_italic" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.money.manager.ex.view.RobotoTextView android:textSize="@dimen/mmx_text_view_size_micro" android:textStyle="italic" android:ellipsize="end" android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/textViewStatus" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" app:typeface="roboto_condensed_italic" />
+            <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="right" android:layout_gravity="center|right" android:id="@id/textViewAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.money.manager.ex.view.RobotoTextView android:textSize="@dimen/mmx_text_view_size_micro" android:textStyle="italic" android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/textViewBalance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:typeface="roboto_condensed_italic" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,169 @@
+<feature_model name="gw">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'pref_general'(_r76)
+			:m '_category1'(_r77)
+				:m 'hide_desc_pref_key'(_r78)
+					:g [1,1]
+						: 'hide_desc_pref_key_false'(_r79)
+						: 'hide_desc_pref_key_true'(_r80)
+				:m 'notification_category_pref_key_category2'(_r81)
+					:m 'notification_vibrate_pref_key'(_r82)
+						:g [1,1]
+							: 'notification_vibrate_pref_key_true'(_r83)
+							: 'notification_vibrate_pref_key_false'(_r84)
+					:m 'notification_interval_pref_key'(_r85)
+						:g [1,1]
+							: 'notification_interval_pref_key_15'(_r86)
+							: 'notification_interval_pref_key_720'(_r87)
+							: 'notification_interval_pref_key_360'(_r88)
+							: 'notification_interval_pref_key_1440'(_r89)
+							: 'notification_interval_pref_key_30'(_r90)
+							: 'notification_interval_pref_key_180'(_r91)
+							: 'notification_interval_pref_key_60'(_r92)
+					:m 'notification_pref_key'(_r93)
+						:g [1,1]
+							: 'notification_pref_key_false'(_r94)
+							: 'notification_pref_key_true'(_r95)
+				:m 'display_category_pref_key_category3'(_r96)
+					:m 'language_pref_key'(_r97)
+						:g [1,1]
+							: 'language_pref_key_de_DE'(_r98)
+							: 'language_pref_key_pl_PL'(_r99)
+							: 'language_pref_key_be_BY'(_r100)
+							: 'language_pref_key_en_GB'(_r101)
+							: 'language_pref_key_eu_ES'(_r102)
+							: 'language_pref_key_fr'(_r103)
+							: 'language_pref_key_cs'(_r104)
+							: 'language_pref_key_ru_RU'(_r105)
+							: 'language_pref_key_es_ES'(_r106)
+							: 'language_pref_key_ja_JP'(_r107)
+					:m 'theme_pref_key'(_r108)
+						:g [1,1]
+							: 'theme_pref_key_dark'(_r109)
+							: 'theme_pref_key_light'(_r110)
+				:m 'temperature_pref_key'(_r111)
+					:g [1,1]
+						: 'temperature_pref_key_imperial'(_r112)
+						: 'temperature_pref_key_metric'(_r113)
+		:m 'pref_widget'(_r114)
+			:m '_category4'(_r115)
+				:m 'widget_update_location_pref_key'(_r116)
+					:g [1,1]
+						: 'widget_update_location_pref_key_true'(_r117)
+						: 'widget_update_location_pref_key_false'(_r118)
+				:m 'widget_theme_pref_key'(_r119)
+					:g [1,1]
+						: 'widget_theme_pref_key_transparent'(_r120)
+						: 'widget_theme_pref_key_dark'(_r121)
+						: 'widget_theme_pref_key_light'(_r122)
+				:m 'widget_update_period_pref_key'(_r123)
+					:g [1,1]
+						: 'widget_update_period_pref_key_720'(_r124)
+						: 'widget_update_period_pref_key_180'(_r125)
+						: 'widget_update_period_pref_key_360'(_r126)
+						: 'widget_update_period_pref_key_15'(_r127)
+						: 'widget_update_period_pref_key_30'(_r128)
+						: 'widget_update_period_pref_key_60'(_r129)
+						: 'widget_update_period_pref_key_1440'(_r130)
+				:m 'widget_use_geocoder_pref_key'(_r131)
+					:g [1,1]
+						: 'widget_use_geocoder_pref_key_true'(_r132)
+						: 'widget_use_geocoder_pref_key_false'(_r133)
+</feature_tree>
+<constraints>
+C0:~_r82 or _r93
+C1:~_r85 or _r93
+</constraints>
+</feature_model>

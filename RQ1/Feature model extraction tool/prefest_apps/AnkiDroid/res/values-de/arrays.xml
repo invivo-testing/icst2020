@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Lernkartei für Android&lt;/h2>AnkiDroid ist eine Lernkartei-Anwendung, die voll kompatibel mit der Desktop-Software &lt;a href=\"%2$s\">Anki&lt;/a> ist. Sie können mit AnkiDroid oder Anki Desktop Inhalte erstellen, herunterladen und lernen, und dann ganz einfach mit AnkiWeb synchronisieren.</item>
+        <item>Um AnkiDroid zu verbessern, melden Sie Bugs bitte in dem &lt;a href=\"%1$s\">Issue-Tracker&lt;/a>; Sie können dort auch Ideen für neue Funktionen eintragen. Schauen Sie sich auch das &lt;a href=\"%2$s\">Wiki&lt;/a> an oder schreiben Sie einen Post im &lt;a href=\"%3$s\">Forum&lt;/a>.</item>
+        <item>AnkiDroid ist &lt;a href=\"%1$s\">quelloffene Software&lt;a/>, und wir würden uns freuen, auch Sie &lt;a href=\"%2$s\">als neue Mitwirkende&lt;/a> willkommen heißen zu können :-)</item>
+        <item>Auch Nicht-Entwickler können helfen. Sie können z. B. beim &lt;a href=\"%1$s\">Übersetzen&lt;/a> von AnkiDroid helfen, das Wiki aktualisieren, Bildschirmfotos machen oder über AnkiDroid bloggen.</item>
+        <item>AnkiDroid ist nach &lt;a href=\"%1$s\">GNU-GPL v3&lt;/a> lizenziert, der Quellcode ist &lt;a href=\"%2$s\">bei GitHub&lt;/a> verfügbar.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Aktuellen Stapel verwenden</item>
+        <item>Nach Notiztyp entscheiden</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Oberseite</item>
+        <item>Unterseite</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Frage</item>
+        <item>Sortierfeld</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Antwort</item>
+        <item>Karte</item>
+        <item>Stapel</item>
+        <item>Notiz</item>
+        <item>Frage</item>
+        <item>Schlagworte</item>
+        <item>Fehlschläge</item>
+        <item>Wiederholungen</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Keine Sortierung (schneller)</item>
+        <item>Nach Sortierfeld</item>
+        <item>Nach Erstellungsdatum</item>
+        <item>Nach Änderungsdatum</item>
+        <item>Nach letzter Veränderung</item>
+        <item>Nach Fälligkeit</item>
+        <item>Nach Intervall</item>
+        <item>Nach Leichtigkeit</item>
+        <item>Nach Wiederholungen</item>
+        <item>Nach Anzahl falscher Antworten</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Am frühesten gesehene zuerst</item>
+        <item>Zufällig</item>
+        <item>Steigende Intervalle</item>
+        <item>Abnehmende Intervalle</item>
+        <item>Meiste Fehlschläge</item>
+        <item>In Reihenfolge des Hinzufügens</item>
+        <item>Nach Fälligkeit</item>
+        <item>Zuletzt hinzugefügte zuerst</item>
+        <item>Relative Überfälligkeit</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Hell</item>
+        <item>Schlicht</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Tage</item>
+        <item>Wochen</item>
+        <item>Monate</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Immer melden</item>
+        <item>Niemals melden</item>
+        <item>Nachfragen</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Keine Aktion</item>
+        <item>Antwort zeigen</item>
+        <item>Antwortschaltfläche 1</item>
+        <item>Antwortschaltfläche 2</item>
+        <item>Antwortschaltfläche 3</item>
+        <item>Antwortschaltfläche 4</item>
+        <item>Empfohlene Antwort (grün)</item>
+        <item>Antwort besser als empfohlen</item>
+        <item>Rückgängig</item>
+        <item>Notiz bearbeiten</item>
+        <item>Notiz markieren</item>
+        <item>Nachschlagen</item>
+        <item>Karte zurückstellen</item>
+        <item>Dauerhaft aussetzen</item>
+        <item>Notiz löschen</item>
+        <item>Medien abspielen</item>
+        <item>Lernen beenden</item>
+        <item>Notiz vorläufig aussetzen</item>
+        <item>Notiz dauerhaft aussetzen</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Karte dauerhaft aussetzen</item>
+        <item>Nur Schlagwort</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Neue Karten in zufälliger Reihenfolge</item>
+        <item>Neue Karten in Reihenfolge des Hinzufügens</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Neue Karten und Wiederholungen mischen</item>
+        <item>Neue Karten nach Wiederholungen</item>
+        <item>Neue Karten vor Wiederholungen</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Schwarz</item>
+        <item>Dunkel</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Wenn keine Schriftart für Karte angegeben</item>
+        <item>Immer</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4 Uhr</item>
+        <item>10 Uhr</item>
+        <item>16 Uhr</item>
+        <item>22 Uhr</item>
+        <item>3 Uhr</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>So</item>
+        <item>Mo</item>
+        <item>Di</item>
+        <item>Mi</item>
+        <item>Do</item>
+        <item>Fr</item>
+        <item>Sa</item>
+    </string-array>
+</resources>

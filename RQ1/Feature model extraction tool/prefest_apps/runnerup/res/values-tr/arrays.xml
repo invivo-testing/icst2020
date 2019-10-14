@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sexes">
+        <item>Erkek</item>
+        <item>Kadın</item>
+    </string-array>
+    <string-array name="types">
+        <item>Süre</item>
+        <item>Mesafe</item>
+    </string-array>
+</resources>

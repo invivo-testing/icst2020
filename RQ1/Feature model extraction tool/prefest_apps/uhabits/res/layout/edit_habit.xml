@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:id="@id/container" style="@style/dialogForm"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:id="@id/formPanel" style="@style/dialogFormPanel">
+        <org.isoron.uhabits.activities.habits.edit.views.NameDescriptionPanel n1:id="@id/namePanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <org.isoron.uhabits.activities.habits.edit.views.FrequencyPanel n1:id="@id/frequencyPanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <org.isoron.uhabits.activities.habits.edit.views.TargetPanel n1:id="@id/targetPanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <org.isoron.uhabits.activities.habits.edit.views.ReminderPanel n1:id="@id/reminderPanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="end" n1:paddingLeft="0.0dip" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:paddingStart="0.0dip" n1:paddingEnd="16.0dip" style="?android:buttonBarStyle">
+        <Button n1:id="@id/buttonDiscard" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/discard" style="?android:buttonBarButtonStyle" />
+        <Button n1:id="@id/buttonSave" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/save" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

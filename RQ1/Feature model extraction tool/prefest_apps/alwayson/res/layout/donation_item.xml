@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/donation_item_wrapper" n1:background="?selectableItemBackground" n1:paddingTop="@dimen/activity_vertical_margin" n1:paddingBottom="@dimen/activity_vertical_margin" n1:clickable="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_gravity="center_vertical" n1:id="@id/icon_iv" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:minWidth="24.0dip" n1:minHeight="24.0dip" n2:srcCompat="@drawable/ic_donation_unlock" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/activity_horizontal_margin">
+        <TextView n1:id="@id/title_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Title" />
+        <TextView n1:id="@id/description_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Body1" />
+    </LinearLayout>
+</LinearLayout>

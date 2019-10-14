@@ -1,0 +1,419 @@
+<feature_model name="runnerup">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'settings'(_r76)
+			:m '_category1'(_r77)
+				:m 'recording_preferencescreen_category4'(_r78)
+					:m 'pref_countdown_time'(_r79)
+						:g [1,1]
+							: 'pref_countdown_time_neg'(_r80)
+							: 'pref_countdown_time_pos'(_r81)
+							: 'pref_countdown_time_zero'(_r82)
+					:m 'pref_autopause_minpace'(_r83)
+						:g [1,1]
+							: 'pref_autopause_minpace_neg'(_r84)
+							: 'pref_autopause_minpace_zero'(_r85)
+							: 'pref_autopause_minpace_pos'(_r86)
+					:m 'pref_pollDistance'(_r87)
+						:g [1,1]
+							: 'pref_pollDistance_zero'(_r88)
+							: 'pref_pollDistance_neg'(_r89)
+							: 'pref_pollDistance_pos'(_r90)
+					:m 'pref_autopause_afterseconds'(_r91)
+						:g [1,1]
+							: 'pref_autopause_afterseconds_zero'(_r92)
+							: 'pref_autopause_afterseconds_pos'(_r93)
+							: 'pref_autopause_afterseconds_neg'(_r94)
+					:m 'pref_autopause_active'(_r95)
+						:g [1,1]
+							: 'pref_autopause_active_true'(_r96)
+							: 'pref_autopause_active_false'(_r97)
+					:m 'pref_autolap'(_r98)
+						:g [1,1]
+							: 'pref_autolap_zero'(_r99)
+							: 'pref_autolap_neg'(_r100)
+							: 'pref_autolap_pos'(_r101)
+					:m 'pref_autolap_active'(_r102)
+						:g [1,1]
+							: 'pref_autolap_active_true'(_r103)
+							: 'pref_autolap_active_false'(_r104)
+					:m 'pref_log_gpx_accuracy'(_r105)
+						:g [1,1]
+							: 'pref_log_gpx_accuracy_true'(_r106)
+							: 'pref_log_gpx_accuracy_false'(_r107)
+					:m 'pref_altitude_adjust'(_r108)
+						:g [1,1]
+							: 'pref_altitude_adjust_true'(_r109)
+							: 'pref_altitude_adjust_false'(_r110)
+					:m 'pref_pollInterval'(_r111)
+						:g [1,1]
+							: 'pref_pollInterval_pos'(_r112)
+							: 'pref_pollInterval_zero'(_r113)
+							: 'pref_pollInterval_neg'(_r114)
+					:m 'pref_countdown_active'(_r115)
+						:g [1,1]
+							: 'pref_countdown_active_true'(_r116)
+							: 'pref_countdown_active_false'(_r117)
+					:m 'pref_speed_from_gps_points'(_r118)
+						:g [1,1]
+							: 'pref_speed_from_gps_points_true'(_r119)
+							: 'pref_speed_from_gps_points_false'(_r120)
+				:m 'graph_preferencescreen_category5'(_r121)
+					:m 'Advanced options_category6'(_r122)
+						:m 'pref_pace_graph_smoothing_filters'(_r123)
+							:g [1,1]
+								: 'pref_pace_graph_smoothing_filters_custom'(_r124)
+								: 'pref_pace_graph_smoothing_filters_default'(_r125)
+						:m 'pref_pace_graph_smoothing'(_r126)
+							:g [1,1]
+								: 'pref_pace_graph_smoothing_true'(_r127)
+								: 'pref_pace_graph_smoothing_false'(_r128)
+				:m 'pref_unit'(_r129)
+					:g [1,1]
+						: 'pref_unit_km'(_r130)
+						: 'pref_unit_mi'(_r131)
+				:m 'sensors_preferencescreen_category2'(_r132)
+					:m 'pref_pressure_elevation_gps_average'(_r133)
+						:g [1,1]
+							: 'pref_pressure_elevation_gps_average_true'(_r134)
+							: 'pref_pressure_elevation_gps_average_false'(_r135)
+					:m 'pref_use_cadence_step_sensor'(_r136)
+						:g [1,1]
+							: 'pref_use_cadence_step_sensor_false'(_r137)
+							: 'pref_use_cadence_step_sensor_true'(_r138)
+					:m 'pref_startgps'(_r139)
+						:g [1,1]
+							: 'pref_startgps_false'(_r140)
+							: 'pref_startgps_true'(_r141)
+					:m 'pref_keystartstop_active'(_r142)
+						:g [1,1]
+							: 'pref_keystartstop_active_true'(_r143)
+							: 'pref_keystartstop_active_false'(_r144)
+					:m 'pref_use_pressure_sensor'(_r145)
+						:g [1,1]
+							: 'pref_use_pressure_sensor_false'(_r146)
+							: 'pref_use_pressure_sensor_true'(_r147)
+					:m 'pref_lock_run'(_r148)
+						:g [1,1]
+							: 'pref_lock_run_false'(_r149)
+							: 'pref_lock_run_true'(_r150)
+					:m 'batterylevelHighThreshold'(_r151)
+						:g [1,1]
+							: 'batterylevelHighThreshold_pos'(_r152)
+							: 'batterylevelHighThreshold_zero'(_r153)
+							: 'batterylevelHighThreshold_neg'(_r154)
+					:m 'pref_use_temperature_sensor'(_r155)
+						:g [1,1]
+							: 'pref_use_temperature_sensor_false'(_r156)
+							: 'pref_use_temperature_sensor_true'(_r157)
+					:m 'batterylevelLowThreshold'(_r158)
+						:g [1,1]
+							: 'batterylevelLowThreshold_zero'(_r159)
+							: 'batterylevelLowThreshold_pos'(_r160)
+							: 'batterylevelLowThreshold_neg'(_r161)
+				:m 'map_preferencescreen_category3'(_r162)
+					:m 'pref_mapbox_default_style'(_r163)
+						:g [1,1]
+							: 'pref_mapbox_default_style_custom'(_r164)
+							: 'pref_mapbox_default_style_default'(_r165)
+				:m 'workout_preferencescreen_category7'(_r166)
+					:m 'pref_step_autolap_active'(_r167)
+						:g [1,1]
+							: 'pref_step_autolap_active_true'(_r168)
+							: 'pref_step_autolap_active_false'(_r169)
+					:m 'pref_step_countdown_time'(_r170)
+						:g [1,1]
+							: 'pref_step_countdown_time_pos'(_r171)
+							: 'pref_step_countdown_time_zero'(_r172)
+							: 'pref_step_countdown_time_neg'(_r173)
+					:m 'pref_convert_interval_distance_rest_to_recovery'(_r174)
+						:g [1,1]
+							: 'pref_convert_interval_distance_rest_to_recovery_false'(_r175)
+							: 'pref_convert_interval_distance_rest_to_recovery_true'(_r176)
+					:m 'target_pace_grace_seconds'(_r177)
+						:g [1,1]
+							: 'target_pace_grace_seconds_zero'(_r178)
+							: 'target_pace_grace_seconds_pos'(_r179)
+							: 'target_pace_grace_seconds_neg'(_r180)
+					:m 'pref_convert_advanced_distance_rest_to_recovery'(_r181)
+						:g [1,1]
+							: 'pref_convert_advanced_distance_rest_to_recovery_true'(_r182)
+							: 'pref_convert_advanced_distance_rest_to_recovery_false'(_r183)
+					:m 'pref_step_countdown_active'(_r184)
+						:g [1,1]
+							: 'pref_step_countdown_active_true'(_r185)
+							: 'pref_step_countdown_active_false'(_r186)
+					:m 'target_pace_moving_average_seconds'(_r187)
+						:g [1,1]
+							: 'target_pace_moving_average_seconds_pos'(_r188)
+							: 'target_pace_moving_average_seconds_neg'(_r189)
+							: 'target_pace_moving_average_seconds_zero'(_r190)
+		:m 'audio_cue_settings'(_r191)
+			:m '_category9'(_r192)
+				:m 'cueinfo_category10'(_r193)
+					:m 'cueinfo_total_speed'(_r194)
+						:g [1,1]
+							: 'cueinfo_total_speed_false'(_r195)
+							: 'cueinfo_total_speed_true'(_r196)
+					:m 'cueinfo_step_speed'(_r197)
+						:g [1,1]
+							: 'cueinfo_step_speed_true'(_r198)
+							: 'cueinfo_step_speed_false'(_r199)
+					:m 'cueinfo_current_cadence'(_r200)
+						:g [1,1]
+							: 'cueinfo_current_cadence_true'(_r201)
+							: 'cueinfo_current_cadence_false'(_r202)
+					:m 'cueinfo_lap_speed'(_r203)
+						:g [1,1]
+							: 'cueinfo_lap_speed_false'(_r204)
+							: 'cueinfo_lap_speed_true'(_r205)
+					:m 'cueinfo_total_hrz'(_r206)
+						:g [1,1]
+							: 'cueinfo_total_hrz_false'(_r207)
+							: 'cueinfo_total_hrz_true'(_r208)
+					:m 'cueinfo_total_distance'(_r209)
+						:g [1,1]
+							: 'cueinfo_total_distance_true'(_r210)
+							: 'cueinfo_total_distance_false'(_r211)
+					:m 'cueinfo_step_hrz'(_r212)
+						:g [1,1]
+							: 'cueinfo_step_hrz_false'(_r213)
+							: 'cueinfo_step_hrz_true'(_r214)
+					:m 'cueinfo_lap_time'(_r215)
+						:g [1,1]
+							: 'cueinfo_lap_time_false'(_r216)
+							: 'cueinfo_lap_time_true'(_r217)
+					:m 'cueinfo_lap_pace'(_r218)
+						:g [1,1]
+							: 'cueinfo_lap_pace_true'(_r219)
+							: 'cueinfo_lap_pace_false'(_r220)
+					:m 'cueinfo_total_time'(_r221)
+						:g [1,1]
+							: 'cueinfo_total_time_true'(_r222)
+							: 'cueinfo_total_time_false'(_r223)
+					:m 'cueinfo_step_hr'(_r224)
+						:g [1,1]
+							: 'cueinfo_step_hr_false'(_r225)
+							: 'cueinfo_step_hr_true'(_r226)
+					:m 'cueinfo_step_distance'(_r227)
+						:g [1,1]
+							: 'cueinfo_step_distance_true'(_r228)
+							: 'cueinfo_step_distance_false'(_r229)
+					:m 'cueinfo_step_pace'(_r230)
+						:g [1,1]
+							: 'cueinfo_step_pace_true'(_r231)
+							: 'cueinfo_step_pace_false'(_r232)
+					:m 'cueinfo_current_hrz'(_r233)
+						:g [1,1]
+							: 'cueinfo_current_hrz_false'(_r234)
+							: 'cueinfo_current_hrz_true'(_r235)
+					:m 'cueinfo_current_speed'(_r236)
+						:g [1,1]
+							: 'cueinfo_current_speed_false'(_r237)
+							: 'cueinfo_current_speed_true'(_r238)
+					:m 'cueinfo_step_time'(_r239)
+						:g [1,1]
+							: 'cueinfo_step_time_true'(_r240)
+							: 'cueinfo_step_time_false'(_r241)
+					:m 'cueinfo_current_pace'(_r242)
+						:g [1,1]
+							: 'cueinfo_current_pace_true'(_r243)
+							: 'cueinfo_current_pace_false'(_r244)
+					:m 'cueinfo_current_hr'(_r245)
+						:g [1,1]
+							: 'cueinfo_current_hr_false'(_r246)
+							: 'cueinfo_current_hr_true'(_r247)
+					:m 'cueinfo_lap_distance'(_r248)
+						:g [1,1]
+							: 'cueinfo_lap_distance_true'(_r249)
+							: 'cueinfo_lap_distance_false'(_r250)
+					:m 'cueinfo_total_hr'(_r251)
+						:g [1,1]
+							: 'cueinfo_total_hr_true'(_r252)
+							: 'cueinfo_total_hr_false'(_r253)
+					:m 'cueinfo_total_pace'(_r254)
+						:g [1,1]
+							: 'cueinfo_total_pace_true'(_r255)
+							: 'cueinfo_total_pace_false'(_r256)
+					:m 'cueinfo_lap_hrz'(_r257)
+						:g [1,1]
+							: 'cueinfo_lap_hrz_false'(_r258)
+							: 'cueinfo_lap_hrz_true'(_r259)
+					:m 'cueinfo_lap_hr'(_r260)
+						:g [1,1]
+							: 'cueinfo_lap_hr_true'(_r261)
+							: 'cueinfo_lap_hr_false'(_r262)
+				:m 'Test_audio_cue_category11'(_r263)
+					:m 'pref_audio_lang'(_r264)
+						:g [1,1]
+							: 'pref_audio_lang_pl'(_r265)
+							: 'pref_audio_lang_pt'(_r266)
+							: 'pref_audio_lang_id'(_r267)
+							: 'pref_audio_lang_de'(_r268)
+							: 'pref_audio_lang_ru'(_r269)
+							: 'pref_audio_lang_it'(_r270)
+							: 'pref_audio_lang_ja'(_r271)
+							: 'pref_audio_lang_fr'(_r272)
+							: 'pref_audio_lang_sv'(_r273)
+							: 'pref_audio_lang_es'(_r274)
+							: 'pref_audio_lang_nl'(_r275)
+							: 'pref_audio_lang_fi'(_r276)
+							: 'pref_audio_lang_ar'(_r277)
+							: 'pref_audio_lang_nb'(_r278)
+							: 'pref_audio_lang_hu'(_r279)
+							: 'pref_audio_lang_en'(_r280)
+							: 'pref_audio_lang_lt'(_r281)
+							: 'pref_audio_lang_ca'(_r282)
+							: 'pref_audio_lang_tr'(_r283)
+				:m 'Misc_cues_category13'(_r284)
+					:m 'cueinfo_target_coaching'(_r285)
+						:g [1,1]
+							: 'cueinfo_target_coaching_false'(_r286)
+							: 'cueinfo_target_coaching_true'(_r287)
+					:m 'cueinfo_skip_startstop'(_r288)
+						:g [1,1]
+							: 'cueinfo_skip_startstop_true'(_r289)
+							: 'cueinfo_skip_startstop_false'(_r290)
+				:m 'cue_distance'(_r291)
+					:g [1,1]
+						: 'cue_distance_false'(_r292)
+						: 'cue_distance_true'(_r293)
+				:m 'pref_cue_hrm_connection'(_r294)
+					:g [1,1]
+						: 'pref_cue_hrm_connection_true'(_r295)
+						: 'pref_cue_hrm_connection_false'(_r296)
+				:m 'cue_time'(_r297)
+					:g [1,1]
+						: 'cue_time_false'(_r298)
+						: 'cue_time_true'(_r299)
+				:m 'cue_end_of_lap'(_r300)
+					:g [1,1]
+						: 'cue_end_of_lap_true'(_r301)
+						: 'cue_end_of_lap_false'(_r302)
+				:m 'cueinfo_units'(_r303)
+					:g [1,1]
+						: 'cueinfo_units_true'(_r304)
+						: 'cueinfo_units_false'(_r305)
+				:m 'cue_time_intervall'(_r306)
+					:g [1,1]
+						: 'cue_time_intervall_pos'(_r307)
+						: 'cue_time_intervall_zero'(_r308)
+						: 'cue_time_intervall_neg'(_r309)
+				:m 'pref_mute_bool'(_r310)
+					:g [1,1]
+						: 'pref_mute_bool_true'(_r311)
+						: 'pref_mute_bool_false'(_r312)
+				:m 'pref_lap_started'(_r313)
+					:g [1,1]
+						: 'pref_lap_started_false'(_r314)
+						: 'pref_lap_started_true'(_r315)
+				:m 'cue_distance_intervall'(_r316)
+					:g [1,1]
+						: 'cue_distance_intervall_pos'(_r317)
+						: 'cue_distance_intervall_zero'(_r318)
+						: 'cue_distance_intervall_neg'(_r319)
+</feature_tree>
+<constraints>
+C0:~_r306 or _r297
+C1:~_r98 or _r102
+C2:~_r79 or _r115
+C3:~_r91 or _r95
+C4:~_r133 or _r145
+C5:~_r123 or _r126
+C6:~_r170 or _r184
+C7:~_r83 or _r95
+C8:~_r316 or _r291
+C9:~_r313 or _r300
+</constraints>
+</feature_model>

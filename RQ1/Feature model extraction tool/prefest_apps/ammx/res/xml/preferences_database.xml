@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@null" android:title="@string/path" android:key="@string/pref_database_path" />
+    <Preference android:icon="@null" android:title="@string/database_version" android:key="@string/pref_database_version" />
+    <Preference android:icon="@null" android:title="@string/database_migrate_14_to_20" android:key="@string/pref_database_migrate_14_to_20" />
+    <Preference android:icon="@null" android:title="@string/clear_recent_files_list" android:key="@string/pref_clear_recent_files" />
+    <Preference android:icon="@null" android:title="@string/menu_move_database_to_external_storage" android:key="@string/pref_database_backup" />
+    <Preference android:icon="@null" android:title="@string/db_check_integrity" android:key="@string/pref_database_check_integrity" />
+    <Preference android:icon="@null" android:title="@string/db_check_schema" android:key="@string/pref_db_check_schema" />
+    <Preference android:icon="@null" android:title="@string/create_db" android:key="@string/pref_database_create" />
+    <Preference android:icon="@null" android:title="@string/db_fix_duplicates" android:key="@string/pref_db_fix_duplicates" />
+    <Preference android:icon="@null" android:title="@string/android_sqlite_vesion" android:key="@string/pref_sqlite_version" />
+</PreferenceScreen>

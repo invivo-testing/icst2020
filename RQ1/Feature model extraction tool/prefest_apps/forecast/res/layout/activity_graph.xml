@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:chart="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/graph_scrollView" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/graph_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" chart:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip">
+                    <TextView android:textSize="18.0dip" android:textColor="@color/text_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/temperature" />
+                    <com.db.chart.view.LineChartView android:id="@id/graph_temperature" android:layout_width="fill_parent" android:layout_height="200.0dip" chart:chart_axisBorderSpacing="8.0dip" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip">
+                    <TextView android:textSize="18.0dip" android:textColor="@color/text_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/rain" />
+                    <com.db.chart.view.LineChartView android:id="@id/graph_rain" android:layout_width="fill_parent" android:layout_height="200.0dip" chart:chart_axisBorderSpacing="8.0dip" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip">
+                    <TextView android:textSize="18.0dip" android:textColor="@color/text_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/pressure" />
+                    <com.db.chart.view.LineChartView android:id="@id/graph_pressure" android:layout_width="fill_parent" android:layout_height="200.0dip" chart:chart_axisBorderSpacing="8.0dip" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip">
+                    <TextView android:textSize="18.0dip" android:textColor="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/wind_speed" />
+                    <com.db.chart.view.LineChartView android:id="@id/graph_windspeed" android:layout_width="fill_parent" android:layout_height="200.0dip" chart:chart_axisBorderSpacing="8.0dip" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minutt</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d meldinger per samtale</item>
+        <item quantity="one">%d melding per samtale</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Dette forkorter alle samtaler til de %d siste meldingene umiddelbart.</item>
+        <item quantity="one">Dette forkorter alle samtaler til den nyeste meldinga umiddelbart.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d uleste meldinger</item>
+        <item quantity="one">%d ulest melding</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Vil du slette valgte meldinger?</item>
+        <item quantity="one">Vil du slette valgt melding?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Det oppstod en feil under lagring av vedlegg som vanlige filer.</item>
+        <item quantity="one">Det oppstod en feil under lagring av vedlegg som vanlig fil.</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Lagrer %1$d vedlegg</item>
+        <item quantity="one">Lagrer vedlegg</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Lagrer %1$d vedlegg på enhetslager …</item>
+        <item quantity="one">Lagrer vedlegg på enhetslager …</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Hvis du lagrer disse %1$d mediene på enheten som vanlige filer, kan andre programmer få tilgang til dem.
+
+Er du sikker på at du vil fortsette?"</item>
+        <item quantity="one">"Hvis du lagrer dette mediet på enheten som vanlig fil, kan andre programmer få tilgang til det.
+
+Er du sikker på at du vil fortsette?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Denne handlinga sletter alle %1$d valgte meldinger for godt.</item>
+        <item quantity="one">Denne handlinga sletter valgt melding for godt.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d samtaler arkivert</item>
+        <item quantity="one">Samtale arkivert</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Vil du slette valgte samtaler?</item>
+        <item quantity="one">Vil du slette valgt samtale?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">Flyttet %d samtaler til innboks</item>
+        <item quantity="one">Flyttet samtalen til innboks</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Denne handlinga sletter %1$d valgte samtaler for godt.</item>
+        <item quantity="one">Denne handlinga sletter valgt samtale for godt.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s ble med i gruppa.</item>
+        <item quantity="one">%1$s ble med i gruppa.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Vil du sende %d SMS-invitasjoner?</item>
+        <item quantity="one">Vil du sende %d SMS-invitasjon?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">SEND SMS TIL %dVENNER</item>
+        <item quantity="one">SEND SMS TIL %dVENN</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Alle %1$d markerte meldinger blir slettet for godt.</item>
+        <item quantity="one">Markert melding blir slettet for godt.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Vil du slette valgte meldinger?</item>
+        <item quantity="one">Vil du slette valgt melding?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Du er nå %d steg unna fra å sende inn en feilsøkingslogg.</item>
+        <item quantity="one">Du er nå %d steg unna fra å sende inn en feilsøkingslogg.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d Deler</item>
+        <item quantity="one">%d Del</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d dager</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minutt</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d uker</item>
+        <item quantity="one">%d uke</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d andre</item>
+        <item quantity="one">%d annen</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Denne versjonen av Signal utløper om %d dag. Trykk for å oppdatere programmet til nyeste versjon.</item>
+        <item quantity="one">Denne versjonen av Signal utløper om %ddag. Trykk for å oppdatere programmet til nyeste versjon.</item>
+    </plurals>
+</resources>

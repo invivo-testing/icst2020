@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/themegrid_background" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="?timeCardBackground" n1:scaleType="centerCrop" n1:alpha="0.0" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar n1:theme="?toolbarTheme" n1:id="@id/app_menubar" n1:background="?colorPrimary" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n2:popupTheme="?actionBarPopupTheme" n2:title="@string/configLabel_widgetThemeListSelect" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <GridView n1:gravity="center" n1:id="@id/themegrid" n1:paddingLeft="8.0dip" n1:paddingTop="16.0dip" n1:paddingRight="8.0dip" n1:paddingBottom="8.0dip" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:horizontalSpacing="8.0dip" n1:verticalSpacing="8.0dip" n1:stretchMode="columnWidth" n1:numColumns="auto_fit" n1:layout_weight="1.0" />
+        <LinearLayout n1:background="?colorPrimary" n1:layout_width="fill_parent" n1:layout_height="48.0dip">
+            <LinearLayout n1:gravity="center" n1:id="@id/themegrid_bottom" n1:background="?selectableItemBackground" n1:focusable="true" n1:clickable="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+                <ImageView n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="4.0dip" n1:src="?icActionDst" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

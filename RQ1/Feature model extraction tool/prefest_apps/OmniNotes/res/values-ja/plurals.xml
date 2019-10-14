@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">%d回繰り返す</item>
+        <item quantity="one">%d回繰り返す</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">繰り返す間隔: %d日</item>
+        <item quantity="one">繰り返す間隔: %d日</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">繰り返す間隔: %dか月</item>
+        <item quantity="one">繰り返す間隔: %dか月</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">繰り返す間隔: %d週間</item>
+        <item quantity="one">繰り返す間隔: %d週間</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">繰り返す間隔: %d年</item>
+        <item quantity="one">繰り返す間隔: %d年</item>
+    </plurals>
+</resources>

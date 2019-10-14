@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:runnerup="http://schemas.android.com/apk/res-auto">
+    <org.runnerup.widget.TitleSpinner android:orientation="horizontal" android:id="@id/new_workout_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Workout" runnerup:type="spinner_txt" />
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/new_advnced_workout_steps" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/button_table" android:layout_below="@id/new_workout_spinner" />
+    <TableLayout android:id="@id/button_table" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/add_step_button" android:background="@drawable/btn_blue" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Add_step" android:layout_weight="1.0" style="@style/ButtonText" />
+            <Button android:id="@id/add_repeat_button" android:background="@drawable/btn_blue" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Add_repeat" android:layout_weight="1.0" style="@style/ButtonText" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/workout_save_button" android:background="@drawable/btn_green" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Save" android:layout_weight="1.0" style="@style/ButtonText" />
+            <Button android:id="@id/workout_discard_button" android:background="@drawable/btn_red" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Discard" android:layout_weight="1.0" style="@style/ButtonText" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

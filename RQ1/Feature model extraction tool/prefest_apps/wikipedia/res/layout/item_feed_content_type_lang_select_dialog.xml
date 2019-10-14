@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView android:id="@id/feed_content_type_lang_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" android:text="@string/feed_configure_language_warning" style="@style/MaterialListSubtitle" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <View android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

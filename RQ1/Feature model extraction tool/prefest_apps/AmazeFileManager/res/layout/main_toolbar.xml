@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" fab:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <include layout="@layout/layout_appbar" />
+        <include layout="@layout/layout_search" />
+        <LinearLayout android:layout_gravity="bottom|center" android:id="@id/indicator_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+            <ImageView android:id="@id/tab_indicator1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:minWidth="50.0dip" />
+            <ImageView android:id="@id/tab_indicator2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:minWidth="50.0dip" />
+        </LinearLayout>
+        <View android:id="@id/fab_bg" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/fab_shadow_light" />
+        <include layout="@layout/layout_fab" />
+    </android.support.design.widget.CoordinatorLayout>
+    <com.amaze.filemanager.ui.views.drawer.CustomNavigationView android:layout_gravity="start" android:id="@id/navigation" android:layout_width="@dimen/drawer_width" android:layout_height="fill_parent" />
+</android.support.v4.widget.DrawerLayout>

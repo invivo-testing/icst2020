@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/history_empty_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/history_empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/history_empty_title" style="@style/MaterialLargePrimaryTitle" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/history_empty_image" android:layout_width="168.0dip" android:layout_height="168.0dip" android:contentDescription="@null" app:srcCompat="@drawable/no_history" />
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/history_empty_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/history_empty_message" style="@style/MaterialMediumSecondaryCaption" />
+    </LinearLayout>
+    <org.wikipedia.views.SearchEmptyView android:layout_gravity="center" android:id="@id/search_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView android:id="@id/history_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%dmissatges per conversa</item>
+        <item quantity="one">%d missatge per conversa</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Això reduirà immediatament totes les converses als %d missatges més recents.</item>
+        <item quantity="one">Això reduirà immediatament totes les converses al missatge més recent.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d missatges sense llegir</item>
+        <item quantity="one">%d missatge sense llegir</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Voleu suprimir els missatges seleccionats?</item>
+        <item quantity="one">Voleu suprimir el missatge seleccionat?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">"Error en desar els fitxers adjunts a l'emmagatzematge."</item>
+        <item quantity="one">"Error al desar el fitxer adjunt a l'emmagatzematge!"</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">"S'estan desant els %1$d fitxers"</item>
+        <item quantity="one">"S'està desant el fitxer"</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">"S'estan desant els %1$d fitxers a l'emmagatzematge..."</item>
+        <item quantity="one">"S'està desant el fitxer a l'emmagatzematge..."</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Desar els %1$d fitxers a l'emmagatzematge permetrà que qualsevol altra aplicació del dispositiu també hi pugui accedir.
+
+Voleu continuar?"</item>
+        <item quantity="one">"Desar aquest mitjà a emmagatzematge permetrà que qualsevol altra aplicació del dispositiu també hi pugui accedir.
+
+Voleu continuar?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Se suprimiran de manera permanent els %1$d missatges seleccionats.</item>
+        <item quantity="one">Se suprimirà de manera permanent el missatge seleccionat.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d converses arxivades</item>
+        <item quantity="one">Conversa arxivada</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Voleu suprimir les converses seleccionades?</item>
+        <item quantity="one">Voleu suprimir la conversa seleccionada?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">"S'han mogut %d converses a la safata d'entrada"</item>
+        <item quantity="one">"S'ha mogut la conversa a la safata d'entrada"</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Se suprimiran permanentment les %1$d converses seleccionades.</item>
+        <item quantity="one">Se suprimirà permanentment la conversa seleccionada.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">"%1$s s'han unit al grup."</item>
+        <item quantity="one">"%1$s s'ha unit al grup."</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Voleu enviar %d invitacions SMS?</item>
+        <item quantity="one">Voleu enviar %d invitació SMS?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">"ENVIA L'SMS A %d AMISTATS"</item>
+        <item quantity="one">"ENVIA L'SMS A %d AMISTAT"</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Se suprimiran de manera permanent els %1$d missatges seleccionats.</item>
+        <item quantity="one">Se suprimirà de manera permanent el missatge seleccionat.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Voleu suprimir els missatges seleccionats?</item>
+        <item quantity="one">Voleu suprimir el missatge seleccionat?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Ara us queden %d passos per transmetre un informe de depuració.</item>
+        <item quantity="one">Ara us queda %d pas per transmetre un informe de depuració.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d elements</item>
+        <item quantity="one">%d element</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d dies</item>
+        <item quantity="one">%d dia</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d segons</item>
+        <item quantity="one">%d segon</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d setmanes</item>
+        <item quantity="one">%d setmana</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d més</item>
+        <item quantity="one">%d altre</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">"La vostra versió del Signal caducarà d'aquí %d dies. Premeu per a actualitzar-la a la versió més recent."</item>
+        <item quantity="one">"La vostra versió del Signal caducarà d'aquí %d dia. Premeu per a actualitzar-la a la versió més recent."</item>
+    </plurals>
+</resources>

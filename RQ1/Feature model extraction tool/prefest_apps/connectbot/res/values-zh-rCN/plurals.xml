@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other">复制了 %1$d 字节到剪贴板</item>
+    </plurals>
+</resources>

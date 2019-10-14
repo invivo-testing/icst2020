@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/reset_custom_buttons" android:key="reset_custom_buttons" />
+    <PreferenceCategory android:title="@string/deck_conf_general">
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/undo" android:key="customButtonUndo" android:defaultValue="2" android:entryValues="@array/custom_button_values" />
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/card_editor_card_scheduling" android:key="customButtonScheduleCard" android:defaultValue="2" android:entryValues="@array/custom_button_values" />
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/menu_mark_note" android:key="customButtonMarkCard" android:defaultValue="2" android:entryValues="@array/custom_button_values" />
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/cardeditor_title_edit_card" android:key="customButtonEditCard" android:defaultValue="1" android:entryValues="@array/custom_button_values" />
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/menu_add_note" android:key="customButtonAddCard" android:defaultValue="3" android:entryValues="@array/custom_button_values" />
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/replay_audio" android:key="customButtonReplay" android:defaultValue="1" android:entryValues="@array/custom_button_values" />
+        <ListPreference android:entries="@array/custom_button_labels_menu_and_disabled" android:title="@string/select_tts" android:key="customButtonSelectTts" android:defaultValue="0" android:entryValues="@array/custom_button_values_menu_and_disabled" />
+        <ListPreference android:entries="@array/custom_button_labels_menu_and_disabled" android:title="@string/study_options" android:key="customButtonDeckOptions" android:defaultValue="0" android:entryValues="@array/custom_button_values_menu_and_disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/menu_dismiss_note">
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/menu_bury" android:key="customButtonBury" android:defaultValue="0" android:entryValues="@array/custom_button_values" />
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/menu_suspend" android:key="customButtonSuspend" android:defaultValue="0" android:entryValues="@array/custom_button_values" />
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/menu_delete_note" android:key="customButtonDelete" android:defaultValue="0" android:entryValues="@array/custom_button_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_whiteboard">
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/hide_whiteboard" android:key="customButtonShowHideWhiteboard" android:defaultValue="2" android:entryValues="@array/custom_button_values" />
+        <ListPreference android:entries="@array/custom_button_labels" android:title="@string/clear_whiteboard" android:key="customButtonClearWhiteboard" android:defaultValue="1" android:entryValues="@array/custom_button_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutti</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d viestiä per keskustelu</item>
+        <item quantity="one">%d viesti per keskustelu</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Tämä karsii välittömästi kaikki keskustelut %d viimeisimpään viestiin.</item>
+        <item quantity="one">Tämä karsii välittömästi kaikki keskustelut viimeisimpään viestiin.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d lukematonta viestiä</item>
+        <item quantity="one">%d lukematon viesti</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Poistetaanko valitut viestit?</item>
+        <item quantity="one">Poistetaanko valittu viesti?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Virhe tallennettaessa liitetiedostoja laitteesi tallennustilaan!</item>
+        <item quantity="one">Virhe tallennettaessa liitetiedostoa laitteesi tallennustilaan!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Tallennetaan %1$d liitetiedostoa</item>
+        <item quantity="one">Tallennetaan liitetiedostoa</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Tallennetaan %1$d liitetiedostoa tallennustilaan...</item>
+        <item quantity="one">Tallennetaan liitetiedostoa tallennustilaan...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Jos kopioit kaikki %1$d tiedostoa laitteesi tallennustilaan, niin kaikki muutkin sovellukset saavat oikeuden käyttää niitä.
+
+Haluatko jatkaa?"</item>
+        <item quantity="one">"Jos kopioit tämän tiedoston laitteesi tallennustilaan, niin kaikki muutkin sovellukset saavat oikeuden käyttää sitä.
+
+Haluatko jatkaa?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Tämä poistaa pysyvästi kaikki %1$d valittua viestiä.</item>
+        <item quantity="one">Tämä poistaa pysyvästi valitun viestin.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d keskustelua arkistoitu</item>
+        <item quantity="one">Keskustelu arkistoitu</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Poistetaanko valitut keskustelut?</item>
+        <item quantity="one">Poistetaanko valittu keskustelu?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d keskustelua siirretty postilaatikkoon</item>
+        <item quantity="one">Keskustelu siirretty postilaatikkoon</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Tämä poistaa pysyvästi kaikki %1$d valittua keskustelua.</item>
+        <item quantity="one">Tämä poistaa pysyvästi valitun keskustelun.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s liittyivät ryhmään</item>
+        <item quantity="one">%1$s liittyi ryhmään</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Lähetetäänkö %d tekstiviestikutsua?</item>
+        <item quantity="one">Lähetetäänkö %d tekstiviestikutsu?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">LÄHETÄ TEKSTIVIESTI %d YSTÄVÄLLE</item>
+        <item quantity="one">LÄHETÄ TEKSTIVIESTI %d YSTÄVÄLLE</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Tämä poistaa pysyvästi kaikki %1$d valittua viestiä.</item>
+        <item quantity="one">Tämä poistaa pysyvästi valitun viestin.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Poistetaanko valitut viestit?</item>
+        <item quantity="one">Poistetaanko valittu viesti?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Olet tällä hetkellä %d askeleen päässä virheenkorjauslokin lähettämisestä.</item>
+        <item quantity="one">Olet tällä hetkellä %d askeleen päässä virheenkorjauslokin lähettämisestä.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d kappaletta</item>
+        <item quantity="one">%d kappale</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d päivää</item>
+        <item quantity="one">%d päivä</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutti</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunti</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d viikkoa</item>
+        <item quantity="one">%d viikko</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d muuta</item>
+        <item quantity="one">%d muu</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Käyttämäsi Signalin versio vanhenee %d päivässä. Napauta päivittääksesi viimeisimpään versioon.</item>
+        <item quantity="one">Käyttämäsi Signalin versio vanhenee %d päivässä. Napauta päivittääksesi viimeisimpään versioon.</item>
+    </plurals>
+</resources>

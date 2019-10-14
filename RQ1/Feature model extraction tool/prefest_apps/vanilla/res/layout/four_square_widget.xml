@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/fallback_cover_large" android:scaleType="fitCenter" android:contentDescription="@string/cover_art" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:baselineAligned="false">
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="bottom|center" android:id="@id/title" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0px" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="5.0" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center|top" android:id="@id/artist" android:layout_width="fill_parent" android:layout_height="0.0px" android:text="@string/app_name" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="5.0" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="2.0">
+            <ImageButton android:id="@id/play_pause" android:background="@null" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/play" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/play_pause" />
+            <ImageButton android:id="@id/next" android:background="@null" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/next" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/next_song" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

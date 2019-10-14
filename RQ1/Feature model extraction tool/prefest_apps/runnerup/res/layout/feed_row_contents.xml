@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/feed_avatar" android:layout_width="92.0dip" android:layout_height="92.0dip" />
+    <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/feed_person" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" android:layout_toLeftOf="@id/feed_source" android:layout_toRightOf="@id/feed_avatar" android:layout_alignParentTop="true" style="@style/CardParagraph" />
+    <TextView android:ellipsize="end" android:id="@id/feed_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:maxLines="1" android:layout_alignBaseline="@id/feed_person" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/CardAnnotation" />
+    <ImageView android:id="@id/feed_sport_emblem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/feed_avatar" android:layout_below="@id/feed_person" />
+    <TextView android:id="@id/feed_sport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/feed_sport_emblem" android:layout_below="@id/feed_person" style="@style/CardParagraph" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_toRightOf="@id/feed_avatar" android:layout_below="@id/feed_sport">
+        <TextView android:id="@id/feed_distance" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/CardParagraph" />
+        <TextView android:id="@id/feed_duration" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/CardParagraph" />
+        <TextView android:id="@id/feed_pace" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/CardParagraph" />
+    </LinearLayout>
+    <TextView android:id="@id/feed_notes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_below="@id/feed_avatar" />
+</RelativeLayout>

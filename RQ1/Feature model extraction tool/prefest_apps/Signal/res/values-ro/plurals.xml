@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d mesaje per conversație</item>
+        <item quantity="one">%d mesaj per conversație</item>
+        <item quantity="few">%d mesaje per conversație</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Această acțiune va scurta toate conversațiile până la cele mai recente %d mesaje.</item>
+        <item quantity="one">Această acțiune va scurta toate conversațiile până la cel mai recent mesaj.</item>
+        <item quantity="few">Această acțiune va scurta toate conversațiile până la cele mai recente %d mesaje.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d mesaje necitite</item>
+        <item quantity="one">%d mesaj necitit</item>
+        <item quantity="few">%d mesaje necitite</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Șterg mesajele selectate?</item>
+        <item quantity="one">Șterg mesajul selectat?</item>
+        <item quantity="few">Șterg mesajele selectate?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">A apărut o eroare în timpul salvării atașamentelor pe spațiul de stocare!</item>
+        <item quantity="one">A apărut o eroare în timpul salvării atașamentului pe spațiul de stocare!</item>
+        <item quantity="few">A apărut o eroare în timpul salvării atașamentelor pe spațiul de stocare!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Se salvează %1$d atașamente</item>
+        <item quantity="one">Se salvează atașamentul</item>
+        <item quantity="few">Se salvează %1$d atașamente</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Se salvează %1$d atașamente pe spațiul de stocare...</item>
+        <item quantity="one">Se salvează atașamentul pe spațiul de stocare...</item>
+        <item quantity="few">Se salvează %1$d atașamente pe spațiul de stocare...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Salvarea tututor celor %1$d fişiere pe spaţiul de stocare va permite altor aplicaţii de pe dispozitivul tău să le acceseze.
+
+Continui?"</item>
+        <item quantity="one">"Salvarea acestui fişier pe spaţiul de stocare va permite altor aplicaţii de pe dispozitivul tău să le acceseze.
+
+Continui?"</item>
+        <item quantity="few">"Salvarea tututor celor %1$d fişiere pe spaţiul de stocare va permite altor aplicaţii de pe dispozitivul tău să le acceseze.
+
+Continui?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Această acțiune va șterge permanent toate cele %1$d mesaje selectate.</item>
+        <item quantity="one">Această acțiune va șterge permanent mesajul selectat.</item>
+        <item quantity="few">Această acțiune va șterge permanent toate cele %1$d mesaje selectate.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d conversații arhivate</item>
+        <item quantity="one">Conversație arhivată</item>
+        <item quantity="few">%d conversații arhivate</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Șterg conversațiile selectate?</item>
+        <item quantity="one">Șterg conversația selectată?</item>
+        <item quantity="few">Șterg conversațiile selectate?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d conversații au fost mutate în inbox</item>
+        <item quantity="one">Conversație a fost mutată în inbox</item>
+        <item quantity="few">%d conversații au fost mutate în inbox</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Această acțiune va șterge permanent toate cele %1$d conversații selectate.</item>
+        <item quantity="one">Această acțiune va șterge permanent conversația selectată.</item>
+        <item quantity="few">Această acțiune va șterge permanent toate cele %1$d conversații selectate.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s s-au alăturat grupului.</item>
+        <item quantity="one">%1$s s-a alăturat grupului.</item>
+        <item quantity="few">%1$s s-au alăturat grupului.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Trimit %d invitații prin SMS?</item>
+        <item quantity="one">Trimit %d invitație prin SMS?</item>
+        <item quantity="few">Trimit %d invitații prin SMS?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">TRIMITE SMS LA %d PRIETENI</item>
+        <item quantity="one">TRIMITE SMS LA %d PRIETEN</item>
+        <item quantity="few">TRIMITE SMS LA %d PRIETENI</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Această acțiune va șterge permanent toate cele %1$d mesaje selectate.</item>
+        <item quantity="one">Această acțiune va șterge permanent mesajul selectat.</item>
+        <item quantity="few">Această acțiune va șterge permanent toate cele %1$d mesaje selectate.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Șterg mesajele selectate?</item>
+        <item quantity="one">Șterg mesajul selectat?</item>
+        <item quantity="few">Șterg mesajele selectate?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Ești acum la %d pași de a trimite un jurnal de depanare.</item>
+        <item quantity="one">Ești acum la %d pas de a trimite un jurnal de depanare.</item>
+        <item quantity="few">Ești acum la %d pași de a trimite un jurnal de depanare.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d articole</item>
+        <item quantity="one">%d articol</item>
+        <item quantity="few">%d articole</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d zile</item>
+        <item quantity="one">%d zi</item>
+        <item quantity="few">%d zile</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d secunde</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="few">%d secunde</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d săptămâni</item>
+        <item quantity="one">%d săptămână</item>
+        <item quantity="few">%d săptămâni</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d alții</item>
+        <item quantity="one">%d altul</item>
+        <item quantity="few">%d alții</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Versiunea ta de Signal va expira în %d zile. Apasă pentru a actualiza aplicația la versiunea cea mai recentă.</item>
+        <item quantity="one">Versiunea ta de Signal va expira în %d zile. Apasă pentru a actualiza aplicația la versiunea cea mai recentă.</item>
+        <item quantity="few">Versiunea ta de Signal va expira în %d zile. Apasă pentru a actualiza aplicația la versiunea cea mai recentă.</item>
+    </plurals>
+</resources>

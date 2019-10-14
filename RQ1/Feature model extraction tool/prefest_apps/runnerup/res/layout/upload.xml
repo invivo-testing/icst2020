@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginTop="@dimen/activity_margin" android:layout_marginRight="@dimen/activity_margin" android:layout_alignParentTop="true">
+        <TextView android:id="@id/account_upload_list_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AccountListText" />
+        <ImageView android:id="@id/account_upload_list_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </LinearLayout>
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/upload_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/activity_margin" android:layout_above="@id/account_upload_buttons" android:layout_below="@id/name" android:layout_alignParentLeft="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/account_upload_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/account_action_buttons" android:layout_alignParentRight="true">
+        <Button android:id="@id/account_upload_set_all" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Select_all" android:layout_weight="1.0" />
+        <Button android:id="@id/account_upload_clear_all" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Clear_all" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/account_action_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <Button android:id="@id/account_upload_button" android:background="@drawable/btn_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/upload" style="@style/ButtonText" />
+        <Button android:id="@id/account_download_button" android:background="@drawable/btn_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Download" style="@style/ButtonText" />
+    </LinearLayout>
+</RelativeLayout>

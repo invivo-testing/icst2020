@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:windowSoftInputMode="stateAlwaysHidden"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.v4.view.ViewPager android:id="@id/viewpager_default" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <me.relex.circleindicator.CircleIndicator android:id="@id/indicator_default" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="@dimen/mmx_text_view_size_medium" android:textColor="@color/material_white" android:id="@id/skipTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:text="@string/close" android:layout_alignTop="@id/indicator_default" android:layout_alignParentRight="true" android:textAllCaps="true" />
+    </RelativeLayout>
+</LinearLayout>

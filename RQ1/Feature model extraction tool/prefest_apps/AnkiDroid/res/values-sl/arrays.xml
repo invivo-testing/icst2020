@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Pomnilne kartice za Android&lt;/h2>AnkiDroid je program za pomnilne kartice, ki je v celoti združljiv z namiznim programom &lt;a href=\"%2$s\">Anki&lt;/a>. Snov lahko ustvarjate, prejmete in se jo naučite tako v AnkiDroidu kot namiznem Ankiju in jo enostavno sinhronizirate z AnkiWebom.</item>
+        <item>Da ga nam pomagate izboljšati, prijavite hrošče v &lt;a href=\"%1$s\">sledilniku težav&lt;/a>; nove zamisli o značilnostih so tudi dobrodošle. Odgovore poiščite v &lt;a href=\"%2$s\">wikiju&lt;/a> ali začnite razpravo v &lt;a href=\"%3$s\">forumu&lt;/a>.</item>
+        <item>AnkiDroid je &lt;a href=\"%1$s\">odprtokodna programska oprema&lt;a/>, tako da spodbujamo vsakogar, ki želi &lt;a href=\"%2$s\">prispevati&lt;/a> :-)</item>
+        <item>Poleg razvijalcev lahko pomagajo tudi ostali. Na primer lahko ga &lt;a href=\"%1$s\">pomagate prevesti&lt;/a>, posodobiti wiki, priskrbeti zaslonske slike ali o njem blogati.</item>
+        <item>AnkiDroid je izdan pod &lt;a href=\"%1$s\">dovoljenjem GNU-GPL v3&lt;/a> in izvorna koda je na voljo &lt;a href=\"%2$s\">na GitHubu&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Uporabi trenutni komplet</item>
+        <item>Odloči se po vrsti zapiska</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Zgoraj</item>
+        <item>Spodaj</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Vprašanje</item>
+        <item>Polje za razvrščanje</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Odgovor</item>
+        <item>Kartica</item>
+        <item>Komplet</item>
+        <item>Zapisek</item>
+        <item>Vprašanje</item>
+        <item>Oznake</item>
+        <item>Spodrsljaji</item>
+        <item>Pregledi</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Brez razvrščanja (hitrejše)</item>
+        <item>Po polju za razvrščanje</item>
+        <item>Po času nastanka</item>
+        <item>Po času urejanja</item>
+        <item>Po času spremembe</item>
+        <item>Po času zapadlosti</item>
+        <item>Po razmiku</item>
+        <item>Po težavnosti</item>
+        <item>Po pregledih</item>
+        <item>Po spodrsljajih</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Najprej videna najprej</item>
+        <item>Nakjučno</item>
+        <item>Naraščajoči razmiki</item>
+        <item>Padajoči razmiki</item>
+        <item>Z največ spodrsljaji</item>
+        <item>Vrs. red dodajanja</item>
+        <item>Vrs. red zapad.</item>
+        <item>Nazadnje dodana najprej</item>
+        <item>Relativna zapadlost</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Svetla</item>
+        <item>Gola</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Dni</item>
+        <item>Tedni</item>
+        <item>Meseci</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Vedno prijavi</item>
+        <item>Nikoli ne prijavi</item>
+        <item>Vprašaj me</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Brez dejanja</item>
+        <item>Prikaži odgovor</item>
+        <item>1. gumb za odgovor</item>
+        <item>2. gumb za odgovor</item>
+        <item>3. gumb za odgovor</item>
+        <item>4. gumb za odgovor</item>
+        <item>Priporočilo za odgovor (zeleno)</item>
+        <item>Odgovori bolje kot priporočeno</item>
+        <item>Razveljavi</item>
+        <item>Uredi zapisek</item>
+        <item>Označi zapisek</item>
+        <item>Iskalni izraz</item>
+        <item>Prikrij kartico</item>
+        <item>Pridrži kartico</item>
+        <item>Izbriši zapisek</item>
+        <item>Predvajaj predstavnost</item>
+        <item>Prekini učenje</item>
+        <item>Prikrij zapisek</item>
+        <item>Pridrži zapisek</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Pridrži kartico</item>
+        <item>Samo oznako</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Nove kartice v naključnem vrstnem redu</item>
+        <item>Nove kartice v vrstnem redu dodajanja</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Premešaj nove kartice in preglede</item>
+        <item>Nove kartice za pregledi</item>
+        <item>Nove kartice pred pregledi</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Črna</item>
+        <item>Temna</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Ko na pomnilnih karticah ni določena pisava</item>
+        <item>Vedno</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>04:00</item>
+        <item>10:00</item>
+        <item>16:00</item>
+        <item>22:00</item>
+        <item>03:00</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Ned.</item>
+        <item>Pon.</item>
+        <item>Tor.</item>
+        <item>Sre.</item>
+        <item>Čet.</item>
+        <item>Pet.</item>
+        <item>Sob.</item>
+    </string-array>
+</resources>

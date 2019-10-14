@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/Theme.AppCompat.Light.DarkActionBar" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.tabs.TabLayout android:textAppearance="?android:textAppearanceMedium" android:id="@id/tabs" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabContentStart="60.0dip" app:tabIndicatorColor="@android:color/white" app:tabMode="scrollable" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/terminal_no_hosts_connected" android:layout_below="@id/toolbar" />
+    <org.connectbot.util.TerminalViewPager android:id="@id/console_flip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+    <RelativeLayout android:id="@id/console_password_group" android:background="#80000000" android:padding="5.0dip" android:visibility="gone" android:fadingEdge="horizontal" android:fadingEdgeLength="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/console_password_instructions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+        <EditText android:id="@id/console_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/console_password_instructions" android:inputType="textPassword" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/console_boolean_group" android:background="#80000000" android:padding="5.0dip" android:visibility="gone" android:fadingEdge="horizontal" android:fadingEdgeLength="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/console_prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/console_prompt_no" android:paddingLeft="40.0dip" android:paddingTop="5.0dip" android:paddingRight="40.0dip" android:paddingBottom="10.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_no" android:layout_below="@id/console_prompt" android:layout_alignParentRight="true" android:paddingStart="40.0dip" android:paddingEnd="40.0dip" android:layout_alignParentEnd="true" />
+        <Button android:id="@id/console_prompt_yes" android:paddingLeft="40.0dip" android:paddingTop="5.0dip" android:paddingRight="40.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_yes" android:layout_toLeftOf="@id/console_prompt_no" android:layout_below="@id/console_prompt" android:paddingStart="40.0dip" android:paddingEnd="40.0dip" android:layout_toStartOf="@id/console_prompt_no" />
+    </RelativeLayout>
+    <include layout="@layout/inc_keyboard" />
+</RelativeLayout>

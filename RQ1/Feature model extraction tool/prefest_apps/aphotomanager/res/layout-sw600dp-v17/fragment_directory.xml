@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@id/lblName" android:padding="@dimen/grid_cell_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sort_by_name" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <EditText android:id="@id/edName" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:layout_toRightOf="@id/lblName" android:layout_alignBaseline="@id/lblName" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:inputType="text" android:layout_alignParentEnd="true" />
+        <HorizontalScrollView android:scrollbarSize="2.0dip" android:scrollbarStyle="insideInset" android:id="@id/parent_scroller" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/lblName">
+            <LinearLayout android:orientation="horizontal" android:id="@id/parent_owner" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </HorizontalScrollView>
+        <ExpandableListView android:id="@id/directory_tree" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/cmd_ok" android:layout_below="@id/parent_scroller" />
+        <Button android:enabled="true" android:gravity="center" android:id="@id/cmd_cancel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_above="@id/status" />
+        <Button android:enabled="false" android:gravity="center" android:id="@id/cmd_popup" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_popup" android:layout_toRightOf="@id/cmd_cancel" android:layout_above="@id/status" />
+        <Button android:gravity="center" android:id="@id/cmd_ok" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_toRightOf="@id/cmd_popup" android:layout_above="@id/status" />
+        <ImageView android:id="@id/image" android:visibility="gone" android:layout_width="@dimen/grid_cell_width" android:layout_height="@dimen/grid_cell_height" android:layout_above="@id/status" android:layout_alignParentRight="true" />
+        <TextView android:ellipsize="start" android:gravity="center" android:id="@id/status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/selection_none_hint" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

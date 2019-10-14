@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_list">
+        <item>极小</item>
+        <item>小</item>
+        <item>正常</item>
+        <item>大</item>
+        <item>极大</item>
+    </string-array>
+    <string-array name="sort_by_list">
+        <item>修改时间</item>
+        <item>标题</item>
+    </string-array>
+    <string-array name="theme_list">
+        <item>亮色 sans-serif</item>
+        <item>亮色 serif</item>
+        <item>亮色 monospace</item>
+        <item>暗色 sans-serif</item>
+        <item>暗色 serif</item>
+        <item>暗色 monospace</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">64.0dip</dimen>
+    <dimen name="air_baseline">24.0dip</dimen>
+    <dimen name="air_baseline_content">80.0dip</dimen>
+    <dimen name="air_baseline_half">12.0dip</dimen>
+    <dimen name="media_icon_size">72.0dip</dimen>
+</resources>

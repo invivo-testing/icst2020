@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?media_overview_toolbar_background" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:titleTextColor="?media_overview_toolbar_foreground" app:layout_scrollFlags="enterAlways|scroll" />
+        <org.thoughtcrime.securesms.components.ControllableTabLayout android:layout_gravity="top" android:id="@id/tab_layout" android:background="?media_overview_toolbar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabBackground="?media_overview_toolbar_background" app:tabIndicatorColor="@color/textsecure_primary" app:tabSelectedTextColor="@color/textsecure_primary" />
+    </android.support.design.widget.AppBarLayout>
+    <org.thoughtcrime.securesms.components.ControllableViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:paddingBottom="88.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/empty" android:paddingBottom="88.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/portforward_list_empty" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/add_port_forward_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_add" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:backgroundTint="@color/accent" app:rippleColor="@color/dark_accent" />
+</RelativeLayout>

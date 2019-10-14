@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobeta.android.dslv.DragSortListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="?android:selectableItemBackground" android:divider="@drawable/inset_divider" android:dividerHeight="1.0dip" dslv:drag_enabled="true" dslv:drag_handle_id="@id/dragger" dslv:drag_start_mode="onMove" dslv:fling_handle_id="@id/dragger" dslv:float_background_color="?float_color" dslv:remove_enabled="true" dslv:remove_mode="flingRemove"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dslv="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ankidroid="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_undo_white_24dp" android:enabled="true" android:id="@id/action_undo" android:title="@string/undo" ankidroid:showAsAction="always" />
+    <item android:icon="@drawable/ic_refresh_white_24dp" android:id="@id/action_rebuild" android:visibility="gone" android:title="@string/rebuild_cram_label" ankidroid:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_clear_white_24dp" android:id="@id/action_empty" android:visibility="gone" android:title="@string/empty_cram_label" ankidroid:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_build_white_24dp" android:id="@id/action_custom_study" android:title="@string/custom_study" ankidroid:showAsAction="ifRoom" />
+    <item android:id="@id/action_rename" android:visibility="gone" android:title="@string/rename_deck" />
+    <item android:id="@id/action_deck_options" android:title="@string/study_options" />
+    <item android:id="@id/action_delete" android:visibility="gone" android:title="@string/contextmenu_deckpicker_delete_deck" />
+    <item android:id="@id/action_export" android:visibility="gone" android:title="@string/export_deck" />
+    <item android:id="@id/action_unbury" android:visibility="gone" android:title="@string/unbury" />
+</menu>

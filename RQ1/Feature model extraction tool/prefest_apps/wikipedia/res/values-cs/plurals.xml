@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Před %d lety</item>
+        <item quantity="one">Loni</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Stahování článků</item>
+        <item quantity="one">Stahování článku</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">zbývá %1$d článků</item>
+        <item quantity="one">zbývá %1$d článek</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Synchronizace seznamů k přečtení</item>
+        <item quantity="one">Synchronizace seznamu k přečtení</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">zbývá %1$d seznamů</item>
+        <item quantity="one">zbývá %1$d seznam</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Synchronizace %1$d seznamů…</item>
+        <item quantity="one">Synchronizace %1$d seznamu…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Stahování %1$d článků…</item>
+        <item quantity="one">Stahování %1$d článku…</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">%d minut zbývá</item>
+        <item quantity="one">zbývá 1 minuta</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Tyto články budou dostupné bez připojení k internetu.</item>
+        <item quantity="one">Tento článek bude dostupný bez připojení k internetu.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Tyto články budou dostupné bez připojení k internetu.</item>
+        <item quantity="one">Tento článek bude dostupný bez připojení k internetu.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">před %d dny</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Odebrat vybrané jazyky?</item>
+        <item quantity="one">Odebrat vybraný jazyk?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="2">
+        <TableRow>
+            <com.money.manager.ex.view.RobotoTextView android:textColor="@color/md_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_column="0" android:text="@string/income" android:singleLine="true" android:layout_weight="1.0" />
+            <com.money.manager.ex.view.RobotoTextView android:textColor="@color/md_green" android:gravity="right" android:id="@id/textViewIncome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:minWidth="75.0dip" android:layout_column="1" android:singleLine="true" />
+            <ProgressBar android:id="@id/progressBarIncome" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:indeterminate="false" android:progressDrawable="@drawable/progress_income" android:layout_column="2" android:layout_weight="1.0" style="?android:progressBarStyleHorizontal" />
+        </TableRow>
+        <TableRow>
+            <com.money.manager.ex.view.RobotoTextView android:textColor="@color/md_red" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_column="0" android:text="@string/expenses" android:singleLine="true" android:layout_weight="1.0" />
+            <com.money.manager.ex.view.RobotoTextView android:textColor="@color/md_red" android:gravity="right" android:id="@id/textViewExpenses" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:minWidth="75.0dip" android:layout_column="1" android:singleLine="true" />
+            <ProgressBar android:id="@id/progressBarExpenses" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:indeterminate="false" android:progressDrawable="@drawable/progress_expenses" android:layout_column="2" android:layout_weight="1.0" style="?android:progressBarStyleHorizontal" />
+        </TableRow>
+        <TableRow>
+            <com.money.manager.ex.view.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_column="0" android:text="@string/difference" android:singleLine="true" android:layout_weight="1.0" />
+            <com.money.manager.ex.view.RobotoTextView android:gravity="right" android:id="@id/textViewDifference" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:minWidth="75.0dip" android:layout_column="1" android:singleLine="true" />
+            <ProgressBar android:id="@id/progressBarDifference" android:paddingTop="2.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:indeterminate="false" android:progressDrawable="@drawable/progress_expenses" android:layout_column="2" android:layout_weight="1.0" style="?android:progressBarStyleHorizontal" />
+        </TableRow>
+    </TableLayout>
+</merge>

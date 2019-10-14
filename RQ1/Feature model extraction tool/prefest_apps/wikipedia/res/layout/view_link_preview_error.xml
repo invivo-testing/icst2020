@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/view_link_preview_error_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_margin="16.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_error_black_24dp" app:tint="?material_theme_secondary_color" />
+    <TextView android:gravity="center" android:id="@id/view_link_preview_error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/error_message_generic" android:textAlignment="center" style="@style/MaterialMediumSecondaryCaption" />
+</merge>

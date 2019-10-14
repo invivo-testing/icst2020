@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.colorpicker.ColorPickerPalette android:id="@id/colorPicker" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:textColor="?android:textColorSecondary" android:id="@id/colorTransparentDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/color_transparent_dark" style="?android:borderlessButtonStyle" />
+        <Button android:textColor="?android:textColorSecondary" android:id="@id/colorTransparentWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/color_transparent_white" style="?android:borderlessButtonStyle" />
+        <Button android:textColor="?android:textColorSecondary" android:id="@id/colorTransparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/color_transparent" style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+</ScrollView>

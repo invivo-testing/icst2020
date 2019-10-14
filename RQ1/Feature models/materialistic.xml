@@ -1,0 +1,197 @@
+<feature_model name="materialistic">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'preferences_offline'(_r76)
+			:m '_category1'(_r77)
+				:m 'pref_offline_notification'(_r78)
+					:g [1,1]
+						: 'pref_offline_notification_true'(_r79)
+						: 'pref_offline_notification_false'(_r80)
+				:m 'pref_offline_comments'(_r81)
+					:g [1,1]
+						: 'pref_offline_comments_true'(_r82)
+						: 'pref_offline_comments_false'(_r83)
+				:m 'pref_offline_readability'(_r84)
+					:g [1,1]
+						: 'pref_offline_readability_false'(_r85)
+						: 'pref_offline_readability_true'(_r86)
+				:m 'pref_offline_article'(_r87)
+					:g [1,1]
+						: 'pref_offline_article_false'(_r88)
+						: 'pref_offline_article_true'(_r89)
+				:m 'pref_saved_item_sync'(_r90)
+					:g [1,1]
+						: 'pref_saved_item_sync_false'(_r91)
+						: 'pref_saved_item_sync_true'(_r92)
+		:m 'preferences_widget'(_r93)
+			:m '_category2'(_r94)
+				:m 'Widget_options_category3'(_r95)
+					:m 'pref_widget_query'(_r96)
+						:g [1,1]
+							: 'pref_widget_query_custom'(_r97)
+							: 'pref_widget_query_default'(_r98)
+		:m 'preferences_list'(_r99)
+			:m '_category4'(_r100)
+				:m 'pref_list_item_view'(_r101)
+					:g [1,1]
+						: 'pref_list_item_view_false'(_r102)
+						: 'pref_list_item_view_true'(_r103)
+				:m 'pref_auto_viewed'(_r104)
+					:g [1,1]
+						: 'pref_auto_viewed_true'(_r105)
+						: 'pref_auto_viewed_false'(_r106)
+				:m 'pref_highlight_updated'(_r107)
+					:g [1,1]
+						: 'pref_highlight_updated_false'(_r108)
+						: 'pref_highlight_updated_true'(_r109)
+		:m 'preferences_comments'(_r110)
+			:m '_category5'(_r111)
+				:m '_category6'(_r112)
+					:m 'pref_navigation'(_r113)
+						:g [1,1]
+							: 'pref_navigation_true'(_r114)
+							: 'pref_navigation_false'(_r115)
+					:m 'pref_navigation_vibrate'(_r116)
+						:g [1,1]
+							: 'pref_navigation_vibrate_true'(_r117)
+							: 'pref_navigation_vibrate_false'(_r118)
+					:m 'pref_smooth_scroll'(_r119)
+						:g [1,1]
+							: 'pref_smooth_scroll_true'(_r120)
+							: 'pref_smooth_scroll_false'(_r121)
+				:m 'pref_thread_indicator'(_r122)
+					:g [1,1]
+						: 'pref_thread_indicator_true'(_r123)
+						: 'pref_thread_indicator_false'(_r124)
+				:m 'pref_color_code'(_r125)
+					:g [1,1]
+						: 'pref_color_code_false'(_r126)
+						: 'pref_color_code_true'(_r127)
+		:m 'preferences_display'(_r128)
+			:m '_category7'(_r129)
+				:m 'pref_lazy_load'(_r130)
+					:g [1,1]
+						: 'pref_lazy_load_false'(_r131)
+						: 'pref_lazy_load_true'(_r132)
+				:m 'pref_external'(_r133)
+					:g [1,1]
+						: 'pref_external_false'(_r134)
+						: 'pref_external_true'(_r135)
+				:m 'pref_custom_tab'(_r136)
+					:g [1,1]
+						: 'pref_custom_tab_false'(_r137)
+						: 'pref_custom_tab_true'(_r138)
+				:m 'pref_volume'(_r139)
+					:g [1,1]
+						: 'pref_volume_true'(_r140)
+						: 'pref_volume_false'(_r141)
+				:m 'pref_ad_block'(_r142)
+					:g [1,1]
+						: 'pref_ad_block_false'(_r143)
+						: 'pref_ad_block_true'(_r144)
+				:m 'pref_daynight_auto'(_r145)
+					:g [1,1]
+						: 'pref_daynight_auto_true'(_r146)
+						: 'pref_daynight_auto_false'(_r147)
+</feature_tree>
+<constraints>
+C0:~_r87 or _r90
+C1:~_r142 or _r133
+C2:~_r116 or _r113
+C3:~_r78 or _r90
+C5:~_r119 or _r113
+C6:~_r81 or _r90
+C7:~_r84 or _r90
+</constraints>
+</feature_model>

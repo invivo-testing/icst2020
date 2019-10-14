@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group n1:checkableBehavior="none"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <item n1:icon="?icActionNew" n1:id="@id/addTheme" n1:title="@string/configAction_addTheme" n2:showAsAction="ifRoom" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <item n1:icon="?icActionCopy" n1:id="@id/exportThemes" n1:title="@string/configAction_exportThemes" n3:showAsAction="never" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <item n1:icon="?icActionAbout" n1:id="@id/action_about" n1:title="@string/configAction_aboutWidget" n4:showAsAction="never" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </group>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cue_bpm">
+        <item quantity="other">%d bpm</item>
+        <item quantity="one">%d bpm</item>
+    </plurals>
+    <plurals name="cue_hour">
+        <item quantity="other">%d Stunden</item>
+        <item quantity="one">%d Stunde</item>
+    </plurals>
+    <plurals name="cue_kilometer">
+        <item quantity="other">%s Kilometer</item>
+        <item quantity="one">%s Kilometer</item>
+    </plurals>
+    <plurals name="cue_kilometers_per_hour">
+        <item quantity="other">%s Kilometer pro Stunde</item>
+        <item quantity="one">%s Kilometer pro Stunde</item>
+    </plurals>
+    <plurals name="cue_meter">
+        <item quantity="other">%d Meter</item>
+        <item quantity="one">%d Meter</item>
+    </plurals>
+    <plurals name="cue_mile">
+        <item quantity="other">%s Meilen</item>
+        <item quantity="one">%s Meile</item>
+    </plurals>
+    <plurals name="cue_miles_per_hour">
+        <item quantity="other">%s Meilen pro Stunde</item>
+        <item quantity="one">%s Meile pro Stunde</item>
+    </plurals>
+    <plurals name="cue_minute">
+        <item quantity="other">%d Minuten</item>
+        <item quantity="one">%d Minute</item>
+    </plurals>
+    <plurals name="cue_second">
+        <item quantity="other">%d Sekunden</item>
+        <item quantity="one">%d Sekunde</item>
+    </plurals>
+</resources>

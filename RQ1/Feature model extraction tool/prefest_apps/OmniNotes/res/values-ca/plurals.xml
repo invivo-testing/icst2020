@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">Per a %d esdeveniments</item>
+        <item quantity="one">Per a %d esdeveniment</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Cada %d dies</item>
+        <item quantity="one">Cada %d dia</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Cada %d mesos</item>
+        <item quantity="one">Cada %d mes</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Cada %d setmanes</item>
+        <item quantity="one">Cada %d setmana</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Cada %d anys</item>
+        <item quantity="one">Cada %d any</item>
+    </plurals>
+</resources>

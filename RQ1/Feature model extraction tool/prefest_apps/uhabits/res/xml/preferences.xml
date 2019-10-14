@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n1:title="@string/interface_preferences" n1:key="interfaceCategory"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n1:title="@string/pref_toggle_title" n1:key="pref_short_toggle" n1:summary="@string/pref_toggle_description" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/reverse_days" n1:key="pref_checkmark_reverse_order" n1:summary="@string/reverse_days_description" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/use_pure_black" n1:key="pref_pure_black" n1:summary="@string/pure_black_description" n1:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory n2:title="@string/reminder" n2:key="reminderCategory"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <ListPreference n2:entries="@array/snooze_interval_names" n2:title="@string/pref_snooze_interval_title" n2:key="pref_snooze_interval" n2:summary="%s" n2:defaultValue="@string/snooze_interval_default" n2:dialogTitle="@string/snooze_interval" n2:entryValues="@array/snooze_interval_values" />
+        <Preference n2:title="@string/reminder_sound" n2:key="reminderSound" />
+        <CheckBoxPreference n2:title="@string/sticky_notifications" n2:key="pref_sticky_notifications" n2:summary="@string/sticky_notifications_description" n2:defaultValue="false" />
+        <CheckBoxPreference n2:title="@string/led_notifications" n2:key="pref_led_notifications" n2:summary="@string/led_notifications_description" n2:defaultValue="false" />
+        <Preference n2:title="@string/customize_notification" n2:key="reminderCustomize" n2:summary="@string/customize_notification_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory n3:title="Database" n3:key="databaseCategory"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <Preference n3:title="@string/export_full_backup" n3:key="exportDB" n3:summary="@string/export_full_backup_summary" />
+        <Preference n3:title="@string/export_to_csv" n3:key="exportCSV" n3:summary="@string/export_as_csv_summary" />
+        <Preference n3:title="@string/import_data" n3:key="importData" n3:summary="@string/import_data_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory n4:title="@string/troubleshooting" n4:key="pref_key_debug"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <Preference n4:title="@string/generate_bug_report" n4:key="bugReport" />
+        <Preference n4:title="@string/repair_database" n4:key="repairDB" />
+    </PreferenceCategory>
+    <PreferenceCategory n5:title="@string/links" n5:key="linksCategory"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <Preference n5:title="@string/help">
+            <intent n5:action="android.intent.action.VIEW" n5:data="@string/helpURL" />
+        </Preference>
+        <Preference n5:title="@string/pref_rate_this_app">
+            <intent n5:action="android.intent.action.VIEW" n5:data="@string/playStoreURL" />
+        </Preference>
+        <Preference n5:title="@string/about">
+            <intent n5:targetPackage="org.isoron.uhabits" n5:action="android.intent.action.VIEW" n5:targetClass="org.isoron.uhabits.activities.about.AboutActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory n6:title="Development" n6:key="devCategory"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n6:title="Enable developer mode" n6:key="pref_developer" n6:defaultValue="false" />
+        <CheckBoxPreference n6:title="Enable numerical habits" n6:key="pref_feature_numerical_habits" n6:defaultValue="false" />
+        <CheckBoxPreference n6:title="Enable cloud sync" n6:key="pref_feature_sync" n6:defaultValue="false" />
+        <EditTextPreference n6:title="Sync server address" n6:key="pref_sync_address" />
+        <EditTextPreference n6:title="Sync key" n6:key="pref_sync_key" />
+    </PreferenceCategory>
+</PreferenceScreen>

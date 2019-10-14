@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other">複製 %1$d 位元組到剪貼簿</item>
+    </plurals>
+</resources>

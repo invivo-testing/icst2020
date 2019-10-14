@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">"Status text about number of uploads left.
+* %1$d represents number of uploads left, including current one
+"</item>
+        <item quantity="one">"Status text about number of uploads left.
+* %1$d represents number of uploads left, including current one
+"</item>
+    </plurals>
+</resources>

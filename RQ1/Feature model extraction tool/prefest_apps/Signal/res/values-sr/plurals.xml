@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d минута</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуте</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d порука по преписци</item>
+        <item quantity="one">%d порука по преписци</item>
+        <item quantity="few">%d поруке по преписци</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Ово ће одмах да скрати све преписке на %d најскоријих порука.</item>
+        <item quantity="one">Ово ће одмах да скрати све преписке на најскорију поруку.</item>
+        <item quantity="few">Ово ће одмах да скрати све преписке на %d најскорије поруке.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d непрочитаних порука</item>
+        <item quantity="one">%d непрочитана порука</item>
+        <item quantity="few">%d непрочитане поруке</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Обрисати изабране поруке?</item>
+        <item quantity="one">Обрисати изабрану поруку?</item>
+        <item quantity="few">Обрисати изабране поруке?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Грешка уписа прилога у складиште!</item>
+        <item quantity="one">Грешка уписа прилога у складиште!</item>
+        <item quantity="few">Грешка уписа прилога у складиште!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Уписивање %1$d прилога</item>
+        <item quantity="one">Уписивање прилога</item>
+        <item quantity="few">Уписивање %1$d прилога</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Уписујем %1$d прилога у складиште...</item>
+        <item quantity="one">Уписујем прилог у складиште...</item>
+        <item quantity="few">Уписујем %1$d прилога у складиште...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Упис ових %1$d медијума у складиште ће омогућити било којој апликацији на вашем уређају да му приступи.
+
+Да наставим?"</item>
+        <item quantity="one">"Упис овог медијума у складиште ће омогућити било којој апликацији на вашем уређају да му приступи.
+
+Да наставим?"</item>
+        <item quantity="few">"Упис ова %1$d медијума у складиште ће омогућити било којој апликацији на вашем уређају да му приступи.
+
+Да наставим?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Ово ће трајно да обрише свих %1$d изабраних порука.</item>
+        <item quantity="one">Ово ће трајно да обрише изабрану поруку.</item>
+        <item quantity="few">Ово ће трајно да обрише све %1$d изабране поруке.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d преписки архивирано</item>
+        <item quantity="one">Преписка архивирана</item>
+        <item quantity="few">%d преписке архивиране</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Обрисати изабране преписке?</item>
+        <item quantity="one">Обрисати изабрану преписку?</item>
+        <item quantity="few">Обрисати изабране преписке?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d преписки премештено у пријем</item>
+        <item quantity="one">Преписка премештена у пријем</item>
+        <item quantity="few">%d преписке премештене у пријем</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Ово ће трајно да обрише свих %1$d изабраних преписки.</item>
+        <item quantity="one">Ово ће трајно да обрише изабрану преписку.</item>
+        <item quantity="few">Ово ће трајно да обрише све %1$d изабране преписке.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s се придружише групи.</item>
+        <item quantity="one">%1$s се придружи групи.</item>
+        <item quantity="few">%1$s се придружише групи.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Послати %d СМС позивница?</item>
+        <item quantity="one">Послати %d СМС позивницу?</item>
+        <item quantity="few">Послати %d СМС позивнице?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">ПОШАЉИ СМС ЗА %d ПРИЈАТЕЉА</item>
+        <item quantity="one">ПОШАЉИ СМС ЗА %d ПРИЈАТЕЉА</item>
+        <item quantity="few">ПОШАЉИ СМС ЗА %d ПРИЈАТЕЉА</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Обрисати изабране поруке?</item>
+        <item quantity="one">Обрисати изабрану поруку?</item>
+        <item quantity="few">Обрисати изабране поруке?</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d дана</item>
+        <item quantity="one">%d дан</item>
+        <item quantity="few">%d дана</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d сати</item>
+        <item quantity="one">%d сат</item>
+        <item quantity="few">%d сата</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d минута</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуте</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунде</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d седмица</item>
+        <item quantity="one">%d седмица</item>
+        <item quantity="few">%d седмице</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d сати</item>
+        <item quantity="one">%d сат</item>
+        <item quantity="few">%d сата</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d осталих</item>
+        <item quantity="one">%d остали</item>
+        <item quantity="few">%d остала</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Ваше издање Signal-a истиче за %d дана. Тапните да надоградите на најскорије издање.</item>
+        <item quantity="one">Ваше издање Signal-a истиче за %d дан. Тапните да надоградите на најскорије издање.</item>
+        <item quantity="few">Ваше издање Signal-a истиче за %d дана. Тапните да надоградите на најскорије издање.</item>
+    </plurals>
+</resources>

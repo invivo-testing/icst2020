@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other"></item>
+        <item quantity="one">Skopiowano %1$d bajtów do schowka</item>
+        <item quantity="few">Skopiowano %1$d bajt do schowka</item>
+        <item quantity="many">Skopiowano %1$d bajtów do schowka</item>
+    </plurals>
+</resources>

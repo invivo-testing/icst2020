@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/popup_song_play" n1:title="@string/play"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:id="@id/popup_song_remove_queue" n2:title="@string/remove_from_queue"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:id="@id/popup_song_addto_playlist" n3:title="@string/add_to_playlist"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:id="@id/popup_song_goto_album" n4:title="@string/go_to_album"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:id="@id/popup_song_goto_artist" n5:title="@string/go_to_artist"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</menu>

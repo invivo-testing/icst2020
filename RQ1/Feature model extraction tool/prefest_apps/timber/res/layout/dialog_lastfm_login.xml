@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:padding="15.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.afollestad.appthemeengine.views.ATEEditText n1:id="@id/lastfm_username" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dip" n1:hint="Username" n1:inputType="textNoSuggestions" />
+    <com.afollestad.appthemeengine.views.ATEEditText n1:id="@id/lastfm_password" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="Password" n1:ems="10" n1:inputType="textPassword" />
+</LinearLayout>

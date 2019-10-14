@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widgetActivity_padding">8.0dip</dimen>
+    <dimen name="widgetActivity_padding_inner">0.0dip</dimen>
+    <dimen name="widget_margin">0.0dip</dimen>
+</resources>

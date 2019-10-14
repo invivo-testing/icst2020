@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:padding="2.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="98.0sp" android:typeface="serif" android:textColor="#33ffffff" android:layout_gravity="end|bottom|center" android:id="@id/contributionSequenceNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <fr.free.nrw.commons.MediaWikiImageView android:id="@id/contributionImage" android:layout_width="fill_parent" android:layout_height="240.0dip" app:actualImageScaleType="centerCrop" />
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:background="#aa000000" android:padding="@dimen/small_gap" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/contributionProgress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:indeterminateOnly="false" style="@style/ProgressBar" />
+        <TextView android:textColor="#ffffffff" android:id="@id/contributionState" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:textAppearanceSmall" />
+        <TextView android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/contributionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="?android:textAppearanceMedium" />
+    </LinearLayout>
+</FrameLayout>

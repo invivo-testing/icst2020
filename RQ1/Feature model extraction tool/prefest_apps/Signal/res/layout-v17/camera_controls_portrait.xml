@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/camera_capture_button" android:background="@drawable/ic_camera_shutter" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <ImageButton android:id="@id/camera_flip_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:src="@drawable/ic_camera_front" android:scaleType="fitCenter" android:layout_toLeftOf="@id/camera_capture_button" android:layout_centerVertical="true" android:layout_marginEnd="40.0dip" android:layout_toStartOf="@id/camera_capture_button" />
+</RelativeLayout>

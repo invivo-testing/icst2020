@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:padding="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:layout_marginBottom="10.0dip" n1:layout_marginStart="5.0dip">
+        <TextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@drawable/btn_datetxt" n1:gravity="center" n1:id="@id/txt_about_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dip" n1:text="@string/app_name" n1:drawablePadding="10.0dip" />
+        <TextView n1:id="@id/txt_about_desc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:layout_marginTop="5.0dip" n1:layout_marginBottom="5.0dip" n1:text="@string/app_shortdesc" n1:layout_marginStart="5.0dip" />
+        <TextView n1:textAppearance="?android:textAppearanceSmall" n1:layout_gravity="start" n1:id="@id/txt_about_version" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginBottom="2.0dip" n1:text="@string/app_version" n1:layout_marginStart="5.0dip" />
+        <TextView n1:id="@id/txt_about_support" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginBottom="2.0dip" n1:text="@string/app_support_url" n1:layout_marginStart="5.0dip" />
+        <TextView n1:autoLink="web" n1:id="@id/txt_about_legal1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginBottom="0.0dip" n1:text="@string/app_legal1" n1:layout_marginStart="5.0dip" />
+        <TextView n1:autoLink="web" n1:id="@id/txt_about_url" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:layout_marginTop="0.0dip" n1:layout_marginBottom="2.0dip" n1:text="@string/app_url" n1:layout_marginStart="5.0dip" />
+        <TextView n1:id="@id/txt_about_legal2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginBottom="2.0dip" n1:text="@string/app_legal2" n1:layout_marginStart="5.0dip" />
+        <TextView n1:autoLink="web" n1:id="@id/txt_about_legal3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginBottom="2.0dip" n1:text="@string/app_legal3" n1:layout_marginStart="5.0dip" />
+    </LinearLayout>
+</ScrollView>

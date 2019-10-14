@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:id="@id/scrollView" n1:background="?windowBackgroundColor" n1:clipToPadding="false" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:fillViewport="true" n1:layout_below="@id/toolbar"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:clipToPadding="false" style="@style/CardList">
+        <org.isoron.uhabits.activities.habits.show.views.SubtitleCard n1:id="@id/subtitleCard" style="@style/ShowHabit.Subtitle" />
+        <View n1:id="@id/headerShadow" style="@style/ToolbarShadow" />
+        <org.isoron.uhabits.activities.habits.show.views.OverviewCard n1:id="@id/overviewCard" n1:paddingTop="12.0dip" style="@style/Card" />
+        <org.isoron.uhabits.activities.habits.show.views.ScoreCard n1:gravity="center" n1:id="@id/scoreCard" style="@style/Card" />
+        <org.isoron.uhabits.activities.habits.show.views.BarCard n1:gravity="center" n1:id="@id/barCard" style="@style/Card" />
+        <org.isoron.uhabits.activities.habits.show.views.HistoryCard n1:gravity="center" n1:id="@id/historyCard" n1:paddingBottom="0.0dip" style="@style/Card" />
+        <org.isoron.uhabits.activities.habits.show.views.StreakCard n1:id="@id/streakCard" style="@style/Card" />
+        <org.isoron.uhabits.activities.habits.show.views.FrequencyCard n1:id="@id/frequencyCard" style="@style/Card" />
+    </LinearLayout>
+</ScrollView>

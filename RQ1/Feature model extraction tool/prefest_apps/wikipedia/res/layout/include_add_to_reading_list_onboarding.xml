@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?paper_color" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="?primary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/reading_lists_onboarding_intro" android:lineSpacingExtra="8.0sp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="?secondary_text_color" android:id="@id/reading_lists_onboarding_for_example_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reading_lists_onboarding_for_example" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/reading_lists_onboarding_example1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="12.0dip">
+                <TextView android:textColor="?secondary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reading_lists_onboarding_bullet_point" />
+                <TextView android:textSize="14.0sp" android:textColor="?secondary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reading_lists_onboarding_example1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/reading_lists_onboarding_example2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="12.0dip">
+                <TextView android:textColor="?secondary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reading_lists_onboarding_bullet_point" />
+                <TextView android:textSize="14.0sp" android:textColor="?secondary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reading_lists_onboarding_example2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/reading_lists_onboarding_example3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="12.0dip">
+                <TextView android:textColor="?secondary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reading_lists_onboarding_bullet_point" />
+                <TextView android:textSize="14.0sp" android:textColor="?secondary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reading_lists_onboarding_example3" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/reading_list_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:paddingStart="30.0dip" app:srcCompat="@drawable/ic_reading_list" />
+    </LinearLayout>
+    <TextView android:layout_gravity="end" android:id="@id/onboarding_button" android:paddingLeft="26.0dip" android:paddingTop="8.0dip" android:paddingRight="26.0dip" android:paddingBottom="8.0dip" android:text="@string/reading_lists_onboarding_got_it" style="@style/App.Button.Blue" />
+</LinearLayout>

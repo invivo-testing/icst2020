@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TableRow n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <Button n1:id="@id/pushNamesButton" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pushBtNamesButtonText" />
+    </TableRow>
+    <TableRow n1:id="@id/TableRow03" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="5.0dip">
+        <Button n1:layout_gravity="fill_vertical|center|left" n1:id="@id/exportdbtosdbutton" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/ExportDB" n1:layout_weight="1.0" />
+        <Button n1:layout_gravity="fill_vertical|center" n1:id="@id/exportdbxmltosdbutton" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/ExportXML" n1:layout_weight="1.0" />
+    </TableRow>
+    <TableRow n1:id="@id/TableRow04" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <Button n1:layout_gravity="fill_vertical|center|left" n1:id="@id/ImportDBButton" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/ImportDB" n1:layout_weight="1.0" />
+        <Button n1:layout_gravity="fill_vertical|center|right" n1:id="@id/ExportLoc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/ExportLocation" n1:layout_weight="1.0" />
+    </TableRow>
+    <TableRow n1:id="@id/TableRow01" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <TextView n1:textStyle="bold" n1:id="@id/Path" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Path will show here after export" />
+    </TableRow>
+    <TableRow n1:layout_gravity="center" n1:id="@id/TableRow02" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <TextView n1:id="@id/Output" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@id/TextView01" />
+    </TableRow>
+</LinearLayout>

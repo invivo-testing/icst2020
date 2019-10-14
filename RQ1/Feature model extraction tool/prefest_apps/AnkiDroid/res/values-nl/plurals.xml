@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">%d kaarten getoond</item>
+        <item quantity="one">%d kaart getoond</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">Verwijder het “%2$s” kaarttype, en zijn %1$d kaarten?</item>
+        <item quantity="one">Verwijder het “%2$s” kaarttype, en zijn %1$d kaart?</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"%1$s
+%2$d sets gebruikt in deze groep"</item>
+        <item quantity="one">"%1$s
+%2$d set gebruikt in deze groep"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">%s subsets zullen gebruikmaken van deze groep</item>
+        <item quantity="one">%s subset zal gebruikmaken van deze groep</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">%1$d kaarten te gaan (%2$s)</item>
+        <item quantity="one">%1$d kaart te gaan (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">Verwijder alle kaarten in %1$s? Het bevat %2$d kaarten.</item>
+        <item quantity="one">Verwijder alle kaarten in %1$s? Het bevat %2$d kaart.</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">%d kaarten toegevoegd</item>
+        <item quantity="one">%d kaart toegevoegd</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d notities</item>
+        <item quantity="one">%d notitie</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">%d notitietypen beschikbaar</item>
+        <item quantity="one">%d notitietype beschikbaar</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d nieuwe kaarten te reviewen in %1$s</item>
+        <item quantity="one">%2$d nieuw kaart te reviewen in %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">%d minuten over</item>
+        <item quantity="one">%d minuut over</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">Vandaag &lt;b>%1$d kaarten gestudeerd&lt;/b> in &lt;b>%2$s&lt;/b>.</item>
+        <item quantity="one">Vandaag &lt;b>%1$d kaart gestudeerd&lt;/b> in &lt;b>%2$s&lt;/b>.</item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">%1$d kaarten in %2$s gestudeerd vandaag</item>
+        <item quantity="one">%1$d kaart in %2$s gestudeerd vandaag</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s dagen</item>
+        <item quantity="one">%s dag</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s uren</item>
+        <item quantity="one">%s uur</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s minuten</item>
+        <item quantity="one">%s minuut</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s maanden</item>
+        <item quantity="one">%s maand</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s seconden</item>
+        <item quantity="one">%s second</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s jaren</item>
+        <item quantity="one">%s jaar</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d kaarten geoefend in %2$s</item>
+        <item quantity="one">%1$d kaart geoefend in %2$s</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d minuten</item>
+        <item quantity="one">%1$d minuut</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">%d kaarten te doen</item>
+        <item quantity="one">%d kaart te doen</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">%1$d kaarten te gaan in %2$s</item>
+        <item quantity="one">%1$d kaart te gaan in %2$s</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d sets</item>
+        <item quantity="one">%1$d set</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">%d minuten resterend</item>
+        <item quantity="one">%d minuut resterend</item>
+    </plurals>
+</resources>

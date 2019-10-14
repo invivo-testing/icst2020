@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:foregroundGravity="center">
+        <include layout="@layout/toolbar" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/logged_text" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/md_title_textsize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/content_vertical_padding" android:text="@string/logged_as" />
+            <TextView android:textSize="@dimen/md_title_textsize" android:textStyle="bold" android:id="@id/username_logged_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/content_vertical_padding" />
+            <Button android:theme="@style/LargeButtonStyle" android:textSize="@dimen/md_title_textsize" android:layout_gravity="center" android:id="@id/logout_button" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/content_vertical_padding" android:text="@string/log_out" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d éve</item>
+        <item quantity="one">Tavaly</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Szócikkek letöltése</item>
+        <item quantity="one">Szócikk letöltése</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$d szócikk maradt</item>
+        <item quantity="one">%1$d szócikk maradt</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Olvasólisták frissítése</item>
+        <item quantity="one">Olvasólista frissítése</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">%1$d lista van hátra</item>
+        <item quantity="one">egy lista van hátra</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">%1$d lista szinkronizálása…</item>
+        <item quantity="one">Egy lista szinkronizálása…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">%1$d szócikk letöltése…</item>
+        <item quantity="one">%1$d szócikk letöltése…</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">még %d perc</item>
+        <item quantity="one">még 1 perc</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">A szócikkek mostantól nem érhetők el kapcsolat nélkül.</item>
+        <item quantity="one">A szócikk mostantól nem érhető el kapcsolat nélkül.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">A szócikkek mostantól kapcsolat nélkül is elérhetők.</item>
+        <item quantity="one">A szócikk mostantól kapcsolat nélkül is elérhető.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">tegnap</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Eltávolítod a kijelölt nyelveket?</item>
+        <item quantity="one">Eltávolítod a kijelölt nyelvet?</item>
+    </plurals>
+</resources>

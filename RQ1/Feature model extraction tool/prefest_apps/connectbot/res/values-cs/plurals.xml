@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other"></item>
+        <item quantity="one">Zkopírováno %1$d bajtů do schránky</item>
+        <item quantity="few">Zkopírováno %1$d bajt do schránky</item>
+        <item quantity="many">Zkopírováno %1$d bajtů do schránky</item>
+    </plurals>
+</resources>

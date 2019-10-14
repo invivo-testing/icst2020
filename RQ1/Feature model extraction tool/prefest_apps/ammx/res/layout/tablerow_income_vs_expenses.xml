@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.money.manager.ex.view.RobotoTextView android:gravity="center" android:id="@id/textViewYear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_column="0" android:text="@string/year" />
+    <com.money.manager.ex.view.RobotoTextView android:gravity="left" android:id="@id/textViewMonth" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_column="1" android:text="@string/month" android:singleLine="true" android:layout_weight="1.0" />
+    <com.money.manager.ex.view.RobotoTextView android:gravity="right" android:id="@id/textViewIncome" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_column="2" android:text="@string/income" android:layout_weight="2.0" />
+    <com.money.manager.ex.view.RobotoTextView android:gravity="right" android:id="@id/textViewExpenses" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_column="3" android:text="@string/expenses" android:layout_weight="2.0" />
+    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="right" android:id="@id/textViewDifference" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_column="4" android:text="@string/difference" android:layout_weight="2.0" />
+</TableRow>

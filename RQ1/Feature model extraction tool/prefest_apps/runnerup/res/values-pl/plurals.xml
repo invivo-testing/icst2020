@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cue_bpm">
+        <item quantity="other">%d uderzeń na minutę</item>
+        <item quantity="one">%d uderzenie na minutę</item>
+        <item quantity="few">%d uderzenia na minutę</item>
+        <item quantity="many">%d uderzeń na minutę</item>
+    </plurals>
+    <plurals name="cue_hour">
+        <item quantity="other">%d godzin</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+    </plurals>
+    <plurals name="cue_kilometer">
+        <item quantity="other">%s kilometrów</item>
+        <item quantity="one">%s kilometr</item>
+        <item quantity="few">%s kilometry</item>
+        <item quantity="many">%s kilometrów</item>
+    </plurals>
+    <plurals name="cue_kilometers_per_hour">
+        <item quantity="other">%s kilometrów na godzinę</item>
+        <item quantity="one">%s kilometr na godzinę</item>
+        <item quantity="few">%s kilometrów na godzinę</item>
+        <item quantity="many">%s kilometrów na godzinę</item>
+    </plurals>
+    <plurals name="cue_meter">
+        <item quantity="other">%d metrów</item>
+        <item quantity="one">%d metr</item>
+        <item quantity="few">%d metry</item>
+        <item quantity="many">%d metrów</item>
+    </plurals>
+    <plurals name="cue_mile">
+        <item quantity="other">%s mil</item>
+        <item quantity="one">%s mila</item>
+        <item quantity="few">%s mile</item>
+        <item quantity="many">%s mil</item>
+    </plurals>
+    <plurals name="cue_miles_per_hour">
+        <item quantity="other">%s mil na godzinę</item>
+        <item quantity="one">%s milę na godzinę</item>
+        <item quantity="few">%s mil na godzinę</item>
+        <item quantity="many">%s mil na godzinę</item>
+    </plurals>
+    <plurals name="cue_minute">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="cue_second">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+    </plurals>
+</resources>

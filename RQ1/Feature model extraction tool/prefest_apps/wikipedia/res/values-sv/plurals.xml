@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d år sedan</item>
+        <item quantity="one">Senaste året</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Laddar ned artiklar</item>
+        <item quantity="one">Laddar ned artikel</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$d artiklar kvar</item>
+        <item quantity="one">%1$d artikel kvar</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Synkroniserar läslistor</item>
+        <item quantity="one">Synkroniserar läslista</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">%1$d listor kvar</item>
+        <item quantity="one">%1$d lista kvar</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Synkroniserar %1$d listor…</item>
+        <item quantity="one">Synkroniserar %1$d lista…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Laddar ned %1$d artiklar…</item>
+        <item quantity="one">Laddar ned %1$d artikel…</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">%d min kvar</item>
+        <item quantity="one">1 min kvar</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Dessa artiklar kommer inte längre vara tillgängliga offline.</item>
+        <item quantity="one">Denna artikel kommer inte längre vara tillgänglig offline.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Dessa artiklar kommer nu vara tillgängliga offline.</item>
+        <item quantity="one">Denna artikel kommer nu vara tillgänglig offline.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="one">igår</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Ta bort valda språk?</item>
+        <item quantity="one">Ta bort valt språk?</item>
+    </plurals>
+</resources>

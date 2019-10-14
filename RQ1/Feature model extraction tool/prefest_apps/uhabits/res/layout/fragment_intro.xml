@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/main" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="10.0"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="28.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/title" n1:paddingLeft="32.0dip" n1:paddingRight="32.0dip" n1:layout_width="wrap_content" n1:layout_height="0.0dip" n1:layout_weight="3.0" />
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="5.0">
+        <ImageView n1:layout_gravity="center" n1:id="@id/image" n1:paddingLeft="16.0dip" n1:paddingRight="16.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView n1:textSize="16.0sp" n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/description" n1:paddingLeft="64.0dip" n1:paddingRight="64.0dip" n1:layout_width="wrap_content" n1:layout_height="0.0dip" n1:layout_weight="3.0" />
+    <TextView n1:layout_width="fill_parent" n1:layout_height="64.0dip" />
+</LinearLayout>

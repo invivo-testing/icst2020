@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appThemes_display">
+        <item>Hela etoso</item>
+        <item>Malhela etoso</item>
+        <item>Hela (tage) / malhela (nokte)</item>
+    </string-array>
+    <string-array name="clockTapActions_display">
+        <item>Fari nenion</item>
+        <item>Agordi averton</item>
+        <item>@string/configAction_setTimeZone</item>
+        <item>Montri sekvan noton</item>
+        <item>Montri antaŭan noton</item>
+    </string-array>
+    <string-array name="dateTapActions_display">
+        <item>Fari nenion</item>
+        <item>Baskuli langetojn (hodiaŭ/morgaŭ)</item>
+        <item>Montri aplikaĵon Kalendaro</item>
+        <item>Agordi propran daton</item>
+    </string-array>
+    <string-array name="directions_long">
+        <item>nordo</item>
+        <item>nord-nord-oriento</item>
+        <item>nord-oriento</item>
+        <item>orient-nord-oriento</item>
+        <item>oriento</item>
+        <item>orient-sud-oriento</item>
+        <item>sud-oriento</item>
+        <item>sud-sud-oriento</item>
+        <item>sudo</item>
+        <item>sud-sud-okcidento</item>
+        <item>sud-okcidento</item>
+        <item>okcident-sud-okcidento</item>
+        <item>okcidento</item>
+        <item>okcident-nord-okcidento</item>
+        <item>nord-okcidento</item>
+        <item>nord-nord-okcidento</item>
+        <item>nordo</item>
+    </string-array>
+    <string-array name="directions_short">
+        <item>N</item>
+        <item>NNE</item>
+        <item>NE</item>
+        <item>ENE</item>
+        <item>E</item>
+        <item>ESE</item>
+        <item>SE</item>
+        <item>SSE</item>
+        <item>S</item>
+        <item>SSW</item>
+        <item>SW</item>
+        <item>WSW</item>
+        <item>W</item>
+        <item>WNW</item>
+        <item>NW</item>
+        <item>NNW</item>
+        <item>N</item>
+    </string-array>
+    <string-array name="getFix_maxAge_display">
+        <item>1 minuto</item>
+        <item>5 minutoj</item>
+        <item>15 minutoj</item>
+        <item>1 horo</item>
+        <item>4 horoj</item>
+        <item>12 horoj</item>
+        <item>unu tago (24 horoj)</item>
+        <item>du tagoj (48 horoj)</item>
+        <item>unu semajno (168 horoj)</item>
+        <item>unu monato (672 horoj)</item>
+    </string-array>
+    <string-array name="getFix_maxElapse_display">
+        <item>15 sekundoj</item>
+        <item>30 sekundoj</item>
+        <item>1 minuto</item>
+        <item>5 minutoj</item>
+        <item>10 minutoj</item>
+    </string-array>
+    <string-array name="localeMode_display">
+        <item>Sistema</item>
+        <item>Propra</item>
+    </string-array>
+    <string-array name="locale_display">
+        <item>Angla</item>
+        <item>Esperanto</item>
+        <item>Franca</item>
+        <item>Germana</item>
+        <item>Hungara</item>
+        <item>Pola</item>
+        <item>Hispana</item>
+        <item>Kataluna</item>
+        <item>Eŭska</item>
+        <item>Norvega</item>
+    </string-array>
+    <string-array name="noteTapActions_display">
+        <item>Fari nenion</item>
+        <item>Agordi averton pri noto</item>
+        <item>Montri sekvan noton</item>
+        <item>Montri antaŭan noton</item>
+    </string-array>
+    <string-array name="solarevents_long">
+        <item>astronomia sunleviĝo</item>
+        <item>naŭtika sunleviĝo</item>
+        <item>matena blua horo (komenco)</item>
+        <item>civila sunleviĝo</item>
+        <item>matena blua horo (fino)</item>
+        <item>sunleviĝo</item>
+        <item>matena ora horo (fino)</item>
+        <item>tagmezo vera (kulminado)</item>
+        <item>vespera ora horo (komenco)</item>
+        <item>sunsubiro</item>
+        <item>vespera blua horo (komenco)</item>
+        <item>civila sunsubiro</item>
+        <item>vespera blua horo (fino)</item>
+        <item>naŭtika sunsubiro</item>
+        <item>astronomia sunsubiro</item>
+        <item>lunleviĝo</item>
+        <item>lunsubiro</item>
+    </string-array>
+    <string-array name="solarevents_short">
+        <item>astronomia sunleviĝo</item>
+        <item>naŭtika sunleviĝo</item>
+        <item>blua horo</item>
+        <item>civila sunleviĝo</item>
+        <item>blua horo</item>
+        <item>sunleviĝo</item>
+        <item>ora horo</item>
+        <item>tagmezo vera</item>
+        <item>ora horo</item>
+        <item>sunsubiro</item>
+        <item>blua horo</item>
+        <item>civila sunsubiro</item>
+        <item>blua horo</item>
+        <item>naŭtika sunsubiro</item>
+        <item>astronomia sunsubiro</item>
+        <item>lunleviĝo</item>
+        <item>lunsubiro</item>
+    </string-array>
+</resources>

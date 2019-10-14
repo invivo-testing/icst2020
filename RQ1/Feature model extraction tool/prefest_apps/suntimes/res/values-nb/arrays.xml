@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appThemes_display">
+        <item>Lyst tema</item>
+        <item>Mørkt tema</item>
+        <item>Lyst tema / Mørkt tema (nattmodus)</item>
+    </string-array>
+    <string-array name="clockTapActions_display">
+        <item>Ikke gjør noe</item>
+        <item>@string/configAction_setAlarm</item>
+        <item>@string/configAction_setTimeZone</item>
+        <item>Vis neste notis</item>
+        <item>Vis forrige notis</item>
+    </string-array>
+    <string-array name="dateTapActions_display">
+        <item>Ikke gjør noe</item>
+        <item>Bytt visning (i dag/i morgen)</item>
+        <item>Vis kalender-app</item>
+        <item>Still inn dato</item>
+    </string-array>
+    <string-array name="directions_long">
+        <item>Nord</item>
+        <item>Nord-nordøst</item>
+        <item>Nordøst</item>
+        <item>Øst-nordøst</item>
+        <item>Øst</item>
+        <item>Øst-sørøst</item>
+        <item>Sørøst</item>
+        <item>Sør-sørøst</item>
+        <item>Sør</item>
+        <item>Sør-sørvest</item>
+        <item>Sørvest</item>
+        <item>Vest-sørvest</item>
+        <item>Vest</item>
+        <item>Vest-nordvest</item>
+        <item>Nordvest</item>
+        <item>Nord-nordvest</item>
+        <item>Nord</item>
+    </string-array>
+    <string-array name="directions_short">
+        <item>N</item>
+        <item>NNØ</item>
+        <item>NØ</item>
+        <item>ØNØ</item>
+        <item>Ø</item>
+        <item>ØSØ</item>
+        <item>SØ</item>
+        <item>SSØ</item>
+        <item>S</item>
+        <item>SSV</item>
+        <item>SV</item>
+        <item>VSV</item>
+        <item>V</item>
+        <item>VNV</item>
+        <item>NV</item>
+        <item>NNV</item>
+        <item>N</item>
+    </string-array>
+    <string-array name="getFix_maxAge_display">
+        <item>1 minutt</item>
+        <item>5 minutter</item>
+        <item>15 minutter</item>
+        <item>1 time</item>
+        <item>4 timer</item>
+        <item>12 timer</item>
+        <item>ett døgn (24 timer)</item>
+        <item>to døgn (48 timer)</item>
+        <item>en uke (168 timer)</item>
+        <item>en måned (672 timer)</item>
+    </string-array>
+    <string-array name="getFix_maxElapse_display">
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+    </string-array>
+    <string-array name="localeMode_display">
+        <item>System</item>
+        <item>Brukerdefinert</item>
+    </string-array>
+    <string-array name="locale_display">
+        <item>English</item>
+        <item>Esperanto</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hungarian</item>
+        <item>Polish</item>
+        <item>Spanish</item>
+        <item>Catalan</item>
+        <item>Basque</item>
+        <item>Norsk</item>
+    </string-array>
+    <string-array name="noteTapActions_display">
+        <item>Ikke gjør noe</item>
+        <item>Still inn alarm for notis</item>
+        <item>Vis neste notis</item>
+        <item>Vis forrige notis</item>
+    </string-array>
+    <string-array name="solarevents_long">
+        <item>astronomisk tussmørke morgen (start)</item>
+        <item>nautisk tussmørke morgen (start)</item>
+        <item>blå time morgen (start)</item>
+        <item>alminnelig tussmørke morgen (start)</item>
+        <item>blå time morgen (slutt)</item>
+        <item>soloppgang</item>
+        <item>gylne time morgen (slutt)</item>
+        <item>lokal middag</item>
+        <item>gylne time kveld (start)</item>
+        <item>solnedgang</item>
+        <item>blå time kveld (start)</item>
+        <item>alminnelig tussmørke kveld (slutt)</item>
+        <item>blå time kveld (slutt)</item>
+        <item>nautisk tussmørke kveld (slutt)</item>
+        <item>astronomisk tussmørke kveld (slutt)</item>
+        <item>måneoppgang</item>
+        <item>månenedgang</item>
+    </string-array>
+    <string-array name="solarevents_short">
+        <item>astronomisk tussmørke</item>
+        <item>nautisk tussmørke</item>
+        <item>blå time</item>
+        <item>alminnelig tussmørke</item>
+        <item>blå time</item>
+        <item>soloppgang</item>
+        <item>gylne time</item>
+        <item>lokal middag</item>
+        <item>gylne time</item>
+        <item>solnedgang</item>
+        <item>blå time</item>
+        <item>alminnelig tussmørke</item>
+        <item>blå time</item>
+        <item>nautisk tussmørke</item>
+        <item>astronomisk tussmørke</item>
+        <item>måneoppgang</item>
+        <item>månenedgang</item>
+    </string-array>
+    <string-array name="timezoneSort_display">
+        <item>@string/timezone_sort_byOffset</item>
+        <item>@string/timezone_sort_byId</item>
+        <item>@string/timezone_sort_byName</item>
+    </string-array>
+</resources>

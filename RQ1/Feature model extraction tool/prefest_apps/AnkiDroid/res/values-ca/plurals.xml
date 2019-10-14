@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">%d cartes ensenyades</item>
+        <item quantity="one">%d carta ensenyada</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">Voleu eliminar el tipus de carta \"%2$s\", i les seves %1$d cartes?</item>
+        <item quantity="one">Voleu eliminar el tipus de carta \"%2$s\", i la seva %1$d carta?</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"%1$s
+%2$d paquets utilitzen aquest grup"</item>
+        <item quantity="one">"%1$s
+%2$d paquet utilitza aquest grup"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">Les sub-coleccions %s utilitzaran aquest grup</item>
+        <item quantity="one">La sub-colecció %s utilitzarà aquest grup</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">%1$d cartes pendents (%2$s)</item>
+        <item quantity="one">%1$d carta pendent (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">Eliminar totes les cartes en %1$s? Conté %2$d cartes.</item>
+        <item quantity="one">Eliminar totes les cartes en %1$s? Conté %2$d carta.</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">%d cartes afegides</item>
+        <item quantity="one">%d carta afegida</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d notes</item>
+        <item quantity="one">%d nota</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">%d tipus de notes disponibles</item>
+        <item quantity="one">%d tipus de notes disponibles</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d noves targetes per revisar en %1$s</item>
+        <item quantity="one">%2$d nova targeta per revisar en %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">%d minuts restants</item>
+        <item quantity="one">%d minut restant</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">&lt;b>%1$d cartes&lt;/b> estudiades en &lt;b>%2$s&lt;/b> avui.</item>
+        <item quantity="one">&lt;b>%1$d carta&lt;/b> estudiada en &lt;b>%2$s&lt;/b> avui.</item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">%1$d cartes estudiades en %2$s avui</item>
+        <item quantity="one">%1$d carta estudiada en %2$s avui</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s dies</item>
+        <item quantity="one">%s dia</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s hores</item>
+        <item quantity="one">%s hora</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s minuts</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s mesos</item>
+        <item quantity="one">%s mes</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s segons</item>
+        <item quantity="one">%s segon</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s anys</item>
+        <item quantity="one">%s any</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d cartes estudiades en %2$s</item>
+        <item quantity="one">%1$d carta estudiada en %2$s</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d minuts</item>
+        <item quantity="one">%1$d minut</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">%d cartes pendents</item>
+        <item quantity="one">%d carta pendent</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">%1$d cartes per fer en %2$s</item>
+        <item quantity="one">%1$d carta per fer en %2$s</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d paquets</item>
+        <item quantity="one">%1$d paquet</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">%d minuts restants</item>
+        <item quantity="one">%d minut restant</item>
+    </plurals>
+</resources>

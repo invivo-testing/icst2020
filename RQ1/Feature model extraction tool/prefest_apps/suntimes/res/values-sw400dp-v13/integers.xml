@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="table_heading_date_maxems">9</integer>
+    <integer name="table_weight0">1</integer>
+    <integer name="table_weight1">1</integer>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <android.support.constraint.ConstraintLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <TextView n1:id="@id/editLabel_background" n1:paddingLeft="8.0dip" n1:paddingRight="0.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_themeBackgroundId" n2:layout_constraintBottom_toBottomOf="@id/editSpin_background" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toTopOf="@id/editSpin_background" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <Spinner n1:id="@id/editSpin_background" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dip" n1:layout_marginBottom="4.0dip" n3:layout_constraintStart_toEndOf="@id/editLabel_background" n3:layout_constraintTop_toTopOf="parent" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <TextView n1:id="@id/editLabel_padding" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_themePadding" n4:layout_constraintBaseline_toBaselineOf="@id/edit_padding" n4:layout_constraintStart_toStartOf="parent" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <EditText n1:id="@id/edit_padding" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="" n1:hint="@string/configHint_themePadding" n1:inputType="textNoSuggestions" n5:layout_constraintEnd_toEndOf="parent" n5:layout_constraintStart_toEndOf="@id/editLabel_padding" n5:layout_constraintTop_toBottomOf="@id/editSpin_background" style="@style/TextAppearance.AppCompat.Small" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </android.support.constraint.ConstraintLayout>
+</merge>

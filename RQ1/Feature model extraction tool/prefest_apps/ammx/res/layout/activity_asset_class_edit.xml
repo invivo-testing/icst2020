@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/mmx_activity_side_margin" android:layout_marginRight="@dimen/mmx_activity_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <fragment android:name="com.money.manager.ex.assetallocation.AssetClassEditFragment" android:id="@id/fragment" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:gravity="center" android:orientation="vertical" android:id="@id/studyoptions_main" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ActionBarStyle" android:id="@id/studyOptionsToolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:layout_alignParentTop="true" app:popupTheme="@style/ActionBar.Popup" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/studyOptionsToolbar">
+            <View android:id="@id/studyoptions_gradient" android:background="@drawable/shadow_left" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="fill_parent" />
+            <RelativeLayout android:id="@id/studyoptions_mainframe" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ScrollView android:id="@id/studyoptions_scrollview" android:paddingLeft="@dimen/study_options_padding" android:paddingRight="@dimen/study_options_padding" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_above="@id/bottom_area_layout" android:layout_alignParentTop="true" android:fadeScrollbars="false">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/studyoptions_scrollcontainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="28.0sp" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/studyoptions_deck_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/studyoptions_deckinformation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                            <TableLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/studyoptions_deckcounts" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="5.0dip">
+                                <TableRow>
+                                    <TextView android:paddingLeft="0.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/studyoptions_due_today" />
+                                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                        <TextView android:textColor="?newCountColor" android:id="@id/studyoptions_new" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                        <TextView android:textColor="?learnCountColor" android:id="@id/studyoptions_lrn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                                        <TextView android:textColor="?reviewCountColor" android:id="@id/studyoptions_rev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                                    </LinearLayout>
+                                </TableRow>
+                                <TableRow>
+                                    <TextView android:paddingLeft="0.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/studyoptions_new_total" />
+                                    <TextView android:gravity="end" android:id="@id/studyoptions_total_new" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                </TableRow>
+                                <TableRow>
+                                    <TextView android:paddingLeft="0.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/studyoptions_total_cards" />
+                                    <TextView android:gravity="end" android:id="@id/studyoptions_total" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                </TableRow>
+                                <TableRow>
+                                    <TextView android:paddingLeft="0.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/studyoptions_eta" />
+                                    <TextView android:gravity="end" android:id="@id/studyoptions_eta" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                </TableRow>
+                            </TableLayout>
+                        </LinearLayout>
+                        <TextView android:gravity="center" android:id="@id/studyoptions_deck_description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </ScrollView>
+                <LinearLayout android:orientation="vertical" android:id="@id/bottom_area_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/studyoptions_congrats_message" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minLines="2" />
+                    <Button android:theme="@style/LargeButtonStyle" android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/studyoptions_start" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/studyoptions_start" android:lines="2" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/anki_progress" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

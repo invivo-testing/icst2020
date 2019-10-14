@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <FrameLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <ViewFlipper n1:id="@id/info_equinoxsolstice_flipper" n1:background="?selectableItemBackground" n1:focusable="true" n1:clickable="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <RelativeLayout n1:id="@id/info_equinoxsolstice_thisyear" n1:background="@color/transparent" n1:paddingLeft="10.0dip" n1:paddingTop="4.0dip" n1:paddingRight="10.0dip" n1:paddingBottom="5.0dip" n1:layout_width="wrap_content" n1:animateLayoutChanges="true" style="@style/SunsetTimeCard">
+                <include layout="@layout/info_time_solsticequinox" />
+            </RelativeLayout>
+            <RelativeLayout n1:id="@id/info_equinoxsolstice_nextyear" n1:background="@color/transparent" n1:paddingLeft="10.0dip" n1:paddingTop="4.0dip" n1:paddingRight="10.0dip" n1:paddingBottom="5.0dip" n1:layout_width="wrap_content" n1:animateLayoutChanges="true" style="@style/SunsetTimeCard">
+                <include layout="@layout/info_time_solsticequinox" />
+            </RelativeLayout>
+        </ViewFlipper>
+        <TextView n1:textSize="12.0sp" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/txt_empty" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="16.0dip" n1:text="@string/configLabel_ui_showEquinox_notImplemented" />
+    </FrameLayout>
+</merge>

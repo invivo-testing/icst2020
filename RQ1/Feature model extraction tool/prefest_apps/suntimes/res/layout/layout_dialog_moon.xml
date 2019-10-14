@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:padding="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:id="@id/moondialog_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/timeMode_moon" style="@style/TableHeadTextView" />
+    <android.support.constraint.ConstraintLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dip">
+        <com.forrestguice.suntimeswidget.MoonPhaseView n1:id="@id/moonphase_view" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dip" n1:layout_marginBottom="4.0dip" n2:illuminationAtLunarNoon="false" n2:layout_constraintEnd_toStartOf="@id/header_gutter3" n2:layout_constraintHorizontal_chainStyle="spread_inside" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toTopOf="parent" n2:showPosition="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/header_gutter3" n1:background="@color/transparent" n1:visibility="invisible" n1:layout_width="0.0dip" n1:layout_height="1.0dip" n3:layout_constraintEnd_toStartOf="@id/moonriseset_view" n3:layout_constraintHorizontal_weight="@integer/table_weight0" n3:layout_constraintStart_toEndOf="@id/moonphase_view" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.forrestguice.suntimeswidget.MoonRiseSetView n1:id="@id/moonriseset_view" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginBottom="4.0dip" n4:layout_constraintBottom_toBottomOf="parent" n4:layout_constraintEnd_toStartOf="@id/header_gutter2" n4:layout_constraintStart_toEndOf="@id/header_gutter3" n4:showPosition="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/header_gutter2" n1:background="@color/transparent" n1:visibility="invisible" n1:layout_width="0.0dip" n1:layout_height="1.0dip" n5:layout_constraintEnd_toEndOf="parent" n5:layout_constraintHorizontal_weight="@integer/table_weight1" n5:layout_constraintStart_toEndOf="@id/moonriseset_view" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </android.support.constraint.ConstraintLayout>
+    <View n1:layout_width="fill_parent" n1:layout_height="1.0dip" n1:layout_marginTop="4.0dip" n1:layout_marginBottom="8.0dip" style="@style/SunsetTimeHorizontalRule" />
+    <com.forrestguice.suntimeswidget.MoonPhasesView n1:id="@id/moonphases_view" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</LinearLayout>

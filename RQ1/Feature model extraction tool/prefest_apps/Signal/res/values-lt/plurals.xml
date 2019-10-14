@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minučių</item>
+        <item quantity="one">%d minutė</item>
+        <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minučių</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d žinučių pokalbyje</item>
+        <item quantity="one">%d žinutė pokalbyje</item>
+        <item quantity="few">%d žinutės pokalbyje</item>
+        <item quantity="many">%d žinučių pokalbyje</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Tai nedelsiant apkirps visus pokalbius iki %d naujausių žinučių.</item>
+        <item quantity="one">Tai nedelsiant apkirps visus pokalbius iki %d naujausios žinutės.</item>
+        <item quantity="few">Tai nedelsiant apkirps visus pokalbius iki %d naujausių žinučių.</item>
+        <item quantity="many">Tai nedelsiant apkirps visus pokalbius iki %d naujausių žinučių.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d neskaitytų žinučių</item>
+        <item quantity="one">%d neskaityta žinutė</item>
+        <item quantity="few">%d neskaitytos žinutės</item>
+        <item quantity="many">%d neskaitytų žinučių</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Ištrinti pažymėtas žinutes?</item>
+        <item quantity="one">Ištrinti pažymėtą žinutę?</item>
+        <item quantity="few">Ištrinti pažymėtas žinutes?</item>
+        <item quantity="many">Ištrinti pažymėtas žinutes?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Klaida, įrašant priedus į atmintį!</item>
+        <item quantity="one">Klaida, įrašant priedą į atmintį!</item>
+        <item quantity="few">Klaida, įrašant priedus į atmintį!</item>
+        <item quantity="many">Klaida, įrašant priedus į atmintį!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Įrašoma %1$d priedų</item>
+        <item quantity="one">Įrašomas %1$d priedas</item>
+        <item quantity="few">Įrašomi %1$d priedai</item>
+        <item quantity="many">Įrašoma %1$d priedų</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Įrašoma į atmintį %1$d priedų...</item>
+        <item quantity="one">Įrašomas į atmintį %1$d priedas...</item>
+        <item quantity="few">Įrašomi į atmintį %1$d priedai...</item>
+        <item quantity="many">Įrašoma į atmintį %1$d priedų...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Šių visų %1$d medijų įrašymas į atmintį leis bet kuriai programėlei jūsų įrenginyje prieigą prie jų.
+
+Tęsti?"</item>
+        <item quantity="one">"Šios %1$d medijos įrašymas į atmintį leis bet kuriai programėlei jūsų įrenginyje prieigą prie jos.
+
+Tęsti?"</item>
+        <item quantity="few">"Šių visų %1$d medijų įrašymas į atmintį leis bet kuriai programėlei jūsų įrenginyje prieigą prie jų.
+
+Tęsti?"</item>
+        <item quantity="many">"Šių visų %1$d medijų įrašymas į atmintį leis bet kuriai programėlei jūsų įrenginyje prieigą prie jų.
+
+Tęsti?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Tai visiems laikams ištrins visas %1$d pasirinktų žinučių.</item>
+        <item quantity="one">Tai visiems laikams ištrins %1$d pasirinktą žinutę.</item>
+        <item quantity="few">Tai visiems laikams ištrins visas %1$d pasirinktas žinutes.</item>
+        <item quantity="many">Tai visiems laikams ištrins visas %1$d pasirinktų žinučių.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">Užarchyvuota %d pokalbių</item>
+        <item quantity="one">Užarchyvuotas %d pokalbis</item>
+        <item quantity="few">Užarchyvuoti %d pokalbiai</item>
+        <item quantity="many">Užarchyvuota %d pokalbių</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Ištrinti pasirinktus pokalbius?</item>
+        <item quantity="one">Ištrinti pasirinktą pokalbį?</item>
+        <item quantity="few">Ištrinti pasirinktus pokalbius?</item>
+        <item quantity="many">Ištrinti pasirinktus pokalbius?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d pokalbių perkelta į gautųjų aplanką</item>
+        <item quantity="one">%d pokalbis perkeltas į gautųjų aplanką</item>
+        <item quantity="few">%d pokalbiai perkelti į gautųjų aplanką</item>
+        <item quantity="many">%d pokalbių perkelta į gautųjų aplanką</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Tai visiems laikams ištrins visus %1$d pasirinktų pokalbių.</item>
+        <item quantity="one">Tai visiems laikams ištrins %1$d pasirinktą pokalbį.</item>
+        <item quantity="few">Tai visiems laikams ištrins visus %1$d pasirinktus pokalbius.</item>
+        <item quantity="many">Tai visiems laikams ištrins visus %1$d pasirinktų pokalbių.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s prisijungė prie grupės.</item>
+        <item quantity="one">%1$s prisijungė prie grupės.</item>
+        <item quantity="few">%1$s prisijungė prie grupės.</item>
+        <item quantity="many">%1$s prisijungė prie grupės.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Siųsti %d SMS pakvietimų?</item>
+        <item quantity="one">Siųsti %d SMS pakvietimą?</item>
+        <item quantity="few">Siųsti %d SMS pakvietimus?</item>
+        <item quantity="many">Siųsti %d SMS pakvietimų?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">SIŲSTI SMS %d DRAUGŲ</item>
+        <item quantity="one">SIŲSTI SMS %d DRAUGUI</item>
+        <item quantity="few">SIŲSTI SMS %d DRAUGAMS</item>
+        <item quantity="many">SIŲSTI SMS %d DRAUGŲ</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Tai visiems laikams ištrins visas %1$d pažymėtų žinučių.</item>
+        <item quantity="one">Tai visiems laikams ištrins %1$d pažymėtą žinutę.</item>
+        <item quantity="few">Tai visiems laikams ištrins visas %1$d pažymėtas žinutes.</item>
+        <item quantity="many">Tai visiems laikams ištrins visas %1$d pažymėtų žinučių.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Ištrinti pažymėtas žinutes?</item>
+        <item quantity="one">Ištrinti pažymėtą žinutę?</item>
+        <item quantity="few">Ištrinti pažymėtas žinutes?</item>
+        <item quantity="many">Ištrinti pažymėtas žinutes?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Dabar jums liko %d žingsnis iki derinimo žurnalo pateikimo.</item>
+        <item quantity="one">Dabar jums liko %d žingsnis iki derinimo žurnalo pateikimo.</item>
+        <item quantity="few">Dabar jums liko %d žingsniai iki derinimo žurnalo pateikimo.</item>
+        <item quantity="many">Dabar jums liko %d žingsnių iki derinimo žurnalo pateikimo.</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d dienų</item>
+        <item quantity="one">%d diena</item>
+        <item quantity="few">%d dienos</item>
+        <item quantity="many">%d dienų</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d valandų</item>
+        <item quantity="one">%d valanda</item>
+        <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandų</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minučių</item>
+        <item quantity="one">%d minutė</item>
+        <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minučių</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d sekundžių</item>
+        <item quantity="one">%d sekundė</item>
+        <item quantity="few">%d sekundės</item>
+        <item quantity="many">%d sekundžių</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d savaičių</item>
+        <item quantity="one">%d savaitė</item>
+        <item quantity="few">%d savaitės</item>
+        <item quantity="many">%d savaičių</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d valandų</item>
+        <item quantity="one">%d valanda</item>
+        <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandų</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">dar %d</item>
+        <item quantity="one">dar %d</item>
+        <item quantity="few">dar %d</item>
+        <item quantity="many">dar %d</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Jūsų Signal versija nustos galioti po %d dienų. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
+        <item quantity="one">Jūsų Signal versija nustos galioti po %d dienos. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
+        <item quantity="few">Jūsų Signal versija nustos galioti po %d dienų. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
+        <item quantity="many">Jūsų Signal versija nustos galioti po %d dienų. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
+    </plurals>
+</resources>

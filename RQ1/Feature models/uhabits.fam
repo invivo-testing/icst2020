@@ -1,0 +1,24 @@
+FM (C  :  DeviceConfig AppSettings;
+AppSettings :  'preferences' ;
+'preferences' :  '_category1' ;
+'_category1' :  'interfaceCategory_category7' 'reminderCategory_category2' 'devCategory_category6' ;
+'devCategory_category6' :  'pref_feature_sync' 'pref_developer' 'pref_feature_numerical_habits' 'pref_sync_address' 'pref_sync_key' ;
+'interfaceCategory_category7' :  'pref_short_toggle' 'pref_pure_black' 'pref_checkmark_reverse_order' ;
+'reminderCategory_category2' :  'pref_sticky_notifications' 'pref_snooze_interval' 'pref_led_notifications' ;
+'pref_sync_address' : ('pref_sync_address_default' | 'pref_sync_address_custom');
+'pref_sticky_notifications' : ('pref_sticky_notifications_true' | 'pref_sticky_notifications_false');
+'pref_feature_numerical_habits' : ('pref_feature_numerical_habits_true' | 'pref_feature_numerical_habits_false');
+'pref_led_notifications' : ('pref_led_notifications_true' | 'pref_led_notifications_false');
+'pref_feature_sync' : ('pref_feature_sync_true' | 'pref_feature_sync_false');
+'pref_pure_black' : ('pref_pure_black_true' | 'pref_pure_black_false');
+'pref_snooze_interval' : ('pref_snooze_interval_15'|'pref_snooze_interval_30'|'pref_snooze_interval_60'|'pref_snooze_interval_120'|'pref_snooze_interval_240'|'pref_snooze_interval_480'|'pref_snooze_interval_1440'|'pref_snooze_interval_-1');
+'pref_short_toggle' : ('pref_short_toggle_true' | 'pref_short_toggle_false');
+'pref_developer' : ('pref_developer_true' | 'pref_developer_false');
+'pref_sync_key' : ('pref_sync_key_default' | 'pref_sync_key_custom');
+'pref_checkmark_reverse_order' : ('pref_checkmark_reverse_order_true' | 'pref_checkmark_reverse_order_false');
+DeviceConfig : DeviceModel OperatingSystem;
+ DeviceModel  : ('Xiaomi Redmi Note 3 Pro' |'Aquaris M5' |'moto e5 play' |'LGE Nexus 5' |'Samsung Galaxy Grand Prime' |'Google nexus 5x' |'Samsung Galaxy S5 Neo' |'amsung GT-I9506' |'Xperia Z1 Compact' |'Samsung Note 4 SM-N910F' |'LG Nexus 5' |'motorola Moto E (cm_condor)' |'SM-G960F' |'Moto G4 Play' |'Sony Xperia L' |'Nexus 6P' |'Fairphone 2 (2GB RAM)' |'Samsung Note4' |'LG V30 H932' |'Nexus 5' |'Motorola Moto G 3rd Gen' |'Acer Z205' |'Moto G (falcon)' |'Moto G2' |'Acer V360' |'Asus Zenfone 2 ZE551ML' |'Vodafone 890N' |'Nvidia K1' |'Motorola Nexus 6' |'Samsung Galaxy S3 GT-I9300' |'Fairphone 1U' |'LGE Nexus 5X' |'Pixel 2' |'HTC Sensation XE' |'Motorola Z Play' |'LG Nexus 4' |'Nexus 4' |'Samsung SM-G900F (kltexx)' |'LG Nexus 5X' |'Meizu MX4' |'Android SDK built for x86' |'HTC One M7' |'Moto G4 Plus' |'Samsung Galaxy S5 neo' |'Samsung Galaxy S3 (US AT&T)' |'Aquaris A4.5' |'ONEPLUS A6013' ); 
+OperatingSystem : (CyanogenMod |Android ); 
+CyanogenMod : ('12.1' |'13' ); 
+Android : ('4.4.4' |'6.0.1' |'4.3' |'7.1' |'6.0.1 ' |'6.0.1 (CM 13.0)' |'8.1.0' |'5.1.1' |'5.0.2' |'5.1.1 CM' |'8.0.0' |'9' |'5.0.1' |'7' |'6' |'4.1.1' |'7.1.2' |'4.2.2' |'7.1.1' |'4.4.2' ); 
+)

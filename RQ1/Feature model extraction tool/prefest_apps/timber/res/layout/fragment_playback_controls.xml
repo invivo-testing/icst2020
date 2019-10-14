@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/root_view" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/quick_controls_frame" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <ImageView n1:id="@id/blurredAlbumart" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="centerCrop" />
+        <View n1:background="#44000000" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:paddingLeft="30.0dip" n1:paddingTop="20.0dip" n1:paddingRight="30.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <TextView n1:textSize="25.0sp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/song_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" />
+            <TextView n1:textSize="14.0sp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/song_artist" n1:paddingTop="3.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+            <SeekBar n1:layout_gravity="center" n1:id="@id/song_progress" n1:tag="tint_accent_color" n1:paddingTop="18.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dip" n1:layout_marginRight="6.0dip" n1:maxHeight="2.0dip" n1:progress="30" />
+            <TextView n1:textColor="#ffffffff" n1:id="@id/song_album" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <TextView n1:textColor="#ffffffff" n1:id="@id/song_duration" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <TextView n1:textColor="#ffffffff" n1:id="@id/song_elapsed_time" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:paddingTop="20.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <net.steamcrafted.materialiconlib.MaterialIconView n1:id="@id/previous" n1:background="?selectableItemBackgroundBorderless" n1:paddingLeft="50.0dip" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:scaleType="center" n1:layout_weight="0.7" n2:materialIcon="skip_previous" n2:materialIconColor="#ffffffff" n2:materialIconSize="35.0dip" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <FrameLayout n1:layout_width="50.0dip" n1:layout_height="50.0dip" n1:layout_marginRight="5.0dip" n1:layout_weight="1.0" n1:layout_alignParentRight="true" n1:layout_centerVertical="true">
+                    <com.naman14.timber.widgets.PlayPauseButton n1:layout_gravity="center" n1:id="@id/playpause" n1:layout_width="23.0dip" n1:layout_height="23.0dip" />
+                    <View n1:id="@id/playpausewrapper" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+                </FrameLayout>
+                <net.steamcrafted.materialiconlib.MaterialIconView n1:id="@id/next" n1:background="?selectableItemBackgroundBorderless" n1:paddingRight="50.0dip" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:scaleType="center" n1:layout_weight="0.7" n3:materialIcon="skip_next" n3:materialIconColor="#ffffffff" n3:materialIconSize="35.0dip" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <include layout="@layout/bottom_nowplaying_card" />
+</FrameLayout>

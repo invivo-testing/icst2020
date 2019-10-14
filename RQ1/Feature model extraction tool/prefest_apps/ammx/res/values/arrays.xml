@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accountstatus_items">
+        <item>@string/open</item>
+        <item>@string/closed</item>
+    </string-array>
+    <string-array name="accountstatus_values">
+        <item>Open</item>
+        <item>Closed</item>
+    </string-array>
+    <string-array name="accounttype_items">
+        <item>@string/cash</item>
+        <item>@string/checking</item>
+        <item>@string/investment</item>
+        <item>@string/term</item>
+        <item>@string/credit_card</item>
+        <item>@string/loan</item>
+        <item>@string/shares</item>
+    </string-array>
+    <string-array name="application_font_entries">
+        <item>Default</item>
+        <item>Roboto Light</item>
+        <item>Roboto Regular</item>
+        <item>Roboto Medium</item>
+        <item>Roboto Black</item>
+        <item>Roboto Condensed</item>
+        <item>Roboto Condensed Light</item>
+    </string-array>
+    <string-array name="application_font_size_entries">
+        <item>@string/micro</item>
+        <item>@string/small</item>
+        <item>@string/Default</item>
+        <item>@string/medium</item>
+        <item>@string/large</item>
+    </string-array>
+    <string-array name="application_font_size_values">
+        <item>micro</item>
+        <item>small</item>
+        <item>default</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+    <string-array name="application_font_values">
+        <item>-1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>10</item>
+        <item>12</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="application_locale_entries">
+        <item>@string/Default</item>
+        <item>@string/locale_ar</item>
+        <item>@string/locale_bs</item>
+        <item>@string/locale_cs</item>
+        <item>@string/locale_da</item>
+        <item>@string/locale_de</item>
+        <item>@string/locale_el</item>
+        <item>@string/locale_en</item>
+        <item>@string/locale_es</item>
+        <item>@string/locale_fr</item>
+        <item>@string/locale_he</item>
+        <item>@string/locale_hu</item>
+        <item>@string/locale_id</item>
+        <item>@string/locale_it</item>
+        <item>@string/locale_ja</item>
+        <item>@string/locale_nl</item>
+        <item>@string/locale_pl</item>
+        <item>@string/locale_pt</item>
+        <item>@string/locale_pt_BR</item>
+        <item>@string/locale_ro</item>
+        <item>@string/locale_ru</item>
+        <item>@string/locale_sk</item>
+        <item>@string/locale_tr</item>
+        <item>@string/locale_uk</item>
+        <item>@string/locale_vi</item>
+        <item>@string/locale_zh_rCN</item>
+        <item>@string/locale_zh_rTW</item>
+    </string-array>
+    <string-array name="application_locale_values">
+        <item></item>
+        <item>ar</item>
+        <item>bs</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>de</item>
+        <item>el</item>
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>he</item>
+        <item>hu</item>
+        <item>in</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>pt-BR</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sk</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>vi</item>
+        <item>zh-rCN</item>
+        <item>zh-rTW</item>
+    </string-array>
+    <string-array name="backup_country_codes">
+        <item>SX</item>
+        <item>BQ</item>
+        <item>CW</item>
+        <item>SS</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>Sint Maarten</item>
+        <item>Caribbean Netherlands</item>
+        <item>Curaçao</item>
+        <item>South Sudan</item>
+    </string-array>
+    <string-array name="category_type">
+        <item>@string/category</item>
+        <item>@string/subcategory</item>
+    </string-array>
+    <string-array name="choose_payee_sort">
+        <item>@string/sort_by_name</item>
+        <item>@string/sort_by_usage</item>
+    </string-array>
+    <string-array name="cloud_provider_names">
+        <item>PCloud</item>
+        <item>Dropbox</item>
+        <item>OneDrive</item>
+        <item>Google Drive</item>
+        <item>Box</item>
+    </string-array>
+    <string-array name="cloud_provider_values">
+        <item>PCLOUD</item>
+        <item>DROPBOX</item>
+        <item>ONEDRIVE</item>
+        <item>GOOGLEDRIVE</item>
+        <item>BOX</item>
+    </string-array>
+    <string-array name="context_menu_account_dashboard">
+        <item>@string/edit</item>
+    </string-array>
+    <string-array name="context_menu_currencies">
+        <item>@string/edit</item>
+        <item>@string/show_chart</item>
+        <item>@string/update_menu_currency_exchange_rates</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="currencies_code">
+        <item>ALL</item>
+        <item>AFN</item>
+        <item>ANG</item>
+        <item>ARS</item>
+        <item>AUD</item>
+        <item>AWG</item>
+        <item>AZN</item>
+        <item>BAM</item>
+        <item>BBD</item>
+        <item>BGN</item>
+        <item>BMD</item>
+        <item>BND</item>
+        <item>BOB</item>
+        <item>BRL</item>
+        <item>BSD</item>
+        <item>BWP</item>
+        <item>BYN</item>
+        <item>BYR</item>
+        <item>BZD</item>
+        <item>KHR</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>COP</item>
+        <item>CRC</item>
+        <item>CUP</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>DOP</item>
+        <item>EEK</item>
+        <item>EGP</item>
+        <item>EUR</item>
+        <item>FJD</item>
+        <item>FKP</item>
+        <item>GBP</item>
+        <item>GGP</item>
+        <item>GHC</item>
+        <item>GIP</item>
+        <item>GTQ</item>
+        <item>GYD</item>
+        <item>HKD</item>
+        <item>HNL</item>
+        <item>HRK</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>IMP</item>
+        <item>INR</item>
+        <item>IRR</item>
+        <item>ISK</item>
+        <item>JEP</item>
+        <item>JMD</item>
+        <item>JPY</item>
+        <item>KGS</item>
+        <item>KPW</item>
+        <item>KRW</item>
+        <item>KYD</item>
+        <item>KZT</item>
+        <item>LAK</item>
+        <item>LBP</item>
+        <item>LKR</item>
+        <item>LRD</item>
+        <item>LTL</item>
+        <item>LVL</item>
+        <item>MKD</item>
+        <item>MNT</item>
+        <item>MUR</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>MZN</item>
+        <item>NAD</item>
+        <item>NIO</item>
+        <item>NGN</item>
+        <item>NPR</item>
+        <item>NZD</item>
+        <item>NOK</item>
+        <item>OMR</item>
+        <item>PAB</item>
+        <item>PEN</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>PYG</item>
+        <item>QAR</item>
+        <item>RON</item>
+        <item>RUB</item>
+        <item>SAR</item>
+        <item>SHP</item>
+        <item>RSD</item>
+        <item>SBD</item>
+        <item>SCR</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>SOS</item>
+        <item>SRD</item>
+        <item>SVC</item>
+        <item>SYP</item>
+        <item>THB</item>
+        <item>TRL</item>
+        <item>TRY</item>
+        <item>TTD</item>
+        <item>TVD</item>
+        <item>TWD</item>
+        <item>UAH</item>
+        <item>USD</item>
+        <item>UYU</item>
+        <item>UZS</item>
+        <item>VEF</item>
+        <item>VND</item>
+        <item>XCD</item>
+        <item>YER</item>
+        <item>ZAR</item>
+        <item>ZWD</item>
+    </string-array>
+    <string-array name="currencies_symbol">
+        <item>Lek</item>
+        <item>؋</item>
+        <item>$</item>
+        <item>ƒ</item>
+        <item>$</item>
+        <item>ман</item>
+        <item>$</item>
+        <item>$</item>
+        <item>p.</item>
+        <item>BZ$</item>
+        <item>$</item>
+        <item>$b</item>
+        <item>KM</item>
+        <item>P</item>
+        <item>лв</item>
+        <item>R$</item>
+        <item>$</item>
+        <item>៛</item>
+        <item>$</item>
+        <item>$</item>
+        <item>$</item>
+        <item>¥</item>
+        <item>$</item>
+        <item>₡</item>
+        <item>kn</item>
+        <item>₱</item>
+        <item>Kč</item>
+        <item>kr</item>
+        <item>RD$</item>
+        <item>$</item>
+        <item>£</item>
+        <item>$</item>
+        <item>kr</item>
+        <item>€</item>
+        <item>£</item>
+        <item>$</item>
+        <item>¢</item>
+        <item>£</item>
+        <item>Q</item>
+        <item>£</item>
+        <item>$</item>
+        <item>L</item>
+        <item>$</item>
+        <item>Ft</item>
+        <item>kr</item>
+        <item></item>
+        <item>Rp</item>
+        <item>﷼</item>
+        <item>£</item>
+        <item>₪</item>
+        <item>J$</item>
+        <item>¥</item>
+        <item>£</item>
+        <item>лв</item>
+        <item>₩</item>
+        <item>₩</item>
+        <item>лв</item>
+        <item>₭</item>
+        <item>Ls</item>
+        <item>£</item>
+        <item>$</item>
+        <item>Lt</item>
+        <item>ден</item>
+        <item>RM</item>
+        <item>₨</item>
+        <item>$</item>
+        <item>₮</item>
+        <item>MT</item>
+        <item>$</item>
+        <item>₨</item>
+        <item>ƒ</item>
+        <item>$</item>
+        <item>C$</item>
+        <item>₦</item>
+        <item>₩</item>
+        <item>kr</item>
+        <item>﷼</item>
+        <item>₨</item>
+        <item>B/.</item>
+        <item>Gs</item>
+        <item>S/.</item>
+        <item>₱</item>
+        <item>zł</item>
+        <item>﷼</item>
+        <item>lei</item>
+        <item>руб</item>
+        <item>£</item>
+        <item>﷼</item>
+        <item>Дин.</item>
+        <item>₨</item>
+        <item>$</item>
+        <item>$</item>
+        <item>S</item>
+        <item>R</item>
+        <item>₩</item>
+        <item>₨</item>
+        <item>kr</item>
+        <item>CHF</item>
+        <item>$</item>
+        <item>£</item>
+        <item>NT$</item>
+        <item>฿</item>
+        <item>TT$</item>
+        <item></item>
+        <item>₤</item>
+        <item>$</item>
+        <item>₴</item>
+        <item>£</item>
+        <item>$</item>
+        <item>$U</item>
+        <item>лв</item>
+        <item>Bs</item>
+        <item>₫</item>
+        <item>﷼</item>
+        <item>Z$</item>
+    </string-array>
+    <string-array name="date_format">
+        <item>DD/MM/YY</item>
+        <item>DD/MM/YYYY</item>
+        <item>DD-MM-YY</item>
+        <item>DD-MM-YYYY</item>
+        <item>DD.MM.YY</item>
+        <item>DD.MM.YYYY</item>
+        <item>DD,MM,YY</item>
+        <item>"DD/MM'YYYY"</item>
+        <item>DD/MM YYYY</item>
+        <item>MM/DD/YY</item>
+        <item>MM/DD/YYYY</item>
+        <item>MM-DD-YY</item>
+        <item>MM-DD-YYYY</item>
+        <item>"MM/DD'YYYY"</item>
+        <item>YY/MM/DD</item>
+        <item>YY-MM-DD</item>
+        <item>YYYY/MM/DD</item>
+        <item>YYYY-MM-DD</item>
+        <item>YYYY.MM.DD</item>
+        <item>YYYYMMDD</item>
+    </string-array>
+    <string-array name="date_format_mask" formatted="false">
+        <item>%d/%m/%y</item>
+        <item>%d/%m/%Y</item>
+        <item>%d-%m-%y</item>
+        <item>%d-%m-%Y</item>
+        <item>%d.%m.%y</item>
+        <item>%d.%m.%Y</item>
+        <item>%d,%m,%y</item>
+        <item>"%d/%m'%Y"</item>
+        <item>%d/%m %Y</item>
+        <item>%m/%d/%y</item>
+        <item>%m/%d/%Y</item>
+        <item>%m-%d-%y</item>
+        <item>%m-%d-%Y</item>
+        <item>"%m/%d'%Y"</item>
+        <item>%y/%m/%d</item>
+        <item>%y-%m-%d</item>
+        <item>%Y/%m/%d</item>
+        <item>%Y-%m-%d</item>
+        <item>%Y.%m.%d</item>
+        <item>%Y%m%d</item>
+    </string-array>
+    <string-array name="dropbox_sync_item">
+        <item>@string/synchronize</item>
+        <item>@string/download</item>
+        <item>@string/upload</item>
+    </string-array>
+    <string-array name="frequencies_items">
+        <item>@string/once</item>
+        <item>@string/weekly</item>
+        <item>@string/bi_weekly</item>
+        <item>@string/monthly</item>
+        <item>@string/bi_monthly</item>
+        <item>@string/quaterly</item>
+        <item>@string/half_year</item>
+        <item>@string/yearly</item>
+        <item>@string/four_months</item>
+        <item>@string/four_weeks</item>
+        <item>@string/daily</item>
+        <item>@string/in_x_days</item>
+        <item>@string/in_x_months</item>
+        <item>@string/every_x_days</item>
+        <item>@string/every_x_months</item>
+        <item>@string/montly_last_days</item>
+        <item>@string/montly_last_bussines_day</item>
+    </string-array>
+    <integer-array name="frequencies_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </integer-array>
+    <string-array name="navigation_mode_dashboard">
+        <item>@string/income_vs_expenses_current_month</item>
+        <item>@string/top_withdrawals_last_30_days</item>
+        <item>@string/top_payees_last_30_days</item>
+        <item>@string/upcoming_transactions</item>
+    </string-array>
+    <string-array name="new_asset_class_type">
+        <item>@string/asset_class</item>
+        <item>@string/stock</item>
+    </string-array>
+    <string-array name="new_transaction_dialog_items">
+        <item>@string/none</item>
+        <item>@string/last</item>
+    </string-array>
+    <string-array name="new_transaction_dialog_values">
+        <item>N</item>
+        <item>L</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>REPEAT HOURLY</item>
+        <item>REPEAT DAILY</item>
+        <item>REPEAT WEEKLY</item>
+        <item>REPEAT MONTHLY</item>
+        <item>REPEAT YEARLY</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>on every first Friday</item>
+        <item>on every second Friday</item>
+        <item>on every third Friday</item>
+        <item>on every fourth Friday</item>
+        <item>on every last Friday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>on every first Monday</item>
+        <item>on every second Monday</item>
+        <item>on every third Monday</item>
+        <item>on every fourth Monday</item>
+        <item>on every last Monday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>on every first Saturday</item>
+        <item>on every second Saturday</item>
+        <item>on every third Saturday</item>
+        <item>on every fourth Saturday</item>
+        <item>on every last Saturday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>on every first Sunday</item>
+        <item>on every second Sunday</item>
+        <item>on every third Sunday</item>
+        <item>on every fourth Sunday</item>
+        <item>on every last Sunday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>on every first Thursday</item>
+        <item>on every second Thursday</item>
+        <item>on every third Thursday</item>
+        <item>on every fourth Thursday</item>
+        <item>on every last Thursday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>on every first Tuesday</item>
+        <item>on every second Tuesday</item>
+        <item>on every third Tuesday</item>
+        <item>on every fourth Tuesday</item>
+        <item>on every last Tuesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>on every first Wednesday</item>
+        <item>on every second Wednesday</item>
+        <item>on every third Wednesday</item>
+        <item>on every fourth Wednesday</item>
+        <item>on every last Wednesday</item>
+    </string-array>
+    <string-array name="split_transcode_items">
+        <item>@string/withdrawal</item>
+        <item>@string/deposit</item>
+    </string-array>
+    <string-array name="split_transcode_values">
+        <item>Withdrawal</item>
+        <item>Deposit</item>
+    </string-array>
+    <string-array name="status_items">
+        <item>@string/status_none</item>
+        <item>@string/status_reconciled</item>
+        <item>@string/status_void</item>
+        <item>@string/status_follow_up</item>
+        <item>@string/status_duplicate</item>
+    </string-array>
+    <string-array name="status_values">
+        <item></item>
+        <item>R</item>
+        <item>V</item>
+        <item>F</item>
+        <item>D</item>
+    </string-array>
+    <string-array name="themes_names">
+        <item>@string/theme_light</item>
+        <item>@string/theme_holo</item>
+    </string-array>
+    <string-array name="themes_values">
+        <item>Material Light</item>
+        <item>Material Dark</item>
+    </string-array>
+    <string-array name="timeout_synchronize_items">
+        <item>@string/never</item>
+        <item>@string/every_5_minutes</item>
+        <item>@string/every_10_minutes</item>
+        <item>@string/every_15_minutes</item>
+        <item>@string/every_30_minutes</item>
+        <item>@string/every_hour</item>
+        <item>@string/every_2_hours</item>
+        <item>@string/every_3_hours</item>
+        <item>@string/every_6_hours</item>
+        <item>@string/every_12_hours</item>
+        <item>@string/daily</item>
+        <item>@string/weekly</item>
+        <item>@string/monthly</item>
+    </string-array>
+    <string-array name="timeout_synchronize_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>10080</item>
+        <item>43200</item>
+    </string-array>
+    <string-array name="timezone_rename_ids">
+        <item>Australia/Darwin</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Sydney</item>
+        <item>America/Dawson_Creek</item>
+        <item>America/Regina</item>
+        <item>America/Atikokan</item>
+        <item>America/Blanc-Sablon</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Adak</item>
+        <item>America/Metlakatla</item>
+        <item>America/Phoenix</item>
+        <item>America/Tijuana</item>
+        <item>America/Ojinaga</item>
+        <item>America/Matamoros</item>
+        <item>America/Hermosillo</item>
+        <item>Africa/Juba</item>
+        <item>America/Kralendijk</item>
+        <item>America/Lower_Princes</item>
+        <item>Europe/Minsk</item>
+        <item>Europe/Kaliningrad</item>
+        <item>America/Porto_Velho</item>
+        <item>America/Belem</item>
+    </string-array>
+    <string-array name="timezone_rename_labels">
+        <item>Australian Central - NT</item>
+        <item>Australian Central - SA</item>
+        <item>Australian Eastern - QLD</item>
+        <item>Australian Eastern - NSW</item>
+        <item>Mountain Standard - Dawson Creek</item>
+        <item>Central Standard - Saskatchewan</item>
+        <item>Eastern Standard - Atikokan</item>
+        <item>Atlantic Standard - Quebec</item>
+        <item>Hawaii-Aleutian - Hawaii</item>
+        <item>Hawaii-Aleutian - Alaska</item>
+        <item>Pacific Standard - Metlakatla</item>
+        <item>Mountain Standard - Arizona</item>
+        <item>Pacific - Baja California</item>
+        <item>Mountain - Chihuahua</item>
+        <item>Central - Tamaulipas</item>
+        <item>Mountain - Sonora</item>
+        <item>East Africa Time</item>
+        <item>Atlantic Standard Time</item>
+        <item>Atlantic Standard Time</item>
+        <item>Eastern European Time</item>
+        <item>Kaliningrad Time</item>
+        <item>Amazon - Rondônia</item>
+        <item>Brasilia - Pará</item>
+    </string-array>
+    <string-array name="transcode_items">
+        <item>@string/withdrawal</item>
+        <item>@string/deposit</item>
+        <item>@string/transfer</item>
+    </string-array>
+    <string-array name="transcode_values">
+        <item>Withdrawal</item>
+        <item>Deposit</item>
+        <item>Transfer</item>
+    </string-array>
+</resources>

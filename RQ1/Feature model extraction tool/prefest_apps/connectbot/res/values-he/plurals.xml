@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+        <item quantity="two">הועתקו %1$d בתים ללוח הגזירים</item>
+        <item quantity="many"></item>
+    </plurals>
+</resources>

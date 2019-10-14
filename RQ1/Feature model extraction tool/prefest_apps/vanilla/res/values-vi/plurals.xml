@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">Đã thêm %1$d bài hát vào danh sách %2$s.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">Đã xoá %d bài hát.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">Đã thêm %d bài hát vào danh sách phát.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">Đang phát %d bài hát.</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">Đã xoá %1$d bài hát khỏi danh sách %2$s.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d giây</item>
+    </plurals>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/pref_temperature_entries" android:title="@string/pref_title_temperature" android:key="temperature_pref_key" android:defaultValue="metric" android:dialogTitle="@string/pref_title_temperature" android:entryValues="@array/pref_temperature_values" />
+    <CheckBoxPreference android:title="@string/preference_hide_desc" android:key="hide_desc_pref_key" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/preference_title_category_display" android:key="display_category_pref_key">
+        <ListPreference android:entries="@array/language_entries" android:title="@string/pref_title_language" android:key="language_pref_key" android:dialogTitle="@string/pref_title_language" android:entryValues="@array/language_values" />
+        <ListPreference android:entries="@array/theme_entries" android:title="@string/pref_title_theme" android:key="theme_pref_key" android:dialogTitle="@string/pref_title_theme" android:entryValues="@array/theme_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_category_notification" android:key="notification_category_pref_key">
+        <SwitchPreference android:title="@string/pref_title_notification" android:key="notification_pref_key" android:defaultValue="false" />
+        <ListPreference android:entries="@array/notification_refresh_intervals_entries" android:title="@string/pref_title_notification_refresh_interval" android:key="notification_interval_pref_key" android:dependency="notification_pref_key" android:defaultValue="60" android:dialogTitle="@string/pref_title_notification_refresh_interval" android:entryValues="@array/notification_refresh_interval_values" />
+        <SwitchPreference android:title="@string/pref_title_vibrate" android:key="notification_vibrate_pref_key" android:dependency="notification_pref_key" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

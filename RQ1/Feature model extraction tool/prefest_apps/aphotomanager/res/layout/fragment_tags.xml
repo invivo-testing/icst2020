@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageButton android:id="@id/cmd_bookmark_mode" android:layout_width="32.0sp" android:layout_height="32.0sp" android:src="@android:drawable/btn_star_big_off" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageButton android:id="@id/cmd_find_mode" android:layout_width="32.0sp" android:layout_height="32.0sp" android:src="@drawable/ic_btn_search_blue" android:layout_toRightOf="@id/cmd_bookmark_mode" />
+        <ImageButton android:id="@id/cmd_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_cancel" android:layout_alignParentRight="true" />
+        <ImageButton android:id="@id/cmd_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_accept" android:layout_toLeftOf="@id/cmd_cancel" />
+        <EditText android:id="@id/myFilter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/tags_search_hint" android:ems="10" android:singleLine="true" android:layout_toLeftOf="@id/cmd_ok" android:layout_toRightOf="@id/cmd_find_mode" android:layout_alignBottom="@id/cmd_cancel" />
+        <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/myFilter" android:layout_alignParentBottom="true" android:fastScrollEnabled="true" />
+        <TextView android:id="@android:id/empty" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tags_search_no_matching_items_found" android:layout_below="@id/myFilter" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

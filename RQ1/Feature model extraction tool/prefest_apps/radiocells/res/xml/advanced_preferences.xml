@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n1:title="@string/prefs_folder_various"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n1:title="@string/prefs_ignore_battery_title" n1:key="ignore_battery" n1:summary="@string/prefs_ignore_battery_summary" />
+        <CheckBoxPreference n1:title="@string/prefs_auto_delete_sessions_title" n1:key="delete_tracks" n1:summary="@string/prefs_auto_delete_tracks_summary" />
+        <CheckBoxPreference n1:title="@string/prefs_save_gpx_summary" n1:key="gpx.save_track" n1:summary="@string/prefs_save_gpx" />
+        <ListPreference n1:entries="@array/gpx_verbosity_entries" n1:title="@string/prefs_gpx_verbosity_title" n1:key="gpx.verbosity" n1:summary="@string/prefs_gpx_verbosity_summary" n1:defaultValue="1" n1:entryValues="@array/gpx_verbosity_values" />
+        <ListPreference n1:entries="@array/scan_mode_entries" n1:title="@string/prefs_scan_mode" n1:key="logging.wifi_scan_mode" n1:summary="@string/prefs_scan_mode_summary" n1:defaultValue="1" n1:entryValues="@array/scan_mode_values" />
+    </PreferenceCategory>
+    <PreferenceCategory n2:title="@string/prefs_privacy"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <Preference n2:title="@string/prefs_block_homezone_title" n2:key="privacy.block_homezone" n2:summary="@string/prefs_block_homezone_summary" />
+        <CheckBoxPreference n2:title="@string/prefs_anonymise_ssid" n2:key="privacy.anonymise_ssid" n2:summary="@string/prefs_anonymise_ssid_summary" n2:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory n3:icon="@drawable/ic_sd_card" n3:title="@string/prefs_folder_settings"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <Preference n3:title="@string/prefs_map_folder" n3:key="data.folder_map" n3:summary="@string/prefs_data_map_folder_summary" n3:defaultValue="/org.openbmap/maps" n3:dialogTitle="@string/prefs_map_folder" />
+        <Preference n3:title="@string/prefs_wifi_catalog_folder" n3:key="data.folder_catalog" n3:summary="@string/prefs_wifi_catalog_folder_summary" n3:defaultValue="/org.openbmap/databases" n3:dialogTitle="@string/prefs_wifi_catalog_folder" />
+    </PreferenceCategory>
+    <PreferenceCategory n4:title="@string/prefs_debug"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n4:title="@string/prefs_simulate_upload" n4:key="debug.simulate_upload" n4:summary="@string/prefs_simulate_upload_summary" n4:defaultValue="false" />
+        <CheckBoxPreference n4:title="@string/prefs_keep_export_files" n4:key="debug.keep_export_files" n4:summary="@string/prefs_keep_export_files_summary" n4:defaultValue="false" />
+        <Preference n4:title="@string/prefs_clean_database_title" n4:key="debug.clean_database" n4:summary="@string/prefs_clean_database_summary" />
+        <Preference n4:title="@string/prefs_update_catalog" n4:key="debug.update_catalog" n4:summary="@string/prefs_update_catalog_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout n1:layout_width="wrap_content" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar n1:theme="?toolbarTheme" n1:id="@id/app_menubar" n1:background="?colorPrimary" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n2:popupTheme="?actionBarPopupTheme" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:paddingLeft="8.0dip" n1:paddingTop="6.0dip" n1:paddingRight="8.0dip" n1:paddingBottom="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <android.support.constraint.ConstraintLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:minWidth="150.0dip">
+                <LinearLayout n1:orientation="vertical" n1:id="@id/layout_clock" n1:background="?selectableItemBackground" n1:padding="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:layout_constraintEnd_toEndOf="parent" n3:layout_constraintTop_toTopOf="parent" xmlns:n3="http://schemas.android.com/apk/res-auto">
+                    <include layout="@layout/info_time_now" />
+                </LinearLayout>
+                <ScrollView n1:id="@id/info_note_flipper_scroll" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n4:layout_constraintBottom_toTopOf="@id/layout_datasource" n4:layout_constraintEnd_toEndOf="@id/layout_clock" n4:layout_constraintStart_toStartOf="@id/layout_clock" n4:layout_constraintTop_toBottomOf="@id/layout_clock" xmlns:n4="http://schemas.android.com/apk/res-auto">
+                    <ViewFlipper n1:layout_gravity="center_horizontal" n1:id="@id/info_note_flipper" n1:background="?selectableItemBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dip" n1:layout_marginBottom="5.0dip">
+                        <LinearLayout n1:layout_gravity="center" n1:id="@id/info_time_note1" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                            <include layout="@layout/info_time_note" />
+                        </LinearLayout>
+                        <LinearLayout n1:layout_gravity="center" n1:id="@id/info_time_note2" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                            <include layout="@layout/info_time_note" />
+                        </LinearLayout>
+                    </ViewFlipper>
+                </ScrollView>
+                <ProgressBar n1:layout_gravity="center" n1:id="@id/info_note_progress" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:layout_constraintBottom_toTopOf="@id/layout_datasource" n5:layout_constraintEnd_toEndOf="@id/layout_clock" n5:layout_constraintStart_toStartOf="@id/layout_clock" n5:layout_constraintTop_toBottomOf="@id/layout_clock" style="?android:progressBarStyle" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout n1:gravity="center" n1:layout_gravity="bottom" n1:orientation="horizontal" n1:id="@id/layout_datasource" n1:paddingTop="0.0dip" n1:paddingBottom="0.0dip" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dip" n1:layout_marginBottom="0.0dip" n6:layout_constraintBottom_toBottomOf="parent" n6:layout_constraintEnd_toEndOf="parent" n6:layout_constraintStart_toStartOf="parent" n6:layout_constraintTop_toBottomOf="@id/info_note_flipper_scroll" style="@style/SunsetTimeCard" xmlns:n6="http://schemas.android.com/apk/res-auto">
+                    <include layout="@layout/info_time_datasource" />
+                </LinearLayout>
+            </android.support.constraint.ConstraintLayout>
+            <ViewFlipper n1:id="@id/info_time_flipper" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="5.0dip" n1:layout_marginStart="8.0dip">
+                <RelativeLayout n1:id="@id/info_time_all_today" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/SunsetTimeCard">
+                    <include layout="@layout/info_time_card" />
+                </RelativeLayout>
+                <RelativeLayout n1:id="@id/info_time_all_tomorrow" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/SunsetTimeCard">
+                    <include layout="@layout/info_time_card" />
+                </RelativeLayout>
+            </ViewFlipper>
+        </LinearLayout>
+        <LinearLayout n1:id="@id/info_time_lightmap_layout" n1:background="?selectableItemBackground" n1:paddingLeft="8.0dip" n1:paddingTop="0.0dip" n1:paddingRight="8.0dip" n1:paddingBottom="2.0dip" n1:focusable="true" n1:clickable="true" n1:layout_width="fill_parent" n1:layout_height="@dimen/lightmap_clickable_height" n1:layout_marginBottom="4.0dip">
+            <com.forrestguice.suntimeswidget.LightMapView n1:layout_gravity="top" n1:id="@id/info_time_lightmap" n1:layout_width="fill_parent" n1:layout_height="@dimen/lightmap_height" n1:contentDescription="@string/configAction_sunDialog" />
+        </LinearLayout>
+        <LinearLayout n1:id="@id/info_time_equinox_layout" n1:background="?timeCardBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="6.0dip" n1:layout_marginStart="8.0dip" n1:layout_marginEnd="8.0dip">
+            <com.forrestguice.suntimeswidget.EquinoxView n1:id="@id/info_date_solsticequinox" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n7:minimized="true" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

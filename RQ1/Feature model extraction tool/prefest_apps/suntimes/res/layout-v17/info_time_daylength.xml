@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView n1:id="@id/text_daylength" n1:paddingLeft="0.0dip" n1:paddingRight="5.0dip" n1:text="" n1:paddingStart="0.0dip" n1:paddingEnd="5.0dip" style="@style/SunsetTextView"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <TextView n2:id="@id/text_lightlength" n2:paddingLeft="0.0dip" n2:paddingRight="5.0dip" n2:text="" n2:paddingStart="0.0dip" n2:paddingEnd="5.0dip" style="@style/SunsetTextView"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</merge>

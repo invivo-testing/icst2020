@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tab_basic" android:padding="@dimen/activity_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:runnerup="http://schemas.android.com/apk/res-auto">
+    <org.runnerup.widget.TitleSpinner android:id="@id/basic_audio_cue_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Audio_cue_settings" android:key="@string/pref_basic_audio" runnerup:type="spinner_txt" />
+    <org.runnerup.widget.TitleSpinner android:entries="@array/target_types" android:id="@id/tab_basic_target_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Target" android:prompt="@string/Type" android:key="@string/pref_basic_target_type" runnerup:values="@array/target_values" />
+    <org.runnerup.widget.TitleSpinner android:id="@id/tab_basic_target_pace_max" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Target_pace_HHMMSS" android:prompt="@string/Type" android:key="@string/pref_basic_target_pace_max" android:defaultValue="00:05:00" android:inputType="time" runnerup:type="durationpicker" />
+    <org.runnerup.widget.TitleSpinner android:id="@id/tab_basic_target_hrz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Target_heart_rate_zone" android:prompt="@string/Type" android:key="@string/pref_basic_target_hrz" />
+</LinearLayout>

@@ -1,0 +1,284 @@
+<feature_model name="antennapod">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'preferences_playback'(_r76)
+			:m '_category1'(_r77)
+				:m 'Experimental_category5'(_r78)
+					:m 'prefCast'(_r79)
+						:g [1,1]
+							: 'prefCast_true'(_r80)
+							: 'prefCast_false'(_r81)
+				:m 'Interruptions_category6'(_r82)
+					:m 'prefPauseOnHeadsetDisconnect'(_r83)
+						:g [1,1]
+							: 'prefPauseOnHeadsetDisconnect_true'(_r84)
+							: 'prefPauseOnHeadsetDisconnect_false'(_r85)
+					:m 'prefUnpauseOnHeadsetReconnect'(_r86)
+						:g [1,1]
+							: 'prefUnpauseOnHeadsetReconnect_false'(_r87)
+							: 'prefUnpauseOnHeadsetReconnect_true'(_r88)
+					:m 'prefVideoBehavior'(_r89)
+						:g [1,1]
+							: 'prefVideoBehavior_continue'(_r90)
+							: 'prefVideoBehavior_stop'(_r91)
+							: 'prefVideoBehavior_pip'(_r92)
+					:m 'prefResumeAfterCall'(_r93)
+						:g [1,1]
+							: 'prefResumeAfterCall_true'(_r94)
+							: 'prefResumeAfterCall_false'(_r95)
+					:m 'prefUnpauseOnBluetoothReconnect'(_r96)
+						:g [1,1]
+							: 'prefUnpauseOnBluetoothReconnect_false'(_r97)
+							: 'prefUnpauseOnBluetoothReconnect_true'(_r98)
+					:m 'prefPauseForFocusLoss'(_r99)
+						:g [1,1]
+							: 'prefPauseForFocusLoss_false'(_r100)
+							: 'prefPauseForFocusLoss_true'(_r101)
+				:m 'Queue_category4'(_r102)
+					:m 'prefSmartMarkAsPlayedSecs'(_r103)
+						:g [1,1]
+							: 'prefSmartMarkAsPlayedSecs_30'(_r104)
+							: 'prefSmartMarkAsPlayedSecs_0'(_r105)
+							: 'prefSmartMarkAsPlayedSecs_120'(_r106)
+							: 'prefSmartMarkAsPlayedSecs_300'(_r107)
+							: 'prefSmartMarkAsPlayedSecs_60'(_r108)
+							: 'prefSmartMarkAsPlayedSecs_15'(_r109)
+					:m 'prefEnqueueDownloaded'(_r110)
+						:g [1,1]
+							: 'prefEnqueueDownloaded_true'(_r111)
+							: 'prefEnqueueDownloaded_false'(_r112)
+					:m 'prefSkipKeepsEpisode'(_r113)
+						:g [1,1]
+							: 'prefSkipKeepsEpisode_true'(_r114)
+							: 'prefSkipKeepsEpisode_false'(_r115)
+					:m 'prefFollowQueue'(_r116)
+						:g [1,1]
+							: 'prefFollowQueue_true'(_r117)
+							: 'prefFollowQueue_false'(_r118)
+					:m 'prefQueueAddToFront'(_r119)
+						:g [1,1]
+							: 'prefQueueAddToFront_true'(_r120)
+							: 'prefQueueAddToFront_false'(_r121)
+				:m 'Playback_control_buttons_category2'(_r122)
+					:m 'prefHardwareForwardButtonSkips'(_r123)
+						:g [1,1]
+							: 'prefHardwareForwardButtonSkips_false'(_r124)
+							: 'prefHardwareForwardButtonSkips_true'(_r125)
+					:m 'prefHardwarePreviousButtonRestarts'(_r126)
+						:g [1,1]
+							: 'prefHardwarePreviousButtonRestarts_true'(_r127)
+							: 'prefHardwarePreviousButtonRestarts_false'(_r128)
+				:m 'Media_player_category3'(_r129)
+					:m 'prefMediaPlayer'(_r130)
+						:g [1,1]
+							: 'prefMediaPlayer_exoplayer'(_r131)
+							: 'prefMediaPlayer_builtin'(_r132)
+							: 'prefMediaPlayer_sonic'(_r133)
+		:m 'preferences_user_interface'(_r134)
+			:m '_category7'(_r135)
+				:m 'Appearance_category8'(_r136)
+					:m 'prefDrawerFeedOrder'(_r137)
+						:g [1,1]
+							: 'prefDrawerFeedOrder_1'(_r138)
+							: 'prefDrawerFeedOrder_0'(_r139)
+							: 'prefDrawerFeedOrder_2'(_r140)
+							: 'prefDrawerFeedOrder_3'(_r141)
+					:m 'prefDrawerFeedIndicator'(_r142)
+						:g [1,1]
+							: 'prefDrawerFeedIndicator_0'(_r143)
+							: 'prefDrawerFeedIndicator_4'(_r144)
+							: 'prefDrawerFeedIndicator_3'(_r145)
+							: 'prefDrawerFeedIndicator_1'(_r146)
+							: 'prefDrawerFeedIndicator_2'(_r147)
+					:m 'prefTheme'(_r148)
+						:g [1,1]
+							: 'prefTheme_1'(_r149)
+							: 'prefTheme_0'(_r150)
+							: 'prefTheme_2'(_r151)
+				:m 'External_elements_category10'(_r152)
+					:m 'prefPersistNotify'(_r153)
+						:g [1,1]
+							: 'prefPersistNotify_true'(_r154)
+							: 'prefPersistNotify_false'(_r155)
+					:m 'prefLockscreenBackground'(_r156)
+						:g [1,1]
+							: 'prefLockscreenBackground_true'(_r157)
+							: 'prefLockscreenBackground_false'(_r158)
+					:m 'prefExpandNotify'(_r159)
+						:g [1,1]
+							: 'prefExpandNotify_true'(_r160)
+							: 'prefExpandNotify_false'(_r161)
+				:m 'Behavior_category9'(_r162)
+					:m 'prefBackButtonBehavior'(_r163)
+						:g [1,1]
+							: 'prefBackButtonBehavior_doubletap'(_r164)
+							: 'prefBackButtonBehavior_drawer'(_r165)
+							: 'prefBackButtonBehavior_default'(_r166)
+							: 'prefBackButtonBehavior_page'(_r167)
+							: 'prefBackButtonBehavior_prompt'(_r168)
+		:m 'preferences_network'(_r169)
+			:m '_category11'(_r170)
+				:m 'Details_category13'(_r171)
+					:m 'prefShowDownloadReport'(_r172)
+						:g [1,1]
+							: 'prefShowDownloadReport_true'(_r173)
+							: 'prefShowDownloadReport_false'(_r174)
+					:m 'prefMobileUpdate'(_r175)
+						:g [1,1]
+							: 'prefMobileUpdate_true'(_r176)
+							: 'prefMobileUpdate_false'(_r177)
+		:m 'preferences_autodownload'(_r178)
+			:m '_category14'(_r179)
+				:m 'prefEnableAutoDl'(_r180)
+					:g [1,1]
+						: 'prefEnableAutoDl_true'(_r181)
+						: 'prefEnableAutoDl_false'(_r182)
+				:m 'prefEpisodeCacheSize'(_r183)
+					:g [1,1]
+						: 'prefEpisodeCacheSize_25'(_r184)
+						: 'prefEpisodeCacheSize_50'(_r185)
+						: 'prefEpisodeCacheSize_5'(_r186)
+						: 'prefEpisodeCacheSize_10'(_r187)
+						: 'prefEpisodeCacheSize_100'(_r188)
+						: 'prefEpisodeCacheSize_-1'(_r189)
+				:m 'prefEnableAutoDownloadOnMobile'(_r190)
+					:g [1,1]
+						: 'prefEnableAutoDownloadOnMobile_true'(_r191)
+						: 'prefEnableAutoDownloadOnMobile_false'(_r192)
+				:m 'prefEnableAutoDownloadOnBattery'(_r193)
+					:g [1,1]
+						: 'prefEnableAutoDownloadOnBattery_false'(_r194)
+						: 'prefEnableAutoDownloadOnBattery_true'(_r195)
+				:m 'prefEpisodeCleanup'(_r196)
+					:g [1,1]
+						: 'prefEpisodeCleanup_3 days after finishing'(_r197)
+						: 'prefEpisodeCleanup_5 days after finishing'(_r198)
+						: 'prefEpisodeCleanup_7 days after finishing'(_r199)
+						: 'prefEpisodeCleanup_0'(_r200)
+						: 'prefEpisodeCleanup_-2'(_r201)
+						: 'prefEpisodeCleanup_1 days after finishing'(_r202)
+						: 'prefEpisodeCleanup_-1'(_r203)
+				:m 'prefEnableAutoDownloadWifiFilter'(_r204)
+					:g [1,1]
+						: 'prefEnableAutoDownloadWifiFilter_false'(_r205)
+						: 'prefEnableAutoDownloadWifiFilter_true'(_r206)
+		:m 'preferences_storage'(_r207)
+			:m '_category15'(_r208)
+				:m 'prefImageCacheSize'(_r209)
+					:g [1,1]
+						: 'prefImageCacheSize_500'(_r210)
+						: 'prefImageCacheSize_250'(_r211)
+						: 'prefImageCacheSize_100'(_r212)
+						: 'prefImageCacheSize_20'(_r213)
+						: 'prefImageCacheSize_50'(_r214)
+				:m 'prefFavoriteKeepsEpisode'(_r215)
+					:g [1,1]
+						: 'prefFavoriteKeepsEpisode_true'(_r216)
+						: 'prefFavoriteKeepsEpisode_false'(_r217)
+				:m 'prefAutoDelete'(_r218)
+					:g [1,1]
+						: 'prefAutoDelete_true'(_r219)
+						: 'prefAutoDelete_false'(_r220)
+		:m 'preferences_gpodder'(_r221)
+			:m '_category17'(_r222)
+				:m 'pref_gpodnet_notifications'(_r223)
+					:g [1,1]
+						: 'pref_gpodnet_notifications_false'(_r224)
+						: 'pref_gpodnet_notifications_true'(_r225)
+</feature_tree>
+<constraints>
+C0:~_r96 or _r83
+C1:~_r86 or _r83
+</constraints>
+</feature_model>

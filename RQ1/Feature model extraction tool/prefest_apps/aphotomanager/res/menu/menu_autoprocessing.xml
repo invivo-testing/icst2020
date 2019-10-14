@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/copy" android:visible="true" android:orderInCategory="10" android:title="@android:string/copy" android:showAsAction="never" />
+    <item android:id="@android:id/paste" android:visible="false" android:orderInCategory="10" android:title="@android:string/paste" android:showAsAction="never" />
+</menu>

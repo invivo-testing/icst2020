@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/view_success_edit_center_text_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:layout_width="fill_parent" android:layout_height="48.0dip" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="18.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_illustration_description_success" />
+            <org.wikipedia.views.AppTextView android:textSize="30.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/description_edit_success_saved" android:fontFamily="sans-serif-light" style="@style/TextViewCentered" />
+            <org.wikipedia.views.AppTextView android:textSize="15.0sp" android:textColor="@color/base70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:text="@string/description_edit_success_encouragement" android:textAlignment="center" style="@style/TextViewCentered" />
+            <TextView android:id="@id/view_description_edit_success_done_button" android:text="@string/description_edit_success_done" style="@style/App.Button.Blue" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/view_success_edit_did_you_know_container" android:background="@drawable/shape_border_1dp_gray" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" android:layout_weight="0.0">
+            <org.wikipedia.views.AppTextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/base70" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/description_edit_success_did_you_know" />
+            <org.wikipedia.views.AppTextViewWithImages android:textSize="14.0sp" android:textColor="@color/base70" android:layout_gravity="center" android:id="@id/view_description_edit_success_hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="336.0dip" android:includeFontPadding="false" android:lineSpacingMultiplier="1.21" android:textAlignment="center" style="@style/TextViewCentered" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

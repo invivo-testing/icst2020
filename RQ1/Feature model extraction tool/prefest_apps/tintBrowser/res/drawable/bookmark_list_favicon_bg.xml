@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape n1:shape="rectangle"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <solid n1:color="@color/bookmarkListFaviconBackground" />
+    <padding n1:left="@dimen/list_favicon_padding" n1:top="@dimen/list_favicon_padding" n1:right="@dimen/list_favicon_padding" n1:bottom="@dimen/list_favicon_padding" />
+    <corners n1:radius="@dimen/list_favicon_corner_radius" />
+</shape>

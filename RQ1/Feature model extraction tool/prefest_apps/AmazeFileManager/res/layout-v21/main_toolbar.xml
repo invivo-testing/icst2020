@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/content_frame" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" fab:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <include layout="@layout/layout_appbar" />
+        <include layout="@layout/layout_search" />
+        <LinearLayout android:layout_gravity="bottom|center" android:id="@id/indicator_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+            <com.amaze.filemanager.ui.views.Indicator android:layout_gravity="center|top" android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_normal" fab:currentPageIndicatorColor="?colorAccent" />
+        </LinearLayout>
+        <View android:id="@id/fab_bg" android:background="@drawable/fab_shadow_light" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/layout_fab" />
+    </android.support.design.widget.CoordinatorLayout>
+    <com.amaze.filemanager.ui.views.drawer.CustomNavigationView android:layout_gravity="start" android:id="@id/navigation" android:layout_width="@dimen/drawer_width" android:layout_height="fill_parent" />
+</android.support.v4.widget.DrawerLayout>

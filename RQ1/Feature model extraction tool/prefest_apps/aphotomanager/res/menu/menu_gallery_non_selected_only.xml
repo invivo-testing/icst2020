@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_holo_dark_folder" android:id="@id/cmd_select_folder" android:visible="true" android:orderInCategory="2" android:title="@string/folder_menu_title" android:showAsAction="ifRoom" />
+    <item android:icon="@android:drawable/ic_dialog_map" android:id="@id/cmd_select_lat_lon" android:visible="true" android:orderInCategory="2" android:title="@string/area_menu_title" android:showAsAction="ifRoom" />
+    <item android:icon="@android:drawable/ic_menu_month" android:id="@id/cmd_select_date" android:visible="true" android:orderInCategory="2" android:title="@string/date_picker_menu_title" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_tag" android:id="@id/cmd_select_tag" android:visible="true" android:orderInCategory="2" android:title="@string/tags_activity_title" android:showAsAction="ifRoom" />
+    <item android:id="@id/cmd_selection_add_all" android:visible="true" android:orderInCategory="70" android:title="@string/selection_add_all_menu_title" android:showAsAction="never" />
+    <item android:id="@id/cmd_selection_remove_all" android:visible="true" android:orderInCategory="70" android:title="@string/selection_remove_menu_title" android:showAsAction="never" />
+    <item android:id="@id/action_details" android:orderInCategory="900" android:title="@string/details_menu_title" android:showAsAction="never" />
+    <item android:id="@id/cmd_more" android:visible="true" android:orderInCategory="32700" android:title="@string/more_menu_title" android:showAsAction="never" />
+</menu>

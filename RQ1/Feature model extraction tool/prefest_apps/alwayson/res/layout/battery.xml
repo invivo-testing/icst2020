@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/battery_wrapper" n1:paddingTop="@dimen/medium_spacing" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_gravity="center" n1:id="@id/battery_percentage_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:srcCompat="@drawable/ic_battery_90" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:textSize="14.0sp" n1:textColor="@android:color/white" n1:layout_gravity="center" n1:id="@id/battery_percentage_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</LinearLayout>

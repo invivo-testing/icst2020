@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#ff00abea</color>
+    <color name="drag_to">@android:color/black</color>
+    <color name="image_label_background">#70ffffff</color>
+    <color name="search_layover_bg">#50000000</color>
+    <color name="white">#ffffffff</color>
+</resources>

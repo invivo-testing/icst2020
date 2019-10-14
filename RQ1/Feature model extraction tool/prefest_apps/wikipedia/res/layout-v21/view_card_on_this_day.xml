@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.wikipedia.feed.view.CardHeaderView android:id="@id/view_on_this_day_card_header" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <FrameLayout android:id="@id/view_on_this_day_top_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/gradient_layout" android:background="?chart_shade5" android:layout_width="1.0dip" android:layout_height="26.0dip" android:layout_marginTop="32.0dip" android:layout_marginStart="27.0dip" />
+        <TextView android:textSize="24.0sp" android:textColor="?primary_text_color" android:ellipsize="end" android:id="@id/day" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxLines="1" android:fontFamily="serif" android:layout_marginStart="16.0dip" android:transitionName="@string/transition_on_this_day" />
+    </FrameLayout>
+    <LinearLayout android:id="@id/view_on_this_day_text_container" android:background="?chart_shade5" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/margin" android:layout_weight="1.0" android:layout_marginStart="27.0dip" android:layout_marginEnd="12.0dip">
+        <RelativeLayout android:id="@id/view_on_this_day_click_container" android:background="?paper_color" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackgroundBorderless" android:layout_marginStart="1.0dip">
+            <include android:id="@id/year_layout" layout="@layout/view_on_this_day_event" />
+            <RelativeLayout android:background="?paper_color" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/year_layout" android:layout_marginStart="-12.0dip">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:tint="?chart_shade5" android:layout_alignBottom="@id/next_event_years" android:contentDescription="@null" android:layout_alignEnd="@id/next_event_years" app:srcCompat="@drawable/otd_year_button_background" />
+                <TextView android:textSize="12.0sp" android:textColor="?chart_shade7" android:id="@id/next_event_years" android:paddingTop="1.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="-18.0dip" />
+    <LinearLayout android:id="@id/more_events_layout" android:background="?paper_color" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="-18.0dip" android:foreground="?selectableItemBackground" app:layout_constraintTop_toBottomOf="@id/view_list_card_list">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?secondary_text_color" android:contentDescription="@null" app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+        <TextView android:textColor="?secondary_text_color" android:gravity="center_vertical" android:id="@id/view_list_card_more_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/more_events_text" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

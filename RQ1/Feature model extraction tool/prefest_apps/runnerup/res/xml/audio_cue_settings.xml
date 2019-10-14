@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/Triggers" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/Time_triggered_audio_cue" android:key="@string/cue_time" android:defaultValue="false" />
+    <org.runnerup.widget.TextPreference android:persistent="true" android:title="@string/Cue_interval_s" android:key="@string/cue_time_intervall" android:dependency="cue_time" android:defaultValue="120" android:inputType="number" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/Distance_triggered_audio_cue" android:key="@string/cue_distance" android:defaultValue="false" />
+    <org.runnerup.widget.TextPreference android:persistent="true" android:title="@string/Cue_intervall_m" android:key="@string/cue_distance_intervall" android:dependency="@string/cue_distance" android:defaultValue="1000" android:inputType="number" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/End_of_lap_audio_cue" android:key="@string/cue_end_of_lap" android:defaultValue="true" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/Lap_start" android:key="@string/pref_lap_started" android:dependency="@string/cue_end_of_lap" android:defaultValue="true" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/Mute_music_during_audio_cues" android:key="@string/pref_mute_bool" android:defaultValue="false" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/HRM_connection_audio_cue" android:key="@string/pref_cue_hrm_connection" android:defaultValue="true" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/Audio_cue_unit" android:key="@string/cueinfo_units" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/Cue_information" android:key="cueinfo">
+        <CheckBoxPreference android:persistent="true" android:title="@string/Total_distance" android:key="@string/cueinfo_total_distance" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Total_time" android:key="@string/cueinfo_total_time" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Total_speed" android:key="@string/cueinfo_total_speed" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Total_pace" android:key="@string/cueinfo_total_pace" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Total_heart_rate" android:key="@string/cueinfo_total_hr" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Total_heart_rate_zone" android:key="@string/cueinfo_total_hrz" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Interval_distance" android:key="@string/cueinfo_step_distance" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Interval_time" android:key="@string/cueinfo_step_time" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Interval_speed" android:key="@string/cueinfo_step_speed" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Interval_pace" android:key="@string/cueinfo_step_pace" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Interval_heart_rate" android:key="@string/cueinfo_step_hr" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Interval_heart_rate_zone" android:key="@string/cueinfo_step_hrz" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Lap_distance" android:key="@string/cueinfo_lap_distance" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Lap_time" android:key="@string/cueinfo_lap_time" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Lap_speed" android:key="@string/cueinfo_lap_speed" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Lap_pace" android:key="@string/cueinfo_lap_pace" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Lap_heart_rate" android:key="@string/cueinfo_lap_hr" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Lap_heart_rate_zone" android:key="@string/cueinfo_lap_hrz" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Current_pace" android:key="@string/cueinfo_current_pace" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Current_speed" android:key="@string/cueinfo_current_speed" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Current_heart_rate" android:key="@string/cueinfo_current_hr" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Current_heart_rate_zone" android:key="@string/cueinfo_current_hrz" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Current_cadence" android:key="@string/cueinfo_current_cad" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Misc_cues">
+        <CheckBoxPreference android:persistent="true" android:title="@string/Target_coaching" android:key="@string/cueinfo_target_coaching" android:summary="@string/Coach_to_help_you_reach_target_if_having_set_target" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/Skip_event_audio_cues" android:key="@string/cueinfo_skip_startstop" android:summary="@string/Keep_silent_when_workout_startpauseresumestop" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Test_audio_cue">
+        <Preference android:title="@string/Push" android:key="test_cueinfo" android:summary="@string/Test_audio_cue" />
+        <ListPreference android:persistent="true" android:entries="@array/cueLanguageNames" android:title="@string/Audio_cue_language" android:key="@string/pref_audio_lang" android:entryValues="@array/cueLanguageCodes" />
+        <Preference android:title="@string/Android_text_to_speech_settings" android:key="tts_settings" />
+    </PreferenceCategory>
+</PreferenceScreen>

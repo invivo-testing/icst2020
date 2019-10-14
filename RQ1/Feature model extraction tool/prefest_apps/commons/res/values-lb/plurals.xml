@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d Fichieren eroplueden</item>
+        <item quantity="one">ee Fichier eroplueden</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d Fichieren eropgelueden</item>
+        <item quantity="zero">N@string/contributions_subtitle_zero</item>
+        <item quantity="one">Ee Fichier eropgelueden</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d Fichieren eropgelueden</item>
+        <item quantity="one">Ee Fichier eropgelueden</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Ugefaang %1$d Fichieren eropzelueden</item>
+        <item quantity="one">Ugefaang 1 Fichier eropzelueden</item>
+    </plurals>
+</resources>

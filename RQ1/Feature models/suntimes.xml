@@ -1,0 +1,233 @@
+<feature_model name="suntimes">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'preference_locale'(_r76)
+			:m '_category1'(_r77)
+				:m 'Language_Settings_category2'(_r78)
+					:m 'app_locale'(_r79)
+						:g [1,1]
+							: 'app_locale_eo'(_r80)
+							: 'app_locale_fr'(_r81)
+							: 'app_locale_ca'(_r82)
+							: 'app_locale_en'(_r83)
+							: 'app_locale_hu'(_r84)
+							: 'app_locale_es_ES'(_r85)
+							: 'app_locale_eu'(_r86)
+							: 'app_locale_de'(_r87)
+							: 'app_locale_nb'(_r88)
+							: 'app_locale_pl'(_r89)
+					:m 'app_locale_mode'(_r90)
+						:g [1,1]
+							: 'app_locale_mode_SYSTEM_LOCALE'(_r91)
+							: 'app_locale_mode_CUSTOM_LOCALE'(_r92)
+		:m 'preference_places'(_r93)
+			:m '_category3'(_r94)
+				:m 'Places_category4'(_r95)
+					:m 'getFix_maxAge'(_r96)
+						:g [1,1]
+							: 'getFix_maxAge_43200000'(_r97)
+							: 'getFix_maxAge_3600000'(_r98)
+							: 'getFix_maxAge_300000'(_r99)
+							: 'getFix_maxAge_14400000'(_r100)
+							: 'getFix_maxAge_60000'(_r101)
+							: 'getFix_maxAge_86400000'(_r102)
+							: 'getFix_maxAge_604800000'(_r103)
+							: 'getFix_maxAge_2419200000'(_r104)
+							: 'getFix_maxAge_900000'(_r105)
+							: 'getFix_maxAge_172800000'(_r106)
+					:m 'getFix_maxElapsed'(_r107)
+						:g [1,1]
+							: 'getFix_maxElapsed_60000'(_r108)
+							: 'getFix_maxElapsed_15000'(_r109)
+							: 'getFix_maxElapsed_600000'(_r110)
+							: 'getFix_maxElapsed_30000&gt;'(_r111)
+							: 'getFix_maxElapsed_300000'(_r112)
+					:m 'getFix_passiveMode'(_r113)
+						:g [1,1]
+							: 'getFix_passiveMode_true'(_r114)
+							: 'getFix_passiveMode_false'(_r115)
+		:m 'preference_userinterface'(_r116)
+			:m '_category5'(_r117)
+				:m '_Equinox_category8'(_r118)
+					:m 'appwidget_0_general_trackingmode'(_r119)
+						:g [1,1]
+							: 'appwidget_0_general_trackingmode_CLOSEST'(_r120)
+							: 'appwidget_0_general_trackingmode_SOONEST'(_r121)
+					:m 'app_ui_showequinox'(_r122)
+						:g [1,1]
+							: 'app_ui_showequinox_true'(_r123)
+							: 'app_ui_showequinox_false'(_r124)
+				:m 'Appearance_Settings_category7'(_r125)
+					:m 'app_appearance_theme'(_r126)
+						:g [1,1]
+							: 'app_appearance_theme_dark'(_r127)
+							: 'app_appearance_theme_daynight'(_r128)
+							: 'app_appearance_theme_light'(_r129)
+				:m 'User_Interface_category6'(_r130)
+					:m 'app_ui_showbluehour'(_r131)
+						:g [1,1]
+							: 'app_ui_showbluehour_true'(_r132)
+							: 'app_ui_showbluehour_false'(_r133)
+					:m 'app_ui_showwarnings'(_r134)
+						:g [1,1]
+							: 'app_ui_showwarnings_false'(_r135)
+							: 'app_ui_showwarnings_true'(_r136)
+					:m 'app_ui_showgoldhour'(_r137)
+						:g [1,1]
+							: 'app_ui_showgoldhour_true'(_r138)
+							: 'app_ui_showgoldhour_false'(_r139)
+					:m 'app_ui_showlightmap'(_r140)
+						:g [1,1]
+							: 'app_ui_showlightmap_true'(_r141)
+							: 'app_ui_showlightmap_false'(_r142)
+					:m 'app_ui_showmoon'(_r143)
+						:g [1,1]
+							: 'app_ui_showmoon_false'(_r144)
+							: 'app_ui_showmoon_true'(_r145)
+					:m 'app_ui_showdatasource'(_r146)
+						:g [1,1]
+							: 'app_ui_showdatasource_false'(_r147)
+							: 'app_ui_showdatasource_true'(_r148)
+					:m 'appwidget_0_general_showweeks'(_r149)
+						:g [1,1]
+							: 'appwidget_0_general_showweeks_false'(_r150)
+							: 'appwidget_0_general_showweeks_true'(_r151)
+					:m 'appwidget_0_general_showhours'(_r152)
+						:g [1,1]
+							: 'appwidget_0_general_showhours_true'(_r153)
+							: 'appwidget_0_general_showhours_false'(_r154)
+					:m 'app_accessibility_verbose'(_r155)
+						:g [1,1]
+							: 'app_accessibility_verbose_false'(_r156)
+							: 'app_accessibility_verbose_true'(_r157)
+				:m 'Action_Settings_category9'(_r158)
+					:m 'app_ui_notetapaction'(_r159)
+						:g [1,1]
+							: 'app_ui_notetapaction_NOTHING'(_r160)
+							: 'app_ui_notetapaction_PREV_NOTE'(_r161)
+							: 'app_ui_notetapaction_ALARM'(_r162)
+							: 'app_ui_notetapaction_NEXT_NOTE'(_r163)
+					:m 'app_ui_clocktapaction'(_r164)
+						:g [1,1]
+							: 'app_ui_clocktapaction_NOTHING'(_r165)
+							: 'app_ui_clocktapaction_ALARM'(_r166)
+							: 'app_ui_clocktapaction_TIMEZONE'(_r167)
+							: 'app_ui_clocktapaction_PREV_NOTE'(_r168)
+							: 'app_ui_clocktapaction_NEXT_NOTE'(_r169)
+					:m 'app_ui_datetapaction'(_r170)
+						:g [1,1]
+							: 'app_ui_datetapaction_SWAP_CARD'(_r171)
+							: 'app_ui_datetapaction_NOTHING'(_r172)
+							: 'app_ui_datetapaction_SHOW_CALENDAR'(_r173)
+							: 'app_ui_datetapaction_CONFIG_DATE'(_r174)
+		:m 'preference_general'(_r175)
+			:m '_category10'(_r176)
+				:m 'General_Settings_category11'(_r177)
+					:m 'appwidget_0_general_showtimedate'(_r178)
+						:g [1,1]
+							: 'appwidget_0_general_showtimedate_true'(_r179)
+							: 'appwidget_0_general_showtimedate_false'(_r180)
+					:m 'appwidget_0_appearance_timeformatmode'(_r181)
+						:g [1,1]
+							: 'appwidget_0_appearance_timeformatmode_MODE_SYSTEM'(_r182)
+							: 'appwidget_0_appearance_timeformatmode_MODE_12HR'(_r183)
+							: 'appwidget_0_appearance_timeformatmode_MODE_24HR'(_r184)
+					:m 'appwidget_0_general_showseconds'(_r185)
+						:g [1,1]
+							: 'appwidget_0_general_showseconds_false'(_r186)
+							: 'appwidget_0_general_showseconds_true'(_r187)
+</feature_tree>
+<constraints>
+</constraints>
+</feature_model>

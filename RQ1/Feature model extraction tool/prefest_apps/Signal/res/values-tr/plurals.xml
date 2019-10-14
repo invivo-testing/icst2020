@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">%d dakika</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">Sohbet başına %d mesaj</item>
+        <item quantity="one">Sohbet başına %d mesaj</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Bu işlem tüm sohbetleri en yeni %d mesaja kadar kırpar.</item>
+        <item quantity="one">Bu işlem tüm sohbetleri en yeni %d mesaja kadar kırpar.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d okunmamış mesaj</item>
+        <item quantity="one">%d okunmamış mesaj</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Seçilen mesajları sil?</item>
+        <item quantity="one">Seçilen mesajları sil?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Eklentiler hafızaya kaydedilirken hata oluştu!</item>
+        <item quantity="one">Eklenti hafızaya kaydedilirken hata oluştu!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">%1$d eklenti kaydediliyor</item>
+        <item quantity="one">Eklenti kaydediliyor</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">%1$d eklenti hafızaya kaydediliyor...</item>
+        <item quantity="one">Eklenti hafızaya kaydediliyor...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"%1$d medyanın tümünü depolama alanına kaydetmek, telefonunuzdaki diğer uygulamaların erişimine izin verecektir.
+
+Devam edilsin mi?"</item>
+        <item quantity="one">"Bu medyayı depolama alanına kaydetmek, telefonunuzdaki diğer uygulamaların erişimine izin verecektir.
+
+Devam edilsin mi?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Bu işlem seçtiğiniz %1$d mesajı kalıcı olarak silecektir.</item>
+        <item quantity="one">Bu işlem seçtiğiniz %1$d mesajı kalıcı olarak silecektir.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d sohbet arşivlendi</item>
+        <item quantity="one">Sohbet arşivlendi</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Seçilen sohbetleri sil?</item>
+        <item quantity="one">Seçilen sohbeti sil?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d sohbet gelen kutusuna taşındı</item>
+        <item quantity="one">Sohbet gelen kutusuna taşındı</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Bu işlem seçilmiş %1$d sohbeti kalıcı olarak silecektir.</item>
+        <item quantity="one">Bu işlem seçilmiş sohbeti kalıcı olarak silecektir.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s gruba katıldı.</item>
+        <item quantity="one">%1$s gruba katıldı.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">%d SMS daveti gönderilsin mi?</item>
+        <item quantity="one">%d SMS daveti gönderilsin mi?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">%d ARKADAŞINA SMS GÖNDER</item>
+        <item quantity="one">%d ARKADAŞINA SMS GÖNDER</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Bu eylem seçtiğiniz %1$d mesajı kalıcı olarak silecektir.</item>
+        <item quantity="one">Bu eylem seçtiğiniz mesajı kalıcı olarak silecektir.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Seçilen mesajları sil?</item>
+        <item quantity="one">Seçilen mesajı sil?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Artık bir hata ayıklama günlüğü göndermekten %d adım uzaktasınız.</item>
+        <item quantity="one">Artık bir hata ayıklama günlüğü göndermekten %d adım uzaktasınız.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d Öğe</item>
+        <item quantity="one">%d Öğe</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">%d gün</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">%d dakika</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d saniye</item>
+        <item quantity="one">%d saniye</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d hafta</item>
+        <item quantity="one">%d hafta</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d diğer</item>
+        <item quantity="one">%d diğer</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Signal sürümünüz %d gün içinde kullanım dışı kalacak. En yeni sürüme güncellemek için dokunun.</item>
+        <item quantity="one">Signal sürümünüz %d gün içinde kullanım dışı kalacak. En yeni sürüme güncellemek için dokunun.</item>
+    </plurals>
+</resources>

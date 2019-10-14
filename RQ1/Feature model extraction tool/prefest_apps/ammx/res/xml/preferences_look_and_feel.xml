@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:icon="@null" android:title="@string/view_accounts_opened" android:key="@string/pref_account_open_visible" android:summary="@string/if_not_selected_willShowAllAccounts" />
+    <CheckBoxPreference android:icon="@null" android:title="@string/view_accounts_favorites" android:key="@string/pref_account_fav_visible" android:summary="@string/if_not_selected_willShowAllAccounts" />
+    <ListPreference android:icon="@null" android:title="@string/show_transaction" android:key="@string/pref_show_transaction" android:defaultValue="@string/last7days" />
+    <SwitchPreferenceCompat android:icon="@null" android:title="@string/title_transaction_shown_balance" android:key="@string/pref_transaction_shown_balance" android:summary="@string/summary_transaction_shown_balance" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:icon="@null" android:title="@string/pref_transaction_hide_reconciled_amounts_title" android:key="@string/pref_transaction_hide_reconciled_amounts" android:summary="@string/pref_transaction_hide_reconciled_amounts_summary" android:defaultValue="false" />
+    <ListPreference android:icon="@null" android:entries="@array/application_font_entries" android:title="@string/title_application_font" android:key="@string/pref_application_font" android:summary="@string/summary_application_font" android:defaultValue="-1" android:entryValues="@array/application_font_values" />
+    <ListPreference android:icon="@null" android:entries="@array/application_font_size_entries" android:title="@string/title_application_font_size" android:key="@string/pref_application_font_size" android:summary="@string/summary_application_font_size" android:defaultValue="default" android:entryValues="@array/application_font_size_values" />
+</PreferenceScreen>

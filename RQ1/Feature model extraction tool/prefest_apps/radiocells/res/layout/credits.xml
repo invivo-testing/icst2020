@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:id="@id/scrollView1" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textAppearance="?android:textAppearanceLarge" n1:id="@id/credits_app_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/app_name" />
+        </LinearLayout>
+        <ImageView n1:layout_gravity="center_horizontal" n1:paddingTop="10.0dip" n1:paddingBottom="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:src="@android:drawable/divider_horizontal_bright" />
+        <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/credits_app_description" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/app_description" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:weightSum="1.0">
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/credits_version" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Version:" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:gravity="center" n1:id="@id/credits_client_version" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/n_a" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:gravity="left" n1:id="@id/credits_build" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/n_a" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/credits_build_signature_description" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/build_signature" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/credits_build_signature" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Small Text" />
+        </LinearLayout>
+        <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/credits_bug_report" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/bug_report" />
+        <TextView n1:autoLink="web" n1:id="@id/credits_latest_release" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/link_repository" />
+        <TextView n1:textAppearance="?android:textAppearanceMedium" n1:layout_gravity="left" n1:id="@id/credits_credits" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/credits" />
+        <TextView n1:id="@id/credits_other_credits" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/other_credits" />
+        <TextView n1:textAppearance="?android:textAppearanceMedium" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/licences" />
+        <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/credits_radiobeacon_caption" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/radiobeacon_licence_caption" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:gravity="right" n1:id="@id/credits_radiobeacon_license" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/radiobeacon_licence" />
+        </LinearLayout>
+        <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/credits_openbmap_licence_caption" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/openbmap_licence_caption" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:gravity="right" n1:id="@id/credits_openbmap_license" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/openbmap_license" />
+        </LinearLayout>
+        <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/credits_mapsforge_caption" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/mapsforge_source" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:gravity="right" n1:id="@id/credits_mapsforge_licence" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/mapsforge_license" />
+        </LinearLayout>
+        <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/credits_map_data_source" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/map_data_source" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:gravity="right" n1:id="@id/credits_map_data_license" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/map_data_license" />
+        </LinearLayout>
+        <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/credits_library" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/chart_library" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:gravity="right" n1:id="@id/credits_chart_library_license" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/chart_library_license" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

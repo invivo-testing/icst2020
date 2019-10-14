@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_content_paste_white_24dp" android:id="@id/paste" android:visible="false" android:title="@string/paste" app:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_search_white_24dp" android:id="@id/search" android:title="@string/search" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_home_white_24dp" android:id="@id/home" android:title="@string/home" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_sort_white_24dp" android:id="@id/sort" android:title="@string/sort" app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@id/sortby" android:title="@string/sortby" />
+            <item android:id="@id/dsort" android:title="@string/directorysort" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_history_white_24dp" android:id="@id/history" android:title="@string/history" app:showAsAction="ifRoom" />
+    <item android:id="@id/view" android:title="" />
+    <item android:id="@id/hiddenitems" android:visible="false" android:title="@string/hiddenfiles" />
+    <item android:id="@id/sethome" android:title="@string/setashome" />
+    <item android:id="@id/extract" android:visible="false" android:title="@string/extract" />
+    <item android:id="@id/exit" android:orderInCategory="100" android:title="@string/exit" />
+</menu>

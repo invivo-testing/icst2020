@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d beskeder pr. samtale</item>
+        <item quantity="one">%d besked pr. samtale</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Dette vil øjeblikkeligt reducere alle samtaler til de %d nyeste beskeder.</item>
+        <item quantity="one">Dette vil øjeblikkeligt reducere alle samtaler til den nyeste besked.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d ulæste beskeder</item>
+        <item quantity="one">%d ulæst besked</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Slet valgte beskeder?</item>
+        <item quantity="one">Slet valgte besked?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Kunne ikke gemme vedhæftede filer!</item>
+        <item quantity="one">Kunne ikke gemme vedhæftede fil!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Gemmer %1$d vedhæftninger</item>
+        <item quantity="one">Gemmer vedhæftning</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Gemmer %1$d vedhæftninger...</item>
+        <item quantity="one">Gemmer vedhæftning...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"At gemme alle %1$d filer på disk vil tillade alle andre apps at tilgå dem.
+
+Fortsæt?"</item>
+        <item quantity="one">"At gemme denne fil på disk vil tillade alle andre apps at tilgå den.
+
+Fortsæt?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Dette vil slette alle %1$d valgte beskeder permanent.</item>
+        <item quantity="one">Dette vil slette den valgte besked permanent.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d samtaler arkiveret</item>
+        <item quantity="one">Samtale arkiveret</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Slet valgte samtaler?</item>
+        <item quantity="one">Slet valgte samtale?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d samtaler flyttet til inbox</item>
+        <item quantity="one">Samtale flyttet til inbox</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Dette vil slette alle %1$d valgte samtaler permanent.</item>
+        <item quantity="one">Dette vil slette den valgte samtale permanent.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s tilsluttede sig gruppen.</item>
+        <item quantity="one">%1$s tilsluttede sig gruppen.</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d dage</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d uger</item>
+        <item quantity="one">%d uge</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d andre</item>
+        <item quantity="one">%d anden</item>
+    </plurals>
+</resources>

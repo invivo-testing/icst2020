@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fallback_cover" android:layout_centerInParent="true" android:contentDescription="@string/cover_art" />
+    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:id="@id/title" android:background="#aa000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" android:layout_alignBottom="@id/cover" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/play_pause" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0px" android:src="@drawable/hidden_play" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/play_pause" />
+        <ImageButton android:id="@id/next" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0px" android:src="@drawable/hidden_next" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/next_song" />
+    </LinearLayout>
+</RelativeLayout>

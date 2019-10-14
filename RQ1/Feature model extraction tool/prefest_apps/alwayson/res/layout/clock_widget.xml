@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/watchface_wrapper" n1:background="#ff000000" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:foregroundGravity="center"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.tomer.alwayson.views.Clock n1:id="@id/clock" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <com.tomer.alwayson.views.DateView n1:id="@id/date" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <com.tomer.alwayson.views.BatteryView n1:id="@id/battery" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <include layout="@layout/notifications" />
+    <com.tomer.alwayson.views.MusicPlayer n1:gravity="center" n1:id="@id/music_player" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <include layout="@layout/memo" />
+    <com.tomer.alwayson.views.MessageBox n1:id="@id/notifications_box" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/medium_spacing" />
+</LinearLayout>

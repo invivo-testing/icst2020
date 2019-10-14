@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other"></item>
+        <item quantity="one">Скопировано %1$d байт в буфер обмена</item>
+        <item quantity="few">Скопировано %1$d байта в буфер обмена</item>
+        <item quantity="many">Скопировано %1$d байтов в буфер обмена</item>
+    </plurals>
+</resources>

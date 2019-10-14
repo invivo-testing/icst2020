@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:padding="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1">
+        <TableRow>
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:padding="3.0dip" android:text="@string/paste_shortcut" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="end" android:padding="3.0dip" android:text="@string/console_menu_paste" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:padding="3.0dip" android:text="@string/increase_font_shortcut" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="end" android:padding="3.0dip" android:text="@string/increase_font_size" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:padding="3.0dip" android:text="@string/decrease_font_shortcut" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="end" android:padding="3.0dip" android:text="@string/decrease_font_size" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

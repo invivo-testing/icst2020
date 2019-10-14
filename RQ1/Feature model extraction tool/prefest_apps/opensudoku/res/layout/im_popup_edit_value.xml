@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:padding="4.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TableLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <TableRow n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <Button n1:id="@id/button_1" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:text="1" />
+            <Button n1:id="@id/button_2" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:text="2" />
+            <Button n1:id="@id/button_3" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:text="3" />
+        </TableRow>
+        <TableRow n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <Button n1:id="@id/button_4" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:text="4" />
+            <Button n1:id="@id/button_5" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:text="5" />
+            <Button n1:id="@id/button_6" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:text="6" />
+        </TableRow>
+        <TableRow n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <Button n1:id="@id/button_7" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:text="7" />
+            <Button n1:id="@id/button_8" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:text="8" />
+            <Button n1:id="@id/button_9" n1:layout_width="95.0dip" n1:layout_height="70.0dip" n1:text="9" />
+        </TableRow>
+        <TableRow n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <Button n1:id="@id/button_clear" n1:layout_width="fill_parent" n1:layout_height="70.0dip" n1:text="@string/clear" />
+            <Button n1:id="@id/button_close" n1:layout_width="fill_parent" n1:layout_height="70.0dip" n1:layout_span="2" n1:text="@string/close" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

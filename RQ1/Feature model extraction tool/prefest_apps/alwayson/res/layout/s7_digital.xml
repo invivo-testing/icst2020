@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="92.0sp" n1:textColor="@android:color/white" n1:id="@id/s7_hour_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="17" n1:layout_centerVertical="true" n1:layout_marginEnd="@dimen/medium_spacing" />
+    <RelativeLayout n1:orientation="vertical" n1:id="@id/s7_mini_wrapper" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_toEndOf="@id/s7_hour_tv">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/s7_minute_wrapper" n1:padding="0.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" n1:layout_alignParentStart="true">
+            <TextView n1:textSize="48.0sp" n1:textColor="#ff2196f3" n1:id="@id/s7_minute_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="35" />
+            <TextView n1:textColor="@android:color/white" n1:layout_gravity="left" n1:id="@id/s7_am_pm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView n1:textColor="@android:color/white" n1:gravity="top" n1:id="@id/s7_date_tv" n1:paddingLeft="@dimen/small_spacing" n1:layout_width="@dimen/s7_digital_date_max_width" n1:layout_height="wrap_content" n1:text="test\ntest" n1:layout_below="@id/s7_minute_wrapper" n1:layout_alignParentStart="true" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/s7_battery_wrapper" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_below="@id/s7_date_tv" n1:layout_alignParentStart="true">
+            <ImageView n1:layout_gravity="start|center" n1:id="@id/s7_battery_percentage_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:srcCompat="@drawable/ic_battery_90" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <TextView n1:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" n1:textColor="@android:color/white" n1:layout_gravity="start|center" n1:id="@id/s7_battery_percentage_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

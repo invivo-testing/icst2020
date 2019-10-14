@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Преузимам чланке</item>
+        <item quantity="one">Преузимам чланак</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Ови чланци више неће бити доступни офлајн.</item>
+        <item quantity="one">Овај чланак више неће бити доступан офлајн.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Ови чланаци ће бити доступни офлајн.</item>
+        <item quantity="one">Овај чланак ће бити доступан офлајн.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">Пре %d дана</item>
+        <item quantity="one">Јуче</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView n1:id="@id/title" n1:text="@string/overview" style="@style/CardHeader"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <LinearLayout n2:gravity="center" n2:orientation="horizontal" n2:id="@id/llOverview" n2:layout_width="fill_parent" n2:layout_height="wrap_content"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <FrameLayout n2:layout_width="0.0dip" n2:layout_height="wrap_content" n2:layout_weight="5.0">
+            <org.isoron.uhabits.activities.common.views.RingView n2:layout_gravity="center" n2:id="@id/scoreRing" n2:layout_width="30.0dip" n2:layout_height="30.0dip" n3:percentage="0" n3:textSize="12" n3:thickness="5" xmlns:n3="http://isoron.org/android" />
+        </FrameLayout>
+        <LinearLayout n2:orientation="vertical" n2:layout_width="0.0dip" n2:layout_height="wrap_content" n2:layout_weight="4.0">
+            <TextView n2:id="@id/scoreLabel" n2:layout_width="wrap_content" n2:layout_height="wrap_content" />
+            <TextView n2:textColor="?mediumContrastTextColor" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:text="@string/score" />
+        </LinearLayout>
+        <LinearLayout n2:orientation="vertical" n2:layout_width="0.0dip" n2:layout_height="wrap_content" n2:layout_weight="4.0">
+            <TextView n2:id="@id/monthDiffLabel" n2:layout_width="wrap_content" n2:layout_height="wrap_content" />
+            <TextView n2:textColor="?mediumContrastTextColor" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:text="@string/month" />
+        </LinearLayout>
+        <LinearLayout n2:orientation="vertical" n2:layout_width="0.0dip" n2:layout_height="wrap_content" n2:layout_weight="4.0">
+            <TextView n2:id="@id/yearDiffLabel" n2:layout_width="wrap_content" n2:layout_height="wrap_content" />
+            <TextView n2:textColor="?mediumContrastTextColor" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:text="@string/year" />
+        </LinearLayout>
+        <LinearLayout n2:orientation="vertical" n2:layout_width="0.0dip" n2:layout_height="wrap_content" n2:layout_weight="4.0">
+            <TextView n2:id="@id/totalCountLabel" n2:layout_width="wrap_content" n2:layout_height="wrap_content" />
+            <TextView n2:textColor="?mediumContrastTextColor" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:text="@string/total" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

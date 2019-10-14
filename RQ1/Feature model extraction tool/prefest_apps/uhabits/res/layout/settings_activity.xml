@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/container" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n2:popupTheme="?toolbarPopupTheme" style="@style/Toolbar" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <fragment n1:name="org.isoron.uhabits.activities.settings.SettingsFragment" n1:layout_gravity="center" n1:id="@id/fragment" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/toolbar" />
+    <View n1:id="@id/toolbarShadow" style="@style/ToolbarShadow" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root_layout" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/reviewer_flashcard_fullscreen_2" />
+            <FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/front_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <include layout="@layout/toolbar" />
+                    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" layout="@layout/reviewer_topbar" />
+                    <include layout="@layout/reviewer_answer_buttons" />
+                </RelativeLayout>
+            </FrameLayout>
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include layout="@layout/navigation_drawer" />
+</androidx.drawerlayout.widget.DrawerLayout>

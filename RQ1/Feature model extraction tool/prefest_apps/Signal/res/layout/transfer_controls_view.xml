@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pnikosis.materialishprogress.ProgressWheel android:layout_gravity="center" android:id="@id/progress_wheel" android:visibility="gone" android:layout_width="@dimen/transfer_controls_contracted_width" android:layout_height="@dimen/transfer_controls_contracted_width" app:matProg_barColor="@color/white" app:matProg_linearProgress="true" app:matProg_spinSpeed="0.333" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/download_details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_file_download_white_36dp" />
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="?conversation_item_received_text_primary_color" android:gravity="center" android:id="@id/download_details_text" android:padding="15.0dip" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

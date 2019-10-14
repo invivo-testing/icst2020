@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.thoughtcrime.securesms.preferences.BlockedContactListItem android:paddingRight="25.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.thoughtcrime.securesms.components.AvatarImageView android:id="@id/contact_photo_image" android:layout_width="@dimen/contact_selection_photo_size" android:layout_height="@dimen/contact_selection_photo_size" android:layout_marginLeft="10.0dip" android:scaleType="centerCrop" android:cropToPadding="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/SingleContactSelectionActivity_contact_photo" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:checkMark="?android:listChoiceIndicatorMultiple" android:singleLine="true" android:layout_toRightOf="@id/contact_photo_image" android:layout_alignParentTop="true" />
+</org.thoughtcrime.securesms.preferences.BlockedContactListItem>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/second" android:layout_width="fill_parent" android:layout_height="@dimen/list_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_header_textsize" android:gravity="center_vertical" android:id="@id/text" android:paddingLeft="@dimen/icon_width" android:paddingRight="@dimen/icon_width" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" />
+</RelativeLayout>

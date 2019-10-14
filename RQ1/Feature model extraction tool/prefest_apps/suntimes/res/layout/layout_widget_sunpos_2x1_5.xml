@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/SunsetTimeWidgetFrame">
+    <include layout="@layout/layout_widget_sunpos_2x1_5i" />
+</FrameLayout>

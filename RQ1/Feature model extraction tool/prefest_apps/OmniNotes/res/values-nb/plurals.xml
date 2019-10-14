@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">For %d aktiviteter</item>
+        <item quantity="one">For %d aktivitet</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Hver %d. dag</item>
+        <item quantity="one">Hver %d. dag</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Hver %d. måned</item>
+        <item quantity="one">Hver %d. måned</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Hver %d. uke</item>
+        <item quantity="one">Hver %d. uke</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Hvert %d. år</item>
+        <item quantity="one">Hvert %d. år</item>
+    </plurals>
+</resources>

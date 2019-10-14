@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:padding="0.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/BookmarksBreadCrumbGroup" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/bookmarks_fragment_breadcrumb_margin_left_right" n1:layout_marginTop="@dimen/bookmarks_fragment_margin_top_bottom" n1:layout_marginRight="@dimen/bookmarks_fragment_breadcrumb_margin_left_right" n1:layout_marginBottom="10.0dip">
+            <ImageView n1:id="@id/BookmarksBreadCrumbBackHierarchy" n1:background="?android:selectableItemBackground" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:src="@drawable/ic_back_hierarchy" n1:contentDescription="@string/ContentDescriptionBookmarksFoldersBack" />
+            <android.app.FragmentBreadCrumbs n1:gravity="center|left" n1:id="@id/BookmarksBreadCrumb" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        </LinearLayout>
+        <ImageView n1:id="@id/divider" n1:paddingRight="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/bookmarks_fragment_margin_left_right" n1:layout_marginRight="@dimen/bookmarks_fragment_margin_left_right" n1:src="?android:dividerHorizontal" n1:scaleType="fitXY" n1:contentDescription="@string/ContentDescriptionDivider" />
+    </LinearLayout>
+    <RelativeLayout n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <GridView n1:gravity="center" n1:id="@id/BookmarksGridView" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/bookmarks_fragment_margin_left_right" n1:layout_marginTop="10.0dip" n1:layout_marginRight="@dimen/bookmarks_fragment_margin_left_right" n1:layout_marginBottom="@dimen/bookmarks_fragment_margin_top_bottom" n1:horizontalSpacing="@dimen/bookmarks_fragment_horizontal_spacing" n1:verticalSpacing="@dimen/bookmarks_fragment_vertical_spacing" n1:stretchMode="columnWidth" n1:columnWidth="@dimen/bookmarks_fragment_column_width" n1:numColumns="auto_fit" />
+        <ProgressBar n1:id="@id/BookmarksProgressBar" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+    </RelativeLayout>
+</LinearLayout>

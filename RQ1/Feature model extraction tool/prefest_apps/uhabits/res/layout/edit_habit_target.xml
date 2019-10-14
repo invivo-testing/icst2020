@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" style="@style/dialogFormRow"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:text="@string/target" style="@style/dialogFormLabel" />
+    <android.support.design.widget.TextInputLayout n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="2.0">
+        <EditText n1:id="@id/tvTargetCount" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/default_count" n1:hint="@string/count" n1:inputType="numberDecimal" style="@style/dialogFormInput" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="2.0">
+        <org.isoron.uhabits.activities.habits.edit.views.ExampleEditText n1:id="@id/tvUnit" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/unit" n1:inputType="text" style="@style/dialogFormInput" n2:example="@string/example_units" xmlns:n2="http://isoron.org/android" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

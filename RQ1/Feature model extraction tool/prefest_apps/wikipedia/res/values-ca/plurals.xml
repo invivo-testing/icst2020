@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Fa %d anys</item>
+        <item quantity="one">El darrer any</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">"S'estan baixant els articles"</item>
+        <item quantity="one">"S'està baixant l'article"</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">queden %1$d articles</item>
+        <item quantity="one">queda %1$d article</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Sincronització de les llistes de lectura</item>
+        <item quantity="one">Sincronització de la llista de lectura</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">queden %1$d llistes</item>
+        <item quantity="one">%queda 1$d llista</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">"S'estan sincronitzant %1$d llistes…"</item>
+        <item quantity="one">"S'està sincronitzant %1$d llista…"</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">"S'estan baixant %1$d articles…"</item>
+        <item quantity="one">"S'està baixant %1$d article…"</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">queden %d mins</item>
+        <item quantity="one">queda 1 min</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Aquests articles no continuaran estant disponibles fora de línia.</item>
+        <item quantity="one">Aquest article no continuarà estant disponible fora de línia.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">"Aquests articles estaran disponibles fora de línia a partir d'ara."</item>
+        <item quantity="one">"Aquest article estarà disponible fora de línia a partir d'ara."</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">Fa %d dies</item>
+        <item quantity="one">Ahir</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Voleu suprimir les llengües seleccionades?</item>
+        <item quantity="one">Voleu suprimir la llengua seleccionada?</item>
+    </plurals>
+</resources>

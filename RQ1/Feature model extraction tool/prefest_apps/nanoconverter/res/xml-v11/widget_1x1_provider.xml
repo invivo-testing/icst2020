@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="72.0dip" android:minHeight="72.0dip" android:updatePeriodMillis="1800000" android:initialLayout="@layout/widget_1x1" android:configure="com.nanoconverter.zlab.Widget_1x1_config" android:previewImage="@drawable/preview_circle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

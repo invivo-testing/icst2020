@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup n1:id="@id/tasker_radio_group" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RadioButton n1:id="@id/on" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="true" n1:text="Start always on" />
+    <RadioButton n1:id="@id/off" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Stop always on" />
+</RadioGroup>

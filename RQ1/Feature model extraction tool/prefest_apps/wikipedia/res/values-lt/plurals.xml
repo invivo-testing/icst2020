@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Šie straipsniai nebebus prieinami neprisijungus.</item>
+        <item quantity="one">Šis straipsnis nebebus prieinamas neprisijungus.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Šie straipsniai bus prieinami neprisijungus.</item>
+        <item quantity="one">Šis straipsnis bus prieinamas neprisijungus.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">prieš %d dienas</item>
+        <item quantity="one">vakar</item>
+    </plurals>
+</resources>

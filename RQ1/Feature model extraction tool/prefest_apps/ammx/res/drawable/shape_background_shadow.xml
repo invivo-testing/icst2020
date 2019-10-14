@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="2.0dip" android:right="2.0dip">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/mmex_corners_radius" />
+            <padding android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="2.0dip" />
+            <gradient android:startColor="#ff000000" android:endColor="#44cbcbcb" android:angle="270.0" android:centerX="0.15" android:centerColor="#ff222222" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/holo_light_darkaction_money_background" />
+            <corners android:radius="@dimen/mmex_corners_radius" />
+            <stroke android:width="1.0dip" android:color="@color/money_border" />
+        </shape>
+    </item>
+</layer-list>

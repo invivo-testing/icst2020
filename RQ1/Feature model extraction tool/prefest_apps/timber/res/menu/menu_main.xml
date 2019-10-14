@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/action_shuffle" n1:orderInCategory="10" n1:title="@string/action_shuffle_all" n2:showAsAction="never"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:id="@id/action_equalizer" n3:orderInCategory="100" n3:title="@string/action_equalizer" n4:showAsAction="never"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:id="@id/action_settings" n5:orderInCategory="101" n5:title="@string/action_settings" n6:showAsAction="never"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="@drawable/ic_action_search" n7:id="@id/action_search" n7:orderInCategory="1" n7:title="@string/search" n8:showAsAction="always"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</menu>

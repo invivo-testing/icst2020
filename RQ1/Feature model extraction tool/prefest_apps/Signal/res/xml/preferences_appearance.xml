@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.thoughtcrime.securesms.preferences.widgets.SignalListPreference android:entries="@array/pref_theme_entries" android:title="@string/preferences__theme" android:key="pref_theme" android:defaultValue="light" android:entryValues="@array/pref_theme_values" />
+    <org.thoughtcrime.securesms.preferences.widgets.SignalListPreference android:entries="@array/language_entries" android:title="@string/preferences__language" android:key="pref_language" android:defaultValue="zz" android:entryValues="@array/language_values" />
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%d फ़ाइलें अपलोड हो रहीं</item>
+        <item quantity="one">%d फ़ाइल अपलोड हो रहा</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d अपलोड्स</item>
+        <item quantity="one">%1$d अपलोड</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d अपलोड</item>
+        <item quantity="one">%1$d अपलोड</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">%1$d अपलोड शुरू</item>
+        <item quantity="one">%1$d अपलोड शुरू</item>
+    </plurals>
+</resources>

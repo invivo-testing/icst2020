@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Заняты</item>
+        <item>Даступны</item>
+        <item>Часова</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Дзень</item>
+        <item>Тыдзень</item>
+        <item>Месяц</item>
+        <item>Парадак дня</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Толькі гэта мерапрыемства</item>
+        <item>Усе падзеі ў серыі</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Толькі гэта падзея</item>
+        <item>Гэта і будучыя мерапрыемствы</item>
+        <item>Усе падзеі</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Гэтыя i будучыя падзеі</item>
+        <item>Усе падзеі</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>першы</item>
+        <item>другі</item>
+        <item>трэці</item>
+        <item>чацвёрты</item>
+        <item>апошні</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Толькі калі адмоўлена</item>
+        <item>Калі адмоўлена або адказу няма</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>ШТОДЗЁННЫ ПАЎТОР</item>
+        <item>ШТОТЫДНЁВЫ ПАЎТОР</item>
+        <item>ШТОМЕСЯЧНЫ ПАЎТОР</item>
+        <item>ШТОГАДОВЫ ПАЎТОР</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Апавяшч-е</item>
+        <item>Электр. пошта</item>
+        <item>SMS</item>
+        <item>Будзільнік</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 хвілін</item>
+        <item>1 хвіліна</item>
+        <item>5 хвілін</item>
+        <item>10 хвілін</item>
+        <item>15 хвілін</item>
+        <item>20 хвілін</item>
+        <item>25 хвілін</item>
+        <item>30 хвілін</item>
+        <item>45 хвілін</item>
+        <item>1 гадзіна</item>
+        <item>2 гадзіны</item>
+        <item>3 гадзіны</item>
+        <item>12 гадзін</item>
+        <item>24 гадзіны</item>
+        <item>2 дні</item>
+        <item>1 тыдзень</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>кожную першую пятніцу</item>
+        <item>кожную другую пятніцу</item>
+        <item>кожную трэцюю пятніцу</item>
+        <item>кожную чацвёртую пятніцу</item>
+        <item>кожную апошнюю пятніцу</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>кожны першы панядзелак</item>
+        <item>кожны другі панядзелак</item>
+        <item>кожны трэці панядзелак</item>
+        <item>кожны чацвёрты панядзелак</item>
+        <item>кожны апошні панядзелак</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>кожную першую суботу</item>
+        <item>кожную другую суботу</item>
+        <item>кожную трэцюю суботу</item>
+        <item>кожную чацвёртую суботу</item>
+        <item>кожную апошнюю суботу</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>кожную першую нядзелю</item>
+        <item>кожную другую нядзелю</item>
+        <item>кожную трэцюю нядзелю</item>
+        <item>кожную чацвёртую нядзелю</item>
+        <item>кожную апошнюю нядзелю</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>кожны першы чацвер</item>
+        <item>кожны другі чацвер</item>
+        <item>кожны трэці чацвер</item>
+        <item>кожны чацвёрты чацвер</item>
+        <item>кожны апошні чацвер</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>кожны першы аўторак</item>
+        <item>кожны другі аўторак</item>
+        <item>кожны трэці аўторак</item>
+        <item>кожны чацвёрты аўторак</item>
+        <item>кожны апошні аўторак</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>кожную першую сераду</item>
+        <item>кожную другую сераду</item>
+        <item>кожную трэцюю сераду</item>
+        <item>кожную чацвёртую сераду</item>
+        <item>кожную апошнюю сераду</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Няма адказу</item>
+        <item>Так</item>
+        <item>Магчыма</item>
+        <item>Не</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Па змаўчанні</item>
+        <item>Прыватны</item>
+        <item>Агульнадаступнае</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Няма</item>
+        <item>0 хвілін</item>
+        <item>1 хвіліна</item>
+        <item>5 хвілін</item>
+        <item>10 хвілін</item>
+        <item>15 хвілін</item>
+        <item>20 хвілін</item>
+        <item>25 хвілін</item>
+        <item>30 хвілін</item>
+        <item>45 хвілін</item>
+        <item>1 гадзіна</item>
+        <item>2 гадзіны</item>
+        <item>3 гадзіны</item>
+        <item>12 гадзін</item>
+        <item>24 гадзіны</item>
+        <item>2 дні</item>
+        <item>1 тыдзень</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Рэгiянальная налада па змаўчанні</item>
+        <item>Субота</item>
+        <item>Нядзеля</item>
+        <item>Панядзелак</item>
+    </string-array>
+</resources>

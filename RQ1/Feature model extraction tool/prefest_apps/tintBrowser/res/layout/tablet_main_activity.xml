@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:orientation="vertical" n1:id="@id/WebViewContainer" n1:background="#ffdcdcdc" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/UrlBar" />
+    <org.tint.ui.views.TabletUrlBar n1:id="@id/UrlBar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" />
+    <ImageView n1:id="@id/ExitFullScreen" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="10.0dip" n1:layout_marginBottom="10.0dip" n1:src="@drawable/ic_exit_fullscreen" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" n1:contentDescription="@string/ContentDescriptionExitFullScreen" />
+    <ProgressBar n1:id="@id/WebViewProgress" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="0.0dip" n1:layout_marginTop="-8.0dip" n1:layout_marginRight="0.0dip" n1:indeterminate="false" n1:layout_below="@id/UrlBar" style="@android:style/Widget.Holo.ProgressBar.Horizontal" />
+</RelativeLayout>

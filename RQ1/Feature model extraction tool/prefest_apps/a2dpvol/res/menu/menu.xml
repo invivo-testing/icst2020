@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/prefs" n1:menuCategory="container" n1:orderInCategory="1" n1:title="@string/MenuPrefs"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:enabled="true" n2:id="@id/DelData" n2:visible="true" n2:menuCategory="container" n2:orderInCategory="2" n2:title="@string/MenuDeleteData"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:enabled="true" n3:id="@id/Manage_data" n3:visible="true" n3:menuCategory="container" n3:orderInCategory="4" n3:title="@string/MenumanageData"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:enabled="true" n4:id="@id/Exit" n4:visible="true" n4:menuCategory="container" n4:orderInCategory="4" n4:title="@string/MenuExit"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:enabled="true" n5:id="@id/help" n5:visible="true" n5:menuCategory="container" n5:orderInCategory="5" n5:title="@string/MenuHelp"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:id="@id/packages" n6:menuCategory="container" n6:title="@string/PackagesTitle"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+</menu>

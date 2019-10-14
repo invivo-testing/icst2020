@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/navigation_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui">
+    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/left_drawer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/navigation_drawer_image_height">
+            <ImageView android:id="@id/navdrawer_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/material_wall" android:scaleType="centerCrop" />
+            <com.neopixl.pixlui.components.textview.TextView android:textSize="30.0sp" android:textColor="@color/white" android:id="@id/navdrawer_title" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:paddingBottom="@dimen/padding_half" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_alignParentBottom="true" android:paddingStart="@dimen/horizontal_margin" android:paddingEnd="@dimen/horizontal_margin" pixlui:typeface="RobotoSlab-Regular.ttf" />
+        </RelativeLayout>
+        <it.feio.android.omninotes.models.views.NonScrollableListView android:id="@id/drawer_nav_list" android:animationCache="false" android:layout_width="@dimen/navigation_drawer_width" android:layout_height="wrap_content" android:listSelector="@drawable/icon_selector" android:scrollingCache="false" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" />
+        <include android:id="@id/settings_view" layout="@layout/drawer_category_list_footer" />
+        <it.feio.android.omninotes.models.views.NonScrollableListView android:scrollbarSize="4.0dip" android:scrollbarThumbVertical="@drawable/scroll_bar" android:scrollbarStyle="outsideOverlay" android:id="@id/drawer_tag_list" android:animationCache="false" android:layout_width="@dimen/navigation_drawer_width" android:layout_height="wrap_content" android:listSelector="@drawable/icon_selector" android:scrollingCache="false" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" android:overScrollMode="never" />
+    </LinearLayout>
+</ScrollView>

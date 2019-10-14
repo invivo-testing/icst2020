@@ -1,0 +1,15 @@
+hideVolUi=BooleanPreference
+headset=BooleanPreference
+enableGTalk=BooleanPreference
+notify_pref=ListPreference
+usePassive=BooleanPreference
+home_dock=BooleanPreference
+enableTTS=BooleanPreference
+car_mode=BooleanPreference
+useLocalStorage=BooleanPreference
+gpsTime=ListPreference
+gpsDistance=ListPreference
+toasts=BooleanPreference
+bootstart=BooleanPreference
+useNetwork=BooleanPreference
+power=BooleanPreference

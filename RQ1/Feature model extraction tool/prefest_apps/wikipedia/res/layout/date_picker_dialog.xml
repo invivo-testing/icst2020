@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?paper_color" android:layout_width="320.0dip" android:layout_height="432.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="?main_toolbar_color" android:padding="24.0dip" android:layout_width="320.0dip" android:layout_height="110.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/base100" android:id="@id/otd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/on_this_day_card_title" android:lineSpacingExtra="4.0sp" android:alpha="0.7" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="34.0sp" android:textStyle="normal" android:textColor="@color/base100" android:id="@id/day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="?paper_color" android:paddingTop="16.0dip" android:layout_width="320.0dip" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="24.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/previous_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?secondary_text_color" android:scaleX="-1.0" app:srcCompat="@drawable/ic_chevron_forward_gray" />
+            <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?primary_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/month_string" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" style="@style/TextViewCentered" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/next_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?secondary_text_color" app:srcCompat="@drawable/ic_chevron_forward_gray" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+    </LinearLayout>
+</LinearLayout>

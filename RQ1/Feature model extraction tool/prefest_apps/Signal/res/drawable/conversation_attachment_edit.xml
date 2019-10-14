@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="30.0dip" android:width="30.0dip" />
+            <solid android:color="@color/grey_400_transparent" />
+            <corners android:topLeftRadius="0.0dip" android:topRightRadius="0.0dip" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="@dimen/message_bubble_corner_radius" />
+        </shape>
+    </item>
+    <item android:scaleType="centerInside" android:drawable="@drawable/ic_create_white_24dp" android:left="5.0dip" android:top="5.0dip" android:right="5.0dip" android:bottom="5.0dip" />
+</layer-list>

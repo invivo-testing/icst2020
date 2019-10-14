@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Flashcards for Android&lt;/h2>AnkiDroid is a flashcard application which is fully compatible with the desktop software &lt;a href=\"%2$s\">Anki&lt;/a>. You can create, download and learn material on both AnkiDroid or Anki Desktop, and synchronize them easily with AnkiWeb.</item>
+        <item>To help us make AnkiDroid better, please report bugs to &lt;a href=\"%1$s\">the issue tracker&lt;/a>; new feature ideas are very welcome too. Find answers on &lt;a href=\"%2$s\">the wiki&lt;/a> or start a discussion on &lt;a href=\"%3$s\">the forum&lt;/a>.</item>
+        <item>AnkiDroid is &lt;a href=\"%1$s\">open source software&lt;a/>, so everyone is encouraged to &lt;a href=\"%2$s\">become a contributor&lt;/a> :-)</item>
+        <item>Non-developers can also help. For instance, you can &lt;a href=\"%1$s\">help translate&lt;/a> AnkiDroid, update the wiki, provide screenshots, or blog about AnkiDroid.</item>
+        <item>AnkiDroid is released under the &lt;a href=\"%1$s\">GNU-GPL v3 license&lt;/a> and the source code is available &lt;a href=\"%2$s\">on GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Χρήση προσωρινής τράπουλας</item>
+        <item>Απόφαση κατά τύπο σημείωσης</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Top</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Question</item>
+        <item>Sort field</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Answer</item>
+        <item>Κάρτα</item>
+        <item>Deck</item>
+        <item>Note</item>
+        <item>Question</item>
+        <item>Tags</item>
+        <item>Lapses</item>
+        <item>Reviews</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Χωρίς ταξινόμηση (γρήγορο)</item>
+        <item>Κατά πεδίου ταξινόμησης</item>
+        <item>Κατά χρόνο δημιουργίας</item>
+        <item>Κατά χρόνο σύνταξης</item>
+        <item>Κατά χρόνο αλλαγής</item>
+        <item>Κατά προγρ/μένο χρόνο</item>
+        <item>Κατά μεσοδιάστημα</item>
+        <item>Κατά ευκολία</item>
+        <item>Κατά επαναλήψεις</item>
+        <item>Κατά αστοχίες</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Πρώτα οι παλαιότερες που έχετε δει</item>
+        <item>Τυχαία</item>
+        <item>Κατά αυξανόμενα διαστήματα</item>
+        <item>Κατά φθίνοντα διαστήματα</item>
+        <item>Aυτές με τις περισσότερες ολισθήσεις</item>
+        <item>Κατά σειρά προσθήκης</item>
+        <item>Κατά σειρά αναμονής</item>
+        <item>Κατά σειρά πρόσφατης προσθήκης</item>
+        <item>Relative overdueness</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Φωτεινό</item>
+        <item>Απλό</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Ημέρες</item>
+        <item>Εβδομάδες</item>
+        <item>Μήνες</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Στείλε πάντα αναφορά</item>
+        <item>Μη στέλνεις ποτέ αναφορά</item>
+        <item>Ρωτήστε με</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Καμία ενέργεια</item>
+        <item>Εμφάνιση απάντησης</item>
+        <item>Κουμπί απάντησης 1</item>
+        <item>Κουμπί απάντησης 2</item>
+        <item>Κουμπί απάντησης 3</item>
+        <item>Κουμπί απάντησης 4</item>
+        <item>Προτεινόμεμη απάμτηση (πράσινη)</item>
+        <item>Απάντηση καλύτερη από την προτεινόμενη</item>
+        <item>Αναίρεση</item>
+        <item>Επεξεργασία σημείωσης</item>
+        <item>Μαρκάρισμα σημείωσης</item>
+        <item>Αναζήτηση έκφρασης</item>
+        <item>Θάψιμο κάρτας</item>
+        <item>Αναστολή κάρτας</item>
+        <item>Διαγραφή σημείωσης</item>
+        <item>Αναπαραγωγή πολυμέσων</item>
+        <item>Ματαίωση μάθησης</item>
+        <item>Απόκρυψης σημείωσης</item>
+        <item>Αναστολής σημείωσης</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Αναστολή κάρτας</item>
+        <item>Μόνο ετικέτα</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Νέες κάρτες σε τυχαία σειρά</item>
+        <item>Νέες κάρτες σε σειρά προσθήκης</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Ανάμειξη νέων καρτών και επαναλήψεων</item>
+        <item>Οι νέες κάρτες μετά από τις επαναλήψεις</item>
+        <item>Οι νέες κάρτες πριν τις επαναλήψεις</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Μαύρο</item>
+        <item>Σκοτεινό</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Όταν δε συγκεκριμενοποιείται γραμματοσειρά στις κάρτες</item>
+        <item>Πάντα</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4AM</item>
+        <item>10AM</item>
+        <item>4PM</item>
+        <item>10PM</item>
+        <item>3AM</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+</resources>

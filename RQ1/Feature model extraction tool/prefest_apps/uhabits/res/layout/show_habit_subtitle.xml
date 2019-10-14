@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView n1:textSize="@dimen/regularTextSize" n1:textColor="?mediumContrastTextColor" n1:id="@id/questionLabel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dip"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <LinearLayout n2:gravity="center_vertical" n2:orientation="horizontal" n2:layout_width="fill_parent" n2:layout_height="wrap_content" n2:layout_marginBottom="5.0dip"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <ImageView n2:id="@id/frequencyIcon" n2:layout_width="18.0dip" n2:layout_height="18.0dip" n2:layout_marginRight="5.0dip" n2:src="?iconFrequency" n2:alpha="0.3" n2:layout_marginEnd="5.0dip" />
+        <TextView n2:textSize="@dimen/smallTextSize" n2:textColor="?mediumContrastTextColor" n2:id="@id/frequencyLabel" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:text="@string/every_day" />
+        <ImageView n2:id="@id/reminderIcon" n2:layout_width="18.0dip" n2:layout_height="18.0dip" n2:layout_marginLeft="10.0dip" n2:layout_marginRight="5.0dip" n2:src="?iconReminder" n2:alpha="0.3" n2:layout_marginStart="10.0dip" n2:layout_marginEnd="5.0dip" />
+        <TextView n2:textSize="@dimen/smallTextSize" n2:textColor="?mediumContrastTextColor" n2:id="@id/reminderLabel" n2:paddingTop="1.0dip" n2:layout_width="wrap_content" n2:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

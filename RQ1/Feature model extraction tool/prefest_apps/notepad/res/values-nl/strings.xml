@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="action_cancel">Annuleer</string>
+    <string name="action_close">Sluit</string>
+    <string name="action_delete">Verwijder</string>
+    <string name="action_discard">Weggooien</string>
+    <string name="action_edit">Aanpassen</string>
+    <string name="action_export">Exporteren</string>
+    <string name="action_font_size">Font size</string>
+    <string name="action_install">Install</string>
+    <string name="action_new">Nieuwe notitie</string>
+    <string name="action_no_thanks">No Thanks</string>
+    <string name="action_print">Print</string>
+    <string name="action_save">Opslaan</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="action_share">Delen</string>
+    <string name="action_sort_by">Order op</string>
+    <string name="action_start_selection">Select notes</string>
+    <string name="action_theme">Theme</string>
+    <string name="app_name">Notepad</string>
+    <string name="app_name_debug">@string/app_name</string>
+    <string name="cab_note_selected">notitie geselecteerd</string>
+    <string name="cab_notes_selected">notities geselecteedt</string>
+    <string name="changes_discarded">Aanpassing verworpen</string>
+    <string name="dialog_about_message">"Notepad: a simple note-taking app
+
+© 2018 Braden Farmer
+App logo by Tobaloidee"</string>
+    <string name="dialog_about_title">Over Notepad</string>
+    <string name="dialog_are_you_sure">Zeker weten?</string>
+    <string name="dialog_delete_button_title">Verwijder notitie</string>
+    <string name="dialog_delete_button_title_plural">Verwijder notitie</string>
+    <string name="dialog_save_button_title">Sla op</string>
+    <string name="dialog_save_changes">Wilt u de wijzigingen opslaan?</string>
+    <string name="document">%1$s Document</string>
+    <string name="double_tap">Tip: double-tap text om naar Edit modus over te gaan</string>
+    <string name="draft_restored">Aantekening herstelt</string>
+    <string name="draft_saved">Aantekening opgeslagen</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="edit_text">Typ om text in te voeren</string>
+    <string name="empty_note">Voer eerst wat text in!</string>
+    <string name="error_exporting_notes">Fout bij exporteren van notities!</string>
+    <string name="error_importing_notes">Fout bij importeren van notities!</string>
+    <string name="error_loading_list">Fout bij het laden van notitie-lijst</string>
+    <string name="error_loading_note">Fout bij laden notite!</string>
+    <string name="failed_to_save">Error: Fout bij opslaan notitie!</string>
+    <string name="first_run">"Welcome bij Notepad!
+
+Voeg een notitie toe door op de Nieuwe Notite knop te drukken (plus teken)."</string>
+    <string name="first_view">Dubbel-tik op een tekst om deze aan te passen of gebruik aanpas knop (penceel).</string>
+    <string name="import_notes">Importeer notities</string>
+    <string name="loading_external_file">Laden van externe bestanden niet toegestaan</string>
+    <string name="no_notes_found">Geen notitie gevonden</string>
+    <string name="no_notes_to_delete">No notes selected to delete</string>
+    <string name="no_notes_to_export">No notes selected to export</string>
+    <string name="no_notes_to_select">No notes to select</string>
+    <string name="note_deleted">Notitie verwijderd</string>
+    <string name="note_exported_to">Notitie geexporteert naar</string>
+    <string name="note_imported_successfully">Notitie succesvol geimporteerd</string>
+    <string name="note_saved">Notitie opgelagen</string>
+    <string name="notes_deleted">Notities verwijderd</string>
+    <string name="notes_exported_to">Notities gexporteert naar</string>
+    <string name="notes_imported_successfully">Notitie succesvol geimporteerd</string>
+    <string name="pref_title_direct_edit">Edit notes directly</string>
+    <string name="pref_title_markdown">Markdown/HTML support</string>
+    <string name="pref_title_show_date">Show date/time</string>
+    <string name="pref_title_show_dialogs">Vraag voor opslaan</string>
+    <string name="search_menu_title">Zoeken</string>
+    <string name="send_to">Deel notitie met…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="view_note">Bekijk notitie</string>
+</resources>

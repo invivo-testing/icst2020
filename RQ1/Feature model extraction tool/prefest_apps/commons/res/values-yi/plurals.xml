@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d טעקעס לאדן אן</item>
+        <item quantity="one">1 טעקע לאדט אן</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d ארויפֿלאדן</item>
+        <item quantity="zero">נאך נישט קיין ארויפֿלאדן</item>
+        <item quantity="one">1 ארויפֿלאד</item>
+    </plurals>
+</resources>

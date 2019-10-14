@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d tahun lepas</item>
+        <item quantity="one">Tahun lalu</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Memuat turun rencana</item>
+        <item quantity="one">Memuat turun rencana</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$d rencana yang tinggal</item>
+        <item quantity="one">%1$d rencana yang tinggal</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Menyegerakkan Senarai Bacaan</item>
+        <item quantity="one">Menyegerakkan Senarai Bacaan</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">%1$d senarai yang tersisa</item>
+        <item quantity="one">%1$d senarai yang tersisa</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Menyegerakkan %1$d senarai...</item>
+        <item quantity="one">Menyegerakkan %1$d senarai...</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Memuat turun %1$d rencana...</item>
+        <item quantity="one">Memuat turun %1$d rencana...</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">%d minit lagi</item>
+        <item quantity="one">1 minit lagi</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Rencana-rencana ini tidak lagi tersedia di luar talian.</item>
+        <item quantity="one">Rencana ini tidak lagi tersedia di luar talian.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Rencana-rencana ini kini boleh didapati di luar talian.</item>
+        <item quantity="one">Rencana ini kini boleh didapati di luar talian.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d hari yang lalu</item>
+        <item quantity="one">semalam</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Buang bahasa yang dipilih?</item>
+        <item quantity="one">Buang bahasa yang dipilih?</item>
+    </plurals>
+</resources>

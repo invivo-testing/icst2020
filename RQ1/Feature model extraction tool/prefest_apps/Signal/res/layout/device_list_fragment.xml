@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    </LinearLayout>
+    <TextView android:textSize="20.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/empty" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/device_list_fragment__no_devices_linked" android:layout_weight="1.0" />
+    <ListView android:id="@android:id/list" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+    <com.melnykov.fab.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@id/add_device" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_add_white_original_24dp" android:contentDescription="@string/device_list_fragment__link_new_device" fab:fab_colorNormal="?fab_color" fab:fab_colorPressed="@color/textsecure_primary_dark" fab:fab_colorRipple="@color/textsecure_primary_dark" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.design.widget.CollapsingToolbarLayout android:background="?shared_contact_details_header_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize">
+                <ImageView android:id="@id/contact_details_avatar" android:padding="8.0dip" android:layout_width="125.0dip" android:layout_height="125.0dip" app:layout_collapseMode="parallax" app:layout_collapseParallaxMultiplier="0.7" />
+                <org.thoughtcrime.securesms.components.emoji.EmojiTextView android:textSize="20.0sp" android:gravity="center" android:id="@id/contact_details_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:gravity="center" android:id="@id/contact_details_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" />
+                <Button android:layout_gravity="center" android:id="@id/contact_details_add_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/SharedContactDetailsActivity_add_to_contacts" style="@style/Button.Primary" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:layout_gravity="center" android:id="@id/contact_details_invite_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/SharedContactDetailsActivity_invite_to_signal" style="@style/Button.Borderless" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/contact_details_engage_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?buttonBarStyle">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/contact_details_message_button" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:src="@drawable/message_24dp" android:tint="@color/signal_primary" />
+                            <TextView android:textColor="@color/signal_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SharedContactDetailsActivity_signal_message" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/contact_details_call_button" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:src="@drawable/phone_24dp" android:tint="@color/signal_primary" />
+                            <TextView android:textColor="@color/signal_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SharedContactDetailsActivity_signal_call" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <android.support.v7.widget.Toolbar android:theme="@style/TextSecure.LightActionBar.DarkText" android:id="@id/toolbar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/contact_details_fields" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

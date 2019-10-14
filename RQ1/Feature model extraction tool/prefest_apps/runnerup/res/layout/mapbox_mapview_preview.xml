@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/mapbox_mapview_preview" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@null" />
+    <ImageView android:id="@id/logoView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mapbox_four_dp" android:layout_marginBottom="@dimen/mapbox_four_dp" android:src="@drawable/mapbox_logo_icon" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:contentDescription="@null" />
+    <ImageView android:background="@drawable/mapbox_default_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mapbox_four_dp" android:layout_marginBottom="@dimen/mapbox_four_dp" android:src="@drawable/mapbox_info_bg_selector" android:layout_toRightOf="@id/logoView" android:layout_alignParentBottom="true" android:contentDescription="@null" />
+    <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="10.0dip" android:src="@drawable/mapbox_compass_icon" android:layout_alignParentRight="true" android:contentDescription="@null" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:padding="15.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/DialogMessage" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="15.0dip" n1:text="" />
+        <CheckBox n1:id="@id/DialogRemember" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/RememberMyChoice" />
+    </LinearLayout>
+    <ImageView n1:id="@id/divider" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:src="?android:dividerHorizontal" n1:scaleType="fitXY" n1:contentDescription="@string/ContentDescriptionDivider" />
+    <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="?android:buttonBarStyle">
+        <Button n1:layout_gravity="right" n1:id="@id/DialogNegativeButton" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/No" n1:maxLines="2" n1:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <Button n1:layout_gravity="right" n1:id="@id/DialogPositiveButton" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/Yes" n1:maxLines="2" n1:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

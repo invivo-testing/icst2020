@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Пред %d години</item>
+        <item quantity="one">Лани</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Преземање на статиите</item>
+        <item quantity="one">Преземање на статијата</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">Преостануваат %1$d статии</item>
+        <item quantity="one">Преостанува %1$d статија</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Усогласување на списоците за читање</item>
+        <item quantity="one">Усогласување на списокот за читање</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">Преостануваат %1$d списоци</item>
+        <item quantity="one">Преостанува %1$d список</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Усогласувам %1$d списоци…</item>
+        <item quantity="one">Усогласувам %1$d список…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Се преземаат %1$d статии…</item>
+        <item quantity="one">Се презема %1$d статија…</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">Преостануваат %d минути</item>
+        <item quantity="one">Преостанува една минута</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Статииве повеќе нема да бидат достапни вонмрежно.</item>
+        <item quantity="one">Статијава повеќе нема да биде достапна вонмрежно.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Статииве сега ќе бидат достапни вонмрежно.</item>
+        <item quantity="one">Статијава сега ќе биде достапна вонмрежно.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">пред %d дена</item>
+        <item quantity="one">вчера</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Да ги отстранам избраните јазици?</item>
+        <item quantity="one">Да го отстранам избраниот јазик?</item>
+    </plurals>
+</resources>

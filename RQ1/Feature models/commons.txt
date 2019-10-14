@@ -1,0 +1,7 @@
+allowGps=BooleanPreference
+defaultLicense=ListPreference
+theme=BooleanPreference
+useExternalStorage=BooleanPreference
+sendLogFile=UnsupportedPreference
+becomeBetaTester=UnsupportedPreference
+uploads=EditTextPreference

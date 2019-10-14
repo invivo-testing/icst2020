@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>"&lt;h2>%1$s:&lt;br/>Android için bilgi kartları&lt;/h2>AnkiDroid, masaüstü yazılımı &lt;a href=\"%2$s\">Anki&lt;/a>'yle tamamen uyumlu bir bilgi kartı uygulamasıdır. İster AnkiDroid'de ister Anki Masaüstü'nde materyal oluşturup, indirip ve öğrenip, bunları AnkiWeb'le kolayca senkronize edebilirsiniz."</item>
+        <item>"AnkiDroid'i daha iyi hâle getirmemize yardım etmek için, lütfen bugları &lt;a href=\"%1$s\">sorun takipçisi&lt;/a>ne bildirin; yeni özellik fikirlerinizi de bekliyoruz. &lt;a href=\"%2$s\">Wiki&lt;/a>de sorularınıza cevap arayın veya &lt;a href=\"%3$s\">forum&lt;/a>da bir tartışma açın."</item>
+        <item>AnkiDroid &lt;a href=\"%1$s\">açık kaynaklı bir programdır&lt;a/>, böylece herkes &lt;a href=\"%2$s\"> katılımcı olabilir&lt;/a> :-)</item>
+        <item>"Yazılımcı olmayanlar da yardım edebilir. Örneğin; AnkiDroid'in &lt;a href=\"%1$s\">tercümesine yardım edebilir&lt;/a>, vikiyi güncelleyebilir, ekran görüntüleri sağlayabilir, veya AnkiDroid hakkında bloglayabilirsiniz."</item>
+        <item>"AnkiDroid GNU-GPL v3 &lt;a href=\"%1$s\"> lisansı altında çıkartılmıştır &lt;/a> kaynak kodlarına &lt;a href=\"%2$s\"> GitHub'dan ulaşabilirsiniz&lt;/a>."</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Geçerli desteyi kullan</item>
+        <item>Not türüne göre karar ver</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Yukarıda</item>
+        <item>Aşağıda</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Soru</item>
+        <item>Alanı sırala</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Cevap</item>
+        <item>Kart</item>
+        <item>Deste</item>
+        <item>Not</item>
+        <item>Soru</item>
+        <item>Etiketler</item>
+        <item>Yanlışlar</item>
+        <item>Çalışmalar</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Sıralamadan (daha hızlı)</item>
+        <item>Sıralama alanına göre</item>
+        <item>Oluşturulma zamanına göre</item>
+        <item>Düzenleme zamanına göre</item>
+        <item>Değiştirilme zamanına göre</item>
+        <item>Zamana göre</item>
+        <item>Aralığa göre</item>
+        <item>Kolaylığa göre</item>
+        <item>İncelemelere göre</item>
+        <item>Süresi dolana göre</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Eski çıkanlar ilk önce</item>
+        <item>Rastgele</item>
+        <item>Artan aralıkta</item>
+        <item>Azalan aralıkta</item>
+        <item>En çok yanıltan</item>
+        <item>Ekleniş sırası</item>
+        <item>Çıkma sırası</item>
+        <item>En son eklenenler ilk</item>
+        <item>Görece vadesi geçmişlik</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Açık</item>
+        <item>Düz</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Gün</item>
+        <item>Hafta</item>
+        <item>Ay</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Her zaman bildir</item>
+        <item>Hiçbir zaman bildirme</item>
+        <item>Bana sor</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Eylem yok</item>
+        <item>Cevabı göster</item>
+        <item>1. cevap düğmesi</item>
+        <item>2. cevap düğmesi</item>
+        <item>3. cevap düğmesi</item>
+        <item>4. cevap düğmesi</item>
+        <item>Önerilen cevabı (yeşil) ver</item>
+        <item>Önerilenden daha iyi cevap ver</item>
+        <item>Geri al</item>
+        <item>Notu düzenle</item>
+        <item>Notu işâretle</item>
+        <item>İfadeyi ara</item>
+        <item>Kartı gizle</item>
+        <item>Kartı askıya al</item>
+        <item>Notu sil</item>
+        <item>Medyayı oynat</item>
+        <item>Öğrenmeyi durdur</item>
+        <item>Notu gizle</item>
+        <item>Notu askıya al</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Kartı askıya al</item>
+        <item>Yalnızca etiket</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>Yeni kartlar rastgele sırada</item>
+        <item>Yeni kartlar ekleniş sırasına göre</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Yeni kartları ve çalışmaları karıştır</item>
+        <item>Yeni kartlar çalışmalardan sonra</item>
+        <item>Yeni kartlar çalışmalardan önce</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Siyah</item>
+        <item>Koyu</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>Bilgi kartlarında font belirtilmediği zaman</item>
+        <item>Her zaman</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4:00</item>
+        <item>10:00</item>
+        <item>16:00</item>
+        <item>22:00</item>
+        <item>3:00</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d сообщений в разговоре</item>
+        <item quantity="one">%d сообщение в разговоре</item>
+        <item quantity="few">%d сообщения в разговоре</item>
+        <item quantity="many">%d сообщений в разговоре</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Все разговоры будут обрезаны до %d последних сообщений.</item>
+        <item quantity="one">Все разговоры будут обрезаны до одного последнего сообщения.</item>
+        <item quantity="few">Все разговоры будут обрезаны до %d последних сообщений.</item>
+        <item quantity="many">Все разговоры будут обрезаны до %d последних сообщений.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">Непрочитанных сообщений: %d</item>
+        <item quantity="one">%d непрочитанное сообщение</item>
+        <item quantity="few">Непрочитанных сообщений: %d</item>
+        <item quantity="many">Непрочитанных сообщений: %d</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Удалить сообщения?</item>
+        <item quantity="one">Удалить сообщение?</item>
+        <item quantity="few">Удалить сообщения?</item>
+        <item quantity="many">Удалить сообщения?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Ошибка при сохранении вложений в память!</item>
+        <item quantity="one">Ошибка при сохранении вложения в память!</item>
+        <item quantity="few">Ошибка при сохранении вложений в память!</item>
+        <item quantity="many">Ошибка при сохранении вложений в память!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Сохранение %1$d вложений</item>
+        <item quantity="one">Сохранение вложения</item>
+        <item quantity="few">Сохранение %1$d вложений</item>
+        <item quantity="many">Сохранение %1$d вложений</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Сохраняем %1$d вложений в память устройства...</item>
+        <item quantity="one">Сохраняем вложение в память устройства...</item>
+        <item quantity="few">Сохраняем %1$d вложения в память устройства...</item>
+        <item quantity="many">Сохраняем %1$d вложений в память устройства...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Сохранение этих %1$d медиа-файлов в память устройства позволит любому приложению иметь к ним доступ.
+
+Продолжить?"</item>
+        <item quantity="one">"Сохранение этого медиа-файла в память устройства позволит любому приложению иметь к нему доступ.
+
+Продолжить?"</item>
+        <item quantity="few">"Сохранение этих %1$d медиа-файлов в память устройства позволит любому приложению иметь к ним доступ.
+
+Продолжить?"</item>
+        <item quantity="many">"Сохранение этих %1$d медиа-файлов в память устройства позволит любому приложению иметь к ним доступ.
+
+Продолжить?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">%1$d выбранных сообщений будут навсегда удалены.</item>
+        <item quantity="one">Выбранное сообщение будет навсегда удалено.</item>
+        <item quantity="few">%1$d выбранных сообщения будут навсегда удалены.</item>
+        <item quantity="many">%1$d выбранных сообщений будут навсегда удалены.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d разговоров заархивировано</item>
+        <item quantity="one">Разговор заархивирован</item>
+        <item quantity="few">%d разговора заархивировано</item>
+        <item quantity="many">%d разговоров заархивировано</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Удалить разговоры?</item>
+        <item quantity="one">Удалить разговор?</item>
+        <item quantity="few">Удалить разговоры?</item>
+        <item quantity="many">Удалить разговоры?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d разговоров перемещено во Входящие</item>
+        <item quantity="one">Разговор перемещён во Входящие</item>
+        <item quantity="few">%d разговора перемещено во Входящие</item>
+        <item quantity="many">%d разговоров перемещено во Входящие</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">%1$d выбранных разговоров будут навсегда удалены.</item>
+        <item quantity="one">Выбранный разговор будет навсегда удалён.</item>
+        <item quantity="few">%1$d выбранных разговора будут навсегда удалены.</item>
+        <item quantity="many">%1$d выбранных разговоров будут навсегда удалены.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s присоединились к группе.</item>
+        <item quantity="one">%1$s присоединился к группе.</item>
+        <item quantity="few">%1$s присоединились к группе.</item>
+        <item quantity="many">%1$s присоединились к группе.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Отправить %dСМС-приглашений?</item>
+        <item quantity="one">Отправить %dСМС-приглашение?</item>
+        <item quantity="few">Отправить %dСМС-приглашения?</item>
+        <item quantity="many">Отправить %dСМС-приглашений?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">Отправить СМС %dдрузьям?</item>
+        <item quantity="one">Отправить СМС %d другу</item>
+        <item quantity="few">Отправить СМС %dдрузьям?</item>
+        <item quantity="many">Отправить СМС %dдрузьям?</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Это навсегда удалит все %1$d выбранных сообщений.</item>
+        <item quantity="one">Это навсегда удалит выбранное сообщение.</item>
+        <item quantity="few">Это навсегда удалит все %1$d выбранных сообщения.</item>
+        <item quantity="many">Это навсегда удалит все %1$d выбранных сообщений.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Удалить выбранные сообщения?</item>
+        <item quantity="one">Удалить выбранное сообщение?</item>
+        <item quantity="few">Удалить выбранные сообщения?</item>
+        <item quantity="many">Удалить выбранные сообщения?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Вы в %d шагах от отправки журнала отладки.</item>
+        <item quantity="one">Вы в %d шаге от отправки журнала отладки.</item>
+        <item quantity="few">Вы в %d шагах от отправки журнала отладки.</item>
+        <item quantity="many">Вы в %d шагах от отправки журнала отладки.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d пунктов</item>
+        <item quantity="one">%d пункт</item>
+        <item quantity="few">%d пункта</item>
+        <item quantity="many">%d пунктов</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%dдней</item>
+        <item quantity="one">%dдень</item>
+        <item quantity="few">%dдня</item>
+        <item quantity="many">%dдней</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%dчасов</item>
+        <item quantity="one">%dчас</item>
+        <item quantity="few">%dчаса</item>
+        <item quantity="many">%dчасов</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%dминут</item>
+        <item quantity="one">%dминута</item>
+        <item quantity="few">%dминуты</item>
+        <item quantity="many">%dминут</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%dсекунд</item>
+        <item quantity="one">%dсекунда</item>
+        <item quantity="few">%dсекунд</item>
+        <item quantity="many">%dсекунд</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%dнедель</item>
+        <item quantity="one">%dнеделя</item>
+        <item quantity="few">%dнедели</item>
+        <item quantity="many">%dнедель</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d час.</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d другими</item>
+        <item quantity="one">%d прочий</item>
+        <item quantity="few">%d прочие</item>
+        <item quantity="many">%d прочие</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Ваша версия приложения Signal перестанет работать через %dдней. Нажмите здесь для обновления до последней версии.</item>
+        <item quantity="one">Ваша версия приложения Signal перестанет работать через %dдень. Нажмите здесь для обновления до последней версии.</item>
+        <item quantity="few">Ваша версия приложения Signal перестанет работать через %dдня. Нажмите здесь для обновления до последней версии.</item>
+        <item quantity="many">Ваша версия приложения Signal перестанет работать через %dдней. Нажмите здесь для обновления до последней версии.</item>
+    </plurals>
+</resources>

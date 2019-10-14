@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d üzenet beszélgetésenként</item>
+        <item quantity="one">%d üzenet beszélgetésenként</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Ezzel kitörlöd az összes beszélgetés régi üzeneteit, és csak a(z) %d legfrissebb fog megmaradni beszélgetésenként.</item>
+        <item quantity="one">Ez azonnal csonkolni fogja az összes beszélgetést a legfrissebb üzenetre.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d olvasatlan üzenet</item>
+        <item quantity="one">%d olvasatlan üzenet</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Törlöd a kiválasztott üzeneteket?</item>
+        <item quantity="one">Kiválasztott üzenet törlése?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Hiba történt a mellékletek tárolóra mentése során!</item>
+        <item quantity="one">Hiba történt a melléklet tárolóra mentése közben!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">%1$d db melléklet mentése</item>
+        <item quantity="one">Melléklet mentése</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">%1$d db melléklet mentése a tárolóra...</item>
+        <item quantity="one">Melléklet mentése a tárolóra...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"A(z) %1$d db médiafájl tárolóra mentése más alkalmazások számára is lehetővé teszi, hogy hozzájuk férjenek.
+
+Folytatod?"</item>
+        <item quantity="one">"Ez a média mentése a tárolóra lehetővé teszi bármelyik másik alkalmazásnak a készülékeden, hogy hozzáférjen.
+
+Folytatod?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Ez véglegesen törölni fogja mind a(z) %1$d db kiválasztott üzenetet.</item>
+        <item quantity="one">Ez végelegesen törölni fogja a kiválasztott üzenetet.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d beszélgetés archiválva</item>
+        <item quantity="one">Beszélgetés archiválva</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Törlöd a kiválasztott beszélgetéseket?</item>
+        <item quantity="one">Kiválasztott beszélgetés törlése?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d db beszélgetés áthelyezve a bejövő üzenetek közé</item>
+        <item quantity="one">Beszélgetés áthelyezve a bejövőbe</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Ez a művelet véglegesen törölni fogja a(z) %1$d db kijelölt beszélgetést.</item>
+        <item quantity="one">Ez végelegesen törölni fogja a kiválasztott beszélgetést.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s csatlakozott a csoporthoz.</item>
+        <item quantity="one">%1$s csatlakozott a csoporthoz.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Elküldesz %d db SMS meghívót?</item>
+        <item quantity="one">Elküldesz %d SMS meghívót?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">SMS KÜLDÉSE %d BARÁTNAK</item>
+        <item quantity="one">SMS KÜLDÉSE %d BARÁTNAK</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Ez véglegesen törölni fogja mind a(z) %1$d db kiválasztott üzenetet.</item>
+        <item quantity="one">Ez véglegesen törölni fogja a kiválasztott üzenetet.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Törlöd a kiválasztott üzeneteket?</item>
+        <item quantity="one">Törlöd a kiválasztott üzenetet?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Még %d lépésre vagy a fejlesztői napló elküldésétől.</item>
+        <item quantity="one">Még %d lépésre vagy a fejlesztői napló elküldésétől.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d elem</item>
+        <item quantity="one">1%d Elem</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d nap</item>
+        <item quantity="one">%d nap</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d másodperc</item>
+        <item quantity="one">%d másodperc</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d hét</item>
+        <item quantity="one">%d hét</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d órája</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d további</item>
+        <item quantity="one">%d további</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">A Signal-od verziója %d nap múlva lejár. Koppints ide a legfrissebb verzióra történő frissítéshez.</item>
+        <item quantity="one">A Signal-od verziója %d nap múlva lejár. Érints a legutóbbi verzióra történő frissítéshez.</item>
+    </plurals>
+</resources>

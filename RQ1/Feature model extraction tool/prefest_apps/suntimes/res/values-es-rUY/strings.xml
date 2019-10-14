@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_location_label">Montevideo</string>
+    <string name="default_location_latitude">-34.8198</string>
+    <string name="default_location_longitude">-56.3702</string>
+</resources>

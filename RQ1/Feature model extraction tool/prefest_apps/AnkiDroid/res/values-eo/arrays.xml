@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>fulmokartoj por Androido&lt;/h2>AnkiDroid estas aplikaĵo por lerni per kartoj. Ĝi estas plene kongrua kun skribotabla programo &lt;a href=\"%2$s\">Anki&lt;/a>. Vi povas krei kaj elŝuti lernilojn ambaŭ ĉe komputilo kaj poŝtelefono kaj samtempigi ilin per la servo AnkiWeb.</item>
+        <item>Por helpi al ni igi AnkiDroid pli bona, bonvolu raporti erarojn per la &lt;a href=\"%1$s\">erar-spurilo&lt;/a>, ideoj pri novaj eblaĵoj ankaŭ estas laŭdindaj. En kaze de problemoj, vi trovos solvojn ĉe la &lt;a href=\"%2$s\">vikio&lt;/a> (malesperante) aŭ pridiskutu ilin ĉe la &lt;a href=\"%3$s\">forumo&lt;/a>.</item>
+        <item>AnkiDroid estas &lt;a href=\"%1$s\">malfermkoda programo&lt;a/>, do ĉiu povas &lt;a href=\"%2$s\">al ĝi kontribui&lt;/a> :-)</item>
+        <item>Neprogramistoj ankaŭ povas helpi. Ekzemple vi povas &lt;a href=\"%1$s\">helpi traduki&lt;/a> la aplikaĵon, aktualigi la vikion, aldoni ekranokopiojn aŭ afiŝi sur via ret-taglibro pri AnkiDroid.</item>
+        <item>AnkiDroid estas eldonita laŭ la &lt;a href=\"%1$s\">permesilo GNU-GPL v3&lt;/a> kaj ĝia fontkodo estas disponebla ĉe &lt;a href=\"%2$s\">GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Use current deck</item>
+        <item>Decide by note type</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Supre</item>
+        <item>Sube</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Demando</item>
+        <item>Ordigi laŭ kampo</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Respondo</item>
+        <item>Karto</item>
+        <item>Kartaro</item>
+        <item>Noto</item>
+        <item>Demando</item>
+        <item>Etikedoj</item>
+        <item>Misrespondoj</item>
+        <item>Ripetoj</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>No sorting (faster)</item>
+        <item>By sort field</item>
+        <item>By created time</item>
+        <item>By edited time</item>
+        <item>By changed time</item>
+        <item>By due time</item>
+        <item>By interval</item>
+        <item>By ease</item>
+        <item>By reviews</item>
+        <item>By lapses</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Oldest seen first</item>
+        <item>Random</item>
+        <item>Increasing intervals</item>
+        <item>Decreasing intervals</item>
+        <item>Most lapsed</item>
+        <item>Order added</item>
+        <item>Order due</item>
+        <item>Latest added first</item>
+        <item>Relative overdueness</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Light</item>
+        <item>Plain</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Days</item>
+        <item>Weeks</item>
+        <item>Months</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Always report</item>
+        <item>Never report</item>
+        <item>Ask me</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>No action</item>
+        <item>Show answer</item>
+        <item>Answer button 1</item>
+        <item>Answer button 2</item>
+        <item>Answer button 3</item>
+        <item>Answer button 4</item>
+        <item>Answer recommended (green)</item>
+        <item>Answer better than recommended</item>
+        <item>Undo</item>
+        <item>Edit note</item>
+        <item>Mark note</item>
+        <item>Lookup expression</item>
+        <item>Bury card</item>
+        <item>Suspend card</item>
+        <item>Delete note</item>
+        <item>Play media</item>
+        <item>Abort learning</item>
+        <item>Bury note</item>
+        <item>Suspend note</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Suspend card</item>
+        <item>Tag only</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>New cards in random order</item>
+        <item>New cards in order added</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Mix new cards and reviews</item>
+        <item>New cards after reviews</item>
+        <item>New cards before reviews</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Black</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>When no font specified on flashcards</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4AM</item>
+        <item>10AM</item>
+        <item>4PM</item>
+        <item>10PM</item>
+        <item>3AM</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+</resources>

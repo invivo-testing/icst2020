@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/intro_background" android:background="#ff2196f3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/intro_title" android:paddingTop="@dimen/intro_top_padding" android:paddingBottom="@dimen/intro_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-thin" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/intro_image_community_googleplus" android:padding="@dimen/intro_bottom_padding" android:layout_width="200.0dip" android:layout_height="200.0dip" android:src="@drawable/gplus" />
+        <ImageView android:id="@id/intro_image_community_facebook" android:padding="@dimen/intro_bottom_padding" android:layout_width="200.0dip" android:layout_height="200.0dip" android:src="@drawable/facebook" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/intro_description" android:paddingLeft="64.0dip" android:paddingTop="@dimen/intro_top_padding" android:paddingRight="64.0dip" android:paddingBottom="@dimen/intro_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:layout_width="fill_parent" android:layout_height="64.0dip" />
+</LinearLayout>

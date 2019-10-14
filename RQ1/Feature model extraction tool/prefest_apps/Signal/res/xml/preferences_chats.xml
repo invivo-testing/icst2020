@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_chats__media_auto_download" android:key="media_download">
+        <MultiSelectListPreference android:persistent="true" android:entries="@array/pref_media_download_values" android:title="@string/preferences_chats__when_using_mobile_data" android:key="pref_media_download_mobile" android:defaultValue="@array/pref_media_download_mobile_data_default" android:entryValues="@array/pref_media_download_entries" />
+        <MultiSelectListPreference android:persistent="true" android:entries="@array/pref_media_download_values" android:title="@string/preferences_chats__when_using_wifi" android:key="pref_media_download_wifi" android:defaultValue="@array/pref_media_download_wifi_default" android:entryValues="@array/pref_media_download_entries" />
+        <MultiSelectListPreference android:persistent="true" android:entries="@array/pref_media_download_values" android:title="@string/preferences_chats__when_roaming" android:key="pref_media_download_roaming" android:defaultValue="@array/pref_media_download_roaming_default" android:entryValues="@array/pref_media_download_entries" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_divider" />
+    <PreferenceCategory android:title="@string/preferences_chats__chats">
+        <org.thoughtcrime.securesms.preferences.widgets.SignalListPreference android:entries="@array/pref_message_font_size_entries" android:title="@string/preferences_chats__message_text_size" android:key="pref_message_body_text_size" android:defaultValue="16" android:entryValues="@array/pref_message_font_size_values" />
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat android:title="@string/preferences_chats__show_invitation_prompts" android:key="pref_show_invite_reminder" android:summary="@string/preferences_chats__display_invitation_prompts_for_contacts_without_signal" android:defaultValue="true" />
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat android:title="@string/preferences_advanced__use_system_emoji" android:key="pref_system_emoji" android:summary="@string/preferences_advanced__disable_signal_built_in_emoji_support" android:defaultValue="false" />
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat android:title="@string/preferences__pref_enter_sends_title" android:key="pref_enter_sends" android:summary="@string/preferences__pressing_the_enter_key_will_send_text_messages" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_divider" />
+    <PreferenceCategory android:title="@string/preferences_chats__message_trimming" android:key="message_trimming">
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat android:title="@string/preferences__delete_old_messages" android:key="pref_trim_threads" android:summary="@string/preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/preferences__conversation_length_limit" android:key="pref_trim_length" android:dependency="pref_trim_threads" android:defaultValue="500" android:inputType="number" />
+        <Preference android:title="@string/preferences__trim_all_conversations_now" android:key="pref_trim_now" android:summary="@string/preferences__scan_through_all_conversations_and_enforce_conversation_length_limits" android:dependency="pref_trim_threads" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_divider" />
+    <PreferenceCategory android:title="@string/preferences_chats__backups" android:key="backup_category">
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat android:title="@string/preferences_chats__chat_backups" android:key="pref_backup_enabled" android:summary="@string/preferences_chats__backup_chats_to_external_storage" android:defaultValue="false" />
+        <org.thoughtcrime.securesms.preferences.widgets.ProgressPreference android:persistent="false" android:title="@string/preferences_chats__create_backup" android:key="pref_backup_create" android:dependency="pref_backup_enabled" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <CheckBoxPreference n1:title="@string/PreferenceEnableJavascriptTitle" n1:key="PREFERENCE_ENABLE_JAVASCRIPT" n1:defaultValue="true" n1:summaryOn="@string/PreferenceEnableJavascriptSummaryOn" n1:summaryOff="@string/PreferenceEnableJavascriptSummaryOff"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n2:title="@string/PreferenceEnableImagesTitle" n2:key="PREFERENCE_ENABLE_IMAGES" n2:summary="@string/PreferenceEnableImagesSummary" n2:defaultValue="true"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <ListPreference n3:entries="@array/PreferencePluginsEntries" n3:title="@string/PreferencePluginsTitle" n3:key="PREFERENCE_PLUGINS" n3:summary="@string/PreferencePluginsSummary" n3:defaultValue="ON_DEMAND" n3:entryValues="@array/PreferencePluginsValues"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <org.tint.ui.preferences.UserAgentSpinnerPreference n4:title="@string/PreferenceUserAgentTitle" n4:key="PREFERENCE_USER_AGENT" n4:summary="@string/PreferenceUserAgentSummary" n4:dialogTitle="@string/PreferenceUserAgentDialogTitle" n4:positiveButtonText="@string/OK" n4:negativeButtonText="@string/Cancel"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n5:title="@string/PreferenceLoadPagesWithOverviewTitle" n5:key="PREFERENCE_LOAD_WITH_OVERVIEW" n5:summary="@string/PreferenceLoadPagesWithOverviewSummary" n5:defaultValue="false"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n6:title="@string/PreferenceUseWideViewportTitle" n6:key="PREFERENCE_USE_WIDE_VIEWPORT" n6:summary="@string/PreferenceUseWideViewportSummary" n6:defaultValue="true"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory n7:title="@string/PreferenceDevelopersTitle"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n7:title="@string/PreferenceJsLogOnLocatTitle" n7:key="PREFERENCE_JS_LOG_ON_LOGCAT" n7:summary="@string/PreferenceJsLogOnLocatSummary" n7:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

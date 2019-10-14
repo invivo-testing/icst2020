@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat android:title="@string/pref_memkeys_title" android:key="memkeys" android:summary="@string/pref_memkeys_summary" android:defaultValue="true" />
+    <SwitchPreferenceCompat android:title="@string/pref_conn_persist_title" android:key="connPersist" android:summary="@string/pref_conn_persist_summary" android:defaultValue="true" />
+    <SwitchPreferenceCompat android:title="@string/pref_wifilock_title" android:key="wifilock" android:summary="@string/pref_wifilock_summary" android:defaultValue="true" />
+    <SwitchPreferenceCompat android:title="@string/pref_backupkeys_title" android:key="backupkeys" android:summary="@string/pref_backupkeys_summary" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/pref_emulation_category">
+        <ListPreference android:entries="@array/list_emulation_modes" android:title="@string/pref_emulation_title" android:key="emulation" android:summary="@string/pref_emulation_summary" android:defaultValue="xterm-256color" android:entryValues="@array/list_emulation_modes" />
+        <EditTextPreference android:numeric="integer" android:title="@string/pref_scrollback_title" android:key="scrollback" android:summary="@string/pref_scrollback_summary" android:defaultValue="140" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_ui_category">
+        <ListPreference android:entries="@array/list_rotation" android:title="@string/pref_rotation_title" android:key="rotation" android:summary="@string/pref_rotation_summary" android:defaultValue="Default" android:entryValues="@array/list_rotation_values" />
+        <SwitchPreferenceCompat android:title="@string/pref_titlebarhide_title" android:key="titlebarhide" android:summary="@string/pref_titlebarhide_summary" android:defaultValue="false" />
+        <SwitchPreferenceCompat android:title="@string/pref_fullscreen_title" android:key="fullscreen" android:summary="@string/pref_fullscreen_summary" android:defaultValue="false" />
+        <SwitchPreferenceCompat android:title="@string/pref_pg_updn_gesture_title" android:key="pgupdngesture" android:summary="@string/pref_pg_updn_gesture_summary" android:defaultValue="false" />
+        <SwitchPreferenceCompat android:title="@string/pref_volumefont_title" android:key="volumefont" android:summary="@string/pref_volumefont_summary" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:title="@string/pref_keepalive_title" android:key="keepalive" android:summary="@string/pref_keepalive_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_keyboard_category">
+        <SwitchPreferenceCompat android:title="@string/pref_alwaysvisible_title" android:key="alwaysvisible" android:defaultValue="false" />
+        <SwitchPreferenceCompat android:title="@string/pref_shiftfkeys_title" android:key="shiftfkeys" android:summary="@string/pref_shiftfkeys_summary" android:defaultValue="false" />
+        <SwitchPreferenceCompat android:title="@string/pref_ctrlfkeys_title" android:key="ctrlfkeys" android:summary="@string/pref_ctrlfkeys_summary" android:defaultValue="false" />
+        <ListPreference android:entries="@array/list_stickymodifiers" android:title="@string/pref_stickymodifiers_title" android:key="stickymodifiers" android:summary="@string/pref_stickymodifiers_summary" android:defaultValue="no" android:entryValues="@array/list_stickymodifiers_values" />
+        <ListPreference android:entries="@array/list_keymode" android:title="@string/pref_keymode_title" android:key="keymode" android:summary="@string/pref_keymode_summary" android:defaultValue="none" android:entryValues="@array/list_keymode_values" />
+        <ListPreference android:entries="@array/list_camera" android:title="@string/pref_camera_title" android:key="camera" android:summary="@string/pref_camera_summary" android:defaultValue="Ctrl+A then Space" android:entryValues="@array/list_camera_values" />
+        <SwitchPreferenceCompat android:title="@string/pref_bumpyarrows_title" android:key="bumpyarrows" android:summary="@string/pref_bumpyarrows_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_bell_category">
+        <SwitchPreferenceCompat android:title="@string/pref_bell_title" android:key="bell" android:defaultValue="true" />
+        <org.connectbot.util.VolumePreference android:title="@string/pref_bell_volume_title" android:key="bellVolume" android:dialogLayout="@layout/volume_preference_dialog_layout" />
+        <SwitchPreferenceCompat android:title="@string/pref_bell_vibrate_title" android:key="bellVibrate" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:title="@string/pref_bell_notification_title" android:key="bellNotification" android:summary="@string/pref_bell_notification_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

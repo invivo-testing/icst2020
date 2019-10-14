@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout n1:orientation="vertical" n1:paddingLeft="5.0dip" n1:paddingRight="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/settingsGroup_margin" style="@style/SunsetTimeWidget_dark"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <TextView n1:id="@id/appwidget_timezone_grouptitle" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_timezone" style="@style/SunsetTimeSettingsGroupTitle" />
+        <LinearLayout n1:paddingLeft="16.0dip" n1:paddingRight="16.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <include layout="@layout/layout_settings_timezone0" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

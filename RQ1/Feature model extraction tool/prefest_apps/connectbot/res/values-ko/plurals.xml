@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other">클립 보드에 %1$d 바이트가 복사되었습니다.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:padding="@dimen/widgetActivity_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:id="@id/activity_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/configLabel_title0" style="?android:listSeparatorTextViewStyle" />
+        <TextView n1:textSize="10.0sp" n1:textStyle="bold" n1:id="@id/text_appwidgetid" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dip" n1:layout_alignBottom="@id/activity_title" n1:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout n1:layout_gravity="end" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="8.0dip">
+        <Button n1:layout_gravity="end" n1:id="@id/add_button" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configAction_addWidget" />
+        <Button n1:layout_gravity="end" n1:id="@id/about_button" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configAction_aboutWidget" />
+    </LinearLayout>
+    <ScrollView n1:layout_gravity="center_horizontal" n1:id="@id/scrollView" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_margin="@dimen/widgetActivity_padding_inner">
+        <LinearLayout n1:orientation="vertical" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:background="?settingsCardBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/settingsGroup_margin" style="@style/SunsetTimeWidget_dark">
+                <com.forrestguice.suntimeswidget.LocationConfigView n1:id="@id/appwidget_location_config" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout n1:background="?settingsCardBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/settingsGroup_margin" style="@style/SunsetTimeWidget_dark">
+                <include layout="@layout/layout_settings_general" />
+            </LinearLayout>
+            <LinearLayout n1:background="?settingsCardBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/settingsGroup_margin" style="@style/SunsetTimeWidget_dark">
+                <include layout="@layout/layout_settings_timezone" />
+            </LinearLayout>
+            <LinearLayout n1:background="?settingsCardBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/settingsGroup_margin" style="@style/SunsetTimeWidget_dark">
+                <include layout="@layout/layout_settings_appearance" />
+            </LinearLayout>
+            <LinearLayout n1:background="?settingsCardBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/settingsGroup_margin" style="@style/SunsetTimeWidget_dark">
+                <include layout="@layout/layout_settings_action" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

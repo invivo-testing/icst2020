@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n1:title="@string/configLabel_locale"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <com.forrestguice.suntimeswidget.settings.ListPreference n1:entries="@array/localeMode_display" n1:title="@string/configLabel_localeMode" n1:key="app_locale_mode" n1:summary="@string/configLabel_localeMode_summary" n1:defaultValue="@string/def_app_locale_mode" n1:dialogTitle="@string/configLabel_localeMode" n1:entryValues="@array/localeMode_values" />
+        <com.forrestguice.suntimeswidget.settings.ListPreference n1:entries="@array/locale_display" n1:title="@string/configLabel_localeSelect" n1:key="app_locale" n1:summary="@string/configLabel_localeSelect_summary" n1:defaultValue="@string/def_app_locale" n1:dialogTitle="@string/configLabel_localeSelect" n1:entryValues="@array/locale_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

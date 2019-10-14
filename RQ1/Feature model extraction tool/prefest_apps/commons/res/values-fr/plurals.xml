@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d fichiers en cours de téléversement</item>
+        <item quantity="one">%1$d fichier en cours de téléversement</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d téléversements</item>
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">%1$d téléversement</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d téléversements</item>
+        <item quantity="one">%1$d téléversement</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">%1$d téléversements démarrés</item>
+        <item quantity="one">%1$d téléversement démarré</item>
+    </plurals>
+</resources>

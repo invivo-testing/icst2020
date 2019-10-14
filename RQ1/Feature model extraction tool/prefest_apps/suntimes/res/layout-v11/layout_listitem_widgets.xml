@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/itemLayout" n1:background="?selectableItemBackground" n1:padding="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/icon_layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="8.0dip" n1:layout_alignParentLeft="true">
+        <ImageView n1:id="@android:id/icon1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/ic_suntimes" n1:minWidth="48.0dip" />
+        <TextView n1:textSize="10.0sp" n1:textStyle="bold" n1:id="@id/text3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxEms="3" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/icon_layout" n1:layout_centerVertical="true">
+        <TextView n1:textAppearance="?android:textAppearanceSmallPopupMenu" n1:textStyle="bold" n1:id="@android:id/text1" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" style="?android:dropDownItemStyle" />
+        <TextView n1:textAppearance="?android:textAppearanceSmallPopupMenu" n1:id="@android:id/text2" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" style="?android:dropDownItemStyle" />
+    </LinearLayout>
+</RelativeLayout>

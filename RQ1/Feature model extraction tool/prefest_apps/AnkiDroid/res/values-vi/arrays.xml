@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>Thẻ ghi nhớ cho Android&lt;/h2>AnkiDroid là ứng dụng thẻ ghi nhớ hoàn toàn tương thích với phần mềm cho máy bàn &lt;a href=\"%2$s\">Anki&lt;/a>. Bạn có thể tạo, tải xuống và học các tài liệu trên cả AnkiDroid hoặc Anki cho máy bàn và dễ dàng đồng bộ chúng với AnkiWeb.</item>
+        <item>Để giúp chúng tôi hoàn thiện AnkiDroid, xin báo cáo lỗi đến &lt;a href=\"%1$s\">trình theo dõi lỗi&lt;/a>; các ý tưởng tính năng mới đều được hoan nghênh. Hãy tìm câu trả lời trên &lt;a href=\"%2$s\">wiki&lt;/a> hoặc mở đầu cuộc thảo luận trên &lt;a href=\"%3$s\">diễn đàn&lt;/a>.</item>
+        <item>AnkiDroid là &lt;a href=\"%1$s\">phần mềm nguồn mở&lt;a/>, do đó mọi người đều được khuyến khích &lt;a href=\"%2$s\">trở thành người cộng tác&lt;/a> :-)</item>
+        <item>Non-developers can also help. For instance, you can &lt;a href=\"%1$s\">help translate&lt;/a> AnkiDroid, update the wiki, provide screenshots, or blog about AnkiDroid.</item>
+        <item>AnkiDroid được phát hành theo &lt;a href=\"%1$s\">Giấy phép GNU-GPL v3&lt;/a> và mã nguồn có &lt;a href=\"%2$s\">trên GitHub&lt;/a>.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>Sử dụng xấp thẻ hiện tại</item>
+        <item>Quyết định theo kiểu ghi chú</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Top</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>Câu hỏi</item>
+        <item>Sắp xếp trường</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>Đáp án</item>
+        <item>Thẻ</item>
+        <item>Bộ thẻ</item>
+        <item>Ghi chú</item>
+        <item>Câu hỏi</item>
+        <item>Các đuôi</item>
+        <item>Lần sai</item>
+        <item>Lần ôn tập</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>Không phân loại (nhanh hơn)</item>
+        <item>By sort field</item>
+        <item>Bằng thời gian tạo ra</item>
+        <item>Bởi thời gian chỉnh sửa</item>
+        <item>Thay đổi thời gian</item>
+        <item>Bởi thời gian</item>
+        <item>Bởi khoảng thời gian</item>
+        <item>Bởi dễ dàng</item>
+        <item>Bởi ôn tập</item>
+        <item>Bởi nhầm lẫn/sai sót</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>Oldest seen first</item>
+        <item>Ngẫu nhiên</item>
+        <item>Increasing intervals</item>
+        <item>Decreasing intervals</item>
+        <item>Most lapsed</item>
+        <item>Order added</item>
+        <item>Order due</item>
+        <item>Latest added first</item>
+        <item>Relative overdueness</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>Light</item>
+        <item>Plain</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>Ngày</item>
+        <item>Tuần</item>
+        <item>Tháng</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>Luôn thông báo lỗi</item>
+        <item>Không bao giờ thông báo lỗi</item>
+        <item>Hỏi tôi</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>Không làm gì</item>
+        <item>Cho xem đáp án</item>
+        <item>Answer button 1</item>
+        <item>Answer button 2</item>
+        <item>Answer button 3</item>
+        <item>Answer button 4</item>
+        <item>Answer recommended (green)</item>
+        <item>Answer better than recommended</item>
+        <item>Phục hồi</item>
+        <item>Sửa ghi chú</item>
+        <item>Đánh dấu ghi chú</item>
+        <item>Biểu thức tra cứu</item>
+        <item>Tạm dừng thẻ</item>
+        <item>Tạm ngưng thẻ</item>
+        <item>Xoá ghi chú</item>
+        <item>Play media</item>
+        <item>Abort learning</item>
+        <item>Ẩn ghi chú</item>
+        <item>Tạm dừng ghi chú</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>Tạm dừng thẻ</item>
+        <item>Chỉ có thẻ</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>New cards in random order</item>
+        <item>New cards in order added</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>Trộn thẻ mới và đánh giá</item>
+        <item>Thẻ mới sau khi đánh giá</item>
+        <item>Thẻ mới trước khi đánh giá</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>Black</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>When no font specified on flashcards</item>
+        <item>Luôn cho phép</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4g SA</item>
+        <item>10g SA</item>
+        <item>4g CH</item>
+        <item>10g T</item>
+        <item>3g SA</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>CN</item>
+        <item>T2</item>
+        <item>T3</item>
+        <item>T4</item>
+        <item>T5</item>
+        <item>T6</item>
+        <item>T7</item>
+    </string-array>
+</resources>

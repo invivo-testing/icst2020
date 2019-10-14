@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ch.blinkenlights.android.vanilla.DraggableRow android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/pmark" android:background="?now_playing_marker" android:visibility="gone" android:layout_width="@dimen/pmark_size" android:layout_height="@dimen/row_normal_height" />
+    <ch.blinkenlights.android.vanilla.LazyCoverView android:layout_gravity="center_vertical" android:id="@id/cover" android:visibility="gone" android:layout_width="@dimen/cover_size" android:layout_height="@dimen/cover_size" android:layout_marginLeft="@dimen/cover_padding_with_pmark" android:scaleType="centerCrop" />
+    <TextView android:textColor="?android:textColorPrimary" android:gravity="center|left" android:id="@id/text" android:layout_width="0.0px" android:layout_height="@dimen/row_normal_height" android:layout_marginLeft="@dimen/text_padding" android:maxLines="2" android:layout_weight="1.0" />
+    <TextView android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:id="@id/duration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/text_padding" />
+    <CheckedTextView android:gravity="center_vertical" android:id="@id/checkbox" android:visibility="gone" android:layout_width="@dimen/row_normal_height" android:layout_height="fill_parent" android:checkMark="?android:listChoiceIndicatorMultiple" />
+    <View android:id="@id/dragger_padder" android:visibility="gone" android:layout_width="@dimen/text_padding" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/dragger" android:visibility="gone" android:layout_width="@dimen/row_normal_height" android:layout_height="@dimen/row_normal_height" android:src="@drawable/grabber" android:scaleType="center" />
+</ch.blinkenlights.android.vanilla.DraggableRow>

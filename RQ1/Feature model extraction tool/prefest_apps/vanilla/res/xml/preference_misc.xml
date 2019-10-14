@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vanilla="http://schemas.android.com/apk/res-auto">
+    <CheckBoxPreference android:title="@string/disable_lockscreen_title" android:key="disable_lockscreen" android:summary="@string/disable_lockscreen_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/keep_screen_on_title" android:key="keep_screen_on" android:summary="@string/keep_screen_on_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/use_idle_timeout_title" android:key="use_idle_timeout" android:summary="@string/use_idle_timeout_summary" android:defaultValue="false" />
+    <ch.blinkenlights.android.vanilla.IdlePreference android:title="@string/idle_timeout_title" android:key="idle_timeout" android:dependency="use_idle_timeout" android:dialogLayout="@layout/seekbar_pref" />
+    <CheckBoxPreference android:title="@string/double_tap_title" android:key="double_tap" android:summary="@string/double_tap_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/scrobble_title" android:key="scrobble" android:summary="@string/scrobble_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/stock_broadcast_title" android:key="stock_broadcast" android:summary="@string/stock_broadcast_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/readahead" android:key="enable_readahead" android:summary="@string/readahead_summary" android:defaultValue="false" />
+</PreferenceScreen>

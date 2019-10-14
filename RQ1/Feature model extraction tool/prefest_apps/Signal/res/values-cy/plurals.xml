@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d munud</item>
+        <item quantity="one">%d munud</item>
+        <item quantity="two">%d munud</item>
+        <item quantity="many">%d munud</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d neges i bob sgwrs</item>
+        <item quantity="one">%d neges i bob sgwrs</item>
+        <item quantity="two">%d neges i bob sgwrs</item>
+        <item quantity="many">%d neges i bob sgwrs</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">"Bydd hyn yn tocio pob sgwrs i'r %d neges ddiweddaraf."</item>
+        <item quantity="one">"Bydd hyn yn tocio pob sgwrs i'r neges ddiweddaraf."</item>
+        <item quantity="two">"Bydd hyn yn tocio pob sgwrs i'r %d neges ddiweddaraf."</item>
+        <item quantity="many">"Bydd hyn yn tocio pob sgwrs i'r %d neges ddiweddaraf."</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d neges heb eu darllen</item>
+        <item quantity="one">%d neges heb ei ddarllen</item>
+        <item quantity="two">%d neges heb eu darllen</item>
+        <item quantity="many">%d neges heb eu darllen</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">"Dileu'r negeseuon hyn?"</item>
+        <item quantity="one">"Dileu'r negeseuon hyn?"</item>
+        <item quantity="two">"Dileu'r negeseuon hyn?"</item>
+        <item quantity="many">"Dileu'r negeseuon hyn?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">"Gwall wrth gadw atodiadau i'r storio!"</item>
+        <item quantity="one">"Gwall wrth gadw atodiad i'r storio!"</item>
+        <item quantity="two">"Gwall wrth gadw atodiadau i'r storio!"</item>
+        <item quantity="many">"Gwall wrth gadw atodiadau i'r storio!"</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Cadw %1$d atodiad</item>
+        <item quantity="one">Cadw atodiad</item>
+        <item quantity="two">Cadw %1$d atodiad</item>
+        <item quantity="many">Cadw %1$d atodiad</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">"Cadw %1$d atodiad i'r storfa"</item>
+        <item quantity="one">"Cadw atodiad i'r storfa..."</item>
+        <item quantity="two">"Cadw %1$d atodiad i'r storfa"</item>
+        <item quantity="many">"Cadw %1$d atodiad i'r storfa"</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Bydd cadw'r holl gyfryngau %1$d i'r storfa yn caniatáu i apiau eraill ar eich dyfais gael mynediad iddynt.
+Parhau?"</item>
+        <item quantity="one">"Bydd cadw'r cyfryngau hyn i'r storfa yn caniatáu i apiau eraill ar eich dyfais gael mynediad iddynt.
+Parhau?"</item>
+        <item quantity="two">"Bydd cadw'r holl gyfryngau %1$d i'r storfa yn caniatáu i unrhyw apiau eraill ar eich dyfais gael mynediad iddynt.
+Parhau?"</item>
+        <item quantity="many">"Bydd cadw'r holl gyfryngau %1$d i'r storfa yn caniatáu i apiau eraill ar eich dyfais gael mynediad iddynt.
+Parhau?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">"Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi'u dewis."</item>
+        <item quantity="one">"Bydd hyn yn dileu yn barhaol y sgwrs sydd wedi'i dewis."</item>
+        <item quantity="two">"Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi'u dewis."</item>
+        <item quantity="many">"Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi'u dewis."</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">"% d sgwrs wedi'u harchifo"</item>
+        <item quantity="one">"Sgwrs wedi'i archifo"</item>
+        <item quantity="two">"% d sgwrs wedi'u harchifo"</item>
+        <item quantity="many">"% d sgwrs wedi'u harchifo"</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">"Dileu'r sgyrsiau hyn?"</item>
+        <item quantity="one">"Dileu'r sgyrsiau hyn?"</item>
+        <item quantity="two">"Dileu'r sgyrsiau hyn?"</item>
+        <item quantity="many">"Dileu'r sgyrsiau hyn?"</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">"Symudwyd %d sgwrs i'r blwch derbyn"</item>
+        <item quantity="one">"Symudwyd sgwrs i'r blwch derbyn"</item>
+        <item quantity="two">"Symudwyd %d sgwrs i'r blwch derbyn"</item>
+        <item quantity="many">"Symudwyd %d sgwrs i'r blwch derbyn"</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">"Bydd hyn yn dileu yn barhaol y %1$d sgwrs sydd wedi'u dewis."</item>
+        <item quantity="one">"Bydd hyn yn dileu yn barhaol y sgwrs sydd wedi'i dewis."</item>
+        <item quantity="two">"Bydd hyn yn dileu yn barhaol y %1$d sgwrs sydd wedi'u dewis."</item>
+        <item quantity="many">"Bydd hyn yn dileu yn barhaol y %1$d sgwrs sydd wedi'u dewis."</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">"Ymunodd %1$s â'r grŵp."</item>
+        <item quantity="one">"Ymunodd %1$s â'r grŵp."</item>
+        <item quantity="two">"Ymunodd %1$s â'r grŵp."</item>
+        <item quantity="many">"Ymunodd %1$s â'r grŵp."</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Anfon %d gwahoddiad SMS</item>
+        <item quantity="one">Anfon %d gwahoddiad SMS</item>
+        <item quantity="two">Anfon %d gwahoddiad SMS</item>
+        <item quantity="many">Anfon %d gwahoddiad SMS</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">ANFON SMS AT %d FFRIND</item>
+        <item quantity="one">ANFON SMS AT %d FFRIND</item>
+        <item quantity="two">ANFON SMS AT %d FFRIND</item>
+        <item quantity="many">ANFON SMS AT %d FFRIND</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">"Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi'u dewis."</item>
+        <item quantity="one">"Bydd hyn yn dileu yn barhaol y sgwrs sydd wedi'i dewis."</item>
+        <item quantity="two">"Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi'u dewis."</item>
+        <item quantity="many">"Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi'u dewis."</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">"Dileu'r negeseuon hyn?"</item>
+        <item quantity="one">"Dileu'r negeseuon hyn?"</item>
+        <item quantity="two">"Dileu'r negeseuon hyn?"</item>
+        <item quantity="many">"Dileu'r negeseuon hyn?"</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Rydych chi nawr %dcam cyn cyflwyno cofnod dadfygio.</item>
+        <item quantity="one">Rydych chi nawr %d cam cyn cyflwyno cofnod dadfygio.</item>
+        <item quantity="two">Rydych chi nawr %d gam cyn cyflwyno cofnod dadfygio.</item>
+        <item quantity="many">Rydych chi nawr %dcam cyn cyflwyno cofnod dadfygio.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d Eitem</item>
+        <item quantity="one">%d Eitem</item>
+        <item quantity="two">%d Eitem</item>
+        <item quantity="many">%d Eitem</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d diwrnod</item>
+        <item quantity="one">%d diwrnod</item>
+        <item quantity="two">%d diwrnod</item>
+        <item quantity="many">%d diwrnod</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d awr</item>
+        <item quantity="one">%d awr</item>
+        <item quantity="two">%d awr</item>
+        <item quantity="many">%d awr</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d munud</item>
+        <item quantity="one">%d munud</item>
+        <item quantity="two">%d munud</item>
+        <item quantity="many">%d munud</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d eiliad</item>
+        <item quantity="one">%d eiliad</item>
+        <item quantity="two">%d eiliad</item>
+        <item quantity="many">%d eiliad</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d wythnos</item>
+        <item quantity="one">%d wythnos</item>
+        <item quantity="two">%d wythnos</item>
+        <item quantity="many">%d wythnos</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d awr</item>
+        <item quantity="one">%d awr</item>
+        <item quantity="two">%d awr</item>
+        <item quantity="many">%d awr</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d arall</item>
+        <item quantity="one">%d arall</item>
+        <item quantity="two">%d arall</item>
+        <item quantity="many">%d arall</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">"Bydd eich fersiwn o Signal yn dod i ben ymhen %d diwrnod. Tapiwch i ddiweddaru i'r fersiwn ddiweddaraf."</item>
+        <item quantity="one">"Bydd eich fersiwn o Signal yn dod i ben ymhen %d diwrnod. Tapiwch i ddiweddaru i'r fersiwn ddiweddaraf."</item>
+        <item quantity="two">"Bydd eich fersiwn o Signal yn dod i ben ymhen %d diwrnod. Tapiwch i ddiweddaru i'r fersiwn ddiweddaraf."</item>
+        <item quantity="many">"Bydd eich fersiwn o Signal yn dod i ben ymhen %d diwrnod. Tapiwch i ddiweddaru i'r fersiwn ddiweddaraf."</item>
+    </plurals>
+</resources>

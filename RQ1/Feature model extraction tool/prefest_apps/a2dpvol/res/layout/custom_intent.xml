@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="22.0dip" n1:textColor="#ffffffff" n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Action:" n1:width="100.0dip" />
+        <EditText n1:id="@id/ci_et_action" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <View n1:background="@android:drawable/divider_horizontal_dark" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="22.0dip" n1:textColor="#ffffffff" n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Data:" n1:width="100.0dip" />
+        <EditText n1:id="@id/ci_et_data" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <View n1:background="@android:drawable/divider_horizontal_dark" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="22.0dip" n1:textColor="#ffffffff" n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Type:" n1:width="100.0dip" />
+        <EditText n1:id="@id/ci_et_type" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <View n1:background="@android:drawable/divider_horizontal_dark" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:background="#ffcccccc" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <Button n1:id="@id/ci_btn_ok" n1:layout_width="100.0dip" n1:layout_height="wrap_content" n1:layout_margin="5.0dip" n1:text="@string/OK" />
+        <Button n1:id="@id/ci_btn_test" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="5.0dip" n1:text="Test" />
+        <Button n1:id="@id/ci_btn_cancel" n1:layout_width="100.0dip" n1:layout_height="wrap_content" n1:layout_margin="5.0dip" n1:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>

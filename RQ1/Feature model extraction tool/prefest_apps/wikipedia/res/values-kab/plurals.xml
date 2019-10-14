@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d n iseggasen aya</item>
+        <item quantity="one">Ilindi</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">%d n tsd i d-iqqimen</item>
+        <item quantity="one">1 n tsd i d-iqqimen</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Imagraden-agi ur zgin llan s war tuqqna.</item>
+        <item quantity="one">Amagrad -agi ur yezgi yella s war tuqqna.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Imagraden-agi llan s war tuqqna.</item>
+        <item quantity="one">Amagrad-agi yella s war tuqqna.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d n wussan aya</item>
+        <item quantity="one">Iḍelli</item>
+    </plurals>
+</resources>

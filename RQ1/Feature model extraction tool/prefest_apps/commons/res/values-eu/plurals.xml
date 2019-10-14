@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d igoera</item>
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">igoera 1</item>
+    </plurals>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">Завантажується %1$d файлів</item>
+        <item quantity="one">Завантажується %1$d файл</item>
+        <item quantity="few">Завантажуються %1$d файли</item>
+        <item quantity="many">Завантажується %1$d файлів</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="other">%1$d завантажень</item>
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">%1$d завантаження</item>
+        <item quantity="few">%1$d завантаження</item>
+        <item quantity="many">%1$d завантажень</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">%1$d завантажень</item>
+        <item quantity="one">%1$d завантаження</item>
+        <item quantity="few">%1$d завантаження</item>
+        <item quantity="many">%1$d завантажень</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">Починаються %1$d завантажень</item>
+        <item quantity="one">Починається %1$d завантаження</item>
+        <item quantity="few">Починаються %1$d завантаження</item>
+        <item quantity="many">Починаються %1$d завантажень</item>
+    </plurals>
+</resources>

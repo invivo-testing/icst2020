@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ichi2.anki.FieldEditText android:id="@id/id_note_editText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="8.0dip" android:layout_toLeftOf="@id/id_media_button" android:layout_alignTop="@id/id_media_button" android:layout_alignParentLeft="true" />
+    <ImageButton android:gravity="center|right" android:id="@id/id_media_button" android:background="?attachFileImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+</RelativeLayout>

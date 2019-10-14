@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/mmx_list_item_padding_side" android:paddingRight="@dimen/mmx_list_item_padding_side" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_list_item_height_dense" android:layout_margin="@dimen/mmx_margin" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.money.manager.ex.view.RobotoTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/symbolTextView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mmx_margin" android:layout_marginRight="@dimen/mmx_margin" android:layout_weight="1.0">
+        <com.money.manager.ex.view.RobotoTextView android:ellipsize="end" android:id="@id/nameTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="end|center" android:layout_gravity="end" android:id="@id/priceTextView" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

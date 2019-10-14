@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">%d kart wyświetlanych</item>
+        <item quantity="one">%d karta wyświetlana</item>
+        <item quantity="few">%d kart wyświetlanych</item>
+        <item quantity="many">%d cards shown</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">Czy usunąć typ kart “%2$s” oraz jego %1$d karty?</item>
+        <item quantity="one">Czy usunąć typ kart “%2$s” oraz jego %1$d kartę?</item>
+        <item quantity="few">Czy usunąć typ kart “%2$s” oraz jego %1$d kart?</item>
+        <item quantity="many">Delete the “%2$s” card type, and its %1$d cards?</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"Tej grupy używają %1$s
+%2$d talie"</item>
+        <item quantity="one">"Tej grupy używa %1$s
+%2$d talia"</item>
+        <item quantity="few">"Tej grupy używa(ją) %1$s
+%2$d talia(e)"</item>
+        <item quantity="many">"%1$s
+%2$d decks use this group"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">Tej grupy używają Sub-talie %s</item>
+        <item quantity="one">Tej grupy używa Sub-talia %s</item>
+        <item quantity="few">Tej grupy używa(ją) Sub-talia(e) %s</item>
+        <item quantity="many">%s subdecks will use this group</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">Oczekuje %1$d kart (%2$s)</item>
+        <item quantity="one">Oczekuje %1$d karta (%2$s)</item>
+        <item quantity="few">Oczekują %1$d karty (%2$s)</item>
+        <item quantity="many">%1$d cards due (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">Usunąć wszystkie karty z %1$s? Jest tam %2$d kart.</item>
+        <item quantity="one">Usunąć wszystkie karty z %1$s? Jest tam %2$d karta.</item>
+        <item quantity="few">Usunąć wszystkie karty z %1$s? Jest tam %2$d kart.</item>
+        <item quantity="many">Delete all cards in %1$s? It contains %2$d cards.</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">dodanych %d kart</item>
+        <item quantity="one">%d karta dodana</item>
+        <item quantity="few">dodanych %d kart</item>
+        <item quantity="many">%d cards added</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d notatki</item>
+        <item quantity="one">%d notatka</item>
+        <item quantity="few">%d notatki</item>
+        <item quantity="many">%d notes</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">%d typów notatek dostępnych</item>
+        <item quantity="one">%d typ notatki dostępny</item>
+        <item quantity="few">%d typów notatek dostępnych</item>
+        <item quantity="many">%d note types available</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d nowych kart do przeglądnięcia w %1$s</item>
+        <item quantity="one">%2$d nowa karta do przeglądnięcia w %1$s</item>
+        <item quantity="few">%2$d nowe karty do przeglądnięcia w %1$s</item>
+        <item quantity="many">%2$d new cards to review in %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">Zostało %d minut</item>
+        <item quantity="one">Została %d minuta</item>
+        <item quantity="few">Zostały %d minuty</item>
+        <item quantity="many">%d minutes left</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">Dziś przerobiono &lt;b>%1$d kart&lt;/b> w &lt;b>%2$s&lt;/b></item>
+        <item quantity="one">Dziś przerobiono &lt;b>%1$d kartę&lt;/b> w &lt;b>%2$s&lt;/b></item>
+        <item quantity="few">Dziś przerobiono &lt;b>%1$d kart&lt;/b> w &lt;b>%2$s&lt;/b></item>
+        <item quantity="many">Studied &lt;b>%1$d cards&lt;/b> in &lt;b>%2$s&lt;/b> today</item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">Przejrzano dziś %1$d karty w %2$s</item>
+        <item quantity="one">Przejrzano dziś %1$d kartę w %2$s</item>
+        <item quantity="few">Przejrzano dziś %1$d kartę w %2$s</item>
+        <item quantity="many">Studied %1$d cards in %2$s today</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s dni</item>
+        <item quantity="one">%s dzień</item>
+        <item quantity="few">%s dni</item>
+        <item quantity="many">%s days</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s godzin</item>
+        <item quantity="one">%s godzina</item>
+        <item quantity="few">%s godzin</item>
+        <item quantity="many">%s hours</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s minut</item>
+        <item quantity="one">%s minut</item>
+        <item quantity="few">%s minut</item>
+        <item quantity="many">%s minutes</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s miesięcy</item>
+        <item quantity="one">%s miesiąc</item>
+        <item quantity="few">%s miesięcy</item>
+        <item quantity="many">%s months</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s sekund</item>
+        <item quantity="one">%s sekunda</item>
+        <item quantity="few">%s sekund</item>
+        <item quantity="many">%s seconds</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s lat</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s lat</item>
+        <item quantity="many">%s years</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d kart przerobione w %2$s</item>
+        <item quantity="one">%1$d karta przerobiona w %2$s</item>
+        <item quantity="few">%1$d kart przerobione w %2$s</item>
+        <item quantity="many">%1$d cards studied in %2$s</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d minut</item>
+        <item quantity="one">%1$d minutę</item>
+        <item quantity="few">%1$d minut</item>
+        <item quantity="many">%1$d minutes</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">%d kart do przejrzenia</item>
+        <item quantity="one">%d karta do przejrzenia</item>
+        <item quantity="few">%d karty do przejrzenia</item>
+        <item quantity="many">%d cards due</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">%1$d kart do przejrzenia w %2$s</item>
+        <item quantity="one">%1$d karta do przejrzenia w %2$s</item>
+        <item quantity="few">%1$d kart do przejrzenia w %2$s</item>
+        <item quantity="many">%1$d cards due in %2$s</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d talie</item>
+        <item quantity="one">%1$d talia</item>
+        <item quantity="few">%1$d talie</item>
+        <item quantity="many">%1$d decks</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">Pozostało %d minut</item>
+        <item quantity="one">Pozostała %d minuta</item>
+        <item quantity="few">Pozostały %d minuty</item>
+        <item quantity="many">%d minutes remaining</item>
+    </plurals>
+</resources>

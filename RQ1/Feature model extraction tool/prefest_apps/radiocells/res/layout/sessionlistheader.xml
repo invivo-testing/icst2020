@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:id="@id/LinearLayout1" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:gravity="center" n1:layout_gravity="top" n1:padding="2.0dip" n1:layout_width="30.0dip" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dip" n1:text="@string/id" />
+    <TextView n1:gravity="center" n1:layout_gravity="top" n1:padding="2.0dip" n1:layout_width="150.0dip" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dip" n1:text="@string/date" />
+    <ImageView n1:layout_gravity="center|right|top" n1:layout_width="40.0dip" n1:layout_height="wrap_content" n1:src="@drawable/ic_menu_wifi" />
+    <ImageView n1:layout_gravity="center|top" n1:layout_width="40.0dip" n1:layout_height="wrap_content" n1:layout_marginTop="3.0dip" n1:src="@drawable/ic_menu_cell" />
+    <TextView n1:gravity="center" n1:padding="3.0dip" n1:layout_width="60.0dip" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dip" n1:text="@string/waypoint" />
+    <ImageView n1:layout_gravity="right" n1:paddingLeft="3.0dip" n1:paddingRight="3.0dip" n1:layout_width="30.0dip" n1:layout_height="fill_parent" n1:layout_marginRight="3.0dip" n1:src="@android:drawable/ic_secure" />
+    <ImageView n1:layout_gravity="right" n1:id="@id/sessionlistfragment_statusicon" n1:paddingLeft="3.0dip" n1:paddingRight="3.0dip" n1:layout_width="30.0dip" n1:layout_height="fill_parent" n1:layout_marginRight="3.0dip" />
+</LinearLayout>

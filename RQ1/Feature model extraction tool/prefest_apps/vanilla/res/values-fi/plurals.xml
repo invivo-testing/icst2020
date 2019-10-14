@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%1$d kappaletta lisätty soittolistaan %2$s.</item>
+        <item quantity="one">%1$d kappale lisätty soittolistaan %2$s.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">%d kappaletta poistettu.</item>
+        <item quantity="one">%d kappale poistettu.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">%d kappaletta jonossa.</item>
+        <item quantity="one">%d kappale jonossa.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutti</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">%d kappaletta toistossa.</item>
+        <item quantity="one">%d kappale toistossa.</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">%1$d kappaletta poistettu soittolistalta %2$s.</item>
+        <item quantity="one">%1$d kappale poistettu soittolistalta %2$s.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunti</item>
+    </plurals>
+</resources>

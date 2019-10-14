@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center" android:id="@id/previousDayButton" android:background="?selectableItemBackground" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="fill_parent" app:iiv_color="?android:textColorPrimary" app:iiv_icon="gmd-keyboard-arrow-left" app:iiv_size="@dimen/mmx_icon_size" />
+    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/textViewDate" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/date" android:layout_weight="1.0" style="@style/Money.TextView.Widget.EditText" />
+    <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center" android:id="@id/nextDayButton" android:background="?selectableItemBackground" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="fill_parent" app:iiv_color="?android:textColorPrimary" app:iiv_icon="gmd-keyboard-arrow-right" app:iiv_size="@dimen/mmx_icon_size" />
+</LinearLayout>

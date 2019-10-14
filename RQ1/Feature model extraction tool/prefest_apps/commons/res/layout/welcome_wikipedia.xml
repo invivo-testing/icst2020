@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:background="#ff0c609c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="#ff0c609c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_wikipedia" android:adjustViewBounds="true" android:contentDescription="@string/welcome_image_welcome_wikipedia" />
+        <TextView android:textSize="@dimen/normal_text" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center" android:paddingTop="@dimen/standard_gap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:text="@string/tutorial_1_text" />
+        <TextView android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center" android:paddingTop="@dimen/standard_gap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:text="@string/tutorial_1_subtext" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/normal_text" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="right" android:id="@id/welcomeYesButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/overflow_button_dimen" android:layout_marginTop="@dimen/standard_gap" android:layout_marginRight="@dimen/standard_gap" android:text="@string/welcome_skip_button" android:layout_alignParentRight="true" />
+</RelativeLayout>

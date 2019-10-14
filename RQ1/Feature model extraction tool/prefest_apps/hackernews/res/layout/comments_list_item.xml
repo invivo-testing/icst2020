@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" style="?commentListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/color_code" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/comments_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" style="?commentListItem">
+            <LinearLayout android:id="@id/comment_details" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <ImageView android:layout_gravity="center_vertical" android:background="?commentProfileIcon" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+                <com.devspark.robototextview.widget.RobotoTextView android:textColor="?textColor" android:layout_gravity="center_vertical" android:id="@id/comment_submitter" android:layout_width="wrap_content" android:layout_height="wrap_content" app:typeface="roboto_light" />
+                <com.devspark.robototextview.widget.RobotoTextView android:textColor="?textColor" android:layout_gravity="center_vertical" android:id="@id/comment_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" | " app:typeface="roboto_light" />
+                <com.devspark.robototextview.widget.RobotoTextView android:textColor="?textColor" android:layout_gravity="center_vertical" android:id="@id/comment_submission_time" android:layout_width="wrap_content" android:layout_height="wrap_content" app:typeface="roboto_light_italic" />
+            </LinearLayout>
+            <TextView android:textColor="?textColor" android:id="@id/comment_content" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="12.0dip" android:text="bwdawdhadljalksaoiwdjwa" android:layout_below="@id/comment_details" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/comment_item_action_layout" android:background="@drawable/container_top_drop_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/comment_content" android:layout_alignParentBottom="true">
+                <ImageButton android:background="@drawable/ic_social_share" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageButton android:id="@id/comment_overflow" android:background="?commentOverFlowIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/hidden_comment_count" android:background="?colorPrimary" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="4.0dip" android:layout_toLeftOf="@id/comment_overflow" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

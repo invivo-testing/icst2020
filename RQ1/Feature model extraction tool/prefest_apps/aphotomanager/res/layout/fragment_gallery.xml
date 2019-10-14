@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:scrollbarSize="2.0dip" android:scrollbarStyle="insideInset" android:id="@id/parent_scroller" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/parent_owner" android:layout_width="wrap_content" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </HorizontalScrollView>
+    <HorizontalScrollView android:scrollbarSize="2.0dip" android:scrollbarStyle="insideInset" android:id="@id/child_scroller" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/child_owner" android:layout_width="wrap_content" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </HorizontalScrollView>
+    <GridView android:gravity="center" android:orientation="horizontal" android:id="@id/gridView" android:background="#fff0f0f0" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/grid_cell_margin" android:drawSelectorOnTop="true" android:horizontalSpacing="@dimen/grid_cell_margin" android:verticalSpacing="@dimen/grid_cell_margin" android:stretchMode="columnWidth" android:columnWidth="@dimen/grid_cell_width" android:numColumns="auto_fit" />
+</LinearLayout>

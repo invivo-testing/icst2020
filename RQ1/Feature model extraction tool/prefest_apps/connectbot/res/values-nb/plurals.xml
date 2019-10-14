@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other">Kopierte %1$d bytes til utklippstavle</item>
+        <item quantity="one">Kopiert %1$d byte til utklippstavle</item>
+    </plurals>
+</resources>

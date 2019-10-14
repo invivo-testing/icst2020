@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/onboarding_title_size" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/blurb" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/experience_upgrade_preference_fragment__read_receipts_are_here" android:textIsSelectable="false" />
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+        <ImageView android:layout_width="170.0dip" android:layout_height="170.0dip" android:src="@drawable/circle_tintable" android:scaleType="fitCenter" />
+        <ImageView android:layout_gravity="center" android:layout_width="100.0dip" android:layout_height="100.0dip" app:srcCompat="@drawable/read_receipt_vector" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/onboarding_subtitle_size" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/subblurb" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/experience_upgrade_preference_fragment__optionally_see_and_share_when_messages_have_been_read" android:textIsSelectable="false" />
+    <android.support.v7.widget.SwitchCompat android:enabled="true" android:textSize="20.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/preference" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:checked="true" android:text="@string/experience_upgrade_preference_fragment__enable_read_receipts" app:theme="@style/Color1SwitchStyle" />
+</LinearLayout>

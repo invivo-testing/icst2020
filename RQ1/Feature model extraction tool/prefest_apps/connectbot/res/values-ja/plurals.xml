@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other">クリップボードに %1$d バイトコピーしました．</item>
+    </plurals>
+</resources>

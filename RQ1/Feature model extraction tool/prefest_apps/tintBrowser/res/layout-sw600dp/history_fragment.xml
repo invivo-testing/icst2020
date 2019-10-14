@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:baselineAligned="false"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/history_group" n1:layout_width="0.0px" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/tablet_history_fragment_header_margin_left" n1:layout_marginTop="32.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="32.0dip" n1:layout_weight="10.0">
+        <ListView n1:listPreferredItemHeight="48.0dip" n1:scrollbarAlwaysDrawVerticalTrack="true" n1:id="@id/history_group_list" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:drawSelectorOnTop="false" n1:cacheColorHint="@android:color/transparent" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:background="?android:detailsElementBackground" n1:layout_width="0.0px" n1:layout_height="fill_parent" n1:layout_marginLeft="0.0dip" n1:layout_marginTop="16.0dip" n1:layout_marginRight="@dimen/tablet_history_fragment_values_margin_right" n1:layout_marginBottom="16.0dip" n1:layout_weight="20.0">
+        <android.app.FragmentBreadCrumbs n1:gravity="center|left" n1:id="@id/history_child_breadcrumbs" n1:paddingTop="16.0dip" n1:paddingBottom="8.0dip" n1:layout_width="fill_parent" n1:layout_height="72.0dip" n1:layout_marginLeft="32.0dip" n1:layout_marginRight="48.0dip" />
+        <ImageView n1:paddingLeft="32.0dip" n1:paddingRight="32.0dip" n1:layout_width="fill_parent" n1:layout_height="1.0dip" n1:src="#ff404040" n1:contentDescription="@string/ContentDescriptionDivider" />
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <ListView n1:listPreferredItemHeight="48.0dip" n1:scrollbarAlwaysDrawVerticalTrack="true" n1:id="@id/history_child_list" n1:paddingLeft="32.0dip" n1:paddingRight="32.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:drawSelectorOnTop="false" n1:cacheColorHint="@android:color/transparent" />
+            <ProgressBar n1:id="@id/HistoryProgressBar" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

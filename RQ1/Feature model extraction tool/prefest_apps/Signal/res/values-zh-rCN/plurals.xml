@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d分钟</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">每个会话限制 %d 条信息</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">这将会立刻整理所有会话到 %d 最近的信息。</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d 条未读信息</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">删除选择的信息？</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">保存附件到存储时遇到错误！</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">正在保存 %1$d 附件</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">正在保存 %1$d 附件到存储…</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"保存所有的 %1$d 媒体到存储将会允许您设备上的其他应用访问她们。
+
+继续吗？"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">这将会永久的删除所有 %1$d 已选择的信息。</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d 个会话已经被存档</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">删除已选择的会话？</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">已经移动 %d 个会话到收件箱</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">这将会永久的删除所有 %1$d 已选择的会话。</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s 加入了群组。</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">给%d发送短信邀请吗？</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">发短信给%d个朋友。</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">我们将会永久删除%1$d条已选择消息。</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">删除已选择消息？</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">您距离发送调试日志还有 %d 步之遥。</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d项目</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d天</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d小时</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d分钟</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d周</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d 小时</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d 个其他人</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">您该版本的 Signal 将在 %d 天后过期。请点击以升级到最新版本。</item>
+    </plurals>
+</resources>

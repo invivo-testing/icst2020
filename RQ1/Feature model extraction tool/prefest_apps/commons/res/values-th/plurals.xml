@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="multiple_uploads_title">
+        <item quantity="other">การอัปโหลด %1$d รายการ</item>
+        <item quantity="one">การอัปโหลด %1$d รายการ</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">กำลังเริ่มอัปโหลด %1$d รายการ</item>
+        <item quantity="one">กำลังเริ่มอัปโหลด %1$d รายการ</item>
+    </plurals>
+</resources>

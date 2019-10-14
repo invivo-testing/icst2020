@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">已顯示 %d 張卡片</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">刪除卡片種類 \"%2$s\"，和它的 %1$d 張卡片？</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"%1$s
+%2$d 個牌組使用這個群組"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">%s 個子牌組將使用這個群組</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">%1$d 張卡片到期 (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">刪除 %1$s 內所有卡片嗎？共包含 %2$d 張卡片。</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">新增 %d 張卡片</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d筆筆記</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">%d個筆記類型可用</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d 新卡片在 %1$s 待複習</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">還有%d分鐘</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">在&lt;b>%2$s&lt;/b>內學習了&lt;b>%1$d張卡片&lt;/b></item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">今日已使用 %2$s 學習 %1$d 張卡片</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s 天</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s 小時</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s 分鐘</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s 月</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s 秒</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s 年</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">使用 %2$s 學習共 %1$d 張卡片</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d 分鐘</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">%d 張卡片待複習</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">%2$s 內的 %1$d 張卡片將到期</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d 個牌組</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">剩餘 %d 分鐘</item>
+    </plurals>
+</resources>

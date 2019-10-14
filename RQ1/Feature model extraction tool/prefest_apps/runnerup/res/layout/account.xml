@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_margin" android:layout_alignParentTop="true">
+        <TextView android:id="@id/account_list_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="center" style="@style/AccountListText" />
+        <ImageView android:id="@id/account_list_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </LinearLayout>
+    <TableLayout android:id="@id/account_table" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_margin" android:layout_below="@id/name">
+        <TableRow android:id="@id/table_row1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </TableLayout>
+    <Button android:id="@id/disconnect_account_button" android:background="@drawable/btn_red" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Disconnect" android:layout_above="@id/account_upload_button" style="@style/ButtonText" />
+    <Button android:id="@id/account_upload_button" android:background="@drawable/btn_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/upload" android:layout_above="@id/account_download_button" style="@style/ButtonText" />
+    <Button android:id="@id/account_download_button" android:background="@drawable/btn_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Download" android:layout_above="@id/ok_account_button" android:layout_alignParentBottom="false" style="@style/ButtonText" />
+    <Button android:id="@id/ok_account_button" android:background="@drawable/btn_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/OK" android:layout_alignParentBottom="true" style="@style/ButtonText" />
+</RelativeLayout>

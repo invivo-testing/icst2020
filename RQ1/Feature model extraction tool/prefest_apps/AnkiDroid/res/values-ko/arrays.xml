@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>안드로이드용 플래시카드 암기 앱&lt;/h2>AnkiDroid는 데스크탑 버전&lt;a href=\"%2$s\">Anki&lt;/a>과 완벽하게 호환되는 플래시카드 어플리케이션입니다. AnkiDroid와 데스크탑용 Anki 모두에서 카드를 생성, 학습, 다운로드할 수 있으며 쉽게 동기화할 수 있습니다.</item>
+        <item>AnkiDroid를 향상시키기 위해, 사용 중 발생한 문제점을 &lt;a href=\"%1$s\">이슈 트래커&lt;/a>로 알려주세요. 새로운 기능이나 아이디어도 환영합니다. &lt;a href=\"%2$s\">위키&lt;/a>에서 해답을 찾거나 &lt;a href=\"%3$s\">포럼&lt;/a>에서 의견을 나눠보세요.</item>
+        <item>AnkiDroid는 &lt;a href=\"%1$s\">오픈 소스 소프트웨어&lt;a/>입니다. 누구든지 참여해 &lt;a href=\"%2$s\">기여자&lt;/a>가 되세요 :-)</item>
+        <item>개발자가 아니어도 AnkiDroid 향상에 기여할 수 있습니다. 예를 들어, &lt;a href=\"%1$s\">번역을 돕거나, 위키를 업데이트하거나, 스크린샷을 제공하거나, 기부&lt;/a>를 하거나, AnkiDroid에 대한 블로그를 작성하실 수 있습니다.</item>
+        <item>AnkiDroid는 &lt;a href=\"%1$s\">GNU GPL v3 라이센스&lt;/a> 하에 배포되고 있습니다. 소스 코드는 &lt;a href=\"%2$s\">GitHub&lt;/a>에서 확인할 수 있습니다.</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>현재 카드 묶음을 사용</item>
+        <item>노트 형식에 따라 결정</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>Top</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>질문</item>
+        <item>필드 정렬</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>정답</item>
+        <item>카드</item>
+        <item>카드 묶음</item>
+        <item>노트</item>
+        <item>문제</item>
+        <item>태그</item>
+        <item>오답 횟수</item>
+        <item>복습</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>정렬 안함(빠름)</item>
+        <item>정렬 필드에 따라</item>
+        <item>생성된 시간에 따라</item>
+        <item>편집된 시간에 따라</item>
+        <item>수정된 시간에 따라</item>
+        <item>학습 예정 시간에 따라</item>
+        <item>학습 간격에 따라</item>
+        <item>난이도에 따라</item>
+        <item>복습에 따라</item>
+        <item>오답 횟수에 따라</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>오래된 카드 먼저</item>
+        <item>무작위</item>
+        <item>학습 간격 늘이기</item>
+        <item>학습 간격 줄이기</item>
+        <item>오답 빈도가 가장 높은</item>
+        <item>추가된 순서대로</item>
+        <item>기간 순서대로</item>
+        <item>최근 추가된 것이 처음으로</item>
+        <item>상대적 기간초과</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>밝음</item>
+        <item>플레인</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>일</item>
+        <item>주</item>
+        <item>개월</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>항상 보고하기</item>
+        <item>보고하지 않기</item>
+        <item>오류 보고전 묻기</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>동작 없음</item>
+        <item>정답 보기</item>
+        <item>답변 버튼 1</item>
+        <item>답변 버튼 2</item>
+        <item>답변 버튼 3</item>
+        <item>답변 버튼 4</item>
+        <item>답변 추천 (녹색)</item>
+        <item>권장된 것 보다 더 나은 답변</item>
+        <item>실행 취소</item>
+        <item>노트 편집</item>
+        <item>노트 표시</item>
+        <item>색인 형식</item>
+        <item>카드 집어넣기</item>
+        <item>카드 보류</item>
+        <item>노트 삭제</item>
+        <item>미디어 재생</item>
+        <item>학습 중단</item>
+        <item>노트 숨기기</item>
+        <item>노트 미뤄두기</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>카드 보류</item>
+        <item>태그 전용</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>무작위 순서대로 새 카드</item>
+        <item>추가한 순서대로 새 카드</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>새 카드와 복습 섞기</item>
+        <item>새 카드 다음에 복습</item>
+        <item>새 카드에 앞서 복습</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>블랙</item>
+        <item>어두움</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>플래시카드에 특정 글꼴이 지정되지 않은 경우</item>
+        <item>항상</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4AM</item>
+        <item>10AM</item>
+        <item>4PM</item>
+        <item>10PM</item>
+        <item>3AM</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>일요일</item>
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+    </string-array>
+</resources>

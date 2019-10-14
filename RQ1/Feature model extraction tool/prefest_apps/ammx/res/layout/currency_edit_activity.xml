@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?theme_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/mmx_activity_side_margin" android:layout_marginRight="@dimen/mmx_activity_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/mmx_activity_side_padding" android:paddingRight="@dimen/mmx_activity_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.money.manager.ex.view.RobotoEditText android:id="@id/editTextCurrencyName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/currency_name" android:ems="10" />
+            </android.support.design.widget.TextInputLayout>
+            <com.money.manager.ex.view.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/currency_symbol" android:singleLine="true" style="?headerTextViewStyle" />
+            <Spinner android:entries="@array/currencies_code" android:id="@id/spinCurrencySymbol" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoEditText android:id="@id/editTextUnitName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/unit_name" android:ems="10" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoEditText android:id="@id/editTextCentsName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/cents_name" android:ems="10" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoEditText android:id="@id/editTextPrefixSymbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/prefix_symbol" android:ems="10" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoEditText android:id="@id/editTextSuffixSymbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/suffix_symbol" android:ems="10" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoEditText android:id="@id/editTextDecimalChar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/decimal_char" android:ems="10" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoEditText android:id="@id/editTextGroupChar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/group_char" android:ems="10" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoEditText android:gravity="end" android:id="@id/editTextScale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/scale" android:ems="10" android:inputType="number" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoEditText android:gravity="end" android:id="@id/editTextConversion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/conversion_to_base_rate" android:ems="10" android:inputType="numberDecimal" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/action_buttons" />
+</LinearLayout>

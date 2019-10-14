@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AMD">75.0119</string>
+    <string name="AMD_discription">Armenian Drama</string>
+    <string name="AMDfrom">AMD</string>
+    <string name="AUD">30.5238</string>
+    <string name="AUD_discription">Australian Dollars</string>
+    <string name="AUDfrom">AUD</string>
+    <string name="AZN">37.2908</string>
+    <string name="AZN_discription">Azerbaijani manat</string>
+    <string name="AZNfrom">AZN</string>
+    <string name="BGN">19.8204</string>
+    <string name="BGN_discription">Bulgarian lvy</string>
+    <string name="BGNfrom">BGN</string>
+    <string name="BRL">15.6026</string>
+    <string name="BRL_discription">Brazilian Reais</string>
+    <string name="BRLfrom">BRL</string>
+    <string name="BYR">0.00365963</string>
+    <string name="BYR_discription">Belarusian Ruble</string>
+    <string name="BYRfrom">BYR</string>
+    <string name="CAD">29.8472</string>
+    <string name="CAD_discription">Canadian Dollars</string>
+    <string name="CADfrom">CAD</string>
+    <string name="CHF">31.9960</string>
+    <string name="CHF_discription">Swiss Franc</string>
+    <string name="CHFfrom">CHF</string>
+    <string name="CNY">46.6446</string>
+    <string name="CNY_discription">Chinese Yuan</string>
+    <string name="CNYfrom">CNY</string>
+    <string name="CZK">15.6163</string>
+    <string name="CZK_discription">Czech crown</string>
+    <string name="CZKfrom">CZK</string>
+    <string name="Coursestab">Rates</string>
+    <string name="DKK">52.1156</string>
+    <string name="DKK_discription">Danish crowns</string>
+    <string name="DKKfrom">DKK</string>
+    <string name="EUR">38.7393</string>
+    <string name="EUR_discription">Euro</string>
+    <string name="EURfrom">EUR</string>
+    <string name="FOO">10.7777</string>
+    <string name="FOO_discription">Free course</string>
+    <string name="FOOfrom">FOO</string>
+    <string name="FROM">From currency:</string>
+    <string name="GBP">47.4258</string>
+    <string name="GBP_discription">Pounds</string>
+    <string name="GBPfrom">GBP</string>
+    <string name="HUF">13.4704</string>
+    <string name="HUF_discription">Hungarian Forint</string>
+    <string name="HUFfrom">HUF</string>
+    <string name="INR">55.8372</string>
+    <string name="INR_discription">Indian rupee</string>
+    <string name="INRfrom">INR</string>
+    <string name="JPY">0.349325</string>
+    <string name="JPY_discription">Japanese yen</string>
+    <string name="JPYfrom">JPY</string>
+    <string name="KGS">62.7607</string>
+    <string name="KGS_discription">Kyrgyz soma</string>
+    <string name="KGSfrom">KGS</string>
+    <string name="KRW">25.9260</string>
+    <string name="KRW_discription">Won South Korea</string>
+    <string name="KRWfrom">KRW</string>
+    <string name="KZT">19.9008</string>
+    <string name="KZT_discription">Kazakh tenge</string>
+    <string name="KZTfrom">KZT</string>
+    <string name="LTL">11.1803</string>
+    <string name="LTL_discription">Lithuanian Litas</string>
+    <string name="LTLfrom">LTL</string>
+    <string name="LVL">55.4489</string>
+    <string name="LVL_discription">Latvian lats</string>
+    <string name="LVLfrom">LVL</string>
+    <string name="MDL">2.49351</string>
+    <string name="MDL_discription">Moldavian lei</string>
+    <string name="MDLfrom">MDL</string>
+    <string name="NOK">51.1293</string>
+    <string name="NOK_discription">Norwegian kroner</string>
+    <string name="NOKfrom">NOK</string>
+    <string name="OfflineCourses">Courses:</string>
+    <string name="PLN">9.34793</string>
+    <string name="PLN_discription">Poland Zloty</string>
+    <string name="PLNfrom">PLN</string>
+    <string name="RON">88.6220</string>
+    <string name="RON_discription">New Romanian Leu</string>
+    <string name="RONfrom">RON</string>
+    <string name="RUB">1.000</string>
+    <string name="RUB_discription">Russian Ruble</string>
+    <string name="RUBfrom">RUB</string>
+    <string name="SEK">43.6290</string>
+    <string name="SEK_discription">Swedish Krona</string>
+    <string name="SEKfrom">SEK</string>
+    <string name="SGD">23.6789</string>
+    <string name="SGD_discription">Singapore Dollars</string>
+    <string name="SGDfrom">SGD</string>
+    <string name="TJS">61.8321</string>
+    <string name="TJS_discription">Tajik Somoni</string>
+    <string name="TJSfrom">TJS</string>
+    <string name="TMT">10.3168</string>
+    <string name="TMT_discription">New Turkmenistan Manat</string>
+    <string name="TMTfrom">TMT</string>
+    <string name="TO">In currency:</string>
+    <string name="TRY">16.6610</string>
+    <string name="TRY_discription">Turkish lira</string>
+    <string name="TRYfrom">TRY</string>
+    <string name="UAH">3.64346</string>
+    <string name="UAH_discription">Ukrainian hryvnia</string>
+    <string name="UAHfrom">UAH</string>
+    <string name="USD">29.2770</string>
+    <string name="USD_discription">U.S. Dollars</string>
+    <string name="USDfrom">USD</string>
+    <string name="UZS">15.8518</string>
+    <string name="UZS_discription">Uzbek soums</string>
+    <string name="UZSfrom">UZS</string>
+    <string name="Update">Updates</string>
+    <string name="UpdateButtonText">Update now!</string>
+    <string name="Updatedis">Update method</string>
+    <string name="XDR">45.5483</string>
+    <string name="XDR_discription">Special Drawing Rights</string>
+    <string name="XDRfrom">XDR</string>
+    <string name="ZAR">37.6755</string>
+    <string name="ZAR_discription">South African rand</string>
+    <string name="ZARfrom">ZAR</string>
+    <string name="about">About</string>
+    <string name="abouttap">Click for detail!</string>
+    <string name="abouttext">"Flags icon:
+- http://famfamfam.com
+
+Patterns:
+- http://noqta.it
+- http://dinpattern.com
+- http://squidfingers.com
+- http://pattrnapp.com
+
+Icons:
+- http://adamwhitcroft.com/batch
+
+How to:
+- http://stackoverflow.com
+- http://habrahabr.ru
+
+Thx:
+- jadis100, Ant-ON, ramallah, spardaev.
+
+WTFPL:
+Do What The Fuck You Want To Public License."</string>
+    <string name="aboutvers">nanoConverter 0.8.98</string>
+    <string name="app_name">nanoConverter</string>
+    <string name="bank">Bank</string>
+    <string name="bank_is_this">Source</string>
+    <string name="bkg">Background</string>
+    <string name="bkgdis">Choose app. background</string>
+    <string name="checkinternet">Check Your Internet connection.</string>
+    <string name="circle_or_not">Circle</string>
+    <string name="conversetab">Convert</string>
+    <string name="course">Rates</string>
+    <string name="curentamount" />
+    <string name="curlist">Currency list</string>
+    <string name="curlistdis">Available for conversation currency</string>
+    <string name="defaultcurrency">Default currency</string>
+    <string name="defaultcurrencydis">Currency that will be equal 1.00</string>
+    <string name="devnull">Null rate detected!</string>
+    <string name="devzero">Division by zero!</string>
+    <string name="eq">=</string>
+    <string name="exit">Exit</string>
+    <string name="forceUpdate">Pre-udate</string>
+    <string name="from_this">from:</string>
+    <string name="hello">Enter amount:</string>
+    <string name="inverse">Inverse</string>
+    <string name="loadfrombank">Preset</string>
+    <string name="other">Other</string>
+    <string name="presets">Rates</string>
+    <string name="presets_disc">Grab rates from</string>
+    <string name="ratessource">Rates sources</string>
+    <string name="ratessourcedis">When will get rates?</string>
+    <string name="result">Results:</string>
+    <string name="revrates">Reverse rates</string>
+    <string name="revratesdis">Use reversed rates on rates tab</string>
+    <string name="revratess">Reverse</string>
+    <string name="rounded_corner_not">Rounded Corners</string>
+    <string name="setcur">Currency</string>
+    <string name="settings">Settings</string>
+    <string name="settingstab">Settings</string>
+    <string name="show_bank">Show Source</string>
+    <string name="show_cur">Show Currency</string>
+    <string name="show_onlyFrom">First only</string>
+    <string name="show_onlyTo">Second only</string>
+    <string name="show_update">Show Update</string>
+    <string name="sources">Sources</string>
+    <string name="to_this">to:</string>
+    <string name="updatecomplete">Update done!</string>
+    <string name="updateinprogress">Updating . . .</string>
+    <string name="wait">Please wait . . .</string>
+    <string name="zerocheck">No data for default currency, will use USD as default. Please update rates, or change source.</string>
+</resources>

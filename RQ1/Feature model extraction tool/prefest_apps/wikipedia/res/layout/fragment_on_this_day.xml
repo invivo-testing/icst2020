@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="?paper_color" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/app_bar" android:background="?main_toolbar_color" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="180.0dip">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@id/collapsing_toolbar_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentScrim="?main_toolbar_color" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:statusBarScrim="?main_status_bar_color">
+            <FrameLayout android:layout_gravity="bottom" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="parallax">
+                <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="72.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="24.0sp" android:textStyle="normal" android:textColor="?primary_text_color" android:id="@id/day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:fontFamily="serif" android:layout_marginEnd="8.0dip" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/drop_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/base100" app:srcCompat="@drawable/ic_arrow_drop_down_black_24dp" />
+                    </LinearLayout>
+                    <TextView android:textSize="14.0sp" android:textColor="@color/base100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/on_this_day_card_title" android:alpha="0.5" android:textAllCaps="true" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/base100" android:id="@id/day_info_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:alpha="0.5" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/calendar" android:layout_width="96.0dip" android:layout_height="106.0dip" android:layout_marginBottom="-36.0dip" android:tint="@color/base100" android:contentDescription="@null" android:alpha="0.5" app:srcCompat="@drawable/ic_event_black_24dp" />
+            </FrameLayout>
+            <android.support.v7.widget.Toolbar android:theme="@style/ToolbarTheme" android:gravity="center_vertical" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin">
+                <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="@color/base100" android:gravity="center_vertical" android:id="@id/toolbar_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="8.0sp" android:fontFamily="sans-serif-medium" android:layout_marginEnd="8.0dip" />
+                    <ImageView android:id="@id/drop_down_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/base100" app:srcCompat="@drawable/ic_arrow_drop_down_black_24dp" />
+                </LinearLayout>
+                <FrameLayout android:layout_gravity="end" android:id="@id/indicator_layout" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:alpha="0.5" android:layout_marginEnd="16.0dip">
+                    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/base100" android:contentDescription="@null" app:srcCompat="@drawable/ic_empty_event" />
+                    <TextView android:textSize="8.0sp" android:textColor="@color/base100" android:id="@id/indicator_date" android:layout_width="12.0dip" android:layout_height="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="6.0dip" style="@style/TextViewCentered" />
+                </FrameLayout>
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v7.widget.RecyclerView android:id="@id/events_recycler" android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/on_this_day_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" />
+        <org.wikipedia.views.WikiErrorView android:layout_gravity="center_horizontal" android:id="@id/on_this_day_error_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

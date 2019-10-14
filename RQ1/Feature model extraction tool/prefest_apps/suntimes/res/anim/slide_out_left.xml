@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <translate n1:duration="@integer/anim_slideout_move_duration" n1:toXDelta="@fraction/anim_slideout_move_left_toDelta" n1:fromYDelta="@fraction/anim_slideout_move_fromDelta"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <alpha n2:duration="@integer/anim_slideout_fade_duration" n2:fromAlpha="@dimen/anim_slideout_fade_fromalpha" n2:toAlpha="@dimen/anim_slideout_fade_toalpha"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</set>

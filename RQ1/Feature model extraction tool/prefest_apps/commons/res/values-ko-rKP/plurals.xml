@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d개의 서류를 올리적재하는중</item>
+        <item quantity="one">%1$d개의 서류를 올리적재하는중</item>
+    </plurals>
+    <plurals name="contributions_subtitle">
+        <item quantity="zero">\@string/contributions_subtitle_zero</item>
+        <item quantity="one">%1$d개 올리적재</item>
+    </plurals>
+    <plurals name="multiple_uploads_title">
+        <item quantity="one">%1$d개 올리적재</item>
+    </plurals>
+    <plurals name="starting_multiple_uploads">
+        <item quantity="other">%1$d장의 올리적재를 시작합니다</item>
+        <item quantity="one">%1$d장의 올리적재를 시작합니다</item>
+    </plurals>
+</resources>

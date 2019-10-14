@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/top_bar" android:background="?topBarColor" android:paddingLeft="9.0dip" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="?newCountColor" android:id="@id/new_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    <TextView android:textSize="14.0sp" android:textColor="?learnCountColor" android:id="@id/learn_number" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/new_number" />
+    <TextView android:textSize="14.0sp" android:textColor="?reviewCountColor" android:id="@id/review_number" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/learn_number" />
+    <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/choosen_answer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerHorizontal="true" />
+    <Chronometer android:textSize="14.0sp" android:gravity="center" android:id="@id/card_time" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="console_copy_done">
+        <item quantity="other"></item>
+        <item quantity="one">%1$d bajtov skopírovaných do schránky</item>
+        <item quantity="few">%1$d bajty skopírovaných do schránky</item>
+        <item quantity="many">%1$d bajty skopírovaných do schránky</item>
+    </plurals>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_list">
+        <item>Smallest</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Largest</item>
+    </string-array>
+    <string-array name="sort_by_list">
+        <item>날짜 (내림차순)</item>
+        <item>내용 (가나다순)</item>
+    </string-array>
+    <string-array name="theme_list">
+        <item>Light / sans serif</item>
+        <item>Light / serif</item>
+        <item>Light / monospace</item>
+        <item>Dark / sans serif</item>
+        <item>Dark / serif</item>
+        <item>Dark / monospace</item>
+    </string-array>
+</resources>

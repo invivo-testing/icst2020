@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout n1:orientation="vertical" n1:paddingLeft="5.0dip" n1:paddingRight="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/settingsGroup_margin" style="@style/SunsetTimeWidget_dark"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <TextView n1:id="@id/appwidget_location_grouptitle" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_location" style="@style/SunsetTimeSettingsGroupTitle" />
+        <LinearLayout n1:orientation="horizontal" n1:paddingLeft="16.0dip" n1:paddingTop="@dimen/settingsGroup_padding" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/configLabel_location_mode" />
+            <Spinner n1:id="@id/appwidget_location_mode" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <GridLayout n1:orientation="horizontal" n1:paddingLeft="16.0dip" n1:paddingTop="8.0dip" n1:paddingRight="16.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:rowCount="4" n1:columnCount="5">
+            <TextView n1:enabled="false" n1:layout_gravity="end" n1:id="@id/appwidget_location_lat_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_column="0" n1:text="@string/configLabel_location_lat" n1:layout_row="0" />
+            <EditText n1:enabled="false" n1:textAppearance="?android:textAppearanceSmallPopupMenu" n1:id="@id/appwidget_location_lat" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_column="1" n1:hint="@string/configHint_location_lat" n1:inputType="numberDecimal|numberSigned" n1:layout_row="0" n1:layout_columnSpan="4" />
+            <TextView n1:enabled="false" n1:layout_gravity="end" n1:id="@id/appwidget_location_lon_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_column="0" n1:text="@string/configLabel_location_lon" n1:layout_row="1" />
+            <EditText n1:enabled="false" n1:textAppearance="?android:textAppearanceSmallPopupMenu" n1:id="@id/appwidget_location_lon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_column="1" n1:hint="@string/configHint_location_lon" n1:inputType="numberDecimal|numberSigned" n1:layout_row="1" n1:layout_columnSpan="4" />
+            <TextView n1:enabled="false" n1:layout_gravity="end|center" n1:id="@id/appwidget_location_name_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_column="0" n1:text="@string/configLabel_location_name" n1:layout_row="2" />
+            <EditText n1:enabled="false" n1:textAppearance="?android:textAppearanceSmallPopupMenu" n1:id="@id/appwidget_location_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="100.0dip" n1:layout_column="1" n1:hint="@string/configHint_location_name" n1:layout_row="2" />
+            <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_column="2" n1:layout_row="2">
+                <ImageButton n1:id="@id/appwidget_location_getfix" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ic_action_location_searching" n1:contentDescription="@string/configAction_getFix" />
+                <ProgressBar n1:layout_gravity="center" n1:id="@id/appwidget_location_getfixprogress" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="?android:progressBarStyle" />
+            </FrameLayout>
+        </GridLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start" android:id="@id/bookmark" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/btn_star_big_off" android:scaleType="fitStart" android:adjustViewBounds="false" android:cropToPadding="false" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="start" android:id="@id/add" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_add" android:scaleType="fitStart" android:adjustViewBounds="false" android:cropToPadding="false" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="start" android:id="@id/remove" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_close_clear_cancel" android:scaleType="fitStart" android:adjustViewBounds="false" android:cropToPadding="false" android:layout_weight="1.0" />
+    <TextView android:ellipsize="start" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello world" android:singleLine="true" android:layout_x="50.0px" android:layout_y="22.0px" android:layout_weight="100.0" />
+</LinearLayout>

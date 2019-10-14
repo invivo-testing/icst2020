@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="?page_toolbar_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <android.support.v7.widget.Toolbar android:theme="@style/PageToolbarTheme" android:id="@id/search_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:navigationIcon="@drawable/ic_arrow_back_themed_24dp">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                <org.wikipedia.views.CabSearchView android:id="@id/search_cab_view" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionGo|flagNoExtractUi" android:layout_marginStart="-8.0dip" android:layout_marginEnd="8.0dip" app:cabEnabled="false" />
+                <FrameLayout android:id="@id/search_lang_button_container" android:background="?actionBarItemBackground" android:paddingLeft="9.0dip" android:paddingTop="2.0dip" android:paddingRight="9.0dip" android:paddingBottom="2.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/preference_title_language" android:layout_marginEnd="8.0dip">
+                    <TextView android:textColor="@android:color/white" android:id="@id/search_lang_button" android:background="@drawable/lang_button_shape" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:fontFamily="sans-serif-medium" style="@style/TextViewCentered" />
+                </FrameLayout>
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+        <ProgressBar android:id="@id/search_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-6.5dip" android:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/language_scroll_container" android:background="?page_toolbar_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <org.wikipedia.views.LanguageScrollView android:theme="@style/PageToolbarTheme" android:id="@id/lang_scroll" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </LinearLayout>
+    <FrameLayout android:background="?android:windowBackground" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <fragment android:name="org.wikipedia.search.SearchResultsFragment" android:id="@id/fragment_search_results" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <fragment android:name="org.wikipedia.search.RecentSearchesFragment" android:id="@id/search_panel_recent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lbl_tag" />
+    <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:id="@id/lblTag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tags_add_default" />
+    <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_weight="0.0" />
+    <CheckBox android:id="@id/chkDeleteChildren" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:text="@string/tags_delete_children_title" android:drawableRight="?android:listChoiceIndicatorMultiple" />
+    <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:id="@id/lblTagChildren" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tags_add_default" />
+    <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_weight="0.0" />
+    <CheckBox android:id="@id/chkUpdateAffectedPhotos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:text="@string/tags_update_photos" android:drawableRight="?android:listChoiceIndicatorMultiple" />
+</LinearLayout>

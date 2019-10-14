@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView n1:id="@id/message_box" n1:background="?android:selectableItemBackground" n1:padding="@dimen/small_spacing" n1:paddingLeft="32.0dip" n1:paddingRight="32.0dip" n1:visibility="invisible" n1:clickable="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/activity_vertical_margin" n1:minHeight="72.0dip" n2:cardBackgroundColor="@android:color/black" n2:cardCornerRadius="@dimen/notification_card_radius" n2:cardElevation="@dimen/notification_card_elevation"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout n1:orientation="vertical" n1:id="@id/message_box_inner" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/activity_horizontal_margin" n1:layout_marginEnd="@dimen/activity_horizontal_margin">
+        <LinearLayout n1:gravity="center|left" n1:orientation="horizontal" n1:id="@id/message_top_wrapper" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ImageView n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/message_box_icon" n1:layout_width="24.0dip" n1:layout_height="24.0dip" n1:contentDescription="@string/notification_icon" n1:layout_marginEnd="@dimen/medium_spacing" />
+            <TextView n1:textSize="16.0sp" n1:textColor="@android:color/white" n1:gravity="center_vertical" n1:id="@id/message_app_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Small" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center|left" n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_below="@id/message_top_wrapper" n1:layout_centerVertical="true">
+            <TextView n1:textColor="@android:color/primary_text_dark" n1:gravity="start" n1:id="@id/message_box_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/TextAppearance.AppCompat.Title" />
+            <TextView n1:textColor="@android:color/background_light" n1:gravity="start" n1:id="@id/message_box_message" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

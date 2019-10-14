@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d წლის წინ</item>
+        <item quantity="one">შარშან</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">დარჩა %d წუთი</item>
+        <item quantity="one">დარჩა 1 წუთი</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d დღის წინ</item>
+        <item quantity="one">გუშინ</item>
+    </plurals>
+</resources>

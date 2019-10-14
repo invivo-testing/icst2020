@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_content_about">"
+&lt;h1>Менеджер фотографій&lt;/h1>з &amp;#39;Картою Фото&amp;#39; в &amp;#39;AndroFotoFinder&amp;#39;
+  &lt;br />
+&lt;!-- this will also become translation 'short_description.txt' in fdroid -->
+&lt;h2>
+Керування локальними фотографіями: Знайти/Скопіювати/Змінити-Exif і показати в Галереї або на Карті.
+&lt;/h2>
+
+&lt;!-- this (without the links) will also become translation 'full_description.txt' in fdroid and part of github-wiki -->
+Особливості:
+
+&lt;ul>
+     &lt;li>Швидко &lt;a href='https://github.com/k3b/APhotoManager/wiki/Filter-View'>
+\u0009\u0009пошук фотографій&lt;/a> by
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/Tags'>
+\u0009\u0009теги(ключові слова)&lt;/a>,
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/Folder-Picker'>
+\u0009\u0009(під-)папку&lt;/a>, date,
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/geographic-map'>
+\u0009\u0009географічна карта&lt;/a>, title, rating, ...
+&lt;/li>&lt;li>Показати результат у
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/Gallery-View'>
+\u0009\u0009галереї&lt;/a> or
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/geographic-map'>
+\u0009\u0009географічній карті&lt;/a> from openstreetmap.
+&lt;/li>&lt;li>&lt;a href='https://github.com/k3b/APhotoManager/wiki/Image-View'>
+\u0009\u0009Подробиці&lt;/a> функції масштабування, переміщення для наступного/попереднього зображення.
+&lt;/li>&lt;li>Вбудований файловий менеджер для фотографій: знайти, сортувати, переглядати, копіювати, видаляти, надсилати ....
+&lt;/li>&lt;li>&lt;a href='https://github.com/k3b/AndroFotoFinder/wiki/Exif-Edit'>
+\u0009\u0009Редагування метафайлів exif&lt;/a>: дата, назва, опис,
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/Tags'>
+\u0009\u0009теги(ключові слова)&lt;/a>, гео, рейтинг, ....
+&lt;/li>&lt;li>Необов'язкове правило-папок &lt;a href='https://github.com/k3b/AndroFotoFinder/wiki/AutoProcessing'>автопроцесс&lt;/a>:
+\u0009\u0009Фотографії автоматично перейменовуються і отримують теги, географічні назви, назви ..., коли ви копіюєте/переміщуєте їх.
+&lt;/li>&lt;li>Позначте зображення як 'ПРИВАТНЕ', щоб приховати їх від інших додатків-галереї та збирачів зображень.
+&lt;/li>&lt;li>In &lt;a href='https://github.com/k3b/APhotoManager/wiki/AppPinning'>Protected/Pinned Mode&lt;/a>
+\u0009\u0009потенційно небезпечних програм-додатків, які редагують/копіюють/видаляють/спільно використовують/налаштовують/ змінюють вибір зображення'
+\u0009\u0009є вимкненими, тому ти можеш передати свій телефон комусь іншому.
+&lt;/li>&lt;li>Можна обробляти великі колекції зображень (20000+ зображень в 1000+ папках).
+&lt;/li>&lt;li>Використовує контент-провайдер зображення для Android. Немає необхідності сканувати початкове зображення.
+&lt;/li>&lt;li>Розширений медіа-сканер для фото Exif, IPTC, XMP
+&lt;/li>&lt;/ul>
+
+Необхідні дозволи для Android:
+
+&lt;ul>
+     &lt;li>INTERNET для завантаження данних карт з OpenStreetmap Server
+&lt;/li>&lt;li>ACCESS_NETWORK_STATE and ACCESS_WIFI_STATE: щоб дізнатись, чи доступний Wi-Fi / Інтернет, щоб розпочати завантаження геоданих
+&lt;/li>&lt;li>WRITE_EXTERNAL_STORAGE для кешування завантажених даних карти в локальній файловій системі та для виконання файлів з фотографіями
+&lt;/li>&lt;li>READ_LOGS щоб читати та зберігати потенційні аварійні журнали в текстовому файлі.
+&lt;/li>&lt;/ul>
+  &lt;br />
+"</string>
+    <string name="about_summary">Про \"Менеджер фотографій%1$s\"</string>
+    <string name="area_menu_title">Фільтр області карти</string>
+    <string name="background">Фон</string>
+    <string name="bookmark">Альбом</string>
+    <string name="bookmark_delete_answer_format">Видалений альбом %1$s.</string>
+    <string name="bookmark_delete_error_format">Неможливо видалити альбом %1$s.</string>
+    <string name="bookmark_delete_question">Видалити цей альбом?</string>
+    <string name="bookmark_file_comment_format">"Згенеровано на '%3$s' з '%1$s' Версія %2$s. Щоб дізнатись, перегляньте https://github.com/k3b/APhotoManager/wiki/intentapi#sql"</string>
+    <string name="bookmark_save_as_menu_title">Зберегти альбом як …</string>
+    <string name="btn_change">Змінити</string>
+    <string name="btn_pause">Пауза</string>
+    <string name="clear_menu_title">Очистити</string>
+    <string name="copy_result_format">Скопійовані %1$d/%2$d файли</string>
+    <string name="date_picker_menu_title">Фільтр по датах</string>
+    <string name="delete_menu_title">Видалити</string>
+    <string name="delete_question_message_format">"Ви впевнені, що хочете остаточно видалити ці файли?
+ %1$s
+
+ Цю операцію не можна скасувати"</string>
+    <string name="delete_question_title">Видалити фотографію(ї)?</string>
+    <string name="delete_result_format">Видалено %1$d/%2$d файли</string>
+    <string name="destination_copy">Копіювати пункт призначення</string>
+    <string name="destination_move">Перемістити пункт призначення</string>
+    <string name="details_menu_title">Подробиці</string>
+    <string name="edit_chooser_title">Виберіть редактор фотографій</string>
+    <string name="edit_err_editor_not_found">Не знайдено редактор фотографій</string>
+    <string name="edit_menu_title">Редагувати</string>
+    <string name="exif_menu_title">Редагувати Exif</string>
+    <string name="file_err_writeprotected">"Записати захищені файли '%1$s'. '%2$s' неможливо."</string>
+    <string name="filter_any_hint">Частина Тегів, Назви, Опису чи Шляху</string>
+    <string name="filter_err_invalid_date_format">"%1$s' некоректна дата."</string>
+    <string name="filter_err_invalid_location_format">"%1$s' не дійсні координати."</string>
+    <string name="filter_menu_title">Фільтр</string>
+    <string name="filter_menu_title_album">Редагувати віртуальний альбом</string>
+    <string name="filter_path_hint">Частина папки або імені файлу. % = Підстановка</string>
+    <string name="fix_link_menu_title">Ремонт копій</string>
+    <string name="folder_dialog_title_format">Вибрано %1$s</string>
+    <string name="folder_err_load_failed_format">Помилка завантаження каталогу %1$s</string>
+    <string name="folder_hide_images_menu_title">Приховані Зображення</string>
+    <string name="folder_hide_images_question_message_format">"Ти впевнений?
+
+Ви хочете зробити всі медіа-файли (фото, відео, аудіо) нижче
+
+%1$s
+
+невидимими для медіа-бази даних, додатків для галереї та медіа-сканера?
+
+Ви можете скасувати приховування, викликавши медіа-канал з меню галереї. "</string>
+    <string name="folder_menu_title">Фільтр папок</string>
+    <string name="full_description">"
+    Керування локальними фотографіями: Шукати/Копіювати/Змінювати-Exif та показувати в Галереї або на Карті.
+
+    Особливості:
+
+    * Швидко знаходьте фотографії за тегами(ключові слова), (під-)папку, дату, географію, назву, ...
+    * Відображення результатів у галереї або географічній карті з openstreetmap.
+    * Функція детального перегляду збільшення масштабу, переміщення до наступного/попереднього зображення.
+    * Вбудований файловий менеджер для фотографій: пошук, сортування, перегляд, копіювання, видалення, надсилання ... .
+    * Редагування метаданних exif: дати, заголовку, опису, тегів(ключових слів), географії, рейтингу, ....
+    * Автоматична обробка на основі правил-папки: фотографії автоматично перейменовуються та отримують теги, географічні назви, назви ... коли ви копіюєте/переміщуєте їх
+    *Позначте зображення як ПРИВАТНЕ, щоб приховати їх від інших галереї-додатків та збирачів зображень.
+    * У Захищеному/закріпленому режимі потрібні небезпечні команди для додатків, такі як редагування/копіювання/видалення/спільне використання/налаштування/зміни вибору зображення вимкнено, щоб ви могли передати телефон комусь іншому
+    * Можна обробляти великі колекції зображень (20000+ зображень в 1000+ папках).
+    * Використовує контент-провайдер зображення для Android. Немає необхідності в скануванні початкового зображення.
+    * Розширений медіа-сканер для фото Exif, IPTC, XMP
+
+    Необхідні дозволи для Android:
+
+    * INTERNET: для завантаження данних карт з OpenStreetmap Server
+    * ACCESS_NETWORK_STATE and ACCESS_WIFI_STATE: щоб дізнатись, чи доступний Wi-Fi / Інтернет, щоб розпочати завантаження геоданих
+    * WRITE_EXTERNAL_STORAGE для кешування завантажених даних карти в локальній файловій системі та для виконання файлів з фотографіями
+    * READ_LOGS щоб читати та зберігати потенційні аварійні журнали в текстовому файлі.
+    .
+"</string>
+    <string name="gallery_title">Фотографії</string>
+    <string name="geo_edit_menu_title">Встановити геоданні</string>
+    <string name="geo_edit_update_in_progress">Зміна геоінформації у вибраних фотографіях</string>
+    <string name="geo_picker_err_not_found">Не знайдено геоданих</string>
+    <string name="geo_picker_from_map_title">Виберіть геопозицію з Карти</string>
+    <string name="geo_picker_from_photo_title">Виберіть геопозицію з фото</string>
+    <string name="geo_picker_title">"Виберіть новий географічний об'єкт для фотографії"</string>
+    <string name="geo_show_as_menu_title">Переглянути в зовнішньому географічному додатку</string>
+    <string name="geo_show_menu_title">Перегляд на карті</string>
+    <string name="global_err_sql_message_format">"Помилка SQL '%1$s' 
+
+%2$s"</string>
+    <string name="global_err_sql_title_reload">Недійсний SQL. Перезавантаження за замовчуванням</string>
+    <string name="global_err_system">Системна помилка. Вихід</string>
+    <string name="image_err_file_exists_format">"Файл '%1$s' вже існує.
+ Ви дійсно хочете перезаписати його?"</string>
+    <string name="image_err_file_rename_format">"Неможливо перейменувати файл '%1$s'."</string>
+    <string name="image_err_not_found_format">Жодних фотографій не знайдено %1$s.</string>
+    <string name="image_err_not_in_db_format">Фото не знайдено в медіа-базі даних %1$s. Сканування %2$d нових файлів. Відсутня фотографія буде доступна найближчим часом.</string>
+    <string name="image_loading_at_position_format">Завантаження (%1$d) …</string>
+    <string name="image_success_update_format">Оновлено %1$d фотографій.</string>
+    <string name="lbl_any">Пошук</string>
+    <string name="lbl_date">Дата</string>
+    <string name="lbl_description">Опис</string>
+    <string name="lbl_exif">Exif</string>
+    <string name="lbl_file_name_pattern">Шаблон назви файла</string>
+    <string name="lbl_image_visibility">Видимість</string>
+    <string name="lbl_images_private">Приватні Зображення</string>
+    <string name="lbl_images_public">Публічні Зображення</string>
+    <string name="lbl_latitude_short">Широта</string>
+    <string name="lbl_longitude_short">Довгота</string>
+    <string name="lbl_path">Шлях</string>
+    <string name="lbl_rating">Оцінка</string>
+    <string name="lbl_tag">Мітка</string>
+    <string name="lbl_tags_exclude">-Мітки</string>
+    <string name="lbl_tags_include">+Мітки</string>
+    <string name="lbl_title">Заголовок</string>
+    <string name="lbl_with_no_geo">Без геоінформації</string>
+    <string name="lbl_with_no_tags">Без міток</string>
+    <string name="menu_title_app_pinnend">Програма захищена/прикріплена</string>
+    <string name="menu_title_app_unpinnend">Програма не захищена/відкріплена</string>
+    <string name="mk_dir_default">нова_папка</string>
+    <string name="mk_dir_menu_title">Створити Папку</string>
+    <string name="mk_err_failed_format">Не вдалося створити %1$s</string>
+    <string name="mk_success_format">Створено %1$s</string>
+    <string name="more_menu_title">Більше …</string>
+    <string name="move_menu_title">Перемістити</string>
+    <string name="move_result_format">Переміщено %1$d/%2$d файлів</string>
+    <string name="osm_cright_title">Карта плитки ©<a href="http://www.openstreetmap.org/copyright"> OpenStreetMap</a> автори та перекладачі</string>
+    <string name="overwrite_question_title">Перезаписати?</string>
+    <string name="photo_autoprocessing_edit_menu_title">Редагувати автообробку фотографій</string>
+    <string name="preview_message_format">"%1$s %2$d Фотографії
+\u0009%3$s (%4$s), …
+До %5$s
+\u0009%6$s"</string>
+    <string name="rename_menu_title">Перейменувати</string>
+    <string name="rename_result_format">Перейменовано %1$d/%2$d файлів</string>
+    <string name="scanner_dir_question">З чого почати сканування?</string>
+    <string name="scanner_err_busy">Не вдається обробити файли фотографій, поки медіа-сканер Android не працює. Спробуйте ще раз пізніше.</string>
+    <string name="scanner_menu_title">Медіа-сканер</string>
+    <string name="scanner_update_result_format">Оновлено %1$d елементів бази медіа даних</string>
+    <string name="searchbar_menu_title">Пошукова панель</string>
+    <string name="selected_only_menu_title">Лише обрані</string>
+    <string name="selection_add_all_menu_title">Вибір: додавання всіх видимих</string>
+    <string name="selection_none_hint">Виберіть папку, щоб завантажувати фотографії, і натисніть Ok</string>
+    <string name="selection_remove_menu_title">Вибір: видалити все видиме</string>
+    <string name="selection_status_format">%1$d Обрано</string>
+    <string name="settings_bookmark_dir_title">Папка закладок</string>
+    <string name="settings_debug_clear_title">Очистити LogCat</string>
+    <string name="settings_debug_libs_summary">… of 3rd party libraries.</string>
+    <string name="settings_debug_memory_title">"LogCat споживання пам'яті"</string>
+    <string name="settings_debug_meta_io">LogCat jpg/xmp метадані для читання/запису</string>
+    <string name="settings_debug_save_title">Зберегти файл LogCat</string>
+    <string name="settings_debug_sql_summary">… що містить виконаний SQL.</string>
+    <string name="settings_debug_summary">… що міститять інші повідомлення журналу.</string>
+    <string name="settings_debug_title">LogCat різне.</string>
+    <string name="settings_debug_view_item_summary">… що містять елементи gridview / listview.</string>
+    <string name="settings_geo_history_file_title">Встановити файл географічної історії</string>
+    <string name="settings_geo_history_max_title">Встановити географічний розрахунок історії</string>
+    <string name="settings_group_debug_title">Діагностика</string>
+    <string name="settings_image_hide_time_title">Автоматично приховувати панель дій після мілісекунд</string>
+    <string name="settings_image_initialImageDetailResolutionHigh_summary">"Початкова фотографія кращої якості (повільна, потребує більше пам'яті)"</string>
+    <string name="settings_image_initialImageDetailResolutionHigh_title">Покращити якість початкового перегляду фотографій</string>
+    <string name="settings_image_slideshow_intervall_title">Інтервал показу слайдів у мілісекундах</string>
+    <string name="settings_image_thumb_dir_title">Папка мініатюр</string>
+    <string name="settings_image_thumb_if_bigger_than_summary">"Показати ескіз у перегляді деталей зображення, якщо ширина чи висота зображення перевищують це значення (пікселі). Пам'ять ефективна, швидка, але неякісна."</string>
+    <string name="settings_image_thumb_if_bigger_than_title">Показати ескіз для великих зображень</string>
+    <string name="settings_locale_os_language">Система за замовчуванням</string>
+    <string name="settings_locale_title">Мова</string>
+    <string name="settings_log_folder_title">Папка Errorlog</string>
+    <string name="settings_map_selmarker_max_title">Макс. вибрані маркери на карті</string>
+    <string name="settings_maps_forge_dir_title">Оффлайн папка Mapsforge</string>
+    <string name="settings_maps_forge_enable_summary">... який ви завантажили вручну через Пк</string>
+    <string name="settings_maps_forge_enable_tile">Використовуйте автономну карту Mapsforge</string>
+    <string name="settings_media_update_strategy_jpg">лише файли jpg</string>
+    <string name="settings_media_update_strategy_jpg_xmp_create">jpg і xmp (Створити, якщо не знайдено)</string>
+    <string name="settings_media_update_strategy_jpg_xmp_update">jpg (і xmp, якщо існує)</string>
+    <string name="settings_media_update_strategy_title">Напишіть зміни до</string>
+    <string name="settings_media_update_strategy_xmp">лише файли xmp</string>
+    <string name="settings_multisel_clear_summary">Копіювати, переміщати, перейменовувати і т. д.</string>
+    <string name="settings_multisel_clear_title">Очистити мульти-вибір після дії</string>
+    <string name="settings_pick_date_decade4year_summary">І.Е. Покладіть 2010, 2011,... 2019 нижче 2010 року *</string>
+    <string name="settings_pick_date_decade4year_title">Вибір дати: використовуйте десятиріччя</string>
+    <string name="settings_rename_private_jpg_title">Перейменувати приватний *.jpg на *.jpg-p</string>
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_xmp_file_schema_summary">Довгий: file.jpg.xmp; Короткий: file.xmp</string>
+    <string name="settings_xmp_file_schema_title">Довжина імені файлу Sidecar Xmp?</string>
+    <string name="share_err_not_found">Немає постачальника спільного доступу/провайдера</string>
+    <string name="share_err_to_many">Забагато елементів, вибраних для надсилання одночасно</string>
+    <string name="share_menu_title">Поділитися/Надіслати</string>
+    <string name="short_description">Керування локальними фотографіями: Знайти/Скопіювати/Змінити-Exif і показати в Галереї або на Карті.</string>
+    <string name="show_in_filemanager_menu_title">Відкрити в диспетчері файлів</string>
+    <string name="show_in_gallery_menu_title">Показати в новій галереї</string>
+    <string name="show_photo">Показати фотографію(ї)</string>
+    <string name="slideshow_menu_title">Слайд-шоу</string>
+    <string name="sort_by_date">Дата</string>
+    <string name="sort_by_file_size">Розмір</string>
+    <string name="sort_by_folder">Папка</string>
+    <string name="sort_by_modification">Остання зміна</string>
+    <string name="sort_by_name">"Ім'я"</string>
+    <string name="sort_by_name_len">Довжина шляху файлу</string>
+    <string name="sort_by_none">Несортований</string>
+    <string name="sort_by_place">Місце</string>
+    <string name="sort_by_rating">Оцінка</string>
+    <string name="sort_by_width">Ширина</string>
+    <string name="sort_menu_title">Сортувати</string>
+    <string name="tags_activity_title">Фільтр міток</string>
+    <string name="tags_add_default">новий_тег</string>
+    <string name="tags_add_menu_title">Створити нову мітку</string>
+    <string name="tags_defaults">Діяльність, Люди, Місця, Теми, Проекти</string>
+    <string name="tags_delete_children_title">Видалити дітей</string>
+    <string name="tags_edit_menu_title">Встановити позначки</string>
+    <string name="tags_hint">Довге натискання на меню тега відкриває меню</string>
+    <string name="tags_search_hint">Введіть тут, щоб відфільтрувати...</string>
+    <string name="tags_search_no_matching_items_found">Відповідних міток не знайдено</string>
+    <string name="tags_update_photos">Оновити мітки в пошкоджених фотографіях</string>
+    <string name="title">Менеджер фотографій</string>
+    <string name="update_result_format">Оновлено файли %1$d/%2$d</string>
+    <string name="view_context_menu_title">Завантаження контексту ...</string>
+    <string name="zoom_to_fit_menu_title">Збільшити, щоб відповідати</string>
+</resources>

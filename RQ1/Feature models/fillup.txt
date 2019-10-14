@@ -1,0 +1,12 @@
+license=UnsupportedPreference
+help=UnsupportedPreference
+pkg_name=UnsupportedPreference
+build_date=UnsupportedPreference
+display_cost=BooleanPreference
+pkg_version=UnsupportedPreference
+currency=UnsupportedPreference
+database_version=UnsupportedPreference
+units=ListPreference
+require_cost=BooleanPreference
+plot_font_size=ListPreference
+display_notes=BooleanPreference

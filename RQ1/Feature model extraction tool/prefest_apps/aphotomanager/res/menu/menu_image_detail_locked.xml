@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_lock_lock" android:id="@id/cmd_app_unpin" android:visible="true" android:orderInCategory="3" android:title="@string/menu_title_app_unpinnend" android:showAsAction="always" />
+    <item android:id="@id/action_slideshow" android:orderInCategory="901" android:title="@string/slideshow_menu_title" android:checkable="true" android:showAsAction="never" />
+    <item android:icon="@android:drawable/ic_lock_lock" android:id="@id/cmd_app_unpin2" android:visible="true" android:orderInCategory="9999" android:title="@string/menu_title_app_unpinnend" android:showAsAction="never" />
+    <item android:id="@id/cmd_about" android:visible="true" android:orderInCategory="10001" android:title="@string/about_summary" android:showAsAction="never" />
+</menu>

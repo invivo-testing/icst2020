@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@android:id/tabhost" android:background="@drawable/bkgmain" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/tab1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/headtab1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/head" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                        <TextView android:textStyle="bold" android:id="@id/textView623" android:background="#ff444444" android:layout_width="50.0sp" android:layout_height="wrap_content" android:text="@string/hello" android:layout_weight="1.0" />
+                        <TextView android:textStyle="bold" android:id="@id/textView223" android:background="#ff444444" android:layout_width="50.0sp" android:layout_height="wrap_content" android:text="@string/result" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/textfield" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <EditText android:gravity="right" android:id="@id/ValueFrom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/curentamount" android:maxLength="10" android:layout_weight="1.0" android:inputType="numberDecimal|numberSigned" />
+                        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="=" />
+                        <EditText android:gravity="left" android:id="@id/ValueResult" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/curentamount" android:maxLength="12" android:layout_weight="1.0" android:inputType="none" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/head2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                        <TextView android:textStyle="bold" android:id="@id/textView4" android:background="#ff444444" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/FROM" android:layout_weight="1.0" />
+                        <TextView android:textStyle="bold" android:id="@id/textView2" android:background="#ff444444" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/TO" android:layout_weight="1.0" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ScrollView android:orientation="horizontal" android:id="@id/scroll1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:id="@id/courseslayout1" android:layout_width="fill_parent" android:layout_height="0.0dip">
+                        <RadioGroup android:id="@id/radioGroup1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <RadioButton android:id="@id/fromUSD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/USDfrom" android:drawableLeft="@drawable/us" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromEUR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EURfrom" android:drawableLeft="@drawable/europeanunion" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromCHF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CHFfrom" android:drawableLeft="@drawable/ch" android:drawablePadding="10.0dip" />
+                            <RadioButton android:id="@id/fromGBP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/GBPfrom" android:drawableLeft="@drawable/gb" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromJPY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/JPYfrom" android:drawableLeft="@drawable/jp" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromUAH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/UAHfrom" android:drawableLeft="@drawable/ua" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromRUB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RUBfrom" android:drawableLeft="@drawable/ru" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromMDL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MDLfrom" android:drawableLeft="@drawable/md" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromBYR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BYRfrom" android:drawableLeft="@drawable/by" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromPLN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/PLNfrom" android:drawableLeft="@drawable/pl" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromLTL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/LTLfrom" android:drawableLeft="@drawable/lt" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromLVL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/LVLfrom" android:drawableLeft="@drawable/lv" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromAZN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AZNfrom" android:drawableLeft="@drawable/az" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromAUD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AUDfrom" android:drawableLeft="@drawable/au" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromAMD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMDfrom" android:drawableLeft="@drawable/am" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromBGN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BGNfrom" android:drawableLeft="@drawable/bg" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromBRL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BRLfrom" android:drawableLeft="@drawable/br" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromHUF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HUFfrom" android:drawableLeft="@drawable/hu" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromDKK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DKKfrom" android:drawableLeft="@drawable/dk" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromINR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/INRfrom" android:drawableLeft="@drawable/in" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromKZT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KZTfrom" android:drawableLeft="@drawable/kz" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromCAD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CADfrom" android:drawableLeft="@drawable/ca" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromKGS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KGSfrom" android:drawableLeft="@drawable/kg" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromCNY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CNYfrom" android:drawableLeft="@drawable/cn" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromNOK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NOKfrom" android:drawableLeft="@drawable/no" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromRON" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RONfrom" android:drawableLeft="@drawable/ro" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromXDR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/XDRfrom" android:drawableLeft="@drawable/fam" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromSGD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SGDfrom" android:drawableLeft="@drawable/sg" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromTJS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TJSfrom" android:drawableLeft="@drawable/tj" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromTRY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TRYfrom" android:drawableLeft="@drawable/tr" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromTMT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TMTfrom" android:drawableLeft="@drawable/tm" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromUZS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/UZSfrom" android:drawableLeft="@drawable/uz" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromCZK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CZKfrom" android:drawableLeft="@drawable/cz" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromSEK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SEKfrom" android:drawableLeft="@drawable/se" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromZAR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ZARfrom" android:drawableLeft="@drawable/za" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromKRW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KRWfrom" android:drawableLeft="@drawable/kr" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/fromFOO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/FOOfrom" android:drawableLeft="@drawable/fam" android:drawablePadding="5.0dip" />
+                        </RadioGroup>
+                        <RadioGroup android:id="@id/radioGroup2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <RadioButton android:id="@id/toUSD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/USDfrom" android:drawableLeft="@drawable/us" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toEUR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EURfrom" android:drawableLeft="@drawable/europeanunion" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toCHF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CHFfrom" android:drawableLeft="@drawable/ch" android:drawablePadding="10.0dip" />
+                            <RadioButton android:id="@id/toGBP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/GBPfrom" android:drawableLeft="@drawable/gb" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toJPY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/JPYfrom" android:drawableLeft="@drawable/jp" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toUAH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/UAHfrom" android:drawableLeft="@drawable/ua" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toRUB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RUBfrom" android:drawableLeft="@drawable/ru" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toMDL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MDLfrom" android:drawableLeft="@drawable/md" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toBYR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BYRfrom" android:drawableLeft="@drawable/by" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toPLN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/PLNfrom" android:drawableLeft="@drawable/pl" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toLTL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/LTLfrom" android:drawableLeft="@drawable/lt" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toLVL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/LVLfrom" android:drawableLeft="@drawable/lv" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toAZN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AZNfrom" android:drawableLeft="@drawable/az" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toAUD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AUDfrom" android:drawableLeft="@drawable/au" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toAMD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMDfrom" android:drawableLeft="@drawable/am" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toBGN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BGNfrom" android:drawableLeft="@drawable/bg" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toBRL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BRLfrom" android:drawableLeft="@drawable/br" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toHUF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HUFfrom" android:drawableLeft="@drawable/hu" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toDKK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DKKfrom" android:drawableLeft="@drawable/dk" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toINR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/INRfrom" android:drawableLeft="@drawable/in" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toKZT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KZTfrom" android:drawableLeft="@drawable/kz" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toCAD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CADfrom" android:drawableLeft="@drawable/ca" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toKGS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KGSfrom" android:drawableLeft="@drawable/kg" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toCNY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CNYfrom" android:drawableLeft="@drawable/cn" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toNOK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NOKfrom" android:drawableLeft="@drawable/no" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toRON" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RONfrom" android:drawableLeft="@drawable/ro" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toXDR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/XDRfrom" android:drawableLeft="@drawable/fam" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toSGD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SGDfrom" android:drawableLeft="@drawable/sg" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toTJS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TJSfrom" android:drawableLeft="@drawable/tj" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toTRY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TRYfrom" android:drawableLeft="@drawable/tr" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toTMT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TMTfrom" android:drawableLeft="@drawable/tm" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toUZS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/UZSfrom" android:drawableLeft="@drawable/uz" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toCZK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CZKfrom" android:drawableLeft="@drawable/cz" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toSEK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SEKfrom" android:drawableLeft="@drawable/se" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toZAR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ZARfrom" android:drawableLeft="@drawable/za" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toKRW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KRWfrom" android:drawableLeft="@drawable/kr" android:drawablePadding="5.0dip" />
+                            <RadioButton android:id="@id/toFOO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/FOOfrom" android:drawableLeft="@drawable/fam" android:drawablePadding="5.0dip" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tab2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <ScrollView android:id="@id/scroll2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/USDcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texUSDfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/USDfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textUSD_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/USD_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseUSD" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/USD" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseUSDrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/USD" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/USDcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/EURcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texEURfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EURfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textEUR_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EUR_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseEUR" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/EUR" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseEURrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/EUR" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/EURcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/CHFcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texCHFfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CHFfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textCHF_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CHF_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseCHF" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/CHF" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseCHFrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/CHF" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/CHFcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/GBPcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texGBPfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/GBPfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textGBP_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/GBP_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseGBP" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/GBP" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseGBPrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/GBP" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/GBPcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/JPYcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texJPYfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/JPYfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textJPY_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/JPY_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseJPY" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/JPY" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseJPYrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/JPY" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/JPYcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/UAHcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texUAHfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/UAHfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textUAH_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/UAH_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseUAH" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/UAH" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseUAHrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/UAH" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/UAHcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/RUBcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texRUBfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RUBfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textRUB_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RUB_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseRUB" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/RUB" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseRUBrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/RUB" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/RUBcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/MDLcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texMDLfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MDLfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textMDL_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MDL_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseMDL" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/MDL" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseMDLrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/MDL" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/MDLcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/BYRcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texBYRfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BYRfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textBYR_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BYR_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseBYR" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/BYR" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseBYRrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/BYR" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/BYRcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/PLNcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texPLNfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/PLNfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textPLN_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/PLN_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CoursePLN" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/PLN" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CoursePLNrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/PLN" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/PLNcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/LTLcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texLTLfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/LTLfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textLTL_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/LTL_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseLTL" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/LTL" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseLTLrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/LTL" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/LTLcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/LVLcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texLVLfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/LVLfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textLVL_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/LVL_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseLVL" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/LVL" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseLVLrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/LVL" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/LVLcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/AZNcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texAZNfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AZNfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textAZN_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AZN_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseAZN" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/AZN" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseAZNrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/AZN" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/AZNcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/AUDcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texAUDfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AUDfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textAUD_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AUD_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseAUD" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/AUD" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseAUDrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/AUD" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/AUDcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/AMDcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texAMDfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMDfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textAMD_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AMD_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseAMD" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/AMD" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseAMDrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/AMD" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/AMDcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/BGNcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texBGNfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BGNfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textBGN_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BGN_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseBGN" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/BGN" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseBGNrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/BGN" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/BGNcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/BRLcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texBRLfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BRLfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textBRL_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BRL_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseBRL" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/BRL" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseBRLrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/BRL" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/BRLcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/HUFcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texHUFfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HUFfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textHUF_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HUF_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseHUF" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/HUF" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseHUFrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/HUF" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/HUFcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/DKKcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texDKKfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DKKfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textDKK_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DKK_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseDKK" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/DKK" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseDKKrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/DKK" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/DKKcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/INRcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texINRfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/INRfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textINR_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/INR_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseINR" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/INR" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseINRrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/INR" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/INRcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/KZTcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texKZTfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KZTfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textKZT_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KZT_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseKZT" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/KZT" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseKZTrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/KZT" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/KZTcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/CADcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texCADfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CADfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textCAD_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CAD_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseCAD" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/CAD" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseCADrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/CAD" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/CADcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/KGScl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texKGSfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KGSfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textKGS_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KGS_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseKGS" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/KGS" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseKGSrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/KGS" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/KGScls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/CNYcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texCNYfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CNYfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textCNY_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CNY_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseCNY" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/CNY" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseCNYrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/CNY" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/CNYcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/NOKcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texNOKfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NOKfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textNOK_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NOK_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseNOK" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/NOK" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseNOKrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/NOK" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/NOKcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/RONcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texRONfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RONfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textRON_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RON_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseRON" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/RON" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseRONrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/RON" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/RONcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/XDRcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texXDRfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/XDRfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textXDR_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/XDR_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseXDR" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/XDR" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseXDRrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/XDR" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/XDRcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/SGDcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texSGDfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SGDfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textSGD_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SGD_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseSGD" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/SGD" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseSGDrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/SGD" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/SGDcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/TJScl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texTJSfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TJSfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textTJS_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TJS_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseTJS" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/TJS" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseTJSrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/TJS" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/TJScls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/TRYcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texTRYfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TRYfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textTRY_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TRY_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseTRY" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/TRY" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseTRYrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/TRY" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/TRYcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/TMTcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texTMTfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TMTfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textTMT_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TMT_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseTMT" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/TMT" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseTMTrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/TMT" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/TMTcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/UZScl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texUZSfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/UZSfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textUZS_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/UZS_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseUZS" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/UZS" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseUZSrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/UZS" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/UZScls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/CZKcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texCZKfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CZKfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textCZK_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CZK_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseCZK" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/CZK" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseCZKrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/CZK" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/CZKcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/SEKcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texSEKfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SEKfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textSEK_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SEK_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseSEK" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/SEK" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseSEKrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/SEK" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/SEKcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/ZARcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texZARfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ZARfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textZAR_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ZAR_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseZAR" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/ZAR" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseZARrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/ZAR" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/ZARcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/KRWcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texKRWfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KRWfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textKRW_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KRW_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseKRW" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/KRW" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseKRWrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/KRW" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/KRWcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/FOOcl" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="18.0sp" android:id="@id/texFOOfrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/FOOfrom" />
+                                <TextView android:textSize="12.0sp" android:id="@id/textFOO_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/FOO_discription" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <EditText android:id="@id/CourseFOO" android:visibility="invisible" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/FOO" android:inputType="numberDecimal" />
+                                <EditText android:id="@id/CourseFOOrate" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="@string/FOO" android:inputType="numberDecimal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@id/FOOcls" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    </LinearLayout>
+                </ScrollView>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip">
+                    <Button android:id="@id/BankChangeButton" android:layout_width="45.0dip" android:layout_height="fill_parent" android:drawableLeft="@drawable/bank" android:onClick="BankChangeClickHandler" />
+                    <Button android:textSize="14.0dip" android:id="@id/UpdateButton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/UpdateButtonText" android:layout_weight="1.0" android:onClick="UpdateButtonClickHandler" />
+                    <Button android:id="@id/CopyFromBankButton" android:layout_width="45.0dip" android:layout_height="fill_parent" android:drawableLeft="@drawable/copy_from_bank" android:onClick="CopyFromBankClickHandler" />
+                    <ToggleButton android:id="@id/InverseStateButton" android:layout_width="45.0dip" android:layout_height="fill_parent" android:textOn="" android:textOff="" android:drawableLeft="@drawable/inverse" android:onClick="InverseStateClickHandler" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

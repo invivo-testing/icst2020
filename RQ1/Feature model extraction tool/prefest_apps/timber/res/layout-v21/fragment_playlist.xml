@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar n1:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n1:elevation="5.0dip" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <com.naman14.timber.widgets.MultiViewPager n1:layout_gravity="bottom" n1:id="@id/playlistpager" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n3:matchChildWidth="@id/vg_cover" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <android.support.v7.widget.RecyclerView n1:id="@id/recyclerview" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:fadeScrollbars="true" n4:layout_behavior="@string/appbar_scrolling_view_behavior" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

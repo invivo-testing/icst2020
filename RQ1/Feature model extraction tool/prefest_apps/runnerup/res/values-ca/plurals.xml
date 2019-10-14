@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cue_bpm">
+        <item quantity="other">%d bpm</item>
+        <item quantity="one">%d bpm</item>
+    </plurals>
+    <plurals name="cue_hour">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="cue_kilometer">
+        <item quantity="other">%s kilòmetres</item>
+        <item quantity="one">%s kilòmetre</item>
+    </plurals>
+    <plurals name="cue_kilometers_per_hour">
+        <item quantity="other">%s quilòmetres per hora</item>
+        <item quantity="one">%s quilòmetre per hora</item>
+    </plurals>
+    <plurals name="cue_meter">
+        <item quantity="other">%d metres</item>
+        <item quantity="one">%d metre</item>
+    </plurals>
+    <plurals name="cue_mile">
+        <item quantity="other">%s milles</item>
+        <item quantity="one">%s milla</item>
+    </plurals>
+    <plurals name="cue_miles_per_hour">
+        <item quantity="other">%s milles per hora</item>
+        <item quantity="one">%s milla per hora</item>
+    </plurals>
+    <plurals name="cue_minute">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="cue_second">
+        <item quantity="other">%d segons</item>
+        <item quantity="one">%d segon</item>
+    </plurals>
+</resources>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">About</string>
+    <string name="about_content">"  &lt;a href=https://github.com/k3b/APhotoManager/wiki>
+    &lt;b>A Photo Manager&lt;/b>
+  &lt;/a>
+  &lt;br />Version AndroFotoFinder $versionName$
+  &lt;br />
+  &lt;hr />$about$
+  &lt;br />
+  &lt;hr />$translate$
+  &lt;hr />
+  &lt;p>Minimal requirements: Android 4.0 (API 14), Internet/WiFi connection to download geodata and a SD card to cache geodata and to
+  store photos
+  &lt;br />
+  &lt;br />Licence: 
+  &lt;a href=http://www.gnu.org/licenses/gpl-3.0>GPLv3&lt;/a>
+  &lt;br />
+  &lt;br />Required permissions:&lt;/p>
+  &lt;ul>
+    &lt;li>INTERNET: to download map data from Open Street Map Server&lt;/li>
+    &lt;li>ACCESS_NETWORK_STATE and ACCESS_WIFI_STATE: to find out if WiFi/Internet is online to start downloading geodata if
+    necessary&lt;/li>
+    &lt;li>WRITE_EXTERNAL_STORAGE to cache downloaded map data in local file system and to do file operations.&lt;/li>
+    &lt;li>READ_LOGS after app crash the logcat is written to /mnt/sdcard/copy/log/androFotofinder.logcat*.txt .&lt;/li>
+  &lt;/ul>
+  &lt;p>The code uses&lt;/p>
+  &lt;ul>
+    &lt;li>
+    App icons desigend by Md Nazmul Hasan (cc) 2018 Creative Commons Attribution 4.0 International License.&lt;/li>
+    &lt;li>
+    &lt;a href=https://github.com/osmdroid/osmdroid>osmdroid library&lt;/a> to display online maps from
+    &lt;a href=http://www.openstreetmap.org>Open Street Map&lt;/a>&lt;/li>
+    &lt;li>
+    &lt;a href=https://github.com/LonamiWebs/Stringlate/>Andrid Stringlate app&lt;/a> to allow the app
+    user to thranslate this app to other gui-languages&lt;/li>
+    &lt;li>
+    &lt;a href=https://github.com/mapsforge/mapsforge>mapsforge library&lt;/a> to display offline maps&lt;/li>
+    &lt;li>
+    &lt;a href=https://github.com/chrisbanes/PhotoView>chris bane&amp;#39;s PhotoView&lt;/a> that implemnts the zoomable image view.
+    &lt;a href=https://github.com/k3b/PhotoView>Using k3b-s extended version with reload on zoom and hugeimage-support)&lt;/a> that has not been merged into the original yet&lt;/li>
+    &lt;li>
+    &lt;a href=https://github.com/nostra13/Android-Universal-Image-Loader>Sergey Tarasevich's  Android-Universal-Image-Loader&lt;/a> for
+    manageing miniatur image previews(thumbnails)&lt;/li>
+    &lt;li>
+    &lt;a href=https://github.com/k3b/k3b-geoHelper>k3b-geoHelper&lt;/a> for handling geo-uri-s&lt;/li>
+    &lt;li>
+    &lt;a href=https://github.com/drewnoakes/metadata-extractor/wiki/GettingStarted>drew noakes metadata-extractor&lt;/a> to display
+    extended exif info&lt;/li>
+    &lt;li>
+    &lt;a href=http://www.slf4j.org/>slf4j logging for java&lt;/a> with the 
+    &lt;a href=http://github.com/lp0/slf4j-android>https://github.com/lp0/slf4j-android&lt;/a> driver&lt;/li>
+    &lt;li>
+    &lt;a href=http://junit.org/>junit testing support&lt;/a> with 
+    &lt;a href=https://github.com/mockito/mockito>Mockito&lt;/a>&lt;/li>
+  &lt;/ul>
+  &lt;hr />
+  &lt;h2>History&lt;/h2>
+  See &lt;a href=https://github.com/k3b/APhotoManager/wiki/History>History&lt;/a>.
+  &lt;br />
+  &lt;hr />
+  &lt;h2>Links&lt;/h2>
+  &lt;ul>
+    &lt;li>Source code of current version of &amp;quot;a Photo Manager&amp;quot; (A(ndro)FotoFinder) at git repository@github.com
+    &lt;br />
+    &lt;a href=http://github.com/k3b/APhotoManager/>https://github.com/k3b/APhotoManager/&lt;/a>&lt;/li>
+    &lt;li>
+      &lt;a href=https://github.com/k3b/APhotoManager/wiki/History>APhotoManager Changelog&lt;/a>
+    &lt;/li>
+    &lt;li>Source code of osmdroid library at git repository@github.com
+    &lt;br />
+    &lt;a href=https://github.com/osmdroid/osmdroid>https://github.com/osmdroid/osmdroid&lt;/a>&lt;/li>
+    &lt;li>slf4j logging for java org.slf4j:slf4j-api
+    &lt;br />
+    &lt;a href=http://www.slf4j.org/>http://www.slf4j.org/&lt;/a>&lt;/li>
+    &lt;li>slf4j logging driver for android eu.lp0.slf4j:slf4j-android
+    &lt;br />
+    &lt;a href=http://github.com/lp0/slf4j-android>https://github.com/lp0/slf4j-android&lt;/a>&lt;/li>
+    &lt;li>junit testing support junit:junit
+    &lt;br />
+    &lt;a href=http://junit.org/>http://junit.org/&lt;/a>&lt;/li>
+    &lt;li>Mockito testing support
+    &lt;br />
+    &lt;a href=https://github.com/mockito/mockito>https://github.com/mockito/mockito&lt;/a>&lt;/li>
+    &lt;li>Geographic data comes from Open Street Map
+    &lt;br />
+    &lt;a href=http://www.openstreetmap.org>http://www.openstreetmap.org&lt;/a>&lt;/li>
+    &lt;li>The GPLv3 license is available at
+    &lt;br />
+    &lt;a href=http://www.gnu.org/licenses/gpl-3.0>http://www.gnu.org/licenses/gpl-3.0&lt;/a>&lt;/li>
+  &lt;/ul>
+  &lt;br />
+  &lt;hr />
+  &lt;h2>Legal stuff&lt;/h2>
+  &lt;b>A Photo Manager (A(ndro)FotoFinder)&lt;/b>
+  &lt;br />
+  &lt;br />Copyright (c) 2015-2018 by k3b
+  &lt;br />Licensed under GPL, Verion 3.0 or later.
+  &lt;br />
+  &lt;hr />Translations supported 
+  &lt;a href=http://crowdin.com>crowdin.com&lt;/a>
+  &lt;ul>
+  \u0009&lt;li>ar Arabic by Vitality, medowill&lt;/li>
+  \u0009&lt;li>nl Dutch by ookikgavertalen, keunes&lt;/li>
+    &lt;li>en English by k3b, v133, keunes and mary-kate&lt;/li>
+    &lt;li>fr French by Poussinou, tuuux&lt;/li>
+    &lt;li>de German by k3b and v133&lt;/li>
+    &lt;li>in Indonesian by isaideureka&lt;/li>
+    &lt;li>it Italian by .Rogue.,random_r&lt;/li>
+    &lt;li>ja Japanese by naofum&lt;/li>
+    &lt;li>pl Polish by Maselkowicz&lt;/li>
+    &lt;li>pt-rBR Portugeese by thiagonkami, Nana13&lt;/li>
+    &lt;li>ro Romanian by mironeasav&lt;/li>
+    &lt;li>es Spanish by Andreaevangelina, Dani Certad (daniconejito)
+    &lt;li>ru Russian by Dmitry Zhgun (trupizzza), ku ku(2ku), divizdev, Sergey (LegionAnon)&lt;/li>
+    &lt;li>tr Turkish by Boyut, srkns, erdenerr&lt;/li>
+    &lt;li>uk Ukrainian by Sergey (LegionAnon)&lt;/li>
+\u0009&lt;li>zh-rCN Chinese (China) by Forbidden (cptbl00dra1n), Liu Feng (pitumaomao)&lt;/li>
+\u0009&lt;li>zh-rTW Chinese (Taiwan) by Liu Feng (pitumaomao), rosatravels&lt;/li>
+  &lt;/ul>
+  &lt;br />Android is a trademark of Google Inc. Use of this trademark is subject to Google Permissions.
+  &lt;br />
+  &lt;hr />
+  &lt;br />
+  &lt;br />
+  &lt;hr />
+  &lt;br />
+  &lt;br />
+  &lt;hr />
+  &lt;br />
+  "</string>
+    <string name="about_content_about">"
+&lt;h1>A Photo Manager&lt;/h1>with &amp;#39;A Photo Map&amp;#39; in &amp;#39;AndroFotoFinder&amp;#39;
+  &lt;br />
+&lt;!-- this will also become translation 'short_description.txt' in fdroid -->
+&lt;h2>
+Manage local photos: Find/Copy/Edit-Exif and show in Gallery or Map.
+&lt;/h2>
+
+&lt;!-- this (without the links) will also become translation 'full_description.txt' in fdroid and part of github-wiki -->
+Features:
+
+&lt;ul>
+     &lt;li>Fast &lt;a href='https://github.com/k3b/APhotoManager/wiki/Filter-View'>
+\u0009\u0009find photos&lt;/a> by
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/Tags'>
+\u0009\u0009tags(keywords)&lt;/a>,
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/Folder-Picker'>
+\u0009\u0009(sub-)folder&lt;/a>, date,
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/geographic-map'>
+\u0009\u0009geographic map&lt;/a>, title, rating, ...
+&lt;/li>&lt;li>Display result in
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/Gallery-View'>
+\u0009\u0009gallery&lt;/a> or
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/geographic-map'>
+\u0009\u0009geographic map&lt;/a> from openstreetmap.
+&lt;/li>&lt;li>&lt;a href='https://github.com/k3b/APhotoManager/wiki/Image-View'>
+\u0009\u0009Detail view&lt;/a> features zooming, swiping for next/previous image.
+&lt;/li>&lt;li>Buildin file manager for photos: find, sort, view, copy,
+\u0009\u0009delete, send, ... .
+&lt;/li>&lt;li>&lt;a href='https://github.com/k3b/AndroFotoFinder/wiki/Exif-Edit'>
+\u0009\u0009Edit exif metadata&lt;/a>: date, title, description,
+\u0009\u0009&lt;a href='https://github.com/k3b/APhotoManager/wiki/Tags'>
+\u0009\u0009tags(keywords)&lt;/a>, geo, rating, ....
+&lt;/li>&lt;li>Optional Folder-Rule based &lt;a href='https://github.com/k3b/AndroFotoFinder/wiki/AutoProcessing'>autoprocessing&lt;/a>:
+\u0009\u0009Photos are automatically renamed and get tags, geo, title, ... when you copy/move them.
+&lt;/li>&lt;li>Mark images as PRIVATE to hide them from other Gallery-Apps and image pickers.
+&lt;/li>&lt;li>In &lt;a href='https://github.com/k3b/APhotoManager/wiki/AppPinning'>Protected/Pinned Mode&lt;/a>
+\u0009\u0009potetially dangerous app-commands like edit/copy/delete/share/settings/change image selection
+\u0009\u0009are disabled so you can savley hand over your phone to someone else.
+&lt;/li>&lt;li>Can handle big image collections (20000+ images in 1000+ folders).
+&lt;/li>&lt;li>Uses Android's image content-provider. No initial image scan
+\u0009\u0009neccessary.
+&lt;/li>&lt;li>Extended photo media scanner for Exif, IPTC, XMP
+&lt;/li>&lt;/ul>
+
+Required Android Permissions:
+
+&lt;ul>
+     &lt;li>INTERNET: to download map data from Open Streetmap Server
+&lt;/li>&lt;li>ACCESS_NETWORK_STATE and ACCESS_WIFI_STATE: to find out if
+\u0009\u0009wifi/internet is online to start downloaded geodata
+&lt;/li>&lt;li>WRITE_EXTERNAL_STORAGE to cache downloaded map data
+\u0009\u0009in local file system and to do file operations with the photos
+&lt;/li>&lt;li>READ_LOGS to read and save potential crash-logs to a textfile.
+&lt;/li>&lt;/ul>
+  &lt;br />
+"</string>
+    <string name="about_message">This software uses map data provided by OpenStreetMap.org</string>
+    <string name="about_summary">About \"A Photo Manager%1$s\"</string>
+    <string name="about_translate">"
+\u0009App and internet homepage available in these languages:&lt;ul>
+\u0009&lt;li>
+\u0009\u0009&lt;a href=https://github.com/k3b/APhotoManager/wiki/ar-home>ar&lt;/a>,&amp;nbsp;
+\u0009\u0009&lt;a href=https://github.com/k3b/APhotoManager/wiki/de-home>de&lt;/a>,&amp;nbsp;
+\u0009\u0009&lt;a href=https://github.com/k3b/APhotoManager/wiki/home>en&lt;/a>,&amp;nbsp;
+\u0009\u0009&lt;a href=https://github.com/k3b/APhotoManager/wiki/es-home>es&lt;/a>,&amp;nbsp;
+\u0009\u0009&lt;a href=https://github.com/k3b/APhotoManager/wiki/fr-home>fr&lt;/a>,&amp;nbsp;
+\u0009\u0009&lt;a href=https://github.com/k3b/APhotoManager/wiki/id-home>id&lt;/a>,&amp;nbsp;
+\u0009\u0009&lt;a href=https://github.com/k3b/APhotoManager/wiki/it-home>it&lt;/a>,&amp;nbsp;
+\u0009\u0009&lt;a href=https://github.com/k3b/APhotoManager/wiki/ja-home>ja&lt;/a>,&amp;nbsp;
+\u0009\u0009nl,&amp;nbsp;pl,&amp;nbsp;
+\u0009\u0009&lt;a href=https://github.com/k3b/APhotoManager/wiki/ro-home>ro&lt;/a>
+\u0009\u0009,&amp;nbsp;ru,
+\u0009\u0009&amp;nbsp;&lt;a href=https://github.com/k3b/APhotoManager/wiki/tr-home>tr&lt;/a>,
+\u0009\u0009&amp;nbsp;&lt;a href=https://github.com/k3b/APhotoManager/wiki/uk-home>uk&lt;/a>,
+\u0009\u0009&amp;nbsp;&lt;a href=https://github.com/k3b/APhotoManager/wiki/zh-CN-home>zh-CN&lt;/a>,
+\u0009\u0009&amp;nbsp;&lt;a href=https://github.com/k3b/APhotoManager/wiki/zh-TW-home>zh-TW&lt;/a>
+\u0009&lt;/li>
+\u0009&lt;li>
+\u0009\u0009&lt;b>Help us to translate this app into other languages:&lt;/b>
+\u0009\u0009&lt;ul>
+\u0009\u0009\u0009&lt;li>On a pc with keyboard and internet access through the
+\u0009\u0009\u0009\u0009&lt;a href=https://github.com/k3b/APhotoManager/issues/21>crowdin.com website.&lt;/a>
+\u0009\u0009\u0009&lt;/li>
+\u0009\u0009\u0009&lt;li>On android through the A Photo Manager menu &lt;b>Settings/Translate&lt;/b> using the stringlate app.
+\u0009\u0009\u0009&lt;/li>
+\u0009\u0009&lt;/ul>
+\u0009&lt;/li>
+&lt;/ul>
+\u0009"</string>
+    <string name="app_image_viewer_title">A Photo Viewer</string>
+    <string name="app_map_title">A Photo Map</string>
+    <string name="app_name">A Photo Manager</string>
+    <string name="area_menu_title">Map Area Filter</string>
+    <string name="background">Background</string>
+    <string name="base">OSM base layer</string>
+    <string name="base_nl">Netherlands base overlay</string>
+    <string name="bing">Bing</string>
+    <string name="bookmark">Album</string>
+    <string name="bookmark_delete_answer_format">Deleted album %1$s.</string>
+    <string name="bookmark_delete_error_format">Cannot delete album %1$s.</string>
+    <string name="bookmark_delete_question">Delete this album?</string>
+    <string name="bookmark_file_comment_format">"Generated on %3$s with '%1$s' Version %2$s. See https://github.com/k3b/APhotoManager/wiki/intentapi#sql for details"</string>
+    <string name="bookmark_reset">RESET</string>
+    <string name="bookmark_save_as_menu_title">Save album as …</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_popup">…</string>
+    <string name="clear_menu_title">Clear</string>
+    <string name="compass">Compass</string>
+    <string name="copy_result_format">Copied %1$d/%2$d files</string>
+    <string name="cyclemap">Cycle Map</string>
+    <string name="date_picker_menu_title">Date Filter</string>
+    <string name="delete_menu_title">Delete</string>
+    <string name="delete_question_message_format">"Are you sure you want to permanently delete these files?
+\u0009%1$s
+\u0009
+\u0009This operation cannot be reversed."</string>
+    <string name="delete_question_title">Delete photo(s)?</string>
+    <string name="delete_result_format">Deleted %1$d/%2$d files</string>
+    <string name="destination_copy">Copy destination</string>
+    <string name="destination_move">Move destination</string>
+    <string name="details_menu_title">Details</string>
+    <string name="edit_chooser_title">Choose photo editor</string>
+    <string name="edit_err_editor_not_found">No photo editor found</string>
+    <string name="edit_menu_title">Edit</string>
+    <string name="err_low_memory">Not enough memory available to load %1$s.</string>
+    <string name="exif_menu_title">Edit Exif</string>
+    <string name="fiets_nl">OpenFietsKaart overlay</string>
+    <string name="file_err_writeprotected">"writeprotected '%1$s'.
+
+'%2$s' is not possible."</string>
+    <string name="filter_any_hint">Part of Tags, Title, Description or Path</string>
+    <string name="filter_err_invalid_date_format">"'%1$s' is not a valid date."</string>
+    <string name="filter_err_invalid_location_format">"'%1$s' is not a valid coordinate."</string>
+    <string name="filter_menu_title">Filter</string>
+    <string name="filter_menu_title_album">Edit Virtual Album</string>
+    <string name="filter_path_hint">Part of Folder or Filename. %=Wildcard</string>
+    <string name="first_fix_message">Got the first fix</string>
+    <string name="fix_link_menu_title">Repair duplicates</string>
+    <string name="folder_dialog_title_format">Select %1$s</string>
+    <string name="folder_err_load_failed_format">Loading folder %1$s failed</string>
+    <string name="folder_hide_images_menu_title">Hide Images</string>
+    <string name="folder_hide_images_question_message_format">"Are you sure?
+
+Do you want to make all media files (photo, video, audio) below
+
+    %1$s
+
+invisible for media database, gallery apps and the media scanner?
+
+You can undo hiding by calling the mediascanner from gallery-menu."</string>
+    <string name="folder_menu_title">Folder Filter</string>
+    <string name="format_distance_feet">%s ft</string>
+    <string name="format_distance_kilometers">%s km</string>
+    <string name="format_distance_meters">%s m</string>
+    <string name="format_distance_miles">%s mi</string>
+    <string name="format_distance_nautical_miles">%s nm</string>
+    <string name="full_description">"
+    Manage local photos: Find/Copy/Edit-Exif and show in Gallery or Map.
+
+    Features:
+
+    * Fast find photos by tags(keywords), (sub-)folder, date, geo , title, ...
+    * Display result in gallery or geographic map from openstreetmap.
+    * Detail view features zooming, swiping for next/previous image.
+    * Buildin file manager for photos: find, sort, view, copy, delete, send, ... .
+    * Edit exif metadata: date, title, description, tags(keywords), geo, rating, ....
+    * Optional Folder-Rule based autoprocessing: Photos are automatically renamed and get tags, geo, title, ... when you copy/move them
+    * Mark images as PRIVATE to hide them from other Gallery-Apps and image pickers.
+    * In Protected/Pinned Mode potetially dangerous app-commands like edit/copy/delete/share/settings/change image selection are disabled so you can savley hand over your phone to someone else
+    * Can handle big image collections (20000+ images in 1000+ folders).
+    * Uses Android's image content-provider. No initial image scan neccessary.
+    * Extended photo media scanner for Exif, IPTC, XMP
+
+    Required Android Permissions:
+
+    * INTERNET: to download map data from Open Streetmap Server
+    * ACCESS_NETWORK_STATE and ACCESS_WIFI_STATE: to find out if wifi/internet is online to start downloaded geodata
+    * WRITE_EXTERNAL_STORAGE to cache downloaded map data in local file system and to do file operations with the photos
+    * READ_LOGS to read and save potential crash-logs to a textfile.
+    .
+"</string>
+    <string name="gallery_title">Photos</string>
+    <string name="geo_edit_menu_title">Set geo</string>
+    <string name="geo_edit_update_in_progress">Changing geo info in selected photos</string>
+    <string name="geo_picker_err_not_found">No geo picker found</string>
+    <string name="geo_picker_from_map_title">Pick Geo from Map</string>
+    <string name="geo_picker_from_photo_title">Pick Geo from Photo</string>
+    <string name="geo_picker_title">Select new geo for photo</string>
+    <string name="geo_show_as_menu_title">View in external geo app</string>
+    <string name="geo_show_menu_title">Show in map</string>
+    <string name="global_err_sql_message_format">"SQL error '%1$s'
+
+%2$s"</string>
+    <string name="global_err_sql_title_reload">Invalid SQL. Reloading default</string>
+    <string name="global_err_system">System error. Exiting</string>
+    <string name="global_log_file_path">copy/aPhotoManager.log</string>
+    <string name="hills">Hills</string>
+    <string name="image_context_properties_header">"\#
+# Generated with '%1$s' Version %2$s.
+#
+# This properties file contain sqlite sql formulas for the context data in the image view in the format
+# name=sql expression.
+#
+# name is the menu title where the sql belongs to.
+#
+# for all available columns see the Details label
+#
+# '|' will be replaced by newline '\\n'
+#
+  "</string>
+    <string name="image_err_file_exists_format">"The file '%1$s' already exists.
+ Do you really want to overwrite it?"</string>
+    <string name="image_err_file_rename_format">"Cannot rename file '%1$s'."</string>
+    <string name="image_err_not_found_format">No photos found for %1$s.</string>
+    <string name="image_err_not_in_db_format">Photo not found in media database %1$s yet. Scanning %2$d new files. The missing photo will be available soon.</string>
+    <string name="image_loading_at_position_format">Loading (%1$d) …</string>
+    <string name="image_success_update_format">Updated %1$d photos.</string>
+    <string name="lbl_any">Find</string>
+    <string name="lbl_date">Date</string>
+    <string name="lbl_description">Description</string>
+    <string name="lbl_exif">Exif</string>
+    <string name="lbl_file_name_pattern">Filename Pattern</string>
+    <string name="lbl_image_visibility">Visibility</string>
+    <string name="lbl_images_private">Private Image</string>
+    <string name="lbl_images_public">Public Image</string>
+    <string name="lbl_latitude_short">Lat</string>
+    <string name="lbl_longitude_short">Lon</string>
+    <string name="lbl_path">Path</string>
+    <string name="lbl_rating">Rating</string>
+    <string name="lbl_tag">Tag</string>
+    <string name="lbl_tags_exclude">-Tags</string>
+    <string name="lbl_tags_include">+Tags</string>
+    <string name="lbl_title">Title</string>
+    <string name="lbl_with_no_geo">With no geo info</string>
+    <string name="lbl_with_no_tags">With no Tags</string>
+    <string name="map_mode">Map Source</string>
+    <string name="mapbox">MapBox</string>
+    <string name="mapnik">Mapnik</string>
+    <string name="mapquest_aerial">Mapquest Aerial</string>
+    <string name="mapquest_osm">Mapquest</string>
+    <string name="menu_title_app_pinnend">App protected/pinned</string>
+    <string name="menu_title_app_unpinnend">App unprotect/unpinned</string>
+    <string name="message_translate_not_installed">StringLate app not found. Do you want to install it from f-droid app store?</string>
+    <string name="mk_dir_default">new_folder</string>
+    <string name="mk_dir_menu_title">Create Folder</string>
+    <string name="mk_err_failed_format">Cannot create %1$s</string>
+    <string name="mk_success_format">Created %1$s</string>
+    <string name="more_menu_title">More …</string>
+    <string name="move_menu_title">Move</string>
+    <string name="move_result_format">Moved %1$d/%2$d files</string>
+    <string name="my_location">My location</string>
+    <string name="offline">Offline mode</string>
+    <string name="osm_cright_title">Map Tiles ©<a href="http://www.openstreetmap.org/copyright"> OpenStreetMap</a> contributors</string>
+    <string name="overwrite_question_title">Overwrite?</string>
+    <string name="photo_autoprocessing_edit_menu_title">Edit Photo Autoprocessing</string>
+    <string name="preview_message_format">"%1$s %2$d Photos
+\u0009%3$s (%4$s), …
+To %5$s
+\u0009%6$s"</string>
+    <string name="public_transport">Public transport</string>
+    <string name="rename_menu_title">Rename</string>
+    <string name="rename_result_format">Renamed %1$d/%2$d files</string>
+    <string name="roads_nl">Netherlands roads overlay</string>
+    <string name="samples">Samples</string>
+    <string name="scanner_dir_question">Where to start scanning?</string>
+    <string name="scanner_err_busy">Cannot process photo files while Android-s media scanner is busy. Try again later.</string>
+    <string name="scanner_menu_title">Media scanner</string>
+    <string name="scanner_update_result_format">Updated %1$d Media Database Items</string>
+    <string name="searchbar_menu_title">Searchbar</string>
+    <string name="selected_only_menu_title">Selected only</string>
+    <string name="selection_add_all_menu_title">Selection: Add all visible</string>
+    <string name="selection_none_hint">Select folder to load pictures from and click ok</string>
+    <string name="selection_remove_menu_title">Selection: Remove all visible</string>
+    <string name="selection_status_format">%1$d Selected</string>
+    <string name="set_mode_hide_me">hiding my current location</string>
+    <string name="set_mode_offline">Set to offline mode</string>
+    <string name="set_mode_online">Set to online mode</string>
+    <string name="set_mode_show_me">showing and tracking my current location</string>
+    <string name="settings_bookmark_dir_title">Bookmark folder</string>
+    <string name="settings_debug_clear_title">Clear LogCat</string>
+    <string name="settings_debug_jpg_title">LogCat JPG</string>
+    <string name="settings_debug_libs_summary">… of 3rd party libraries.</string>
+    <string name="settings_debug_libs_title">LogCat libs</string>
+    <string name="settings_debug_map_title">LogCat geo map</string>
+    <string name="settings_debug_memory_title">LogCat memory consumption</string>
+    <string name="settings_debug_meta_io">LogCat jpg/xmp metadata read/write</string>
+    <string name="settings_debug_save_title">Save LogCat to file</string>
+    <string name="settings_debug_sql_summary">… containing executed SQL.</string>
+    <string name="settings_debug_sql_title">LogCat SQL</string>
+    <string name="settings_debug_summary">… containing other log messages.</string>
+    <string name="settings_debug_title">LogCat misc.</string>
+    <string name="settings_debug_view_item_summary">… containing gridview/listview Items.</string>
+    <string name="settings_debug_view_item_title">LogCat gridview/listview</string>
+    <string name="settings_geo_history_file_title">Set geo history file</string>
+    <string name="settings_geo_history_max_title">Set geo history count</string>
+    <string name="settings_group_debug_title">Diagnostics</string>
+    <string name="settings_image_hide_time_title">Auto hide actionbar after millisecs</string>
+    <string name="settings_image_initialImageDetailResolutionHigh_summary">Initial photo-view in better quality (slow, needs more memory)</string>
+    <string name="settings_image_initialImageDetailResolutionHigh_title">Improve initial photo-view quality</string>
+    <string name="settings_image_slideshow_intervall_title">Slideshow interval in millisecs</string>
+    <string name="settings_image_thumb_dir_title">Thumbnail folder</string>
+    <string name="settings_image_thumb_if_bigger_than_summary">Show thumbnail in image detail view if image width or height is bigger than this value (pixels). Memory efficient, fast, but low quality.</string>
+    <string name="settings_image_thumb_if_bigger_than_title">Show thumbnail for big images</string>
+    <string name="settings_locale_os_language">System default</string>
+    <string name="settings_locale_title">Language</string>
+    <string name="settings_log_folder_title">Errorlog folder</string>
+    <string name="settings_map_selmarker_max_title">Max. selected markers in map</string>
+    <string name="settings_maps_forge_dir_title">Mapsforge offline Folder</string>
+    <string name="settings_maps_forge_enable_summary">... which you manually downloaded via pc</string>
+    <string name="settings_maps_forge_enable_tile">Use Mapsforge offline map</string>
+    <string name="settings_media_update_strategy_jpg">jpg file only</string>
+    <string name="settings_media_update_strategy_jpg_xmp_create">jpg and xmp (Create if not found)</string>
+    <string name="settings_media_update_strategy_jpg_xmp_update">jpg (and xmp if exists)</string>
+    <string name="settings_media_update_strategy_title">Write changes to</string>
+    <string name="settings_media_update_strategy_xmp">xmp file only</string>
+    <string name="settings_multisel_clear_summary">Copy, move, rename, etc.</string>
+    <string name="settings_multisel_clear_title">Clear multi-selection after action</string>
+    <string name="settings_pick_date_decade4year_summary">I.E. Put 2010, 2011,...2019 below 2010*</string>
+    <string name="settings_pick_date_decade4year_title">Date Picker: use decades</string>
+    <string name="settings_rename_private_jpg_title">Rename private *.jpg to *.jpg-p</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_translate_summary">... using StringLate app</string>
+    <string name="settings_translate_title">Translate this app</string>
+    <string name="settings_xmp_file_schema_summary">Long: file.jpg.xmp; Short: file.xmp</string>
+    <string name="settings_xmp_file_schema_title">Long Xmp Sidecar File Name?</string>
+    <string name="share_err_not_found">No share/send provider found</string>
+    <string name="share_err_to_many">Too many items selected to share at once</string>
+    <string name="share_menu_title">Share/Send</string>
+    <string name="short_description">Manage local photos: Find/Copy/Edit-Exif and show in Gallery or Map.</string>
+    <string name="show_in_filemanager_menu_title">Open in Filemanager</string>
+    <string name="show_in_gallery_menu_title">Show in new gallery</string>
+    <string name="show_photo">Show Photo(s)</string>
+    <string name="slideshow_menu_title">Slideshow</string>
+    <string name="sort_by_date">Date</string>
+    <string name="sort_by_file_size">Size</string>
+    <string name="sort_by_folder">Folder</string>
+    <string name="sort_by_modification">Last Modified</string>
+    <string name="sort_by_name">Name</string>
+    <string name="sort_by_name_len">File path length</string>
+    <string name="sort_by_none">Unsorted</string>
+    <string name="sort_by_place">Place</string>
+    <string name="sort_by_rating">Rating</string>
+    <string name="sort_by_width">Width</string>
+    <string name="sort_menu_title">Sort</string>
+    <string name="tags_activity_title">Tag Filter</string>
+    <string name="tags_add_default">new_tag</string>
+    <string name="tags_add_menu_title">Create new Tag</string>
+    <string name="tags_defaults">Activities,People,Places,Themes,Projects</string>
+    <string name="tags_delete_children_title">Delete children</string>
+    <string name="tags_edit_menu_title">Set Tags</string>
+    <string name="tags_hint">Long-Tap on tagname opens menu</string>
+    <string name="tags_search_hint">Type here to filter ...</string>
+    <string name="tags_search_no_matching_items_found">No matching tags found</string>
+    <string name="tags_update_photos">Update tags in affected photos</string>
+    <string name="title">A Photo Manager</string>
+    <string name="topo">Topographic</string>
+    <string name="unknown">Unknown</string>
+    <string name="update_result_format">Updated %1$d/%2$d files</string>
+    <string name="version_postfix" />
+    <string name="view_context_menu_title">Load Context ...</string>
+    <string name="zoom_to_fit_menu_title">Zoom to fit</string>
+</resources>

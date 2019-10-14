@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_action_play" n1:id="@id/menu_resume_session" n1:title="@string/resume" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="@drawable/ic_action_stop" n3:id="@id/menu_stop_session" n3:title="@string/stop" n4:showAsAction="ifRoom"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="@drawable/ic_action_remove" n5:id="@id/menu_delete_session" n5:title="@string/delete" n6:showAsAction="always"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="@android:drawable/ic_menu_upload" n7:id="@id/menu_upload_session" n7:title="@string/upload" n8:showAsAction="always"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:icon="@android:drawable/ic_notification_clear_all" n9:id="@id/menu_delete_all_sessions" n9:title="@string/delete_all" n10:showAsAction="never"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <item n11:icon="@drawable/ic_gpx" n11:id="@id/menu_save_gpx" n11:title="@string/export_gpx" n12:showAsAction="ifRoom"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+</menu>

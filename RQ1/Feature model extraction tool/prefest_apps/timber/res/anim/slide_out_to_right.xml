@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n1:interpolator="@android:interpolator/fast_out_slow_in" n1:ordering="together"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <objectAnimator n1:valueFrom="0" n1:valueTo="2000" n1:valueType="floatType" n1:propertyName="x" />
+    <objectAnimator n1:valueFrom="1" n1:valueTo="0" n1:valueType="floatType" n1:propertyName="alpha" />
+</set>

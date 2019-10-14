@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_cell_margin" android:layout_marginBottom="@dimen/grid_cell_margin" android:text="@string/image_loading_at_position_format" />
+    <TextView android:id="@id/folder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_cell_margin" android:layout_marginBottom="@dimen/grid_cell_margin" android:text="@string/sort_by_folder" />
+</LinearLayout>

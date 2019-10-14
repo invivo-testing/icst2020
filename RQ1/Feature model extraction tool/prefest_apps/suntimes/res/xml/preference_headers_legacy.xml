@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <Preference n1:title="@string/configLabel_general" n1:summary=""
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <intent n1:targetPackage="com.forrestguice.suntimeswidget" n1:action="com.forrestguice.suntimeswidget.PREFS_GENERAL" n1:targetClass="com.forrestguice.suntimeswidget.SuntimesSettingsActivity" />
+    </Preference>
+    <Preference n2:title="@string/configLabel_locale" n2:summary=""
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <intent n2:targetPackage="com.forrestguice.suntimeswidget" n2:action="com.forrestguice.suntimeswidget.PREFS_LOCALE" n2:targetClass="com.forrestguice.suntimeswidget.SuntimesSettingsActivity" />
+    </Preference>
+    <Preference n3:title="@string/configLabel_places" n3:summary=""
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <intent n3:targetPackage="com.forrestguice.suntimeswidget" n3:action="com.forrestguice.suntimeswidget.PREFS_PLACES" n3:targetClass="com.forrestguice.suntimeswidget.SuntimesSettingsActivity" />
+    </Preference>
+    <Preference n4:title="@string/configLabel_ui" n4:summary=""
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <intent n4:targetPackage="com.forrestguice.suntimeswidget" n4:action="com.forrestguice.suntimeswidget.PREFS_UI" n4:targetClass="com.forrestguice.suntimeswidget.SuntimesSettingsActivity" />
+    </Preference>
+    <Preference n5:title="@string/configLabel_widgetList" n5:summary=""
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <intent n5:targetPackage="com.forrestguice.suntimeswidget" n5:action="com.forrestguice.suntimeswidget.PREFS_WIDGETLIST" n5:targetClass="com.forrestguice.suntimeswidget.SuntimesSettingsActivity" />
+    </Preference>
+</PreferenceScreen>

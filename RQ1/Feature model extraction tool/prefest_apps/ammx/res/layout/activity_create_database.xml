@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/activity_create_database" android:paddingLeft="@dimen/mmx_activity_horizontal_margin" android:paddingTop="@dimen/mmx_activity_vertical_margin" android:paddingRight="@dimen/mmx_activity_horizontal_margin" android:paddingBottom="@dimen/mmx_activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mmx_activity_vertical_margin">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.money.manager.ex.view.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/create_db_info_1" />
+            <com.money.manager.ex.view.RobotoTextView android:id="@id/dbPathTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/statusReport" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mmx_activity_vertical_margin">
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_horizontal" android:layout_width="60.0dip" android:layout_height="60.0dip" app:iiv_color="?colorPrimaryDark" app:iiv_icon="mmx-check-5" />
+                <com.money.manager.ex.view.RobotoTextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_db_success" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mmx_button_height" style="@style/RaisedButton">
+                <com.money.manager.ex.view.RobotoButton android:id="@id/runButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/run" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

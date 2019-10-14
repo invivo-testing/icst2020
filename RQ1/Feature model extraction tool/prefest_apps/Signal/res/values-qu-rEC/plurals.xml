@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d chinikukuna</item>
+        <item quantity="one">%d chiniku</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%drimariypi chaskikuna</item>
+        <item quantity="one">%drimariypi chaski.</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Kayka ñapashmi kay %d chayralla rimarishkata pitinka.</item>
+        <item quantity="one">Kayka ñapashmi chayralla rimarishkata pitinka.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d chaskikuna mana killkakatishka</item>
+        <item quantity="one">%d chaski mana killkakatishka</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Akllashka chaskikunata pichankapak munankichu</item>
+        <item quantity="one">Kay chaskita pichankapak munankichu.</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">¡Kimichishkakunaka allichik ukupi mana allichirirkachu!</item>
+        <item quantity="one">Mana kimichishka allichirirkachu allichik ukupi.</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Allichirikun %1$d kimichishkakunata</item>
+        <item quantity="one">Allichirirka kimichishkakuna.</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">%1$d kimichichishkakunata allichik ukupi allichirikun...</item>
+        <item quantity="one">Kimichichishkata allichik ukupi allichirikun</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Tukuy %1$d uyayrikuchikkunata allichik ukupi allichikpika, tukuy aplicacionkunapash paskayta ushankami 
+
+Katichinkichu"</item>
+        <item quantity="one">"Uyayta, shuyurikuchiktapash allichik ukupi allichina kan, chaymi tukuy aplicación paskayta ushanka 
+
+Katichinkichu."</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Kay akllashka %1$d chaskikunaka picharinkapachami.</item>
+        <item quantity="one">Kay akllashka chaskikunata pichankapachami.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d rimariykuna allichirishka</item>
+        <item quantity="one">rimariy allichirishka</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Akllashka rimarikunata pichanayanchu</item>
+        <item quantity="one">Akllashka rimarita pichanayanchu</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d Rimariykunata chaski kallariman kuyuchishka</item>
+        <item quantity="one">Rimariy chaski kallariman kuyuchishka</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Kay akllashka rimashkakunaka picharishpapachami sakirinka %1$d</item>
+        <item quantity="one">Kay akllashka rimashkaka picharishpa sakirinka</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s tantanakuyman kimirinakurka.</item>
+        <item quantity="one">%1$stantanakuyman kimirirka.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">%d SMS kayachikunata kachanayanchu</item>
+        <item quantity="one">Kayachita SMS %d kachanayanchu</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">MASHIKUNAMAN %d SMS KACHAY</item>
+        <item quantity="one">MASHIMAN %d KILLKANA SMS</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Kay akllashka %1$d chaskikunata picharinkapachami.</item>
+        <item quantity="one">Kay akllashka chaskita pichankapachami.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Akllashka chaskikunata pichanayanchu</item>
+        <item quantity="one">Akllashka chaskita pichanayanchu</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%dpunchakuna</item>
+        <item quantity="one">%d puncha</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%dpachakuna</item>
+        <item quantity="one">%dpacha</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%dchinikukuna</item>
+        <item quantity="one">%dchiniku</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%dchinillakuna</item>
+        <item quantity="one">%dchinilla</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d hunkaykuna</item>
+        <item quantity="one">%d hunkay</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%dpachakuna</item>
+        <item quantity="one">%dpacha</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d shukkuna</item>
+        <item quantity="one">%d shuk</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Kikinpa Signal %d punchakunapi mawkayankami. Mushukyachinkapak kaypi llapipay.</item>
+        <item quantity="one">Kikinpa Signal %dpunchapi mawkayankami. Mushukyachinkapak kaypi llapi.</item>
+    </plurals>
+</resources>

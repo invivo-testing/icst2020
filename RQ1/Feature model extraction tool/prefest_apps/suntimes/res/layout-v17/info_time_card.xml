@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.forrestguice.suntimeswidget.SuntimesCardScroll n1:id="@id/cardContent" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <LinearLayout n1:paddingTop="4.0dip" n1:layout_width="fill_parent" style="@style/SunsetTimeCard">
+            <include layout="@layout/info_time_all" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/layout_daylength" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="7.0dip">
+                <include layout="@layout/info_time_daylength" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.forrestguice.suntimeswidget.SuntimesCardScroll>
+    <LinearLayout n2:layout_gravity="end" n2:orientation="horizontal" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:layout_alignRight="@id/cardContent" n2:layout_alignBottom="@id/cardContent" n2:layout_alignEnd="@id/cardContent"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/info_time_nextprev" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,322 @@
+<feature_model name="nanoconverter">
+<meta>
+<data name="description"/>
+<data name="creator"/>
+<data name="address"/>
+<data name="email"/>
+<data name="phone"/>
+<data name="website"/>
+<data name="organization"/>
+<data name="department"/>
+<data name="date"/>
+<data name="reference"/>
+</meta>
+<feature_tree>
+:r C(_r0)
+	:m DeviceConfig(_r1)
+		:m DeviceModel(_r2)
+			:g [1,1]
+				: 'Samsung Note4'(_r3)
+				: 'LG Nexus 5'(_r4)
+				: 'motorola Moto E (cm_condor)'(_r5)
+				: 'Nexus 6P'(_r6)
+				: 'Samsung Galaxy S3 (US AT&amp;T)'(_r7)
+				: 'LG Nexus 4'(_r8)
+				: 'Samsung Galaxy Grand Prime'(_r9)
+				: 'ONEPLUS A6013'(_r10)
+				: 'LGE Nexus 5'(_r11)
+				: 'Samsung SM-G900F (kltexx)'(_r12)
+				: 'Google nexus 5x'(_r13)
+				: 'Moto G4 Play'(_r14)
+				: 'Sony Xperia L'(_r15)
+				: 'Asus Zenfone 2 ZE551ML'(_r16)
+				: 'Samsung Galaxy S5 neo'(_r17)
+				: 'Aquaris M5'(_r18)
+				: 'Motorola Nexus 6'(_r19)
+				: 'LG Nexus 5X'(_r20)
+				: 'Pixel 2'(_r21)
+				: 'Motorola Moto G 3rd Gen'(_r22)
+				: 'Fairphone 1U'(_r23)
+				: 'Acer Z205'(_r24)
+				: 'moto e5 play'(_r25)
+				: 'HTC One M7'(_r26)
+				: 'LG V30 H932'(_r27)
+				: 'Meizu MX4'(_r28)
+				: 'Aquaris A4.5'(_r29)
+				: 'HTC Sensation XE'(_r30)
+				: 'Nexus 4'(_r31)
+				: 'Xperia Z1 Compact'(_r32)
+				: 'Xiaomi Redmi Note 3 Pro'(_r33)
+				: 'Nvidia K1'(_r34)
+				: 'Moto G4 Plus'(_r35)
+				: 'SM-G960F'(_r36)
+				: 'Moto G2'(_r37)
+				: 'Motorola Z Play'(_r38)
+				: 'Moto G (falcon)'(_r39)
+				: 'LGE Nexus 5X'(_r40)
+				: 'Android SDK built for x86'(_r41)
+				: 'Samsung Galaxy S5 Neo'(_r42)
+				: 'Acer V360'(_r43)
+				: 'Vodafone 890N'(_r44)
+				: 'Nexus 5'(_r45)
+				: 'amsung GT-I9506'(_r46)
+				: 'Fairphone 2 (2GB RAM)'(_r47)
+				: 'Samsung Note 4 SM-N910F'(_r48)
+				: 'Samsung Galaxy S3 GT-I9300'(_r49)
+		:m OperatingSystem(_r50)
+			:g [1,1]
+				: Android(_r51)
+					:g [1,1]
+						: '8.1.0'(_r52)
+						: '4.4.4'(_r53)
+						: '6.0.1 (CM 13.0)'(_r54)
+						: '6.0.1 '(_r55)
+						: '4.3'(_r56)
+						: '8.0.0'(_r57)
+						: '5.0.1'(_r58)
+						: '7.1.2'(_r59)
+						: '4.4.2'(_r60)
+						: '6.0.1'(_r61)
+						: '7.1'(_r62)
+						: '9'(_r63)
+						: '4.1.1'(_r64)
+						: '7'(_r65)
+						: '4.2.2'(_r66)
+						: '5.1.1'(_r67)
+						: '6'(_r68)
+						: '7.1.1'(_r69)
+						: '5.1.1 CM'(_r70)
+						: '5.0.2'(_r71)
+				: CyanogenMod(_r72)
+					:g [1,1]
+						: '12.1'(_r73)
+						: '13'(_r74)
+	:m AppSettings(_r75)
+		:m 'preferences'(_r76)
+			:m '_category1'(_r77)
+				:m 'Currency_category2'(_r78)
+					:m 'listCurByDefault'(_r79)
+						:g [1,1]
+							: 'listCurByDefault_17'(_r80)
+							: 'listCurByDefault_2'(_r81)
+							: 'listCurByDefault_33'(_r82)
+							: 'listCurByDefault_8'(_r83)
+							: 'listCurByDefault_12'(_r84)
+							: 'listCurByDefault_27'(_r85)
+							: 'listCurByDefault_32'(_r86)
+							: 'listCurByDefault_28'(_r87)
+							: 'listCurByDefault_16'(_r88)
+							: 'listCurByDefault_23'(_r89)
+							: 'listCurByDefault_13'(_r90)
+							: 'listCurByDefault_18'(_r91)
+							: 'listCurByDefault_3'(_r92)
+							: 'listCurByDefault_7'(_r93)
+							: 'listCurByDefault_31'(_r94)
+							: 'listCurByDefault_24'(_r95)
+							: 'listCurByDefault_29'(_r96)
+							: 'listCurByDefault_5'(_r97)
+							: 'listCurByDefault_30'(_r98)
+							: 'listCurByDefault_25'(_r99)
+							: 'listCurByDefault_0'(_r100)
+							: 'listCurByDefault_20'(_r101)
+							: 'listCurByDefault_35'(_r102)
+							: 'listCurByDefault_14'(_r103)
+							: 'listCurByDefault_4'(_r104)
+							: 'listCurByDefault_6'(_r105)
+							: 'listCurByDefault_1'(_r106)
+							: 'listCurByDefault_21'(_r107)
+							: 'listCurByDefault_11'(_r108)
+							: 'listCurByDefault_26'(_r109)
+							: 'listCurByDefault_9'(_r110)
+							: 'listCurByDefault_19'(_r111)
+							: 'listCurByDefault_34'(_r112)
+							: 'listCurByDefault_10'(_r113)
+							: 'listCurByDefault_22'(_r114)
+							: 'listCurByDefault_15'(_r115)
+					:m 'Currency_list_category3'(_r116)
+						:m 'checkboxRUB'(_r117)
+							:g [1,1]
+								: 'checkboxRUB_false'(_r118)
+								: 'checkboxRUB_true'(_r119)
+						:m 'checkboxKGS'(_r120)
+							:g [1,1]
+								: 'checkboxKGS_false'(_r121)
+								: 'checkboxKGS_true'(_r122)
+						:m 'checkboxKZT'(_r123)
+							:g [1,1]
+								: 'checkboxKZT_true'(_r124)
+								: 'checkboxKZT_false'(_r125)
+						:m 'checkboxCNY'(_r126)
+							:g [1,1]
+								: 'checkboxCNY_true'(_r127)
+								: 'checkboxCNY_false'(_r128)
+						:m 'checkboxINR'(_r129)
+							:g [1,1]
+								: 'checkboxINR_false'(_r130)
+								: 'checkboxINR_true'(_r131)
+						:m 'checkboxNOK'(_r132)
+							:g [1,1]
+								: 'checkboxNOK_false'(_r133)
+								: 'checkboxNOK_true'(_r134)
+						:m 'checkboxBRL'(_r135)
+							:g [1,1]
+								: 'checkboxBRL_false'(_r136)
+								: 'checkboxBRL_true'(_r137)
+						:m 'checkboxTJS'(_r138)
+							:g [1,1]
+								: 'checkboxTJS_false'(_r139)
+								: 'checkboxTJS_true'(_r140)
+						:m 'checkboxSEK'(_r141)
+							:g [1,1]
+								: 'checkboxSEK_true'(_r142)
+								: 'checkboxSEK_false'(_r143)
+						:m 'checkboxXDR'(_r144)
+							:g [1,1]
+								: 'checkboxXDR_true'(_r145)
+								: 'checkboxXDR_false'(_r146)
+						:m 'checkboxLVL'(_r147)
+							:g [1,1]
+								: 'checkboxLVL_true'(_r148)
+								: 'checkboxLVL_false'(_r149)
+						:m 'checkboxAUD'(_r150)
+							:g [1,1]
+								: 'checkboxAUD_true'(_r151)
+								: 'checkboxAUD_false'(_r152)
+						:m 'checkboxLTL'(_r153)
+							:g [1,1]
+								: 'checkboxLTL_true'(_r154)
+								: 'checkboxLTL_false'(_r155)
+						:m 'checkboxUSD'(_r156)
+							:g [1,1]
+								: 'checkboxUSD_true'(_r157)
+								: 'checkboxUSD_false'(_r158)
+						:m 'checkboxAMD'(_r159)
+							:g [1,1]
+								: 'checkboxAMD_false'(_r160)
+								: 'checkboxAMD_true'(_r161)
+						:m 'checkboxPLN'(_r162)
+							:g [1,1]
+								: 'checkboxPLN_true'(_r163)
+								: 'checkboxPLN_false'(_r164)
+						:m 'checkboxSGD'(_r165)
+							:g [1,1]
+								: 'checkboxSGD_false'(_r166)
+								: 'checkboxSGD_true'(_r167)
+						:m 'checkboxCZK'(_r168)
+							:g [1,1]
+								: 'checkboxCZK_false'(_r169)
+								: 'checkboxCZK_true'(_r170)
+						:m 'checkboxUZS'(_r171)
+							:g [1,1]
+								: 'checkboxUZS_true'(_r172)
+								: 'checkboxUZS_false'(_r173)
+						:m 'checkboxHUF'(_r174)
+							:g [1,1]
+								: 'checkboxHUF_false'(_r175)
+								: 'checkboxHUF_true'(_r176)
+						:m 'checkboxTRY'(_r177)
+							:g [1,1]
+								: 'checkboxTRY_true'(_r178)
+								: 'checkboxTRY_false'(_r179)
+						:m 'checkboxDKK'(_r180)
+							:g [1,1]
+								: 'checkboxDKK_true'(_r181)
+								: 'checkboxDKK_false'(_r182)
+						:m 'checkboxMDL'(_r183)
+							:g [1,1]
+								: 'checkboxMDL_false'(_r184)
+								: 'checkboxMDL_true'(_r185)
+						:m 'checkboxCAD'(_r186)
+							:g [1,1]
+								: 'checkboxCAD_true'(_r187)
+								: 'checkboxCAD_false'(_r188)
+						:m 'checkboxJPY'(_r189)
+							:g [1,1]
+								: 'checkboxJPY_false'(_r190)
+								: 'checkboxJPY_true'(_r191)
+						:m 'checkboxAZN'(_r192)
+							:g [1,1]
+								: 'checkboxAZN_false'(_r193)
+								: 'checkboxAZN_true'(_r194)
+						:m 'checkboxGBP'(_r195)
+							:g [1,1]
+								: 'checkboxGBP_true'(_r196)
+								: 'checkboxGBP_false'(_r197)
+						:m 'checkboxKRW'(_r198)
+							:g [1,1]
+								: 'checkboxKRW_false'(_r199)
+								: 'checkboxKRW_true'(_r200)
+						:m 'checkboxTMT'(_r201)
+							:g [1,1]
+								: 'checkboxTMT_false'(_r202)
+								: 'checkboxTMT_true'(_r203)
+						:m 'checkboxCHF'(_r204)
+							:g [1,1]
+								: 'checkboxCHF_true'(_r205)
+								: 'checkboxCHF_false'(_r206)
+						:m 'checkboxFOO'(_r207)
+							:g [1,1]
+								: 'checkboxFOO_true'(_r208)
+								: 'checkboxFOO_false'(_r209)
+						:m 'checkboxUAH'(_r210)
+							:g [1,1]
+								: 'checkboxUAH_false'(_r211)
+								: 'checkboxUAH_true'(_r212)
+						:m 'checkboxZAR'(_r213)
+							:g [1,1]
+								: 'checkboxZAR_false'(_r214)
+								: 'checkboxZAR_true'(_r215)
+						:m 'checkboxRON'(_r216)
+							:g [1,1]
+								: 'checkboxRON_true'(_r217)
+								: 'checkboxRON_false'(_r218)
+						:m 'checkboxBGN'(_r219)
+							:g [1,1]
+								: 'checkboxBGN_true'(_r220)
+								: 'checkboxBGN_false'(_r221)
+						:m 'checkboxEUR'(_r222)
+							:g [1,1]
+								: 'checkboxEUR_true'(_r223)
+								: 'checkboxEUR_false'(_r224)
+						:m 'checkboxBYR'(_r225)
+							:g [1,1]
+								: 'checkboxBYR_true'(_r226)
+								: 'checkboxBYR_false'(_r227)
+				:m 'Other_category5'(_r228)
+					:m 'bkgcheckbox'(_r229)
+						:g [1,1]
+							: 'bkgcheckbox_7'(_r230)
+							: 'bkgcheckbox_3'(_r231)
+							: 'bkgcheckbox_6'(_r232)
+							: 'bkgcheckbox_4'(_r233)
+							: 'bkgcheckbox_5'(_r234)
+							: 'bkgcheckbox_9'(_r235)
+							: 'bkgcheckbox_0'(_r236)
+							: 'bkgcheckbox_8'(_r237)
+							: 'bkgcheckbox_2'(_r238)
+							: 'bkgcheckbox_1'(_r239)
+				:m 'Rates_category7'(_r240)
+					:m 'listSourcesDefault'(_r241)
+						:g [1,1]
+							: 'listSourcesDefault_0'(_r242)
+							: 'listSourcesDefault_4'(_r243)
+							: 'listSourcesDefault_6'(_r244)
+							: 'listSourcesDefault_5'(_r245)
+							: 'listSourcesDefault_3'(_r246)
+							: 'listSourcesDefault_7'(_r247)
+							: 'listSourcesDefault_1'(_r248)
+							: 'listSourcesDefault_2'(_r249)
+					:m 'revratesswitch'(_r250)
+						:g [1,1]
+							: 'revratesswitch_false'(_r251)
+							: 'revratesswitch_true'(_r252)
+					:m 'listUpdate'(_r253)
+						:g [1,1]
+							: 'listUpdate_0'(_r254)
+							: 'listUpdate_1'(_r255)
+							: 'listUpdate_3'(_r256)
+							: 'listUpdate_2'(_r257)
+</feature_tree>
+<constraints>
+</constraints>
+</feature_model>

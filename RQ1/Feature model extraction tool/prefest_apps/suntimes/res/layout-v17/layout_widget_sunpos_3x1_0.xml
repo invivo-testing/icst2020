@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/widgetframe_outer_3x1" n1:layout_width="fill_parent" style="@style/SunsetTimeWidgetFrame"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/widgetframe_inner" n1:layout_width="fill_parent" style="@style/SunsetTimeWidget">
+        <TextView n1:gravity="start" n1:id="@id/text_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/SunsetTimeTextTitleView" />
+        <LinearLayout n1:layout_gravity="center" n1:id="@id/info_time_lightmap_labels" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="2.0dip" n1:layout_marginRight="2.0dip" n1:layout_marginBottom="0.0dip">
+            <TextView n1:id="@id/info_sun_elevation_current" n1:layout_marginLeft="2.0dip" n1:layout_marginTop="0.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="0.0dip" n1:text="" n1:maxLines="1" n1:layout_marginStart="2.0dip" n1:layout_marginEnd="8.0dip" style="@style/SunsetTimeTextView" />
+            <TextView n1:id="@id/info_sun_azimuth_current" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="0.0dip" n1:layout_marginRight="16.0dip" n1:layout_marginBottom="0.0dip" n1:text="" n1:maxLines="1" n1:layout_marginStart="8.0dip" n1:layout_marginEnd="16.0dip" style="@style/SunsetTimeTextView" />
+            <TextView n1:id="@id/info_sun_azimuth_rising" n1:layout_marginLeft="24.0dip" n1:layout_marginTop="0.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="0.0dip" n1:text="" n1:maxLines="1" n1:layout_marginStart="24.0dip" n1:layout_marginEnd="8.0dip" style="@style/SunsetTimeTextView" />
+            <TextView n1:id="@id/info_sun_elevation_atnoon" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="0.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="0.0dip" n1:text="" n1:maxLines="1" n1:layout_marginStart="8.0dip" n1:layout_marginEnd="8.0dip" style="@style/SunsetTimeTextView" />
+            <TextView n1:id="@id/info_sun_azimuth_setting" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="0.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="0.0dip" n1:text="" n1:maxLines="1" n1:layout_marginStart="8.0dip" n1:layout_marginEnd="8.0dip" style="@style/SunsetTimeTextView" />
+        </LinearLayout>
+        <ImageView n1:layout_gravity="center" n1:id="@id/info_time_lightmap" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="2.0dip" n1:layout_marginRight="1.0dip" n1:contentDescription="@string/configAction_sunDialog" n1:layout_marginStart="2.0dip" n1:layout_marginEnd="1.0dip" />
+    </LinearLayout>
+</FrameLayout>

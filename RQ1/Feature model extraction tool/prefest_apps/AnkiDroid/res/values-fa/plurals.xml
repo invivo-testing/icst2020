@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_browser_subtitle">
+        <item quantity="other">%d کارت نمایش داده شده</item>
+        <item quantity="one">%d کارت نمایش داده شده</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="other">حذف نوع کارت %2$s و %1$d کارت آن؟</item>
+        <item quantity="one">حذف نوع کارت %2$s ،و %1$d کارت آن؟</item>
+    </plurals>
+    <plurals name="deck_conf_group_summ">
+        <item quantity="other">"%1$s
+%2$d دسته از این گروه استفاده می کند"</item>
+        <item quantity="one">"%1$s
+%2$d دسته از این گروه استفاده می کند"</item>
+    </plurals>
+    <plurals name="deck_conf_set_subdecks_summ">
+        <item quantity="other">%s زیر دسته از این گروه استفاده خواهند کرد</item>
+        <item quantity="one">%s زیر دسته از این گروه استفاده خواهند کرد</item>
+    </plurals>
+    <plurals name="deckpicker_title">
+        <item quantity="other">موعد مرور %1$d کارت (%2$s)</item>
+        <item quantity="one">موعد مرور %1$d کارت (%2$s)</item>
+    </plurals>
+    <plurals name="delete_deck_message">
+        <item quantity="other">حذف همه کارت ها در %1$s؟ این دسته شامل %2$d کارت می باشد.</item>
+        <item quantity="one">حذف همه کارت ها در %1$s؟ این دسته شامل %2$d کارت می باشد.</item>
+    </plurals>
+    <plurals name="factadder_cards_added">
+        <item quantity="other">%d کارت اضافه شد</item>
+        <item quantity="one">%d کارت اضافه شد</item>
+    </plurals>
+    <plurals name="model_browser_of_type">
+        <item quantity="other">%d یادداشت</item>
+        <item quantity="one">%d یادداشت</item>
+    </plurals>
+    <plurals name="model_browser_types_available">
+        <item quantity="other">%d نوع یادداشت دردسترس است</item>
+        <item quantity="one">%d نوع یادداشت دردسترس است</item>
+    </plurals>
+    <plurals name="reminder_text">
+        <item quantity="other">%2$d کارت جدید برای مرور در %1$s</item>
+        <item quantity="one">%2$d کارت جدید برای مرور در %1$s</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="other">%d دقیقه باقیمانده</item>
+        <item quantity="one">%d دقیقه باقیمانده</item>
+    </plurals>
+    <plurals name="stats_today_cards">
+        <item quantity="other">امروز شما &lt;b>%1$d کارت را&lt;/b> در &lt;b>%2$s&lt;/b> مطالعه کردید</item>
+        <item quantity="one">امروز شما &lt;b>%1$d کارت را&lt;/b> در &lt;b>%2$s&lt;/b> مطالعه کردید</item>
+    </plurals>
+    <plurals name="studied_cards_today">
+        <item quantity="other">امروز شما %1$d کارت را در %2$s مطالعه کردید</item>
+        <item quantity="one">امروز شما %1$d کارت را در %2$s مطالعه کردید</item>
+    </plurals>
+    <plurals name="time_span_days">
+        <item quantity="other">%s روز</item>
+        <item quantity="one">%s روز</item>
+    </plurals>
+    <plurals name="time_span_hours">
+        <item quantity="other">%s ساعت</item>
+        <item quantity="one">%s ساعت</item>
+    </plurals>
+    <plurals name="time_span_minutes">
+        <item quantity="other">%s دقیقه</item>
+        <item quantity="one">%s دقیقه</item>
+    </plurals>
+    <plurals name="time_span_months">
+        <item quantity="other">%s ماه</item>
+        <item quantity="one">%s ماه</item>
+    </plurals>
+    <plurals name="time_span_seconds">
+        <item quantity="other">%s ثانیه</item>
+        <item quantity="one">%s ثانیه</item>
+    </plurals>
+    <plurals name="time_span_years">
+        <item quantity="other">%s سال</item>
+        <item quantity="one">%s سال</item>
+    </plurals>
+    <plurals name="timebox_reached">
+        <item quantity="other">%1$d کارت در %2$s مطالعه شد</item>
+        <item quantity="one">%1$d کارت در %2$s مطالعه شد</item>
+    </plurals>
+    <plurals name="timebox_reached_minutes">
+        <item quantity="other">%1$d دقیقه</item>
+        <item quantity="one">%1$d دقیقه</item>
+    </plurals>
+    <plurals name="widget_cards_due">
+        <item quantity="other">موعد مرور %d کارت</item>
+        <item quantity="one">موعد مرور %d کارت</item>
+    </plurals>
+    <plurals name="widget_cards_in_decks_due">
+        <item quantity="other">موعد مرور %1$d کارت در %2$s</item>
+        <item quantity="one">موعد مرور %1$d کارت در %2$s</item>
+    </plurals>
+    <plurals name="widget_decks">
+        <item quantity="other">%1$d دسته ها</item>
+        <item quantity="one">%1$d دسته</item>
+    </plurals>
+    <plurals name="widget_eta">
+        <item quantity="other">%d دقیقه باقیمانده</item>
+        <item quantity="one">%d دقیقه باقیمانده</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:background="@android:color/white" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/standard_gap" android:layout_marginTop="@dimen/standard_gap" android:src="@drawable/empty_photo" android:scaleType="centerCrop" android:contentDescription="@string/no_image_found" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:id="@id/distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/standard_gap" android:layout_marginTop="@dimen/standard_gap" android:layout_marginRight="@dimen/standard_gap" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/toggleArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body2" android:ellipsize="end" android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/standard_gap" android:maxLines="2" android:layout_toLeftOf="@id/distance" android:layout_toRightOf="@id/icon" android:layout_alignTop="@id/distance" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:ellipsize="end" android:id="@id/tvDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/standard_gap" android:maxLines="4" android:layout_below="@id/tvName" android:layout_alignLeft="@id/tvName" android:layout_alignRight="@id/distance" />
+    <include layout="@layout/nearby_row_button" />
+</RelativeLayout>

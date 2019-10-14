@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">שנתיים</item>
+        <item quantity="one">שנה שעברה</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">מתבצעת הורדה של ערכים</item>
+        <item quantity="one">מתבצעת הורדה של ערך</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">נשארו %1$d ערכים</item>
+        <item quantity="one">נשאר ערך אחד</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">סנכרון רשימות קריאה</item>
+        <item quantity="one">סנכרון רשימת קריאה</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">נשארו %1$d רשימות</item>
+        <item quantity="one">נשארה רשימה אחת</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">מתבצע סנכרון של %1$d רשימות…</item>
+        <item quantity="one">מתבצע סנכרון של רשימה אחת…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">מתבצעת הורדה של %1$d ערכים…</item>
+        <item quantity="one">מתבצעת הורדה של ערך אחד…</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">נשארו %d דקות</item>
+        <item quantity="one">נשארה דקה</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">הערכים האילה לא יהיו עוד זמינים ללא חיבור לרשת.</item>
+        <item quantity="one">הערך הזה לא יהיה עוד זמין ללא חיבור לרשת.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">הערכים האלה יהין זמינים ללא חיבור לרשת.</item>
+        <item quantity="one">הערך הזה יהיה זמין ללא חיבור לרשת.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="one">אתמול</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">להסיר את השפות שנבחרו?</item>
+        <item quantity="one">להסיר את השפה שנבחרה?</item>
+    </plurals>
+</resources>

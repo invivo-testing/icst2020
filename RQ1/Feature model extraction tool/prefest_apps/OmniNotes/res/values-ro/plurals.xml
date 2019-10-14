@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">Pentru %d evenimente</item>
+        <item quantity="one">Pentru %d eveniment</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">O dată la %d zile</item>
+        <item quantity="one">O dată la %d zi</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">O dată la %d luni</item>
+        <item quantity="one">O dată la %d lună</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">O dată la %d săptămâni</item>
+        <item quantity="one">O dată la %d săptămână</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">O dată la %d ani</item>
+        <item quantity="one">O dată la %d an</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n1:title="@string/configLabel_general"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <com.forrestguice.suntimeswidget.settings.SummaryListPreference n1:entries="@null" n1:title="@string/configLabel_general_calculator_sun" n1:key="appwidget_0_general_calculator" n1:summary="%s" n1:defaultValue="@string/def_appwidget_0_general_calculator" n1:dialogTitle="@string/configLabel_general_calculator_sun" n1:entryValues="@null" />
+        <com.forrestguice.suntimeswidget.settings.SummaryListPreference n1:entries="@null" n1:title="@string/configLabel_general_calculator_moon" n1:key="appwidget_0_general_calculator_moon" n1:summary="%s" n1:defaultValue="@string/def_appwidget_0_general_calculator_moon" n1:dialogTitle="@string/configLabel_general_calculator_moon" n1:entryValues="@null" />
+        <com.forrestguice.suntimeswidget.settings.ListPreference n1:entries="@array/timeFormatMode_display" n1:title="@string/configLabel_timeFormatMode" n1:key="appwidget_0_appearance_timeformatmode" n1:summary="%s" n1:defaultValue="@string/def_appwidget_0_appearance_timeformatmode" n1:dialogTitle="@string/configLabel_timeFormatMode" n1:entryValues="@array/timeFormatMode_values" />
+        <CheckBoxPreference n1:title="@string/configLabel_general_showSeconds" n1:key="appwidget_0_general_showseconds" n1:summary="@string/configLabel_general_showSeconds_summary" n1:defaultValue="@string/def_appwidget_0_general_showseconds" />
+        <CheckBoxPreference n1:title="@string/configLabel_general_showTimeDate" n1:key="appwidget_0_general_showtimedate" n1:summary="@string/configLabel_general_showTimeDate_summary" n1:defaultValue="@string/def_appwidget_0_general_showtimedate" />
+    </PreferenceCategory>
+</PreferenceScreen>

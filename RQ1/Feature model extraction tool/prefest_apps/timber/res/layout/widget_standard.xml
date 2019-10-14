@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/black_translucent" n1:padding="4.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/imageView_cover" n1:padding="4.0dip" n1:layout_width="100.0dip" n1:layout_height="100.0dip" />
+    <TextView n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@id/textView_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/tap_to_start" n1:lines="1" n1:layout_toRightOf="@id/imageView_cover" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" />
+    <TextView n1:textColor="@android:color/white" n1:id="@id/textView_subtitle" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:lines="1" n1:layout_toRightOf="@id/imageView_cover" n1:layout_below="@id/textView_title" n1:layout_alignParentRight="true" />
+    <LinearLayout n1:gravity="bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/imageView_cover" n1:layout_below="@id/textView_subtitle" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true">
+        <TextView n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+        <ImageView n1:id="@id/image_prev" n1:background="@drawable/selectable_item_background" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ic_skip_previous_white_36dp" />
+        <TextView n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+        <ImageView n1:id="@id/image_playpause" n1:background="@drawable/selectable_item_background" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ic_play_white_36dp" />
+        <TextView n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+        <ImageView n1:id="@id/image_next" n1:background="@drawable/selectable_item_background" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ic_skip_next_white_36dp" />
+        <TextView n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

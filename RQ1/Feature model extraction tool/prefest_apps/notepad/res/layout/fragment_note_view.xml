@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layoutNoteView" android:background="@color/primary" android:fitsSystemWindows="true" android:clickable="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <TextView android:textSize="18.0sp" android:autoLink="all" android:linksClickable="true" android:id="@id/textView" android:paddingLeft="@dimen/padding_left_right" android:paddingTop="@dimen/padding_top_bottom" android:paddingRight="@dimen/padding_left_right" android:paddingBottom="@dimen/padding_top_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@null" android:textIsSelectable="true" />
+    </ScrollView>
+</LinearLayout>

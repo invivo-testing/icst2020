@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்ட செய்திகளை நீக்க வேண்டுமா?</item>
+        <item quantity="one">தேர்ந்தெடுக்கப்பட்ட செய்தியை நீக்க ?</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்ட %1$d செய்தியைகளை நிரந்தரமாக நீக்கீவிடும்.</item>
+        <item quantity="one">தேர்ந்தெடுக்கப்பட்ட செய்தியைகளை நிரந்தரமாக நீக்கீவிடும்.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d உரையாடல்கள் பெட்டகப்படுத்தப்பட்டது.</item>
+        <item quantity="one">உரையாடல்கள் பெட்டகப்படுத்தப்பட்டது.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்ட உரையாடலைகளை நீக்குக ?</item>
+        <item quantity="one">தேர்ந்தெடுக்கப்பட்ட உரையாடலை அழி ?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d உரையாடலைகள் அகப்பெட்டிக்கு நகர்த்தப்பட்டது.</item>
+        <item quantity="one">உரையாடல் அகப்பெட்டிக்கு நகர்த்தப்பட்டது.</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d மணிநேரங்கள்</item>
+        <item quantity="one">%d மணிநேரம்</item>
+    </plurals>
+</resources>

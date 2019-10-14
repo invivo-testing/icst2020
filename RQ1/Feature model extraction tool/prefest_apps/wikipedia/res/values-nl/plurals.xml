@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d jaar geleden</item>
+        <item quantity="one">Vorig jaar</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">nog %d min</item>
+        <item quantity="one">nog 1 min</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">"Deze pagina's zullen niet meer offline beschikbaar zijn."</item>
+        <item quantity="one">Deze pagina zal niet meer offline beschikbaar zijn.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">"Deze pagina's zullen nu offline beschikbaar zijn."</item>
+        <item quantity="one">Deze pagina zal nu offline beschikbaar zijn.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d dagen geleden</item>
+        <item quantity="one">gisteren</item>
+    </plurals>
+</resources>

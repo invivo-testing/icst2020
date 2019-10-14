@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="anim_fadein_duration">1750</integer>
+    <integer name="anim_fadeout_duration">700</integer>
+    <integer name="anim_slidein_fade_duration">700</integer>
+    <integer name="anim_slidein_move_duration">700</integer>
+    <integer name="anim_slideout_fade_duration">700</integer>
+    <integer name="anim_slideout_move_duration">700</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="clock_amppm_maxems">2</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="table_heading_date_maxems">7</integer>
+    <integer name="table_heading_date_maxlength">32</integer>
+    <integer name="table_heading_date_maxlines">2</integer>
+    <integer name="table_heading_label_maxlines">1</integer>
+    <integer name="table_weight0">9</integer>
+    <integer name="table_weight1">1</integer>
+    <integer name="widget_size_minHeightDp">40</integer>
+    <integer name="widget_size_minWidthDp">40</integer>
+    <integer name="widget_size_minWidthDp2x1">110</integer>
+    <integer name="widget_size_minWidthDp3x1">180</integer>
+    <integer name="widget_size_minWidthDp4x1">250</integer>
+    <integer name="widget_updateInterval">0</integer>
+</resources>

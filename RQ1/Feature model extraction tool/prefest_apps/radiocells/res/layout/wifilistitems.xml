@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/LinearLayout1" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:id="@id/wifilistfragment_id" n1:padding="2.0dip" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="32.0dip" n1:layout_weight="0.3" />
+    <TextView n1:id="@id/wifilistfragment_bssid" n1:padding="2.0dip" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="32.0dip" n1:layout_weight="0.3" />
+    <TextView n1:id="@id/wifilistfragment_ssid" n1:padding="2.0dip" n1:layout_width="0.0dip" n1:layout_height="32.0dip" n1:layout_weight="0.7" />
+    <TextView n1:id="@id/wifilistfragment_level" n1:padding="2.0dip" n1:layout_width="0.0dip" n1:layout_height="32.0dip" n1:layout_weight="0.3" />
+    <ImageView n1:id="@id/wifilistfragment_statusicon" n1:layout_width="wrap_content" n1:layout_height="32.0dip" n1:src="@android:drawable/stat_notify_more" />
+    <TextView n1:id="@id/wifilistfragment_capabilities" n1:padding="2.0dip" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="32.0dip" n1:layout_weight="0.3" />
+</LinearLayout>

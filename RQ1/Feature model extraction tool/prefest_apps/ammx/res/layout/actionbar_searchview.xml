@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.money.manager.ex.view.RobotoEditText android:id="@id/editTextSearchView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:ems="10" android:imeOptions="actionUnspecified|normal" />
+</LinearLayout>

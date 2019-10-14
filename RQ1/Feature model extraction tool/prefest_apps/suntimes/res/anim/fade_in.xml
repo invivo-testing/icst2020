@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <alpha n1:duration="@integer/anim_fadein_duration" n1:fromAlpha="@dimen/anim_slidein_fade_fromalpha" n1:toAlpha="@dimen/anim_slidein_fade_toalpha"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+</set>

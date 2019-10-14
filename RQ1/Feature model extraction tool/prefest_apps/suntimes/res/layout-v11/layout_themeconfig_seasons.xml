@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <android.support.constraint.ConstraintLayout n1:id="@id/layout_colors_seasons" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:layout_constraintEnd_toEndOf="parent" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toTopOf="parent"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/layout_springColor" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toTopOf="parent">
+            <TextView n1:id="@id/editLabel_springColor" n1:nextFocusLeft="@id/editLabel_noonIconStroke" n1:nextFocusRight="@id/editLabel_summerColor" n1:nextFocusUp="@id/editLabel_noonIconStroke" n1:nextFocusDown="@id/editLabel_fallColor" n1:text="@string/configLabel_themeColorSpring" n1:nextFocusForward="@id/editLabel_summerColor" style="@style/ColorEditLabel" />
+            <EditText n1:id="@id/edit_springColor" n1:visibility="gone" n1:nextFocusLeft="@id/editLabel_noonIconStroke" n1:nextFocusRight="@id/editLabel_summerColor" n1:nextFocusUp="@id/editLabel_noonIconStroke" n1:nextFocusDown="@id/editLabel_fallColor" n1:text="" n1:hint="@string/configHint_themeColorSunrise" n1:nextFocusForward="@id/editLabel_summerColor" style="@style/ColorEdit" />
+            <ImageButton n1:id="@id/editButton_springColor" n1:layout_marginRight="4.0dip" n1:contentDescription="@string/configLabel_themeColorSpring" style="@style/ColorEditButton" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/layout_summerColor" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dip" n1:layout_marginRight="8.0dip" n2:layout_constraintStart_toEndOf="@id/layout_springColor" n2:layout_constraintTop_toTopOf="@id/layout_springColor">
+            <TextView n1:id="@id/editLabel_summerColor" n1:nextFocusLeft="@id/editLabel_springColor" n1:nextFocusRight="@id/editLabel_fallColor" n1:nextFocusUp="@id/editLabel_springColor" n1:nextFocusDown="@id/editLabel_winterColor" n1:text="@string/configLabel_themeColorSummer" n1:nextFocusForward="@id/editLabel_fallColor" style="@style/ColorEditLabel" />
+            <EditText n1:id="@id/edit_summerColor" n1:visibility="gone" n1:nextFocusLeft="@id/editLabel_springColor" n1:nextFocusRight="@id/editLabel_fallColor" n1:nextFocusUp="@id/editLabel_springColor" n1:nextFocusDown="@id/editLabel_winterColor" n1:text="" n1:hint="@string/configHint_themeColorSunset" n1:nextFocusForward="@id/editLabel_fallColor" style="@style/ColorEdit" />
+            <ImageButton n1:id="@id/editButton_summerColor" n1:layout_marginRight="4.0dip" n1:contentDescription="@string/configLabel_themeColorSummer" style="@style/ColorEditButton" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/layout_fallColor" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toBottomOf="@id/layout_springColor">
+            <TextView n1:id="@id/editLabel_fallColor" n1:nextFocusLeft="@id/editLabel_summerColor" n1:nextFocusRight="@id/editLabel_winterColor" n1:nextFocusUp="@id/editLabel_springColor" n1:nextFocusDown="@id/editLabel_winterColor" n1:text="@string/configLabel_themeColorFall" n1:nextFocusForward="@id/editLabel_winterColor" style="@style/ColorEditLabel" />
+            <EditText n1:id="@id/edit_fallColor" n1:visibility="gone" n1:nextFocusLeft="@id/editLabel_summerColor" n1:nextFocusRight="@id/editLabel_winterColor" n1:nextFocusUp="@id/editLabel_springColor" n1:nextFocusDown="@id/editLabel_winterColor" n1:text="" n1:hint="@string/configHint_themeColorSunrise" n1:nextFocusForward="@id/editLabel_winterColor" style="@style/ColorEdit" />
+            <ImageButton n1:id="@id/editButton_fallColor" n1:layout_marginRight="4.0dip" n1:contentDescription="@string/configLabel_themeColorFall" style="@style/ColorEditButton" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/layout_winterColor" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dip" n1:layout_marginRight="8.0dip" n2:layout_constraintStart_toEndOf="@id/layout_fallColor" n2:layout_constraintTop_toTopOf="@id/layout_fallColor">
+            <TextView n1:id="@id/editLabel_winterColor" n1:nextFocusLeft="@id/editLabel_fallColor" n1:nextFocusUp="@id/editLabel_summerColor" n1:text="@string/configLabel_themeColorWinter" style="@style/ColorEditLabel" />
+            <EditText n1:id="@id/edit_winterColor" n1:visibility="gone" n1:nextFocusLeft="@id/editLabel_fallColor" n1:nextFocusUp="@id/editLabel_summerColor" n1:text="" n1:hint="@string/configHint_themeColorSunset" style="@style/ColorEdit" />
+            <ImageButton n1:id="@id/editButton_winterColor" n1:layout_marginRight="4.0dip" n1:contentDescription="@string/configLabel_themeColorWinter" style="@style/ColorEditButton" />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</merge>

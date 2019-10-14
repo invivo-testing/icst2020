@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_bar" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <io.dwak.holohackernews.app.widget.SmoothSwipeRefreshLayout android:id="@id/swipe_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <GridView android:id="@id/story_list" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/orange_card_selector" android:drawSelectorOnTop="true" android:horizontalSpacing="16.0dip" android:verticalSpacing="8.0dip" android:numColumns="auto_fit" />
+    </io.dwak.holohackernews.app.widget.SmoothSwipeRefreshLayout>
+    <TextView android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

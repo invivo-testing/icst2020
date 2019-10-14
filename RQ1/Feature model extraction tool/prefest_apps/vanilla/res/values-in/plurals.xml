@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hours">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d menit</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d detik</item>
+    </plurals>
+</resources>

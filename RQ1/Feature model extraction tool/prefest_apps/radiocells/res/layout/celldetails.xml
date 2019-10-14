@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/tab1" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TableLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <TableRow n1:id="@id/tableRow1" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/celldetails_networktype" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/networkTypeCaption" n1:layout_weight="1.0" />
+        </TableRow>
+        <TableRow>
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/textView3" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/operatorCaption" n1:layout_weight="0.2" />
+            <TextView n1:id="@id/celldetails_operator" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="XYZ" n1:layout_weight="0.8" />
+        </TableRow>
+        <TableRow n1:id="@id/tableRow2" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <TextView n1:id="@id/textView6" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/mccCaption" n1:layout_weight="0.2" />
+            <TextView n1:id="@id/celldetails_mcc" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="" n1:layout_weight="0.4" />
+            <TextView n1:id="@id/textView7" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/mncCaption" n1:layout_weight="0.2" />
+            <TextView n1:id="@id/celldetails_mnc" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="" n1:layout_weight="0.4" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/textView4" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/lac" n1:layout_weight="0.2" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/celldetails_lac" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="00000" n1:layout_weight="0.4" />
+        </TableRow>
+        <TableRow>
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/textView2" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/cellIdCaption" n1:layout_weight="0.2" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/celldetails_cellid" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="123456" n1:layout_weight="0.3" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/textView1" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/psc" n1:layout_weight="0.1" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/celldetails_psc" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="123" n1:layout_weight="0.1" />
+        </TableRow>
+        <TableRow n1:id="@id/celldetails_utran_row">
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/textView12" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/lcid" n1:layout_weight="0.2" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/celldetails_lcid" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="123456" n1:layout_weight="0.3" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/textView13" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/rnc" n1:layout_weight="0.1" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/celldetails_rnc" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="123" n1:layout_weight="0.1" />
+        </TableRow>
+        <TableRow n1:id="@id/celldetails_cdma_row">
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/textView5" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/baseIdCaption" n1:layout_weight="0.2" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/celldetails_baseid" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="1234567" n1:layout_weight="0.3" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/textView10" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/network_id" n1:layout_weight="0.35" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/celldetails_network_id" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="123" n1:layout_weight="0.15" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/textView11" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/system_id" n1:layout_weight="0.35" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/celldetails_system_id" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="123" n1:layout_weight="0.15" />
+        </TableRow>
+        <TableRow>
+            <TextView n1:id="@id/textView9" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/strenghtDbmCaption" n1:layout_weight="1.0" />
+            <TextView n1:id="@id/celldetails_strength" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="" n1:layout_weight="1.0" />
+        </TableRow>
+        <TableRow>
+            <TextView n1:id="@id/textView8" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/is_serving_cell_caption" n1:layout_weight="1.0" />
+            <ImageView n1:id="@id/celldetails_serving" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@android:drawable/checkbox_on_background" />
+        </TableRow>
+        <TableRow>
+            <TextView n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/no_measurements" n1:layout_weight="0.35" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/celldetails_no_measurements" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="123" n1:layout_weight="0.65" />
+        </TableRow>
+    </TableLayout>
+    <fragment n1:name="org.openbmap.activities.CellDetailsMap" n1:id="@id/cellDetailsMap" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

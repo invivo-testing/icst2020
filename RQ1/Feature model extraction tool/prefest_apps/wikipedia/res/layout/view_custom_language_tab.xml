@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="?material_theme_de_emphasised_color" android:id="@id/language_code" android:background="@drawable/lang_button_shape_border" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textAllCaps="true" android:fontFamily="sans-serif-medium" style="@style/TextViewCentered" />
+    <TextView android:textSize="12.0sp" android:textColor="?material_theme_de_emphasised_color" android:id="@id/language_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/view_list_card_margin_vertical" />
+</LinearLayout>

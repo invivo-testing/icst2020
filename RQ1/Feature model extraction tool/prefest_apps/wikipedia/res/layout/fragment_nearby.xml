@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mapbox.mapboxsdk.maps.MapView android:id="@id/mapview" android:background="?paper_color" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mapbox_styleUrl="asset://mapstyle.json" app:mapbox_uiAttribution="false" app:mapbox_uiLogo="false" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/base20" android:layout_gravity="start|bottom|center" android:id="@id/osm_license" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:shadowColor="@android:color/white" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="10.0" android:alpha="0.6" android:layout_marginStart="16.0dip" />
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/user_location_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/nearby_zoom_to_location" app:backgroundTint="?colorAccent" app:borderWidth="0.0dip" app:elevation="4.0dip" app:srcCompat="@drawable/ic_my_location_white_24dp" style="@style/FloatingActionButton" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_cat_gestures" android:summary="@string/pref_cat_gestures_summ"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://arbitrary.app.namespace/com.ichi2.anki">
+    <CheckBoxPreference android:title="@string/gestures" android:key="gestures" android:summary="@string/gestures_summ" android:defaultValue="false" android:disableDependentsState="false" />
+    <com.ichi2.ui.SeekBarPreference android:max="180" android:text="" android:title="@string/swipe_sensitivity" android:key="swipeSensitivity" android:summary="@string/preference_summary_literal" android:dependency="gestures" android:defaultValue="100" android:dialogMessage="@string/preference_summary_literal" app:interval="1" app:min="20" />
+    <PreferenceCategory android:title="@string/pref_cat_actions">
+        <ListPreference android:entries="@array/gestures_labels" android:title="@string/gestures_swipe_up" android:key="gestureSwipeUp" android:summary="" android:dependency="gestures" android:defaultValue="0" android:entryValues="@array/gestures_values" />
+        <ListPreference android:entries="@array/gestures_labels" android:title="@string/gestures_swipe_down" android:key="gestureSwipeDown" android:summary="" android:dependency="gestures" android:defaultValue="0" android:entryValues="@array/gestures_values" />
+        <ListPreference android:entries="@array/gestures_labels" android:title="@string/gestures_swipe_left" android:key="gestureSwipeLeft" android:summary="" android:dependency="gestures" android:defaultValue="6" android:entryValues="@array/gestures_values" />
+        <ListPreference android:entries="@array/gestures_labels" android:title="@string/gestures_swipe_right" android:key="gestureSwipeRight" android:summary="" android:dependency="gestures" android:defaultValue="2" android:entryValues="@array/gestures_values" />
+        <ListPreference android:entries="@array/gestures_labels" android:title="@string/gestures_double_tap" android:key="gestureDoubleTap" android:summary="" android:dependency="gestures" android:defaultValue="0" android:entryValues="@array/gestures_values" />
+        <ListPreference android:entries="@array/gestures_labels" android:title="@string/gestures_tap_top" android:key="gestureTapTop" android:summary="" android:dependency="gestures" android:defaultValue="1" android:entryValues="@array/gestures_values" />
+        <ListPreference android:entries="@array/gestures_labels" android:title="@string/gestures_tap_bottom" android:key="gestureTapBottom" android:summary="" android:dependency="gestures" android:defaultValue="1" android:entryValues="@array/gestures_values" />
+        <ListPreference android:entries="@array/gestures_labels" android:title="@string/gestures_tap_left" android:key="gestureTapLeft" android:summary="" android:dependency="gestures" android:defaultValue="1" android:entryValues="@array/gestures_values" />
+        <ListPreference android:entries="@array/gestures_labels" android:title="@string/gestures_tap_right" android:key="gestureTapRight" android:summary="" android:dependency="gestures" android:defaultValue="1" android:entryValues="@array/gestures_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

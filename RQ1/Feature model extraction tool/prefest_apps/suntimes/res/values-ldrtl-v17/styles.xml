@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Dark" parent="@style/AppThemeBase.Dark">
+        <item name="icActionNext">@drawable/ic_action_previous_item</item>
+        <item name="icActionPrevious">@drawable/ic_action_next_item</item>
+    </style>
+    <style name="AppTheme.Light" parent="@style/AppThemeBase.Light">
+        <item name="icActionNext">@drawable/ic_action_previous_item_light</item>
+        <item name="icActionPrevious">@drawable/ic_action_next_item_light</item>
+    </style>
+</resources>

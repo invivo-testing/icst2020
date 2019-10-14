@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">每個對話中有 %d 個訊息</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">這將會立即裁剪所有對話至 %d 最新訊息。</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d 則未讀訊息</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">刪除已選訊息？</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">保存附件至存儲時遇到錯誤！</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">正在保存 %1$d 個附件</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">正在保存 %1$d 個附件至儲存空間...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"保存所有的 %1$d 媒體至存儲將會允許您設備上的其它軟體開啓它們。
+
+繼續嗎？"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">這將會永久刪除所有 %1$d 已選訊息</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d 個對話已經被存檔</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">刪除已選對話？</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">已經移動 %d 個對話到收件箱</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">這將會永久性地刪除所有 %1$d 已選對話。</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s 加入了群組。</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">傳送 %d 則簡訊邀請？</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">傳送簡訊給 %d 位朋友</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">這將永久刪除所有 1%1$d 選取的訊息。</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">刪除選取的訊息?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">你現在距離提交偵錯日誌只有%d步之遙。</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d 項目</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d 星期</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d 其他人</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">您的 Signal 版本將於 %d 日內到期，請更新至最新版本。</item>
+    </plurals>
+</resources>

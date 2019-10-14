@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.dwak.samples.apps.iosched.ui.widget.DrawShadowFrameLayout android:id="@id/main_content" android:background="?containerBackground" android:fitsSystemWindows="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" app:shadowDrawable="@drawable/header_shadow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="42.0dip" android:layout_height="42.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/toolbar_height" android:baselineAligned="false" android:animateLayoutChanges="true">
+        <FrameLayout android:id="@id/container" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.35" android:animateLayoutChanges="true" />
+        <FrameLayout android:id="@id/details_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.65" android:animateLayoutChanges="true" />
+    </LinearLayout>
+    <include android:id="@id/toolbar" layout="@layout/toolbar" />
+</io.dwak.samples.apps.iosched.ui.widget.DrawShadowFrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n1:title="@string/configLabel_places"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <Preference n1:title="@string/configLabel_places_build" n1:key="places_build" n1:summary="@string/configLabel_places_build_summary" />
+        <Preference n1:title="@string/configLabel_places_clear" n1:key="places_clear" />
+        <Preference n1:title="@string/configLabel_places_export" n1:key="places_export" />
+        <com.forrestguice.suntimeswidget.settings.ListPreference n1:entries="@array/getFix_maxElapse_display" n1:title="@string/configLabel_getFix_maxElapse" n1:key="getFix_maxElapsed" n1:summary="@string/configLabel_getFix_maxElapse_summary" n1:defaultValue="@string/def_getFix_maxElapsed" n1:dialogTitle="@string/configLabel_getFix_maxElapse" n1:entryValues="@array/getFix_maxElapse_values" />
+        <com.forrestguice.suntimeswidget.settings.ListPreference n1:entries="@array/getFix_maxAge_display" n1:title="@string/configLabel_getFix_maxAge" n1:key="getFix_maxAge" n1:summary="@string/configLabel_getFix_maxAge_summary" n1:defaultValue="@string/def_getFix_maxAge" n1:dialogTitle="@string/configLabel_getFix_maxAge" n1:entryValues="@array/getFix_maxAge_values" />
+        <CheckBoxPreference n1:title="@string/configLabel_getFix_passiveMode" n1:key="getFix_passiveMode" n1:summary="@string/configLabel_getFix_passiveMode_summary" n1:defaultValue="@string/def_getFix_passiveMode" />
+    </PreferenceCategory>
+</PreferenceScreen>

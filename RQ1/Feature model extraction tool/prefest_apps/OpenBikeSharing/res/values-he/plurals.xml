@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updated_days_ago">
+        <item quantity="other"></item>
+        <item quantity="one">אתמול</item>
+        <item quantity="two">לפני %d ימים</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="updated_hours_ago">
+        <item quantity="other"></item>
+        <item quantity="one">לפני שעה</item>
+        <item quantity="two">לפני %d שעות</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="updated_minutes_ago">
+        <item quantity="other"></item>
+        <item quantity="one">לפני דקה</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="many"></item>
+    </plurals>
+</resources>

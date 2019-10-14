@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:theme="@style/DarkAppTheme" android:gravity="center_vertical" android:id="@id/tvName" android:padding="@dimen/tiny_gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:checkMark="?android:textCheckMark"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

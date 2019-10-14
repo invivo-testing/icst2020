@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="?primary_text_color" android:gravity="center_vertical" android:paddingLeft="@dimen/list_item_horizontal_padding" android:paddingTop="8.0dip" android:paddingRight="@dimen/list_item_horizontal_padding" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/reading_list_save_to" />
+        <View android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+    <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="56.5dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/lists_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/create_button" android:background="?selectableItemBackground" android:paddingLeft="@dimen/list_item_horizontal_padding" android:paddingTop="16.0dip" android:paddingRight="@dimen/list_item_horizontal_padding" android:paddingBottom="16.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/button_shape_add_reading_list" android:padding="10.0dip" android:layout_width="@dimen/readingListItemSize" android:layout_height="@dimen/readingListItemSize" android:contentDescription="@null" android:layout_marginEnd="16.0dip" app:srcCompat="@drawable/ic_add_gray_24dp" />
+                <TextView android:textSize="16.0sp" android:textColor="?primary_text_color" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reading_list_create_new" />
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView android:id="@id/list_of_lists" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <include android:id="@id/onboarding_container" layout="@layout/include_add_to_reading_list_onboarding" />
+</FrameLayout>

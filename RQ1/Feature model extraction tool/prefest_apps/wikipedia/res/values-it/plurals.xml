@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d anni fa</item>
+        <item quantity="one">"L'anno scorso"</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Scaricamento voci</item>
+        <item quantity="one">Scaricamento voce</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$d voci rimanenti</item>
+        <item quantity="one">%1$d voce rimanente</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Scaricamento di %1$d voci…</item>
+        <item quantity="one">Scaricamento di %1$d voce…</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">%d minuti rimasti</item>
+        <item quantity="one">1 minuto rimasto</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Queste voci non saranno più disponibili non in linea.</item>
+        <item quantity="one">Questa voce non sarà più disponibile non in linea.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Queste voci ora sono disponibili non in linea.</item>
+        <item quantity="one">Questa voce ora è disponibile non in linea.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d giorni fa</item>
+        <item quantity="one">ieri</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Rimuovere le lingue selezionate?</item>
+        <item quantity="one">Rimuovere la lingua selezionata?</item>
+    </plurals>
+</resources>

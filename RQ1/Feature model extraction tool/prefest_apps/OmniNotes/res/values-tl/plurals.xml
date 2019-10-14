@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">Para sa %d (na) kaganapan</item>
+        <item quantity="one">Para sa %d (na) kaganapan</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Bawat %d (na) araw</item>
+        <item quantity="one">Bawat %d araw</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Bawat %d (na) buwan</item>
+        <item quantity="one">Bawat %d buwan</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Bawat %d (na) linggo</item>
+        <item quantity="one">Bawat %d linggo</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Bawat %d (na) taon</item>
+        <item quantity="one">Bawat %d taon</item>
+    </plurals>
+</resources>

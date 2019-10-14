@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView n1:textSize="10.0sp" n1:textStyle="bold" n1:textColor="?date_buttonSelector" n1:gravity="center_vertical" n1:id="@id/txt_datasource" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+</merge>

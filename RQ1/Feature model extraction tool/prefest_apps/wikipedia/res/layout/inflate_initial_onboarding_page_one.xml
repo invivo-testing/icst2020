@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.wikipedia.onboarding.OnboardingPageView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:centeredImage="@drawable/ic_illustration_app_onboarding_1_alt" app:imageSize="160.0dip" app:primaryText="@string/onboarding_explore_title" app:secondaryText="@string/onboarding_explore_text"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

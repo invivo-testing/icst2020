@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="@drawable/bg_card" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/note_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui">
+    <LinearLayout android:orientation="horizontal" android:id="@id/card_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/note_item_min_height_inner">
+        <View android:id="@id/category_marker" android:background="@null" android:layout_width="7.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/note_item_min_height_inner" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="6.0dip" android:paddingTop="7.0dip" android:paddingRight="16.0dip" android:paddingBottom="7.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/note_item_min_height_inner" android:layout_weight="1.0">
+            <com.neopixl.pixlui.components.textview.TextView android:textAppearance="@style/Text.Big" android:layout_gravity="start|center|top" android:id="@id/note_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" pixlui:typeface="RobotoSlab-Bold.ttf" />
+            <com.neopixl.pixlui.components.textview.TextView android:textAppearance="@style/Text.Normal" android:layout_gravity="center_vertical" android:id="@id/note_content" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:maxLines="@integer/textview_max_lines_expanded" android:layout_weight="1.0" pixlui:typeface="RobotoSlab-Regular.ttf" />
+            <LinearLayout android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.6">
+                <com.neopixl.pixlui.components.textview.TextView android:textAppearance="@style/Text.Small" android:gravity="start|bottom|center" android:layout_gravity="start|bottom|center" android:id="@id/note_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" pixlui:typeface="Roboto-Regular.ttf" />
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/alarmIcon" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_alarm_black_18dp" android:contentDescription="@string/note_reminder_symbol" />
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/locationIcon" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_pin_drop_black_18dp" />
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/archivedIcon" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_archive_black_18dp" />
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/lockedIcon" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_lock_black_24dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <it.feio.android.omninotes.models.views.SquareImageView android:layout_gravity="center_vertical" android:id="@id/attachmentThumbnail" android:layout_width="@dimen/note_item_min_height_inner" android:layout_height="fill_parent" android:contentDescription="@string/note_thumbnail" />
+    </LinearLayout>
+</FrameLayout>

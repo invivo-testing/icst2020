@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui">
+    <it.feio.android.omninotes.models.views.SquareImageView android:id="@id/gridview_item_picture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+    <com.neopixl.pixlui.components.textview.TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/gridview_item_text" android:background="#44000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" pixlui:typeface="Roboto-Regular.ttf" />
+</RelativeLayout>

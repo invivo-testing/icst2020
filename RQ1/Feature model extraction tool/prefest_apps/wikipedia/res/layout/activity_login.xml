@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?paper_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="?android:windowBackground" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="?material_theme_primary_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_dont_have_account" />
+                <TextView android:textColor="?colorAccent" android:id="@id/login_create_account_button" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:layout_marginBottom="0.0dip" android:text="@string/login_join_wikipedia" style="@style/TransparentButton" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <android.support.design.widget.TextInputLayout android:id="@id/login_username_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/login_username_hint">
+                    <org.wikipedia.views.PlainPasteEditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="textNoSuggestions" android:imeOptions="flagNoExtractUi" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout android:id="@id/login_password_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/login_password_hint" app:passwordToggleEnabled="true" app:passwordToggleTint="?android:textColorHint">
+                    <org.wikipedia.views.PlainPasteEditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="textPassword" android:imeOptions="flagNoExtractUi" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/login_2fa_hint">
+                    <org.wikipedia.views.PlainPasteEditText android:id="@id/login_2fa_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="textVisiblePassword|textNoSuggestions" android:imeOptions="flagNoExtractUi" style="?android:textAppearanceMedium" />
+                </android.support.design.widget.TextInputLayout>
+                <TextView android:enabled="false" android:id="@id/login_button" android:layout_width="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/menu_login" style="@style/App.Button.Blue" />
+                <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <TextView android:textColor="?colorAccent" android:id="@id/forgot_password_link" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_forgot_password" />
+                    <TextView android:layout_gravity="center_vertical" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="•" />
+                    <TextView android:textColor="?colorAccent" android:id="@id/privacy_policy_link" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_policy_description" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <org.wikipedia.views.WikiErrorView android:layout_gravity="center" android:orientation="vertical" android:id="@id/view_login_error" android:background="?android:windowBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

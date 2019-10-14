@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingTop="15.0dip" n1:paddingBottom="16.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_margin="15.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="22.0sp" n1:textStyle="bold" n1:id="@id/app_version_name" n1:paddingLeft="20.0dip" n1:paddingTop="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/app_name" style="@style/TextAppearance.AppCompat.Body1" />
+    <TextView n1:textSize="16.0sp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dip" n1:layout_marginTop="15.0dip" n1:layout_marginRight="10.0dip" n1:text="@string/timber_about_opensource" style="@style/TextAppearance.AppCompat.Body1" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dip">
+        <TextView n1:textSize="17.0sp" n1:id="@id/googleplus" n1:paddingTop="10.0dip" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Google+" style="@style/TextAppearance.AppCompat.Body1" />
+        <TextView n1:textSize="17.0sp" n1:id="@id/twitter" n1:paddingLeft="10.0dip" n1:paddingTop="8.0dip" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Twitter" style="@style/TextAppearance.AppCompat.Body1" />
+        <TextView n1:textSize="17.0sp" n1:id="@id/github" n1:paddingLeft="10.0dip" n1:paddingTop="8.0dip" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Github" style="@style/TextAppearance.AppCompat.Body1" />
+    </LinearLayout>
+    <TextView n1:textSize="16.0sp" n1:id="@id/source" n1:paddingLeft="15.0dip" n1:clickable="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="25.0dip" n1:text="@string/timber_source" style="@style/TextAppearance.AppCompat.Body1" />
+    <TextView n1:textSize="16.0sp" n1:id="@id/feature_request" n1:paddingLeft="15.0dip" n1:clickable="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="15.0dip" n1:layout_marginBottom="20.0dip" n1:text="@string/timber_feature_request" style="@style/TextAppearance.AppCompat.Body1" />
+    <TextView n1:textSize="18.0sp" n1:gravity="center" n1:layout_gravity="right" n1:id="@id/dismiss_dialog" n1:background="?selectableItemBackgroundBorderless" n1:paddingRight="15.0dip" n1:paddingBottom="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="20.0dip" n1:text="@android:string/ok" style="@style/TextAppearance.AppCompat.Body1" />
+</LinearLayout>

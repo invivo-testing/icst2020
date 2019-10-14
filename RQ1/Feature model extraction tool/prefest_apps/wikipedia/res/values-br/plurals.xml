@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">%d munutenn a chom</item>
+        <item quantity="one">1 vunutenn a chom</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">"e c'hallor ket gwelet ar pennad-mañ ezlinenn pelloc'h."</item>
+        <item quantity="one">"Ne c'hallor ket gwelet ar pennadoù-mañ ezlinenn pelloc'h"</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d devezh zo</item>
+        <item quantity="one">"Dec'h"</item>
+    </plurals>
+</resources>

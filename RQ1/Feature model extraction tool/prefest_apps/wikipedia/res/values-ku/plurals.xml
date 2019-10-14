@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">berî %d rojan</item>
+        <item quantity="one">doh</item>
+    </plurals>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?theme_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/linearLayoutHome" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+            <android.support.v7.widget.CardView android:orientation="vertical" android:padding="@dimen/mmx_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/mmx_margin" android:layout_weight="1.0" android:animateLayoutChanges="true" app:cardBackgroundColor="?cardViewBackgroundColor">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.money.manager.ex.view.RobotoTextView android:gravity="center_vertical" android:id="@id/textViewItem" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/accounts" style="?headerTextViewStyle" />
+                    <View android:layout_gravity="center_horizontal" android:background="?theme_background_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0">
+                        <ExpandableListView android:id="@id/listViewAccountBills" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@null" android:dividerHeight="1.0dip" android:choiceMode="none" android:animateLayoutChanges="true" />
+                        <ProgressBar android:layout_gravity="center" android:id="@id/progressAccountBills" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/summary" android:layout_weight="1.0" />
+                        <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:layout_gravity="end" android:id="@id/textViewTotalAccounts" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:padding="@dimen/mmx_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mmx_margin" android:layout_marginRight="@dimen/mmx_margin" android:layout_marginBottom="@dimen/mmx_margin" android:onClick="onClickCardViewIncomesVsExpenses" app:cardBackgroundColor="?cardViewBackgroundColor">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                    <com.money.manager.ex.view.RobotoTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/income_vs_expenses_current_month" android:maxLines="1" style="?headerTextViewStyle" />
+                    <include layout="@layout/merge_main_footer_income_expenses" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <com.melnykov.fab.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="@dimen/fab_margin_bottom_home_fragment" android:src="@drawable/ic_action_add_dark" app:fab_colorNormal="@color/md_accent" app:fab_colorPressed="@color/md_primary_dark" />
+    </FrameLayout>
+    <include android:id="@id/linearLayoutWelcome" android:visibility="gone" layout="@layout/welcome_layout" />
+</LinearLayout>

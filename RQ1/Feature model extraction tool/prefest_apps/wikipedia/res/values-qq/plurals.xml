@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Text indicating that the event occured two or more years ago.\"%d\" is the number of years.</item>
+        <item quantity="one">Text indicating that the event occured one year ago.</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Name of the notification channel that shows the app is downloading two or more articles</item>
+        <item quantity="one">Name of the notification channel that shows the app is downloading one article</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">Text of notification shows the remaining articles. The \"%1$d\" symbol corresponds to the amount of remaining articles.</item>
+        <item quantity="one">Text of notification shows the remaining article. The \"%1$d\" symbol corresponds to the amount of remaining articles.</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Name of the notification channel of syncing two or more reading lists</item>
+        <item quantity="one">Name of the notification channel of syncing one reading list</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">Text of notification shows the remaining lists. The \"%1$d\" symbol corresponds to the amount of remaining lists.</item>
+        <item quantity="one">Text of notification shows the remaining list. The \"%1$d\" symbol corresponds to the amount of remaining lists.</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Title for notification when the syncing two or more reading lists process begins. The \"%1$d\" symbol corresponds to the amount of lists.</item>
+        <item quantity="one">Title for notification when the syncing one reading list process begins. The \"%1$d\" symbol corresponds to the amount of lists.</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Title for notification when the downloading process of two or more article begins. The \"%1$d\" symbol corresponds to the amount of articles.</item>
+        <item quantity="one">Title for notification when the downloading process of one article begins. The \"%1$d\" symbol corresponds to the amount of articles.</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">Message shown when an offline article pack has an estimated two or more minutes remaining before the download is finished.</item>
+        <item quantity="one">Message shown when an offline article pack has an estimated one minute remaining before the download is finished.</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Message shown when more than one reading list article is removed from offline availability.</item>
+        <item quantity="one">Message shown when a single reading list article is removed from offline availability.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Message shown when more than one reading list article is made available for offline use.</item>
+        <item quantity="one">Message shown when a single reading list article is made available for offline use.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">Subtitle for a \"continue reading\" card two or more days old. The first word should have an initial uppercase letter if appropriate for the language. Example: [[phab:F4695814]]. Use the %d parameter to insert the number of days passed since the content (an article) was last seen.</item>
+        <item quantity="one">Subtitle for a day old \"continue reading\" card. The word should be in lowercase if appropriate for the language.</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Title of the dialog that pop-ups after clicking on the delete icon in the action mode when two or more items have been selected.</item>
+        <item quantity="one">Title of the dialog that pop-ups after clicking on the delete icon in the action mode when only one item has been selected.</item>
+    </plurals>
+</resources>

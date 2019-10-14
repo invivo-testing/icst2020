@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tab1_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/feed_actionbar" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/feed" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/feed_progress" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <TextView android:id="@id/feed_progress_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+    </LinearLayout>
+    <ListView android:id="@id/feed_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+</LinearLayout>

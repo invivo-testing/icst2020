@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="air_error_short_description">
+        <item quantity="other">The description must have at least %d characters.</item>
+        <item quantity="one">The description must have at least %d character.</item>
+    </plurals>
+</resources>

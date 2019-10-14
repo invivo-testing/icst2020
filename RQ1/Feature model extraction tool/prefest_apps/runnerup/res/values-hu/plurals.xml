@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cue_bpm">
+        <item quantity="other">%d ütés per perc</item>
+        <item quantity="one">%d ütés per perc</item>
+    </plurals>
+    <plurals name="cue_hour">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="cue_kilometer">
+        <item quantity="other">%s kilométer</item>
+        <item quantity="one">%s kilométer</item>
+    </plurals>
+    <plurals name="cue_kilometers_per_hour">
+        <item quantity="other">%s kilométer per óra</item>
+        <item quantity="one">%s kilométer per óra</item>
+    </plurals>
+    <plurals name="cue_meter">
+        <item quantity="other">%d méter</item>
+        <item quantity="one">%d méter</item>
+    </plurals>
+    <plurals name="cue_mile">
+        <item quantity="other">%s mérföld</item>
+        <item quantity="one">%s mérföld</item>
+    </plurals>
+    <plurals name="cue_miles_per_hour">
+        <item quantity="other">%s mérföld per óra</item>
+        <item quantity="one">%s mérföld per óra</item>
+    </plurals>
+    <plurals name="cue_minute">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="cue_second">
+        <item quantity="other">%d másodperc</item>
+        <item quantity="one">%d másodperc</item>
+    </plurals>
+</resources>

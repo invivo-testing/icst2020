@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://arbitrary.app.namespace/com.ichi2.anki">
+    <Preference android:summary="@string/deck_conf_group_summ" />
+    <ListPreference android:title="@string/deck_conf_group" android:key="deckConf" />
+    <PreferenceScreen android:title="@string/deck_conf_manage">
+        <Preference android:enabled="false" android:title="@string/deck_conf_current_group" android:key="currentConf" />
+        <EditTextPreference android:title="@string/deck_conf_add" android:key="confAdd" android:summary="@string/deck_conf_add_summ" />
+        <com.ichi2.preferences.CustomDialogPreference android:title="@string/deck_conf_remove" android:key="confRemove" android:dialogTitle="@string/deck_conf_remove_title" android:dialogMessage="@string/deck_conf_remove_message" android:dialogIcon="@drawable/ic_dialog_alert" android:positiveButtonText="@string/dialog_positive_remove" android:negativeButtonText="@string/dialog_cancel" />
+        <EditTextPreference android:title="@string/deck_conf_rename" android:key="confRename" />
+        <com.ichi2.preferences.CustomDialogPreference android:title="@string/deck_conf_reset_title" android:key="confRestore" android:dialogTitle="@string/deck_conf_reset_title" android:dialogMessage="@string/deck_conf_reset_message" android:dialogIcon="@drawable/ic_dialog_alert" android:positiveButtonText="@string/dialog_positive_restore" android:negativeButtonText="@string/dialog_cancel" />
+        <com.ichi2.preferences.CustomDialogPreference android:title="@string/deck_conf_set_subdecks" android:key="confSetSubdecks" android:dialogTitle="@string/deck_conf_set_subdecks_title" android:dialogMessage="@string/deck_conf_set_subdecks_message" android:dialogIcon="@drawable/ic_dialog_alert" android:positiveButtonText="@string/dialog_positive_set" android:negativeButtonText="@string/dialog_cancel" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/deck_conf_new_cards">
+        <com.ichi2.preferences.StepsPreference android:title="@string/deck_conf_steps" android:key="newSteps" app:allowEmpty="false" />
+        <ListPreference android:title="@string/deck_conf_order" android:key="newOrder" android:summary="" />
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_new_cards_day" android:key="newPerDay" app:max="9999" app:min="0" />
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_graduating_ivl" android:key="newGradIvl" android:summary="@string/deck_conf_days" app:max="99" app:min="1" />
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_easy_ivl" android:key="newEasy" android:summary="@string/deck_conf_days" app:max="99" app:min="1" />
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_start_ease" android:key="newFactor" android:summary="@string/deck_conf_percent" app:max="999" app:min="100" />
+        <CheckBoxPreference android:title="@string/deck_conf_new_bury" android:key="newBury" android:summary="@string/deck_conf_new_bury_summ" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/deck_conf_rev_cards">
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_max_rev" android:key="revPerDay" app:max="9999" app:min="0" />
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_easy_bonus" android:key="easyBonus" android:summary="@string/deck_conf_percent" app:max="1000" app:min="100" />
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_ivl_fct" android:key="revIvlFct" android:summary="@string/deck_conf_percent" app:max="999" app:min="0" />
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_max_ivl" android:key="revMaxIvl" android:summary="@string/deck_conf_days" app:max="99999" app:min="1" />
+        <CheckBoxPreference android:title="@string/deck_conf_rev_bury" android:key="revBury" android:summary="@string/deck_conf_rev_bury_summ" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/deck_conf_lps_cards">
+        <com.ichi2.preferences.StepsPreference android:title="@string/deck_conf_steps" android:key="lapSteps" app:allowEmpty="true" />
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_new_lps_ivl" android:key="lapNewIvl" android:summary="@string/deck_conf_percent" app:max="100" app:min="0" />
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_min_ivl" android:key="lapMinIvl" android:summary="@string/deck_conf_days" app:max="99" app:min="1" />
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_leech_thres" android:key="lapLeechThres" android:summary="@string/deck_conf_fails" app:max="99" app:min="0" />
+        <ListPreference android:title="@string/deck_conf_leech_action" android:key="lapLeechAct" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/deck_conf_general">
+        <com.ichi2.preferences.NumberRangePreference android:title="@string/deck_conf_max_time" android:key="maxAnswerTime" android:summary="@string/deck_conf_seconds" app:max="3600" app:min="30" />
+        <CheckBoxPreference android:title="@string/deck_conf_timer" android:key="showAnswerTimer" />
+        <CheckBoxPreference android:title="@string/deck_conf_autoplay" android:key="autoPlayAudio" />
+        <CheckBoxPreference android:title="@string/deck_conf_replayq" android:key="replayQuestion" android:summary="@string/deck_conf_replayq_summ" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/deck_conf_reminders">
+        <CheckBoxPreference android:title="@string/deck_conf_reminders_enabled" android:key="reminderEnabled" />
+        <com.ichi2.preferences.TimePreference android:title="@string/deck_conf_reminders_time" android:key="reminderTime" android:dependency="reminderEnabled" />
+    </PreferenceScreen>
+    <EditTextPreference android:title="@string/deck_conf_deck_description" android:key="desc" />
+</PreferenceScreen>

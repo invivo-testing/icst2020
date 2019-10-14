@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.percent.PercentRelativeLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <FrameLayout n1:id="@id/headerView" n1:layout_width="fill_parent" n2:layout_heightPercent="60.000004%" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <ImageView n1:id="@id/album_art_blurred" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="centerCrop" />
+            <View n1:background="#77000000" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+            <LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:paddingTop="15.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="@dimen/appBarTopMargin">
+                <TextView n1:textSize="21.0sp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/song_title" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="50.0dip" n1:layout_marginRight="50.0dip" n1:scrollHorizontally="true" n1:singleLine="true" />
+                <TextView n1:textSize="13.0sp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/song_artist" n1:paddingTop="3.0dip" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="10.0dip" n1:maxLines="1" n1:maxLength="30" />
+                <android.support.percent.PercentRelativeLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="10.0dip">
+                    <net.steamcrafted.materialiconlib.MaterialIconView n1:id="@id/previous" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:layout_marginLeft="10.0dip" n1:scaleType="center" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" n2:materialIcon="skip_previous" n2:materialIconColor="#ffffffff" n2:materialIconSize="35.0dip" />
+                    <FrameLayout n1:layout_gravity="center" n1:background="@android:color/transparent" n1:layout_centerInParent="true" n2:layout_heightPercent="79.99999%" n2:layout_widthPercent="79.99999%">
+                        <com.naman14.timber.widgets.CircleImageView n1:layout_gravity="center" n1:id="@id/album_art" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="centerCrop" n1:layout_centerInParent="true" />
+                        <com.naman14.timber.widgets.CircleImageView n1:layout_gravity="center" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@color/black_translucent" n1:scaleType="centerCrop" n1:layout_centerInParent="true" />
+                        <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                            <include n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" layout="@layout/song_elapsedtime" />
+                            <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:paddingTop="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                                <ImageView n1:id="@id/shuffle" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:scaleType="center" />
+                                <ImageView n1:id="@id/repeat" n1:background="?selectableItemBackgroundBorderless" n1:paddingLeft="5.0dip" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:scaleType="center" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+                    <com.naman14.timber.widgets.CircularSeekBar n1:layout_gravity="center" n1:id="@id/song_progress_circular" n1:background="@android:color/transparent" n1:maxHeight="1.0dip" n1:progress="30" n1:layout_centerInParent="true" n2:circle_color="\#33000000" n2:circle_stroke_width="2.0" n2:layout_heightPercent="94.99999%" n2:layout_widthPercent="94.99999%" n2:pointer_halo_border_width="1.5" n2:pointer_halo_width="0.5" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+                    <net.steamcrafted.materialiconlib.MaterialIconView n1:id="@id/next" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:layout_marginRight="10.0dip" n1:scaleType="center" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n2:materialIcon="skip_next" n2:materialIconColor="#ffffffff" n2:materialIconSize="35.0dip" />
+                </android.support.percent.PercentRelativeLayout>
+            </LinearLayout>
+            <android.support.v7.widget.Toolbar n1:theme="@style/Theme.AppCompat" n1:layout_gravity="top" n1:id="@id/toolbar" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n1:layout_marginTop="@dimen/appBarTopMargin" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </FrameLayout>
+        <android.support.v7.widget.RecyclerView n1:id="@id/queue_recyclerview" n1:paddingTop="18.0dip" n1:clipToPadding="false" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/headerView" />
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.design.widget.FloatingActionButton n1:id="@id/playpausefloating" n1:tag="bg_tint_accent_color" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="16.0dip" n1:scaleType="centerInside" n3:layout_anchor="@id/headerView" n3:layout_anchorGravity="end|bottom|center" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</android.support.design.widget.CoordinatorLayout>

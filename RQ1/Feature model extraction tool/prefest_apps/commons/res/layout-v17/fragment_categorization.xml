@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/DarkAppTheme" android:orientation="vertical" android:background="?fragmentCategorisationBackground" android:paddingLeft="@dimen/standard_gap" android:paddingTop="@dimen/small_gap" android:paddingRight="@dimen/standard_gap" android:paddingBottom="@dimen/small_gap" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/standard_gap" android:paddingEnd="@dimen/standard_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:gravity="left" android:id="@id/categoriesSearchBox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/categories_search_text_hint" android:maxLines="1" android:inputType="textCapWords" android:imeOptions="flagNoExtractUi" />
+        <ProgressBar android:layout_gravity="center|right" android:id="@id/categoriesSearchInProgress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/tiny_gap" android:indeterminate="true" android:indeterminateOnly="true" android:layout_marginEnd="@dimen/tiny_gap" style="?android:progressBarStyleSmall" />
+    </FrameLayout>
+    <TextView android:gravity="center" android:id="@id/categoriesNotFound" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:gravity="center" android:id="@id/categoriesExplanation" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/huge_gap" android:text="@string/categories_skip_explanation" />
+    <android.support.v7.widget.RecyclerView android:id="@id/categoriesListBox" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

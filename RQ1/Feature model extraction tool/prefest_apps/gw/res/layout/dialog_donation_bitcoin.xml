@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:padding="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/bitcoin_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" android:textAlignment="center" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/bitcoin_address_qr" android:layout_width="200.0dip" android:layout_height="200.0dip" android:src="@drawable/bitcoin_address_qr" android:contentDescription="@string/donation_bitcoin_qr_description" />
+    <Button android:id="@id/copy_bitcoin_address_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/donation_bitcoin_copy_button" />
+    <Button android:id="@id/open_bitcoin_app_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/donation_bitcoin_open_app" />
+</LinearLayout>

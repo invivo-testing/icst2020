@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="alpha" format="float" />
+    <attr name="backgroundCircleColor" format="color" />
+    <attr name="background_circle_color" format="color" />
+    <attr name="click_remove_id" format="integer" />
+    <attr name="collapsed_height" format="dimension" />
+    <attr name="controls_active" format="color" />
+    <attr name="controls_normal" format="color" />
+    <attr name="coordinatorLayoutStyle" format="reference" />
+    <attr name="drag_enabled" format="boolean" />
+    <attr name="drag_handle_id" format="integer" />
+    <attr name="drag_scroll_start" format="float" />
+    <attr name="drag_start_mode">
+        <enum name="onDown" value="0" />
+        <enum name="onLongPress" value="2" />
+        <enum name="onMove" value="1" />
+    </attr>
+    <attr name="drop_animation_duration" format="integer" />
+    <attr name="fling_handle_id" format="integer" />
+    <attr name="float_alpha" format="float" />
+    <attr name="float_background_color" format="color" />
+    <attr name="float_color" format="color" />
+    <attr name="font" format="reference" />
+    <attr name="fontProviderAuthority" format="string" />
+    <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string" />
+    <attr name="fontProviderQuery" format="string" />
+    <attr name="fontStyle">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="fontVariationSettings" format="string" />
+    <attr name="fontWeight" format="integer" />
+    <attr name="keylines" format="reference" />
+    <attr name="layout_anchor" format="reference" />
+    <attr name="layout_anchorGravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="clip_horizontal" value="0x00000008" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="layout_behavior" format="string" />
+    <attr name="layout_dodgeInsetEdges">
+        <flag name="all" value="0x00000077" />
+        <flag name="bottom" value="0x00000050" />
+        <flag name="end" value="0x00800005" />
+        <flag name="left" value="0x00000003" />
+        <flag name="none" value="0x00000000" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="layout_insetEdge">
+        <enum name="bottom" value="80" />
+        <enum name="end" value="8388613" />
+        <enum name="left" value="3" />
+        <enum name="none" value="0" />
+        <enum name="right" value="5" />
+        <enum name="start" value="8388611" />
+        <enum name="top" value="48" />
+    </attr>
+    <attr name="layout_keyline" format="integer" />
+    <attr name="max_drag_scroll_speed" format="float" />
+    <attr name="now_playing_marker" format="color" />
+    <attr name="overlay_background_color" format="color" />
+    <attr name="overlay_foreground_color" format="color" />
+    <attr name="remove_animation_duration" format="integer" />
+    <attr name="remove_enabled" format="boolean" />
+    <attr name="remove_mode">
+        <enum name="clickRemove" value="0" />
+        <enum name="flingRemove" value="1" />
+    </attr>
+    <attr name="sbpCheckBoxKey" format="string" />
+    <attr name="sbpCheckBoxText" format="string" />
+    <attr name="sbpMaxValue" format="integer" />
+    <attr name="sbpSteps" format="integer" />
+    <attr name="sbpSummaryFormat" format="string" />
+    <attr name="sbpSummaryText" format="string" />
+    <attr name="sbpSummaryValueAddition" format="float" />
+    <attr name="sbpSummaryValueMultiplication" format="float" />
+    <attr name="sbpSummaryZeroText" format="string" />
+    <attr name="slide_shuffle_speed" format="float" />
+    <attr name="slider_always_expanded" format="integer" />
+    <attr name="slider_handle_id" format="integer" />
+    <attr name="slider_slave_id" format="integer" />
+    <attr name="sort_enabled" format="boolean" />
+    <attr name="statusBarBackground" format="reference|color" />
+    <attr name="tabs_background" format="color" />
+    <attr name="track_drag_sort" format="boolean" />
+    <attr name="ttcIndex" format="integer" />
+    <attr name="use_default_controller" format="boolean" />
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?theme_background_color" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/mmx_activity_side_margin" android:layout_marginRight="@dimen/mmx_activity_side_margin" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/mmx_activity_side_padding" android:paddingRight="@dimen/mmx_activity_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.money.manager.ex.view.RobotoTextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/transaction_type" android:layout_weight="1.0" style="@style/Money.TextView.Header.Caption" />
+                <com.money.manager.ex.view.RobotoTextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/transaction_status" android:layout_weight="1.0" style="@style/Money.TextView.Header.Caption" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_avatar_item_height" android:animateLayoutChanges="true">
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_weight="1.0" android:animateLayoutChanges="true">
+                    <RelativeLayout android:id="@id/depositButton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Money.Button.Transparent">
+                        <com.shamanland.fonticon.FontIconView android:textSize="@dimen/fonticon_drawer" android:textColor="@color/material_green_700" android:id="@id/depositButtonIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ic_diff_added" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/withdrawalButton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Money.Button.Transparent">
+                        <com.shamanland.fonticon.FontIconView android:textSize="@dimen/fonticon_drawer" android:textColor="@color/material_red_700" android:id="@id/withdrawalButtonIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ic_diff_removed" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/transferButton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Money.Button.Transparent">
+                        <com.shamanland.fonticon.FontIconView android:textSize="@dimen/fonticon_drawer" android:textColor="@color/material_grey_700" android:id="@id/transferButtonIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ic_share_square" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <Spinner android:id="@id/spinnerStatus" android:layout_width="0.0dip" android:layout_height="fill_parent" android:prompt="@string/status" android:layout_weight="1.0" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_avatar_item_height">
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="gmd-today" app:iiv_size="@dimen/mmx_icon_size" />
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center" android:id="@id/previousDayButton" android:background="?selectableItemBackground" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="fill_parent" app:iiv_color="?android:textColorPrimary" app:iiv_icon="gmd-keyboard-arrow-left" app:iiv_size="@dimen/mmx_icon_size" />
+                <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/textViewDate" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/date" android:layout_weight="1.0" style="@style/Money.TextView.Widget.EditText" />
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center" android:id="@id/nextDayButton" android:background="?selectableItemBackground" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="fill_parent" app:iiv_color="?android:textColorPrimary" app:iiv_icon="gmd-keyboard-arrow-right" app:iiv_size="@dimen/mmx_icon_size" />
+            </LinearLayout>
+            <com.money.manager.ex.view.RobotoTextView android:id="@id/accountFromLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mmx_avatar_left_margin_56" android:text="@string/account" style="@style/Money.TextView.Header.Caption" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_avatar_item_height">
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="fill_parent" android:layout_marginRight="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="mmx-temple" app:iiv_size="@dimen/mmx_icon_size" />
+                <Spinner android:layout_gravity="center" android:id="@id/spinnerAccount" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tableRowAmount" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:ellipsize="end" android:id="@id/textViewHeaderAmount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mmx_avatar_left_margin_56" android:text="@string/amount" android:maxLines="1" style="@style/Money.TextView.Header.Caption" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_avatar_item_height">
+                    <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="fill_parent" android:layout_marginRight="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="mmx-calculator" app:iiv_size="@dimen/mmx_icon_size" />
+                    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="end" android:id="@id/textViewAmount" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Money.TextView.Widget.EditText" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tableRowAccountTo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.money.manager.ex.view.RobotoTextView android:id="@id/textViewToAccount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mmx_avatar_left_margin_56" android:text="@string/to_account" android:maxLines="1" style="@style/Money.TextView.Header.Caption" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_avatar_item_height" android:animateLayoutChanges="true">
+                    <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="mmx-temple" app:iiv_size="@dimen/mmx_icon_size" />
+                    <Spinner android:id="@id/spinnerToAccount" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tableRowAmountTo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:ellipsize="end" android:id="@id/textViewHeaderAmountTo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mmx_avatar_left_margin_56" android:text="@string/amount_to" android:maxLines="1" style="@style/Money.TextView.Header.Caption" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_avatar_item_height">
+                    <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="fill_parent" android:layout_marginRight="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="mmx-calculator" app:iiv_size="@dimen/mmx_icon_size" />
+                    <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="end" android:id="@id/textViewToAmount" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Money.TextView.Widget.EditText" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/tableRowPayee" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_avatar_item_height" android:animateLayoutChanges="true">
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="gmd-group" app:iiv_size="@dimen/mmx_icon_size" />
+                <com.money.manager.ex.view.RobotoTextView android:id="@id/textViewPayee" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/payee" android:layout_weight="1.0" style="@style/Money.TextView.Widget.EditText" />
+                <ImageButton android:theme="@style/Money.Button.Colored.Theme" android:id="@id/removePayeeButton" android:layout_width="@dimen/mmx_button_height" android:layout_height="@dimen/mmx_button_height" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_avatar_item_height">
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="gmd-label_outline" app:iiv_size="@dimen/mmx_icon_size" />
+                <com.money.manager.ex.view.RobotoTextView android:id="@id/textViewCategory" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/category" android:layout_weight="1.0" style="@style/Money.TextView.Widget.EditText" />
+                <com.shamanland.fonticon.FontIconView android:textSize="@dimen/fonticon_drawer" android:id="@id/splitButton" android:layout_width="@dimen/mmx_button_height" android:layout_height="@dimen/mmx_button_height" android:text="@string/ic_split" style="@style/Money.Button.Transparent" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mmx_avatar_item_height">
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="gmd-content_paste" app:iiv_size="@dimen/mmx_icon_size" />
+                <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.money.manager.ex.view.RobotoEditText android:gravity="start|center|top" android:id="@id/editTextNotes" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/notes" android:scrollHorizontally="false" android:inputType="textCapSentences|textMultiLine" android:textCursorDrawable="@null" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mmx_avatar_item_height">
+                <com.mikepenz.iconics.view.IconicsImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mmx_side_icon_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mmx_side_icon_margin" app:iiv_color="?android:textColorSecondary" app:iiv_icon="gmd-exposure_plus_1" app:iiv_size="@dimen/mmx_icon_size" />
+                <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.money.manager.ex.view.RobotoEditText android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/editTextTransNumber" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/transaction_number" android:maxLines="1" android:inputType="text" android:textCursorDrawable="@null" />
+                </android.support.design.widget.TextInputLayout>
+                <ImageButton android:theme="@style/Money.Button.Colored.Theme" android:layout_gravity="center_vertical" android:id="@id/buttonTransNumber" android:layout_width="@dimen/mmx_button_height" android:layout_height="@dimen/mmx_button_height" android:src="@drawable/ic_action_plusone_dark" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

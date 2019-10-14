@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.shamanland.fonticon.FontIconView android:textSize="@dimen/md_icon_max_size" android:textColor="@color/material_green_700" android:layout_gravity="center_vertical" android:id="@id/transactionTypeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ic_diff_added" style="@style/Money.Button.Transparent" />
+        <TableLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:stretchColumns="2" android:layout_weight="1.0">
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.money.manager.ex.view.RobotoTextView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/category" />
+                <com.money.manager.ex.view.RobotoTextView android:ellipsize="end" android:id="@id/textViewCategory" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/select_category" android:singleLine="true" android:layout_weight="1.0" style="?holoSpinnerStyle" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.money.manager.ex.view.RobotoTextView android:layout_gravity="end|center" android:layout_width="32.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/amount" />
+                <com.money.manager.ex.view.RobotoTextView android:textStyle="bold" android:gravity="end" android:id="@id/editTextTotAmount" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/amount" android:layout_weight="1.0" style="?holoSpinnerStyle" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

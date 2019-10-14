@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/time_picker_dialog" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/time_display_background" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <include n1:layout_gravity="center" n1:layout_width="fill_parent" n1:layout_height="@dimen/header_height" layout="@layout/time_header_label" />
+    </FrameLayout>
+    <com.android.datetimepicker.time.RadialPickerLayout n1:layout_gravity="center" n1:id="@id/time_picker" n1:background="@color/circle_background" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="wrap_content" n1:layout_height="@dimen/picker_dimen" />
+    <View n1:id="@id/line" n1:background="@color/line_background" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="@dimen/date_picker_component_width" n1:layout_height="wrap_content" style="?android:buttonBarStyle">
+        <Button n1:textSize="@dimen/done_label_size" n1:textColor="@color/done_text_color" n1:id="@id/clear_button" n1:background="@drawable/done_background_color" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:minHeight="48.0dip" n1:text="@string/clear_label" n1:layout_weight="1.0" />
+        <Button n1:textSize="@dimen/done_label_size" n1:textColor="@color/done_text_color" n1:id="@id/done_button" n1:background="@drawable/done_background_color" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:minHeight="48.0dip" n1:text="@string/done_label" n1:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

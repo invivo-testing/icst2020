@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Преди %d години</item>
+        <item quantity="one">Миналата година</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Изтегляне на статии</item>
+        <item quantity="one">Изтегляне на статия</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">остават %1$d статии</item>
+        <item quantity="one">остава %1$d статия</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Синхронизиране на Списъците за четене</item>
+        <item quantity="one">Синхронизиране на Списъка за четене</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">остават %1$d списъка</item>
+        <item quantity="one">остава %1$d списък</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Синхронизиране на %1$d списъка…</item>
+        <item quantity="one">Синхронизиране на %1$d списък…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Изтегляне на %1$d статии…</item>
+        <item quantity="one">Изтегляне на %1$d статия…</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">остават %d минути</item>
+        <item quantity="one">остава 1 минута</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Тези статии вече не са налични в офлайн режим.</item>
+        <item quantity="one">Тази статия вече не е налична в офлайн режим.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Тези статии вече са налични офлайн.</item>
+        <item quantity="one">Тази статия вече е налична офлайн.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">преди %d дни</item>
+        <item quantity="one">вчера</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Премахване на избраните езици?</item>
+        <item quantity="one">Премахване на избрания език?</item>
+    </plurals>
+</resources>

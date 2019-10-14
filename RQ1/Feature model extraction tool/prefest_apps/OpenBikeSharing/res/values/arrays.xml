@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_default_tab_entries">
+        <item>@string/nearby_stations</item>
+        <item>@string/favorite_stations</item>
+        <item>@string/all_stations</item>
+    </string-array>
+    <string-array name="pref_default_tab_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_map_layer_entries">
+        <item>@string/pref_map_layer_mapnik</item>
+        <item>@string/pref_map_layer_cyclemap</item>
+        <item>@string/pref_map_layer_osmpublictransport</item>
+    </string-array>
+    <string-array name="pref_map_layer_values">
+        <item>mapnik</item>
+        <item>cyclemap</item>
+        <item>osmpublictransport</item>
+    </string-array>
+</resources>

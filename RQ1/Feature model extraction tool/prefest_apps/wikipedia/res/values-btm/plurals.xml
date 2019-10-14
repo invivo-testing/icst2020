@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Apus saro naipili?</item>
+        <item quantity="one">Remove selected language?</item>
+    </plurals>
+</resources>

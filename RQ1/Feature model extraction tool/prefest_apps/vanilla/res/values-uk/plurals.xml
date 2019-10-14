@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%1$d пісень додано до списку %2$s.</item>
+        <item quantity="one">1 пісня додана до списку %2$s.</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">%d пісень видалено.</item>
+        <item quantity="one">1 пісню видалено.</item>
+    </plurals>
+    <plurals name="enqueued">
+        <item quantity="other">%d пісень видалено з черги.</item>
+        <item quantity="one">Одну пісню видалено з черги.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d годин</item>
+        <item quantity="one">1 година</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">1 хвилина</item>
+    </plurals>
+    <plurals name="playing">
+        <item quantity="other">%d пісень відтворюється.</item>
+        <item quantity="one">1 пісня грає.</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">1 секунда</item>
+    </plurals>
+</resources>

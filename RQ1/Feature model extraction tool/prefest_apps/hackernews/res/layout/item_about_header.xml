@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" style="?commentListItem" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.devspark.robototextview.widget.RobotoTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="?textColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" app:typeface="roboto_black" />
+    <com.devspark.robototextview.widget.RobotoTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="?textColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dwak" app:typeface="roboto_light" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/dwakthreetone" />
+    <com.devspark.robototextview.widget.RobotoTextView android:textColor="?textColor" android:gravity="center_horizontal" android:autoLink="web" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/website" app:typeface="roboto_light" />
+</LinearLayout>

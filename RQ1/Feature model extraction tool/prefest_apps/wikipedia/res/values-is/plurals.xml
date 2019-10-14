@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Fyrir %d árum síðan</item>
+        <item quantity="one">Á síðasta ári</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Sæki greinar</item>
+        <item quantity="one">Sæki grein</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$d greinar eftir</item>
+        <item quantity="one">%1$d grein eftir</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Samstilli leslista</item>
+        <item quantity="one">Samstilli leslista</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">%1$d listar eftir</item>
+        <item quantity="one">%1$d listi eftir</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Samstilli %1$d lista…</item>
+        <item quantity="one">Samstilli %1$d lista…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Sæki %1$d greinar…</item>
+        <item quantity="one">Sæki %1$d grein…</item>
+    </plurals>
+    <plurals name="offline_compilation_download_time_remaining">
+        <item quantity="other">%d mínútur eftir</item>
+        <item quantity="one">1 mínúta eftir</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Þessar greinar verða ekki lengur tiltækar án nettengingar.</item>
+        <item quantity="one">Þessi grein verður ekki lengur tiltæk án nettengingar.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Þessar greinar verða núna tiltækar án nettengingar.</item>
+        <item quantity="one">Þessi grein verður núna tiltæk án nettengingar.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">Fyrir %d dögum síðan</item>
+        <item quantity="one">Í gær</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Fjarlægja valin tungumál?</item>
+        <item quantity="one">Fjarlægja valið tungumál?</item>
+    </plurals>
+</resources>

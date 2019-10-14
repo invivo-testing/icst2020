@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_title_units">
+        <ListPreference android:entries="@array/temperatureUnits" android:title="@string/setting_tempUnits" android:key="unit" android:defaultValue="°C" android:entryValues="@array/temperatureUnitsValues" />
+        <CheckBoxPreference android:title="@string/setting_showTempAsInteger" android:key="temperatureInteger" android:defaultValue="false" />
+        <ListPreference android:entries="@array/lengthUnits" android:title="@string/setting_lengthUnits" android:key="lengthUnit" android:defaultValue="mm" android:entryValues="@array/lengthUnitsValues" />
+        <ListPreference android:entries="@array/speedUnits" android:title="@string/setting_speedUnits" android:key="speedUnit" android:defaultValue="m/s" android:entryValues="@array/speedUnitsValues" />
+        <ListPreference android:entries="@array/pressureUnits" android:title="@string/setting_pressureUnits" android:key="pressureUnit" android:defaultValue="hPa" android:entryValues="@array/pressureUnitsValues" />
+        <ListPreference android:title="@string/setting_dateFormat" android:key="dateFormat" android:entryValues="@array/dateFormatsValues" />
+        <EditTextPreference android:title="@string/setting_dateFormatCustom" android:key="dateFormatCustom" android:summary="@string/setting_dateFormatCustom_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_title_display">
+        <ListPreference android:entries="@array/themes" android:title="@string/setting_theme" android:key="theme" android:defaultValue="fresh" android:entryValues="@array/themesValues" />
+        <CheckBoxPreference android:title="@string/setting_transparent_widget" android:key="transparentWidget" android:defaultValue="false" />
+        <ListPreference android:entries="@array/windDirectionFormats" android:title="@string/setting_wind_direction_format" android:key="windDirectionFormat" android:defaultValue="arrow" android:entryValues="@array/windDirectionFormatValues" />
+        <CheckBoxPreference android:title="@string/setting_displayDecimalZeroes" android:key="displayDecimalZeroes" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/setting_differentiateDaysByTint" android:key="differentiateDaysByTint" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_title_data">
+        <ListPreference android:entries="@array/refreshIntervals" android:title="@string/setting_refreshInterval" android:key="refreshInterval" android:defaultValue="1" android:entryValues="@array/refreshIntervalsValues" />
+        <EditTextPreference android:title="@string/setting_apiKey" android:key="apiKey" android:summary="@string/setting_apiKey_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_title_location">
+        <CheckBoxPreference android:title="@string/setting_update_location_automatically" android:key="updateLocationAutomatically" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_list">
+        <item>Molto piccolo</item>
+        <item>Piccolo</item>
+        <item>Normale</item>
+        <item>Grande</item>
+        <item>Molto grande</item>
+    </string-array>
+    <string-array name="sort_by_list">
+        <item>Data (prima le più recenti)</item>
+        <item>Nome (A-Z)</item>
+    </string-array>
+    <string-array name="theme_list">
+        <item>Chiaro / sans serif</item>
+        <item>Chiaro / serif</item>
+        <item>Chiaro / monospace</item>
+        <item>Scuro / sans serif</item>
+        <item>Scuro / serif</item>
+        <item>Scuro / monospace</item>
+    </string-array>
+</resources>

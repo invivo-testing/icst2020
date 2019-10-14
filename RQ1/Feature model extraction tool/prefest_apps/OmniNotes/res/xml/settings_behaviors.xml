@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:fitsSystemWindows="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/checked_items_behavior" android:title="@string/settings_checked_items_behavior" android:key="settings_checked_items_behavior" android:defaultValue="0" android:dialogTitle="@string/settings_checked_items_behavior_summary" android:entryValues="@array/checked_items_behavior_values" />
+    <SwitchPreference android:title="@string/settings_instant_search" android:key="settings_instant_search" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/settings_enable_swipe" android:key="settings_enable_swipe" android:summary="@string/settings_enable_swipe_summary" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/settings_swipe_to_trash" android:key="settings_swipe_to_trash" android:dependency="settings_enable_swipe" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/settings_auto_location" android:key="settings_auto_location" android:summary="@string/settings_auto_location_summary" android:defaultValue="false" />
+    <EditTextPreference android:title="@string/settings_max_video_size" android:key="settings_max_video_size" android:summary="@string/settings_max_video_size_summary" android:inputType="number" />
+</PreferenceScreen>

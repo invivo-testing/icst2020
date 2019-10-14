@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_location_label">Québec</string>
+    <string name="default_location_latitude">46.8579</string>
+    <string name="default_location_longitude">-71.4861</string>
+</resources>

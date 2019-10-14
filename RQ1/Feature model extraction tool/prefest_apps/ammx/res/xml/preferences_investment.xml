@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@null" android:title="@string/asset_allocation_diff_threshold" android:key="@string/pref_asset_allocation_threshold" android:summary="@string/asset_allocation_diff_threshold_summary" />
+    <ListPreference android:title="@string/quote_provider" android:key="@string/pref_quote_provider" android:summary="@null" />
+    <ListPreference android:title="@string/exchange_rate_provider" android:key="@string/pref_exchange_rate_provider" android:summary="@null" />
+</PreferenceScreen>

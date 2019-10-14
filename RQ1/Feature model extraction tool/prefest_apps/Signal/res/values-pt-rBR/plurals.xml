@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d mensagens por conversa</item>
+        <item quantity="one">%d mensagem por conversa</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Isto irá imediatamente reduzir todas as conversas para as %d mensagens mais recentes.</item>
+        <item quantity="one">Isto irá imediatamente reduzir todas as conversas para a mensagem mais recente.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d mensagens não lidas</item>
+        <item quantity="one">%d mensagem não lida</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Excluir mensagens selecionadas?</item>
+        <item quantity="one">Excluir mensagem selecionada?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Erro ao gravar anexos no armazenamento!</item>
+        <item quantity="one">Erro ao gravar anexo no armazenamento!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Gravando %1$d anexos</item>
+        <item quantity="one">Gravando anexo</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Gravando %1$d anexos no armazenamento...</item>
+        <item quantity="one">Gravando anexo no armazenamento...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Gravar estes %1$d arquivos no armazenamento permitirá que qualquer outro aplicativo no seu dispositivo tenha acesso a eles.
+
+Continuar?"</item>
+        <item quantity="one">"Gravar este arquivo no armazenamento permitirá que qualquer outro aplicativo no seu dispositivo tenha acesso a ele.
+
+Continuar?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Isto irá excluir permanentemente todas as %1$d mensagens selecionadas.</item>
+        <item quantity="one">Isto irá excluir permanentemente a mensagem selecionada.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d conversas arquivadas</item>
+        <item quantity="one">Conversa arquivada</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Excluir conversas selecionadas?</item>
+        <item quantity="one">Excluir conversa selecionada?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d conversas movidas para a caixa de entrada</item>
+        <item quantity="one">Conversa movida para a caixa de entrada</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Isto irá excluir permanentemente todas as %1$d conversas selecionadas.</item>
+        <item quantity="one">Isto irá excluir permanentemente a conversa selecionada.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s entraram no grupo.</item>
+        <item quantity="one">%1$s entrou no grupo.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Enviar %d convites SMS?</item>
+        <item quantity="one">Enviar %d convite SMS?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">ENVIAR SMS PARA %d AMIGOS</item>
+        <item quantity="one">ENVIAR SMS PARA %d AMIGO</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Isto irá excluir permanentemente todas as %1$d mensagens selecionadas.</item>
+        <item quantity="one">Isto irá excluir permanentemente a mensagem selecionada.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Excluir mensagens selecionadas?</item>
+        <item quantity="one">Excluir mensagem selecionada?</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Você está agora a %d passos de submeter um log de depuração</item>
+        <item quantity="one">Você está agora a %d passo de submeter um log de depuração.</item>
+    </plurals>
+    <plurals name="TransferControlView_n_items">
+        <item quantity="other">%d Itens</item>
+        <item quantity="one">%d Item</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d dias</item>
+        <item quantity="one">%d dia</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d semanas</item>
+        <item quantity="one">%d semana</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d outros</item>
+        <item quantity="one">%d outro</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Sua versão do Signal irá expirar em %d dias. Aperte para atualizar para a versão mais recente.</item>
+        <item quantity="one">Sua versão do Signal irá expirar em %d dia. Aperte para atualizar para a versão mais recente.</item>
+    </plurals>
+</resources>

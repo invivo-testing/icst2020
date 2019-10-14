@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_configure_accounts" android:orderInCategory="100" android:title="@string/Configure_accounts" app:showAsAction="always" />
+    <item android:id="@id/menu_refresh" android:orderInCategory="100" android:title="@string/Refresh" app:showAsAction="ifRoom" />
+</menu>

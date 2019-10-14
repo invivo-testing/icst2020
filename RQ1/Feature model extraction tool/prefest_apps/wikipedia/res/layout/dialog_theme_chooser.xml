@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <ProgressBar android:layout_gravity="end|center|top" android:id="@id/font_change_progress_bar" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="8.0dip" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="?section_title_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/text_size_select" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="16.0sp" android:textColor="?secondary_text_color" android:gravity="center" android:id="@id/text_size_percent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?primary_text_color" android:gravity="bottom|center" android:layout_gravity="center_vertical" android:id="@id/buttonDecreaseTextSize" android:background="?selectableItemBackgroundBorderless" android:paddingBottom="4.0dip" android:clickable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:text="T" android:contentDescription="@string/text_size_decrease" />
+            <org.wikipedia.views.DiscreteSeekBar android:layout_gravity="center_vertical" android:id="@id/text_size_seek_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="@integer/maxTextSizeMultiplier" android:layout_weight="1.0" app:centerDrawable="@drawable/ic_seek_bar_center" app:min="@integer/minTextSizeMultiplier" app:tickDrawable="@drawable/ic_seek_bar_tick" />
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="?primary_text_color" android:gravity="bottom|center" android:layout_gravity="center_vertical" android:id="@id/buttonIncreaseTextSize" android:background="?selectableItemBackgroundBorderless" android:paddingBottom="2.0dip" android:clickable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:text="T" android:contentDescription="@string/text_size_increase" />
+        </LinearLayout>
+        <View android:layout_gravity="center_horizontal" android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+        <TextView android:textColor="?section_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_theme_select" android:fontFamily="sans-serif-medium" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="-4.0dip" android:layout_marginBottom="16.0dip">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+                <TextView android:id="@id/button_theme_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:text="@string/color_theme_light" style="@style/App.Button.White" />
+                <View android:id="@id/button_theme_light_highlight" android:background="?button_highlight_border_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="6.0dip" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+                <TextView android:id="@id/button_theme_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:text="@string/color_theme_dark" style="@style/App.Button.Gray" />
+                <View android:id="@id/button_theme_dark_highlight" android:background="?button_highlight_border_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="6.0dip" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+                <TextView android:id="@id/button_theme_black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:text="@string/color_theme_black" style="@style/App.Button.Black" />
+                <View android:id="@id/button_theme_black_highlight" android:background="?button_highlight_border_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="6.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <android.support.v7.widget.SwitchCompat android:textColor="?section_title_color" android:gravity="center_vertical" android:id="@id/theme_chooser_dark_mode_dim_images_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/theme_chooser_dialog_image_dimming_switch_label" />
+    </LinearLayout>
+</FrameLayout>

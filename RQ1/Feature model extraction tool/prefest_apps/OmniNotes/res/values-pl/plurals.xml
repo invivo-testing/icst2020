@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">Dla %d wydarzeń</item>
+        <item quantity="one">Do %d wydarzenia</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Co %d dni</item>
+        <item quantity="one">Co %d dzień</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Co %d mies.</item>
+        <item quantity="one">Co %d miesiąc</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Co %d tyg.</item>
+        <item quantity="one">Co %d tydzień</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Co %d lat(a)</item>
+        <item quantity="one">Co %d rok</item>
+    </plurals>
+</resources>

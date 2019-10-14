@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="PrefsNotifyItems">
+        <item>всегда</item>
+        <item></item>
+        <item>никогда</item>
+    </string-array>
+    <string-array name="PrefsNotifyOptions">
+        <item>Сервис стартует как задача со значком в панели уведомлений</item>
+        <item>Значок показывается только при присоединении устройств</item>
+        <item>Сервис стартует как фоновая задача без значка в панели уведомлений.</item>
+    </string-array>
+    <string-array name="gpsDistance">
+        <item>2м (6фут)</item>
+        <item>5м (15фут)</item>
+        <item>10с (30фут)</item>
+        <item>15м (45фут)</item>
+        <item>20м (60фут)</item>
+        <item>30м (90фут)</item>
+    </string-array>
+    <string-array name="gpsDistance_items">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>1</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="gpsTimeout">
+        <item>Отключить GPS Listener</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>15 секунд</item>
+        <item>20 секунд</item>
+        <item>30 секунд</item>
+        <item>45 секунд</item>
+    </string-array>
+    <string-array name="gpsTimeout_items">
+        <item>0</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>45000</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vanilla="http://schemas.android.com/apk/res-auto">
+    <ch.blinkenlights.android.vanilla.CoverView android:id="@id/cover_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TableLayout android:layout_gravity="top" android:id="@id/info_table" android:background="?overlay_background_color" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" android:collapseColumns="0">
+        <include layout="@layout/track_details" />
+        <TableRow>
+            <TextView android:textColor="?overlay_foreground_color" android:gravity="right" android:paddingRight="5.0dip" android:text="@string/_replaygain" />
+            <TextView android:textColor="?overlay_foreground_color" android:id="@id/replaygain" />
+        </TableRow>
+    </TableLayout>
+    <ch.blinkenlights.android.vanilla.SlidingView android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/sliding_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip" vanilla:slider_handle_id="@id/queue_slider">
+        <LinearLayout android:orientation="vertical" android:background="?overlay_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="2.0dip">
+            <include layout="@layout/seek_bar" />
+            <include android:id="@id/queue_slider" layout="@layout/controls" />
+        </LinearLayout>
+        <fragment android:id="@id/queue" android:layout_width="fill_parent" android:layout_height="fill_parent" class="ch.blinkenlights.android.vanilla.ShowQueueFragment" />
+    </ch.blinkenlights.android.vanilla.SlidingView>
+</merge>

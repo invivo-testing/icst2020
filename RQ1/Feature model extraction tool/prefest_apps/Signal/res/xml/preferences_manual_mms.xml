@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.thoughtcrime.securesms.components.CustomDefaultPreference android:title="@string/preferences__mmsc_url" android:key="pref_apn_mmsc_host" android:inputType="textUri" app:custom_pref_toggle="pref_apn_mmsc_custom_host" />
+    <org.thoughtcrime.securesms.components.CustomDefaultPreference android:title="@string/preferences__mms_proxy_host" android:key="pref_apn_mms_proxy" android:inputType="textUri" app:custom_pref_toggle="pref_apn_mms_custom_proxy" />
+    <org.thoughtcrime.securesms.components.CustomDefaultPreference android:title="@string/preferences__mms_proxy_port" android:key="pref_apn_mms_proxy_port" android:inputType="number" app:custom_pref_toggle="pref_apn_mms_custom_proxy_port" />
+    <org.thoughtcrime.securesms.components.CustomDefaultPreference android:title="@string/preferences__mmsc_username" android:key="pref_apn_mmsc_username" android:inputType="textNoSuggestions" app:custom_pref_toggle="pref_apn_mmsc_custom_username" />
+    <org.thoughtcrime.securesms.components.CustomDefaultPreference android:title="@string/preferences__mmsc_password" android:key="pref_apn_mmsc_password" android:inputType="textVisiblePassword" app:custom_pref_toggle="pref_apn_mmsc_custom_password" />
+    <org.thoughtcrime.securesms.components.CustomDefaultPreference android:title="@string/preferences__mms_user_agent" android:key="pref_mms_user_agent" android:inputType="textNoSuggestions" app:custom_pref_toggle="pref_custom_mms_user_agent" />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="?selectableItemBackground" n1:paddingLeft="5.0dip" n1:paddingTop="8.0dip" n1:paddingBottom="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/album_art" n1:padding="4.0dip" n1:layout_width="46.0dip" n1:layout_height="46.0dip" />
+    <TextView n1:textSize="16.0sp" n1:ellipsize="end" n1:id="@id/folder_title" n1:paddingLeft="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:lines="1" style="@style/TextAppearance.AppCompat.Body1" />
+</LinearLayout>

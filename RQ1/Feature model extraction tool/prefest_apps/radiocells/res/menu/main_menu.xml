@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@android:drawable/ic_menu_add" n1:id="@id/menu_create_new_session" n1:title="@string/new_session" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="@android:drawable/ic_menu_upload" n3:id="@id/menu_upload_all" n3:title="@string/upload_all" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="@android:drawable/ic_menu_preferences" n5:id="@id/menu_settings" n5:title="@string/settings" n6:showAsAction="ifRoom|withText"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="@android:drawable/ic_menu_help" n7:id="@id/menu_credits" n7:title="@string/credits" n8:showAsAction="ifRoom|withText"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</menu>

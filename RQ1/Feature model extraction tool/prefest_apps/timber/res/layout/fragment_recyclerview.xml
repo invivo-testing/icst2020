@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginBottom="55.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.naman14.timber.widgets.BaseRecyclerView n1:id="@id/recyclerview" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:fadeScrollbars="true" n2:layout_behavior="@string/appbar_scrolling_view_behavior" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <include layout="@layout/empty_view" />
+    <com.naman14.timber.widgets.FastScroller n1:id="@id/fastscroller" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_alignTop="@id/recyclerview" n1:layout_alignBottom="@id/recyclerview" n1:layout_alignParentRight="true" />
+</RelativeLayout>

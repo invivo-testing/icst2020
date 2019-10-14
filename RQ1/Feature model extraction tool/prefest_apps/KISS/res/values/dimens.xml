@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_height">40.0dip</dimen>
+    <dimen name="color_swatch_large">64.0dip</dimen>
+    <dimen name="color_swatch_margins_large">8.0dip</dimen>
+    <dimen name="color_swatch_margins_small">4.0dip</dimen>
+    <dimen name="color_swatch_small">48.0dip</dimen>
+    <dimen name="corner_radius">29.0dip</dimen>
+    <dimen name="favorite_padding">5.0dip</dimen>
+    <dimen name="icon_margin_bottom">5.0dip</dimen>
+    <dimen name="icon_margin_left">0.0dip</dimen>
+    <dimen name="icon_margin_right">10.0dip</dimen>
+    <dimen name="icon_margin_top">5.0dip</dimen>
+    <dimen name="large_bar_height">58.0dip</dimen>
+    <dimen name="launcher_button_padding">10.0dip</dimen>
+    <dimen name="launcher_button_width">45.0dip</dimen>
+    <dimen name="popup_title">12.0sp</dimen>
+    <dimen name="result_margin_bottom">2.0dip</dimen>
+    <dimen name="result_margin_left">10.0dip</dimen>
+    <dimen name="result_margin_right">10.0dip</dimen>
+    <dimen name="result_margin_top">2.0dip</dimen>
+    <dimen name="result_small_size">14.0sp</dimen>
+    <dimen name="result_title_size">18.0sp</dimen>
+</resources>

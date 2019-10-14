@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">Повторов: %d</item>
+        <item quantity="one">Повторов: %d</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Интервал: %d дн.</item>
+        <item quantity="one">Интервал: %d д.</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Интервал: %d мес.</item>
+        <item quantity="one">Интервал: %d мес.</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Интервал: %d нед.</item>
+        <item quantity="one">Интервал: %d нед.</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Интервал: %d гг./лет</item>
+        <item quantity="one">Интервал: %d г.</item>
+    </plurals>
+</resources>

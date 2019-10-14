@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/texteditor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/lin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="10.0dip">
+        <include android:layout_width="fill_parent" android:layout_height="?actionBarSize" layout="@layout/toolbar" />
+        <include layout="@layout/actionmode_textviewer" />
+    </LinearLayout>
+    <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+    <ScrollView android:id="@id/editscroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <EditText android:textSize="14.0sp" android:gravity="center|left|top" android:id="@id/fname" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:ems="10" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" android:fontFamily="sans-serif-light" />
+    </ScrollView>
+</LinearLayout>

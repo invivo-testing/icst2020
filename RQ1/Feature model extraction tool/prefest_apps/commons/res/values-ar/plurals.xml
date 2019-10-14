@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uploads_pending_notification_indicator">
+        <item quantity="other">%1$d رفع ملفات</item>
+        <item quantity="one">%1$d رفع ملف</item>
+    </plurals>
+</resources>

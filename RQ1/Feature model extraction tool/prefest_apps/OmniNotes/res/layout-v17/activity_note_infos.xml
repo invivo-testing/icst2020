@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_information_outline_grey600_24dp" />
+    <TableLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="*">
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_category" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tag" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_tags" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stats_characters" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_chars" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stats_words" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_words" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stats_checklists" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_checklist_items" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/completed" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_completed_checklist_items" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stats_images" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_images" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stats_videos" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_videos" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stats_audio_recordings" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_audiorecordings" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stats_sketches" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_sketches" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:gravity="start" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stats_files" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <TextView android:id="@id/note_infos_files" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dip" style="@style/dialogFormRow"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:text="@string/repeat" style="@style/dialogFormLabel" />
+    <android.support.v7.widget.AppCompatSpinner n1:theme="@style/dialogFormText" n1:entries="@array/frequencyQuickSelect" n1:id="@id/spinner" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="25.0dip" n1:minWidth="400.0dip" />
+    <org.apmem.tools.layouts.FlowLayout n1:gravity="fill" n1:id="@id/customFreqPanel" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <EditText n1:id="@id/numerator" style="@style/dialogFormInputLargeNumber" />
+        <TextView n1:gravity="center" n1:text="@string/times_every" style="@style/dialogFormText" />
+        <EditText n1:id="@id/denominator" style="@style/dialogFormInputLargeNumber" />
+        <TextView n1:gravity="center_vertical" n1:paddingLeft="12.0dip" n1:text="@string/days" style="@style/dialogFormText" />
+    </org.apmem.tools.layouts.FlowLayout>
+</LinearLayout>

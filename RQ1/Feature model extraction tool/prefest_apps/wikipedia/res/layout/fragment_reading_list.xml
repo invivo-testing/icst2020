@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout android:id="@id/reading_list_swipe_refresh" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.design.widget.AppBarLayout android:id="@id/reading_list_app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="@dimen/readingListLeadHeight">
+            <android.support.design.widget.CollapsingToolbarLayout android:id="@id/reading_list_toolbar_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentScrim="?main_toolbar_color" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:statusBarScrim="?main_status_bar_color">
+                <org.wikipedia.readinglist.ReadingListHeaderView android:id="@id/reading_list_header" android:background="@color/base50" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_collapseMode="parallax" />
+                <android.support.v7.widget.Toolbar android:theme="@style/ToolbarTheme" android:id="@id/reading_list_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" />
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <android.support.v7.widget.RecyclerView android:id="@id/reading_list_contents" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:gravity="center" android:id="@id/reading_list_empty_text" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="96.0dip" android:text="@string/reading_list_empty" style="@style/MaterialMediumSecondaryCaption" />
+            <org.wikipedia.views.SearchEmptyView android:layout_gravity="center_horizontal" android:id="@id/search_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" />
+        </FrameLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="prefs_credentials_password">Wachtwoord</string>
+    <string name="prefs_credentials_password_summary" />
+    <string name="prefs_credentials_user">Login</string>
+    <string name="prefs_data_map">Offline kaart</string>
+    <string name="prefs_gps_logging_interval_seconds">seconden</string>
+    <string name="prefs_gps_logging_interval_summary">"Gebruik 0 voor de kortst mogelijke (invloed op de levensduur van de batterij) "</string>
+    <string name="prefs_logging">Logging</string>
+    <string name="prefs_map_none">Geen</string>
+    <string name="prefs_maps">Kaarten</string>
+    <string name="prefs_min_cell_distance">Interval voor het logboek van cel</string>
+    <string name="prefs_min_cell_distance_hint">"Minimum distance between two cell scans (in meter) "</string>
+    <string name="prefs_min_wifi_distance">Interval voor het logboek van WiFi</string>
+    <string name="prefs_min_wifi_distance_hint">Minimum distance between two wifi scans (in meters)</string>
+    <string name="prefs_save_cells">Cellen opslaan</string>
+    <string name="prefs_save_wifis">Wifis opslaan</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

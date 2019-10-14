@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group n1:id="@id/group1" n1:checkableBehavior="single"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <item n1:id="@id/nav_library" n1:title="@string/library" />
+        <item n1:id="@id/nav_playlists" n1:title="@string/playlists" />
+        <item n1:id="@id/nav_folders" n1:title="@string/folders" />
+        <item n1:id="@id/nav_queue" n1:title="@string/playing_queue" />
+        <item n1:id="@id/nav_nowplaying" n1:title="@string/now_playing" n1:checkable="false" />
+    </group>
+    <group n2:id="@id/group2" n2:checkableBehavior="none"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <item n2:id="@id/nav_settings" n2:title="@string/settings" />
+        <item n2:id="@id/nav_about" n2:title="@string/about" />
+        <item n2:id="@id/nav_donate" n2:title="Support development" />
+    </group>
+</menu>

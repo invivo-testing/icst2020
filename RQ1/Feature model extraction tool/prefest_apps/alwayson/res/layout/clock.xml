@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/clock_wrapper" n1:padding="0.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.tomer.alwayson.views.KillableTextClock n1:textAppearance="@android:style/TextAppearance.Large" n1:textColor="@android:color/white" n1:id="@id/digital_clock" n1:padding="0.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLength="20000" />
+    <com.tomerrosenfeld.customanalogclockview.CustomAnalogClock n1:id="@id/custom_analog_clock" n1:paddingBottom="0.0dip" n1:layout_width="168.0dip" n1:layout_height="168.0dip" n1:layout_marginBottom="0.0dip" />
+    <com.tomer.alwayson.views.DigitalS7 n1:layout_gravity="center" n1:id="@id/s7_digital" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ch.blinkenlights.android.vanilla.BottomBarControls android:orientation="vertical" android:background="?tabs_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/content_controls" android:background="@drawable/unbound_ripple_light" android:layout_width="fill_parent" android:layout_height="@dimen/row_normal_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/cover" android:layout_width="@dimen/cover_size" android:layout_height="@dimen/cover_size" android:layout_marginLeft="@dimen/cover_padding" android:scaleType="centerCrop" android:contentDescription="@string/cover_art" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_padding" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/background_light" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/secondary_text_dark" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <SearchView android:id="@id/search_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/row_normal_height" android:imeOptions="actionSearch|flagNoFullscreen" android:iconifiedByDefault="false" />
+</ch.blinkenlights.android.vanilla.BottomBarControls>

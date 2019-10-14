@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/DeckPickerHoriz" android:background="?selectableItemBackground" android:paddingLeft="@dimen/deck_picker_left_padding" android:paddingRight="@dimen/deck_picker_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/deckpicker_indent" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:layout_alignParentLeft="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/counts_layout" android:layout_toRightOf="@id/deckpicker_indent">
+        <ImageButton android:id="@id/deckpicker_expander" android:background="?selectableItemBackgroundBorderless" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:gravity="center|left" android:id="@id/deckpicker_name" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:maxLines="2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:id="@id/counts_layout" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="70.0dip" android:minHeight="48.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/deckpicker_new" android:background="@color/transparent" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/deckpicker_lrn" android:background="@color/transparent" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/deckpicker_rev" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" />
+    </LinearLayout>
+</RelativeLayout>

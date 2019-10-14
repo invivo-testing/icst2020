@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/prompt_layout" android:background="@color/signal_primary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/passphrase_edit" android:padding="10.0dip" android:layout_width="75.0dip" android:layout_height="75.0dip" android:indeterminate="true" android:layout_centerInParent="true" style="?android:progressBarStyleLargeInverse" />
+    <ImageView android:id="@id/watermark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:src="@drawable/icon_transparent" android:layout_above="@id/passphrase_edit" android:layout_centerHorizontal="true" android:contentDescription="@string/PassphrasePromptActivity_watermark_content_description" />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/incall_screen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.thoughtcrime.securesms.components.webrtc.PercentFrameLayout android:id="@id/remote_render_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/call_info_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <FrameLayout android:gravity="center|top" android:id="@id/image_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/call_banner_1">
+            <ImageView android:id="@id/photo" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/untrusted_layout" android:background="@color/grey_400" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="16.0sp" android:layout_gravity="center" android:id="@id/untrusted_explanation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="270.0dip" android:lineSpacingExtra="2.0sp" />
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxWidth="250.0dip">
+                    <Button android:id="@id/accept_safety_numbers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/WebRtcCallScreen_accept" />
+                    <Button android:id="@id/cancel_safety_numbers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/call_banner_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="80.0dip" android:layout_alignParentTop="true">
+            <RelativeLayout android:id="@id/expanded_info" android:background="@color/textsecure_primary" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="40.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/name" android:paddingRight="50.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/labelAndNumber" android:paddingRight="50.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/name">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/redphone_call_card__signal_call" android:singleLine="true" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:id="@id/phoneNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:id="@id/elapsedTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <org.thoughtcrime.securesms.components.webrtc.WebRtcCallControls android:id="@id/inCallControls" android:background="@color/textsecure_primary" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:paddingBottom="20.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:gravity="right" android:id="@id/callStateLabel" android:background="#8033b5e5" android:paddingTop="8.0dip" android:paddingRight="24.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <org.thoughtcrime.securesms.components.webrtc.PercentFrameLayout android:id="@id/local_render_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="bottom|center" android:id="@id/hangup_fab" android:focusable="true" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:src="@drawable/ic_call_end_white_48dp" android:contentDescription="@string/WebRtcCallScreen_end_call" app:backgroundTint="@color/red_500" />
+    <org.thoughtcrime.securesms.components.webrtc.WebRtcAnswerDeclineButton android:layout_gravity="bottom|center" android:id="@id/answer_decline_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+</android.support.design.widget.CoordinatorLayout>

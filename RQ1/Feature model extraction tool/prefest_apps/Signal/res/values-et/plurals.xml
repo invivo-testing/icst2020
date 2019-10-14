@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d minutit</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d sõnumit vestluse kohta</item>
+        <item quantity="one">%d sõnum vestluse kohta</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">See piirab koheselt kõiki vestlusi, jättes alles ainult %d viimast sõnumit.</item>
+        <item quantity="one">See piirab koheselt kõiki vestlusi, jättes alles ainult viimase sõnumi.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d lugemata sõnumit</item>
+        <item quantity="one">%d lugemata sõnum</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Kustutad valitud sõnumid?</item>
+        <item quantity="one">Kustutad valitud sõnumi?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Manuste sisemällu salvestamisel tekkis viga!</item>
+        <item quantity="one">Manuse sisemällu salvestamisel tekkis viga!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">Salvestan %1$d manust</item>
+        <item quantity="one">Salvestan manust</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">Salvestan %1$d manust sisemällu...</item>
+        <item quantity="one">Salvestan manust sisemällu...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Kõigi %1$d meediafaili sisemällu salvestamine lubab mistahes teisel rakendusel sinu seadmes nendele juurde pääseda.
+
+Jätkad?"</item>
+        <item quantity="one">"Selle meediafaili sisemällu salvestamine lubab mistahes teisel rakendusel sinu seadmes sellele juurde pääseda.
+
+Jätkad?"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">See kustutab püsivalt kõik valitud %1$d sõnumit.</item>
+        <item quantity="one">See kustutab püsivalt valitud sõnumi.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">%d vestlust arhiveeritud</item>
+        <item quantity="one">Vestlus arhiveeritud</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Kustutad valitud vestlused?</item>
+        <item quantity="one">Kustutad valitud vestluse?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d vestlust postkasti liigutatud</item>
+        <item quantity="one">Vestlus postkasti liigutatud</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">See kustutab püsivalt valitud %1$d vestlust.</item>
+        <item quantity="one">See kustutab püsivalt valitud vestluse.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">%1$s liitusid grupiga.</item>
+        <item quantity="one">%1$s liitus grupiga.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Saadad %d SMS-kutset?</item>
+        <item quantity="one">Saadad %d SMS-kutse?</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">SAADA SMS %d SÕBRALE</item>
+        <item quantity="one">SAADA SMS %d SÕBRALE</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">See kustutab püsivalt %1$d valitud sõnumit.</item>
+        <item quantity="one">See kustutab valitud sõnumi püsivalt.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Kustutad valitud sõnumid?</item>
+        <item quantity="one">Kustutad valitud sõnumi?</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d päeva</item>
+        <item quantity="one">%d päev</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d tundi</item>
+        <item quantity="one">%d tund</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d minutit</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d sekundit</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d nädalat</item>
+        <item quantity="one">%d nädal</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d tundi</item>
+        <item quantity="one">%d tund</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d teist</item>
+        <item quantity="one">%d teine</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Sinu Signali versioon aegub %d päeva pärast. Koputa, et uuendada uusimale versioonile.</item>
+        <item quantity="one">Sinu Signali versioon aegub %d päeva pärast. Koputa, et uuendada uusimale versioonile.</item>
+    </plurals>
+</resources>

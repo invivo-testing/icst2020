@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="other">%d μηνύματα ανά συνομιλία</item>
+        <item quantity="one">%d μήνυμα ανά συνομιλία</item>
+    </plurals>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="other">Αυτό θα περικόψει άμεσα όλες τις συνομιλίες στα %d πιο πρόσφατα μηνύματα.</item>
+        <item quantity="one">Αυτό θα κουρέψει άμεσα όλες τις συζητήσεις στο πιο πρόσφατο μήνυμα.</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="other">%d μη αναγνωσμένα μηνύματα</item>
+        <item quantity="one">%d μη αναγνωσμένο μήνυμα</item>
+    </plurals>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="other">Διαγραφή επιλεγμένων μηνυμάτων;</item>
+        <item quantity="one">Διαγραφή επιλεγμένου μηνύματος;</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="other">Πρόβλημα κατά την αποθήκευση των συνημμένων στη μνήμη!</item>
+        <item quantity="one">Πρόβλημα με την αποθήκευση του συνημμένου στην μνήμη!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="other">%1$d συνημμένα αποθηκεύονται</item>
+        <item quantity="one">Το συνημμένο αποθηκεύεται</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="other">%1$d συνημμένα αποθηκεύονται στη μνήμη...</item>
+        <item quantity="one">Το συνημμένο αποθηκεύεται στην μνήμη...</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="other">"Αποθηκεύοντας τα %1$d πολυμέσα στη μνήμη θα επιτρέψει σε άλλες εφαρμογές της συσκευής σου να έχουν πρόσβαση σε αυτά.
+
+Συνέχεια;"</item>
+        <item quantity="one">"Αποθηκεύοντας αυτό το πολυμέσο στην μνήμη θα επιτρέψει σε άλλες εφαρμογές στην συσκευή σου να έχουν πρόσβαση σε αυτό. 
+
+Συνέχεια;"</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="other">Αυτό θα διαγράψει οριστικά όλα τα %1$d επιλεγμένα μηνύματα.</item>
+        <item quantity="one">Αυτό θα διαγράψει οριστικά το επιλεγμένο μήνυμα.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="other">Αρχειοθετήθηκαν %d συνομιλίες</item>
+        <item quantity="one">Η συνομιλία αρχειοθετήθηκε</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="other">Διαγραφή των επιλεγμένων συνομιλιών;</item>
+        <item quantity="one">Διαγραφή επιλεγμένης συζήτησης;</item>
+    </plurals>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="other">%d συνομιλίες μεταφέρθηκαν στα εισερχόμενα</item>
+        <item quantity="one">Η συνομιλία μεταφέρθηκε στα εισερχόμενα</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="other">Αυτό θα διαγράψει οριστικά όλες τις %1$d επιλεγμένες συνομιλίες.</item>
+        <item quantity="one">Αυτό θα διαγράψει οριστικά την επιλεγμένη συζήτηση.</item>
+    </plurals>
+    <plurals name="GroupUtil_joined_the_group">
+        <item quantity="other">Οι %1$s μπήκαν στην ομάδα.</item>
+        <item quantity="one">Ο/Η %1$s μπήκε στην ομάδα.</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_invites">
+        <item quantity="other">Αποστολή %d προσκλήσεων μέσω μηνύματος SMS;</item>
+        <item quantity="one">Αποστολή %d πρόσκλησης μέσω μηνύματος SMS;</item>
+    </plurals>
+    <plurals name="InviteActivity_send_sms_to_friends">
+        <item quantity="other">ΑΠΟΣΤΟΛΗ ΜΗΝΥΜΑΤΩΝ SMS ΣΕ %d ΦΙΛΟΥΣ/ΕΣ</item>
+        <item quantity="one">ΑΠΟΣΤΟΛΗ ΜΗΝΥΜΑΤΟΣ SMS ΣΕ %d ΦΙΛΟ/Η</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
+        <item quantity="other">Αυτή η επιλογή θα διαγράψει οριστικά τα %1$d επιλεγμένα μηνύματα.</item>
+        <item quantity="one">Αυτή η επιλογή θα διαγράψει οριστικά το επιλεγμένο μήνυμα.</item>
+    </plurals>
+    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
+        <item quantity="other">Διαγραφή επιλεγμένων μηνυμάτων;</item>
+        <item quantity="one">Διαγραφή επιλεγμένου μηνύματος;</item>
+    </plurals>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="other">Είσαι πλέον %d βήματα μακριά από την καταχώρηση ενός αρχείου αποσφαλμάτωσης.</item>
+        <item quantity="one">Είσαι πλέον %d βήμα μακριά από την καταχώρηση ενός αρχείου αποσφαλμάτωσης.</item>
+    </plurals>
+    <plurals name="expiration_days">
+        <item quantity="other">%d ημέρες</item>
+        <item quantity="one">%d ημέρα</item>
+    </plurals>
+    <plurals name="expiration_hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="expiration_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="expiration_seconds">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="expiration_weeks">
+        <item quantity="other">%d εβδομάδες</item>
+        <item quantity="one">%d εβδομάδα</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="identity_others">
+        <item quantity="other">%d άλλοι/ες</item>
+        <item quantity="one">%d άλλος/η</item>
+    </plurals>
+    <plurals name="reminder_header_outdated_build_details">
+        <item quantity="other">Η έκδοση Signal σου θα λήξει σε %d ημέρες. Πάτα για να αναβαθμίσεις στην πιο πρόσφατη έκδοση.</item>
+        <item quantity="one">Η έκδοση Signal σου θα λήξει σε %d ημέρα. Πάτα για να αναβαθμίσεις στην πιο πρόσφατη έκδοση.</item>
+    </plurals>
+</resources>

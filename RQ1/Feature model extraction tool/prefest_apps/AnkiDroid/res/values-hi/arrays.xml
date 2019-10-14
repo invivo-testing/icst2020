@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_content">
+        <item>&lt;h2>%1$s:&lt;br/>एंड्रॉइड के लिए फ़्लैशकार्ड&lt;/h2>AnkiDroid एक फ़्लैशकार्ड अनुप्रयोग है जो डेस्कटॉप सॉफ्टवेयर &lt;a href=\"%2$s\">Anki&lt;/a> से पूरी तरह सांगत है। आप Anki डेस्कटॉप और AnkiDroid सामग्री बना, डाउनलोड कर और सीख सकते हैं, और AnkiWeb से साथ आसानी से समकालीन कर सकते हैं।</item>
+        <item>AnkiDroid को बेहतर बनाने में हमारी सहायता करने के लिए, कृपया &lt;a href=\"%1$s\">समस्या ट्रैकर&lt;/a> को दोष सूचित करें; नई सुविधाओं के विचार भी स्वीकारे जाते हैं। &lt;a href=\"%2$s\"> विकि&lt;/a> पर उतर खोजें या &lt;a href=\"%3$s\">फोरम&lt;/a> पर बातचीत शुरू करें।</item>
+        <item>AnkiDroid एक &lt;a href=\"%1$s\">मुक्त स्रोत सॉफ्टवेयर&lt;a/> है, इसलिए हम सभी को &lt;a href=\"%2$s\">योगदानकर्ता बनने&lt;/a> के लिए प्रोत्सहित करते हैं :-)</item>
+        <item>गैर-विकासक भी सहायता कर सकते हैं। उदाहरण के लिए, आप AnkiDroid के&lt;a href=\"%1$s\">अनुवाद में सहायता&lt;/a>, विकि का अद्यतन, स्क्रीनशॉट प्रदान, या AnkiDroid के बारे में ब्लॉग कर सकते हैं।</item>
+        <item>AnkiDroid &lt;a href=\"%1$s\"> v3 GNU-GPL लाइसेंस&lt;/a> के तहत जारी किया गया है और स्रोत कोड &lt;a href=\"%2$s\"> GitHub पर&lt;/a>उपलब्ध है।</item>
+    </string-array>
+    <string-array name="add_to_cur_labels">
+        <item>वर्तमान डेक का उपयोग करें</item>
+        <item>नोट प्रकार द्वारा तय</item>
+    </string-array>
+    <string-array name="answer_buttons_position_labels">
+        <item>सर्वोच्च</item>
+        <item>तल</item>
+    </string-array>
+    <string-array name="browser_column1_headings">
+        <item>प्रश्न</item>
+        <item>सॉर्ट फ़ील्ड</item>
+    </string-array>
+    <string-array name="browser_column2_headings">
+        <item>उत्तर</item>
+        <item>पत्ता</item>
+        <item>डेक</item>
+        <item>नोट</item>
+        <item>प्रश्न</item>
+        <item>टैग</item>
+        <item>चूक</item>
+        <item>समीक्षाएँ</item>
+    </string-array>
+    <string-array name="card_browser_order_labels">
+        <item>कोई सॉर्टिंग (तेज़)</item>
+        <item>क्रम फ़ील्ड से</item>
+        <item>निर्माण के समय से</item>
+        <item>संपादित समय से</item>
+        <item>बदले समय से</item>
+        <item>नियत समय से</item>
+        <item>अंतराल से</item>
+        <item>आसानी से</item>
+        <item>समीक्षाओं से</item>
+        <item>चूकों से</item>
+    </string-array>
+    <string-array name="cram_deck_conf_order_labels">
+        <item>सबसे पुराना देखा पहले</item>
+        <item>यादृच्छिक</item>
+        <item>बढ़ते अंतराल</item>
+        <item>घटते अंतराल</item>
+        <item>सर्वाधिक चूका</item>
+        <item>जोड़ने का क्रम</item>
+        <item>आदेश बाकी</item>
+        <item>नवीनतम जोड़ा गया पहले</item>
+        <item>सापेक्षिक विलम्ब</item>
+    </string-array>
+    <string-array name="day_theme_labels">
+        <item>उजाला</item>
+        <item>सादा</item>
+    </string-array>
+    <string-array name="due_x_axis_title">
+        <item>दिन</item>
+        <item>सप्ताह</item>
+        <item>महीने</item>
+    </string-array>
+    <string-array name="error_reporting_choice_labels">
+        <item>हमेशा सूचित करें</item>
+        <item>कभी सूचित न करें</item>
+        <item>मुझसे पूछें</item>
+    </string-array>
+    <string-array name="gestures_labels">
+        <item>कोई क्रिया नहीं</item>
+        <item>उत्तर दिखाएँ</item>
+        <item>उत्तर बटन 1</item>
+        <item>उत्तर बटन 2</item>
+        <item>उत्तर बटन 3</item>
+        <item>उत्तर बटन 4</item>
+        <item>सुझाया गया उत्तर (हरा)</item>
+        <item>उत्तर सुझाव से बेहतर</item>
+        <item>पूर्ववत्</item>
+        <item>नोट संपादित करें</item>
+        <item>नोट चिह्नित करें</item>
+        <item>वाक्यांश खोजें</item>
+        <item>पत्ता दफन करें</item>
+        <item>पत्ता निलंबित करें</item>
+        <item>नोट मिटाएँ</item>
+        <item>मीडिया चलाएँ</item>
+        <item>सीखना रोक दें</item>
+        <item>नोट दफन करें</item>
+        <item>नोट निलंबित करें</item>
+    </string-array>
+    <string-array name="leech_action_labels">
+        <item>पत्ता निलंबित करें</item>
+        <item>केवल टैग</item>
+    </string-array>
+    <string-array name="new_order_labels">
+        <item>नए पत्ते यादृच्छिक क्रम में</item>
+        <item>क्रम में नए कार्ड जोड़े गए</item>
+    </string-array>
+    <string-array name="new_spread_labels">
+        <item>नए कार्ड और समीक्षाएं मिक्स</item>
+        <item>समीक्षा के बाद नए कार्ड</item>
+        <item>समीक्षा से पहले नए कार्ड</item>
+    </string-array>
+    <string-array name="night_theme_labels">
+        <item>काला</item>
+        <item>अंधेरा</item>
+    </string-array>
+    <string-array name="override_font_labels">
+        <item>जब स्पैनिश पर कोई फ़ॉंट निर्दिष्ट नहीं है</item>
+        <item>हमेशा</item>
+    </string-array>
+    <string-array name="stats_day_time_strings">
+        <item>4AM</item>
+        <item>10am</item>
+        <item>4pm</item>
+        <item>10pm</item>
+        <item>3AM</item>
+    </string-array>
+    <string-array name="stats_eases_ticks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4।</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4।</item>
+    </string-array>
+    <string-array name="stats_week_days">
+        <item>रवि</item>
+        <item>सोम</item>
+        <item>मंगल</item>
+        <item>बुध</item>
+        <item>गुरु</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+    </string-array>
+</resources>

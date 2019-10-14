@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/linear_layout" android:background="?paper_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="?chart_shade5" android:layout_width="1.0dip" android:layout_height="100.0dip" android:layout_marginStart="27.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/back_to_top_view" android:background="?paper_color" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:foreground="?selectableItemBackgroundBorderless" android:layout_marginStart="16.0dip">
+        <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:tint="?chart_shade5" android:contentDescription="@null" app:srcCompat="@drawable/drawable_12dp_rounded_corner_base70" />
+            <ImageView android:id="@id/upward_arrow" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:tint="?material_theme_secondary_color" android:contentDescription="@string/back_to_top" app:srcCompat="@drawable/ic_arrow_upward_black_24dp" />
+        </FrameLayout>
+        <TextView android:textSize="14.0sp" android:textColor="?colorAccent" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:text="@string/back_to_top" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="32.0dip" />
+    </LinearLayout>
+</LinearLayout>

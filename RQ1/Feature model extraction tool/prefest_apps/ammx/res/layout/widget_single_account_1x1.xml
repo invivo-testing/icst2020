@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/appLogoImage" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/mmx_activity_side_margin" android:src="@drawable/ic_logo_money_manager_ex" android:adjustViewBounds="true" android:contentDescription="@string/logo" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/refreshDataPanel" android:background="@color/black20transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/material_grey_200" android:gravity="center" android:id="@id/accountNameTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="@string/account" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/material_grey_300" android:gravity="center" android:layout_gravity="center" android:id="@id/balanceTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="@string/amount" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/newTransactionPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+            <ImageButton android:layout_gravity="center" android:id="@id/newTransactionButton" android:background="@null" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_add_dark" android:contentDescription="@string/new_transaction" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
